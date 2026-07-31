@@ -37,48 +37,13 @@ CJK_RE = re.compile(
 )
 
 META = {
-    "01-Be 动词的用法.md": dict(
-        title="Be 动词的用法",
-        subtitle="THE VERB \u201cBE\u201d \u2014 12 CORE PATTERNS",
-        tag="GRAMMAR 01",
-        topic="THE VERB BE",
-    ),
-    "02-There be 句型.md": dict(
-        title="There be 句型",
-        subtitle="THERE IS / ARE \u2014 EXISTENCE & PRESENCE",
-        tag="GRAMMAR 02",
-        topic="THERE BE",
-    ),
-    "03-it-句型.md": dict(
-        title="It 句型",
-        subtitle="\u201cIT\u201d PATTERNS \u2014 9 CORE STRUCTURES",
-        tag="GRAMMAR 03",
-        topic="IT PATTERNS",
-    ),
-    "04-Frequency.md": dict(
-        title="频率副词与表达",
-        subtitle="FREQUENCY \u2014 ADVERBS & PHRASES",
-        tag="GRAMMAR 04",
-        topic="FREQUENCY",
-    ),
-    "05-Comparative And Superlative.md": dict(
-        title="比较级与最高级",
-        subtitle="COMPARATIVE & SUPERLATIVE",
-        tag="GRAMMAR 05",
-        topic="COMPARATIVES",
-    ),
-    "06-How to describe a person.md": dict(
-        title="How to describe a person",
-        subtitle="APPEARANCE \u00b7 PERSONALITY \u00b7 HOBBIES \u00b7 JOBS",
-        tag="SPEAKING 06",
-        topic="DESCRIBING PEOPLE",
-    ),
-    "07-定语从句练习.md": dict(
-        title="定语从句练习",
-        subtitle="RELATIVE CLAUSES \u2014 PROGRESSIVE PRACTICE",
-        tag="PRACTICE 07",
-        topic="RELATIVE CLAUSES",
-    ),
+    "01-Be 动词的用法.md": dict(title="Be 动词的用法"),
+    "02-There be 句型.md": dict(title="There be 句型"),
+    "03-it-句型.md": dict(title="It 句型"),
+    "04-Frequency.md": dict(title="频率副词与表达"),
+    "05-Comparative And Superlative.md": dict(title="比较级与最高级"),
+    "06-How to describe a person.md": dict(title="How to describe a person"),
+    "07-定语从句练习.md": dict(title="定语从句练习"),
 }
 
 ORDER = [
@@ -139,10 +104,7 @@ def raw(latex: str) -> str:
 
 # ---------------------------------------------------------------- latex emit
 def T_title(meta):
-    return (
-        raw(f"\\renewcommand{{\\esldoctopic}}{{{l(meta['topic'])}}}")
-        + raw(f"\\esltitle{{{l(meta['title'])}}}{{{l(meta['subtitle'])}}}{{{l(meta['tag'])}}}")
-    )
+    return raw(f"\\esltitle{{{l(meta['title'])}}}")
 
 
 def T_section(num, cn, en=""):
