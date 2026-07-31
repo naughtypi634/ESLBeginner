@@ -159,7 +159,7 @@ def T_tabular(cols, header_cells, rows):
     lines = [
         "\\par\\vspace{6pt}",
         "\\noindent\\begin{tabularx}{\\textwidth}{@{}" + colspec + "@{}}",
-        "  \\rowcolor{msbluesoft}\\color{msblue}\\bfseries " + header_cells + "\\\\",
+        "  \\rowcolor{filllight}\\bfseries " + header_cells + "\\\\",
         "  \\hline",
     ]
     for r in rows:

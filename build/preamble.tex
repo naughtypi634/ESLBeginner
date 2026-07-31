@@ -1,34 +1,26 @@
 % ============================================================
 %  ESLBeginner · shared LaTeX preamble (loaded via pandoc -H)
-%  McKinsey-style reader:
-%  · signature dark navy + light-blue tints
-%  · precise thin rules used as a system: top band on every page,
-%    navy underline under section headers, footer rule + page number
-%  · compact refined typography (Montserrat + Noto Sans SC)
+%  Print-ready black & white, zero decorative rules.
+%  Hierarchy comes purely from type weight, size and whitespace;
+%  only tables keep their structural grid lines.
 % ============================================================
 
 % ---------- page ----------
-\usepackage[a4paper, top=26mm, bottom=20mm, left=23mm, right=23mm]{geometry}
+\usepackage[a4paper, top=26mm, bottom=22mm, left=23mm, right=23mm]{geometry}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-% thin navy band along the very top of every page
-\renewcommand{\headrulewidth}{1pt}
-\renewcommand{\headrule}{\color{msblue}\hrule height 1pt}
-% footer: thin rule + page number (bottom right)
-\renewcommand{\footrulewidth}{0.4pt}
-\renewcommand{\footrule}{\color{hairline}\hrule height 0.4pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 \fancyfoot[R]{\footnotesize\color{faint}\dispfont\thepage}
 
-% ---------- colors (McKinsey palette) ----------
+% ---------- colors (grayscale, print-friendly) ----------
 \usepackage[table]{xcolor}
-\definecolor{msblue}{HTML}{052B49}      % signature dark navy
-\definecolor{msblue2}{HTML}{0B4A8B}     % lighter navy for text accents
-\definecolor{msbluesoft}{HTML}{E9EEF3}  % light blue fill
-\definecolor{ink}{HTML}{1C2329}
-\definecolor{muted}{HTML}{5F6B78}
-\definecolor{faint}{HTML}{98A2AD}
-\definecolor{hairline}{HTML}{C3CDD6}    % light blue-gray
+\definecolor{ink}{HTML}{1A1A1A}       % near-black body text
+\definecolor{muted}{HTML}{595959}     % secondary text
+\definecolor{faint}{HTML}{8C8C8C}     % tertiary / page number
+\definecolor{hairline}{HTML}{D9D9D9}  % light gray table rules
+\definecolor{filllight}{HTML}{F2F2F2} % light gray table header band
 \arrayrulecolor{hairline}
 
 % ---------- fonts ----------
@@ -45,7 +37,7 @@
 \usepackage{ragged2e}
 \usepackage{microtype}
 \linespread{1.0}
-\setlength{\baselineskip}{13.6pt}
+\setlength{\baselineskip}{13.8pt}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 
@@ -54,28 +46,25 @@
 % ============================================================
 
 % ---------- document title ----------
-% Navy title; the page-top navy band anchors the opening.
 \newcommand{\esltitle}[1]{%
-  \par\vspace{6pt}%
-  {\color{msblue}\fontsize{26pt}{31pt}\selectfont\bfseries #1}\par
+  \par\vspace{4pt}%
+  {\fontsize{25pt}{30pt}\selectfont\bfseries #1}\par
   \vspace{18pt}
 }
 
-% ---------- section header (navy underline = signature) ----------
+% ---------- section header ----------
 \newcommand{\eslsection}[3]{%
   \par\vspace{16pt}%
-  \noindent{\color{msblue}\dispfont\bfseries\large #1}\hspace{9pt}%
-  {\color{msblue}\fontsize{14pt}{17pt}\selectfont\bfseries #2}%
+  \noindent{\dispfont\bfseries\large #1}\hspace{9pt}%
+  {\fontsize{14pt}{17pt}\selectfont\bfseries #2}%
   \if\relax\detokenize{#3}\relax\else\hspace{7pt}{\color{muted}\dispspaced\footnotesize #3}\fi\par
-  \vspace{4pt}
-  {\color{msblue}\hrule height 0.8pt}\par
-  \vspace{7pt}
+  \vspace{8pt}
 }
 
 % ---------- pattern formula ----------
 \newcommand{\eslformula}[2]{%
   \par\vspace{6pt}%
-  {\color{msblue2}\fontsize{11pt}{15pt}\selectfont\bfseries #1}\par
+  {\fontsize{11pt}{15pt}\selectfont\bfseries #1}\par
   \vspace{2pt}
   {\color{muted}\bodyfont\small #2}\par
   \vspace{8pt}
@@ -88,7 +77,7 @@
 % ---------- sub-header ----------
 \newcommand{\eslsubheader}[2]{%
   \par\vspace{9pt}%
-  \noindent{\color{msblue}\bfseries\small #1}%
+  \noindent{\bfseries\small #1}%
   \if\relax\detokenize{#2}\relax\else\hspace{7pt}{\color{muted}\dispspaced\footnotesize #2}\fi\par
   \vspace{4pt}
 }
@@ -106,7 +95,7 @@
 \newcommand{\esltriple}[3]{%
   \par\vspace{2pt}%
   \noindent\begin{tabular}{@{}>{\RaggedRight}p{0.16\textwidth}@{\hspace{9pt}}>{\RaggedRight}p{0.25\textwidth}@{\hspace{9pt}}>{\RaggedRight}p{0.47\textwidth}@{}}
-    {\bfseries #1} & {\color{msblue2}\bodyfont #2} & {\bodyfont #3}
+    {\bfseries #1} & {\bfseries #2} & {\bodyfont #3}
   \end{tabular}\par
   \vspace{6pt}
 }
@@ -115,7 +104,7 @@
 \newcommand{\eslexitem}[3]{%
   \par\vspace{2pt}%
   \noindent\begin{tabularx}{\textwidth}{@{}l@{\hspace{9pt}}X@{}}
-    {\color{msblue}\dispfont\bfseries\footnotesize #1} &
+    {\dispfont\bfseries\footnotesize #1} &
     \RaggedRight {\bfseries #2}\par\vspace{2pt}{\color{muted}\bodyfont\small #3}
   \end{tabularx}\par
   \vspace{6pt}
@@ -125,7 +114,7 @@
 \newcommand{\eslqitem}[2]{%
   \par\vspace{2pt}%
   \noindent\begin{tabularx}{\textwidth}{@{}l@{\hspace{9pt}}X@{}}
-    {\color{msblue}\dispfont\bfseries\footnotesize #1} &
+    {\dispfont\bfseries\footnotesize #1} &
     \RaggedRight\bodyfont #2
   \end{tabularx}\par
   \vspace{6pt}
@@ -134,7 +123,7 @@
 % ---------- dash bullet item ----------
 \newcommand{\esldash}[1]{%
   \par\vspace{2pt}%
-  \noindent{\color{msblue}\dispfont\bfseries ---}\hspace{8pt}%
+  \noindent{\dispfont\bfseries ---}\hspace{8pt}%
   \begin{minipage}[t]{\dimexpr\textwidth-26pt\relax}\bodyfont #1\end{minipage}\par
   \vspace{6pt}
 }
@@ -142,14 +131,14 @@
 % ---------- accent tag ----------
 \newcommand{\eslpattag}[1]{%
   \par\vspace{5pt}%
-  \noindent{\color{msblue2}\bfseries\footnotesize #1}\par
+  \noindent{\bfseries\footnotesize #1}\par
   \vspace{6pt}
 }
 
 % ---------- rule head (comparatives) ----------
 \newcommand{\eslrulehead}[2]{%
   \par\vspace{8pt}%
-  \noindent{\color{msblue}\dispfont\bfseries\footnotesize Rule #1}\hspace{9pt}%
+  \noindent{\dispfont\bfseries\footnotesize Rule #1}\hspace{9pt}%
   {\fontsize{11.5pt}{14pt}\selectfont\bfseries #2}\par
   \vspace{5pt}
 }
