@@ -1,29 +1,35 @@
 % ============================================================
 %  ESLBeginner · shared LaTeX preamble (loaded via pandoc -H)
-%  Refined reader style — 商务、简洁、少即是多
-%  · one restrained deep-teal accent, used sparingly
-%  · hairline rules + generous whitespace + clear hierarchy
-%  · Montserrat display / Noto Sans SC body
+%  McKinsey-style reader:
+%  · signature dark navy + light-blue tints
+%  · precise thin rules used as a system: top band on every page,
+%    navy underline under section headers, footer rule + page number
+%  · compact refined typography (Montserrat + Noto Sans SC)
 % ============================================================
 
 % ---------- page ----------
-\usepackage[a4paper, top=24mm, bottom=20mm, left=23mm, right=23mm]{geometry}
+\usepackage[a4paper, top=26mm, bottom=20mm, left=23mm, right=23mm]{geometry}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\fancyfoot[C]{\color{faint}\dispfont\footnotesize\thepage}
+% thin navy band along the very top of every page
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\color{msblue}\hrule height 1pt}
+% footer: thin rule + page number (bottom right)
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrule}{\color{hairline}\hrule height 0.4pt}
+\fancyfoot[R]{\footnotesize\color{faint}\dispfont\thepage}
 
-% ---------- colors ----------
+% ---------- colors (McKinsey palette) ----------
 \usepackage[table]{xcolor}
-\definecolor{accent}{HTML}{0E6E62}
-\definecolor{accentdeep}{HTML}{0A524A}
-\definecolor{accentsoft}{HTML}{F0F6F5}
+\definecolor{msblue}{HTML}{052B49}      % signature dark navy
+\definecolor{msblue2}{HTML}{0B4A8B}     % lighter navy for text accents
+\definecolor{msbluesoft}{HTML}{E9EEF3}  % light blue fill
 \definecolor{ink}{HTML}{1C2329}
 \definecolor{muted}{HTML}{5F6B78}
-\definecolor{faint}{HTML}{9AA4AE}
-\definecolor{hairline}{HTML}{E3E0D8}
+\definecolor{faint}{HTML}{98A2AD}
+\definecolor{hairline}{HTML}{C3CDD6}    % light blue-gray
+\arrayrulecolor{hairline}
 
 % ---------- fonts ----------
 \usepackage{fontspec}
@@ -39,7 +45,7 @@
 \usepackage{ragged2e}
 \usepackage{microtype}
 \linespread{1.0}
-\setlength{\baselineskip}{13.8pt}
+\setlength{\baselineskip}{13.6pt}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 
@@ -48,31 +54,31 @@
 % ============================================================
 
 % ---------- document title ----------
-% McKinsey-minimal: title text only, hierarchy from type & whitespace.
+% Navy title; the page-top navy band anchors the opening.
 \newcommand{\esltitle}[1]{%
-  \par\vspace{2pt}%
-  {\fontsize{24pt}{29pt}\selectfont\bfseries #1}\par
-  \vspace{14pt}
+  \par\vspace{6pt}%
+  {\color{msblue}\fontsize{26pt}{31pt}\selectfont\bfseries #1}\par
+  \vspace{18pt}
 }
 
-% ---------- section header ----------
+% ---------- section header (navy underline = signature) ----------
 \newcommand{\eslsection}[3]{%
-  \par\vspace{18pt}%
-  \noindent{\color{accent}\dispfont\bfseries\large #1}\hspace{9pt}%
-  {\fontsize{13.5pt}{17pt}\selectfont\bfseries #2}%
+  \par\vspace{16pt}%
+  \noindent{\color{msblue}\dispfont\bfseries\large #1}\hspace{9pt}%
+  {\color{msblue}\fontsize{14pt}{17pt}\selectfont\bfseries #2}%
   \if\relax\detokenize{#3}\relax\else\hspace{7pt}{\color{muted}\dispspaced\footnotesize #3}\fi\par
-  \vspace{9pt}
+  \vspace{4pt}
+  {\color{msblue}\hrule height 0.8pt}\par
+  \vspace{7pt}
 }
 
 % ---------- pattern formula ----------
-% Typographic treatment — the formula itself carries the accent
-% (deep teal, semibold, larger). No box, no rule, no label.
 \newcommand{\eslformula}[2]{%
-  \par\vspace{7pt}%
-  {\color{accentdeep}\fontsize{11pt}{15pt}\selectfont\bfseries #1}\par
+  \par\vspace{6pt}%
+  {\color{msblue2}\fontsize{11pt}{15pt}\selectfont\bfseries #1}\par
   \vspace{2pt}
   {\color{muted}\bodyfont\small #2}\par
-  \vspace{9pt}
+  \vspace{8pt}
 }
 \newcommand{\eslformulasimple}[1]{\eslformula{#1}{}}
 
@@ -81,10 +87,10 @@
 
 % ---------- sub-header ----------
 \newcommand{\eslsubheader}[2]{%
-  \par\vspace{10pt}%
-  \noindent{\bfseries\small #1}%
+  \par\vspace{9pt}%
+  \noindent{\color{msblue}\bfseries\small #1}%
   \if\relax\detokenize{#2}\relax\else\hspace{7pt}{\color{muted}\dispspaced\footnotesize #2}\fi\par
-  \vspace{5pt}
+  \vspace{4pt}
 }
 
 % ---------- en / cn sentence pair ----------
@@ -93,57 +99,57 @@
   {\bodyfont #1}\par
   \vspace{1.5pt}
   {\color{muted}\footnotesize #2}\par
-  \vspace{6pt}
+  \vspace{5.5pt}
 }
 
 % ---------- word / translation / example row ----------
 \newcommand{\esltriple}[3]{%
   \par\vspace{2pt}%
   \noindent\begin{tabular}{@{}>{\RaggedRight}p{0.16\textwidth}@{\hspace{9pt}}>{\RaggedRight}p{0.25\textwidth}@{\hspace{9pt}}>{\RaggedRight}p{0.47\textwidth}@{}}
-    {\bfseries #1} & {\color{accentdeep}\bodyfont #2} & {\bodyfont #3}
+    {\bfseries #1} & {\color{msblue2}\bodyfont #2} & {\bodyfont #3}
   \end{tabular}\par
   \vspace{6pt}
 }
 
 % ---------- numbered exercise item ----------
 \newcommand{\eslexitem}[3]{%
-  \par\vspace{3pt}%
+  \par\vspace{2pt}%
   \noindent\begin{tabularx}{\textwidth}{@{}l@{\hspace{9pt}}X@{}}
-    {\color{accent}\dispfont\bfseries\footnotesize #1} &
+    {\color{msblue}\dispfont\bfseries\footnotesize #1} &
     \RaggedRight {\bfseries #2}\par\vspace{2pt}{\color{muted}\bodyfont\small #3}
   \end{tabularx}\par
-  \vspace{7pt}
+  \vspace{6pt}
 }
 
 % ---------- plain numbered question ----------
 \newcommand{\eslqitem}[2]{%
-  \par\vspace{3pt}%
+  \par\vspace{2pt}%
   \noindent\begin{tabularx}{\textwidth}{@{}l@{\hspace{9pt}}X@{}}
-    {\color{accent}\dispfont\bfseries\footnotesize #1} &
+    {\color{msblue}\dispfont\bfseries\footnotesize #1} &
     \RaggedRight\bodyfont #2
   \end{tabularx}\par
-  \vspace{7pt}
+  \vspace{6pt}
 }
 
 % ---------- dash bullet item ----------
 \newcommand{\esldash}[1]{%
-  \par\vspace{3pt}%
-  \noindent{\color{accent}\dispfont\bfseries ---}\hspace{8pt}%
+  \par\vspace{2pt}%
+  \noindent{\color{msblue}\dispfont\bfseries ---}\hspace{8pt}%
   \begin{minipage}[t]{\dimexpr\textwidth-26pt\relax}\bodyfont #1\end{minipage}\par
-  \vspace{7pt}
+  \vspace{6pt}
 }
 
-% ---------- accent tag (plain text) ----------
+% ---------- accent tag ----------
 \newcommand{\eslpattag}[1]{%
   \par\vspace{5pt}%
-  \noindent{\color{accentdeep}\bfseries\footnotesize #1}\par
+  \noindent{\color{msblue2}\bfseries\footnotesize #1}\par
   \vspace{6pt}
 }
 
 % ---------- rule head (comparatives) ----------
 \newcommand{\eslrulehead}[2]{%
   \par\vspace{8pt}%
-  \noindent{\color{accent}\dispfont\bfseries\footnotesize Rule #1}\hspace{9pt}%
+  \noindent{\color{msblue}\dispfont\bfseries\footnotesize Rule #1}\hspace{9pt}%
   {\fontsize{11.5pt}{14pt}\selectfont\bfseries #2}\par
   \vspace{5pt}
 }
