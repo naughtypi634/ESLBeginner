@@ -48,47 +48,41 @@
 % ============================================================
 
 % ---------- document title ----------
+% McKinsey-minimal: title text only, hierarchy from type & whitespace.
 \newcommand{\esltitle}[1]{%
-  \par\vspace{4pt}%
-  {\fontsize{23pt}{28pt}\selectfont\bfseries #1}\par
-  \vspace{10pt}
-  {\color{accent}\hrule height 2.2pt width 15mm}\par
-  \vspace{3pt}
-  {\color{hairline}\hrule height 0.5pt}\par
+  \par\vspace{2pt}%
+  {\fontsize{24pt}{29pt}\selectfont\bfseries #1}\par
   \vspace{14pt}
 }
 
 % ---------- section header ----------
 \newcommand{\eslsection}[3]{%
-  \par\vspace{15pt}%
+  \par\vspace{18pt}%
   \noindent{\color{accent}\dispfont\bfseries\large #1}\hspace{9pt}%
-  {\fontsize{13.5pt}{16.5pt}\selectfont\bfseries #2}%
+  {\fontsize{13.5pt}{17pt}\selectfont\bfseries #2}%
   \if\relax\detokenize{#3}\relax\else\hspace{7pt}{\color{muted}\dispspaced\footnotesize #3}\fi\par
-  \vspace{4pt}
-  {\color{hairline}\hrule height 0.5pt}\par
-  \vspace{8pt}
+  \vspace{9pt}
 }
 
 % ---------- pattern formula ----------
-% Typographic treatment — no box, no side bar, no label:
-% the formula itself carries the accent (deep teal, semibold, larger).
+% Typographic treatment — the formula itself carries the accent
+% (deep teal, semibold, larger). No box, no rule, no label.
 \newcommand{\eslformula}[2]{%
   \par\vspace{7pt}%
   {\color{accentdeep}\fontsize{11pt}{15pt}\selectfont\bfseries #1}\par
   \vspace{2pt}
   {\color{muted}\bodyfont\small #2}\par
-  \vspace{8pt}
+  \vspace{9pt}
 }
 \newcommand{\eslformulasimple}[1]{\eslformula{#1}{}}
 
 % ---------- note ----------
-\newcommand{\eslnote}[1]{\par{\color{muted}\small #1}\par\vspace{6pt}}
+\newcommand{\eslnote}[1]{\par{\color{muted}\small #1}\par\vspace{8pt}}
 
 % ---------- sub-header ----------
 \newcommand{\eslsubheader}[2]{%
-  \par\vspace{9pt}%
-  \noindent{\color{accent}\rule{5pt}{1pt}}\hspace{7pt}%
-  {\bfseries\footnotesize #1}%
+  \par\vspace{10pt}%
+  \noindent{\bfseries\small #1}%
   \if\relax\detokenize{#2}\relax\else\hspace{7pt}{\color{muted}\dispspaced\footnotesize #2}\fi\par
   \vspace{5pt}
 }
@@ -99,9 +93,7 @@
   {\bodyfont #1}\par
   \vspace{1.5pt}
   {\color{muted}\footnotesize #2}\par
-  \vspace{2.5pt}
-  {\color{hairline}\hrule height 0.3pt}\par
-  \vspace{5pt}
+  \vspace{6pt}
 }
 
 % ---------- word / translation / example row ----------
@@ -110,49 +102,41 @@
   \noindent\begin{tabular}{@{}>{\RaggedRight}p{0.16\textwidth}@{\hspace{9pt}}>{\RaggedRight}p{0.25\textwidth}@{\hspace{9pt}}>{\RaggedRight}p{0.47\textwidth}@{}}
     {\bfseries #1} & {\color{accentdeep}\bodyfont #2} & {\bodyfont #3}
   \end{tabular}\par
-  \vspace{2pt}
-  {\color{hairline}\hrule height 0.3pt}\par
-  \vspace{5pt}
+  \vspace{6pt}
 }
 
 % ---------- numbered exercise item ----------
 \newcommand{\eslexitem}[3]{%
-  \par\vspace{2pt}%
+  \par\vspace{3pt}%
   \noindent\begin{tabularx}{\textwidth}{@{}l@{\hspace{9pt}}X@{}}
     {\color{accent}\dispfont\bfseries\footnotesize #1} &
     \RaggedRight {\bfseries #2}\par\vspace{2pt}{\color{muted}\bodyfont\small #3}
   \end{tabularx}\par
-  \vspace{2pt}
-  {\color{hairline}\hrule height 0.3pt}\par
-  \vspace{5pt}
+  \vspace{7pt}
 }
 
 % ---------- plain numbered question ----------
 \newcommand{\eslqitem}[2]{%
-  \par\vspace{2pt}%
+  \par\vspace{3pt}%
   \noindent\begin{tabularx}{\textwidth}{@{}l@{\hspace{9pt}}X@{}}
     {\color{accent}\dispfont\bfseries\footnotesize #1} &
     \RaggedRight\bodyfont #2
   \end{tabularx}\par
-  \vspace{2pt}
-  {\color{hairline}\hrule height 0.3pt}\par
-  \vspace{5pt}
+  \vspace{7pt}
 }
 
 % ---------- dash bullet item ----------
 \newcommand{\esldash}[1]{%
-  \par\vspace{2pt}%
+  \par\vspace{3pt}%
   \noindent{\color{accent}\dispfont\bfseries ---}\hspace{8pt}%
   \begin{minipage}[t]{\dimexpr\textwidth-26pt\relax}\bodyfont #1\end{minipage}\par
-  \vspace{2pt}
-  {\color{hairline}\hrule height 0.3pt}\par
-  \vspace{5pt}
+  \vspace{7pt}
 }
 
-% ---------- soft accent tag ----------
+% ---------- accent tag (plain text) ----------
 \newcommand{\eslpattag}[1]{%
-  \par\vspace{4pt}%
-  \noindent\colorbox{accentsoft}{\strut\color{accentdeep}\bfseries\footnotesize #1}\par
+  \par\vspace{5pt}%
+  \noindent{\color{accentdeep}\bfseries\footnotesize #1}\par
   \vspace{6pt}
 }
 
