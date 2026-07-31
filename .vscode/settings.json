@@ -1,0 +1,35 @@
+{
+  // ==== 100% project isolation ====
+  // These settings keep this project self-contained and prevent
+  // contamination from sibling projects (ESLAIO, ESLassistant, ESLBuddy).
+
+  // Terminals always start in THIS project folder, never in a sibling project.
+  "terminal.integrated.cwd": "${workspaceFolder}",
+
+  // Never auto-activate a Python environment. This project has its own build
+  // toolchain (Pandoc + xelatex) and must not pick up a sibling project's venv.
+  "python.terminal.activateEnvironment": false,
+
+  // No external source roots: Pylance must never resolve symbols from
+  // another project's code.
+  "python.analysis.extraPaths": [],
+
+  // Hide generated / build artifacts that belong to this project.
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    ".venv": true,
+    "output": true
+  },
+
+  // Keep search scoped to source files, skip generated artifacts.
+  "search.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    ".venv": true,
+    "PDF": true,
+    "output": true
+  }
+}

@@ -1,0 +1,192 @@
+% ============================================================
+%  ESLBeginner · shared LaTeX preamble (loaded via pandoc -H)
+%  Design language: deep teal accent, hairline rules, badges,
+%  Montserrat display + Noto Sans SC body.
+% ============================================================
+
+% ---------- page ----------
+\usepackage[a4paper, top=21mm, bottom=19mm, left=21mm, right=21mm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrule}{\color{hairline}\hrule height 0.4pt}
+\fancyfoot[L]{\footnotesize\color{faint}\dispspaced\esldoctopic}
+\fancyfoot[R]{\footnotesize\color{faint}\dispspaced\thepage}
+
+% ---------- colors ----------
+\usepackage[table]{xcolor}
+\definecolor{accent}{HTML}{0E6E62}
+\definecolor{accentdeep}{HTML}{0A524A}
+\definecolor{accentsoft}{HTML}{E8F3F1}
+\definecolor{ink}{HTML}{1C2329}
+\definecolor{muted}{HTML}{64707C}
+\definecolor{faint}{HTML}{9AA4AE}
+\definecolor{hairline}{HTML}{E7E4DC}
+
+% ---------- fonts ----------
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Noto Sans}[Ligatures=TeX, AutoFakeBold=2.5, AutoFakeSlant=0.25]
+\setCJKmainfont{Noto Sans SC}[AutoFakeBold=2.5]
+\newfontfamily\bodyfont{Noto Sans}[Ligatures=TeX]
+\newfontfamily\dispfont{Montserrat}[Ligatures=TeX]
+\newfontfamily\dispspaced{Montserrat}[LetterSpace=7]
+
+% ---------- layout ----------
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{microtype}
+\usepackage[breakable]{tcolorbox}
+% xeCJK inherits Noto Sans SC's very tall font metrics; pin the baseline
+% distance explicitly so lines stay compact.
+\linespread{1.0}
+\setlength{\baselineskip}{13.6pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% footer topic (override per document)
+\newcommand{\esldoctopic}{ESL BEGINNER}
+
+% ============================================================
+%  Component macros
+% ============================================================
+
+% ---------- document title block ----------
+\newcommand{\esltitle}[3]{%
+  \par\vspace{2pt}%
+  \noindent\begin{minipage}[t]{0.74\textwidth}
+    {\fontsize{26pt}{30pt}\selectfont\bfseries #1}\par
+    \vspace{5pt}
+    {\color{muted}\dispspaced\footnotesize #2}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.24\textwidth}
+    \raggedleft\hspace*{\fill}\colorbox{accent}{\strut\color{white}\dispspaced\bfseries\footnotesize #3}
+  \end{minipage}\par
+  \vspace{10pt}
+  {\color{accent}\hrule height 3.2pt width 34mm}\par
+  \vspace{4pt}
+  {\color{hairline}\hrule height 0.5pt}\par
+  \vspace{8pt}
+}
+
+% ---------- section header ----------
+\newcommand{\eslsection}[3]{%
+  \par\vspace{8pt}%
+  \noindent\colorbox{accent}{\strut\color{white}\dispfont\bfseries\large #1}\hspace{10pt}%
+  {\fontsize{14pt}{17pt}\selectfont\bfseries #2}%
+  \if\relax\detokenize{#3}\relax\else\ {\color{muted}\dispspaced\footnotesize #3}\fi\par
+  \vspace{3.5pt}
+  {\color{hairline}\hrule height 0.5pt}\par
+  \vspace{5pt}
+}
+
+% ---------- pattern formula box ----------
+\newtcolorbox{eslformulabox}{%
+  colback=accentsoft, colframe=accent, boxrule=0pt,
+  arc=2pt, left=11pt, right=11pt, top=6pt, bottom=6pt,
+  breakable
+}
+\newcommand{\eslformula}[2]{%
+  \par\vspace{3pt}%
+  \begin{eslformulabox}
+    {\color{accentdeep}\dispspaced\bfseries\scriptsize PATTERN}\par\vspace{3pt}
+    {\fontsize{10.5pt}{14pt}\selectfont\bfseries #1}\par\vspace{2pt}
+    {\color{muted}\bodyfont\small #2}
+  \end{eslformulabox}\par
+  \vspace{6pt}
+}
+\newcommand{\eslformulasimple}[1]{\eslformula{#1}{}}
+
+% ---------- note ----------
+\newcommand{\eslnote}[1]{\par{\color{muted}\small #1}\par\vspace{6pt}}
+
+% ---------- sub-header ----------
+\newcommand{\eslsubheader}[2]{%
+  \par\vspace{5pt}%
+  \noindent\colorbox{ink}{\strut\color{white}\bfseries\footnotesize #1}%
+  \if\relax\detokenize{#2}\relax\else\hspace{8pt}{\color{muted}\dispspaced\footnotesize #2}\fi\par
+  \vspace{4pt}
+}
+
+% ---------- en / cn sentence pair ----------
+\newcommand{\eslpair}[2]{%
+  \par\vspace{1.5pt}%
+  {\bodyfont #1}\par
+  \vspace{1pt}
+  {\color{muted}\footnotesize #2}\par
+  \vspace{1.5pt}
+  {\color{hairline}\hrule height 0.35pt}\par
+  \vspace{4pt}
+}
+
+% ---------- word / translation / example row ----------
+\newcommand{\esltriple}[3]{%
+  \par\vspace{1.5pt}%
+  \noindent\begin{tabular}{@{}>{\RaggedRight}p{0.17\textwidth}@{\hspace{8pt}}>{\RaggedRight}p{0.25\textwidth}@{\hspace{8pt}}>{\RaggedRight}p{0.48\textwidth}@{}}
+    {\bfseries #1} & {\color{accentdeep}\bodyfont #2} & {\bodyfont #3}
+  \end{tabular}\par
+  \vspace{1.5pt}
+  {\color{hairline}\hrule height 0.35pt}\par
+  \vspace{4pt}
+}
+
+% ---------- numbered exercise item ----------
+\newcommand{\eslexitem}[3]{%
+  \par\vspace{3pt}%
+  \noindent\begin{tabularx}{\textwidth}{@{}l@{\hspace{10pt}}X@{}}
+    \colorbox{accentsoft}{\strut\color{accentdeep}\dispfont\bfseries\footnotesize #1} &
+    \RaggedRight {\bfseries #2}\par\vspace{2pt}{\color{muted}\bodyfont\small #3}
+  \end{tabularx}\par
+  \vspace{3pt}
+  {\color{hairline}\hrule height 0.35pt}\par
+  \vspace{5pt}
+}
+
+% ---------- plain numbered question ----------
+\newcommand{\eslqitem}[2]{%
+  \par\vspace{3pt}%
+  \noindent\begin{tabularx}{\textwidth}{@{}l@{\hspace{10pt}}X@{}}
+    \colorbox{accentsoft}{\strut\color{accentdeep}\dispfont\bfseries\footnotesize #1} &
+    \RaggedRight\bodyfont #2
+  \end{tabularx}\par
+  \vspace{3pt}
+  {\color{hairline}\hrule height 0.35pt}\par
+  \vspace{5pt}
+}
+
+% ---------- dash bullet item ----------
+\newcommand{\esldash}[1]{%
+  \par\vspace{3pt}%
+  \noindent{\color{accent}\dispfont\bfseries ---}\hspace{9pt}%
+  \begin{minipage}[t]{\dimexpr\textwidth-28pt\relax}\bodyfont #1\end{minipage}\par
+  \vspace{3pt}
+  {\color{hairline}\hrule height 0.3pt}\par
+  \vspace{5pt}
+}
+
+% ---------- accent pill tag ----------
+\newcommand{\eslpattag}[1]{%
+  \par\vspace{4pt}%
+  \noindent\colorbox{accentsoft}{\strut\color{accentdeep}\bfseries\footnotesize #1}\par
+  \vspace{6pt}
+}
+
+% ---------- rule head (comparatives) ----------
+\newcommand{\eslrulehead}[2]{%
+  \par\vspace{8pt}%
+  \noindent\colorbox{accent}{\strut\color{white}\dispfont\bfseries\footnotesize Rule #1}\hspace{9pt}%
+  {\fontsize{11.5pt}{14pt}\selectfont\bfseries #2}\par
+  \vspace{5pt}
+}
+
+% ---------- styled table (equal columns, tinted header) ----------
+% Tables are emitted directly as tabularx by the builder (rows with \\ and
+% \hline must NOT be passed through macro arguments — that breaks brace
+% scanning). This helper just wraps common row formatting.
+\newcommand{\eslhrule}{\par\vspace{3pt}{\color{hairline}\hrule height 0.3pt}\par\vspace{4pt}}
+
+% ---------- page break ----------
+\newcommand{\eslpagebreak}{\clearpage}

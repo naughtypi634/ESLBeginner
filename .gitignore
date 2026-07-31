@@ -1,0 +1,20 @@
+# Generated build artifacts (stays local to this project)
+PDF/
+output/
+*.pdf
+*.html
+
+# LaTeX build intermediates & previews (keep build/build_pdfs.py, preamble.tex, template.tex tracked)
+build/tex/
+build/preview/
+build/out/
+
+# Python (if ever added) — keep the venv project-local, never shared
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS / editor junk
+Thumbs.db
+.DS_Store
