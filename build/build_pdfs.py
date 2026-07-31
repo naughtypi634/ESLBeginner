@@ -199,8 +199,10 @@ def parse_01(lines):
             out.append(T_pagebreak())
             expect_formula = expect_note = False
             continue
-        if "\u00b7" in s and has_cjk(s):  # section header
+        if "\u00b7" in s and has_cjk(s):  # section header — one usage per page
             sn += 1
+            if sn > 1:
+                out.append(T_pagebreak())
             parts = s.split("\u00b7", 1)
             out.append(T_section(f"{sn}", parts[0].strip(), parts[1].strip()))
             expect_formula = True
