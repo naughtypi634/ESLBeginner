@@ -58,25 +58,25 @@ farther / further
 farthest / furthest 
 COMMON COLLOCATIONS 
   one of the/ my/ other determiner + superlative   
-—  This is one of the most packed subway lines during rush hour. 
-—  It's one of the most watched shows on my feed right now. 
-—  That was one of the most boring meetings I've had this week. 
+—  This is **one of the most packed** subway lines during rush hour. 
+—  It's **one of the most watched** shows on my feed right now. 
+—  That was **one of the most boring** meetings I've had this week. 
   the + comparative 1, the + comparative 2   
-—  The earlier I wake up, the heavier the traffic gets. 
-—  The more I work overtime, the less I feel like cooking. 
-—  The older I get, the more I hate small talk. 
+—  **The earlier I wake up, the heavier** the traffic gets. 
+—  **The more I work overtime, the less** I feel like cooking. 
+—  **The older I get, the more** I hate small talk. 
   way/ much / far / a lot + comparative   
-—  After a few weeks here, I became a lot more confident. 
-—  Scrolling TikTok is way more addictive than I thought.. 
-—  This project is way more lucrative than the old one. 
+—  After a few weeks here, I became **a lot more confident**. 
+—  Scrolling TikTok is **way more addictive** than I thought.. 
+—  This project is **way more lucrative** than the old one. 
   comparative + comparative 
-—  It is getting hotter and hotter. 
-—  As he grows up, he becomes more and more independent. 
-—  Ever since McDonald’s became Jingongmen, the burgers have been getting smaller and smaller! 
+—  It is getting **hotter and hotter**. 
+—  As he grows up, he becomes **more and more independent**. 
+—  Ever since McDonald's became Jingongmen, the burgers have been getting **smaller and smaller**! 
 the + ordinal number + superlative 
-—  Beijing is the second largest city in China by population 
-—  This is the second most watched show on Bilibili. 
-—  He/ She is probably my second favorite actor.
+—  Beijing is **the second largest** city in China by population 
+—  This is **the second most watched** show on Bilibili. 
+—  He/ She is probably **my second favorite** actor.
 
 ---
 

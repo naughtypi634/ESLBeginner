@@ -94,7 +94,7 @@ def l(s: str) -> str:  # latex-safe text, **bold** -> \textbf{}
     s = re.sub(r"\*\*(.+?)\*\*", _save, s)
     s = esc_latex(s)
     for i, b in enumerate(bold):
-        s = s.replace(f"\x00{i}\x00", r"\textbf{" + esc_latex(b) + "}")
+        s = s.replace(f"\x00{i}\x00", r"\eslmark{" + esc_latex(b) + "}")
     return s
 
 
@@ -202,7 +202,7 @@ def parse_01(lines):
         if "\u00b7" in s and has_cjk(s):  # section header
             sn += 1
             parts = s.split("\u00b7", 1)
-            out.append(T_section(f"{sn:02d}", parts[0].strip(), parts[1].strip()))
+            out.append(T_section(f"{sn}", parts[0].strip(), parts[1].strip()))
             expect_formula = True
             expect_note = False
             continue
@@ -242,7 +242,7 @@ def parse_02(lines):
             continue
         m = re.match(r"^(\d{1,2})\s+(\S.*)$", s)
         if m:
-            out.append(T_section(m.group(1), m.group(2)))
+            out.append(T_section(str(int(m.group(1))), m.group(2)))
             expect_formula = True
             continue
         if expect_formula:
@@ -492,7 +492,7 @@ def parse_06(lines):
             en = (m.group(1).strip()
                   .replace("APPE ARANCE", "APPEARANCE")
                   .replace("PERSONALIT Y", "PERSONALITY"))
-            out.append(T_section(f"{sn:02d}", en, m.group(2)))
+            out.append(T_section(f"{sn}", en, m.group(2)))
             continue
         m2 = re.match(r"^([A-Z][A-Z ]*?)\s+([\u2e80-\u9fff].*)$", s)
         if m2 and " " not in m2.group(1).strip():  # subheader
@@ -523,7 +523,7 @@ def parse_07(lines):
             continue
         if re.match(r"^定语从句渐进练习（.）$", s):
             chapter_num += 1
-            out.append(T_section(f"{chapter_num:02d}", s))
+            out.append(T_section(f"{chapter_num}", s))
             expect_pattern = expect_note = False
             continue
         if re.match(r"^第.阶梯$", s):

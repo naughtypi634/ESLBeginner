@@ -6,21 +6,21 @@
 
 | always 100% | usually 80–90% | often 60–70% | sometimes 40–50% | rarely 10–20% | never 0% |
 |---|---|---|---|---|---|
-| I always check my phone before sleeping. | I usually take the subway to work. | I often order takeout for lunch. | I sometimes work on weekends. | I rarely watch TV at home. | I never go to work without my phone. |
+| I **always** check my phone before sleeping. | I **usually** take the subway to work. | I **often** order takeout for lunch. | I **sometimes** work on weekends. | I **rarely** watch TV at home. | I **never** go to work without my phone. |
 | 我睡前总是刷手机。 | 我通常坐地铁上班。 | 我经常点外卖当午饭。 | 我有时候周末加班。 | 我在家很少看电视。 | 我从不不带手机去上班。 |
 
 ### High → Low Frequency Phrases
 
 | Label | English | Chinese |
 |---|---|---|
-| HIGH | all the time | 无时无刻都在 |
-| | frequently | 频繁地 |
-| | quite often | 经常 |
-| | more often than not | 多半 |
-| LOW | once in a while | 偶尔 |
-| | from time to time | 时不时 |
-| | occasionally | 偶尔 |
-| | hardly ever | 几乎从不 |
+| HIGH | **all the time** | 无时无刻都在 |
+| | **frequently** | 频繁地 |
+| | **quite often** | 经常 |
+| | **more often than not** | 多半 |
+| LOW | **once in a while** | 偶尔 |
+| | **from time to time** | 时不时 |
+| | **occasionally** | 偶尔 |
+| | **hardly ever** | 几乎从不 |
 
 ---
 
@@ -30,20 +30,20 @@
 
 | English | Chinese |
 |---|---|
-| every single day | 每一天 |
-| three times a week | 一周三次 |
-| once a week | 每周一次 |
-| twice every month | 每月两次 |
-| on a regular / daily / weekly basis | 定期 / 每天 / 每周 |
+| **every single day** | 每一天 |
+| **three times a week** | 一周三次 |
+| **once a week** | 每周一次 |
+| **twice every month** | 每月两次 |
+| **on a regular / daily / weekly basis** | 定期 / 每天 / 每周 |
 
 ### Periodic & Occasional 偶尔 / 定期
 
 | English | Chinese |
 |---|---|
-| once every few months | 每隔几个月一次 |
-| every now and again | 时不时 |
-| at least twice a year | 每年至少两次 |
-| once a month | 每月一次 |
+| **once every few months** | 每隔几个月一次 |
+| **every now and again** | 时不时 |
+| **at least twice a year** | 每年至少两次 |
+| **once a month** | 每月一次 |
 
 ---
 
@@ -69,29 +69,29 @@ Patterns: **don't really** · **not a fan of** · **not into** · **not my thing
 
 | English | Chinese |
 |---|---|
-| How often do you get a health check-up? | 你多久做一次体检？ |
-| How often do you stay up past midnight? | 你多久熬夜到12点以后？ |
-| How often do you eat takeout in a week? | 你一周吃几次外卖？ |
-| Do you work out regularly? | 你定期锻炼吗？ |
-| How often do you have milk tea? | 你多久喝一次奶茶？ |
-| How many times a day do you look at your phone? | 你一天看多少次手机？ |
+| **How often** do you get a health check-up? | 你多久做一次体检？ |
+| **How often** do you stay up past midnight? | 你多久熬夜到12点以后？ |
+| **How often** do you eat takeout in a week? | 你一周吃几次外卖？ |
+| Do you work out **regularly**? | 你定期锻炼吗？ |
+| **How often** do you have milk tea? | 你多久喝一次奶茶？ |
+| **How many times a day** do you look at your phone? | 你一天看多少次手机？ |
 
 ### Social & Family 社交与家庭
 
 | English | Chinese |
 |---|---|
-| How often do you visit your parents? | 你多久去看一次父母？ |
-| Do your parents ask you about marriage often? | 你父母经常催婚吗？ |
-| How often do you meet up with old friends? | 你多久和老朋友聚一次？ |
-| How often do you go back to your hometown? | 你多久回一次老家？ |
-| How often do you travel domestically? | 你多久在国内旅游一次？ |
+| **How often** do you visit your parents? | 你多久去看一次父母？ |
+| Do your parents ask you about marriage **often**? | 你父母经常催婚吗？ |
+| **How often** do you meet up with old friends? | 你多久和老朋友聚一次？ |
+| **How often** do you go back to your hometown? | 你多久回一次老家？ |
+| **How often** do you travel domestically? | 你多久在国内旅游一次？ |
 
 ### Work & Finance 工作与财务
 
 | English | Chinese |
 |---|---|
-| How many days a week do you go to the office? | 你一周去几天办公室？ |
-| How often do you use AI tools at work? | 你工作中多久用一次AI工具？ |
-| Do you check your stock or fund performance often? | 你经常看股票或基金涨跌吗？ |
-| How often do you worry about being laid off? | 你多久担心一次被裁员？ |
-| How often does your company have team-building? | 你公司多久团建一次？ |
+| **How many days a week** do you go to the office? | 你一周去几天办公室？ |
+| **How often** do you use AI tools at work? | 你工作中多久用一次AI工具？ |
+| Do you check your stock or fund performance **often**? | 你经常看股票或基金涨跌吗？ |
+| **How often** do you worry about being laid off? | 你多久担心一次被裁员？ |
+| **How often** does your company have team-building? | 你公司多久团建一次？ |

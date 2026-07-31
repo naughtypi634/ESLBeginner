@@ -52,13 +52,16 @@
   \vspace{18pt}
 }
 
+% ---------- pattern component marker (print-friendly: bold + light gray) ----------
+\newcommand{\eslmark}[1]{\colorbox{filllight}{\textbf{#1}}}
+
 % ---------- section header ----------
 \newcommand{\eslsection}[3]{%
-  \par\vspace{16pt}%
-  \noindent{\dispfont\bfseries\large #1}\hspace{9pt}%
+  \par\vspace{14pt}%
+  \noindent{\dispfont\bfseries\fontsize{16pt}{19pt}\selectfont #1}\hspace{10pt}%
   {\fontsize{14pt}{17pt}\selectfont\bfseries #2}%
   \if\relax\detokenize{#3}\relax\else\hspace{7pt}{\color{muted}\dispspaced\footnotesize #3}\fi\par
-  \vspace{8pt}
+  \vspace{9pt}
 }
 
 % ---------- pattern formula ----------
@@ -88,7 +91,7 @@
   {\bodyfont #1}\par
   \vspace{1.5pt}
   {\color{muted}\footnotesize #2}\par
-  \vspace{5.5pt}
+  \vspace{4.5pt}
 }
 
 % ---------- word / translation / example row ----------
