@@ -38,7 +38,6 @@
 \usepackage{tabularx}
 \usepackage{ragged2e}
 \usepackage{microtype}
-\usepackage[breakable]{tcolorbox}
 \linespread{1.0}
 \setlength{\baselineskip}{13.8pt}
 \setlength{\parindent}{0pt}
@@ -70,19 +69,14 @@
   \vspace{8pt}
 }
 
-% ---------- pattern formula box ----------
-\newtcolorbox{eslformulabox}{%
-  colback=accentsoft, colframe=accent, boxrule=0pt,
-  leftrule=2.5pt, arc=2pt, left=12pt, right=12pt, top=7pt, bottom=7pt,
-  breakable
-}
+% ---------- pattern formula ----------
+% Typographic treatment — no box, no side bar, no label:
+% the formula itself carries the accent (deep teal, semibold, larger).
 \newcommand{\eslformula}[2]{%
-  \par\vspace{5pt}%
-  \begin{eslformulabox}
-    {\fontsize{10.5pt}{14pt}\selectfont\bfseries #1}\par
-    \vspace{2pt}
-    {\color{muted}\bodyfont\small #2}
-  \end{eslformulabox}\par
+  \par\vspace{7pt}%
+  {\color{accentdeep}\fontsize{11pt}{15pt}\selectfont\bfseries #1}\par
+  \vspace{2pt}
+  {\color{muted}\bodyfont\small #2}\par
   \vspace{8pt}
 }
 \newcommand{\eslformulasimple}[1]{\eslformula{#1}{}}
