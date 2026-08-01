@@ -101,6 +101,14 @@ def T_word_grid(items):
     return raw("\n".join(lines))
 
 
+def T_wcat(cn, en):
+    """Word sub-category header (black & white)."""
+    return raw(
+        f"\\par\\vspace{{5pt}}{{\\bfseries\\small {arg(cn)}}}\\hspace{{7pt}}"
+        f"{{\\color{{muted}}\\footnotesize {arg(en)}}}\\par\\vspace{{3pt}}"
+    )
+
+
 def T_sent(en, cn):
     return raw(f"\\eslpair{{{arg(en)}}}{{{arg(cn)}}}")
 
@@ -110,26 +118,42 @@ def T_sent(en, cn):
 SECTIONS = [
     dict(
         num="01", cn="机场与飞行", en="AIRPORT & FLIGHT",
-        words=[
-            ("check-in counter", "值机柜台"), ("check in", "办理值机"),
-            ("boarding pass", "登机牌"), ("boarding gate", "登机口"),
-            ("boarding time", "登机时间"), ("carry-on", "随身行李"),
-            ("checked baggage", "托运行李"), ("overweight", "超重"),
-            ("fragile", "易碎"), ("liquids", "液体"),
-            ("window seat", "靠窗座位"), ("aisle seat", "靠过道座位"),
-            ("one-way", "单程"), ("return / round-trip", "往返"),
-            ("arrivals", "到达"), ("departures", "出发"),
-            ("on time", "准点"), ("delayed", "延误"),
-            ("canceled", "取消"), ("stopover / layover", "中转"),
-            ("long-haul flight", "长途航班"), ("economy / business / first class", "经济/商务/头等舱"),
-            ("duty-free shop", "免税店"), ("tax refund", "退税"),
-            ("charging station", "充电站"), ("baggage claim", "行李提取"),
-            ("blanket", "毯子"), ("excess baggage fee", "超重费"),
-            ("information desk", "问询台"), ("ID", "身份证件"),
-            ("oversized", "超大"), ("book a ticket", "订票"),
-            ("travel agency", "旅行社"), ("convenience store", "便利店"),
-            ("supermarket", "超市"), ("recline button", "座椅调节按钮"),
-        ],
+        words={
+            ("值机与行李", "CHECK-IN & LUGGAGE"): [
+                ("check-in counter", "值机柜台"), ("check in", "办理值机"),
+                ("boarding pass", "登机牌"), ("luggage tag", "行李牌"),
+                ("carry-on", "随身行李"), ("checked baggage", "托运行李"),
+                ("luggage / baggage", "行李"), ("overweight", "超重"),
+                ("oversized", "超大"), ("fragile", "易碎"),
+                ("liquids", "液体"), ("excess baggage fee", "超重费"),
+                ("baggage claim", "行李提取"), ("luggage cart", "行李推车"),
+            ],
+            ("机票与航班", "TICKETS & FLIGHT"): [
+                ("one-way", "单程"), ("return / round-trip", "往返"),
+                ("economy class", "经济舱"), ("business class", "商务舱"),
+                ("first class", "头等舱"), ("book a ticket", "订票"),
+                ("e-ticket", "电子票"), ("flight number", "航班号"),
+                ("departure", "出发"), ("arrival", "到达"),
+                ("on time", "准点"), ("delayed", "延误"),
+                ("canceled", "取消"), ("stopover / layover", "中转"),
+                ("long-haul flight", "长途航班"), ("travel agency", "旅行社"),
+            ],
+            ("机上", "ONBOARD"): [
+                ("window seat", "靠窗座位"), ("aisle seat", "靠过道座位"),
+                ("seat belt", "安全带"), ("blanket", "毯子"),
+                ("pillow", "枕头"), ("headphones", "耳机"),
+                ("charging port", "充电口"), ("recline button", "座椅调节按钮"),
+                ("restroom", "洗手间"), ("tray table", "小桌板"),
+            ],
+            ("机场设施", "AIRPORT FACILITIES"): [
+                ("information desk", "问询台"), ("boarding gate", "登机口"),
+                ("security check", "安检"), ("duty-free shop", "免税店"),
+                ("tax refund", "退税"), ("charging station", "充电站"),
+                ("convenience store", "便利店"), ("supermarket", "超市"),
+                ("passport", "护照"), ("visa", "签证"),
+                ("ID", "身份证件"),
+            ],
+        },
         sents=[
             ("Excuse me, how do I check in?", "请问怎么办理值机？"),
             ("Where is the check-in counter?", "值机柜台在哪里？"),
@@ -155,15 +179,35 @@ SECTIONS = [
     ),
     dict(
         num="02", cn="到达与入境", en="ARRIVAL & CUSTOMS",
-        words=[
-            ("immigration", "入境检查"), ("customs", "海关"),
-            ("passport", "护照"), ("visa", "签证"),
-            ("purpose of visit", "来访目的"), ("sightseeing", "观光"),
-            ("baggage claim area", "行李提取处"), ("currency exchange", "货币兑换"),
-            ("money change", "换钱"), ("taxi stand", "出租车停靠点"),
-            ("ATM", "自动取款机"), ("connecting flight", "转机航班"),
-            ("declare", "申报"),
-        ],
+        words={
+            ("入境检查", "IMMIGRATION"): [
+                ("immigration", "入境检查"), ("customs", "海关"),
+                ("passport control", "护照检查"), ("arrival card", "入境卡"),
+                ("visa on arrival", "落地签"), ("e-visa", "电子签证"),
+                ("declare", "申报"), ("queue", "排队"),
+                ("purpose of visit", "来访目的"), ("sightseeing", "观光"),
+                ("business trip", "商务出差"), ("transit", "过境"),
+                ("connecting flight", "转机航班"),
+            ],
+            ("行李与接驳", "BAGGAGE & TRANSFER"): [
+                ("baggage claim area", "行李提取处"), ("lost luggage", "行李丢失"),
+                ("hotel shuttle", "酒店接驳车"), ("airport bus", "机场大巴"),
+                ("taxi stand", "出租车停靠点"), ("pickup point", "上车点"),
+                ("metro / subway", "地铁"), ("exit", "出口"),
+                ("entrance", "入口"),
+            ],
+            ("货币与网络", "MONEY & MOBILE"): [
+                ("currency exchange", "货币兑换"), ("money change", "换钱"),
+                ("exchange rate", "汇率"), ("ATM", "自动取款机"),
+                ("cash", "现金"), ("bank", "银行"),
+                ("eSIM", "电子 SIM 卡"), ("mobile data", "移动数据"),
+                ("roaming", "漫游"), ("portable Wi-Fi", "随身 Wi-Fi"),
+                ("translation app", "翻译软件"), ("map app", "地图软件"),
+                ("QR code", "二维码"), ("contactless", "非接触支付"),
+                ("Alipay", "支付宝"), ("WeChat Pay", "微信支付"),
+                ("Apple Pay", "苹果支付"),
+            ],
+        },
         sents=[
             ("Where is the baggage claim area?", "行李提取处在哪里？"),
             ("Where is the currency exchange?", "在哪里换钱？"),
@@ -185,16 +229,32 @@ SECTIONS = [
     ),
     dict(
         num="03", cn="市内交通", en="GETTING AROUND",
-        words=[
-            ("bus", "公交车"), ("subway / metro", "地铁"),
-            ("train", "火车"), ("fare", "车费"),
-            ("stop", "公交站"), ("station", "火车站 / 地铁站"),
-            ("platform", "站台"), ("one-way ticket", "单程票"),
-            ("round-trip ticket", "往返票"), ("taxi", "出租车"),
-            ("ride-hailing", "网约车"), ("pickup point", "上车点"),
-            ("trunk", "后备箱"), ("seat", "座位"),
-            ("go straight", "直走"), ("turn left / right", "左转 / 右转"),
-        ],
+        words={
+            ("出行方式", "TRANSPORT"): [
+                ("bus", "公交车"), ("subway / metro", "地铁"),
+                ("train", "火车"), ("taxi", "出租车"),
+                ("ride-hailing", "网约车"), ("ferry", "轮渡"),
+                ("tram", "有轨电车"), ("bicycle", "自行车"),
+                ("scooter", "电动车"), ("shuttle", "接驳车"),
+            ],
+            ("购票与乘车", "TICKETS & RIDES"): [
+                ("fare", "车费"), ("ticket", "车票"),
+                ("one-way ticket", "单程票"), ("round-trip ticket", "往返票"),
+                ("ticket machine", "售票机"), ("ticket office", "售票处"),
+                ("metro card", "地铁卡"), ("day pass", "一日票"),
+                ("top up", "充值"), ("transfer", "换乘"),
+                ("platform", "站台"), ("timetable", "时刻表"),
+                ("delay", "晚点"), ("stop", "公交站"),
+                ("station", "车站"), ("seat", "座位"),
+            ],
+            ("打车", "TAXI & RIDE-HAILING"): [
+                ("pickup point", "上车点"), ("destination", "目的地"),
+                ("address", "地址"), ("trunk", "后备箱"),
+                ("meter", "计价器"), ("route", "路线"),
+                ("traffic", "交通"), ("toll", "过路费"),
+                ("ride-hailing app", "打车软件"),
+            ],
+        },
         sents=[
             ("Take me to this address, please.", "请去这个地址。"),
             ("Could you help me with my luggage?", "能帮我搬一下行李吗？"),
@@ -217,17 +277,39 @@ SECTIONS = [
     ),
     dict(
         num="04", cn="酒店", en="HOTEL",
-        words=[
-            ("reservation / booking", "预订"), ("check-in", "入住"),
-            ("check-out", "退房"), ("breakfast", "早餐"),
-            ("Wi-Fi", "无线网络"), ("air conditioner", "空调"),
-            ("fridge / mini-bar", "冰箱 / 迷你吧"), ("room service", "客房服务"),
-            ("towels", "毛巾"), ("toilet paper", "卫生纸"),
-            ("bedsheets", "床单"), ("toothbrush", "牙刷"),
-            ("shampoo", "洗发水"), ("body wash", "沐浴露"),
-            ("conditioner", "护发素"), ("bottled water", "瓶装水"),
-            ("laundry service", "洗衣服务"), ("pillow", "枕头"),
-        ],
+        words={
+            ("预订与入住", "RESERVATION & CHECK-IN"): [
+                ("reservation / booking", "预订"), ("front desk / reception", "前台"),
+                ("check-in", "入住"), ("check-out", "退房"),
+                ("key card", "房卡"), ("deposit", "押金"),
+                ("confirmation", "确认单"), ("early check-in", "提前入住"),
+                ("late check-out", "延迟退房"),
+            ],
+            ("房型与设施", "ROOM & FACILITIES"): [
+                ("single room", "单人间"), ("double room", "大床房"),
+                ("twin room", "双床房"), ("suite", "套房"),
+                ("view", "景观"), ("floor", "楼层"),
+                ("air conditioner", "空调"), ("fridge / mini-bar", "冰箱 / 迷你吧"),
+                ("safe", "保险箱"), ("kettle", "电热水壶"),
+                ("hairdryer", "吹风机"), ("Wi-Fi", "无线网络"),
+                ("room service", "客房服务"), ("housekeeping", "客房打扫"),
+                ("laundry service", "洗衣服务"), ("extra bed", "加床"),
+            ],
+            ("洗浴用品", "BATHROOM & TOILETRIES"): [
+                ("towel", "毛巾"), ("toilet paper", "卫生纸"),
+                ("bedsheet", "床单"), ("toothbrush", "牙刷"),
+                ("toothpaste", "牙膏"), ("shampoo", "洗发水"),
+                ("body wash", "沐浴露"), ("conditioner", "护发素"),
+                ("soap", "香皂"), ("comb", "梳子"),
+                ("slippers", "拖鞋"), ("bottled water", "瓶装水"),
+                ("pillow", "枕头"),
+            ],
+            ("酒店服务", "SERVICES"): [
+                ("breakfast", "早餐"), ("luggage storage", "行李寄存"),
+                ("wake-up call", "叫醒服务"), ("invoice", "发票"),
+                ("receipt", "收据"), ("city center", "市中心"),
+            ],
+        },
         sents=[
             ("I'm here to check in. I have a reservation under the name of Wang.", "我来入住，以 Wang 的名字预订了。"),
             ("Is breakfast included?", "含早餐吗？"),
@@ -251,18 +333,49 @@ SECTIONS = [
     ),
     dict(
         num="05", cn="餐饮", en="RESTAURANT",
-        words=[
-            ("menu", "菜单"), ("appetizer / starter", "开胃菜"),
-            ("soup", "汤"), ("salad", "沙拉"),
-            ("dessert", "甜点"), ("bill / check", "账单"),
-            ("tip", "小费"), ("ketchup", "番茄酱"),
-            ("napkin", "餐巾纸"), ("straw", "吸管"),
-            ("refill", "续杯"), ("well done", "全熟"),
-            ("medium", "五分熟"), ("medium rare", "三分熟"),
-            ("rare", "一分熟"), ("vegetarian / vegan", "素食 / 纯素"),
-            ("allergy", "过敏"), ("takeout / to go", "外带"),
-            ("boil / fry / roast / steam", "煮 / 煎炸 / 烤 / 蒸"),
-        ],
+        words={
+            ("菜单与点餐", "MENU & ORDERING"): [
+                ("menu", "菜单"), ("order", "点餐"),
+                ("special", "特色菜"), ("chef's recommendation", "主厨推荐"),
+                ("appetizer / starter", "开胃菜"), ("soup", "汤"),
+                ("salad", "沙拉"), ("main course", "主菜"),
+                ("side dish", "配菜"), ("dessert", "甜点"),
+                ("vegetarian", "素食"), ("vegan", "纯素"),
+                ("allergy", "过敏"), ("QR code menu", "扫码菜单"),
+            ],
+            ("饮品", "DRINKS"): [
+                ("water", "水"), ("still water", "纯净水"),
+                ("sparkling water", "气泡水"), ("orange juice", "橙汁"),
+                ("coffee", "咖啡"), ("tea", "茶"),
+                ("coke", "可乐"), ("milk", "牛奶"),
+                ("beer", "啤酒"), ("wine", "葡萄酒"),
+                ("refill", "续杯"), ("no ice", "不加冰"),
+            ],
+            ("餐具与调味", "UTENSILS & CONDIMENTS"): [
+                ("fork", "叉子"), ("knife", "刀"),
+                ("spoon", "勺子"), ("chopsticks", "筷子"),
+                ("plate", "盘子"), ("cup", "杯子"),
+                ("napkin", "餐巾纸"), ("straw", "吸管"),
+                ("ketchup", "番茄酱"), ("salt", "盐"),
+                ("pepper", "胡椒"), ("sauce", "酱料"),
+                ("spice", "香料 / 辣"), ("extra", "额外的"),
+            ],
+            ("熟度与做法", "DONENESS & COOKING"): [
+                ("rare", "一分熟"), ("medium rare", "三分熟"),
+                ("medium", "五分熟"), ("medium well", "七分熟"),
+                ("well done", "全熟"), ("boil", "煮"),
+                ("fry", "煎 / 炸"), ("roast", "烤"),
+                ("grill", "烧烤"), ("steam", "蒸"),
+                ("bake", "烘焙"),
+            ],
+            ("结账与外带", "BILL & TAKEOUT"): [
+                ("bill / check", "账单"), ("tip", "小费"),
+                ("service charge", "服务费"), ("receipt", "收据"),
+                ("pay separately", "分开付"), ("takeout / to go", "外带"),
+                ("food delivery app", "外卖软件"), ("reservation", "订位"),
+                ("waiting list", "候位"),
+            ],
+        },
         sents=[
             ("A table for two, please.", "请给我两人的位子。"),
             ("Could we sit by the window?", "能坐窗边吗？"),
@@ -289,15 +402,42 @@ SECTIONS = [
     ),
     dict(
         num="06", cn="购物", en="SHOPPING",
-        words=[
-            ("size", "尺码"), ("fitting room", "试衣间"),
-            ("discount", "折扣"), ("sale", "特价"),
-            ("receipt", "小票"), ("cash", "现金"),
-            ("credit card", "信用卡"), ("cashier", "收银台"),
-            ("tax refund", "退税"), ("duty-free", "免税"),
-            ("return", "退货"), ("exchange", "换货"),
-            ("pricey", "昂贵"), ("disposable", "一次性的"),
-        ],
+        words={
+            ("店铺与商品", "SHOPS & GOODS"): [
+                ("department store", "百货商店"), ("shopping mall", "购物中心"),
+                ("boutique", "精品店"), ("supermarket", "超市"),
+                ("convenience store", "便利店"), ("souvenir shop", "纪念品店"),
+                ("duty-free shop", "免税店"), ("market", "市场"),
+                ("brand", "品牌"), ("style", "款式"),
+                ("color", "颜色"), ("souvenir", "纪念品"),
+                ("gift", "礼物"),
+            ],
+            ("尺码与试穿", "SIZES & FITTING"): [
+                ("size", "尺码"), ("fitting room", "试衣间"),
+                ("try on", "试穿"), ("measurement", "尺寸"),
+                ("smaller", "更小"), ("larger", "更大"),
+                ("tight", "紧"), ("loose", "宽松"),
+                ("length", "长度"), ("waist", "腰围"),
+            ],
+            ("价格与支付", "PRICE & PAYMENT"): [
+                ("price", "价格"), ("discount", "折扣"),
+                ("sale", "特价"), ("bargain", "砍价"),
+                ("expensive", "贵"), ("cheap", "便宜"),
+                ("pricey", "昂贵"), ("cashier", "收银台"),
+                ("cash", "现金"), ("credit card", "信用卡"),
+                ("debit card", "借记卡"), ("Alipay", "支付宝"),
+                ("Apple Pay", "苹果支付"), ("contactless", "非接触支付"),
+                ("change", "找零"), ("receipt", "小票"),
+                ("invoice", "发票"), ("self-checkout", "自助结账"),
+            ],
+            ("退换与退税", "RETURN & TAX REFUND"): [
+                ("return", "退货"), ("exchange", "换货"),
+                ("refund", "退款"), ("policy", "政策"),
+                ("tax refund", "退税"), ("tax-free", "免税"),
+                ("customs form", "海关申报单"), ("disposable", "一次性的"),
+                ("warranty", "保修"),
+            ],
+        },
         sents=[
             ("Excuse me, where can I find ...?", "请问在哪里能找到……？"),
             ("Excuse me, how much is this?", "请问这个多少钱？"),
@@ -321,14 +461,34 @@ SECTIONS = [
     ),
     dict(
         num="07", cn="观光与问路", en="SIGHTSEEING & DIRECTIONS",
-        words=[
-            ("tourist information center", "游客信息中心"), ("guided tour", "导游团"),
-            ("festival", "节日"), ("event", "活动"),
-            ("souvenir", "纪念品"), ("ticket office", "售票处"),
-            ("photo", "照片"), ("restroom", "洗手间"),
-            ("traffic lights", "红绿灯"), ("around the corner", "拐角处"),
-            ("across from", "在对面"), ("next to", "紧挨着"),
-        ],
+        words={
+            ("景点与设施", "SIGHTS & FACILITIES"): [
+                ("tourist information center", "游客信息中心"), ("ticket office", "售票处"),
+                ("museum", "博物馆"), ("gallery", "美术馆"),
+                ("park", "公园"), ("landmark", "地标"),
+                ("castle", "城堡"), ("temple", "寺庙"),
+                ("beach", "海滩"), ("zoo", "动物园"),
+                ("aquarium", "水族馆"), ("viewpoint", "观景台"),
+                ("entrance fee", "门票"), ("opening hours", "开放时间"),
+                ("open", "开门"), ("close", "关门"),
+            ],
+            ("活动与纪念", "ACTIVITIES"): [
+                ("guided tour", "导游团"), ("tour guide", "导游"),
+                ("festival", "节日"), ("event", "活动"),
+                ("concert", "音乐会"), ("exhibition", "展览"),
+                ("photo", "照片"), ("camera", "相机"),
+                ("brochure", "宣传册"), ("map", "地图"),
+            ],
+            ("问路与方向", "DIRECTIONS"): [
+                ("go straight", "直走"), ("turn left", "左转"),
+                ("turn right", "右转"), ("traffic lights", "红绿灯"),
+                ("cross the street", "过马路"), ("around the corner", "拐角处"),
+                ("across from", "在对面"), ("next to", "紧挨着"),
+                ("far", "远"), ("near", "近"),
+                ("intersection", "路口"), ("block", "街区"),
+                ("restroom", "洗手间"),
+            ],
+        },
         sents=[
             ("Where is the visitor information center?", "游客信息中心在哪里？"),
             ("Are there any guided tours for this area?", "这个区域有导游团吗？"),
@@ -345,15 +505,37 @@ SECTIONS = [
     ),
     dict(
         num="08", cn="沟通与应急", en="COMMUNICATION & EMERGENCIES",
-        words=[
-            ("help", "救命 / 帮助"), ("wallet", "钱包"),
-            ("police", "警察"), ("police station", "警察局"),
-            ("pharmacy / drug store", "药店"), ("hospital", "医院"),
-            ("ambulance", "救护车"), ("embassy", "大使馆"),
-            ("consulate", "领事馆"), ("insurance", "保险"),
-            ("lost", "丢失的"), ("stolen", "被偷的"),
-            ("dizzy / faint", "头晕 / 晕倒"),
-        ],
+        words={
+            ("沟通", "COMMUNICATION"): [
+                ("understand", "明白"), ("repeat", "重复"),
+                ("speak slowly", "说慢一点"), ("write down", "写下来"),
+                ("mean", "意思"), ("help", "帮助"),
+                ("excuse me", "不好意思"), ("sorry", "对不起"),
+                ("thank you", "谢谢"), ("confused", "没搞懂"),
+            ],
+            ("健康与医疗", "HEALTH & MEDICAL"): [
+                ("sick", "不舒服"), ("dizzy", "头晕"),
+                ("faint", "晕倒"), ("pain", "疼痛"),
+                ("fever", "发烧"), ("headache", "头痛"),
+                ("stomachache", "肚子痛"), ("medicine", "药"),
+                ("prescription", "处方"), ("pharmacy / drug store", "药店"),
+                ("hospital", "医院"), ("doctor", "医生"),
+                ("ambulance", "救护车"), ("emergency room", "急诊室"),
+                ("first aid", "急救"),
+            ],
+            ("失窃与遗失", "LOST & STOLEN"): [
+                ("wallet", "钱包"), ("passport", "护照"),
+                ("phone", "手机"), ("credit card", "信用卡"),
+                ("police", "警察"), ("police station", "警察局"),
+                ("police report", "报警回执"), ("report", "报案"),
+                ("stolen", "被偷的"), ("lost", "丢失的"),
+            ],
+            ("机构与保险", "INSTITUTIONS & INSURANCE"): [
+                ("embassy", "大使馆"), ("consulate", "领事馆"),
+                ("insurance", "保险"), ("insurance claim", "保险理赔"),
+                ("policy number", "保单号"), ("emergency number", "急救电话"),
+            ],
+        },
         sents=[
             ("Sorry, I do not understand what you are saying.", "抱歉，我没听懂你说的话。"),
             ("I do not speak English very well.", "我英语说得不太好。"),
@@ -384,7 +566,9 @@ def build_content():
         parts.append("\\clearpage")
         parts.append(T_section(s["num"], s["cn"], s["en"]))
         parts.append(T_sub("单词", "WORDS"))
-        parts.append(T_word_grid(s["words"]))
+        for (cat_cn, cat_en), items in s["words"].items():
+            parts.append(T_wcat(cat_cn, cat_en))
+            parts.append(T_word_grid(items))
         parts.append("\\clearpage")
         parts.append(T_sub(f"{s['num']} · {s['cn']} · 句子", f"{s['en']} · SENTENCES"))
         for en, cn in s["sents"]:
