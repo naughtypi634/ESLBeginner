@@ -1,0 +1,142 @@
+% ============================================================
+%  ESLBeginner · McKinsey-style preamble (travel handbook)
+%  Palette & layout inspired by classic McKinsey decks:
+%  navy/blue accents, pyramid key-message first, clean tables.
+% ============================================================
+
+% ---------- page ----------
+\usepackage[a4paper, top=24mm, bottom=20mm, left=20mm, right=20mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{pagecolor}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[L]{\color{mckhair}\rule{\textwidth}{0.5pt}}
+\fancyfoot[L]{\footnotesize\color{mckgrey}旅游英语实用手册 · 2026 场景速查版}
+\fancyfoot[R]{\dispfont\bfseries\color{mcknavy}\thepage}
+
+% ---------- colors (McKinsey blue system) ----------
+\usepackage[table]{xcolor}
+\definecolor{mcknavy}{HTML}{0A3D62}   % deep navy (primary)
+\definecolor{mckblue}{HTML}{0E5FA8}   % McKinsey blue
+\definecolor{mckmid}{HTML}{6FA8DC}    % light steel blue
+\definecolor{mcklight}{HTML}{E9F2FA}  % light blue fill
+\definecolor{mckpale}{HTML}{F5F9FD}   % zebra row fill
+\definecolor{mckgrey}{HTML}{6B7280}   % secondary text
+\definecolor{mckhair}{HTML}{C9D8E6}   % hairline rules
+\definecolor{mckink}{HTML}{1F2937}    % body text
+
+% ---------- fonts ----------
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Noto Sans}[Ligatures=TeX, AutoFakeBold=2.5, AutoFakeSlant=0.25]
+\setCJKmainfont{Noto Sans SC}[AutoFakeBold=2.5]
+\newfontfamily\bodyfont{Noto Sans}[Ligatures=TeX]
+\newfontfamily\dispfont{Montserrat}[Ligatures=TeX]
+
+% ---------- layout ----------
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{microtype}
+\linespread{1.0}
+\setlength{\baselineskip}{14pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% ============================================================
+%  Component macros
+% ============================================================
+
+% ---------- cover page ----------
+\newcommand{\mckcover}[3]{%
+  \clearpage
+  \thispagestyle{empty}%
+  \pagecolor{mcknavy}%
+  \vspace*{42mm}%
+  {\color{white}\dispfont\bfseries\fontsize{32pt}{38pt}\selectfont #1}\par
+  \vspace{10pt}%
+  {\color{mckmid}\fontsize{15pt}{19pt}\selectfont #2}\par
+  \vspace{18pt}%
+  \textcolor{mckmid}{\rule{\textwidth}{1.1pt}}\par
+  \vspace{16pt}%
+  {\color{white}\fontsize{12pt}{18pt}\selectfont #3}\par
+  \vfill
+  {\color{mckmid}\footnotesize ESLBeginner · Practical Travel English · 2026}\par
+  \vspace{10mm}%
+  \clearpage
+  \pagecolor{white}%
+}
+
+% ---------- scenario section header (navy band) ----------
+\newcommand{\mcksection}[3]{%
+  \clearpage
+  \par\vspace{4pt}%
+  \noindent\colorbox{mcknavy}{%
+    \begin{minipage}{\dimexpr\textwidth-2\fboxsep\relax}%
+      \vspace{7pt}\hspace{10pt}%
+      {\color{mckmid}\dispfont\bfseries\fontsize{23pt}{25pt}\selectfont #1}\hspace{12pt}%
+      {\color{white}\bfseries\fontsize{15pt}{18pt}\selectfont #2}\par
+      \vspace{2pt}\hspace{10pt}{\color{mckmid}\footnotesize #3}\par
+      \vspace{7pt}%
+    \end{minipage}}\par
+  \vspace{7pt}
+}
+
+% ---------- page band (no page break) ----------
+\newcommand{\mckband}[2]{%
+  \par\vspace{2pt}%
+  \noindent\colorbox{mcknavy}{%
+    \begin{minipage}{\dimexpr\textwidth-2\fboxsep\relax}%
+      \vspace{6pt}\hspace{10pt}%
+      {\color{white}\bfseries\fontsize{14pt}{17pt}\selectfont #1}\hspace{10pt}%
+      {\color{mckmid}\footnotesize #2}\par
+      \vspace{6pt}%
+    \end{minipage}}\par
+  \vspace{7pt}
+}
+
+% ---------- key message (pyramid: conclusion first) ----------
+\newcommand{\mckkey}[2]{%
+  \par\vspace{6pt}%
+  \noindent\begin{tabularx}{\textwidth}{@{}>{\columncolor{mcknavy}}p{3.2pt}@{}>{\columncolor{mcklight}}X@{}}
+    & \RaggedRight {\bfseries\color{mcknavy}#1}\par\vspace{2pt}{\small #2}\par\vspace{5pt} \\
+  \end{tabularx}\par
+  \vspace{5pt}
+}
+
+% ---------- sub header ----------
+\newcommand{\mckh}[2]{%
+  \par\vspace{7pt}%
+  \noindent\textcolor{mckblue}{\rule{3.2pt}{10pt}}\hspace{6pt}%
+  {\bfseries\fontsize{12pt}{15pt}\selectfont #1}%
+  \if\relax\detokenize{#2}\relax\else\hspace{8pt}{\color{mckgrey}\footnotesize #2}\fi\par
+  \vspace{4pt}
+}
+
+% ---------- en / cn sentence pair ----------
+\newcommand{\mckpair}[2]{%
+  \par\vspace{2pt}%
+  {\bodyfont #1}\par
+  \vspace{1.5pt}
+  {\color{mckgrey}\footnotesize #2}\par
+  \vspace{4pt}
+}
+
+% ---------- plain note ----------
+\newcommand{\mcknote}[1]{%
+  \par\vspace{2pt}{\color{mckgrey}\small #1}\par\vspace{5pt}
+}
+
+% ---------- tip ----------
+\newcommand{\mcktip}[2]{%
+  \par\vspace{4pt}%
+  \noindent{\color{mckblue}\dispfont\bfseries\footnotesize TIP}\hspace{7pt}%
+  {\bfseries #1}\hspace{7pt}{\color{mckgrey}\small #2}\par\vspace{6pt}
+}
+
+% ---------- word / phrase row ----------
+\newcommand{\mckword}[2]{%
+  \par\vspace{2pt}%
+  \noindent{\bfseries #1}\hspace{8pt}{\color{mckgrey}#2}\par\vspace{5pt}
+}
