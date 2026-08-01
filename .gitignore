@@ -3,8 +3,8 @@ PDF/*
 output/
 *.pdf
 *.html
-# Final PDFs in PDF/ are tracked and pushed to GitHub
-!PDF/*.pdf
+# Only the travel handbook PDF is tracked and pushed to GitHub
+!PDF/旅游英语实用手册.pdf
 
 # LaTeX build intermediates & previews (keep build/build_pdfs.py, preamble.tex, template.tex tracked)
 build/tex/
