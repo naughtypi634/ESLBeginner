@@ -68,10 +68,6 @@ def T_cover():
         "  {\\color{muted}\\fontsize{14pt}{19pt}\\selectfont Travel English Phrases}\\par\n"
         "  \\vspace{16pt}\n"
         "  {\\color{hairline}\\rule{0.55\\textwidth}{0.8pt}}\\par\n"
-        "  \\vspace{14pt}\n"
-        "  {\\color{muted}\\small 按场景分类 · 单词 + 句子速查}\\par\n"
-        "  \\vspace{6pt}\n"
-        "  {\\color{muted}\\small 机场 · 交通 · 酒店 · 餐饮 · 购物 · 观光 · 应急}\\par\n"
         "\\end{center}\n"
         "\\clearpage\n"
     )
@@ -280,7 +276,6 @@ SECTIONS = [
             ("Can I please have a glass of water?", "请给我一杯水。"),
             ("No ice, please.", "不要冰。"),
             ("Can I ask for a refill?", "能续杯吗？"),
-            ("Can I have another one?", "能再给我一份吗？"),
             ("Could I have extra sauce, please?", "能多给点酱吗？"),
             ("I didn't order this.", "我没点这个。"),
             ("I'm allergic to peanuts.", "我对花生过敏。"),
@@ -390,7 +385,8 @@ def build_content():
         parts.append(T_section(s["num"], s["cn"], s["en"]))
         parts.append(T_sub("单词", "WORDS"))
         parts.append(T_word_grid(s["words"]))
-        parts.append(T_sub("句子", "SENTENCES"))
+        parts.append("\\clearpage")
+        parts.append(T_sub(f"{s['num']} · {s['cn']} · 句子", f"{s['en']} · SENTENCES"))
         for en, cn in s["sents"]:
             parts.append(T_sent(en, cn))
     return "\n".join(parts)
