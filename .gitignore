@@ -1,8 +1,10 @@
-# Generated build artifacts (stays local to this project)
-PDF/
+# Generated build artifacts
+PDF/*
 output/
 *.pdf
 *.html
+# Final PDFs in PDF/ are tracked and pushed to GitHub
+!PDF/*.pdf
 
 # LaTeX build intermediates & previews (keep build/build_pdfs.py, preamble.tex, template.tex tracked)
 build/tex/
