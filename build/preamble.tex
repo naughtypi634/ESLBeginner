@@ -22,6 +22,7 @@
 \definecolor{hairline}{HTML}{D9D9D9}  % light gray table rules
 \definecolor{filllight}{HTML}{F2F2F2} % light gray table header band
 \arrayrulecolor{hairline}
+\usepackage[normalem]{ulem}           % line-breakable \uline for workbook 07
 
 % ---------- fonts ----------
 \usepackage{fontspec}
@@ -54,6 +55,9 @@
 
 % ---------- pattern component marker (print-friendly: bold + light gray) ----------
 \newcommand{\eslmark}[1]{\colorbox{filllight}{\textbf{#1}}}
+
+% ---------- underline emphasis (定语从句练习) ----------
+\newcommand{\esluline}[1]{\uline{#1}}
 
 % ---------- section header ----------
 \newcommand{\eslsection}[3]{%
@@ -111,6 +115,16 @@
     \RaggedRight {\bfseries #2}\par\vspace{2pt}{\color{muted}\bodyfont\small #3}
   \end{tabularx}\par
   \vspace{6pt}
+}
+
+% ---------- compact numbered exercise item (定语从句练习) ----------
+\newcommand{\eslcompactitem}[3]{%
+  \par\vspace{1pt}%
+  \noindent\begin{tabularx}{\textwidth}{@{}l@{\hspace{7pt}}X@{}}
+    {\dispfont\bfseries\footnotesize #1} &
+    \RaggedRight {\bfseries\small #2}\par\vspace{1.5pt}{\color{muted}\bodyfont\footnotesize #3}
+  \end{tabularx}\par
+  \vspace{3.5pt}
 }
 
 % ---------- plain numbered question ----------

@@ -98,6 +98,11 @@ def l(s: str) -> str:  # latex-safe text, **bold** -> \textbf{}
     return s
 
 
+def l_underline(s: str) -> str:
+    """Like l(), but **bold** markers render as underlines (workbook 07 only)."""
+    return l(s).replace(r"\eslmark{", r"\esluline{")
+
+
 def raw(latex: str) -> str:
     return "```{=latex}\n" + latex + "\n```\n\n"
 
@@ -107,8 +112,8 @@ def T_title(meta):
     return raw(f"\\esltitle{{{l(meta['title'])}}}")
 
 
-def T_section(num, cn, en=""):
-    return raw(f"\\eslsection{{{l(num)}}}{{{l(cn)}}}{{{l(en)}}}")
+def T_section(num, cn, en="", lfun=l):
+    return raw(f"\\eslsection{{{lfun(num)}}}{{{lfun(cn)}}}{{{lfun(en)}}}")
 
 
 def T_formula(body, ex=None, label="PATTERN"):
@@ -117,12 +122,12 @@ def T_formula(body, ex=None, label="PATTERN"):
     return raw(f"\\eslformulasimple{{{l(body)}}}")
 
 
-def T_note(body):
-    return raw(f"\\eslnote{{{l(body)}}}")
+def T_note(body, lfun=l):
+    return raw(f"\\eslnote{{{lfun(body)}}}")
 
 
-def T_subheader(cn, en=""):
-    return raw(f"\\eslsubheader{{{l(cn)}}}{{{l(en)}}}")
+def T_subheader(cn, en="", lfun=l):
+    return raw(f"\\eslsubheader{{{lfun(cn)}}}{{{lfun(en)}}}")
 
 
 def T_pair(en, cn):
@@ -137,6 +142,11 @@ def T_exitem(n, cn, en):
     return raw(f"\\eslexitem{{{l(n)}}}{{{l(cn)}}}{{{l(en)}}}")
 
 
+def T_citem(n, cn, en, lfun=l):
+    """Compact numbered exercise item — used by 07 (4-page workbook)."""
+    return raw(f"\\eslcompactitem{{{lfun(n)}}}{{{lfun(cn)}}}{{{lfun(en)}}}")
+
+
 def T_qitem(n, body):
     return raw(f"\\eslqitem{{{l(n)}}}{{{l(body)}}}")
 
@@ -145,8 +155,8 @@ def T_dashitem(body):
     return raw(f"\\esldash{{{l(body)}}}")
 
 
-def T_pattag(body):
-    return raw(f"\\eslpattag{{{l(body)}}}")
+def T_pattag(body, lfun=l):
+    return raw(f"\\eslpattag{{{lfun(body)}}}")
 
 
 def T_pagebreak():
@@ -510,6 +520,7 @@ def parse_07(lines):
     out = []
     meta = META["07-定语从句练习.md"]
     out.append(T_title(meta))
+    L = l_underline  # workbook 07: emphasis is underlined, not bolded
     chapter_num = 0
     expect_pattern = False
     expect_note = False
@@ -525,21 +536,21 @@ def parse_07(lines):
             continue
         if re.match(r"^定语从句渐进练习（.）$", s):
             chapter_num += 1
-            out.append(T_section(f"{chapter_num}", s))
+            out.append(T_section(f"{chapter_num}", s, lfun=L))
             expect_pattern = expect_note = False
             continue
         if re.match(r"^第.阶梯$", s):
-            out.append(T_subheader(s))
+            out.append(T_subheader(s, lfun=L))
             expect_pattern = True
             expect_note = False
             continue
         if expect_pattern:
-            out.append(T_pattag(s))
+            out.append(T_pattag(s, lfun=L))
             expect_pattern = False
             expect_note = True
             continue
         if expect_note:
-            out.append(T_note(s))
+            out.append(T_note(s, lfun=L))
             expect_note = False
             continue
         m = re.match(r"^(\d+)\.\s*(.*)$", s)
@@ -552,7 +563,7 @@ def parse_07(lines):
                 if mm:
                     en = mm.group(1)
                     i += 1
-            out.append(T_exitem(n_, cn, en))
+            out.append(T_citem(n_, cn, en, lfun=L))
             continue
     return out, meta
 
