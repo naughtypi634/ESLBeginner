@@ -1,10 +1,8 @@
 # Generated build artifacts
-PDF/*
 output/
-*.pdf
-*.html
-# Only the travel handbook PDF is tracked and pushed to GitHub
-!PDF/旅游英语实用手册.pdf
+
+# Cached webfonts (not a document)
+MD/_fonts_cache/
 
 # LaTeX build intermediates & previews (keep build/build_pdfs.py, preamble.tex, template.tex tracked)
 build/tex/
