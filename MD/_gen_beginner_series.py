@@ -27,6 +27,7 @@ DEFAULT = [
     "18-Skills I Can Do.md",
     "19-Time Clauses.md",
     "20-Zero First Conditional.md",
+    "21-Modal Verbs.md",
 ]
 
 CSS = """
@@ -37,7 +38,7 @@ body {
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
     font-size: 11px; line-height: 1.5;
 }
-.page { width: 210mm; min-height: 297mm; padding: 13mm 16mm; position: relative; overflow: hidden; }
+.page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
 h1 { font-size: 20px; font-weight: 800; color: #000; border-bottom: 2px solid #000; padding-bottom: 4px; margin-bottom: 8px; }
 h2 { font-size: 13px; font-weight: 800; color: #000; margin: 10px 0 4px 0; }
@@ -48,7 +49,6 @@ table { width: 100%; border-collapse: collapse; margin: 3px 0 6px 0; font-size: 
 th, td { border: 1px solid #cccccc; padding: 3px 6px; text-align: left; vertical-align: top; }
 th { background: #f0f0f0; font-weight: 800; }
 b { color: #000; }
-.footer { position: absolute; bottom: 7mm; right: 16mm; font-size: 8px; color: #999; }
 """
 
 
@@ -117,7 +117,7 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
             width="210mm",
             height="297mm",
             print_background=True,
-            margin={"top": "0mm", "bottom": "0mm", "left": "0mm", "right": "0mm"},
+            margin={"top": "13mm", "bottom": "13mm", "left": "16mm", "right": "16mm"},
         )
         browser.close()
     return True
@@ -129,7 +129,7 @@ def build_html(md_name: str) -> str:
     return (
         "<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'>"
         f"<title>{esc(md_name)}</title><style>{CSS}</style></head><body>"
-        f"<div class='page'>{body}<div class='footer'>{esc(md_name.replace('.md',''))}</div></div>"
+        f"<div class='page'>{body}</div>"
         "</body></html>"
     )
 
