@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Relative Clause Practice</title>
+<style>
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm;
+    background: #ffffff;
+    color: #1a1a1a;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.page {
+    width: 210mm;
+    height: 297mm;
+    padding: 12mm 17mm 11mm 17mm;
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.page-break { page-break-before: always !important; break-before: always !important; }
+
+/* ── Title ── */
+.title-area {
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    border-bottom: 2.5px solid #000000;
+}
+.main-title {
+    font-size: 25px;
+    font-weight: 800;
+    color: #000000;
+    letter-spacing: -0.3px;
+}
+.sub-title {
+    font-size: 10.5px;
+    color: #666666;
+    margin-top: 2px;
+}
+
+/* ── Grammar reference box ── */
+.grammar-box {
+    border: 1px dashed #888888;
+    background: #f6f6f6;
+    padding: 7px 10px;
+    font-size: 10.5px;
+    line-height: 1.65;
+    margin-bottom: 8px;
+}
+.grammar-box b { font-size: 10.5px; }
+.grammar-box .row { display: block; }
+
+/* ── Part header ── */
+.part-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0 2px 0;
+}
+.part-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    flex-shrink: 0;
+}
+.part-label {
+    font-size: 13.5px;
+    font-weight: 700;
+    color: #000000;
+}
+.part-desc {
+    font-size: 10px;
+    color: #666666;
+    margin-bottom: 4px;
+    padding-left: 3px;
+    line-height: 1.4;
+}
+
+/* ── Question item ── */
+.q-item {
+    padding: 2.5px 0 3.5px 4px;
+    font-size: 11.5px;
+    color: #1a1a1a;
+}
+.q-num {
+    font-weight: 700;
+    color: #000000;
+    margin-right: 4px;
+}
+.q-src {
+    display: block;
+    color: #444444;
+    padding-left: 18px;
+    line-height: 1.5;
+}
+.q-hint {
+    color: #999999;
+    font-size: 10px;
+    padding-left: 18px;
+}
+.blank-line {
+    margin: 3px 0 2px 18px;
+    width: 78%;
+    border-bottom: 1px dotted #aaaaaa;
+    height: 9px;
+}
+.gap { color: #000000; font-weight: 700; letter-spacing: 1px; }
+
+/* ── Answer key ── */
+.ans-section { margin-bottom: 6px; }
+.ans-header {
+    font-size: 11.5px;
+    font-weight: 800;
+    color: #000000;
+    margin: 6px 0 2px 0;
+    padding-bottom: 2px;
+    border-bottom: 1.5px solid #000000;
+}
+.ans-item {
+    font-size: 10.8px;
+    line-height: 1.55;
+    padding: 1.5px 0 1.5px 4px;
+    color: #1a1a1a;
+}
+.ans-item .ans-num { font-weight: 700; margin-right: 4px; }
+.ans-item .note { color: #777777; font-size: 9.8px; display: block; padding-left: 16px; }
+.ans-inline { font-size: 10.8px; line-height: 1.7; padding: 2px 0 2px 4px; }
+
+/* ── Footer ── */
+.footer {
+    position: absolute;
+    bottom: 7mm;
+    right: 17mm;
+    font-size: 8px;
+    color: #999999;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">定语从句 · 从零开始练习（Practice from Zero）</div>
+  </div>
+  <div class="grammar-box"><b>Relative words at a glance（关系词速查）</b><span class="row"><b>who</b> 人·主语　 <b>whom</b> 人·宾语　 <b>whose</b> 谁的·表所属</span><span class="row"><b>which / that</b> 物　 <b>where</b> 地点　 <b>when</b> 时间　 <b>why</b> 原因</span></div>
+  <div class="part-header"><span class="part-tag">PART 1</span><span class="part-label">Join the Sentences · 合并句子</span></div>
+  <div class="part-desc">Turn the second sentence into a relative clause. 把第二句变成定语从句，合并成一个句子。</div>
+  <div class="q-item"><span class="q-num">1.</span> <span>I have a neighbor.</span><span class="q-src">She always waters my plants when I travel.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">2.</span> <span>I bought a milk tea.</span><span class="q-src">It has pearls and extra cheese foam.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">3.</span> <span>We use a parcel locker.</span><span class="q-src">It is at the gate of our community.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">4.</span> <span>I found a charger.</span><span class="q-src">Its cable was broken.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">5.</span> <span>The taxi driver was very kind.</span><span class="q-src">He took me to the train station.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">6.</span> <span>The concert was amazing.</span><span class="q-src">I bought tickets for it.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">7.</span> <span>This is the wet market.</span><span class="q-src">My mom buys vegetables here.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">8.</span> <span>I still remember the day.</span><span class="q-src">I got my first job offer on that day.</span><div class="blank-line"></div></div>
+  <div class="footer">1/4</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">Part 2 · 选词填空</div>
+  </div>
+  <div class="part-header"><span class="part-tag">PART 2</span><span class="part-label">Choose the Correct Word · 选词填空</span></div>
+  <div class="part-desc">Options: who / whom / whose / which / that / where / when / why. Some blanks have more than one correct answer.</div>
+  <div class="q-item"><span class="q-num">1.</span> <span>The man <span class="gap">______</span> is standing at the door is my uncle.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">2.</span> <span>The book <span class="gap">______</span> I borrowed from you is on my desk.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">3.</span> <span>This is the hotel <span class="gap">______</span> we stayed last summer.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">4.</span> <span>The girl <span class="gap">______</span> phone was stolen looks very upset.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">5.</span> <span>Do you know the reason <span class="gap">______</span> he was late this morning?</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">6.</span> <span>Winter is the season <span class="gap">______</span> vegetable prices usually go up.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">7.</span> <span>The woman <span class="gap">______</span> you talked to just now is our new manager.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">8.</span> <span>I want a phone <span class="gap">______</span> battery can last two days.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">9.</span> <span>That is the park <span class="gap">______</span> we fly kites every weekend.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">10.</span> <span>The cake <span class="gap">______</span> my mom made tasted really good.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">11.</span> <span>This is the moment <span class="gap">______</span> everything changed.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">12.</span> <span>The shoes <span class="gap">______</span> I bought online are a little too small.</span><div class="blank-line"></div></div>
+  <div class="footer">2/4</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">Part 3 · 翻译 &amp; Part 4 · 改错</div>
+  </div>
+  <div class="part-header"><span class="part-tag">PART 3</span><span class="part-label">Translate into English · 翻译</span></div>
+  <div class="part-desc">Use the relative word in the hint. 必须使用提示中的关系词。</div>
+  <div class="q-item"><span class="q-num">1.</span> <span>我喜欢不推销课程的健身教练。</span><span class="q-hint">hint: use “who”</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">2.</span> <span>这是我每天跑步的公园。</span><span class="q-hint">hint: use “where”</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">3.</span> <span>我弄丢了开办公室门的那把钥匙。</span><span class="q-hint">hint: use “that”</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">4.</span> <span>你还记得我们第一次见面的那家餐厅吗？</span><span class="q-hint">hint: use “where”</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">5.</span> <span>这就是我每天带饭的原因。</span><span class="q-hint">hint: use “why”</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">6.</span> <span>昨天帮我搬行李的那个女生是我同学。</span><span class="q-hint">hint: use “who”</span><div class="blank-line"></div></div>
+  <div class="part-header"><span class="part-tag">PART 4</span><span class="part-label">Correct the Mistakes · 改错</span></div>
+  <div class="part-desc">Each sentence has one mistake. 每句只有一处错误，请改正。</div>
+  <div class="q-item"><span class="q-num">1.</span> <span>The man which lives next door is a doctor.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">2.</span> <span>This is the book who I told you about.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">3.</span> <span>The teacher, that I met yesterday, is very friendly.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">4.</span> <span>I know the girl whose her mother is a singer.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">5.</span> <span>This is the house where I lived in.</span><div class="blank-line"></div></div>
+  <div class="q-item"><span class="q-num">6.</span> <span>The movie that we saw it last night was great.</span><div class="blank-line"></div></div>
+  <div class="footer">3/4</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">Answer Key · 参考答案</div>
+  </div>
+  <div class="ans-section">    <div class="ans-header">PART 1 · Join the Sentences</div>    <div class="ans-item"><span class="ans-num">1.</span>I have a neighbor who always waters my plants when I travel.</div>    <div class="ans-item"><span class="ans-num">2.</span>I bought a milk tea that has pearls and extra cheese foam.</div>    <div class="ans-item"><span class="ans-num">3.</span>We use a parcel locker that is at the gate of our community.</div>    <div class="ans-item"><span class="ans-num">4.</span>I found a charger whose cable was broken.</div>    <div class="ans-item"><span class="ans-num">5.</span>The taxi driver who took me to the train station was very kind.</div>    <div class="ans-item"><span class="ans-num">6.</span>The concert that I bought tickets for was amazing.</div>    <div class="ans-item"><span class="ans-num">7.</span>This is the wet market where my mom buys vegetables.</div>    <div class="ans-item"><span class="ans-num">8.</span>I still remember the day when I got my first job offer.</div>  </div>  <div class="ans-section">    <div class="ans-header">PART 2 · Choose the Correct Word</div>    <div class="ans-inline">1. who / that　2. that / which　3. where　4. whose　5. why　6. when　7. whom / that　8. whose　9. where　10. that / which　11. when　12. that / which</div>  </div>  <div class="ans-section">    <div class="ans-header">PART 3 · Translate into English</div>    <div class="ans-item"><span class="ans-num">1.</span>I like trainers who don't push courses.</div>    <div class="ans-item"><span class="ans-num">2.</span>This is the park where I run every day.</div>    <div class="ans-item"><span class="ans-num">3.</span>I lost the key that opens the office door.</div>    <div class="ans-item"><span class="ans-num">4.</span>Do you remember the restaurant where we first met?</div>    <div class="ans-item"><span class="ans-num">5.</span>This is the reason why I bring lunch every day.</div>    <div class="ans-item"><span class="ans-num">6.</span>The girl who helped me carry my luggage yesterday is my classmate.</div>  </div>  <div class="ans-section">    <div class="ans-header">PART 4 · Correct the Mistakes</div>    <div class="ans-item"><span class="ans-num">1.</span>The man who lives next door is a doctor.<span class="note">which → who：先行词是人。</span></div>    <div class="ans-item"><span class="ans-num">2.</span>This is the book that / which I told you about.<span class="note">who → that / which：先行词是物。</span></div>    <div class="ans-item"><span class="ans-num">3.</span>The teacher, whom I met yesterday, is very friendly.<span class="note">非限定性定语从句不用 that。</span></div>    <div class="ans-item"><span class="ans-num">4.</span>I know the girl whose mother is a singer.<span class="note">whose 后面不再加 her。</span></div>    <div class="ans-item"><span class="ans-num">5.</span>This is the house where I lived. / This is the house that I lived in.<span class="note">where 和 in 不能重复使用。</span></div>    <div class="ans-item"><span class="ans-num">6.</span>The movie that we saw last night was great.<span class="note">从句里去掉多余的 it。</span></div>  </div>  <div class="footer">4/4</div>
+</div>
+
+</body>
+</html>
