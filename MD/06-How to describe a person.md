@@ -180,4 +180,96 @@ He **is a manager** at a small company.
 student
 学生
 She **is a student** at university.
-ESLassistant  ·  Page 2/2
+ESLassistant  ·  Page 2/2
+
+---
+
+# 进阶 ADVANCED（合并自 Describing People - Complete Reference）
+
+## A. 身份与背景 Identity & Background
+
+PATTERN：be from / grow up / be in one's 20s / rent / commute / support
+
+| English | Chinese |
+|---|---|
+| He's **in his late 20s**. | 他快 30 了。 |
+| She's **from a coastal city**. | 她来自沿海城市。 |
+| He **grew up in a small town**. | 他在小城市长大。 |
+| She **rents a shared flat** with roommates. | 她跟室友合租。 |
+| He **commutes one hour each way**. | 他单程通勤一小时。 |
+| He **still relies on his parents** for rent. | 他房租还靠父母。 |
+| She **owns a small apartment with a mortgage**. | 她买了小房子，在还贷款。 |
+| He's a **1999 baby**; she's **post-00s**. | 他是 99 年的，她是 00 后。 |
+
+## B. 教育与职业 Education & Career
+
+PATTERN：major in / graduate from / attend / switch / quit
+
+| English | Chinese |
+|---|---|
+| She **attended a 985 university**. | 她读的是 985。 |
+| He **majored in computer science**. | 他主修计算机。 |
+| She **went abroad for her master's**. | 她出国读的硕士。 |
+| He **self-studied UX design on Bilibili**. | 他在 B 站自学 UX 设计。 |
+| She **switched from finance to tech**. | 她从金融转到了科技行业。 |
+| He **quit without a backup plan** — 裸辞. | 他裸辞了，没有后路。 |
+| She **runs a 抖音小店 on the side**. | 她副业开了一家抖音小店。 |
+| He's **studying for the CFA exam** after work. | 他下班后备考 CFA。 |
+
+## C. 外貌进阶 Advanced Appearance
+
+PATTERN：be + build · have + face/hair · wear(s) + makeup · look(s) + vibe
+
+| English | Chinese |
+|---|---|
+| She's **petite but well-proportioned**. | 她娇小但比例好。 |
+| He has a **baby face** — he looks young for his age. | 他长了一张娃娃脸，显年轻。 |
+| She has a **round face** and **double eyelids**. | 她圆脸、双眼皮。 |
+| He has a **sharp jawline** and **high cheekbones**. | 他下颌线分明，颧骨高。 |
+| She wears a **no-makeup makeup look**. | 她化的是伪素颜妆。 |
+| He does a **7-step skincare routine**. | 他护肤有七道工序。 |
+| She uses **国货 makeup brands** like 花西子. | 她用花西子等国产彩妆。 |
+| He **comes across as elegant**, but he's just shy. | 他看起来高冷，其实只是害羞。 |
+
+## D. 性格与情绪 Advanced Personality
+
+PATTERN：be + trait · tend to be · come across as
+
+| English | Chinese |
+|---|---|
+| She's an **introvert**; he's an **extrovert**. | 她内向，他外向。 |
+| He's a **卷王** — always competing at work. | 他是卷王，工作永远在拼。 |
+| She's a **躺平者** — does the minimum required. | 她是躺平型，只做最低要求。 |
+| He's an **early bird**; she's a **night owl**. | 他早起，她熬夜。 |
+| She has **high EQ** and handles conflict calmly. | 她情商高，处理冲突很冷静。 |
+| He **tends to overthink** — 内耗. | 他容易想太多，精神内耗。 |
+| She **bottles up emotions** and then explodes. | 她压抑情绪，然后突然爆发。 |
+| He **communicates by long voice messages**. | 他沟通靠发长语音。 |
+
+## E. 数字生活 Digital Presence
+
+PATTERN：post about / be active on / scroll / shop on / livestream
+
+| English | Chinese |
+|---|---|
+| She **posts about daily life on 朋友圈**. | 她在朋友圈发日常。 |
+| He's **active on 知乎** — writes long answers. | 他在知乎很活跃，写长回答。 |
+| She **scrolls 小红书 every night** before bed. | 她睡前每晚刷小红书。 |
+| He **watches short videos on 抖音** during lunch. | 他午休刷抖音短视频。 |
+| She **shops on 拼多多** and shares links in group chats. | 她用拼多多购物，还在群里发链接。 |
+| He **buys from 直播间** — livestream shopping. | 他在直播间买东西。 |
+| She **sells second-hand stuff on 闲鱼**. | 她在闲鱼卖二手。 |
+| He **participates in 双11 and 618** every year. | 他每年都参加双11和618。 |
+
+## F. 习惯与生活方式 Habits & Lifestyle
+
+PATTERN：spend(s) time on / invest(s) in / join(s) / attend(s)
+
+| English | Chinese |
+|---|---|
+| She **spends her weekends hiking**. | 她周末都去徒步。 |
+| He **invested in a full cycling kit**. | 他配了一整套骑行装备。 |
+| She **joined a pottery class** after work. | 她下班后报了陶艺班。 |
+| He **turns his hobby into a side hustle**. | 他把爱好变成了副业。 |
+| She **tracks her progress in a fitness app**. | 她用健身 App 记录进度。 |
+| He **sets hobby goals** — run a marathon this year. | 他会给爱好定目标，比如今年跑马拉松。 |
