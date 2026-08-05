@@ -8,6 +8,7 @@ MD/_fonts_cache/
 build/tex/
 build/preview/
 build/out/
+build/backups/
 
 # Python (if ever added) — keep the venv project-local, never shared
 .venv/
