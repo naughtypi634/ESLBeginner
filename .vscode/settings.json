@@ -31,5 +31,6 @@
     ".venv": true,
     "PDF": true,
     "output": true
-  }
+  },
+  "chatgpt.openOnStartup": true
 }
