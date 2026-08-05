@@ -288,3 +288,35 @@ have to 强调客观必须（规则、规定、现实），有各种时态；mus
 | May I come in? | Yes, you **may**. | No, you **may not**. |
 | Must I finish it now? | Yes, you **must**. | No, you **needn't** / **don't have to**. |
 | Need I pay now? | Yes, you **must**. | No, you **needn't**. |
+
+## 11. Discussion 讨论（2026 · 中国 · 成人生活）
+
+每个问题都围绕 2026 年中国成年人的真实生活场景，回答时尽量用情态动词；答案 tags 只是提示，说出自己的真实想法更好。
+
+### 基础题 Basic
+
+| English | Chinese | Answer tags |
+|---|---|---|
+| You scan a QR code to pay, but the payment fails. What **should** you do? | 扫码付款失败了，你该怎么办？ | **Should** check the network / **Can** try Alipay or WeChat Pay / **Had better** ask the shop |
+| Your boss asks you to use AI for a report. What **can** you do with DeepSeek or 豆包? | 老板让你用 AI 写报告，你能用 DeepSeek 或豆包做什么？ | **Can** ask it to draft / **Must** check the facts / **Shouldn't** copy it blindly |
+| Self-driving taxis (萝卜快跑) now run in some Chinese cities. **Would** you take one alone at night? | 萝卜快跑已经出现在一些中国城市，你会在深夜一个人坐吗？ | Yes, I **would** / I **might**, but only with a friend / No, I **wouldn't** |
+| The retirement age is rising. What **must** people in their 30s do to prepare? | 退休年龄在推迟，三十多岁的人必须做什么准备？ | **Must** save money / **Should** stay healthy / **Had better** learn new skills |
+| Delivery drones **may** arrive in your neighborhood this year. What **could** go wrong? | 今年无人机送外卖可能到你家附近，可能出什么问题？ | They **might** be noisy / They **could** drop packages / They **must** be safe first |
+| A concert ticket goes on sale at 10 am. What **had you better** do first? | 演唱会门票上午十点开抢，你最好先做什么？ | **Had better** test the app / **Should** prepare my ID / **Can** join the presale |
+| Your friend always buys the newest phone. What **should** you say to them? | 你朋友总买最新款手机，你应该说什么？ | You **don't have to** upgrade / You **should** compare prices / It **may** drop in price later |
+| Your electric car is low on battery during a holiday road trip. What **mustn't** you do? | 假期自驾电动车快没电了，什么绝对不能做？ | **Mustn't** wait until it dies / **Should** plan charging stops / **Had better** use a charging app |
+| The 2026 World Cup games are in North America. **Would** you stay up to watch? | 2026 世界杯在北美举行，你会熬夜看球吗？ | I **might** watch the final / I **shouldn't** stay up too late / I **would** if my team plays |
+| Your parents live alone and are getting older. What **should** you do for them? | 父母年纪大了独自居住，你应该为他们做什么？ | **Should** call them more / **Could** visit every month / **Had better** check their health app |
+| Hospitals now use 电子医保. What **don't you have to** do anymore? | 医院现在用电子医保，哪些事你不再需要做了？ | **Don't have to** carry the card / **Don't have to** queue for paper forms / **Can** use my phone |
+| Your colleague works overtime every night. What **would you rather** say to them? | 同事天天加班，你宁愿对他说什么？ | I'd **rather** say: rest first / You **shouldn't** work every night / You **mustn't** forget your health |
+| House prices are uncertain in your city. **Would** you rent or buy? | 你所在城市房价还不确定，你会租房还是买房？ | I'd **rather** rent / I **would** buy if I **could** / I **might** wait a year |
+
+### 进阶题 Advanced
+
+| English | Chinese | Answer tags |
+|---|---|---|
+| You arrive at the station, but the train has already left. What **should you have** done? | 你到车站时火车已经开走了，你本应该怎么做？ | **Should have** booked an earlier ticket / **Shouldn't have** slept in / **Could have** left home earlier |
+| Your friend bought ten 盲盒 and still didn't get what they wanted. What **needn't they have** done? | 你朋友买了十个盲盒还是没抽到想要的，他们本不必做什么？ | **Needn't have** bought so many / **Could have** asked the shop first / **Should have** stopped at two |
+| You missed the big sale on 淘宝. What **might have** happened if you had waited? | 你错过了淘宝大促，如果等一等，可能发生什么？ | **Might have** saved money / **Could have** got free shipping / **May have** missed the color I like |
+| The restaurant is empty, but there is a long queue outside. What **must** the food be like? | 餐厅里没人，外面却排长队，这家店的菜一定怎么样？ | It **must** be good / It **can't** be bad / It **must have** great reviews |
+| Your colleague says AI wrote their report. What **can't** the AI have done? | 同事说报告是 AI 写的，AI 不可能做了什么？ | It **can't have** known our real data / It **couldn't have** talked to the client / It **can't have** checked the numbers |
