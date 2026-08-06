@@ -5,79 +5,80 @@
 html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 body {
     font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-    color: #1a1a1a; background: #fff;
+    color: #111; background: #fff;
     -webkit-print-color-adjust: exact; print-color-adjust: exact;
 }
 .sheet { width: 210mm; padding: 0; }
 
 /* ---------- 封面头 ---------- */
 .title { border-bottom: 3px solid #111; padding: 1mm 0 3.2mm; margin-bottom: 4.5mm; }
-.title h1 { font-size: 21px; font-weight: 800; letter-spacing: 1px; }
-.title .sub { font-size: 9.5px; color: #666; margin-top: 1.8mm; letter-spacing: 1.5px; }
-.title .tip { font-size: 9px; color: #888; margin-top: 1.5mm; }
+.title h1 { font-size: 24px; font-weight: 800; letter-spacing: 1px; }
+.title .sub { font-size: 11px; color: #555; margin-top: 2mm; letter-spacing: 1.5px; }
+.title .tip { font-size: 10.5px; color: #666; margin-top: 1.8mm; }
 
 /* ---------- 句型区块：自然分页，标题与首行不拆开 ---------- */
 .pat { break-inside: auto; }
+.patintro { break-inside: avoid; page-break-inside: avoid; }
 .pathead, .cat { break-after: avoid; page-break-after: avoid; }
 .pathead { border-bottom: 2px solid #111; padding-bottom: 2.4mm; margin-bottom: 2.8mm; }
-.patnum { font-size: 8.5px; font-weight: 800; letter-spacing: 2.5px; color: #8b8b8b; }
-.formula { font-size: 14px; font-weight: 800; margin-top: 1mm; }
-.note { font-size: 9.5px; color: #666; font-style: italic; margin-top: 1.8mm; }
+.patnum { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; color: #666; }
+.formula { font-size: 17px; font-weight: 800; margin-top: 1.2mm; }
+.note { font-size: 11px; color: #555; font-style: italic; margin-top: 2mm; }
 
 /* ---------- 用法分类 ---------- */
+.catwrap { break-inside: avoid; page-break-inside: avoid; }
 .cat {
-    font-size: 11.5px; font-weight: 800; border-left: 1.1mm solid #111;
-    padding-left: 2.5mm; margin: 3.4mm 0 1.6mm;
+    font-size: 13.5px; font-weight: 800; border-left: 1.2mm solid #111;
+    padding-left: 2.5mm; margin: 3.8mm 0 1.8mm;
 }
-.cat .en { font-weight: 400; color: #7a7a7a; font-size: 8.5px; letter-spacing: 1.2px; margin-left: 2mm; }
+.cat .en { font-weight: 400; color: #666; font-size: 10px; letter-spacing: 1.2px; margin-left: 2mm; }
 
-/* ---------- 例句行：词义 | 词汇 | 高亮例句 ---------- */
-table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0 1.4mm; }
+/* ---------- 例句行：词义 | 词汇 | 高亮例句（省墨：无灰底） ---------- */
+table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0 1.3mm; }
 tr { break-inside: avoid; page-break-inside: avoid; }
 td { padding: 1.5mm 2mm; vertical-align: middle; }
-td.cn { width: 17mm; font-size: 10px; font-weight: 600; color: #555; white-space: nowrap; overflow: hidden; }
-td.en { width: 36mm; font-size: 10.5px; font-weight: 700; white-space: nowrap; overflow: hidden; }
+td.cn { width: 17mm; font-size: 11.5px; font-weight: 600; color: #444; white-space: nowrap; overflow: hidden; }
+td.en { width: 33mm; font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; }
 td.ex {
-    font-size: 11px; font-weight: 500; background: #f2f2f2;
-    border-left: 1mm solid #111; white-space: nowrap; overflow: hidden;
+    font-size: 12px; font-weight: 500;
+    border-left: 1.1mm solid #111; white-space: nowrap; overflow: hidden;
 }
-td.ex b { font-weight: 800; }
+td.ex b { font-weight: 800; text-decoration: underline; }
 
 </style></head><body><div class='sheet'>
 <div class='title'><h1>It 句型</h1><div class='sub'>2026 · 中国成年人版 · 9 种 It 常用句型</div><div class='tip'>例句中加粗部分是句型核心：先模仿例句，再把句型套用到自己的生活。</div></div>
 <div class='pat'>
+<div class='patintro'>
 <div class='pathead'>
 <div class='patnum'>PATTERN 1 / 9</div>
 <div class='formula'>It is/was + adj. (+ for + someone【宾格】) + to do</div>
 <div class='note'><b>It is useful</b> to learn some English for travel.</div>
-</div>
-<div class='cat'>评价<span class='en'>Evaluation</span></div>
+</div></div>
+<div class='catwrap'>
+<div class='cat'>正面评价<span class='en'>Positive Evaluation</span></div>
 <table><tbody>
 <tr><td class='cn'>有用的</td><td class='en'>useful</td><td class='ex'><b>It is useful</b> to learn AI skills for your career.</td></tr>
 <tr><td class='cn'>容易的</td><td class='en'>easy</td><td class='ex'><b>It is easy</b> to pay with your phone in China.</td></tr>
 <tr><td class='cn'>安全的</td><td class='en'>safe</td><td class='ex'><b>It is safe</b> to walk here at night.</td></tr>
 <tr><td class='cn'>合适的</td><td class='en'>appropriate</td><td class='ex'><b>It is appropriate</b> to dress well for an interview.</td></tr>
 <tr><td class='cn'>明智的</td><td class='en'>wise</td><td class='ex'><b>It is wise</b> to save money for the future.</td></tr>
+<tr><td class='cn'>方便的</td><td class='en'>convenient</td><td class='ex'><b>It is convenient</b> for me to take the subway to work.</td></tr>
+<tr><td class='cn'>轻松的</td><td class='en'>relaxing</td><td class='ex'><b>It is relaxing</b> to take a walk by the river after dinner.</td></tr>
+<tr><td class='cn'>令人愉快的</td><td class='en'>pleasant</td><td class='ex'><b>It is pleasant</b> to have tea with old friends on weekends.</td></tr>
+<tr><td class='cn'>令人兴奋的</td><td class='en'>exciting</td><td class='ex'><b>It is exciting</b> to try a new hobby after retirement.</td></tr>
+</tbody></table></div>
+<div class='catwrap'>
+<div class='cat'>中性评价<span class='en'>Neutral Evaluation</span></div>
+<table><tbody>
 <tr><td class='cn'>合理的</td><td class='en'>reasonable</td><td class='ex'><b>It is reasonable</b> to spend 30% of your pay on rent.</td></tr>
 <tr><td class='cn'>自然的</td><td class='en'>natural</td><td class='ex'><b>It is natural</b> for young people to use mobile payment.</td></tr>
 <tr><td class='cn'>正常的</td><td class='en'>normal</td><td class='ex'><b>It is normal</b> for office workers to feel tired on Monday.</td></tr>
 <tr><td class='cn'>普遍的</td><td class='en'>common</td><td class='ex'><b>It is common</b> for adults to keep learning after work.</td></tr>
-<tr><td class='cn'>方便的</td><td class='en'>convenient</td><td class='ex'><b>It is convenient</b> for me to take the subway to work.</td></tr>
-<tr><td class='cn'>轻松的</td><td class='en'>relaxing</td><td class='ex'><b>It is relaxing</b> to take a walk by the river after dinner.</td></tr>
-<tr><td class='cn'>有压力的</td><td class='en'>stressful</td><td class='ex'><b>It is stressful</b> to check work messages late at night.</td></tr>
-</tbody></table>
-<div class='cat'>必要性 / 重要性<span class='en'>Necessity</span></div>
-<table><tbody>
-<tr><td class='cn'>必要的</td><td class='en'>necessary</td><td class='ex'><b>It is necessary</b> to have a driver's license for this job.</td></tr>
-<tr><td class='cn'>重要的</td><td class='en'>important</td><td class='ex'><b>It is important</b> to protect your personal information.</td></tr>
-<tr><td class='cn'>至关重要的</td><td class='en'>vital</td><td class='ex'><b>It is vital</b> for a new business to have good cash flow.</td></tr>
-<tr><td class='cn'>关键的</td><td class='en'>essential</td><td class='ex'><b>It is essential</b> to back up your phone photos.</td></tr>
-<tr><td class='cn'>紧迫的</td><td class='en'>urgent</td><td class='ex'><b>It is urgent</b> to fix the leak in the bathroom.</td></tr>
-<tr><td class='cn'>关键的</td><td class='en'>crucial</td><td class='ex'><b>It is crucial</b> to update your skills in the AI age.</td></tr>
-<tr><td class='cn'>强制的</td><td class='en'>mandatory</td><td class='ex'><b>It is mandatory</b> to wear a helmet when riding an e-bike.</td></tr>
-<tr><td class='cn'>可取的</td><td class='en'>advisable</td><td class='ex'><b>It is advisable</b> to arrive ten minutes early for an interview.</td></tr>
-</tbody></table>
-<div class='cat'>负面<span class='en'>Negative</span></div>
+<tr><td class='cn'>典型的</td><td class='en'>typical</td><td class='ex'><b>It is typical</b> for a new store to offer big discounts at first.</td></tr>
+<tr><td class='cn'>少见的</td><td class='en'>rare</td><td class='ex'><b>It is rare</b> to see people pay with paper money in big cities.</td></tr>
+</tbody></table></div>
+<div class='catwrap'>
+<div class='cat'>负面评价<span class='en'>Negative Evaluation</span></div>
 <table><tbody>
 <tr><td class='cn'>没用的</td><td class='en'>useless</td><td class='ex'><b>It is useless</b> to learn words but never speak.</td></tr>
 <tr><td class='cn'>危险的</td><td class='en'>dangerous</td><td class='ex'><b>It is dangerous</b> to use your phone while walking.</td></tr>
@@ -89,14 +90,28 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>浪费的</td><td class='en'>wasteful</td><td class='ex'><b>It is wasteful</b> to order more food than you can eat.</td></tr>
 <tr><td class='cn'>不公平的</td><td class='en'>unfair</td><td class='ex'><b>It is unfair</b> to expect everyone to work overtime.</td></tr>
 <tr><td class='cn'>不健康的</td><td class='en'>unhealthy</td><td class='ex'><b>It is unhealthy</b> to stay up late scrolling your phone.</td></tr>
-</tbody></table>
+</tbody></table></div>
+<div class='catwrap'>
+<div class='cat'>必要性 / 重要性<span class='en'>Necessity &amp; Importance</span></div>
+<table><tbody>
+<tr><td class='cn'>必要的</td><td class='en'>necessary</td><td class='ex'><b>It is necessary</b> to have a driver's license for this job.</td></tr>
+<tr><td class='cn'>重要的</td><td class='en'>important</td><td class='ex'><b>It is important</b> to protect your personal information.</td></tr>
+<tr><td class='cn'>至关重要的</td><td class='en'>vital</td><td class='ex'><b>It is vital</b> for a new business to have good cash flow.</td></tr>
+<tr><td class='cn'>关键的</td><td class='en'>essential</td><td class='ex'><b>It is essential</b> to back up your phone photos.</td></tr>
+<tr><td class='cn'>紧迫的</td><td class='en'>urgent</td><td class='ex'><b>It is urgent</b> to fix the leak in the bathroom.</td></tr>
+<tr><td class='cn'>关键的</td><td class='en'>crucial</td><td class='ex'><b>It is crucial</b> to update your skills in the AI age.</td></tr>
+<tr><td class='cn'>强制的</td><td class='en'>mandatory</td><td class='ex'><b>It is mandatory</b> to wear a helmet when riding an e-bike.</td></tr>
+<tr><td class='cn'>可取的</td><td class='en'>advisable</td><td class='ex'><b>It is advisable</b> to arrive ten minutes early for an interview.</td></tr>
+</tbody></table></div>
 </div>
 <div class='pat'>
+<div class='patintro'>
 <div class='pathead'>
 <div class='patnum'>PATTERN 2 / 9</div>
 <div class='formula'>It is/was + adj. + of + someone【宾格】 + to do</div>
 <div class='note'><b>It was kind</b> of you to help me when I was sick.</div>
-</div>
+</div></div>
+<div class='catwrap'>
 <div class='cat'>正面品质<span class='en'>Positive Qualities</span></div>
 <table><tbody>
 <tr><td class='cn'>善良的</td><td class='en'>kind</td><td class='ex'><b>It was kind</b> of you to help the old woman.</td></tr>
@@ -109,7 +124,19 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>勇敢的</td><td class='en'>brave</td><td class='ex'><b>It was brave</b> of her to speak up in the meeting.</td></tr>
 <tr><td class='cn'>有耐心的</td><td class='en'>patient</td><td class='ex'><b>It was patient</b> of you to explain the app to your mom.</td></tr>
 <tr><td class='cn'>有礼貌的</td><td class='en'>polite</td><td class='ex'><b>It was polite</b> of him to hold the door for others.</td></tr>
-</tbody></table>
+</tbody></table></div>
+<div class='catwrap'>
+<div class='cat'>中性品质<span class='en'>Neutral Qualities</span></div>
+<table><tbody>
+<tr><td class='cn'>小心的</td><td class='en'>careful</td><td class='ex'><b>It was careful</b> of you to double-check the bill.</td></tr>
+<tr><td class='cn'>冷静的</td><td class='en'>calm</td><td class='ex'><b>It was calm</b> of him to stay quiet during the argument.</td></tr>
+<tr><td class='cn'>谨慎的</td><td class='en'>cautious</td><td class='ex'><b>It was cautious</b> of you to check the contract before signing.</td></tr>
+<tr><td class='cn'>理性的</td><td class='en'>rational</td><td class='ex'><b>It was rational</b> of you to compare prices before buying.</td></tr>
+<tr><td class='cn'>明智的</td><td class='en'>sensible</td><td class='ex'><b>It was sensible</b> of him to take an umbrella.</td></tr>
+<tr><td class='cn'>直接的</td><td class='en'>direct</td><td class='ex'><b>It was direct</b> of you to say no right away.</td></tr>
+<tr><td class='cn'>克制的</td><td class='en'>restrained</td><td class='ex'><b>It was restrained</b> of him not to argue with the rude customer.</td></tr>
+</tbody></table></div>
+<div class='catwrap'>
 <div class='cat'>负面品质<span class='en'>Negative Qualities</span></div>
 <table><tbody>
 <tr><td class='cn'>粗暴的</td><td class='en'>rude</td><td class='ex'><b>It was rude</b> of you to shout at the waiter.</td></tr>
@@ -122,14 +149,16 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>不负责任的</td><td class='en'>irresponsible</td><td class='ex'><b>It was irresponsible</b> of her to quit without notice.</td></tr>
 <tr><td class='cn'>不礼貌的</td><td class='en'>impolite</td><td class='ex'><b>It was impolite</b> of him to check his phone during the interview.</td></tr>
 <tr><td class='cn'>刻薄的</td><td class='en'>mean</td><td class='ex'><b>It was mean</b> of you to share that photo without asking.</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
 <div class='pat'>
+<div class='patintro'>
 <div class='pathead'>
 <div class='patnum'>PATTERN 3 / 9</div>
 <div class='formula'>It takes/took someone (宾格) + some time + to do</div>
 <div class='note'><b>It takes me 20 minutes</b> to walk to the subway station.</div>
-</div>
+</div></div>
+<div class='catwrap'>
 <div class='cat'>时间相关<span class='en'>Time</span></div>
 <table><tbody>
 <tr><td class='cn'>花时间</td><td class='en'>takes time</td><td class='ex'><b>It takes time</b> to learn a new skill well.</td></tr>
@@ -143,14 +172,16 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>花两个月</td><td class='en'>takes two months</td><td class='ex'><b>It took him two months</b> to find a new job.</td></tr>
 <tr><td class='cn'>花一个周末</td><td class='en'>takes a weekend</td><td class='ex'><b>It took us a whole weekend</b> to move to the new apartment.</td></tr>
 <tr><td class='cn'>花一辈子</td><td class='en'>takes a lifetime</td><td class='ex'><b>It takes a lifetime</b> to really master a language.</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
 <div class='pat'>
+<div class='patintro'>
 <div class='pathead'>
 <div class='patnum'>PATTERN 4 / 9</div>
 <div class='formula'>It costs/cost someone (宾格) + 成本 + to do</div>
 <div class='note'><b>It cost me 200 yuan</b> to get my bike repaired.</div>
-</div>
+</div></div>
+<div class='catwrap'>
 <div class='cat'>金钱成本<span class='en'>Money</span></div>
 <table><tbody>
 <tr><td class='cn'>花多少钱</td><td class='en'>costs money</td><td class='ex'><b>It costs a lot of money</b> to raise a child in a big city.</td></tr>
@@ -160,7 +191,8 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>花几千块</td><td class='en'>costs thousands</td><td class='ex'><b>It costs thousands of yuan</b> to attend a training camp.</td></tr>
 <tr><td class='cn'>花额外钱</td><td class='en'>costs extra</td><td class='ex'><b>It cost me extra</b> to book the hotel at the last minute.</td></tr>
 <tr><td class='cn'>花月钱</td><td class='en'>costs (monthly)</td><td class='ex'><b>It costs about 500 yuan a month</b> to have meals delivered.</td></tr>
-</tbody></table>
+</tbody></table></div>
+<div class='catwrap'>
 <div class='cat'>非金钱成本<span class='en'>Non-Monetary Cost</span></div>
 <table><tbody>
 <tr><td class='cn'>付出代价</td><td class='en'>costs (effort)</td><td class='ex'><b>It cost him his health</b> to work 80 hours a week.</td></tr>
@@ -169,14 +201,16 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>花周末</td><td class='en'>costs weekends</td><td class='ex'><b>It cost me my weekends</b> to finish the project.</td></tr>
 <tr><td class='cn'>花睡眠</td><td class='en'>costs sleep</td><td class='ex'><b>It cost him his sleep</b> worrying about the exam.</td></tr>
 <tr><td class='cn'>花时间</td><td class='en'>costs time</td><td class='ex'><b>It costs me an hour a day</b> just to commute.</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
 <div class='pat'>
+<div class='patintro'>
 <div class='pathead'>
 <div class='patnum'>PATTERN 5 / 9</div>
 <div class='formula'>It is + adj./n. + doing</div>
 <div class='note'><b>It is useless</b> complaining. / <b>It is no use</b> complaining.</div>
-</div>
+</div></div>
+<div class='catwrap'>
 <div class='cat'>值得 / 有用<span class='en'>Worthwhile &amp; Useful</span></div>
 <table><tbody>
 <tr><td class='cn'>有用的</td><td class='en'>useful</td><td class='ex'><b>It is useful</b> knowing how to use AI tools at work.</td></tr>
@@ -187,7 +221,8 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>有趣的</td><td class='en'>fun</td><td class='ex'><b>It is fun</b> playing board games with friends.</td></tr>
 <tr><td class='cn'>放松的</td><td class='en'>relaxing</td><td class='ex'><b>It is relaxing</b> reading a book before bed.</td></tr>
 <tr><td class='cn'>令人享受的</td><td class='en'>enjoyable</td><td class='ex'><b>It is enjoyable</b> watching a movie with your family.</td></tr>
-</tbody></table>
+</tbody></table></div>
+<div class='catwrap'>
 <div class='cat'>不值得 / 没用<span class='en'>Not Worth &amp; Useless</span></div>
 <table><tbody>
 <tr><td class='cn'>没用的</td><td class='en'>useless</td><td class='ex'><b>It is useless</b> worrying all day but doing nothing.</td></tr>
@@ -198,14 +233,16 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>令人挫败的</td><td class='en'>frustrating</td><td class='ex'><b>It is frustrating</b> waiting for a reply that never comes.</td></tr>
 <tr><td class='cn'>浪费时间的</td><td class='en'>wasteful</td><td class='ex'><b>It is wasteful</b> spending two hours scrolling short videos.</td></tr>
 <tr><td class='cn'>有压力的</td><td class='en'>stressful</td><td class='ex'><b>It is stressful</b> comparing yourself with friends online.</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
 <div class='pat'>
+<div class='patintro'>
 <div class='pathead'>
 <div class='patnum'>PATTERN 6 / 9</div>
 <div class='formula'>It is/was + n. + to do</div>
 <div class='note'><b>It is a great idea</b> to learn English here.</div>
-</div>
+</div></div>
+<div class='catwrap'>
 <div class='cat'>正面<span class='en'>Positive</span></div>
 <table><tbody>
 <tr><td class='cn'>享受</td><td class='en'>pleasure</td><td class='ex'><b>It is a pleasure</b> to have coffee at a nice cafe.</td></tr>
@@ -218,7 +255,8 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>幸运</td><td class='en'>privilege</td><td class='ex'><b>It is a privilege</b> to get a good education in a big city.</td></tr>
 <tr><td class='cn'>梦想</td><td class='en'>dream</td><td class='ex'><b>It is a dream</b> to open a small cafe by the lake.</td></tr>
 <tr><td class='cn'>目标</td><td class='en'>goal</td><td class='ex'><b>It is a good goal</b> to save 20% of your income every month.</td></tr>
-</tbody></table>
+</tbody></table></div>
+<div class='catwrap'>
 <div class='cat'>中性 / 负面<span class='en'>Neutral &amp; Negative</span></div>
 <table><tbody>
 <tr><td class='cn'>事情</td><td class='en'>business</td><td class='ex'><b>It is my business</b> to check emails every morning.</td></tr>
@@ -231,14 +269,16 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>习惯</td><td class='en'>habit</td><td class='ex'><b>It is a bad habit</b> to check your phone as soon as you wake up.</td></tr>
 <tr><td class='cn'>麻烦</td><td class='en'>hassle</td><td class='ex'><b>It is a hassle</b> to find a parking spot downtown.</td></tr>
 <tr><td class='cn'>风险</td><td class='en'>risk</td><td class='ex'><b>It is a risk</b> to invest all your money in one stock.</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
 <div class='pat'>
+<div class='patintro'>
 <div class='pathead'>
 <div class='patnum'>PATTERN 7 / 9</div>
 <div class='formula'>It is + n./adj. + that 从句</div>
 <div class='note'><b>It is a fact</b> that Chinese EVs sell well around the world.</div>
-</div>
+</div></div>
+<div class='catwrap'>
 <div class='cat'>名词搭配<span class='en'>Noun Collocations</span></div>
 <table><tbody>
 <tr><td class='cn'>可惜</td><td class='en'>a pity</td><td class='ex'><b>It is a pity</b> that no one learns old crafts anymore.</td></tr>
@@ -253,7 +293,8 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>常识</td><td class='en'>common knowledge</td><td class='ex'><b>It is common knowledge</b> that breakfast is important.</td></tr>
 <tr><td class='cn'>常见现象</td><td class='en'>a common sight</td><td class='ex'><b>It is a common sight</b> that people watch short videos on the metro.</td></tr>
 <tr><td class='cn'>福气</td><td class='en'>a blessing</td><td class='ex'><b>It is a blessing</b> that our parents are still healthy.</td></tr>
-</tbody></table>
+</tbody></table></div>
+<div class='catwrap'>
 <div class='cat'>形容词搭配<span class='en'>Adjective Collocations</span></div>
 <table><tbody>
 <tr><td class='cn'>烦人的</td><td class='en'>annoying</td><td class='ex'><b>It is annoying</b> that people don't mute their phones in meetings.</td></tr>
@@ -268,14 +309,16 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>奇怪的</td><td class='en'>strange</td><td class='ex'><b>It is strange</b> that the store has no customers but great reviews.</td></tr>
 <tr><td class='cn'>令人担忧的</td><td class='en'>worrying</td><td class='ex'><b>It is worrying</b> that young people sleep less and less.</td></tr>
 <tr><td class='cn'>令人欣慰的</td><td class='en'>comforting</td><td class='ex'><b>It is comforting</b> that more cities now have good public hospitals.</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
 <div class='pat'>
+<div class='patintro'>
 <div class='pathead'>
 <div class='patnum'>PATTERN 8 / 9</div>
 <div class='formula'>It + be + 动词过去分词 + that 从句</div>
 <div class='note'><b>It is believed</b> that smoking is bad for our health.</div>
-</div>
+</div></div>
+<div class='catwrap'>
 <div class='cat'>客观表述<span class='en'>Objective Statements</span></div>
 <table><tbody>
 <tr><td class='cn'>公认</td><td class='en'>accepted</td><td class='ex'><b>It is accepted</b> that too much short video is bad for focus.</td></tr>
@@ -289,7 +332,8 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>众所周知</td><td class='en'>known</td><td class='ex'><b>It is known</b> that good sleep improves your memory.</td></tr>
 <tr><td class='cn'>已被证实</td><td class='en'>proven</td><td class='ex'><b>It is proven</b> that regular exercise reduces stress.</td></tr>
 <tr><td class='cn'>已确认</td><td class='en'>confirmed</td><td class='ex'><b>It is confirmed</b> that the new mall will open next month.</td></tr>
-</tbody></table>
+</tbody></table></div>
+<div class='catwrap'>
 <div class='cat'>主观推测<span class='en'>Subjective Speculation</span></div>
 <table><tbody>
 <tr><td class='cn'>希望</td><td class='en'>hoped</td><td class='ex'><b>It is hoped</b> that house prices will not go up anymore.</td></tr>
@@ -302,14 +346,16 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>要求</td><td class='en'>required</td><td class='ex'><b>It is required</b> that you have a visa to travel abroad.</td></tr>
 <tr><td class='cn'>担忧</td><td class='en'>feared</td><td class='ex'><b>It is feared</b> that many small shops will close this year.</td></tr>
 <tr><td class='cn'>承认</td><td class='en'>admitted</td><td class='ex'><b>It is admitted</b> that the app collected too much personal data.</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
 <div class='pat'>
+<div class='patintro'>
 <div class='pathead'>
 <div class='patnum'>PATTERN 9 / 9</div>
 <div class='formula'>It + 特定动词 + that 从句</div>
 <div class='note'><b>It seems</b> that no one knows what happened in the park.</div>
-</div>
+</div></div>
+<div class='catwrap'>
 <div class='cat'>推测 / 结果<span class='en'>Speculation &amp; Result</span></div>
 <table><tbody>
 <tr><td class='cn'>似乎</td><td class='en'>seems</td><td class='ex'><b>It seems</b> that this year's exam will be harder.</td></tr>
@@ -321,7 +367,8 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>最新消息</td><td class='en'>emerged</td><td class='ex'><b>It emerged</b> that house prices in small towns are also falling.</td></tr>
 <tr><td class='cn'>突然想到</td><td class='en'>occurs</td><td class='ex'><b>It occurs to me</b> that I can use AI for my weekly report.</td></tr>
 <tr><td class='cn'>后来发现</td><td class='en'>turned out</td><td class='ex'><b>It turned out</b> that the weather forecast was completely wrong.</td></tr>
-</tbody></table>
+</tbody></table></div>
+<div class='catwrap'>
 <div class='cat'>心理活动 / 想法<span class='en'>Mental Activities</span></div>
 <table><tbody>
 <tr><td class='cn'>突然意识到</td><td class='en'>strikes me</td><td class='ex'><b>It strikes me</b> that the 35-year-old worry is just fear created by others.</td></tr>
@@ -332,6 +379,6 @@ td.ex b { font-weight: 800; }
 <tr><td class='cn'>偶尔想</td><td class='en'>crosses my mind</td><td class='ex'><b>It crosses my mind</b> that I could have chosen a different path.</td></tr>
 <tr><td class='cn'>猛然想到</td><td class='en'>hits me</td><td class='ex'><b>It hits me</b> that I haven't called my parents in two weeks.</td></tr>
 <tr><td class='cn'>提醒我</td><td class='en'>reminds me</td><td class='ex'><b>It reminds me</b> that I need to renew my passport.</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
 </div></body></html>

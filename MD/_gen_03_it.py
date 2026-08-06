@@ -6,9 +6,10 @@ MD/03-it-句型.md  →  HTML 预览（MD/_03-it-句型.html）  →  A4 PDF（P
 
 设计要点（对应 2026-08 修改需求）：
   1. 例句只占一行：例句列足够宽 + nowrap，并用浏览器实测防止溢出；
-  2. 例句显眼：浅灰底 + 左侧深色竖条 + 句型核心加粗；
+  2. 例句显眼且省墨：无灰色填充，用「加粗 + 下划线 + 左侧竖条」突出句型核心；
   3. 每种用法例句更多：直接扩充 MD 内容；
-  4. 例句全部按 2026 · 中国 · 成年人场景重新审查。
+  4. 例句全部按 2026 · 中国 · 成年人场景重新审查；
+  5. 字号整体放大，保证打印后清晰可读。
 
 用法:
   .venv/bin/python MD/_gen_03_it.py
@@ -33,43 +34,45 @@ CSS = """
 html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 body {
     font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-    color: #1a1a1a; background: #fff;
+    color: #111; background: #fff;
     -webkit-print-color-adjust: exact; print-color-adjust: exact;
 }
 .sheet { width: 210mm; padding: 0; }
 
 /* ---------- 封面头 ---------- */
 .title { border-bottom: 3px solid #111; padding: 1mm 0 3.2mm; margin-bottom: 4.5mm; }
-.title h1 { font-size: 21px; font-weight: 800; letter-spacing: 1px; }
-.title .sub { font-size: 9.5px; color: #666; margin-top: 1.8mm; letter-spacing: 1.5px; }
-.title .tip { font-size: 9px; color: #888; margin-top: 1.5mm; }
+.title h1 { font-size: 24px; font-weight: 800; letter-spacing: 1px; }
+.title .sub { font-size: 11px; color: #555; margin-top: 2mm; letter-spacing: 1.5px; }
+.title .tip { font-size: 10.5px; color: #666; margin-top: 1.8mm; }
 
 /* ---------- 句型区块：自然分页，标题与首行不拆开 ---------- */
 .pat { break-inside: auto; }
+.patintro { break-inside: avoid; page-break-inside: avoid; }
 .pathead, .cat { break-after: avoid; page-break-after: avoid; }
 .pathead { border-bottom: 2px solid #111; padding-bottom: 2.4mm; margin-bottom: 2.8mm; }
-.patnum { font-size: 8.5px; font-weight: 800; letter-spacing: 2.5px; color: #8b8b8b; }
-.formula { font-size: 14px; font-weight: 800; margin-top: 1mm; }
-.note { font-size: 9.5px; color: #666; font-style: italic; margin-top: 1.8mm; }
+.patnum { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; color: #666; }
+.formula { font-size: 17px; font-weight: 800; margin-top: 1.2mm; }
+.note { font-size: 11px; color: #555; font-style: italic; margin-top: 2mm; }
 
 /* ---------- 用法分类 ---------- */
+.catwrap { break-inside: avoid; page-break-inside: avoid; }
 .cat {
-    font-size: 11.5px; font-weight: 800; border-left: 1.1mm solid #111;
-    padding-left: 2.5mm; margin: 3.4mm 0 1.6mm;
+    font-size: 13.5px; font-weight: 800; border-left: 1.2mm solid #111;
+    padding-left: 2.5mm; margin: 3.8mm 0 1.8mm;
 }
-.cat .en { font-weight: 400; color: #7a7a7a; font-size: 8.5px; letter-spacing: 1.2px; margin-left: 2mm; }
+.cat .en { font-weight: 400; color: #666; font-size: 10px; letter-spacing: 1.2px; margin-left: 2mm; }
 
-/* ---------- 例句行：词义 | 词汇 | 高亮例句 ---------- */
-table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0 1.4mm; }
+/* ---------- 例句行：词义 | 词汇 | 高亮例句（省墨：无灰底） ---------- */
+table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0 1.3mm; }
 tr { break-inside: avoid; page-break-inside: avoid; }
 td { padding: 1.5mm 2mm; vertical-align: middle; }
-td.cn { width: 17mm; font-size: 10px; font-weight: 600; color: #555; white-space: nowrap; overflow: hidden; }
-td.en { width: 36mm; font-size: 10.5px; font-weight: 700; white-space: nowrap; overflow: hidden; }
+td.cn { width: 17mm; font-size: 11.5px; font-weight: 600; color: #444; white-space: nowrap; overflow: hidden; }
+td.en { width: 33mm; font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; }
 td.ex {
-    font-size: 11px; font-weight: 500; background: #f2f2f2;
-    border-left: 1mm solid #111; white-space: nowrap; overflow: hidden;
+    font-size: 12px; font-weight: 500;
+    border-left: 1.1mm solid #111; white-space: nowrap; overflow: hidden;
 }
-td.ex b { font-weight: 800; }
+td.ex b { font-weight: 800; text-decoration: underline; }
 """
 
 
@@ -150,13 +153,15 @@ def build_html(patterns: list[dict]) -> str:
     ]
     for i, pat in enumerate(patterns, 1):
         parts.append("<div class='pat'>")
+        parts.append("<div class='patintro'>")
         parts.append("<div class='pathead'>")
         parts.append(f"<div class='patnum'>PATTERN {i} / 9</div>")
         parts.append(f"<div class='formula'>{inline(pat['formula'])}</div>")
         if pat["note"]:
             parts.append(f"<div class='note'>{inline(pat['note'])}</div>")
-        parts.append("</div>")
+        parts.append("</div></div>")
         for cat in pat["cats"]:
+            parts.append("<div class='catwrap'>")
             parts.append(
                 f"<div class='cat'>{inline(cat['cn'])}<span class='en'>{inline(cat['en'])}</span></div>"
             )
@@ -167,7 +172,7 @@ def build_html(patterns: list[dict]) -> str:
                     f"<td class='en'>{inline(en)}</td>"
                     f"<td class='ex'>{inline(ex)}</td></tr>"
                 )
-            parts.append("</tbody></table>")
+            parts.append("</tbody></table></div>")
         parts.append("</div>")
     parts.append("</div></body></html>")
     return "\n".join(parts)
