@@ -1,0 +1,4305 @@
+<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'>
+<title>单一对象描述练习题</title><style>
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+    font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    color: #111; background: #fff;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+.sheet { width: 210mm; padding: 0; }
+
+/* ---------- 封面头 ---------- */
+.title { border-bottom: 3px solid #111; padding: 1mm 0 3.2mm; margin-bottom: 4.5mm; }
+.title h1 { font-size: 24px; font-weight: 800; letter-spacing: 1px; }
+
+/* ---------- 场景（日常生活 / 商务场景版） ---------- */
+.part { break-inside: auto; page-break-inside: auto; }
+.parthead {
+    break-inside: avoid; page-break-inside: avoid;
+    border-bottom: 2px solid #111; padding-bottom: 2.4mm; margin-bottom: 2.8mm;
+    margin-top: 5mm;
+}
+.partnum { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; color: #666; }
+.parttitle { font-size: 17px; font-weight: 800; margin-top: 1mm; }
+
+/* ---------- 用法分类 ---------- */
+.catwrap { break-inside: auto; page-break-inside: auto; }
+.cat {
+    break-inside: avoid; page-break-inside: avoid;
+    break-after: avoid; page-break-after: avoid;
+    font-size: 13.5px; font-weight: 800; border-left: 1.2mm solid #111;
+    padding-left: 2.5mm; margin: 3.8mm 0 1.8mm;
+}
+
+/* ---------- 编号例句：中文 + 英文 ---------- */
+.item { break-inside: avoid; page-break-inside: avoid; margin-bottom: 1.5mm; }
+.itemline {
+    display: table; width: 100%; table-layout: fixed;
+}
+.num {
+    display: table-cell; width: 9mm; font-size: 10px; font-weight: 800;
+    color: #666; padding-top: 0.8mm; vertical-align: top;
+}
+.zh {
+    display: table-cell; font-size: 12px; font-weight: 500;
+    border-left: 0.8mm solid #111; padding-left: 2.5mm;
+    vertical-align: top; padding-top: 0.5mm;
+}
+.en {
+    font-size: 10.5px; color: #555; margin: 0.8mm 0 0 11.5mm; line-height: 1.35;
+}
+.hl { font-weight: 800; text-decoration: underline; }
+
+</style></head><body><div class='sheet'>
+<div class='title'><h1>单一对象描述练习题</h1></div>
+<div class='part'>
+<div class='parthead'>
+<div class='partnum'>PART 1 / 2</div>
+<div class='parttitle'>日常生活</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>一、形容词类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>房间很<span class='hl'>整洁</span>。</div>
+</div>
+<div class='en'>The room is <span class='hl'>tidy</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>饭菜闻起来很<span class='hl'>香</span>。</div>
+</div>
+<div class='en'>The meal smells <span class='hl'>delicious</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>这首歌听起来很<span class='hl'>动听</span>。</div>
+</div>
+<div class='en'>This song sounds <span class='hl'>beautiful</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>他的态度很<span class='hl'>友好</span>。</div>
+</div>
+<div class='en'>His attitude is <span class='hl'>friendly</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>地板摸起来很<span class='hl'>光滑</span>。</div>
+</div>
+<div class='en'>The floor feels <span class='hl'>smooth</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>这部剧很<span class='hl'>有趣</span>。</div>
+</div>
+<div class='en'>This drama is <span class='hl'>interesting</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>牛奶尝起来很<span class='hl'>甜</span>。</div>
+</div>
+<div class='en'>The milk tastes <span class='hl'>sweet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>天气很<span class='hl'>潮湿</span>。</div>
+</div>
+<div class='en'>The weather is <span class='hl'>humid</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>她的笑容很<span class='hl'>温暖</span>。</div>
+</div>
+<div class='en'>Her smile is <span class='hl'>warm</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>这个包很<span class='hl'>轻便</span>。</div>
+</div>
+<div class='en'>This bag is <span class='hl'>light and handy</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>会议室很<span class='hl'>宽敞</span>。</div>
+</div>
+<div class='en'>The meeting room is <span class='hl'>spacious</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>这杯水很<span class='hl'>凉</span>。</div>
+</div>
+<div class='en'>This glass of water is <span class='hl'>cold</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>他看起来很<span class='hl'>年轻</span>。</div>
+</div>
+<div class='en'>He looks <span class='hl'>young</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>任务很<span class='hl'>简单</span>。</div>
+</div>
+<div class='en'>The task is <span class='hl'>simple</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>空气很<span class='hl'>清新</span>。</div>
+</div>
+<div class='en'>The air is <span class='hl'>fresh</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>这件衣服很<span class='hl'>舒服</span>。</div>
+</div>
+<div class='en'>This clothes is <span class='hl'>comfortable</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>问题很<span class='hl'>复杂</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>complicated</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>蛋糕尝起来很<span class='hl'>美味</span>。</div>
+</div>
+<div class='en'>The cake tastes <span class='hl'>delicious</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>他感觉很<span class='hl'>焦虑</span>。</div>
+</div>
+<div class='en'>He feels <span class='hl'>anxious</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>这本书很<span class='hl'>有趣</span>。</div>
+</div>
+<div class='en'>This book is <span class='hl'>interesting</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>公交车很<span class='hl'>拥挤</span>。</div>
+</div>
+<div class='en'>The bus is <span class='hl'>crowded</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>花园里很<span class='hl'>热闹</span>。</div>
+</div>
+<div class='en'>The garden is <span class='hl'>lively</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>她的声音很<span class='hl'>轻柔</span>。</div>
+</div>
+<div class='en'>Her voice is <span class='hl'>soft</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>这把椅子很<span class='hl'>结实</span>。</div>
+</div>
+<div class='en'>This chair is <span class='hl'>sturdy</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>今天的阳光很<span class='hl'>明媚</span>。</div>
+</div>
+<div class='en'>The sunshine today is <span class='hl'>bright</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>这份工作很<span class='hl'>忙碌</span>。</div>
+</div>
+<div class='en'>This job is <span class='hl'>busy</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>那部电影很<span class='hl'>感人</span>。</div>
+</div>
+<div class='en'>That movie is <span class='hl'>moving</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>咖啡闻起来很<span class='hl'>苦</span>。</div>
+</div>
+<div class='en'>The coffee smells <span class='hl'>bitter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>街道很<span class='hl'>干净</span>。</div>
+</div>
+<div class='en'>The street is <span class='hl'>clean</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>他看起来很<span class='hl'>严肃</span>。</div>
+</div>
+<div class='en'>He looks <span class='hl'>serious</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>这个主意很<span class='hl'>聪明</span>。</div>
+</div>
+<div class='en'>This idea is <span class='hl'>smart</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>湖水很<span class='hl'>清澈</span>。</div>
+</div>
+<div class='en'>The lake water is <span class='hl'>clear</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>这件衬衫很<span class='hl'>合身</span>。</div>
+</div>
+<div class='en'>This shirt <span class='hl'>fits well</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>考试很<span class='hl'>困难</span>。</div>
+</div>
+<div class='en'>The exam is <span class='hl'>difficult</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>微风感觉很<span class='hl'>凉爽</span>。</div>
+</div>
+<div class='en'>The breeze feels <span class='hl'>cool</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>这家餐厅很<span class='hl'>有名</span>。</div>
+</div>
+<div class='en'>This restaurant is <span class='hl'>famous</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>他的回答很<span class='hl'>准确</span>。</div>
+</div>
+<div class='en'>His answer is <span class='hl'>accurate</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>玩具很<span class='hl'>可爱</span>。</div>
+</div>
+<div class='en'>The toy is <span class='hl'>cute</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>夜晚很<span class='hl'>安静</span>。</div>
+</div>
+<div class='en'>The night is <span class='hl'>quiet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>这份蛋糕很<span class='hl'>甜腻</span>。</div>
+</div>
+<div class='en'>This cake is <span class='hl'>too sweet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>她看起来很<span class='hl'>开心</span>。</div>
+</div>
+<div class='en'>She looks <span class='hl'>happy</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>电脑运行很<span class='hl'>流畅</span>。</div>
+</div>
+<div class='en'>The computer runs <span class='hl'>smoothly</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>山路很<span class='hl'>陡峭</span>。</div>
+</div>
+<div class='en'>The mountain road is <span class='hl'>steep</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>他的演讲很<span class='hl'>精彩</span>。</div>
+</div>
+<div class='en'>His speech is <span class='hl'>wonderful</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>香皂闻起来很<span class='hl'>香</span>。</div>
+</div>
+<div class='en'>The soap smells <span class='hl'>fragrant</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>教室很<span class='hl'>明亮</span>。</div>
+</div>
+<div class='en'>The classroom is <span class='hl'>bright</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>这个决定很<span class='hl'>明智</span>。</div>
+</div>
+<div class='en'>This decision is <span class='hl'>wise</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>冰淇淋尝起来很<span class='hl'>冰凉</span>。</div>
+</div>
+<div class='en'>The ice cream tastes <span class='hl'>cold</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>他感觉很<span class='hl'>轻松</span>。</div>
+</div>
+<div class='en'>He feels <span class='hl'>relaxed</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>这座建筑很<span class='hl'>宏伟</span>。</div>
+</div>
+<div class='en'>This building is <span class='hl'>magnificent</span>.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>二、名词类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>他是<span class='hl'>一名医生</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>a doctor</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>我是<span class='hl'>一名公司职员</span>。</div>
+</div>
+<div class='en'>I am <span class='hl'>a company employee</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>她是<span class='hl'>一名英语老师</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>an English teacher</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>这是<span class='hl'>一支钢笔</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a pen</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>那是<span class='hl'>一杯果汁</span>。</div>
+</div>
+<div class='en'>That is <span class='hl'>a glass of juice</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>我的爱好是<span class='hl'>绘画</span>。</div>
+</div>
+<div class='en'>My hobby is <span class='hl'>painting</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>他的职业是<span class='hl'>律师</span>。</div>
+</div>
+<div class='en'>His profession is <span class='hl'>a lawyer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>这是<span class='hl'>一台笔记本电脑</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a laptop</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>那是<span class='hl'>一辆自行车</span>。</div>
+</div>
+<div class='en'>That is <span class='hl'>a bicycle</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>我的专业是<span class='hl'>计算机</span>。</div>
+</div>
+<div class='en'>My major is <span class='hl'>computer science</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>她是<span class='hl'>一名护士</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>a nurse</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>这是<span class='hl'>一本故事书</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a storybook</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>他的梦想是<span class='hl'>飞行员</span>。</div>
+</div>
+<div class='en'>His dream is to be <span class='hl'>a pilot</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>这是<span class='hl'>一杯咖啡</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a cup of coffee</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>我的宠物是<span class='hl'>一只猫</span>。</div>
+</div>
+<div class='en'>My pet is <span class='hl'>a cat</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>她是<span class='hl'>一名设计师</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>a designer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>那是<span class='hl'>一台打印机</span>。</div>
+</div>
+<div class='en'>That is <span class='hl'>a printer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>他的爱好是<span class='hl'>钓鱼</span>。</div>
+</div>
+<div class='en'>His hobby is <span class='hl'>fishing</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>这是<span class='hl'>一张书桌</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a desk</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>我的家乡是<span class='hl'>一座小城</span>。</div>
+</div>
+<div class='en'>My hometown is <span class='hl'>a small city</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>他是<span class='hl'>一名消防员</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>a firefighter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>那是<span class='hl'>一瓶矿泉水</span>。</div>
+</div>
+<div class='en'>That is <span class='hl'>a bottle of mineral water</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>她的职业是<span class='hl'>摄影师</span>。</div>
+</div>
+<div class='en'>Her profession is <span class='hl'>a photographer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>这是<span class='hl'>一个书包</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a schoolbag</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>我的特长是<span class='hl'>唱歌</span>。</div>
+</div>
+<div class='en'>My specialty is <span class='hl'>singing</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>他是<span class='hl'>一名厨师</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>a cook</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>那是<span class='hl'>一幅油画</span>。</div>
+</div>
+<div class='en'>That is <span class='hl'>an oil painting</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>她的梦想是<span class='hl'>作家</span>。</div>
+</div>
+<div class='en'>Her dream is to be <span class='hl'>a writer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>这是<span class='hl'>一把雨伞</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>an umbrella</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>我的团队是<span class='hl'>市场部</span>。</div>
+</div>
+<div class='en'>My team is <span class='hl'>the Marketing Department</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>他是<span class='hl'>一名警察</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>a policeman</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>那是<span class='hl'>一台投影仪</span>。</div>
+</div>
+<div class='en'>That is <span class='hl'>a projector</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>她的爱好是<span class='hl'>瑜伽</span>。</div>
+</div>
+<div class='en'>Her hobby is <span class='hl'>yoga</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>这是<span class='hl'>一杯奶茶</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a cup of milk tea</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>我的宠物是<span class='hl'>一只狗</span>。</div>
+</div>
+<div class='en'>My pet is <span class='hl'>a dog</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>他是<span class='hl'>一名程序员</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>a programmer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>那是<span class='hl'>一本字典</span>。</div>
+</div>
+<div class='en'>That is <span class='hl'>a dictionary</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>她的职业是<span class='hl'>化妆师</span>。</div>
+</div>
+<div class='en'>Her profession is <span class='hl'>a makeup artist</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>这是<span class='hl'>一张椅子</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a chair</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>我的专业是<span class='hl'>汉语言文学</span>。</div>
+</div>
+<div class='en'>My major is <span class='hl'>Chinese Language and Literature</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>他是<span class='hl'>一名快递员</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>a courier</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>那是<span class='hl'>一辆电动车</span>。</div>
+</div>
+<div class='en'>That is <span class='hl'>an electric car</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>她的梦想是<span class='hl'>画家</span>。</div>
+</div>
+<div class='en'>Her dream is to be <span class='hl'>a painter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>这是<span class='hl'>一个文件夹</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a folder</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>我的爱好是<span class='hl'>跑步</span>。</div>
+</div>
+<div class='en'>My hobby is <span class='hl'>running</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>他是<span class='hl'>一名教师</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>a teacher</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>那是<span class='hl'>一杯红茶</span>。</div>
+</div>
+<div class='en'>That is <span class='hl'>a cup of black tea</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>她的职业是<span class='hl'>花艺师</span>。</div>
+</div>
+<div class='en'>Her profession is <span class='hl'>a florist</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>这是<span class='hl'>一台相机</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a camera</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>我的故乡是<span class='hl'>北京</span>。</div>
+</div>
+<div class='en'>My hometown is <span class='hl'>Beijing</span>.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>三、动名词(doing)类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'><span class='hl'>阅读</span>能增长见识。</div>
+</div>
+<div class='en'><span class='hl'>Reading</span> can increase knowledge.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'><span class='hl'>跑步</span>对身体有益。</div>
+</div>
+<div class='en'><span class='hl'>Running</span> is good for the body.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'><span class='hl'>唱歌</span>能缓解压力。</div>
+</div>
+<div class='en'><span class='hl'>Singing</span> can relieve pressure.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'><span class='hl'>画画</span>是一种享受。</div>
+</div>
+<div class='en'><span class='hl'>Painting</span> is a kind of enjoyment.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'><span class='hl'>做饭</span>很有乐趣。</div>
+</div>
+<div class='en'><span class='hl'>Cooking</span> is great fun.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'><span class='hl'>练字</span>能培养耐心。</div>
+</div>
+<div class='en'><span class='hl'>Practicing calligraphy</span> can cultivate patience.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'><span class='hl'>游泳</span>能锻炼体能。</div>
+</div>
+<div class='en'><span class='hl'>Swimming</span> can exercise physical fitness.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'><span class='hl'>听歌</span>能放松心情。</div>
+</div>
+<div class='en'><span class='hl'>Listening to music</span> can relax the mood.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'><span class='hl'>写作</span>能表达想法。</div>
+</div>
+<div class='en'><span class='hl'>Writing</span> can express ideas.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'><span class='hl'>爬山</span>能挑战自我。</div>
+</div>
+<div class='en'><span class='hl'>Climbing mountains</span> can challenge oneself.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'><span class='hl'>瑜伽</span>能舒缓身心。</div>
+</div>
+<div class='en'><span class='hl'>Yoga</span> can soothe the body and mind.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'><span class='hl'>烘焙</span>能带来快乐。</div>
+</div>
+<div class='en'><span class='hl'>Baking</span> can bring happiness.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'><span class='hl'>骑行</span>能欣赏风景。</div>
+</div>
+<div class='en'><span class='hl'>Cycling</span> can enjoy the scenery.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'><span class='hl'>读书</span>能开阔眼界。</div>
+</div>
+<div class='en'><span class='hl'>Reading</span> can broaden one's horizons.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'><span class='hl'>跳舞</span>能提升气质。</div>
+</div>
+<div class='en'><span class='hl'>Dancing</span> can improve temperament.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'><span class='hl'>泡茶</span>能修养身心。</div>
+</div>
+<div class='en'><span class='hl'>Making tea</span> can cultivate the mind and body.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'><span class='hl'>健身</span>能保持身材。</div>
+</div>
+<div class='en'><span class='hl'>Working out</span> can keep fit.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'><span class='hl'>朗诵</span>能锻炼口才。</div>
+</div>
+<div class='en'><span class='hl'>Reciting</span> can exercise eloquence.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'><span class='hl'>摄影</span>能记录美好。</div>
+</div>
+<div class='en'><span class='hl'>Taking photos</span> can record the beauty.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'><span class='hl'>手工</span>能培养创造力。</div>
+</div>
+<div class='en'><span class='hl'>Doing handwork</span> can cultivate creativity.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'><span class='hl'>冥想</span>能平复情绪。</div>
+</div>
+<div class='en'><span class='hl'>Meditating</span> can calm the mood.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'><span class='hl'>慢跑</span>能增强体质。</div>
+</div>
+<div class='en'><span class='hl'>Jogging</span> can strengthen the physique.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'><span class='hl'>K歌</span>能释放心情。</div>
+</div>
+<div class='en'><span class='hl'>Singing K</span> can release the mood.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'><span class='hl'>书法</span>能陶冶情操。</div>
+</div>
+<div class='en'><span class='hl'>Calligraphy</span> can cultivate one's taste.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'><span class='hl'>徒步</span>能亲近自然。</div>
+</div>
+<div class='en'><span class='hl'>Hiking</span> can get close to nature.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'><span class='hl'>画画</span>能释放想象力。</div>
+</div>
+<div class='en'><span class='hl'>Painting</span> can release imagination.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'><span class='hl'>做饭</span>能提升生活技能。</div>
+</div>
+<div class='en'><span class='hl'>Cooking</span> can improve life skills.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'><span class='hl'>阅读英文原著</span>能提高英语。</div>
+</div>
+<div class='en'><span class='hl'>Reading English original works</span> can improve English.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'><span class='hl'>晨练</span>能开启美好的一天。</div>
+</div>
+<div class='en'><span class='hl'>Doing morning exercises</span> can start a nice day.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'><span class='hl'>整理房间</span>能改善心情。</div>
+</div>
+<div class='en'><span class='hl'>Tidying the room</span> can improve the mood.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'><span class='hl'>记笔记</span>能帮助记忆。</div>
+</div>
+<div class='en'><span class='hl'>Taking notes</span> can help with memory.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'><span class='hl'>听播客</span>能获取知识。</div>
+</div>
+<div class='en'><span class='hl'>Listening to podcasts</span> can acquire knowledge.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'><span class='hl'>跳绳</span>能锻炼心肺功能。</div>
+</div>
+<div class='en'><span class='hl'>Skipping rope</span> can exercise cardiopulmonary function.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'><span class='hl'>养花</span>能培养责任感。</div>
+</div>
+<div class='en'><span class='hl'>Raising flowers</span> can cultivate a sense of responsibility.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'><span class='hl'>下棋</span>能锻炼思维。</div>
+</div>
+<div class='en'><span class='hl'>Playing chess</span> can exercise thinking.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'><span class='hl'>弹钢琴</span>能提升艺术修养。</div>
+</div>
+<div class='en'><span class='hl'>Playing the piano</span> can improve artistic accomplishment.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'><span class='hl'>打扫卫生</span>能保持整洁。</div>
+</div>
+<div class='en'><span class='hl'>Cleaning</span> can keep tidy.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'><span class='hl'>背单词</span>能积累词汇。</div>
+</div>
+<div class='en'><span class='hl'>Reciting words</span> can accumulate vocabulary.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'><span class='hl'>散步</span>能促进消化。</div>
+</div>
+<div class='en'><span class='hl'>Walking</span> can promote digestion.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'><span class='hl'>拍视频</span>能记录生活。</div>
+</div>
+<div class='en'><span class='hl'>Shooting videos</span> can record life.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'><span class='hl'>练字</span>能提升书写水平。</div>
+</div>
+<div class='en'><span class='hl'>Practicing calligraphy</span> can improve writing skills.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'><span class='hl'>骑行</span>能锻炼耐力。</div>
+</div>
+<div class='en'><span class='hl'>Cycling</span> can exercise endurance.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'><span class='hl'>做手工</span>能打发时间。</div>
+</div>
+<div class='en'><span class='hl'>Doing handwork</span> can kill time.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'><span class='hl'>听有声书</span>能利用碎片时间。</div>
+</div>
+<div class='en'><span class='hl'>Listening to audiobooks</span> can make use of fragmented time.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'><span class='hl'>爬山</span>能磨练意志。</div>
+</div>
+<div class='en'><span class='hl'>Climbing mountains</span> can temper one's will.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'><span class='hl'>烘焙</span>能锻炼动手能力。</div>
+</div>
+<div class='en'><span class='hl'>Baking</span> can exercise practical ability.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'><span class='hl'>游泳</span>能解暑降温。</div>
+</div>
+<div class='en'><span class='hl'>Swimming</span> can relieve summer heat.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'><span class='hl'>写日记</span>能梳理心情。</div>
+</div>
+<div class='en'><span class='hl'>Keeping a diary</span> can sort out the mood.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'><span class='hl'>瑜伽</span>能改善体态。</div>
+</div>
+<div class='en'><span class='hl'>Yoga</span> can improve body posture.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'><span class='hl'>沟通</span>能解决问题。</div>
+</div>
+<div class='en'><span class='hl'>Communicating</span> can solve problems.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>四、表语从句类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>问题是<span class='hl'>我们找不到钥匙了</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that we can't find the keys</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>事实是<span class='hl'>他根本没去过那里</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that he has never been there at all</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>我的想法是<span class='hl'>我们明天再出发</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>that we will set off tomorrow</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>关键是<span class='hl'>我们要按时完成工作</span>。</div>
+</div>
+<div class='en'>The key is <span class='hl'>that we have to finish the work on time</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>疑问是<span class='hl'>他是否会参加聚会</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether he will attend the party</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>结果是<span class='hl'>我们顺利通过了考核</span>。</div>
+</div>
+<div class='en'>The result is <span class='hl'>that we passed the assessment smoothly</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>我的建议是<span class='hl'>我们先商量一下</span>。</div>
+</div>
+<div class='en'>My suggestion is <span class='hl'>that we discuss it first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>问题是<span class='hl'>这台机器出了故障</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that this machine is out of order</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>事实是<span class='hl'>她已经提前完成了任务</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that she has finished the task in advance</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>核心是<span class='hl'>我们要统一意见</span>。</div>
+</div>
+<div class='en'>The core is <span class='hl'>that we have to reach a consensus</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>疑问是<span class='hl'>会议是否要提前开始</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the meeting will start in advance</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>我的想法是<span class='hl'>我们换一条路线</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>that we change a route</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>重点是<span class='hl'>我们要注意细节</span>。</div>
+</div>
+<div class='en'>The point is <span class='hl'>that we have to pay attention to details</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>问题是<span class='hl'>快递还没有送达</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that the express delivery hasn't arrived yet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>事实是<span class='hl'>他忘记了这件事</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that he forgot this matter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>我的计划是<span class='hl'>周末去爬山</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>that I will climb mountains on the weekend</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>疑问是<span class='hl'>他是否知道这个消息</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether he knows the news</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>关键是<span class='hl'>我们要准备充分</span>。</div>
+</div>
+<div class='en'>The key is <span class='hl'>that we have to be fully prepared</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>结果是<span class='hl'>我们赢得了比赛</span>。</div>
+</div>
+<div class='en'>The result is <span class='hl'>that we won the game</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>我的观点是<span class='hl'>我们应该尝试新方法</span>。</div>
+</div>
+<div class='en'>My opinion is <span class='hl'>that we should try new methods</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>问题是<span class='hl'>网络突然断了</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that the internet suddenly cut off</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>事实是<span class='hl'>这份资料已经更新了</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that this material has been updated</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>我的建议是<span class='hl'>我们休息十分钟</span>。</div>
+</div>
+<div class='en'>My suggestion is <span class='hl'>that we take a ten-minute break</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>核心是<span class='hl'>我们要提高效率</span>。</div>
+</div>
+<div class='en'>The core is <span class='hl'>that we have to improve efficiency</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>疑问是<span class='hl'>航班是否会晚点</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the flight will be delayed</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>我的想法是<span class='hl'>我们先做调研</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>that we do research first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>重点是<span class='hl'>我们要保证质量</span>。</div>
+</div>
+<div class='en'>The point is <span class='hl'>that we have to guarantee the quality</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>问题是<span class='hl'>他联系不上了</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that we can't get in touch with him</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>事实是<span class='hl'>我们误解了他的意思</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that we misunderstood him</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>我的计划是<span class='hl'>月底完成总结</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>that I will finish the summary at the end of the month</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>疑问是<span class='hl'>她是否愿意加入我们</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether she is willing to join us</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>关键是<span class='hl'>我们要遵守规则</span>。</div>
+</div>
+<div class='en'>The key is <span class='hl'>that we have to abide by the rules</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>结果是<span class='hl'>我们顺利达成了合作</span>。</div>
+</div>
+<div class='en'>The result is <span class='hl'>that we reached the cooperation smoothly</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>我的观点是<span class='hl'>我们应该多沟通</span>。</div>
+</div>
+<div class='en'>My opinion is <span class='hl'>that we should communicate more</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>问题是<span class='hl'>打印机没墨了</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that the printer has no ink</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>事实是<span class='hl'>今天是他的生日</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that today is his birthday</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>我的建议是<span class='hl'>我们打车过去</span>。</div>
+</div>
+<div class='en'>My suggestion is <span class='hl'>that we go there by taxi</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>核心是<span class='hl'>我们要明确目标</span>。</div>
+</div>
+<div class='en'>The core is <span class='hl'>that we have to clarify the goal</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>疑问是<span class='hl'>会议是否会持续到下午</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the meeting will last until the afternoon</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>我的想法是<span class='hl'>我们先整理资料</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>that we sort out the materials first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>重点是<span class='hl'>我们要节约成本</span>。</div>
+</div>
+<div class='en'>The point is <span class='hl'>that we have to save costs</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>问题是<span class='hl'>天气预报说明天有雨</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that the weather forecast says it will rain tomorrow</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>事实是<span class='hl'>他已经辞职了</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that he has resigned</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>我的计划是<span class='hl'>明年去旅游</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>that I will travel next year</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>疑问是<span class='hl'>他是否接受这个安排</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether he accepts this arrangement</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>关键是<span class='hl'>我们要团结协作</span>。</div>
+</div>
+<div class='en'>The key is <span class='hl'>that we have to unite and cooperate</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>结果是<span class='hl'>我们的方案被采纳了</span>。</div>
+</div>
+<div class='en'>The result is <span class='hl'>that our plan was adopted</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>我的观点是<span class='hl'>我们应该放慢脚步</span>。</div>
+</div>
+<div class='en'>My opinion is <span class='hl'>that we should slow down</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>问题是<span class='hl'>这份文件找不到了</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that this document can't be found</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>事实是<span class='hl'>我们都错了</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that we are all wrong</span>.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>五、介词短语类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>手机<span class='hl'>在桌子上</span>。</div>
+</div>
+<div class='en'>The mobile phone is <span class='hl'>on the table</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>钥匙<span class='hl'>在书包里</span>。</div>
+</div>
+<div class='en'>The keys are <span class='hl'>in the schoolbag</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>会议<span class='hl'>在上午九点</span>。</div>
+</div>
+<div class='en'>The meeting is <span class='hl'>at nine o'clock in the morning</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>他来<span class='hl'>自杭州</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>from Hangzhou</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>杯子<span class='hl'>在冰箱里</span>。</div>
+</div>
+<div class='en'>The cup is <span class='hl'>in the fridge</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>资料<span class='hl'>在文件夹里</span>。</div>
+</div>
+<div class='en'>The materials are <span class='hl'>in the folder</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>聚会<span class='hl'>在周六晚上</span>。</div>
+</div>
+<div class='en'>The party is <span class='hl'>on Saturday night</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>她来<span class='hl'>自加拿大</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>from Canada</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>笔<span class='hl'>在笔筒里</span>。</div>
+</div>
+<div class='en'>The pen is <span class='hl'>in the pen holder</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>书本<span class='hl'>在书架上</span>。</div>
+</div>
+<div class='en'>The books are <span class='hl'>on the bookshelf</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>面试<span class='hl'>在下午两点</span>。</div>
+</div>
+<div class='en'>The interview is <span class='hl'>at two o'clock in the afternoon</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>他来<span class='hl'>自广州</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>from Guangzhou</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>钱包<span class='hl'>在口袋里</span>。</div>
+</div>
+<div class='en'>The wallet is <span class='hl'>in the pocket</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>花盆<span class='hl'>在窗台上</span>。</div>
+</div>
+<div class='en'>The flower pot is <span class='hl'>on the windowsill</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>培训<span class='hl'>在周一上午</span>。</div>
+</div>
+<div class='en'>The training is <span class='hl'>on Monday morning</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>她来<span class='hl'>自澳大利亚</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>from Australia</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>纸巾<span class='hl'>在抽屉里</span>。</div>
+</div>
+<div class='en'>The tissue is <span class='hl'>in the drawer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>电脑<span class='hl'>在书桌前</span>。</div>
+</div>
+<div class='en'>The computer is <span class='hl'>in front of the desk</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>演出<span class='hl'>在晚上七点</span>。</div>
+</div>
+<div class='en'>The performance is <span class='hl'>at seven o'clock in the evening</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>他来<span class='hl'>自四川</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>from Sichuan</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>眼镜<span class='hl'>在床头柜上</span>。</div>
+</div>
+<div class='en'>The glasses are <span class='hl'>on the bedside table</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>垃圾桶<span class='hl'>在门旁边</span>。</div>
+</div>
+<div class='en'>The trash can is <span class='hl'>next to the door</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>约会<span class='hl'>在周五下午</span>。</div>
+</div>
+<div class='en'>The date is <span class='hl'>on Friday afternoon</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>她来<span class='hl'>自上海</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>from Shanghai</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>雨伞<span class='hl'>在门后</span>。</div>
+</div>
+<div class='en'>The umbrella is <span class='hl'>behind the door</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>咖啡机<span class='hl'>在厨房台面上</span>。</div>
+</div>
+<div class='en'>The coffee machine is <span class='hl'>on the kitchen counter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>考试<span class='hl'>在本周六</span>。</div>
+</div>
+<div class='en'>The exam is <span class='hl'>on this Saturday</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>他来<span class='hl'>自湖南</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>from Hunan</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>充电器<span class='hl'>在抽屉里</span>。</div>
+</div>
+<div class='en'>The charger is <span class='hl'>in the drawer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>绿植<span class='hl'>在客厅角落</span>。</div>
+</div>
+<div class='en'>The green plants are <span class='hl'>in the corner of the living room</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>团建<span class='hl'>在周日上午</span>。</div>
+</div>
+<div class='en'>The team building is <span class='hl'>on Sunday morning</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>她来<span class='hl'>自英国</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>from the UK</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>笔记本<span class='hl'>在包里</span>。</div>
+</div>
+<div class='en'>The notebook is <span class='hl'>in the bag</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>台灯<span class='hl'>在书桌上</span>。</div>
+</div>
+<div class='en'>The desk lamp is <span class='hl'>on the desk</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>航班<span class='hl'>在早上八点</span>。</div>
+</div>
+<div class='en'>The flight is <span class='hl'>at eight o'clock in the morning</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>他来<span class='hl'>自重庆</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>from Chongqing</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>剪刀<span class='hl'>在工具箱里</span>。</div>
+</div>
+<div class='en'>The scissors are <span class='hl'>in the toolbox</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>沙发<span class='hl'>在客厅中间</span>。</div>
+</div>
+<div class='en'>The sofa is <span class='hl'>in the middle of the living room</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>讲座<span class='hl'>在周三下午</span>。</div>
+</div>
+<div class='en'>The lecture is <span class='hl'>on Wednesday afternoon</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>她来<span class='hl'>自江苏</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>from Jiangsu</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>水杯<span class='hl'>在办公桌上</span>。</div>
+</div>
+<div class='en'>The water cup is <span class='hl'>on the office desk</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>鞋柜<span class='hl'>在玄关处</span>。</div>
+</div>
+<div class='en'>The shoe cabinet is <span class='hl'>at the entrance</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>生日会<span class='hl'>在周日晚上</span>。</div>
+</div>
+<div class='en'>The birthday party is <span class='hl'>on Sunday night</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>他来<span class='hl'>自湖北</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>from Hubei</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>订书机<span class='hl'>在桌面右侧</span>。</div>
+</div>
+<div class='en'>The stapler is <span class='hl'>on the right side of the desk</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>冰箱<span class='hl'>在厨房角落</span>。</div>
+</div>
+<div class='en'>The fridge is <span class='hl'>in the corner of the kitchen</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>研讨会<span class='hl'>在本月十号</span>。</div>
+</div>
+<div class='en'>The seminar is <span class='hl'>on the 10th of this month</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>她来<span class='hl'>自美国</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>from the USA</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>文件夹<span class='hl'>在书架下层</span>。</div>
+</div>
+<div class='en'>The folder is <span class='hl'>on the lower layer of the bookshelf</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>洗衣机<span class='hl'>在阳台左侧</span>。</div>
+</div>
+<div class='en'>The washing machine is <span class='hl'>on the left side of the balcony</span>.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>六、不定式(to do)类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>我的目标是<span class='hl'>今年学会开车</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to learn to drive this year</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>我的计划是<span class='hl'>周末去看电影</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to watch a movie on the weekend</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>她的愿望是<span class='hl'>去国外旅游</span>。</div>
+</div>
+<div class='en'>Her wish is <span class='hl'>to travel abroad</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>我的想法是<span class='hl'>先完成作业</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to finish the homework first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>要<span class='hl'>成功</span>就要<span class='hl'>努力付出</span>。</div>
+</div>
+<div class='en'><span class='hl'>To succeed</span> is <span class='hl'>to work hard</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>我的目标是<span class='hl'>掌握一门外语</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to master a foreign language</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>我的计划是<span class='hl'>明天去超市购物</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to go shopping in the supermarket tomorrow</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>他的愿望是<span class='hl'>成为一名作家</span>。</div>
+</div>
+<div class='en'>His wish is <span class='hl'>to become a writer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>我的想法是<span class='hl'>先休息一下</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to take a rest first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>要<span class='hl'>健康</span>就要<span class='hl'>坚持锻炼</span>。</div>
+</div>
+<div class='en'><span class='hl'>To keep healthy</span> is <span class='hl'>to stick to exercise</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>我的目标是<span class='hl'>年底存一笔钱</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to save a sum of money at the end of the year</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>我的计划是<span class='hl'>下周去拜访朋友</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to visit friends next week</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>她的愿望是<span class='hl'>开一家小店</span>。</div>
+</div>
+<div class='en'>Her wish is <span class='hl'>to open a small shop</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>我的想法是<span class='hl'>先吃点东西</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to have something to eat first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>要<span class='hl'>进步</span>就要<span class='hl'>不断学习</span>。</div>
+</div>
+<div class='en'><span class='hl'>To make progress</span> is <span class='hl'>to keep learning</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>我的目标是<span class='hl'>提高工作效率</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to improve work efficiency</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>我的计划是<span class='hl'>假期去爬山</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to climb mountains during the holiday</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>他的愿望是<span class='hl'>环游世界</span>。</div>
+</div>
+<div class='en'>His wish is <span class='hl'>to travel around the world</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>我的想法是<span class='hl'>先商量方案</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to discuss the plan first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>要<span class='hl'>优秀</span>就要<span class='hl'>严于律己</span>。</div>
+</div>
+<div class='en'><span class='hl'>To be excellent</span> is <span class='hl'>to be strict with oneself</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>我的目标是<span class='hl'>学会做烘焙</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to learn to bake</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>我的计划是<span class='hl'>今晚整理房间</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to tidy the room tonight</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>她的愿望是<span class='hl'>考上理想的学校</span>。</div>
+</div>
+<div class='en'>Her wish is <span class='hl'>to be admitted to the ideal school</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>我的想法是<span class='hl'>先检查一遍</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to check it first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>要<span class='hl'>顺利</span>就要<span class='hl'>提前准备</span>。</div>
+</div>
+<div class='en'><span class='hl'>To go smoothly</span> is <span class='hl'>to prepare in advance</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>我的目标是<span class='hl'>减重十斤</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to lose ten jin</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>我的计划是<span class='hl'>明天去健身房</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to go to the gym tomorrow</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>他的愿望是<span class='hl'>拥有一辆车</span>。</div>
+</div>
+<div class='en'>His wish is <span class='hl'>to own a car</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>我的想法是<span class='hl'>先打个电话</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to make a phone call first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>要<span class='hl'>成长</span>就要<span class='hl'>接受挑战</span>。</div>
+</div>
+<div class='en'><span class='hl'>To grow up</span> is <span class='hl'>to accept challenges</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>我的目标是<span class='hl'>学会弹吉他</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to learn to play the guitar</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>我的计划是<span class='hl'>周末去图书馆</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to go to the library on the weekend</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>她的愿望是<span class='hl'>见到偶像</span>。</div>
+</div>
+<div class='en'>Her wish is <span class='hl'>to meet her idol</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>我的想法是<span class='hl'>先喝杯水</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to drink a glass of water first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>要<span class='hl'>合群</span>就要<span class='hl'>学会包容</span>。</div>
+</div>
+<div class='en'><span class='hl'>To be sociable</span> is <span class='hl'>to learn to be tolerant</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>我的目标是<span class='hl'>完成年度任务</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to finish the annual task</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>我的计划是<span class='hl'>下周去看展览</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to visit the exhibition next week</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>他的愿望是<span class='hl'>成为一名摄影师</span>。</div>
+</div>
+<div class='en'>His wish is <span class='hl'>to become a photographer</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>我的想法是<span class='hl'>先整理资料</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to sort out the materials first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>要<span class='hl'>快乐</span>就要<span class='hl'>保持乐观</span>。</div>
+</div>
+<div class='en'><span class='hl'>To be happy</span> is <span class='hl'>to keep optimistic</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>我的目标是<span class='hl'>学会游泳</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to learn to swim</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>我的计划是<span class='hl'>今晚看一本书</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to read a book tonight</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>她的愿望是<span class='hl'>拥有一个花园</span>。</div>
+</div>
+<div class='en'>Her wish is <span class='hl'>to own a garden</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>我的想法是<span class='hl'>先确认时间</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to confirm the time first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>要<span class='hl'>高效</span>就要<span class='hl'>合理规划</span>。</div>
+</div>
+<div class='en'><span class='hl'>To be efficient</span> is <span class='hl'>to plan reasonably</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>我的目标是<span class='hl'>提高英语口语</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to improve oral English</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>我的计划是<span class='hl'>假期去海边</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to go to the seaside during the holiday</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>他的愿望是<span class='hl'>开一家咖啡店</span>。</div>
+</div>
+<div class='en'>His wish is <span class='hl'>to open a coffee shop</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>我的想法是<span class='hl'>先提交申请</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to submit the application first</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>要<span class='hl'>成功</span>就要<span class='hl'>永不放弃</span>。</div>
+</div>
+<div class='en'><span class='hl'>To succeed</span> is <span class='hl'>to never give up</span>.</div>
+</div>
+</div>
+</div>
+<div class='part'>
+<div class='parthead'>
+<div class='partnum'>PART 2 / 2</div>
+<div class='parttitle'>商务场景版</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>一、形容词类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>这份方案很<span class='hl'>完善</span>。</div>
+</div>
+<div class='en'>This plan is <span class='hl'>perfect</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>市场反馈很<span class='hl'>积极</span>。</div>
+</div>
+<div class='en'>The market feedback is <span class='hl'>positive</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>合作方的态度很<span class='hl'>诚恳</span>。</div>
+</div>
+<div class='en'>The partner's attitude is <span class='hl'>sincere</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>这份报表看起来很<span class='hl'>精准</span>。</div>
+</div>
+<div class='en'>This report looks <span class='hl'>accurate</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>新产品的设计很<span class='hl'>新颖</span>。</div>
+</div>
+<div class='en'>The design of the new product is <span class='hl'>innovative</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>本次会议很<span class='hl'>高效</span>。</div>
+</div>
+<div class='en'>This meeting is <span class='hl'>highly efficient</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>客户的要求很<span class='hl'>明确</span>。</div>
+</div>
+<div class='en'>The customer's requirements are <span class='hl'>clear</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>公司的管理制度很<span class='hl'>规范</span>。</div>
+</div>
+<div class='en'>The company's management system is <span class='hl'>standardized</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>这份合同的条款很<span class='hl'>合理</span>。</div>
+</div>
+<div class='en'>The terms of this contract are <span class='hl'>reasonable</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>物流配送的速度很<span class='hl'>快捷</span>。</div>
+</div>
+<div class='en'>The logistics distribution is <span class='hl'>fast and convenient</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>团队的协作很<span class='hl'>顺畅</span>。</div>
+</div>
+<div class='en'>The team's cooperation is <span class='hl'>smooth</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>这款软件的操作很<span class='hl'>简便</span>。</div>
+</div>
+<div class='en'>The operation of this software is <span class='hl'>simple</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>商务洽谈的氛围很<span class='hl'>融洽</span>。</div>
+</div>
+<div class='en'>The atmosphere of the business negotiation is <span class='hl'>harmonious</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>财务数据很<span class='hl'>准确</span>。</div>
+</div>
+<div class='en'>The financial data is <span class='hl'>accurate</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>产品的质量很<span class='hl'>可靠</span>。</div>
+</div>
+<div class='en'>The product quality is <span class='hl'>reliable</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>这份提案很<span class='hl'>有说服力</span>。</div>
+</div>
+<div class='en'>This proposal is <span class='hl'>persuasive</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>对方的回复很<span class='hl'>及时</span>。</div>
+</div>
+<div class='en'>The other party's reply is <span class='hl'>timely</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>办公系统的运行很<span class='hl'>稳定</span>。</div>
+</div>
+<div class='en'>The office system runs <span class='hl'>stably</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>本次展会的效果很<span class='hl'>显著</span>。</div>
+</div>
+<div class='en'>The effect of this exhibition is <span class='hl'>remarkable</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>项目的进度很<span class='hl'>理想</span>。</div>
+</div>
+<div class='en'>The project progress is <span class='hl'>ideal</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>合作的前景很<span class='hl'>广阔</span>。</div>
+</div>
+<div class='en'>The prospect of cooperation is <span class='hl'>broad</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>这份调研报告很<span class='hl'>详细</span>。</div>
+</div>
+<div class='en'>This research report is <span class='hl'>detailed</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>员工的工作状态很<span class='hl'>饱满</span>。</div>
+</div>
+<div class='en'>The employees' work state is <span class='hl'>energetic</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>商务接待的安排很<span class='hl'>周到</span>。</div>
+</div>
+<div class='en'>The arrangement of business reception is <span class='hl'>thoughtful</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>产品的性价比很<span class='hl'>高</span>。</div>
+</div>
+<div class='en'>The product has a <span class='hl'>high</span> cost performance ratio.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>合同的内容很<span class='hl'>严谨</span>。</div>
+</div>
+<div class='en'>The content of the contract is <span class='hl'>rigorous</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>市场的需求很<span class='hl'>旺盛</span>。</div>
+</div>
+<div class='en'>The market demand is <span class='hl'>strong</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>这份策划书很<span class='hl'>有创意</span>。</div>
+</div>
+<div class='en'>This planning document is <span class='hl'>creative</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>双方的沟通很<span class='hl'>顺畅</span>。</div>
+</div>
+<div class='en'>The communication between the two sides is <span class='hl'>smooth</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>公司的发展势头很<span class='hl'>良好</span>。</div>
+</div>
+<div class='en'>The company's development momentum is <span class='hl'>good</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>这份预算很<span class='hl'>合理</span>。</div>
+</div>
+<div class='en'>This budget is <span class='hl'>reasonable</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>行业趋势很<span class='hl'>明朗</span>。</div>
+</div>
+<div class='en'>The industry trend is <span class='hl'>clear</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>产品的设计很<span class='hl'>人性化</span>。</div>
+</div>
+<div class='en'>The product design is <span class='hl'>user-friendly</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>商务谈判的节奏很<span class='hl'>适中</span>。</div>
+</div>
+<div class='en'>The pace of business negotiation is <span class='hl'>moderate</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>数据报表很<span class='hl'>清晰</span>。</div>
+</div>
+<div class='en'>The data report is <span class='hl'>clear</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>客户的反馈很<span class='hl'>客观</span>。</div>
+</div>
+<div class='en'>The customer's feedback is <span class='hl'>objective</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>团队的执行力很<span class='hl'>强</span>。</div>
+</div>
+<div class='en'>The team's executive power is <span class='hl'>strong</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>投资的回报很<span class='hl'>可观</span>。</div>
+</div>
+<div class='en'>The investment return is <span class='hl'>considerable</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>产品的竞争力很<span class='hl'>强</span>。</div>
+</div>
+<div class='en'>The product's competitiveness is <span class='hl'>strong</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>办公环境很<span class='hl'>舒适</span>。</div>
+</div>
+<div class='en'>The office environment is <span class='hl'>comfortable</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>合作的条款很<span class='hl'>优惠</span>。</div>
+</div>
+<div class='en'>The cooperation terms are <span class='hl'>favorable</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>市场的潜力很<span class='hl'>大</span>。</div>
+</div>
+<div class='en'>The market potential is <span class='hl'>huge</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>这份分析报告很<span class='hl'>专业</span>。</div>
+</div>
+<div class='en'>This analysis report is <span class='hl'>professional</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>员工的专业素养很<span class='hl'>高</span>。</div>
+</div>
+<div class='en'>The employees' professional quality is <span class='hl'>high</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>商务函件的措辞很<span class='hl'>正式</span>。</div>
+</div>
+<div class='en'>The wording of the business letter is <span class='hl'>formal</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>项目的风险很<span class='hl'>低</span>。</div>
+</div>
+<div class='en'>The project risk is <span class='hl'>low</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>品牌的知名度很<span class='hl'>高</span>。</div>
+</div>
+<div class='en'>The brand awareness is <span class='hl'>high</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>供应链的运转很<span class='hl'>顺畅</span>。</div>
+</div>
+<div class='en'>The supply chain operates <span class='hl'>smoothly</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>这份总结很<span class='hl'>全面</span>。</div>
+</div>
+<div class='en'>This summary is <span class='hl'>comprehensive</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>客户的满意度很<span class='hl'>高</span>。</div>
+</div>
+<div class='en'>The customer satisfaction is <span class='hl'>high</span>.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>二、名词类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>他是<span class='hl'>公司的市场总监</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>the Marketing Director of the company</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>这份文件是<span class='hl'>商务合同</span>。</div>
+</div>
+<div class='en'>This document is <span class='hl'>a business contract</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>我的职位是<span class='hl'>销售经理</span>。</div>
+</div>
+<div class='en'>My position is <span class='hl'>Sales Manager</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>这是<span class='hl'>一份项目可行性报告</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a project feasibility report</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>我们的合作方是<span class='hl'>外资企业</span>。</div>
+</div>
+<div class='en'>Our partner is <span class='hl'>a foreign-funded enterprise</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>她是<span class='hl'>公司的财务主管</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>the Finance Supervisor of the company</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>这是<span class='hl'>一款高端商务产品</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a high-end business product</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>我的部门是<span class='hl'>研发部</span>。</div>
+</div>
+<div class='en'>My department is <span class='hl'>the R&amp;D Department</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>这份资料是<span class='hl'>行业分析报告</span>。</div>
+</div>
+<div class='en'>This material is <span class='hl'>an industry analysis report</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>我们的公司是<span class='hl'>高新技术企业</span>。</div>
+</div>
+<div class='en'>Our company is <span class='hl'>a high-tech enterprise</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>他是<span class='hl'>本次项目的负责人</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>the person in charge of this project</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>这是<span class='hl'>一份正式的商务函件</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a formal business letter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>她的岗位是<span class='hl'>行政专员</span>。</div>
+</div>
+<div class='en'>Her post is <span class='hl'>Administrative Specialist</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>这是<span class='hl'>公司的年度财务报表</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>the company's annual financial statement</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>我们的合作模式是<span class='hl'>战略合作</span>。</div>
+</div>
+<div class='en'>Our cooperation mode is <span class='hl'>strategic cooperation</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>他是<span class='hl'>客户方的采购代表</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>the purchasing representative of the client</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>这是<span class='hl'>一款企业管理软件</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>an enterprise management software</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>我的职责是<span class='hl'>商务对接</span>。</div>
+</div>
+<div class='en'>My responsibility is <span class='hl'>business connection</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>这份文件是<span class='hl'>项目立项申请书</span>。</div>
+</div>
+<div class='en'>This document is <span class='hl'>a project application for approval</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>我们的投资方是<span class='hl'>创投公司</span>。</div>
+</div>
+<div class='en'>Our investor is <span class='hl'>a venture capital company</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>她是<span class='hl'>本次会议的主持人</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>the host of this meeting</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>这是<span class='hl'>一份产品报价单</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a product quotation sheet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>他的职位是<span class='hl'>运营总监</span>。</div>
+</div>
+<div class='en'>His position is <span class='hl'>Operation Director</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>这是<span class='hl'>公司的品牌宣传手册</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>the company's brand promotion brochure</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>我们的业务范围是<span class='hl'>跨境电商</span>。</div>
+</div>
+<div class='en'>Our business scope is <span class='hl'>cross-border e-commerce</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>她是<span class='hl'>公司的人力资源经理</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>the Human Resources Manager of the company</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>这是<span class='hl'>一份商务合作协议</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a business cooperation agreement</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>他是<span class='hl'>项目的技术负责人</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>the technical person in charge of the project</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>这是<span class='hl'>公司的季度经营报告</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>the company's quarterly business report</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>我们的核心业务是<span class='hl'>软件开发</span>。</div>
+</div>
+<div class='en'>Our core business is <span class='hl'>software development</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>他是<span class='hl'>公司的CEO</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>the CEO of the company</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>这份文件是<span class='hl'>财务预算表</span>。</div>
+</div>
+<div class='en'>This document is <span class='hl'>a financial budget sheet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>我的岗位是<span class='hl'>产品经理</span>。</div>
+</div>
+<div class='en'>My post is <span class='hl'>Product Manager</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>这是<span class='hl'>一份市场调研问卷</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a market research questionnaire</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>我们的合作方是<span class='hl'>上市公司</span>。</div>
+</div>
+<div class='en'>Our partner is <span class='hl'>a listed company</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>她是<span class='hl'>公司的法务专员</span>。</div>
+</div>
+<div class='en'>She is <span class='hl'>the Legal Specialist of the company</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>这是<span class='hl'>一款智能办公设备</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>an intelligent office device</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>我的部门是<span class='hl'>市场部</span>。</div>
+</div>
+<div class='en'>My department is <span class='hl'>the Marketing Department</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>这份资料是<span class='hl'>竞品分析报告</span>。</div>
+</div>
+<div class='en'>This material is <span class='hl'>a competitive product analysis report</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>我们的公司是<span class='hl'>民营企业</span>。</div>
+</div>
+<div class='en'>Our company is <span class='hl'>a private enterprise</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>他是<span class='hl'>本次展会的负责人</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>the person in charge of this exhibition</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>这是<span class='hl'>一份催款函</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a payment reminder letter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>她的岗位是<span class='hl'>客服专员</span>。</div>
+</div>
+<div class='en'>Her post is <span class='hl'>Customer Service Specialist</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>这是<span class='hl'>公司的月度销售报表</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>the company's monthly sales report</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>我们的合作模式是<span class='hl'>OEM代工</span>。</div>
+</div>
+<div class='en'>Our cooperation mode is <span class='hl'>OEM manufacturing</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>他是<span class='hl'>供应商的销售代表</span>。</div>
+</div>
+<div class='en'>He is <span class='hl'>the sales representative of the supplier</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>这是<span class='hl'>一款客户管理系统</span>。</div>
+</div>
+<div class='en'>This is <span class='hl'>a customer relationship management system</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>我的职责是<span class='hl'>项目跟进</span>。</div>
+</div>
+<div class='en'>My responsibility is <span class='hl'>project follow-up</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>这份文件是<span class='hl'>员工考勤表</span>。</div>
+</div>
+<div class='en'>This document is <span class='hl'>an employee attendance sheet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>我们的投资方是<span class='hl'>私募基金</span>。</div>
+</div>
+<div class='en'>Our investor is <span class='hl'>a private equity fund</span>.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>三、动名词(doing)类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'><span class='hl'>沟通</span>是商务合作的核心。</div>
+</div>
+<div class='en'><span class='hl'>Communicating</span> is the core of business cooperation.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'><span class='hl'>调研</span>能掌握市场真实需求。</div>
+</div>
+<div class='en'><span class='hl'>Researching</span> can grasp the real market demand.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'><span class='hl'>复盘</span>能提升后续工作效率。</div>
+</div>
+<div class='en'><span class='hl'>Reviewing</span> can improve the efficiency of subsequent work.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'><span class='hl'>谈判</span>能促成双方达成共识。</div>
+</div>
+<div class='en'><span class='hl'>Negotiating</span> can help both sides reach a consensus.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'><span class='hl'>规划</span>能明确项目发展方向。</div>
+</div>
+<div class='en'><span class='hl'>Planning</span> can clarify the project development direction.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'><span class='hl'>学习</span>能提升职场专业能力。</div>
+</div>
+<div class='en'><span class='hl'>Learning</span> can improve professional workplace capabilities.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'><span class='hl'>复盘项目</span>能总结经验教训。</div>
+</div>
+<div class='en'><span class='hl'>Reviewing projects</span> can summarize experience and lessons.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'><span class='hl'>维护客户</span>能稳定合作关系。</div>
+</div>
+<div class='en'><span class='hl'>Maintaining customers</span> can stabilize cooperative relations.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'><span class='hl'>分析数据</span>能指导业务决策。</div>
+</div>
+<div class='en'><span class='hl'>Analyzing data</span> can guide business decisions.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'><span class='hl'>优化流程</span>能降低运营成本。</div>
+</div>
+<div class='en'><span class='hl'>Optimizing processes</span> can reduce operational costs.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'><span class='hl'>推广产品</span>能提高市场占有率。</div>
+</div>
+<div class='en'><span class='hl'>Promoting products</span> can increase market share.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'><span class='hl'>整理文档</span>能方便后续查阅。</div>
+</div>
+<div class='en'><span class='hl'>Organizing documents</span> can facilitate future reference.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'><span class='hl'>对接客户</span>能了解真实需求。</div>
+</div>
+<div class='en'><span class='hl'>Connecting with customers</span> can understand real needs.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'><span class='hl'>制定方案</span>能保障项目落地。</div>
+</div>
+<div class='en'><span class='hl'>Making plans</span> can ensure project implementation.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'><span class='hl'>审核合同</span>能规避商务风险。</div>
+</div>
+<div class='en'><span class='hl'>Auditing contracts</span> can avoid business risks.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'><span class='hl'>培训员工</span>能提升团队实力。</div>
+</div>
+<div class='en'><span class='hl'>Training employees</span> can enhance team strength.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'><span class='hl'>跟进项目</span>能确保按时交付。</div>
+</div>
+<div class='en'><span class='hl'>Following up on projects</span> can ensure on-time delivery.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'><span class='hl'>拓展市场</span>能增加公司营收。</div>
+</div>
+<div class='en'><span class='hl'>Expanding the market</span> can increase company revenue.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'><span class='hl'>核对账单</span>能保证财务准确。</div>
+</div>
+<div class='en'><span class='hl'>Checking bills</span> can ensure financial accuracy.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'><span class='hl'>升级产品</span>能提升核心竞争力。</div>
+</div>
+<div class='en'><span class='hl'>Upgrading products</span> can enhance core competitiveness.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'><span class='hl'>召开会议</span>能统一团队思路。</div>
+</div>
+<div class='en'><span class='hl'>Holding meetings</span> can unify team thinking.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'><span class='hl'>撰写报告</span>能反馈工作成果。</div>
+</div>
+<div class='en'><span class='hl'>Writing reports</span> can feedback work results.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'><span class='hl'>协调资源</span>能保障项目推进。</div>
+</div>
+<div class='en'><span class='hl'>Coordinating resources</span> can ensure project progress.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'><span class='hl'>遵守规则</span>能维护商务秩序。</div>
+</div>
+<div class='en'><span class='hl'>Abiding by rules</span> can maintain business order.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'><span class='hl'>创新模式</span>能打破行业瓶颈。</div>
+</div>
+<div class='en'><span class='hl'>Innovating models</span> can break industry bottlenecks.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'><span class='hl'>对接资源</span>能实现互利共赢。</div>
+</div>
+<div class='en'><span class='hl'>Connecting resources</span> can achieve mutual benefit and win-win results.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'><span class='hl'>检查工作</span>能及时发现问题。</div>
+</div>
+<div class='en'><span class='hl'>Inspecting work</span> can find problems in a timely manner.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'><span class='hl'>宣传品牌</span>能提升企业知名度。</div>
+</div>
+<div class='en'><span class='hl'>Promoting the brand</span> can enhance enterprise visibility.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'><span class='hl'>合作</span>能实现双方资源互补。</div>
+</div>
+<div class='en'><span class='hl'>Cooperating</span> can realize resource complementarity between the two sides.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'><span class='hl'>总结工作</span>能梳理年度成果。</div>
+</div>
+<div class='en'><span class='hl'>Summarizing work</span> can sort out annual achievements.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'><span class='hl'>制定预算</span>能把控成本支出。</div>
+</div>
+<div class='en'><span class='hl'>Making budgets</span> can control cost expenditure.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'><span class='hl'>拜访客户</span>能增进合作感情。</div>
+</div>
+<div class='en'><span class='hl'>Visiting customers</span> can enhance cooperative feelings.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'><span class='hl'>分析竞品</span>能找到自身优势。</div>
+</div>
+<div class='en'><span class='hl'>Analyzing competitors</span> can find their own advantages.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'><span class='hl'>优化产品</span>能提升用户体验。</div>
+</div>
+<div class='en'><span class='hl'>Optimizing products</span> can improve user experience.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'><span class='hl'>整理数据</span>能提炼有效信息。</div>
+</div>
+<div class='en'><span class='hl'>Sorting out data</span> can extract effective information.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'><span class='hl'>组织培训</span>能提升员工素养。</div>
+</div>
+<div class='en'><span class='hl'>Organizing training</span> can improve employees' quality.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'><span class='hl'>参加展会</span>能拓展业务渠道。</div>
+</div>
+<div class='en'><span class='hl'>Attending exhibitions</span> can expand business channels.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'><span class='hl'>撰写方案</span>能明确工作思路。</div>
+</div>
+<div class='en'><span class='hl'>Writing plans</span> can clarify work thinking.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'><span class='hl'>核对资料</span>能保证信息准确。</div>
+</div>
+<div class='en'><span class='hl'>Checking materials</span> can ensure information accuracy.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'><span class='hl'>维护品牌</span>能积累客户信任。</div>
+</div>
+<div class='en'><span class='hl'>Maintaining the brand</span> can accumulate customer trust.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'><span class='hl'>制定制度</span>能规范公司管理。</div>
+</div>
+<div class='en'><span class='hl'>Making systems</span> can standardize company management.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'><span class='hl'>跟进订单</span>能确保按时发货。</div>
+</div>
+<div class='en'><span class='hl'>Following up on orders</span> can ensure on-time delivery.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'><span class='hl'>分析市场</span>能把握发展趋势。</div>
+</div>
+<div class='en'><span class='hl'>Analyzing the market</span> can grasp the development trend.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'><span class='hl'>沟通需求</span>能减少工作偏差。</div>
+</div>
+<div class='en'><span class='hl'>Communicating requirements</span> can reduce work deviations.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'><span class='hl'>审核资料</span>能规避工作失误。</div>
+</div>
+<div class='en'><span class='hl'>Auditing materials</span> can avoid work errors.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'><span class='hl'>拓展渠道能增加销售机</span>会。</div>
+</div>
+<div class='en'><span class='hl'>Expanding channels</span> can increase sales opportunities.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'><span class='hl'>团队协作</span>能提高工作效率。</div>
+</div>
+<div class='en'><span class='hl'>Cooperating as a team</span> can improve work efficiency.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'><span class='hl'>学习技</span>能能提升职场价值。</div>
+</div>
+<div class='en'><span class='hl'>Learning skills</span> can improve workplace value.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'><span class='hl'>复盘会议</span>能梳理工作问题。</div>
+</div>
+<div class='en'><span class='hl'>Reviewing meetings</span> can sort out work problems.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'><span class='hl'>制定目标</span>能明确工作方向。</div>
+</div>
+<div class='en'><span class='hl'>Setting goals</span> can clarify work direction.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>四、表语从句类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>问题是<span class='hl'>项目的资金还未到位</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that the project fund has not been in place yet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>事实是<span class='hl'>客户已确认合作意向</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that the customer has confirmed the intention to cooperate</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>我的想法是<span class='hl'>我们下周再洽谈细节</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>that we will discuss the details next week</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>关键是<span class='hl'>我们要按时完成项目交付</span>。</div>
+</div>
+<div class='en'>The key is <span class='hl'>that we need to complete the project delivery on time</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>疑问是<span class='hl'>对方是否接受我们的报价</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the other party will accept our quotation</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>结果是<span class='hl'>本次展会签下了十家合作方</span>。</div>
+</div>
+<div class='en'>The result is <span class='hl'>that we signed ten partners at this exhibition</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>我的建议是<span class='hl'>我们先优化方案再提交</span>。</div>
+</div>
+<div class='en'>My suggestion is <span class='hl'>that we optimize the plan before submitting it</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>核心是<span class='hl'>我们要把控产品的品控环节</span>。</div>
+</div>
+<div class='en'>The core is <span class='hl'>that we need to control the product quality inspection link</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>事实是<span class='hl'>这份合同已通过法务审核</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that this contract has passed the legal review</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>问题是<span class='hl'>物流环节出现了延迟状况</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that there is a delay in the logistics link</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>我的计划是<span class='hl'>本月完成市场调研工作</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>that I will complete the market research work this month</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>疑问是<span class='hl'>会议是否要邀请客户方参加</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the client should be invited to the meeting</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>关键是<span class='hl'>我们要提升客户服务质量</span>。</div>
+</div>
+<div class='en'>The key is <span class='hl'>that we need to improve the quality of customer service</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>事实是<span class='hl'>公司本季度营收超出预期</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that the company's revenue exceeded expectations this quarter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>我的想法是<span class='hl'>我们更换一家合作供应商</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>that we change a cooperative supplier</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>问题是<span class='hl'>研发环节遇到了技术难题</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that we have encountered technical difficulties in the R&amp;D link</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>核心是<span class='hl'>我们要统一团队的工作思路</span>。</div>
+</div>
+<div class='en'>The core is <span class='hl'>that we need to unify the team's work thinking</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>结果是<span class='hl'>双方就合作条款达成了一致</span>。</div>
+</div>
+<div class='en'>The result is <span class='hl'>that the two sides reached an agreement on the cooperation terms</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>我的建议是<span class='hl'>我们增加产品的宣传投入</span>。</div>
+</div>
+<div class='en'>My suggestion is <span class='hl'>that we increase the promotion investment of products</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>疑问是<span class='hl'>项目是否能在年底顺利收尾</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the project can be successfully completed at the end of the year</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>事实是<span class='hl'>竞品近期推出了新款产品</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that competitors have launched new products recently</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>关键是<span class='hl'>我们要规避商务合作的风险</span>。</div>
+</div>
+<div class='en'>The key is <span class='hl'>that we need to avoid the risks of business cooperation</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>我的计划是<span class='hl'>下周拜访重要客户</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>that I will visit important customers next week</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>问题是<span class='hl'>部分员工还未熟悉新的办公系统</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that some employees are not yet familiar with the new office system</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>我的想法是<span class='hl'>我们调整产品的定价策略</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>that we adjust the product pricing strategy</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>核心是<span class='hl'>我们要保障项目的施工安全</span>。</div>
+</div>
+<div class='en'>The core is <span class='hl'>that we need to ensure the construction safety of the project</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>结果是<span class='hl'>本次招商会取得了圆满成功</span>。</div>
+</div>
+<div class='en'>The result is <span class='hl'>that this investment promotion conference was a complete success</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>疑问是<span class='hl'>对方是否会续签年度合作协议</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the other party will renew the annual cooperation agreement</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>事实是<span class='hl'>原材料的价格近期有所上涨</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that the price of raw materials has risen recently</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>我的建议是<span class='hl'>我们建立完善的客户档案</span>。</div>
+</div>
+<div class='en'>My suggestion is <span class='hl'>that we establish a sound customer file</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>问题是<span class='hl'>本次活动的赞助还未落实</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that the sponsorship of this event has not been finalized yet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>事实是<span class='hl'>公司已开启上市筹备工作</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that the company has started the IPO preparation work</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>我的想法是<span class='hl'>我们线上线下同步推广</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>that we promote online and offline simultaneously</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>关键是<span class='hl'>我们要加快产品的研发进度</span>。</div>
+</div>
+<div class='en'>The key is <span class='hl'>that we need to speed up the product R&amp;D progress</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>疑问是<span class='hl'>客户是否会增加采购量</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the customer will increase the purchase volume</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>结果是<span class='hl'>我们成功拿下了这个大单</span>。</div>
+</div>
+<div class='en'>The result is <span class='hl'>that we successfully won this big order</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>我的建议是<span class='hl'>我们重新制定销售目标</span>。</div>
+</div>
+<div class='en'>My suggestion is <span class='hl'>that we reset the sales target</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>核心是<span class='hl'>我们要提升品牌的核心价值</span>。</div>
+</div>
+<div class='en'>The core is <span class='hl'>that we need to enhance the core value of the brand</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>事实是<span class='hl'>这份方案已通过高层审批</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that this plan has passed the senior management approval</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>问题是<span class='hl'>海外市场的拓展遇到了阻碍</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that the expansion of the overseas market has encountered obstacles</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>我的计划是<span class='hl'>本季度完成团队扩招</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>that I will complete the team expansion this quarter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>疑问是<span class='hl'>会议是否要更改为线上形式</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the meeting will be changed to an online form</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>关键是<span class='hl'>我们要优化供应链的布局</span>。</div>
+</div>
+<div class='en'>The key is <span class='hl'>that we need to optimize the supply chain layout</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>事实是<span class='hl'>公司的市场份额持续增长</span>。</div>
+</div>
+<div class='en'>The fact is <span class='hl'>that the company's market share is growing continuously</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>我的想法是<span class='hl'>我们与竞品展开合作</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>that we cooperate with competitors</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>问题是<span class='hl'>办公设备的更新预算被削减</span>。</div>
+</div>
+<div class='en'>The problem is <span class='hl'>that the budget for office equipment renewal has been cut</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>核心是<span class='hl'>我们要建立完善的考核体系</span>。</div>
+</div>
+<div class='en'>The core is <span class='hl'>that we need to establish a sound assessment system</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>结果是<span class='hl'>双方的合作达成了长期共识</span>。</div>
+</div>
+<div class='en'>The result is <span class='hl'>that the two sides have reached a long-term consensus on cooperation</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>我的建议是<span class='hl'>我们增加海外市场的投入</span>。</div>
+</div>
+<div class='en'>My suggestion is <span class='hl'>that we increase investment in the overseas market</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>疑问是<span class='hl'>项目是否能获得政策扶持</span>。</div>
+</div>
+<div class='en'>The question is <span class='hl'>whether the project can obtain policy support</span>.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>五、介词短语类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>合同文件<span class='hl'>在办公桌上</span>。</div>
+</div>
+<div class='en'>The contract documents are <span class='hl'>on the desk</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>商务会议<span class='hl'>在上午十点</span>。</div>
+</div>
+<div class='en'>The business meeting is <span class='hl'>at ten o'clock in the morning</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>合作方来<span class='hl'>自德国</span>。</div>
+</div>
+<div class='en'>The partner is <span class='hl'>from Germany</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>项目资料<span class='hl'>在加密文件夹里</span>。</div>
+</div>
+<div class='en'>The project materials are <span class='hl'>in the encrypted folder</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>产品展会<span class='hl'>在国际会展中心</span>。</div>
+</div>
+<div class='en'>The product exhibition is <span class='hl'>at the International Convention and Exhibition Center</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>财务报表<span class='hl'>在财务系统中</span>。</div>
+</div>
+<div class='en'>The financial statements are <span class='hl'>in the financial system</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>洽谈会<span class='hl'>在三楼贵宾室</span>。</div>
+</div>
+<div class='en'>The negotiation meeting is <span class='hl'>in the VIP room on the third floor</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>客户来<span class='hl'>自东南亚地区</span>。</div>
+</div>
+<div class='en'>The customers are <span class='hl'>from Southeast Asia</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>公章<span class='hl'>在行政部保险柜里</span>。</div>
+</div>
+<div class='en'>The official seal is <span class='hl'>in the safe of the Administrative Department</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>项目启动会<span class='hl'>在本周五下午</span>。</div>
+</div>
+<div class='en'>The project kick-off meeting is <span class='hl'>on this Friday afternoon</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>样品<span class='hl'>在产品展示区</span>。</div>
+</div>
+<div class='en'>The samples are <span class='hl'>in the product exhibition area</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>商务晚宴<span class='hl'>在五星级酒店</span>。</div>
+</div>
+<div class='en'>The business dinner is <span class='hl'>at a five-star hotel</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>供应商来<span class='hl'>自浙江义乌</span>。</div>
+</div>
+<div class='en'>The supplier is <span class='hl'>from Yiwu, Zhejiang</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>会议纪要<span class='hl'>在企业微信群里</span>。</div>
+</div>
+<div class='en'>The meeting minutes are <span class='hl'>in the enterprise WeChat group</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>面试<span class='hl'>在公司二楼会议室</span>。</div>
+</div>
+<div class='en'>The interview is <span class='hl'>in the meeting room on the second floor of the company</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>订单数据<span class='hl'>在ERP系统中</span>。</div>
+</div>
+<div class='en'>The order data is <span class='hl'>in the ERP system</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>合作协议<span class='hl'>在双方法务手中</span>。</div>
+</div>
+<div class='en'>The cooperation agreement is <span class='hl'>in the hands of the legal departments of both sides</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>产品发布会<span class='hl'>在本月十八号</span>。</div>
+</div>
+<div class='en'>The product launch conference is <span class='hl'>on the 18th of this month</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>客户资料<span class='hl'>在CRM系统里</span>。</div>
+</div>
+<div class='en'>The customer information is <span class='hl'>in the CRM system</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>商务考察<span class='hl'>在日本东京</span>。</div>
+</div>
+<div class='en'>The business inspection is <span class='hl'>in Tokyo, Japan</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>报价单<span class='hl'>在邮件附件中</span>。</div>
+</div>
+<div class='en'>The quotation sheet is <span class='hl'>in the email attachment</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>部门例会<span class='hl'>在每周一上午</span>。</div>
+</div>
+<div class='en'>The department regular meeting is <span class='hl'>on every Monday morning</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>技术支持来<span class='hl'>自总公司</span>。</div>
+</div>
+<div class='en'>The technical support is <span class='hl'>from the head office</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>发票<span class='hl'>在财务部门柜台</span>。</div>
+</div>
+<div class='en'>The invoice is <span class='hl'>at the counter of the Finance Department</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>战略合作签约仪式<span class='hl'>在会展中心一号厅</span>。</div>
+</div>
+<div class='en'>The strategic cooperation signing ceremony is <span class='hl'>in Hall 1 of the Convention and Exhibition Center</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>项目方案<span class='hl'>在云端文档里</span>。</div>
+</div>
+<div class='en'>The project plan is <span class='hl'>in the cloud document</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>月度总结会<span class='hl'>在二十五号下午</span>。</div>
+</div>
+<div class='en'>The monthly summary meeting is <span class='hl'>on the afternoon of the 25th</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>原材料来<span class='hl'>自澳大利亚</span>。</div>
+</div>
+<div class='en'>The raw materials are <span class='hl'>from Australia</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>工牌<span class='hl'>在行政部领取处</span>。</div>
+</div>
+<div class='en'>The employee ID card is <span class='hl'>at the collection point of the Administrative Department</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>线上招商会<span class='hl'>在抖音平台</span>进行。</div>
+</div>
+<div class='en'>The online investment promotion conference is held <span class='hl'>on the Douyin platform</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>财务凭证<span class='hl'>在档案柜里</span>。</div>
+</div>
+<div class='en'>The financial vouchers are <span class='hl'>in the filing cabinet</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>行业峰会<span class='hl'>在上海</span>举办。</div>
+</div>
+<div class='en'>The industry summit is held <span class='hl'>in Shanghai</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>合作伙伴来<span class='hl'>自美国</span>。</div>
+</div>
+<div class='en'>The cooperative partner is <span class='hl'>from the USA</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>销售数据<span class='hl'>在大数据平台中</span>。</div>
+</div>
+<div class='en'>The sales data is <span class='hl'>in the big data platform</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>产品样品<span class='hl'>在样品间里</span>。</div>
+</div>
+<div class='en'>The product samples are <span class='hl'>in the sample room</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>商务茶话会<span class='hl'>在公司茶室</span>。</div>
+</div>
+<div class='en'>The business tea party is <span class='hl'>in the company tea room</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>物流合作商来<span class='hl'>自江苏苏州</span>。</div>
+</div>
+<div class='en'>The logistics partner is <span class='hl'>from Suzhou, Jiangsu</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>工作周报<span class='hl'>在企业OA系统</span>。</div>
+</div>
+<div class='en'>The weekly work report is <span class='hl'>in the enterprise OA system</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>复试<span class='hl'>在集团总部会议室</span>。</div>
+</div>
+<div class='en'>The re-interview is <span class='hl'>in the meeting room of the group headquarters</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>库存信息<span class='hl'>在仓储管理系统</span>。</div>
+</div>
+<div class='en'>The inventory information is <span class='hl'>in the warehouse management system</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>保密协议<span class='hl'>在总经理办公室</span>。</div>
+</div>
+<div class='en'>The non-disclosure agreement is <span class='hl'>in the general manager's office</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>新品发布会<span class='hl'>在九月十号</span>。</div>
+</div>
+<div class='en'>The new product launch conference is <span class='hl'>on September 10th</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>客户反馈<span class='hl'>在意见箱里</span>。</div>
+</div>
+<div class='en'>The customer feedback is <span class='hl'>in the suggestion box</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>商务培训<span class='hl'>在专业培训机构</span>。</div>
+</div>
+<div class='en'>The business training is <span class='hl'>in a professional training institution</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>采购合同<span class='hl'>在采购部门档案里</span>。</div>
+</div>
+<div class='en'>The purchase contract is <span class='hl'>in the procurement department's files</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>季度招商会<span class='hl'>在每月二十号</span>。</div>
+</div>
+<div class='en'>The quarterly investment promotion conference is <span class='hl'>on the 20th of every month</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>市场调研数据来<span class='hl'>自第三方机构</span>。</div>
+</div>
+<div class='en'>The market research data is <span class='hl'>from a third-party institution</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>报销单据<span class='hl'>在财务审核窗口</span>。</div>
+</div>
+<div class='en'>The reimbursement documents are <span class='hl'>at the financial review window</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>合作签约仪式<span class='hl'>在香格里拉酒店</span>。</div>
+</div>
+<div class='en'>The cooperation signing ceremony is <span class='hl'>at the Shangri-La Hotel</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>线上研讨会<span class='hl'>在腾讯会议</span>进行。</div>
+</div>
+<div class='en'>The online seminar is held <span class='hl'>on Tencent Meeting</span>.</div>
+</div>
+</div>
+<div class='catwrap'>
+<div class='cat'>六、不定式(to do)类</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>1</div>
+<div class='zh'>我的工作目标是<span class='hl'>本月完成百万销售额</span>。</div>
+</div>
+<div class='en'>My work goal is <span class='hl'>to complete one million sales this month</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>2</div>
+<div class='zh'>公司的计划是<span class='hl'>年底拓展海外市场</span>。</div>
+</div>
+<div class='en'>The company's plan is <span class='hl'>to expand the overseas market at the end of the year</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>3</div>
+<div class='zh'>我们的愿望是<span class='hl'>与贵司建立长期合作</span>。</div>
+</div>
+<div class='en'>Our wish is <span class='hl'>to establish long-term cooperation with your company</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>4</div>
+<div class='zh'>我的想法是<span class='hl'>先与客户确认需求再制定方案</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to confirm the demand with the customer first before making a plan</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>5</div>
+<div class='zh'>要<span class='hl'>做好商务工作</span>就要<span class='hl'>注重细节</span>。</div>
+</div>
+<div class='en'><span class='hl'>To do a good job in business</span>, we must pay attention to details.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>6</div>
+<div class='zh'>部门的目标是<span class='hl'>本季度完成三个项目</span>。</div>
+</div>
+<div class='en'>The department's goal is <span class='hl'>to complete three projects this quarter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>7</div>
+<div class='zh'>我的计划是<span class='hl'>下周前往上海对接客户</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to go to Shanghai to connect with customers next week</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>8</div>
+<div class='zh'>公司的愿望是<span class='hl'>成为行业标杆企业</span>。</div>
+</div>
+<div class='en'>The company's wish is <span class='hl'>to become a benchmark enterprise in the industry</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>9</div>
+<div class='zh'>我的想法是<span class='hl'>先通过法务审核再签订合同</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to pass the legal review first before signing the contract</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>10</div>
+<div class='zh'>要<span class='hl'>提升业绩</span>就要<span class='hl'>加大市场推广力度</span>。</div>
+</div>
+<div class='en'><span class='hl'>To improve performance</span>, we must increase market promotion efforts.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>11</div>
+<div class='zh'>我的目标是<span class='hl'>熟练掌握商务谈判技巧</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to master business negotiation skills proficiently</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>12</div>
+<div class='zh'>行政部的计划是<span class='hl'>本月优化办公流程</span>。</div>
+</div>
+<div class='en'>The Administrative Department's plan is <span class='hl'>to optimize the office process this month</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>13</div>
+<div class='zh'>我们的愿望是<span class='hl'>达成本次深度合作</span>。</div>
+</div>
+<div class='en'>Our wish is <span class='hl'>to reach this in-depth cooperation</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>14</div>
+<div class='zh'>我的想法是<span class='hl'>先调研市场再设计产品</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to research the market first before designing the product</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>15</div>
+<div class='zh'>要<span class='hl'>降低成本</span>就要<span class='hl'>优化供应链体系</span>。</div>
+</div>
+<div class='en'><span class='hl'>To reduce costs</span>, we must optimize the supply chain system.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>16</div>
+<div class='zh'>研发部的目标是<span class='hl'>下半年推出新款产品</span>。</div>
+</div>
+<div class='en'>The R&amp;D Department's goal is <span class='hl'>to launch new products in the second half of the year</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>17</div>
+<div class='zh'>我的计划是<span class='hl'>周末整理客户对接资料</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to sort out the customer connection materials on the weekend</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>18</div>
+<div class='zh'>销售部的愿望是<span class='hl'>超额完成年度指标</span>。</div>
+</div>
+<div class='en'>The Sales Department's wish is <span class='hl'>to exceed the annual target</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>19</div>
+<div class='zh'>我的想法是<span class='hl'>先做样品测试再批量生产</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to do sample testing first before mass production</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>20</div>
+<div class='zh'>要<span class='hl'>做好团队管理</span>就要<span class='hl'>注重沟通协作</span>。</div>
+</div>
+<div class='en'><span class='hl'>To do a good job in team management</span>, we must pay attention to communication and cooperation.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>21</div>
+<div class='zh'>我的目标是<span class='hl'>考取商务英语高级证书</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to obtain the Business English Advanced Certificate</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>22</div>
+<div class='zh'>公司的计划是<span class='hl'>明年建立分公司</span>。</div>
+</div>
+<div class='en'>The company's plan is <span class='hl'>to set up a branch company next year</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>23</div>
+<div class='zh'>我们的愿望是<span class='hl'>实现双方互利共赢</span>。</div>
+</div>
+<div class='en'>Our wish is <span class='hl'>to achieve mutual benefit and win-win results for both sides</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>24</div>
+<div class='zh'>我的想法是<span class='hl'>先提交预算再启动项目</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to submit the budget first before starting the project</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>25</div>
+<div class='zh'>要<span class='hl'>提升品牌影响力</span>就要<span class='hl'>做好品宣工作</span>。</div>
+</div>
+<div class='en'><span class='hl'>To enhance brand influence</span>, we must do a good job in brand promotion.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>26</div>
+<div class='zh'>市场部的目标是<span class='hl'>提高品牌知名度</span>。</div>
+</div>
+<div class='en'>The Marketing Department's goal is <span class='hl'>to improve brand awareness</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>27</div>
+<div class='zh'>我的计划是<span class='hl'>下周参加行业商务展会</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to attend the industry business exhibition next week</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>28</div>
+<div class='zh'>财务部门的愿望是<span class='hl'>实现成本精细化管控</span>。</div>
+</div>
+<div class='en'>The Finance Department's wish is <span class='hl'>to realize refined cost control</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>29</div>
+<div class='zh'>我的想法是<span class='hl'>先复盘项目再开展新工作</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to review the project first before carrying out new work</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>30</div>
+<div class='zh'>要<span class='hl'>实现企业发展</span>就要<span class='hl'>坚持创新理念</span>。</div>
+</div>
+<div class='en'><span class='hl'>To realize enterprise development</span>, we must adhere to the concept of innovation.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>31</div>
+<div class='zh'>我的工作目标是<span class='hl'>本季度开发十个新客户</span>。</div>
+</div>
+<div class='en'>My work goal is <span class='hl'>to develop ten new customers this quarter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>32</div>
+<div class='zh'>公司的计划是<span class='hl'>本月上线新的办公系统</span>。</div>
+</div>
+<div class='en'>The company's plan is <span class='hl'>to launch the new office system this month</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>33</div>
+<div class='zh'>我们的愿望是<span class='hl'>与供应商达成独家合作</span>。</div>
+</div>
+<div class='en'>Our wish is <span class='hl'>to reach an exclusive cooperation with the supplier</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>34</div>
+<div class='zh'>我的想法是<span class='hl'>先做成本核算再制定报价</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to do cost accounting first before making a quotation</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>35</div>
+<div class='zh'>要<span class='hl'>做好客户维护</span>就要<span class='hl'>定期回访</span>。</div>
+</div>
+<div class='en'><span class='hl'>To do a good job in customer maintenance</span>, we must make regular follow-up visits.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>36</div>
+<div class='zh'>部门的目标是<span class='hl'>年底完成业绩翻倍</span>。</div>
+</div>
+<div class='en'>The department's goal is <span class='hl'>to double the performance at the end of the year</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>37</div>
+<div class='zh'>我的计划是<span class='hl'>下月前往北京参加行业峰会</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to go to Beijing to attend the industry summit next month</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>38</div>
+<div class='zh'>公司的愿望是<span class='hl'>打造自主知名品牌</span>。</div>
+</div>
+<div class='en'>The company's wish is <span class='hl'>to build an independent well-known brand</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>39</div>
+<div class='zh'>我的想法是<span class='hl'>先做市场测试再全面推广</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to do market testing first before comprehensive promotion</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>40</div>
+<div class='zh'>要<span class='hl'>提升产品销量</span>就要<span class='hl'>优化产品包装</span>。</div>
+</div>
+<div class='en'><span class='hl'>To improve product sales</span>, we must optimize product packaging.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>41</div>
+<div class='zh'>我的目标是<span class='hl'>熟练运用财务分析工具</span>。</div>
+</div>
+<div class='en'>My goal is <span class='hl'>to proficiently use financial analysis tools</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>42</div>
+<div class='zh'>人事部的计划是<span class='hl'>本季度完成员工培训</span>。</div>
+</div>
+<div class='en'>The Human Resources Department's plan is <span class='hl'>to complete employee training this quarter</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>43</div>
+<div class='zh'>我们的愿望是<span class='hl'>拓展欧洲市场业务</span>。</div>
+</div>
+<div class='en'>Our wish is <span class='hl'>to expand business in the European market</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>44</div>
+<div class='zh'>我的想法是<span class='hl'>先收集反馈再改进产品</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to collect feedback first before improving the product</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>45</div>
+<div class='zh'>要<span class='hl'>提高工作效率</span>就要<span class='hl'>引入智能设备</span>。</div>
+</div>
+<div class='en'><span class='hl'>To improve work efficiency</span>, we must introduce intelligent equipment.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>46</div>
+<div class='zh'>运营部的目标是<span class='hl'>提升线上店铺流量</span>。</div>
+</div>
+<div class='en'>The Operation Department's goal is <span class='hl'>to increase the traffic of online stores</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>47</div>
+<div class='zh'>我的计划是<span class='hl'>周末撰写项目可行性报告</span>。</div>
+</div>
+<div class='en'>My plan is <span class='hl'>to write the project feasibility report on the weekend</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>48</div>
+<div class='zh'>研发部的愿望是<span class='hl'>突破核心技术瓶颈</span>。</div>
+</div>
+<div class='en'>The R&amp;D Department's wish is <span class='hl'>to break through the core technical bottleneck</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>49</div>
+<div class='zh'>我的想法是<span class='hl'>先签订框架协议再细化条款</span>。</div>
+</div>
+<div class='en'>My idea is <span class='hl'>to sign the framework agreement first before refining the terms</span>.</div>
+</div>
+<div class='item'>
+<div class='itemline'>
+<div class='num'>50</div>
+<div class='zh'>要<span class='hl'>实现企业上市</span>就要<span class='hl'>规范公司治理</span>。</div>
+</div>
+<div class='en'><span class='hl'>To realize the enterprise's IPO</span>, we must standardize corporate governance.</div>
+</div>
+</div>
+</div>
+</div></body></html>
