@@ -73,6 +73,10 @@ def md_to_html(md_text: str) -> str:
         if not line.strip():
             i += 1
             continue
+        if line.strip() == "<!-- pagebreak -->":
+            out.append("<div class='page-break'></div>")
+            i += 1
+            continue
         if line.startswith("|"):
             rows = []
             while i < len(lines) and lines[i].strip().startswith("|"):
