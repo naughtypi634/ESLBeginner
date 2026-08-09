@@ -33,22 +33,27 @@ DEFAULT = [
 CSS = """
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
-    width: 210mm; background: #ffffff; color: #1a1a1a;
+    font-family: 'Noto Sans', 'Noto Sans SC', 'Source Han Sans CN', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #000;
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
-    font-size: 11px; line-height: 1.5;
+    font-size: 12px; line-height: 1.5;
 }
 .page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
-h1 { font-size: 20px; font-weight: 800; color: #000; border-bottom: 2px solid #000; padding-bottom: 4px; margin-bottom: 8px; }
-h2 { font-size: 13px; font-weight: 800; color: #000; margin: 10px 0 4px 0; }
-h3 { font-size: 11.5px; font-weight: 700; color: #333; margin: 7px 0 3px 0; }
+h1 { font-size: 20px; font-weight: 800; color: #fff; background: #000; padding: 8px 14px; margin-bottom: 10px; }
+h2 { font-size: 15px; font-weight: 800; color: #000; margin: 8px 0 4px 0; }
+h3 { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; color: #000; margin: 10px 0 4px 0; }
 p { margin: 3px 0; }
-hr { border: none; border-top: 1px solid #d0d0d0; margin: 6px 0; }
-table { width: 100%; border-collapse: collapse; margin: 3px 0 6px 0; font-size: 10px; }
-th, td { border: 1px solid #cccccc; padding: 3px 6px; text-align: left; vertical-align: top; }
-th { background: #f0f0f0; font-weight: 800; }
+hr { border: none; border-top: 1px solid #000; margin: 6px 0; }
+table { width: 100%; border-collapse: collapse; margin: 2px 0 6px 0; font-size: 11.5px; line-height: 1.4; }
+table.matrix { table-layout: fixed; }
+th, td { border: 1px solid #000; padding: 4px 7px; text-align: left; vertical-align: middle; }
+th { font-weight: 800; border-bottom: 2px solid #000; text-align: center; }
 b { color: #000; }
+.dq { font-weight: 800; font-size: 14px; margin: 62px 0 4px 0; }
+h2 + .dq { margin-top: 12px; }
+.dt { margin: 0 0 6px 0; }
+.tag { display: inline-block; border: 1px solid #000; padding: 3px 10px; margin: 0 8px 8px 0; }
 """
 
 
@@ -74,7 +79,7 @@ def md_to_html(md_text: str) -> str:
             i += 1
             continue
         if line.strip() == "<!-- pagebreak -->":
-            out.append("<div class='page-break'></div>")
+            out.append("</div><div class='page page-break'>")
             i += 1
             continue
         if line.startswith("|"):
@@ -86,11 +91,29 @@ def md_to_html(md_text: str) -> str:
             cells = [[c.strip() for c in row] for row in cells if row]
             if len(cells) > 1 and re.fullmatch(r"[\s:\-|]+", "|".join(cells[1])):
                 del cells[1]
-            html = "<table>"
+            HEADERS = (["English", "Chinese"], ["English", "Chinese", "Example"],
+                       ["English", "Chinese", "Answer tags"], ["English", "Chinese", "Keywords"],
+                       ["Positive 积极", "Negative 消极", "Neutral 中性"])
+            is_head = bool(cells) and cells[0] in HEADERS
+            cls = ""
+            if cells and cells[0] == ["Positive 积极", "Negative 消极", "Neutral 中性"]:
+                cls = " class='matrix'"
+            html = f"<table{cls}>"
             for ri, row in enumerate(cells):
-                tag = "th" if ri == 0 else "td"
+                tag = "th" if ri == 0 and is_head else "td"
                 html += "<tr>" + "".join(f"<{tag}>{inline(c)}</{tag}>" for c in row) + "</tr>"
             out.append(html + "</table>")
+            continue
+        m_bold = re.fullmatch(r"\*\*(.+?)\*\*", line.strip())
+        if m_bold:
+            out.append(f"<p class='dq'>{inline(m_bold.group(1))}</p>")
+            i += 1
+            continue
+        if line.startswith(">"):
+            tags = [t.strip() for t in line.lstrip(">").strip().split("/") if t.strip()]
+            boxes = "".join(f"<span class='tag'>{inline(t)}</span>" for t in tags)
+            out.append(f"<p class='dt'>{boxes}</p>")
+            i += 1
             continue
         if line.startswith("### "):
             out.append(f"<h3>{inline(line[4:])}</h3>")
