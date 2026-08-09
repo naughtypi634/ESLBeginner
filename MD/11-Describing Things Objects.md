@@ -1,5 +1,9 @@
 # Describing Things & Objects · 描述物品
 
+## 课程介绍
+
+本周我们练习描述物品，了解形容词和简单句型的用法，学会介绍物品的样子和用途，并应用到购物、找东西等场景中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |

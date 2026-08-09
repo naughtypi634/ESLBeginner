@@ -1,5 +1,9 @@
 # Frequency — Adverbs & Phrases · 频率副词与表达
 
+## 课程介绍
+
+本周我们练习频率表达，了解 always / usually / often / never 等频率词的用法，学会用频率副词描述习惯，并应用到日常聊天中。
+
 ---
 
 ## 1. Frequency Spectrum

@@ -1,5 +1,9 @@
 # Past Simple & Present Perfect · 过去时与现在完成时
 
+## 课程介绍
+
+本周我们练习一般过去时和现在完成时，了解两种时态的用法，学会用它们谈论经历和变化，并应用到分享故事和日常对话中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |

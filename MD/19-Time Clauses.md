@@ -1,5 +1,9 @@
 # Time Clauses · 时间状语从句
 
+## 课程介绍
+
+本周我们练习时间状语从句，了解 when / before / after / until 的用法，学会用时间从句连接事件，并应用到安排日程和日常对话中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |

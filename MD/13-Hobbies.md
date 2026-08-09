@@ -1,5 +1,9 @@
 # Hobbies · 爱好
 
+## 课程介绍
+
+本周我们练习爱好表达，了解 like / enjoy / be into 的用法，学会介绍自己的兴趣爱好，并应用到交朋友和日常聊天中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |

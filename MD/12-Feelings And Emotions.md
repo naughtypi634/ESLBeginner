@@ -1,5 +1,9 @@
 # Feelings & Emotions · 感受与情绪
 
+## 课程介绍
+
+本周我们练习情绪表达，了解 feel / be + 情绪词的用法，学会说出自己的感受，并应用到和同事、朋友聊天中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |

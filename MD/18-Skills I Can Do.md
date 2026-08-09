@@ -1,5 +1,9 @@
 # Skills I Can Do · 我会的本领
 
+## 课程介绍
+
+本周我们练习能力表达，了解 can / can't 的用法，学会介绍自己会做的事情，并应用到面试、求职和日常聊天中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |

@@ -1,5 +1,9 @@
 # Basic Question Forms · 基础提问
 
+## 课程介绍
+
+本周我们练习基础提问，了解 what / where / when / why / who / how 的用法，学会用疑问句获取信息，并应用到问路、点餐、开会等日常场景中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |

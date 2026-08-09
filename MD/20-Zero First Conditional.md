@@ -1,5 +1,9 @@
 # Zero & First Conditional · 条件句
 
+## 课程介绍
+
+本周我们练习条件句，了解 if 从句的用法，学会表达条件和结果，并应用到提醒、约定等生活场景中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |

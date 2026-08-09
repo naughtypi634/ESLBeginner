@@ -1,5 +1,9 @@
 # Modal Verbs · 情态动词（初学者版 + 完整版）
 
+## 课程介绍
+
+本周我们练习情态动词，了解 can / could / should / must 的用法，学会表达能力、许可、建议和义务，并应用到工作和生活对话中。
+
 情态动词两部分：**1. 最常见用法**（能力、许可、建议、义务、意愿）；**2. 可能性推测**（may / might / could / must / can't）。学完 Part 1 后，Part 2 是完整版总复习：补上所有核心情态动词、半情态动词、have done 结构和易混辨析。
 
 ## Part 1 · 初学者版 Beginner Edition

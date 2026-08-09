@@ -1,5 +1,9 @@
 # Present Continuous · 现在进行时
 
+## 课程介绍
+
+本周我们练习现在进行时，了解 am / is / are + doing 的用法，学会描述正在发生的事情，并应用到打电话、聊天等场景中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |

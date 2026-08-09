@@ -1,5 +1,9 @@
 # There be 句型
 
+## 课程介绍
+
+本周我们练习 There be 句型，了解 there is / there are 的用法，学会用"某地有某物"来介绍身边的事物，并应用到日常生活场景中。
+
 There be 句型
 01 肯定句
 There is/are + 名词 + 地点/时间

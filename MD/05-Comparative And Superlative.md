@@ -1,5 +1,9 @@
 # Comparative And Superlative
 
+## 课程介绍
+
+本周我们练习比较级和最高级，了解 -er / -est 的变化规则，学会比较两个或多个事物，并应用到购物、点餐等生活场景中。
+
 —  1  — 
 COMPARATIVE & SUPERLATIVE 
   Rule 1  Short adj: add -er / -est 

@@ -1,5 +1,9 @@
 # Short Stories & Narrative · 讲故事
 
+## 课程介绍
+
+本周我们练习讲故事，了解叙述的基本顺序和时态，学会用简单英语讲一个小故事，并应用到分享经历和朋友聚会中。
+
 ## 1. Warm-up 热身
 
 | English | Chinese |
