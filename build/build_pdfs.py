@@ -21,13 +21,14 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(r"F:\AI project\ESLBeginner")
+ROOT = Path(__file__).resolve().parents[1]
 from student_copy import make_student_copy
 MD_DIR = ROOT / "MD"
 GEN_DIR = ROOT / "build" / "tex"
 PDF_DIR = ROOT / "PDF"
 PREVIEW = ROOT / "build" / "preview"
 PANDOC = r"C:\Users\ZZC\AppData\Local\Pandoc\pandoc.exe"
+PDF_ENGINE = "xelatex"  # engine passed to pandoc --pdf-engine (override per script)
 TEMPLATE = ROOT / "build" / "template.tex"
 PREAMBLE = ROOT / "build" / "preamble.tex"
 MIKTEX_BIN = r"C:\Users\ZZC\AppData\Local\Programs\MiKTeX\miktex\bin\x64"
@@ -589,10 +590,12 @@ def pandoc_pdf(md: Path, pdf: Path) -> bool:
         "-f", "markdown+raw_attribute",
         "--template", str(TEMPLATE),
         "-H", str(PREAMBLE),
-        "--pdf-engine=xelatex",
-        "--pdf-engine-opt=--enable-installer",
-        "-o", str(pdf),
+        "--pdf-engine=" + PDF_ENGINE,
     ]
+    if PDF_ENGINE == "xelatex":
+        # MiKTeX-specific: auto-install missing packages.
+        cmd.append("--pdf-engine-opt=--enable-installer")
+    cmd += ["-o", str(pdf)]
     try:
         r = subprocess.run(cmd, capture_output=True, text=True,
                            encoding="utf-8", errors="replace", timeout=300, env=env)

@@ -79,7 +79,8 @@
 \newcommand{\eslformulasimple}[1]{\eslformula{#1}{}}
 
 % ---------- note ----------
-\newcommand{\eslnote}[1]{\par{\color{muted}\small #1}\par\vspace{8pt}}
+\newcommand{\eslnote}[1]{\par\noindent\begin{minipage}[t]{\linewidth}%
+  {\color{muted}\small #1}\end{minipage}\par\vspace{8pt}}
 
 % ---------- sub-header ----------
 \newcommand{\eslsubheader}[2]{%
