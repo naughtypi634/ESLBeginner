@@ -13,6 +13,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 MD_DIR = ROOT / "MD"
 PDF_DIR = ROOT / "PDF"
+sys.path.insert(0, str(ROOT))
+from build.student_copy import make_student_copy
 
 SOURCE = MD_DIR / "07-1-定语从句练习(A1-A2).md"
 HTML_OUT = MD_DIR / "_07-1-定语从句练习(A1-A2).html"
@@ -263,6 +265,9 @@ def main():
 
     if export_pdf(HTML_OUT, PDF_OUT):
         print(f"PDF saved to {PDF_OUT}")
+        sp = make_student_copy(PDF_OUT)
+        if sp:
+            print(f"student copy saved to {sp}")
 
 
 if __name__ == "__main__":

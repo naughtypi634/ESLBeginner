@@ -22,6 +22,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(r"F:\AI project\ESLBeginner")
+from student_copy import make_student_copy
 MD_DIR = ROOT / "MD"
 GEN_DIR = ROOT / "build" / "tex"
 PDF_DIR = ROOT / "PDF"
@@ -660,6 +661,9 @@ def build_one(fname: str, render_png: bool):
         print(f"[FAIL] {fname}")
         return False
     print(f"[ok]   {fname}  ->  {pdf.name}")
+    sp = make_student_copy(pdf)
+    if sp:
+        print(f"[student] {sp.name}")
 
     if render_png:
         PREVIEW.mkdir(exist_ok=True)

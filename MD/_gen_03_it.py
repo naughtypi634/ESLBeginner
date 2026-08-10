@@ -22,6 +22,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 MD_DIR = ROOT / "MD"
 PDF_DIR = ROOT / "PDF"
+sys.path.insert(0, str(ROOT))
+from build.student_copy import make_student_copy
 SOURCE = MD_DIR / "03-it-句型.md"
 HTML_OUT = MD_DIR / "_03-it-句型.html"
 PDF_OUT = PDF_DIR / "03-it-句型.pdf"
@@ -224,6 +226,9 @@ def main():
     HTML_OUT.write_text(build_html(patterns), encoding="utf-8")
     if export_pdf(HTML_OUT, PDF_OUT):
         print("PDF OK →", PDF_OUT.name)
+        sp = make_student_copy(PDF_OUT)
+        if sp:
+            print("student →", sp.name)
     else:
         print("PDF 导出失败（缺少 playwright？请用 .venv/bin/python 运行）", file=sys.stderr)
         sys.exit(1)

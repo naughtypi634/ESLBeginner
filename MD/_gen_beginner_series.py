@@ -12,6 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 MD_DIR = ROOT / "MD"
 PDF_DIR = ROOT / "PDF"
+sys.path.insert(0, str(ROOT))
+from build.student_copy import make_student_copy
 
 DEFAULT = [
     "04-Frequency.md",
@@ -169,6 +171,9 @@ def main():
         html_path.write_text(build_html(name), encoding="utf-8")
         if export_pdf(html_path, pdf_path):
             print("OK ", pdf_path.name)
+            sp = make_student_copy(pdf_path)
+            if sp:
+                print("    student:", sp.name)
         else:
             print("HTML only (no playwright):", html_path.name)
 

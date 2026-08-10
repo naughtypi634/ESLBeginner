@@ -7,11 +7,14 @@ Last page = grammar quick reference.
 """
 
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PDF_DIR = ROOT / "PDF"
 MD_DIR = ROOT / "MD"
+sys.path.insert(0, str(ROOT))
+from build.student_copy import make_student_copy
 
 
 def export_pdf(html_path: Path, pdf_path: Path) -> bool:
@@ -928,6 +931,9 @@ def main():
     print("Exporting PDF (this may take a few seconds)...")
     if export_pdf(html_path, pdf_path):
         print(f"  PDF saved to {pdf_path}")
+        sp = make_student_copy(pdf_path)
+        if sp:
+            print(f"  student copy saved to {sp}")
     else:
         print("  Playwright not available: PDF skipped (HTML is ready).")
     print("Done.")
