@@ -33,8 +33,10 @@ _PANDOC_WIN = Path(r"C:\Program Files\Pandoc\pandoc.exe")
 _MIKTEX_BIN = Path(r"C:\Users\ZZC\AppData\Local\Programs\MiKTeX\miktex\bin\x64")
 _bp.PANDOC = str(_PANDOC_WIN) if _PANDOC_WIN.exists() else (shutil.which("pandoc") or "pandoc")
 _bp.MIKTEX_BIN = str(_MIKTEX_BIN) if _MIKTEX_BIN.exists() else ""
-if not _MIKTEX_BIN.exists() and shutil.which("tectonic"):
-    _bp.PDF_ENGINE = "tectonic"
+if not _MIKTEX_BIN.exists():
+    _bp.PDF_ENGINE = "xelatex" if shutil.which("xelatex") else (
+        "tectonic" if shutil.which("tectonic") else "xelatex"
+    )
 
 MD = ROOT / "MD" / "ESL-Real Life Expressions Cut Ver.1.md"
 

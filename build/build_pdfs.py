@@ -592,8 +592,9 @@ def pandoc_pdf(md: Path, pdf: Path) -> bool:
         "-H", str(PREAMBLE),
         "--pdf-engine=" + PDF_ENGINE,
     ]
-    if PDF_ENGINE == "xelatex":
-        # MiKTeX-specific: auto-install missing packages.
+    if PDF_ENGINE == "xelatex" and Path(MIKTEX_BIN).exists():
+        # MiKTeX-specific: auto-install missing packages (not valid for
+        # TeX Live's xelatex on Linux/macOS).
         cmd.append("--pdf-engine-opt=--enable-installer")
     cmd += ["-o", str(pdf)]
     try:
