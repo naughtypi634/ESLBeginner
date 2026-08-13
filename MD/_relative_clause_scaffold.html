@@ -11,17 +11,17 @@ body {
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Microsoft YaHei', 'PingFang SC', sans-serif;
     width: 210mm;
     background: #ffffff;
-    color: #1a1a1a;
+    color: #000000;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
-    line-height: 1.45;
-    font-size: 11.5px;
+    line-height: 1.55;
+    font-size: 14px;
 }
 
 .page {
     width: 210mm;
     height: 297mm;
-    padding: 11mm 16mm 10mm 16mm;
+    padding: 12mm 16mm 12mm 16mm;
     position: relative;
     overflow: hidden;
     background: #ffffff;
@@ -31,100 +31,60 @@ body {
 
 /* ── Title ── */
 .title-area {
-    margin-bottom: 5px;
-    padding-bottom: 4px;
-    border-bottom: 2.5px solid #000000;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #000000;
 }
-.main-title { font-size: 22px; font-weight: 800; color: #000000; letter-spacing: -0.3px; }
-.sub-title { font-size: 10px; color: #666666; margin-top: 2px; }
+.main-title { font-size: 31px; font-weight: 800; color: #000000; letter-spacing: -0.3px; }
+.sub-title { font-size: 14px; color: #000000; margin-top: 3px; }
 
-/* ── Track / ladder header ── */
-.track-header {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin: 6px 0 2px 0;
-}
-.track-title { font-size: 13px; font-weight: 800; color: #000000; }
+/* ── Track task ── */
 .track-task {
     display: block;
-    font-size: 9.5px;
+    font-size: 14px;
     font-weight: 700;
     color: #000000;
-    margin: 0 0 2px 3px;
-}
-.track-legend {
-    display: block;
-    font-size: 9px;
-    color: #777777;
-    margin: 0 0 3px 3px;
+    margin: 10px 0 8px 4px;
 }
 
 /* ── Item ── */
 .q-item {
-    padding: 2.5px 0 2.5px 4px;
-    font-size: 11px;
-    color: #1a1a1a;
+    padding: 18px 0 18px 6px;
+    font-size: 20px;
+    color: #000000;
 }
-.q-num { font-weight: 700; color: #000000; margin-right: 4px; }
-.cn { color: #1a1a1a; }
+.cn { color: #000000; }
 .split {
     display: block;
-    color: #999999;
-    font-size: 9px;
-    line-height: 1.4;
-    padding-left: 16px;
+    color: #000000;
+    font-size: 15.5px;
+    line-height: 1.55;
+    padding-left: 21px;
 }
 .en {
     display: block;
-    color: #555555;
-    font-size: 9.8px;
-    line-height: 1.4;
-    padding-left: 16px;
+    color: #000000;
+    font-size: 16.5px;
+    line-height: 1.55;
+    padding-left: 21px;
 }
 .hint {
     display: block;
-    color: #888888;
-    font-size: 8.5px;
-    line-height: 1.4;
-    padding-left: 16px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.55;
+    padding-left: 21px;
 }
 .hl { font-weight: 800; color: #000000; }
-.swap { background: #e8e8e8; color: #1a1a1a; }
-
-/* ── Grammar reference page ── */
-.ref-section { margin-bottom: 6px; }
-.ref-header {
-    font-size: 11.5px;
-    font-weight: 800;
-    color: #000000;
-    margin: 5px 0 2px 0;
-    padding-bottom: 2px;
-    border-bottom: 1.5px solid #000000;
-}
-.ref-item {
-    font-size: 10.3px;
-    line-height: 1.55;
-    padding: 1.5px 0 1.5px 4px;
-    color: #1a1a1a;
-}
-.ref-item b { color: #000000; }
-.ref-note { color: #777777; font-size: 9.5px; display: block; padding-left: 14px; }
-.ref-table { width: 100%; border-collapse: collapse; margin-top: 3px; font-size: 10px; }
-.ref-table td, .ref-table th {
-    border: 1px solid #cccccc;
-    padding: 3px 6px;
-    text-align: left;
-}
-.ref-table th { background: #f0f0f0; font-weight: 800; }
+.swap { color: #000000; text-decoration: underline; }
 
 /* ── Footer ── */
 .footer {
     position: absolute;
     bottom: 6mm;
     right: 16mm;
-    font-size: 8px;
-    color: #999999;
+    font-size: 10px;
+    color: #000000;
     font-weight: 600;
     letter-spacing: 0.5px;
 }
@@ -135,106 +95,85 @@ body {
 <div class="page">
   <div class="title-area">
     <div class="main-title">Relative Clause</div>
-    <div class="sub-title">我的理想 · What I Want</div>
+    <div class="sub-title">我想要的 · What I Want</div>
   </div>
-  <div class="track-header"><span class="track-title">我的理想 · What I Want</span></div>
-  <div class="track-task">表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：I want a … who / that …</div>
-  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>
-  <div class="q-item"><span class="q-num">1.</span><span class="cn">我想要一个<span class="swap"><span class="hl">靠谱、有耐心、肯带人</span></span>的老板。</span><span class="split">拆分：我想要一个老板。他要靠谱、有耐心、肯带人。</span><span class="en">(I want a boss <span class="hl">who is <span class="swap">reliable, patient, and willing to teach</span></span>.)</span><span class="hint">试试换成：不画饼的 / 到点就下班的 / 会当面说问题的人</span></div>
-  <div class="q-item"><span class="q-num">2.</span><span class="cn">我理想中的另一半，是<span class="hl"><span class="swap">愿意主动沟通、而不是让我猜</span></span>的人。</span><span class="split">拆分：我理想中的另一半是这样的人。他愿意主动沟通，而不是让我猜。</span><span class="en">(My ideal partner is someone <span class="hl">who <span class="swap">communicates instead of making me guess</span></span>.)</span><span class="hint">试试换成：吵架后先冷静再谈的 / 记得我说过的小事的 / 愿意一起做家务的</span></div>
-  <div class="q-item"><span class="q-num">3.</span><span class="cn">我想要一个<span class="hl"><span class="swap">能一起吃饭、也能安静各干各的</span></span>室友。</span><span class="split">拆分：我想要一个室友。他能一起吃饭，也能安静各干各的。</span><span class="en">(I want a roommate <span class="hl">who <span class="swap">can share meals but also respects my quiet time</span></span>.)</span><span class="hint">试试换成：有共同爱好的 / 厨艺好的 / 有边界感的</span></div>
-  <div class="q-item"><span class="q-num">4.</span><span class="cn">我理想的工作，是<span class="hl"><span class="swap">不用让我装模作样</span></span>的那种。</span><span class="split">拆分：我理想的工作是这样的。它不用让我装模作样。</span><span class="en">(My ideal job is one <span class="hl">that <span class="swap">doesn't make me pretend</span></span>.)</span><span class="hint">试试换成：不用打卡的 / 同事好相处的 / 下班不用回消息的</span></div>
-  <div class="q-item"><span class="q-num">5.</span><span class="cn">我想要一个<span class="hl"><span class="swap">说话直接、不拐弯抹角</span></span>的朋友。</span><span class="split">拆分：我想要一个朋友。他说话直接，不拐弯抹角。</span><span class="en">(I want a friend <span class="hl">who <span class="swap">speaks directly and doesn't beat around the bush</span></span>.)</span><span class="hint">试试换成：愿意听我吐槽的 / 早上会叫我起床的 / 借钱会主动还的</span></div>
-  <div class="q-item"><span class="q-num">6.</span><span class="cn">我理想的健身教练，是<span class="hl"><span class="swap">把动作讲清楚、不推销课</span></span>的那种。</span><span class="split">拆分：我理想的健身教练是这样的。他把动作讲清楚，不推销课。</span><span class="en">(My ideal trainer is one <span class="hl">who <span class="swap">explains moves clearly and never pushes courses</span></span>.)</span><span class="hint">试试换成：不催课的 / 动作标准的 / 会鼓励人的</span></div>
-  <div class="q-item"><span class="q-num">7.</span><span class="cn">我想要一台<span class="hl"><span class="swap">开机不卡、能再用五年</span></span>的电脑。</span><span class="split">拆分：我想要一台电脑。它开机不卡，能再用五年。</span><span class="en">(I want a computer <span class="hl">that <span class="swap">starts fast and lasts another five years</span></span>.)</span><span class="hint">试试换成：轻到能塞进书包的 / 电池能扛一天的 / 修起来不贵的</span></div>
-  <div class="q-item"><span class="q-num">8.</span><span class="cn">我理想中的邻居，是<span class="hl"><span class="swap">见面点头、互不打扰</span></span>的那种。</span><span class="split">拆分：我理想中的邻居是这样的。见面点头，互不打扰。</span><span class="en">(My ideal neighbor is one <span class="hl">who <span class="swap">says hi but never bothers me</span></span>.)</span><span class="hint">试试换成：会帮我收快递的 / 半夜不开派对的 / 见面会打招呼的</span></div>
-  <div class="q-item"><span class="q-num">9.</span><span class="cn">我想要一个<span class="hl"><span class="swap">可以睡到自然醒</span></span>的周末早晨。</span><span class="split">拆分：我想要一个周末早晨。它可以睡到自然醒。</span><span class="en">(I want a weekend morning <span class="hl">that <span class="swap">lets me wake up naturally</span></span>.)</span><span class="hint">试试换成：不用早起的 / 阳光刚好晒到床的 / 楼下没有装修声的</span></div>
-  <div class="q-item"><span class="q-num">10.</span><span class="cn">我理想的城市，是<span class="hl"><span class="swap">地铁不挤、夜宵也有得吃</span></span>的那种。</span><span class="split">拆分：我理想的城市是这样的。它地铁不挤，夜宵也有得吃。</span><span class="en">(My ideal city is one <span class="hl">that <span class="swap">has empty subways and late-night food</span></span>.)</span><span class="hint">试试换成：房租不吓人的 / 末班车很晚的 / 四季分明的</span></div>
-  <div class="footer">1/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I want a … who / that …</div>
+  <div class="q-item"><span class="cn">我想要一个<span class="swap"><span class="hl">靠谱、有耐心、肯带人</span></span>的老板。</span><span class="split">拆分：我想要一个老板。他要靠谱、有耐心、肯带人。</span><span class="en">(I want a boss <span class="hl">who is <span class="swap">reliable, patient, and willing to teach</span></span>.)</span><span class="hint">试试换成：不画饼的 / 到点就下班的 / 会当面说问题的人</span></div>
+  <div class="q-item"><span class="cn">我理想中的另一半，是<span class="hl"><span class="swap">愿意主动沟通、而不是让我猜</span></span>的人。</span><span class="split">拆分：我理想中的另一半是这样的人。他愿意主动沟通，而不是让我猜。</span><span class="en">(My ideal partner is someone <span class="hl">who <span class="swap">communicates instead of making me guess</span></span>.)</span><span class="hint">试试换成：吵架后先冷静再谈的 / 记得我说过的小事的 / 愿意一起做家务的</span></div>
+  <div class="q-item"><span class="cn">我想要一个<span class="hl"><span class="swap">能一起吃饭、也能安静各干各的</span></span>室友。</span><span class="split">拆分：我想要一个室友。他能一起吃饭，也能安静各干各的。</span><span class="en">(I want a roommate <span class="hl">who <span class="swap">can share meals but also respects my quiet time</span></span>.)</span><span class="hint">试试换成：有共同爱好的 / 厨艺好的 / 有边界感的</span></div>
+  <div class="q-item"><span class="cn">我理想的工作，是<span class="hl"><span class="swap">不用让我装模作样</span></span>的那种。</span><span class="split">拆分：我理想的工作是这样的。它不用让我装模作样。</span><span class="en">(My ideal job is one <span class="hl">that <span class="swap">doesn't make me pretend</span></span>.)</span><span class="hint">试试换成：不用打卡的 / 同事好相处的 / 下班不用回消息的</span></div>
+  <div class="q-item"><span class="cn">我想要一个<span class="hl"><span class="swap">说话直接、不拐弯抹角</span></span>的朋友。</span><span class="split">拆分：我想要一个朋友。他说话直接，不拐弯抹角。</span><span class="en">(I want a friend <span class="hl">who <span class="swap">speaks directly and doesn't beat around the bush</span></span>.)</span><span class="hint">试试换成：愿意听我吐槽的 / 早上会叫我起床的 / 借钱会主动还的</span></div>
+  <div class="footer">1/18</div>
 </div>
 
 <div class="page page-break">
   <div class="title-area">
     <div class="main-title">Relative Clause</div>
-    <div class="sub-title">我的理想 · What I Want</div>
+    <div class="sub-title">我想要的 · What I Want · 续</div>
   </div>
-  <div class="track-header"><span class="track-title">我的理想 · What I Want</span></div>
-  <div class="track-task">表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：I want a … who / that …</div>
-  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>
-  <div class="q-item"><span class="q-num">1.</span><span class="cn"><span class="hl">我在一个人身上最看重</span>的，是<span class="swap">他有没有同理心</span>。</span><span class="split">拆分：我看重一个人身上的某种品质。那就是有没有同理心。</span><span class="en">(The thing <span class="hl">that I value most in a person</span> is <span class="swap">whether they have empathy</span>.)</span><span class="hint">试试换成：责任感 / 幽默感 / 情绪稳定</span></div>
-  <div class="q-item"><span class="q-num">2.</span><span class="cn">我<span class="hl">最愿意花钱</span>的地方，只有<span class="swap">吃和旅行</span>。</span><span class="split">拆分：我愿意在某些地方花钱。那就是吃和旅行。</span><span class="en">(The things <span class="hl">that I'm willing to spend money on</span> are only <span class="swap">food and travel</span>.)</span><span class="hint">试试换成：书和咖啡 / 家人和朋友 / 运动和装备</span></div>
-  <div class="q-item"><span class="q-num">3.</span><span class="cn">我<span class="hl">最想去的</span>城市，不是风景最漂亮的，而是<span class="swap">东西最好吃的</span>。</span><span class="split">拆分：我想去一些城市。不是风景最漂亮的。是东西最好吃的。</span><span class="en">(The city <span class="hl">that I want to visit most</span> isn't the prettiest one — it's <span class="swap">the one with the best food</span>.)</span><span class="hint">试试换成：物价最友好的 / 有老朋友的 / 出门不用打车的</span></div>
-  <div class="q-item"><span class="q-num">4.</span><span class="cn">我<span class="hl">做梦都想要</span>的工作，是<span class="swap">每天都能学到新东西</span>的那种。</span><span class="split">拆分：我做梦都想要一种工作。它每天能让我学到新东西。</span><span class="en">(The job <span class="hl">that I dream about</span> is one <span class="swap">that teaches me something new every day</span>.)</span><span class="hint">试试换成：不用加班的 / 成果看得见的 / 同事都靠谱的</span></div>
-  <div class="q-item"><span class="q-num">5.</span><span class="cn">我<span class="hl">最怀念</span>的，是<span class="swap">小时候暑假不用定闹钟</span>的日子。</span><span class="split">拆分：我怀念一种日子。那是小时候的暑假，不用定闹钟。</span><span class="en">(The days <span class="hl">that I miss most</span> are <span class="swap">the alarm-free summers of my childhood</span>.)</span><span class="hint">试试换成：大学没有早课的 / 周末自然醒的 / 请假没人问的</span></div>
-  <div class="q-item"><span class="q-num">6.</span><span class="cn">我理想中<span class="hl">一定要有</span>的，是<span class="swap">晚上能一起散步</span>的人。</span><span class="split">拆分：我理想中的生活一定要有一个人。晚上能一起散步。</span><span class="en">(The person <span class="hl">that I definitely want in my life</span> is someone <span class="swap">I can take evening walks with</span>.)</span><span class="hint">试试换成：一起跑步的人 / 周末爬山的人 / 半夜吃夜宵的人</span></div>
-  <div class="q-item"><span class="q-num">7.</span><span class="cn">我<span class="hl">最想改掉</span>的，是<span class="swap">遇事先往坏处想</span>的习惯。</span><span class="split">拆分：我有一个习惯。它遇事先往坏处想。我想改掉它。</span><span class="en">(The habit <span class="hl">that I want to break most</span> is <span class="swap">always expecting the worst</span>.)</span><span class="hint">试试换成：拖到最后一刻 / 忍不住刷手机 / 报复性熬夜</span></div>
-  <div class="q-item"><span class="q-num">8.</span><span class="cn">我<span class="hl">期待了很久</span>的，是<span class="swap">今年的带薪休假</span>。</span><span class="split">拆分：我期待了很久一件事。那就是今年的带薪休假。</span><span class="en">(The thing <span class="hl">that I've been waiting for</span> is <span class="swap">my paid leave this year</span>.)</span><span class="hint">试试换成：年终奖到账 / 准点下班 / 食堂好吃的日子</span></div>
-  <div class="q-item"><span class="q-num">9.</span><span class="cn">我<span class="hl">最想学会</span>的，是<span class="swap">给自己好好做一顿饭</span>。</span><span class="split">拆分：我最想学会一件事。那就是给自己好好做一顿饭。</span><span class="en">(The skill <span class="hl">that I want to learn most</span> is <span class="swap">cooking a proper meal for myself</span>.)</span><span class="hint">试试换成：游一次泳 / 写一篇日记 / 早睡一次</span></div>
-  <div class="q-item"><span class="q-num">10.</span><span class="cn">我每个月<span class="hl">最期待</span>的，是<span class="swap">工资到账的短信</span>。</span><span class="split">拆分：我每个月最期待一件事。那就是工资到账的短信。</span><span class="en">(The message <span class="hl">that I look forward to each month</span> is <span class="swap">the salary notification</span>.)</span><span class="hint">试试换成：快递到货 / 演唱会开票 / 朋友回消息</span></div>
-  <div class="footer">2/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I want a … who / that …</div>
+  <div class="q-item"><span class="cn">我理想的健身教练，是<span class="hl"><span class="swap">把动作讲清楚、不推销课</span></span>的那种。</span><span class="split">拆分：我理想的健身教练是这样的。他把动作讲清楚，不推销课。</span><span class="en">(My ideal trainer is one <span class="hl">who <span class="swap">explains moves clearly and never pushes courses</span></span>.)</span><span class="hint">试试换成：不画饼的 / 到点就下班的 / 会当面说问题的人</span></div>
+  <div class="q-item"><span class="cn">我想要一台<span class="hl"><span class="swap">开机不卡、能再用五年</span></span>的电脑。</span><span class="split">拆分：我想要一台电脑。它开机不卡，能再用五年。</span><span class="en">(I want a computer <span class="hl">that <span class="swap">starts fast and lasts another five years</span></span>.)</span><span class="hint">试试换成：吵架后先冷静再谈的 / 记得我说过的小事的 / 愿意一起做家务的</span></div>
+  <div class="q-item"><span class="cn">我理想中的邻居，是<span class="hl"><span class="swap">见面点头、互不打扰</span></span>的那种。</span><span class="split">拆分：我理想中的邻居是这样的。见面点头，互不打扰。</span><span class="en">(My ideal neighbor is one <span class="hl">who <span class="swap">says hi but never bothers me</span></span>.)</span><span class="hint">试试换成：有共同爱好的 / 厨艺好的 / 有边界感的</span></div>
+  <div class="q-item"><span class="cn">我想要一个<span class="hl"><span class="swap">可以睡到自然醒</span></span>的周末早晨。</span><span class="split">拆分：我想要一个周末早晨。它可以睡到自然醒。</span><span class="en">(I want a weekend morning <span class="hl">that <span class="swap">lets me wake up naturally</span></span>.)</span><span class="hint">试试换成：不用打卡的 / 同事好相处的 / 下班不用回消息的</span></div>
+  <div class="q-item"><span class="cn">我理想的城市，是<span class="hl"><span class="swap">地铁不挤、夜宵也有得吃</span></span>的那种。</span><span class="split">拆分：我理想的城市是这样的。它地铁不挤，夜宵也有得吃。</span><span class="en">(My ideal city is one <span class="hl">that <span class="swap">has empty subways and late-night food</span></span>.)</span><span class="hint">试试换成：愿意听我吐槽的 / 早上会叫我起床的 / 借钱会主动还的</span></div>
+  <div class="footer">2/18</div>
 </div>
 
 <div class="page page-break">
   <div class="title-area">
     <div class="main-title">Relative Clause</div>
-    <div class="sub-title">我的理想 · What I Want</div>
+    <div class="sub-title">我想要的 · What I Want</div>
   </div>
-  <div class="track-header"><span class="track-title">我的理想 · What I Want</span></div>
-  <div class="track-task">表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：I want a … who / that …</div>
-  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>
-  <div class="q-item"><span class="q-num">1.</span><span class="cn">我想住的，是那种<span class="hl"><span class="swap">下楼就能吃到热乎饭</span></span>的地方。</span><span class="split">拆分：我想住在一个地方。在那里下楼就能吃到热乎饭。</span><span class="en">(I want to live in a place <span class="hl">where I can <span class="swap">get hot food right downstairs</span></span>.)</span><span class="hint">试试换成：楼下就有便利店 / 走路能到公园 / 阳台能晒到太阳</span></div>
-  <div class="q-item"><span class="q-num">2.</span><span class="cn">我一天里最放松的时刻，是<span class="hl"><span class="swap">下班走出地铁站</span></span>的那几分钟。</span><span class="split">拆分：我下班走出地铁站。那几分钟最放松。</span><span class="en">(The moment <span class="hl">when I <span class="swap">walk out of the subway station</span></span> is the most relaxing part of my day.)</span><span class="hint">试试换成：洗完澡躺上床 / 周五下班关电脑 / 周末早上睁眼</span></div>
-  <div class="q-item"><span class="q-num">3.</span><span class="cn">这就是<span class="hl">我愿意留在这座城市</span>的原因——<span class="swap">我的朋友和想吃的那口饭都在这里</span>。</span><span class="split">拆分：我愿意留在这座城市。我的朋友和想吃的那口饭都在这里。</span><span class="en">(This is the reason <span class="hl">why I want to stay in this city</span> — <span class="swap">my friends and my favorite food are here</span>.)</span><span class="hint">试试换成：家人在 / 工作在这 / 房租还能接受</span></div>
-  <div class="q-item"><span class="q-num">4.</span><span class="cn">这就是<span class="hl">我宁愿早起也不熬夜</span>的原因——<span class="swap">早上的时间才真正属于我自己</span>。</span><span class="split">拆分：我宁愿早起也不熬夜。早上的时间才真正属于我自己。</span><span class="en">(This is the reason <span class="hl">why I'd rather wake up early than stay up late</span> — <span class="swap">mornings are my only quiet time</span>.)</span><span class="hint">试试换成：早晨脑子最清醒 / 晚上脑子停不下来 / 早起能吃上早饭</span></div>
-  <div class="q-item"><span class="q-num">5.</span><span class="cn">我想去的是那种<span class="hl"><span class="swap">不用拍照打卡也很好看</span></span>的地方。</span><span class="split">拆分：我想去一种地方。在那里不用拍照打卡也很好看。</span><span class="en">(I want to go somewhere <span class="hl">where <span class="swap">the view is great even without photos</span></span>.)</span><span class="hint">试试换成：能看海的 / 没什么人的 / 走路不累的</span></div>
-  <div class="q-item"><span class="q-num">6.</span><span class="cn">我每周最期待的时间，是<span class="hl"><span class="swap">周五下班后的那两小时</span></span>。</span><span class="split">拆分：我每周最期待一段时间。那是周五下班后的两小时。</span><span class="en">(The time <span class="hl">when I'm happiest every week</span> is <span class="swap">the two hours after work on Friday</span>.)</span><span class="hint">试试换成：午休的半小时 / 发工资的那天 / 长假的第一天</span></div>
-  <div class="q-item"><span class="q-num">7.</span><span class="cn">这就是<span class="hl">我想要一个阳台</span>的原因——<span class="swap">我想种点薄荷和番茄</span>。</span><span class="split">拆分：我想要一个阳台。因为我想种点薄荷和番茄。</span><span class="en">(This is the reason <span class="hl">why I want a balcony</span> — <span class="swap">I want to grow mint and tomatoes</span>.)</span><span class="hint">试试换成：一个书房 / 一台投影仪 / 一个猫爬架</span></div>
-  <div class="q-item"><span class="q-num">8.</span><span class="cn">我想住在<span class="hl"><span class="swap">离菜市场走路十分钟以内</span></span>的地方。</span><span class="split">拆分：我想住在一个地方。从那里走路十分钟就能到菜市场。</span><span class="en">(I want to live somewhere <span class="hl">where <span class="swap">the wet market is a ten-minute walk away</span></span>.)</span><span class="hint">试试换成：离地铁站五分钟 / 公司步行可达 / 楼下有公园</span></div>
-  <div class="q-item"><span class="q-num">9.</span><span class="cn">这就是<span class="hl">我想养一只猫</span>的原因——<span class="swap">回家的时候有活物等我</span>。</span><span class="split">拆分：我想养一只猫。因为回家的时候有活物等我。</span><span class="en">(This is the reason <span class="hl">why I want a cat</span> — <span class="swap">something alive waits for me at home</span>.)</span><span class="hint">试试换成：养一只狗 / 养一盆花 / 种一片菜</span></div>
-  <div class="q-item"><span class="q-num">10.</span><span class="cn">我最喜欢的时刻，是<span class="hl"><span class="swap">正要喝第一口咖啡</span>的那几秒</span>。</span><span class="split">拆分：我正要喝第一口咖啡。那几秒我最喜欢。</span><span class="en">(My favorite moment is those few seconds <span class="hl">when I'm <span class="swap">about to take my first sip of coffee</span></span>.)</span><span class="hint">试试换成：第一口奶茶 / 第一口西瓜 / 第一口冰可乐</span></div>
-  <div class="footer">3/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I want a … who / that …</div>
+  <div class="q-item"><span class="cn"><span class="hl">我在一个人身上最看重</span>的，是<span class="swap">他有没有同理心</span>。</span><span class="split">拆分：我看重一个人身上的某种品质。那就是有没有同理心。</span><span class="en">(The thing <span class="hl">that I value most in a person</span> is <span class="swap">whether they have empathy</span>.)</span><span class="hint">试试换成：责任感 / 幽默感 / 情绪稳定</span></div>
+  <div class="q-item"><span class="cn">我<span class="hl">最愿意花钱</span>的地方，只有<span class="swap">吃和旅行</span>。</span><span class="split">拆分：我愿意在某些地方花钱。那就是吃和旅行。</span><span class="en">(The things <span class="hl">that I'm willing to spend money on</span> are only <span class="swap">food and travel</span>.)</span><span class="hint">试试换成：书和咖啡 / 家人和朋友 / 运动和装备</span></div>
+  <div class="q-item"><span class="cn">我<span class="hl">最想去的</span>城市，不是风景最漂亮的，而是<span class="swap">东西最好吃的</span>。</span><span class="split">拆分：我想去一些城市。不是风景最漂亮的。是东西最好吃的。</span><span class="en">(The city <span class="hl">that I want most</span> isn't pretty — <span class="swap">its food is best</span>.)</span><span class="hint">试试换成：物价最友好的 / 有老朋友的 / 出门不用打车的</span></div>
+  <div class="q-item"><span class="cn">我<span class="hl">做梦都想要</span>的工作，是<span class="swap">每天都能学到新东西</span>的那种。</span><span class="split">拆分：我做梦都想要一种工作。它每天能让我学到新东西。</span><span class="en">(The job <span class="hl">that I dream about</span> is one <span class="swap">that teaches me something new every day</span>.)</span><span class="hint">试试换成：不用加班的 / 成果看得见的 / 同事都靠谱的</span></div>
+  <div class="q-item"><span class="cn">我<span class="hl">最怀念</span>的，是<span class="swap">小时候暑假不用定闹钟</span>的日子。</span><span class="split">拆分：我怀念一种日子。那是小时候的暑假，不用定闹钟。</span><span class="en">(The days <span class="hl">that I miss most</span> are <span class="swap">the alarm-free summers of my childhood</span>.)</span><span class="hint">试试换成：大学没有早课的 / 周末自然醒的 / 请假没人问的</span></div>
+  <div class="footer">3/18</div>
 </div>
 
 <div class="page page-break">
   <div class="title-area">
     <div class="main-title">Relative Clause</div>
-    <div class="sub-title">我的底线 · What I Refuse</div>
+    <div class="sub-title">我想要的 · What I Want · 续</div>
   </div>
-  <div class="track-header"><span class="track-title">我的底线 · What I Refuse</span></div>
-  <div class="track-task">表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：I don't want … who / that …</div>
-  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>
-  <div class="q-item"><span class="q-num">1.</span><span class="cn">我不想成为那种<span class="hl"><span class="swap">把“随便”挂在嘴边</span></span>的人。</span><span class="split">拆分：有些人总把“随便”挂在嘴边。我不想成为这种人。</span><span class="en">(I don't want to be the kind of person <span class="hl">who <span class="swap">always says “whatever”</span></span>.)</span><span class="hint">试试换成：知道了却不动 / 下次一定 / 都行</span></div>
-  <div class="q-item"><span class="q-num">2.</span><span class="cn">我不想跟一个<span class="hl"><span class="swap">遇事就沉默冷战</span></span>的人做朋友。</span><span class="split">拆分：有个人遇事就沉默冷战。我不想和他做朋友。</span><span class="en">(I don't want to be friends with someone <span class="hl">who <span class="swap">goes silent and cold when there's a problem</span></span>.)</span><span class="hint">试试换成：遇事就消失 / 一吵架就翻旧账 / 生气就摔门</span></div>
-  <div class="q-item"><span class="q-num">3.</span><span class="cn">我不想成为那种<span class="hl"><span class="swap">答应帮忙、转头就忘</span></span>的人。</span><span class="split">拆分：有些人答应帮忙，转头就忘。我不想成为这种人。</span><span class="en">(I don't want to be the kind of person <span class="hl">who <span class="swap">promises to help and then forgets</span></span>.)</span><span class="hint">试试换成：只会说漂亮话 / 有求必应但从不兑现 / 回复永远是“在忙”</span></div>
-  <div class="q-item"><span class="q-num">4.</span><span class="cn">我不想跟一个<span class="hl"><span class="swap">吃饭永远低头看手机</span></span>的人坐一起。</span><span class="split">拆分：有个人吃饭永远低头看手机。我不想和他坐一起。</span><span class="en">(I don't want to sit with someone <span class="hl">who <span class="swap">stares at their phone all through dinner</span></span>.)</span><span class="hint">试试换成：开会总迟到 / 上厕所玩半小时 / 走路刷短视频</span></div>
-  <div class="q-item"><span class="q-num">5.</span><span class="cn">我不想成为那种<span class="hl"><span class="swap">一开口就贬低别人</span></span>的人。</span><span class="split">拆分：有些人一开口就贬低别人。我不想成为这种人。</span><span class="en">(I don't want to be someone <span class="hl">who <span class="swap">puts others down as a habit</span></span>.)</span><span class="hint">试试换成：把刻薄当幽默 / 聊天永远在炫耀 / 拿别人的短处开玩笑</span></div>
-  <div class="q-item"><span class="q-num">6.</span><span class="cn">我不想找一个<span class="hl"><span class="swap">从不道歉</span></span>的伴侣。</span><span class="split">拆分：有些人从不道歉。我不想找这样的伴侣。</span><span class="en">(I don't want a partner <span class="hl">who <span class="swap">never apologizes</span></span>.)</span><span class="hint">试试换成：永远觉得自己对 / 道歉也像在施舍 / 错了也要争赢</span></div>
-  <div class="q-item"><span class="q-num">7.</span><span class="cn">我不想跟一个<span class="hl"><span class="swap">背后说人坏话</span></span>的人共事。</span><span class="split">拆分：有个人背后说人坏话。我不想和他共事。</span><span class="en">(I don't want to work with someone <span class="hl">who <span class="swap">talks behind people's backs</span></span>.)</span><span class="hint">试试换成：当面一套背后一套 / 抢功甩锅 / 打小报告</span></div>
-  <div class="q-item"><span class="q-num">8.</span><span class="cn">我不想成为那种<span class="hl"><span class="swap">把加班当荣耀</span></span>的人。</span><span class="split">拆分：有些人把加班当荣耀。我不想成为这种人。</span><span class="en">(I don't want to be the kind of person <span class="hl">who <span class="swap">wears overtime like a badge</span></span>.)</span><span class="hint">试试换成：把吃苦当勋章 / 把忙当价值 / 把熬夜当努力</span></div>
-  <div class="q-item"><span class="q-num">9.</span><span class="cn">我不想跟一个<span class="hl"><span class="swap">借钱不还、还装没事</span></span>的人再来往。</span><span class="split">拆分：有个人借钱不还，还装没事。我不想再和他来往。</span><span class="en">(I don't want to deal with someone <span class="hl">who <span class="swap">borrows money and pretends nothing happened</span></span>.)</span><span class="hint">试试换成：蹭饭从不主动买单 / 拿我东西不还 / 让我帮忙理所当然</span></div>
-  <div class="q-item"><span class="q-num">10.</span><span class="cn">我不想成为那种<span class="hl"><span class="swap">见不得别人过得好</span></span>的人。</span><span class="split">拆分：有些人见不得别人过得好。我不想成为这种人。</span><span class="en">(I don't want to be the kind of person <span class="hl">who <span class="swap">can't stand others doing well</span></span>.)</span><span class="hint">试试换成：阴阳怪气 / 背后拆台 / 见好就眼红</span></div>
-  <div class="footer">4/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I want a … who / that …</div>
+  <div class="q-item"><span class="cn">我理想中<span class="hl">一定要有</span>的，是<span class="swap">晚上能一起散步</span>的人。</span><span class="split">拆分：我理想中的生活一定要有一个人。晚上能一起散步。</span><span class="en">(The person <span class="hl">that I definitely want in my life</span> is someone <span class="swap">I can take evening walks with</span>.)</span><span class="hint">试试换成：责任感 / 幽默感 / 情绪稳定</span></div>
+  <div class="q-item"><span class="cn">我<span class="hl">最想改掉</span>的，是<span class="swap">遇事先往坏处想</span>的习惯。</span><span class="split">拆分：我有一个习惯。它遇事先往坏处想。我想改掉它。</span><span class="en">(The habit <span class="hl">that I want to break most</span> is <span class="swap">always expecting the worst</span>.)</span><span class="hint">试试换成：书和咖啡 / 家人和朋友 / 运动和装备</span></div>
+  <div class="q-item"><span class="cn">我<span class="hl">期待了很久</span>的，是<span class="swap">今年的带薪休假</span>。</span><span class="split">拆分：我期待了很久一件事。那就是今年的带薪休假。</span><span class="en">(The thing <span class="hl">that I've been waiting for</span> is <span class="swap">my paid leave this year</span>.)</span><span class="hint">试试换成：物价最友好的 / 有老朋友的 / 出门不用打车的</span></div>
+  <div class="q-item"><span class="cn">我<span class="hl">最想学会</span>的，是<span class="swap">给自己好好做一顿饭</span>。</span><span class="split">拆分：我最想学会一件事。那就是给自己好好做一顿饭。</span><span class="en">(The skill <span class="hl">that I want to learn most</span> is <span class="swap">cooking a proper meal for myself</span>.)</span><span class="hint">试试换成：不用加班的 / 成果看得见的 / 同事都靠谱的</span></div>
+  <div class="q-item"><span class="cn">我每个月<span class="hl">最期待</span>的，是<span class="swap">工资到账的短信</span>。</span><span class="split">拆分：我每个月最期待一件事。那就是工资到账的短信。</span><span class="en">(The message <span class="hl">that I look forward to each month</span> is <span class="swap">the salary notification</span>.)</span><span class="hint">试试换成：大学没有早课的 / 周末自然醒的 / 请假没人问的</span></div>
+  <div class="footer">4/18</div>
 </div>
 
 <div class="page page-break">
   <div class="title-area">
     <div class="main-title">Relative Clause</div>
-    <div class="sub-title">我的底线 · What I Refuse</div>
+    <div class="sub-title">我想要的 · What I Want</div>
   </div>
-  <div class="track-header"><span class="track-title">我的底线 · What I Refuse</span></div>
-  <div class="track-task">表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：I don't want … who / that …</div>
-  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>
-  <div class="q-item"><span class="q-num">1.</span><span class="cn">我不想过<span class="hl"><span class="swap">父母替我选好</span></span>的人生。</span><span class="split">拆分：父母替我选了一种人生。我不想那样过。</span><span class="en">(I don't want the life <span class="hl">that <span class="swap">my parents chose for me</span></span>.)</span><span class="hint">试试换成：别人定义的成功 / 打卡式的人生 / 为了面子过的日子</span></div>
-  <div class="q-item"><span class="q-num">2.</span><span class="cn"><span class="hl">我老是拖延</span>的，是<span class="swap">跟人开口谈钱</span>这种事。</span><span class="split">拆分：有一件事我老是拖延。那就是跟人开口谈钱。</span><span class="en">(The thing <span class="hl">that I keep putting off</span> is <span class="swap">talking about money</span>.)</span><span class="hint">试试换成：拒绝别人 / 提出加薪 / 承认自己不会</span></div>
-  <div class="q-item"><span class="q-num">3.</span><span class="cn"><span class="hl">我最不能接受</span>的，是<span class="swap">答应了却不出现</span>。</span><span class="split">拆分：有人答应了却不出现。我最不能接受这种事。</span><span class="en">(The thing <span class="hl">that I can't stand</span> is <span class="swap">people promising to come and then not showing up</span>.)</span><span class="hint">试试换成：迟到还不解释 / 约好了又改时间 / 放鸽子连句抱歉都没有</span></div>
-  <div class="q-item"><span class="q-num">4.</span><span class="cn"><span class="hl">我后悔没早点做</span>的，是<span class="swap">开口跟爸妈说谢谢</span>。</span><span class="split">拆分：有一件事我后悔没早点做。那就是开口跟爸妈说谢谢。</span><span class="en">(The thing <span class="hl">that I regret not doing sooner</span> is <span class="swap">telling my parents thank you</span>.)</span><span class="hint">试试换成：跟朋友说对不起 / 跟同事说不 / 跟自己说辛苦了</span></div>
-  <div class="q-item"><span class="q-num">5.</span><span class="cn"><span class="hl">我最受不了</span>的，是<span class="swap">别人替我做决定</span>。</span><span class="split">拆分：有人替我做决定。我最受不了这种事。</span><span class="en">(The thing <span class="hl">that I hate most</span> is <span class="swap">others making decisions for me</span>.)</span><span class="hint">试试换成：被安排得明明白白 / 通知式征求意见 / 替我说“没关系”</span></div>
-  <div class="q-item"><span class="q-num">6.</span><span class="cn"><span class="hl">我坚决不做的</span>，是<span class="swap">拿健康换加班费</span>。</span><span class="split">拆分：有人拿健康换加班费。我坚决不做这种事。</span><span class="en">(The thing <span class="hl">that I refuse to do</span> is <span class="swap">trading my health for overtime pay</span>.)</span><span class="hint">试试换成：用睡眠换KPI / 用身体换年终奖 / 用假期换升职</span></div>
-  <div class="q-item"><span class="q-num">7.</span><span class="cn"><span class="hl">我删掉最多</span>的，是<span class="swap">手机里半年不联系</span>的“朋友”。</span><span class="split">拆分：手机里有一些半年不联系的人。我删掉最多的就是他们。</span><span class="en">(The “friends” <span class="hl">that I delete most</span> are <span class="swap">the ones I haven't talked to in half a year</span>.)</span><span class="hint">试试换成：全是广告的群 / 吃灰的收藏 / 过期的好友申请</span></div>
-  <div class="q-item"><span class="q-num">8.</span><span class="cn"><span class="hl">我最不想听</span>的，是<span class="swap">“为你好”这三个字</span>。</span><span class="split">拆分：有人总说“为你好”。我最不想听这三个字。</span><span class="en">(The words <span class="hl">that I hate hearing most</span> are <span class="swap">“it's for your own good”</span>.)</span><span class="hint">试试换成：“我都是为你好” / “你不懂” / “别人都行你怎么不行”</span></div>
-  <div class="q-item"><span class="q-num">9.</span><span class="cn"><span class="hl">我一直在忍</span>的，是<span class="swap">楼下装修的电钻声</span>。</span><span class="split">拆分：楼下装修的电钻声很吵。我一直在忍。</span><span class="en">(The noise <span class="hl">that I've been putting up with</span> is <span class="swap">the drilling downstairs</span>.)</span><span class="hint">试试换成：楼上拖椅子的声音 / 隔壁K歌的声音 / 装修敲墙的声音</span></div>
-  <div class="q-item"><span class="q-num">10.</span><span class="cn"><span class="hl">我最不想要的</span>，是<span class="swap">表面客气、背后捅刀</span>的关系。</span><span class="split">拆分：有一种关系表面客气，背后捅刀。我最不想要。</span><span class="en">(The relationship <span class="hl">that I want least</span> is <span class="swap">one that's polite to your face and cruel behind your back</span>.)</span><span class="hint">试试换成：只跟有钱人玩 / 有好处才出现 / 背后议论你</span></div>
-  <div class="footer">5/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I want a … who / that …</div>
+  <div class="q-item"><span class="cn">我想住的，是那种<span class="hl"><span class="swap">下楼就能吃到热乎饭</span></span>的地方。</span><span class="split">拆分：我想住在一个地方。在那里下楼就能吃到热乎饭。</span><span class="en">(I want to live in a place <span class="hl">where I can <span class="swap">get hot food right downstairs</span></span>.)</span><span class="hint">试试换成：楼下就有便利店 / 走路能到公园 / 阳台能晒到太阳</span></div>
+  <div class="q-item"><span class="cn">我一天里最放松的时刻，是<span class="hl"><span class="swap">下班走出地铁站</span></span>的那几分钟。</span><span class="split">拆分：我下班走出地铁站。那几分钟最放松。</span><span class="en">(My most relaxing moment is <span class="hl">when I <span class="swap">get off the subway</span></span>.)</span><span class="hint">试试换成：洗完澡躺上床 / 周五下班关电脑 / 周末早上睁眼</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我留在这座城市</span>的原因——<span class="swap">朋友和想吃的都在这里</span>。</span><span class="split">拆分：我愿意留在这座城市。我的朋友和想吃的那口饭都在这里。</span><span class="en">(This is why <span class="hl">I stay in this city</span> — <span class="swap">friends and food are here</span>.)</span><span class="hint">试试换成：家人在 / 工作在这 / 房租还能接受</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我宁愿早起也不熬夜</span>的原因——<span class="swap">早上的时间才真正属于我自己</span>。</span><span class="split">拆分：我宁愿早起也不熬夜。早上的时间才真正属于我自己。</span><span class="en">(This is why <span class="hl">I get up early</span> — <span class="swap">mornings are my quiet time</span>.)</span><span class="hint">试试换成：早晨脑子最清醒 / 晚上脑子停不下来 / 早起能吃上早饭</span></div>
+  <div class="q-item"><span class="cn">我想去的是那种<span class="hl"><span class="swap">不用拍照打卡也很好看</span></span>的地方。</span><span class="split">拆分：我想去一种地方。在那里不用拍照打卡也很好看。</span><span class="en">(I want to go somewhere <span class="hl">where <span class="swap">the view is great even without photos</span></span>.)</span><span class="hint">试试换成：能看海的 / 没什么人的 / 走路不累的</span></div>
+  <div class="footer">5/18</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">我想要的 · What I Want · 续</div>
+  </div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I want a … who / that …</div>
+  <div class="q-item"><span class="cn">我每周最期待的时间，是<span class="hl"><span class="swap">周五下班后的那两小时</span></span>。</span><span class="split">拆分：我每周最期待一段时间。那是周五下班后的两小时。</span><span class="en">(The time <span class="hl">when I'm happiest every week</span> is <span class="swap">the two hours after work on Friday</span>.)</span><span class="hint">试试换成：楼下就有便利店 / 走路能到公园 / 阳台能晒到太阳</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我想要一个阳台</span>的原因——<span class="swap">我想种点薄荷和番茄</span>。</span><span class="split">拆分：我想要一个阳台。因为我想种点薄荷和番茄。</span><span class="en">(This is the reason <span class="hl">why I want a balcony</span> — <span class="swap">I want to grow mint and tomatoes</span>.)</span><span class="hint">试试换成：洗完澡躺上床 / 周五下班关电脑 / 周末早上睁眼</span></div>
+  <div class="q-item"><span class="cn">我想住在<span class="hl"><span class="swap">离菜市场走路十分钟以内</span></span>的地方。</span><span class="split">拆分：我想住在一个地方。从那里走路十分钟就能到菜市场。</span><span class="en">(I want to live somewhere <span class="hl">where <span class="swap">the wet market is a ten-minute walk away</span></span>.)</span><span class="hint">试试换成：家人在 / 工作在这 / 房租还能接受</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我想养一只猫</span>的原因——<span class="swap">回家的时候有活物等我</span>。</span><span class="split">拆分：我想养一只猫。因为回家的时候有活物等我。</span><span class="en">(This is the reason <span class="hl">why I want a cat</span> — <span class="swap">something alive waits for me at home</span>.)</span><span class="hint">试试换成：早晨脑子最清醒 / 晚上脑子停不下来 / 早起能吃上早饭</span></div>
+  <div class="q-item"><span class="cn">我最喜欢的时刻，是<span class="hl"><span class="swap">正要喝第一口咖啡</span>的那几秒</span>。</span><span class="split">拆分：我正要喝第一口咖啡。那几秒我最喜欢。</span><span class="en">(My favorite moment is <span class="hl">when I'm <span class="swap">about to sip my coffee</span></span>.)</span><span class="hint">试试换成：能看海的 / 没什么人的 / 走路不累的</span></div>
+  <div class="footer">6/18</div>
 </div>
 
 <div class="page page-break">
@@ -242,20 +181,83 @@ body {
     <div class="main-title">Relative Clause</div>
     <div class="sub-title">我的底线 · What I Refuse</div>
   </div>
-  <div class="track-header"><span class="track-title">我的底线 · What I Refuse</span></div>
-  <div class="track-task">表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：I don't want … who / that …</div>
-  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>
-  <div class="q-item"><span class="q-num">1.</span><span class="cn">这就是<span class="hl">我从不跟朋友借钱</span>的原因——<span class="swap">钱一沾上，友谊就变味了</span>。</span><span class="split">拆分：我从不跟朋友借钱。钱一沾上，友谊就变味了。</span><span class="en">(This is the reason <span class="hl">why I never borrow money from friends</span> — <span class="swap">money changes the friendship</span>.)</span><span class="hint">试试换成：不跟同事吐槽 / 不跟亲戚合伙 / 不给别人担保</span></div>
-  <div class="q-item"><span class="q-num">2.</span><span class="cn">这就是<span class="hl">我坚决不熬夜</span>的原因——<span class="swap">熬一次，第二天整个人都是废的</span>。</span><span class="split">拆分：我坚决不熬夜。熬一次，第二天整个人都是废的。</span><span class="en">(This is the reason <span class="hl">why I refuse to stay up late</span> — <span class="swap">one late night ruins my next day</span>.)</span><span class="hint">试试换成：不喝奶茶 / 不吃夜宵 / 不追深夜剧</span></div>
-  <div class="q-item"><span class="q-num">3.</span><span class="cn">这就是<span class="hl">我不爱发朋友圈</span>的原因——<span class="swap">我不需要点赞来确认自己的生活</span>。</span><span class="split">拆分：我不爱发朋友圈。我不需要点赞来确认自己的生活。</span><span class="en">(This is the reason <span class="hl">why I don't post my life on social media</span> — <span class="swap">I don't need likes to feel real</span>.)</span><span class="hint">试试换成：不晒娃 / 不发工资条 / 不秀恩爱</span></div>
-  <div class="q-item"><span class="q-num">4.</span><span class="cn">这就是<span class="hl">我宁愿多花钱也不买便宜货</span>的原因——<span class="swap">便宜货用不住，最后反而更贵</span>。</span><span class="split">拆分：我宁愿多花钱也不买便宜货。便宜货用不住，最后反而更贵。</span><span class="en">(This is the reason <span class="hl">why I'd rather pay more than buy cheap</span> — <span class="swap">cheap things break and cost more</span>.)</span><span class="hint">试试换成：不囤打折货 / 不拼单凑满减 / 不买预售款</span></div>
-  <div class="q-item"><span class="q-num">5.</span><span class="cn">这就是<span class="hl">我不在群里说话</span>的原因——<span class="swap">一开口，就会冒出三个新任务</span>。</span><span class="split">拆分：我不在群里说话。因为一开口就会冒出三个新任务。</span><span class="en">(This is the reason <span class="hl">why I stay quiet in the group chat</span> — <span class="swap">every message creates three new tasks</span>.)</span><span class="hint">试试换成：不接陌生电话 / 不评论热点 / 不参与投票</span></div>
-  <div class="q-item"><span class="q-num">6.</span><span class="cn">这就是<span class="hl">我宁可绕路也不走那条巷子</span>的原因——<span class="swap">巷子里的狗太凶了</span>。</span><span class="split">拆分：我宁可绕路也不走那条巷子。因为巷子里的狗太凶了。</span><span class="en">(This is the reason <span class="hl">why I take the long way around that alley</span> — <span class="swap">the dogs there are too scary</span>.)</span><span class="hint">试试换成：不走近路 / 不坐那班车 / 不订那家店</span></div>
-  <div class="q-item"><span class="q-num">7.</span><span class="cn">我不想去的是那种<span class="hl"><span class="swap">不喝酒就散不了场</span></span>的饭局。</span><span class="split">拆分：有一种饭局不喝酒就散不了场。我不想去。</span><span class="en">(The dinners <span class="hl">where <span class="swap">you can't leave without drinking</span></span> are the ones I avoid.)</span><span class="hint">试试换成：劝酒局 / 下午茶局 / 狼人杀局</span></div>
-  <div class="q-item"><span class="q-num">8.</span><span class="cn">这就是<span class="hl">我不坐那趟早班地铁</span>的原因——<span class="swap">它总是挤到脚不沾地</span>。</span><span class="split">拆分：我不坐那趟早班地铁。因为它总是挤到脚不沾地。</span><span class="en">(This is the reason <span class="hl">why I don't take that morning subway</span> — <span class="swap">it's always too crowded to move</span>.)</span><span class="hint">试试换成：那趟公交 / 那班电梯 / 那条高速</span></div>
-  <div class="q-item"><span class="q-num">9.</span><span class="cn">这就是<span class="hl">我买菜坚持用现金</span>的原因——<span class="swap">花出去的钱才让人心疼</span>。</span><span class="split">拆分：我买菜坚持用现金。因为花出去的钱才让人心疼。</span><span class="en">(This is the reason <span class="hl">why I still pay cash for groceries</span> — <span class="swap">money you hand over feels real</span>.)</span><span class="hint">试试换成：买菜不用手机 / 出门不带卡 / 花钱只记账</span></div>
-  <div class="q-item"><span class="q-num">10.</span><span class="cn">这就是<span class="hl">我周末不接工作电话</span>的原因——<span class="swap">周末本来就是用来休息的</span>。</span><span class="split">拆分：我周末不接工作电话。因为周末本来就是用来休息的。</span><span class="en">(This is the reason <span class="hl">why I don't answer work calls on weekends</span> — <span class="swap">weekends are for resting</span>.)</span><span class="hint">试试换成：晚上不看工作群 / 休假不接客户电话 / 下班不回消息</span></div>
-  <div class="footer">6/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I don't want … who / that …</div>
+  <div class="q-item"><span class="cn">我不想成为那种<span class="hl"><span class="swap">把“随便”挂在嘴边</span></span>的人。</span><span class="split">拆分：有些人总把“随便”挂在嘴边。我不想成为这种人。</span><span class="en">(I don't want to be the kind of person <span class="hl">who <span class="swap">always says “whatever”</span></span>.)</span><span class="hint">试试换成：知道了却不动 / 下次一定 / 都行</span></div>
+  <div class="q-item"><span class="cn">我不想跟一个<span class="hl"><span class="swap">遇事就沉默冷战</span></span>的人做朋友。</span><span class="split">拆分：有个人遇事就沉默冷战。我不想和他做朋友。</span><span class="en">(I don't want to befriend someone <span class="hl">who <span class="swap">goes cold and silent</span></span>.)</span><span class="hint">试试换成：遇事就消失 / 一吵架就翻旧账 / 生气就摔门</span></div>
+  <div class="q-item"><span class="cn">我不想成为那种<span class="hl"><span class="swap">答应帮忙、转头就忘</span></span>的人。</span><span class="split">拆分：有些人答应帮忙，转头就忘。我不想成为这种人。</span><span class="en">(I don't want to be the kind of person <span class="hl">who <span class="swap">promises to help and then forgets</span></span>.)</span><span class="hint">试试换成：只会说漂亮话 / 有求必应但从不兑现 / 回复永远是“在忙”</span></div>
+  <div class="q-item"><span class="cn">我不想跟一个<span class="hl"><span class="swap">吃饭永远低头看手机</span></span>的人坐一起。</span><span class="split">拆分：有个人吃饭永远低头看手机。我不想和他坐一起。</span><span class="en">(I don't want to sit with someone <span class="hl">who <span class="swap">stares at their phone all through dinner</span></span>.)</span><span class="hint">试试换成：开会总迟到 / 上厕所玩半小时 / 走路刷短视频</span></div>
+  <div class="q-item"><span class="cn">我不想成为那种<span class="hl"><span class="swap">一开口就贬低别人</span></span>的人。</span><span class="split">拆分：有些人一开口就贬低别人。我不想成为这种人。</span><span class="en">(I don't want to be someone <span class="hl">who <span class="swap">puts others down as a habit</span></span>.)</span><span class="hint">试试换成：把刻薄当幽默 / 聊天永远在炫耀 / 拿别人的短处开玩笑</span></div>
+  <div class="footer">7/18</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">我的底线 · What I Refuse · 续</div>
+  </div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I don't want … who / that …</div>
+  <div class="q-item"><span class="cn">我不想找一个<span class="hl"><span class="swap">从不道歉</span></span>的伴侣。</span><span class="split">拆分：有些人从不道歉。我不想找这样的伴侣。</span><span class="en">(I don't want a partner <span class="hl">who <span class="swap">never apologizes</span></span>.)</span><span class="hint">试试换成：知道了却不动 / 下次一定 / 都行</span></div>
+  <div class="q-item"><span class="cn">我不想跟一个<span class="hl"><span class="swap">背后说人坏话</span></span>的人共事。</span><span class="split">拆分：有个人背后说人坏话。我不想和他共事。</span><span class="en">(I don't want to work with someone <span class="hl">who <span class="swap">talks behind people's backs</span></span>.)</span><span class="hint">试试换成：遇事就消失 / 一吵架就翻旧账 / 生气就摔门</span></div>
+  <div class="q-item"><span class="cn">我不想成为那种<span class="hl"><span class="swap">把加班当荣耀</span></span>的人。</span><span class="split">拆分：有些人把加班当荣耀。我不想成为这种人。</span><span class="en">(I don't want to be the kind of person <span class="hl">who <span class="swap">wears overtime like a badge</span></span>.)</span><span class="hint">试试换成：只会说漂亮话 / 有求必应但从不兑现 / 回复永远是“在忙”</span></div>
+  <div class="q-item"><span class="cn">我不想跟一个<span class="hl"><span class="swap">借钱不还、还装没事</span></span>的人再来往。</span><span class="split">拆分：有个人借钱不还，还装没事。我不想再和他来往。</span><span class="en">(I won't deal with someone <span class="hl">who <span class="swap">borrows money and plays innocent</span></span>.)</span><span class="hint">试试换成：开会总迟到 / 上厕所玩半小时 / 走路刷短视频</span></div>
+  <div class="q-item"><span class="cn">我不想成为那种<span class="hl"><span class="swap">见不得别人过得好</span></span>的人。</span><span class="split">拆分：有些人见不得别人过得好。我不想成为这种人。</span><span class="en">(I don't want to be the kind of person <span class="hl">who <span class="swap">can't stand others doing well</span></span>.)</span><span class="hint">试试换成：把刻薄当幽默 / 聊天永远在炫耀 / 拿别人的短处开玩笑</span></div>
+  <div class="footer">8/18</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">我的底线 · What I Refuse</div>
+  </div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I don't want … who / that …</div>
+  <div class="q-item"><span class="cn">我不想过<span class="hl"><span class="swap">父母替我选好</span></span>的人生。</span><span class="split">拆分：父母替我选了一种人生。我不想那样过。</span><span class="en">(I don't want the life <span class="hl">that <span class="swap">my parents chose for me</span></span>.)</span><span class="hint">试试换成：别人定义的成功 / 打卡式的人生 / 为了面子过的日子</span></div>
+  <div class="q-item"><span class="cn"><span class="hl">我老是拖延</span>的，是<span class="swap">跟人开口谈钱</span>这种事。</span><span class="split">拆分：有一件事我老是拖延。那就是跟人开口谈钱。</span><span class="en">(The thing <span class="hl">that I keep putting off</span> is <span class="swap">talking about money</span>.)</span><span class="hint">试试换成：拒绝别人 / 提出加薪 / 承认自己不会</span></div>
+  <div class="q-item"><span class="cn"><span class="hl">我最不能接受</span>的，是<span class="swap">答应了却不出现</span>。</span><span class="split">拆分：有人答应了却不出现。我最不能接受这种事。</span><span class="en">(The thing <span class="hl">that I can't stand</span> is <span class="swap">people promising to come and then not showing up</span>.)</span><span class="hint">试试换成：迟到还不解释 / 约好了又改时间 / 放鸽子连句抱歉都没有</span></div>
+  <div class="q-item"><span class="cn"><span class="hl">我后悔没早点做</span>的，是<span class="swap">开口跟爸妈说谢谢</span>。</span><span class="split">拆分：有一件事我后悔没早点做。那就是开口跟爸妈说谢谢。</span><span class="en">(The thing <span class="hl">that I regret not doing sooner</span> is <span class="swap">telling my parents thank you</span>.)</span><span class="hint">试试换成：跟朋友说对不起 / 跟同事说不 / 跟自己说辛苦了</span></div>
+  <div class="q-item"><span class="cn"><span class="hl">我最受不了</span>的，是<span class="swap">别人替我做决定</span>。</span><span class="split">拆分：有人替我做决定。我最受不了这种事。</span><span class="en">(The thing <span class="hl">that I hate most</span> is <span class="swap">others making decisions for me</span>.)</span><span class="hint">试试换成：被安排得明明白白 / 通知式征求意见 / 替我说“没关系”</span></div>
+  <div class="footer">9/18</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">我的底线 · What I Refuse · 续</div>
+  </div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I don't want … who / that …</div>
+  <div class="q-item"><span class="cn"><span class="hl">我坚决不做的</span>，是<span class="swap">拿健康换加班费</span>。</span><span class="split">拆分：有人拿健康换加班费。我坚决不做这种事。</span><span class="en">(The thing <span class="hl">that I refuse to do</span> is <span class="swap">trading my health for overtime pay</span>.)</span><span class="hint">试试换成：别人定义的成功 / 打卡式的人生 / 为了面子过的日子</span></div>
+  <div class="q-item"><span class="cn"><span class="hl">我删掉最多</span>的，是<span class="swap">手机里半年不联系</span>的“朋友”。</span><span class="split">拆分：手机里有一些半年不联系的人。我删掉最多的就是他们。</span><span class="en">(The “friends” <span class="hl">that I delete most</span> are <span class="swap">the ones I haven't talked to in half a year</span>.)</span><span class="hint">试试换成：拒绝别人 / 提出加薪 / 承认自己不会</span></div>
+  <div class="q-item"><span class="cn"><span class="hl">我最不想听</span>的，是<span class="swap">“为你好”这三个字</span>。</span><span class="split">拆分：有人总说“为你好”。我最不想听这三个字。</span><span class="en">(The words <span class="hl">that I hate hearing most</span> are <span class="swap">“it's for your own good”</span>.)</span><span class="hint">试试换成：迟到还不解释 / 约好了又改时间 / 放鸽子连句抱歉都没有</span></div>
+  <div class="q-item"><span class="cn"><span class="hl">我一直在忍</span>的，是<span class="swap">楼下装修的电钻声</span>。</span><span class="split">拆分：楼下装修的电钻声很吵。我一直在忍。</span><span class="en">(The noise <span class="hl">that I've been putting up with</span> is <span class="swap">the drilling downstairs</span>.)</span><span class="hint">试试换成：跟朋友说对不起 / 跟同事说不 / 跟自己说辛苦了</span></div>
+  <div class="q-item"><span class="cn"><span class="hl">我最不想要的</span>，是<span class="swap">表面客气、背后捅刀</span>的关系。</span><span class="split">拆分：有一种关系表面客气，背后捅刀。我最不想要。</span><span class="en">(The bond <span class="hl">that I want least</span> is <span class="swap">polite in front, cruel behind</span>.)</span><span class="hint">试试换成：被安排得明明白白 / 通知式征求意见 / 替我说“没关系”</span></div>
+  <div class="footer">10/18</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">我的底线 · What I Refuse</div>
+  </div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I don't want … who / that …</div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我从不跟朋友借钱</span>的原因——<span class="swap">钱一沾上，友谊就变味了</span>。</span><span class="split">拆分：我从不跟朋友借钱。钱一沾上，友谊就变味了。</span><span class="en">(That's why <span class="hl">I don't borrow from friends</span> — <span class="swap">money ruins it</span>.)</span><span class="hint">试试换成：不跟同事吐槽 / 不跟亲戚合伙 / 不给别人担保</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我坚决不熬夜</span>的原因——<span class="swap">熬一次，第二天整个人都是废的</span>。</span><span class="split">拆分：我坚决不熬夜。熬一次，第二天整个人都是废的。</span><span class="en">(This is the reason <span class="hl">why I refuse to stay up late</span> — <span class="swap">one late night ruins my next day</span>.)</span><span class="hint">试试换成：不喝奶茶 / 不吃夜宵 / 不追深夜剧</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我不爱发朋友圈</span>的原因——<span class="swap">我不需要点赞来确认自己的生活</span>。</span><span class="split">拆分：我不爱发朋友圈。我不需要点赞来确认自己的生活。</span><span class="en">(That's why <span class="hl">I don't post my life online</span> — <span class="swap">I don't need likes</span>.)</span><span class="hint">试试换成：不晒娃 / 不发工资条 / 不秀恩爱</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我宁愿买贵些</span>的原因——<span class="swap">便宜的用不住，反而更贵</span>。</span><span class="split">拆分：我宁愿多花钱也不买便宜货。便宜货用不住，最后反而更贵。</span><span class="en">(That's why <span class="hl">I'd rather pay more</span> — <span class="swap">cheap breaks and costs more</span>.)</span><span class="hint">试试换成：不囤打折货 / 不拼单凑满减 / 不买预售款</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我不在群里说话</span>的原因——<span class="swap">一开口，就会冒出三个新任务</span>。</span><span class="split">拆分：我不在群里说话。因为一开口就会冒出三个新任务。</span><span class="en">(That's why <span class="hl">I stay quiet in group chats</span> — <span class="swap">messages mean work</span>.)</span><span class="hint">试试换成：不接陌生电话 / 不评论热点 / 不参与投票</span></div>
+  <div class="footer">11/18</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">我的底线 · What I Refuse · 续</div>
+  </div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I don't want … who / that …</div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我宁可绕路也不走那条巷子</span>的原因——<span class="swap">巷子里的狗太凶了</span>。</span><span class="split">拆分：我宁可绕路也不走那条巷子。因为巷子里的狗太凶了。</span><span class="en">(That's why <span class="hl">I avoid that alley</span> — <span class="swap">its dogs are too scary</span>.)</span><span class="hint">试试换成：不跟同事吐槽 / 不跟亲戚合伙 / 不给别人担保</span></div>
+  <div class="q-item"><span class="cn">我不想去的是那种<span class="hl"><span class="swap">不喝酒就散不了场</span></span>的饭局。</span><span class="split">拆分：有一种饭局不喝酒就散不了场。我不想去。</span><span class="en">(The dinners <span class="hl">where <span class="swap">you can't leave without drinking</span></span> are the ones I avoid.)</span><span class="hint">试试换成：不喝奶茶 / 不吃夜宵 / 不追深夜剧</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我不坐那趟早班地铁</span>的原因——<span class="swap">它总是挤到脚不沾地</span>。</span><span class="split">拆分：我不坐那趟早班地铁。因为它总是挤到脚不沾地。</span><span class="en">(That's why <span class="hl">I skip that morning subway</span> — <span class="swap">it's always packed</span>.)</span><span class="hint">试试换成：不晒娃 / 不发工资条 / 不秀恩爱</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我买菜坚持用现金</span>的原因——<span class="swap">花出去的钱才让人心疼</span>。</span><span class="split">拆分：我买菜坚持用现金。因为花出去的钱才让人心疼。</span><span class="en">(That's why <span class="hl">I pay cash</span> — <span class="swap">handing over money feels real</span>.)</span><span class="hint">试试换成：不囤打折货 / 不拼单凑满减 / 不买预售款</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我周末不接工作电话</span>的原因——<span class="swap">周末本来就是用来休息的</span>。</span><span class="split">拆分：我周末不接工作电话。因为周末本来就是用来休息的。</span><span class="en">(That's why <span class="hl">I skip weekend work calls</span> — <span class="swap">weekends are for rest</span>.)</span><span class="hint">试试换成：不接陌生电话 / 不评论热点 / 不参与投票</span></div>
+  <div class="footer">12/18</div>
 </div>
 
 <div class="page page-break">
@@ -263,20 +265,27 @@ body {
     <div class="main-title">Relative Clause</div>
     <div class="sub-title">我的评价 · My Take</div>
   </div>
-  <div class="track-header"><span class="track-title">我的评价 · My Take</span></div>
-  <div class="track-task">表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：The … that / who / where …</div>
-  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>
-  <div class="q-item"><span class="q-num">1.</span><span class="cn">就是那个<span class="hl"><span class="swap">第一次见面就跟我聊到深夜</span></span>的人，后来成了我最好的朋友。</span><span class="split">拆分：有个人第一次见面就跟我聊到深夜。他后来成了我最好的朋友。</span><span class="en">(He's the person <span class="hl">who <span class="swap">talked with me until midnight the first time we met</span></span> — he's my best friend now.)</span><span class="hint">试试换成：第一次见面就请我吃火锅 / 帮我搬了两次家 / 借我书还写了笔记</span></div>
-  <div class="q-item"><span class="q-num">2.</span><span class="cn">那部<span class="hl">大家都说会看哭</span>的电影，我<span class="swap">全程没感觉</span>。</span><span class="split">拆分：大家都说一部电影会看哭。我全程没感觉。</span><span class="en">(The movie <span class="hl">that everyone said would make me cry</span> <span class="swap">didn't move me at all</span>.)</span><span class="hint">试试换成：评分9.9的餐厅 / 排队两小时的网红店 / 都说必买的护肤品</span></div>
-  <div class="q-item"><span class="q-num">3.</span><span class="cn">那条<span class="hl">看起来平平无奇、穿上却很惊艳</span>的裙子，成了我<span class="swap">最常穿</span>的一件。</span><span class="split">拆分：一条裙子看起来平平无奇。它穿上却很惊艳。</span><span class="en">(The dress <span class="hl">that looked plain in the shop but amazing on me</span> became <span class="swap">my most-worn one</span>.)</span><span class="hint">试试换成：便宜但好用的耳机 / 丑但舒服的鞋 / 普通但耐用的包</span></div>
-  <div class="q-item"><span class="q-num">4.</span><span class="cn">那个<span class="hl"><span class="swap">说话超大声、人却特别靠谱</span></span>的同事，成了我的饭搭子。</span><span class="split">拆分：有个同事说话超大声。他人却特别靠谱。</span><span class="en">(The coworker <span class="hl">who <span class="swap">talks super loudly but is actually super reliable</span></span> became my lunch buddy.)</span><span class="hint">试试换成：毒舌但护短的朋友 / 嘴硬心软的室友 / 挑剔但专业的师傅</span></div>
-  <div class="q-item"><span class="q-num">5.</span><span class="cn">那道<span class="hl"><span class="swap">闻起来很奇怪、吃起来却真香</span></span>的菜，现在是我每周必点。</span><span class="split">拆分：一道菜闻起来很奇怪。它吃起来却很香。</span><span class="en">(The dish <span class="hl">that <span class="swap">smelled weird but tasted amazing</span></span> is now something I order every week.)</span><span class="hint">试试换成：长得丑但甜的瓜 / 名字怪但好吃的面 / 包装土但香的酱</span></div>
-  <div class="q-item"><span class="q-num">6.</span><span class="cn">那个<span class="hl"><span class="swap">第一次来我家就把猫哄得团团转</span></span>的人，我妈到现在还在夸。</span><span class="split">拆分：有个人第一次来我家。他把猫哄得团团转。</span><span class="en">(The person <span class="hl">who <span class="swap">charmed my cat on the very first visit</span></span> — my mom still talks about him.)</span><span class="hint">试试换成：把小孩哄睡的人 / 让老人笑的人 / 能让场面不冷的人</span></div>
-  <div class="q-item"><span class="q-num">7.</span><span class="cn">那家<span class="hl"><span class="swap">说要排队两小时、结果十分钟就进去了</span></span>的餐厅，成了我们的秘密基地。</span><span class="split">拆分：有家餐厅说要排队两小时。结果十分钟就进去了。</span><span class="en">(The restaurant <span class="hl">that <span class="swap">promised a two-hour wait but seated us in ten minutes</span></span> became our secret spot.)</span><span class="hint">试试换成：号称等一个月却提前发货的 / 说好不排队却挤爆的 / 评论说难吃却超好吃的</span></div>
-  <div class="q-item"><span class="q-num">8.</span><span class="cn">那个<span class="hl"><span class="swap">平时话不多、关键时候站出来</span></span>的人，是我最佩服的同事。</span><span class="split">拆分：有个同事平时话不多。关键时候他会站出来。</span><span class="en">(The coworker <span class="hl">who <span class="swap">says little but steps up when it matters</span></span> is the one I respect most.)</span><span class="hint">试试换成：平时嘻嘻哈哈但关键很稳的 / 看着懒散实际靠谱的 / 爱开玩笑但从不越界的</span></div>
-  <div class="q-item"><span class="q-num">9.</span><span class="cn">那本<span class="hl"><span class="swap">买回来放了半年、一翻开就停不下来</span></span>的书，是我今年的惊喜。</span><span class="split">拆分：一本书买回来放了半年。一翻开就停不下来。</span><span class="en">(The book <span class="hl">that <span class="swap">sat unread for six months and then hooked me</span></span> was my surprise this year.)</span><span class="hint">试试换成：借来很久却舍不得还的 / 被安利好多次才看的 / 随手翻开就放不下的</span></div>
-  <div class="q-item"><span class="q-num">10.</span><span class="cn">那家<span class="hl"><span class="swap">网上评分只有三颗星、味道却意外好</span></span>的小店，是我私藏的。</span><span class="split">拆分：一家小店网上评分只有三颗星。味道却意外好。</span><span class="en">(The little shop <span class="hl">that <span class="swap">has only three stars online but surprisingly good food</span></span> is my hidden gem.)</span><span class="hint">试试换成：装修很破但好吃的 / 服务一般但实在的 / 位置偏但安静的</span></div>
-  <div class="footer">7/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：The … that / who / where …</div>
+  <div class="q-item"><span class="cn">就是那个<span class="hl"><span class="swap">第一次见面就跟我聊到深夜</span></span>的人，后来成了我最好的朋友。</span><span class="split">拆分：有个人第一次见面就跟我聊到深夜。他后来成了我最好的朋友。</span><span class="en">(He's my best friend now — the one <span class="hl">who <span class="swap">talked till midnight</span></span>.)</span><span class="hint">试试换成：第一次见面就请我吃火锅 / 帮我搬了两次家 / 借我书还写了笔记</span></div>
+  <div class="q-item"><span class="cn">那部<span class="hl">大家都说会看哭</span>的电影，我<span class="swap">全程没感觉</span>。</span><span class="split">拆分：大家都说一部电影会看哭。我全程没感觉。</span><span class="en">(The movie <span class="hl">that everyone said would make me cry</span> <span class="swap">didn't move me at all</span>.)</span><span class="hint">试试换成：评分9.9的餐厅 / 排队两小时的网红店 / 都说必买的护肤品</span></div>
+  <div class="q-item"><span class="cn">那条<span class="hl">看起来平平无奇、穿上却很惊艳</span>的裙子，成了我<span class="swap">最常穿</span>的一件。</span><span class="split">拆分：一条裙子看起来平平无奇。它穿上却很惊艳。</span><span class="en">(The dress <span class="hl">that looked plain but surprised me</span> is <span class="swap">my most-worn one</span>.)</span><span class="hint">试试换成：便宜但好用的耳机 / 丑但舒服的鞋 / 普通但耐用的包</span></div>
+  <div class="q-item"><span class="cn">那个<span class="hl"><span class="swap">说话超大声、人却特别靠谱</span></span>的同事，成了我的饭搭子。</span><span class="split">拆分：有个同事说话超大声。他人却特别靠谱。</span><span class="en">(The coworker <span class="hl">who <span class="swap">talks loud but is reliable</span></span> is my lunch buddy.)</span><span class="hint">试试换成：毒舌但护短的朋友 / 嘴硬心软的室友 / 挑剔但专业的师傅</span></div>
+  <div class="q-item"><span class="cn">那道<span class="hl"><span class="swap">闻起来很奇怪、吃起来却真香</span></span>的菜，现在是我每周必点。</span><span class="split">拆分：一道菜闻起来很奇怪。它吃起来却很香。</span><span class="en">(The dish <span class="hl">that <span class="swap">smells weird but tastes great</span></span> is my weekly order.)</span><span class="hint">试试换成：长得丑但甜的瓜 / 名字怪但好吃的面 / 包装土但香的酱</span></div>
+  <div class="footer">13/18</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">我的评价 · My Take · 续</div>
+  </div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：The … that / who / where …</div>
+  <div class="q-item"><span class="cn">那个<span class="hl"><span class="swap">第一次来我家就把猫哄得团团转</span></span>的人，我妈到现在还在夸。</span><span class="split">拆分：有个人第一次来我家。他把猫哄得团团转。</span><span class="en">(The person <span class="hl">who <span class="swap">charmed my cat</span></span> — my mom still mentions him.)</span><span class="hint">试试换成：第一次见面就请我吃火锅 / 帮我搬了两次家 / 借我书还写了笔记</span></div>
+  <div class="q-item"><span class="cn">那家<span class="hl"><span class="swap">说排队两小时、十分钟就进去了</span></span>的餐厅，成了我们的秘密基地。</span><span class="split">拆分：有家餐厅说要排队两小时。结果十分钟就进去了。</span><span class="en">(The spot <span class="hl">that <span class="swap">said two hours but seated us in ten</span></span> is our secret.)</span><span class="hint">试试换成：评分9.9的餐厅 / 排队两小时的网红店 / 都说必买的护肤品</span></div>
+  <div class="q-item"><span class="cn">那个<span class="hl"><span class="swap">平时话不多、关键时候站出来</span></span>的人，是我最佩服的同事。</span><span class="split">拆分：有个同事平时话不多。关键时候他会站出来。</span><span class="en">(The coworker <span class="hl">who <span class="swap">says little but steps up</span></span> is the one I respect.)</span><span class="hint">试试换成：便宜但好用的耳机 / 丑但舒服的鞋 / 普通但耐用的包</span></div>
+  <div class="q-item"><span class="cn">那本<span class="hl"><span class="swap">买回来放了半年、一翻开就停不下来</span></span>的书，是我今年的惊喜。</span><span class="split">拆分：一本书买回来放了半年。一翻开就停不下来。</span><span class="en">(The book <span class="hl">that <span class="swap">sat unread but hooked me</span></span> was my surprise this year.)</span><span class="hint">试试换成：毒舌但护短的朋友 / 嘴硬心软的室友 / 挑剔但专业的师傅</span></div>
+  <div class="q-item"><span class="cn">那家<span class="hl"><span class="swap">网上评分只有三颗星、味道却意外好</span></span>的小店，是我私藏的。</span><span class="split">拆分：一家小店网上评分只有三颗星。味道却意外好。</span><span class="en">(The little shop <span class="hl">that <span class="swap">has three stars but good food</span></span> is my gem.)</span><span class="hint">试试换成：长得丑但甜的瓜 / 名字怪但好吃的面 / 包装土但香的酱</span></div>
+  <div class="footer">14/18</div>
 </div>
 
 <div class="page page-break">
@@ -284,20 +293,27 @@ body {
     <div class="main-title">Relative Clause</div>
     <div class="sub-title">我的评价 · My Take</div>
   </div>
-  <div class="track-header"><span class="track-title">我的评价 · My Take</span></div>
-  <div class="track-task">表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：The … that / who / where …</div>
-  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>
-  <div class="q-item"><span class="q-num">1.</span><span class="cn">我妈<span class="hl">给我安排的</span>那场<span class="swap">约会</span>，其实还挺可爱的。</span><span class="split">拆分：我妈给我安排了一场约会。它其实还挺可爱的。</span><span class="en">(The <span class="swap">date</span> <span class="hl">that my mom set up for me</span> was actually cute.)</span><span class="hint">试试换成：相亲 / 饭局 / 旅行</span></div>
-  <div class="q-item"><span class="q-num">2.</span><span class="cn">朋友<span class="hl">一直安利我</span>的那部<span class="swap">纪录片</span>，我看完确实很震撼。</span><span class="split">拆分：朋友一直向我安利一部纪录片。我看完确实很震撼。</span><span class="en">(The <span class="swap">documentary</span> <span class="hl">that my friend kept recommending</span> was honestly amazing.)</span><span class="hint">试试换成：书 / 剧 / 播客</span></div>
-  <div class="q-item"><span class="q-num">3.</span><span class="cn">我上周<span class="hl">买的</span>那双<span class="swap">鞋</span>，穿着走了一万步也不磨脚。</span><span class="split">拆分：我上周买了一双鞋。它走了一万步也不磨脚。</span><span class="en">(The <span class="swap">shoes</span> <span class="hl">that I bought last week</span> didn't hurt even after ten thousand steps.)</span><span class="hint">试试换成：耳机 / 雨伞 / 保温杯</span></div>
-  <div class="q-item"><span class="q-num">4.</span><span class="cn">老板临时<span class="hl">丢给我的</span>那个<span class="swap">项目</span>，做完才发现没那么可怕。</span><span class="split">拆分：老板临时丢给我一个项目。做完才发现没那么可怕。</span><span class="en">(The <span class="swap">project</span> <span class="hl">that my boss suddenly dumped on me</span> turned out not so scary.)</span><span class="hint">试试换成：报告 / 汇报 / 出差</span></div>
-  <div class="q-item"><span class="q-num">5.</span><span class="cn">我在二手平台<span class="hl">淘到</span>的那把<span class="swap">椅子</span>，比新的还结实。</span><span class="split">拆分：我在二手平台淘到一把椅子。它比新的还结实。</span><span class="en">(The <span class="swap">chair</span> <span class="hl">that I got on a secondhand app</span> is sturdier than a new one.)</span><span class="hint">试试换成：桌子 / 台灯 / 锅</span></div>
-  <div class="q-item"><span class="q-num">6.</span><span class="cn">同事偷偷<span class="hl">放在我桌上</span>的那杯<span class="swap">咖啡</span>，让我撑过了整个下午。</span><span class="split">拆分：同事偷偷放了一杯咖啡在我桌上。它让我撑过了整个下午。</span><span class="en">(The <span class="swap">coffee</span> <span class="hl">that my coworker left on my desk</span> got me through the afternoon.)</span><span class="hint">试试换成：面包 / 便当 / 充电线</span></div>
-  <div class="q-item"><span class="q-num">7.</span><span class="cn">我第一次<span class="hl">做</span>的那顿<span class="swap">饭</span>，卖相难看，味道却不错。</span><span class="split">拆分：我第一次做了一顿饭。它卖相难看，味道却不错。</span><span class="en">(The <span class="swap">meal</span> <span class="hl">that I cooked for the first time</span> looked bad but tasted good.)</span><span class="hint">试试换成：菜 / 汤 / 蛋糕</span></div>
-  <div class="q-item"><span class="q-num">8.</span><span class="cn">我<span class="hl">删了又装回来</span>的那个<span class="swap">App</span>，最后还是卸了。</span><span class="split">拆分：我删了一个App又装回来。最后还是卸了。</span><span class="en">(The <span class="swap">app</span> <span class="hl">that I deleted and reinstalled</span> got deleted again in the end.)</span><span class="hint">试试换成：游戏 / 表情包 / 歌单</span></div>
-  <div class="q-item"><span class="q-num">9.</span><span class="cn">我在地铁上<span class="hl">让座</span>给的那位<span class="swap">阿姨</span>，下车前一直跟我说谢谢。</span><span class="split">拆分：我在地铁上给一位阿姨让座。她下车前一直跟我说谢谢。</span><span class="en">(The <span class="swap">lady</span> <span class="hl">that I gave my seat to</span> kept thanking me until she got off.)</span><span class="hint">试试换成：大叔 / 小孩 / 孕妇</span></div>
-  <div class="q-item"><span class="q-num">10.</span><span class="cn">我替同事<span class="hl">顶</span>的那个<span class="swap">班</span>，换来一句“下次请你吃饭”。</span><span class="split">拆分：我替同事顶了一个班。他跟我说下次请我吃饭。</span><span class="en">(The <span class="swap">shift</span> <span class="hl">that I covered for my coworker</span> earned me a “lunch is on me”.)</span><span class="hint">试试换成：加班 / 夜班 / 值班</span></div>
-  <div class="footer">8/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：The … that / who / where …</div>
+  <div class="q-item"><span class="cn">我妈<span class="hl">给我安排的</span>那场<span class="swap">约会</span>，其实还挺可爱的。</span><span class="split">拆分：我妈给我安排了一场约会。它其实还挺可爱的。</span><span class="en">(The <span class="swap">date</span> <span class="hl">that my mom set up for me</span> was actually cute.)</span><span class="hint">试试换成：相亲 / 饭局 / 旅行</span></div>
+  <div class="q-item"><span class="cn">朋友<span class="hl">一直安利我</span>的那部<span class="swap">纪录片</span>，我看完确实很震撼。</span><span class="split">拆分：朋友一直向我安利一部纪录片。我看完确实很震撼。</span><span class="en">(The <span class="swap">documentary</span> <span class="hl">that my friend kept recommending</span> was honestly amazing.)</span><span class="hint">试试换成：书 / 剧 / 播客</span></div>
+  <div class="q-item"><span class="cn">我上周<span class="hl">买的</span>那双<span class="swap">鞋</span>，穿着走了一万步也不磨脚。</span><span class="split">拆分：我上周买了一双鞋。它走了一万步也不磨脚。</span><span class="en">(The <span class="swap">shoes</span> <span class="hl">that I bought last week</span> didn't hurt even after ten thousand steps.)</span><span class="hint">试试换成：耳机 / 雨伞 / 保温杯</span></div>
+  <div class="q-item"><span class="cn">老板临时<span class="hl">丢给我的</span>那个<span class="swap">项目</span>，做完才发现没那么可怕。</span><span class="split">拆分：老板临时丢给我一个项目。做完才发现没那么可怕。</span><span class="en">(The <span class="swap">project</span> <span class="hl">that my boss suddenly dumped on me</span> turned out not so scary.)</span><span class="hint">试试换成：报告 / 汇报 / 出差</span></div>
+  <div class="q-item"><span class="cn">我在二手平台<span class="hl">淘到</span>的那把<span class="swap">椅子</span>，比新的还结实。</span><span class="split">拆分：我在二手平台淘到一把椅子。它比新的还结实。</span><span class="en">(The <span class="swap">chair</span> <span class="hl">that I got on a secondhand app</span> is sturdier than a new one.)</span><span class="hint">试试换成：桌子 / 台灯 / 锅</span></div>
+  <div class="footer">15/18</div>
+</div>
+
+<div class="page page-break">
+  <div class="title-area">
+    <div class="main-title">Relative Clause</div>
+    <div class="sub-title">我的评价 · My Take · 续</div>
+  </div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：The … that / who / where …</div>
+  <div class="q-item"><span class="cn">同事偷偷<span class="hl">放在我桌上</span>的那杯<span class="swap">咖啡</span>，让我撑过了整个下午。</span><span class="split">拆分：同事偷偷放了一杯咖啡在我桌上。它让我撑过了整个下午。</span><span class="en">(The <span class="swap">coffee</span> <span class="hl">that my coworker left on my desk</span> got me through the afternoon.)</span><span class="hint">试试换成：相亲 / 饭局 / 旅行</span></div>
+  <div class="q-item"><span class="cn">我第一次<span class="hl">做</span>的那顿<span class="swap">饭</span>，卖相难看，味道却不错。</span><span class="split">拆分：我第一次做了一顿饭。它卖相难看，味道却不错。</span><span class="en">(The <span class="swap">meal</span> <span class="hl">that I cooked for the first time</span> looked bad but tasted good.)</span><span class="hint">试试换成：书 / 剧 / 播客</span></div>
+  <div class="q-item"><span class="cn">我<span class="hl">删了又装回来</span>的那个<span class="swap">App</span>，最后还是卸了。</span><span class="split">拆分：我删了一个App又装回来。最后还是卸了。</span><span class="en">(The <span class="swap">app</span> <span class="hl">that I deleted and reinstalled</span> got deleted again in the end.)</span><span class="hint">试试换成：耳机 / 雨伞 / 保温杯</span></div>
+  <div class="q-item"><span class="cn">我在地铁上<span class="hl">让座</span>给的那位<span class="swap">阿姨</span>，下车前一直跟我说谢谢。</span><span class="split">拆分：我在地铁上给一位阿姨让座。她下车前一直跟我说谢谢。</span><span class="en">(The <span class="swap">lady</span> <span class="hl">that I gave my seat to</span> kept thanking me until she got off.)</span><span class="hint">试试换成：报告 / 汇报 / 出差</span></div>
+  <div class="q-item"><span class="cn">我替同事<span class="hl">顶</span>的那个<span class="swap">班</span>，换来一句“下次请你吃饭”。</span><span class="split">拆分：我替同事顶了一个班。他跟我说下次请我吃饭。</span><span class="en">(The <span class="swap">shift</span> <span class="hl">that I covered for my coworker</span> earned me a “lunch is on me”.)</span><span class="hint">试试换成：桌子 / 台灯 / 锅</span></div>
+  <div class="footer">16/18</div>
 </div>
 
 <div class="page page-break">
@@ -305,37 +321,27 @@ body {
     <div class="main-title">Relative Clause</div>
     <div class="sub-title">我的评价 · My Take</div>
   </div>
-  <div class="track-header"><span class="track-title">我的评价 · My Take</span></div>
-  <div class="track-task">表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：The … that / who / where …</div>
-  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>
-  <div class="q-item"><span class="q-num">1.</span><span class="cn">这是<span class="hl"><span class="swap">我完全不用装大人</span></span>的地方。</span><span class="split">拆分：我有一个地方。在那里我完全不用装大人。</span><span class="en">(This is a place <span class="hl">where I <span class="swap">don't have to act like a grown-up</span></span>.)</span><span class="hint">试试换成：不用想工作 / 不用社交 / 不用说话</span></div>
-  <div class="q-item"><span class="q-num">2.</span><span class="cn">这就是<span class="hl">成年人的友谊越来越难维持</span>的原因——<span class="swap">大家的时间都被工作和生活占满了</span>。</span><span class="split">拆分：成年人的友谊越来越难维持。大家的时间都被工作和生活占满了。</span><span class="en">(This is the reason <span class="hl">why adult friendships get harder to keep</span> — <span class="swap">everyone's time is taken by work and life</span>.)</span><span class="hint">试试换成：见面越来越少 / 共同话题变少 / 大家都在赶路</span></div>
-  <div class="q-item"><span class="q-num">3.</span><span class="cn">我们<span class="hl">第一次见面</span>的那家<span class="swap">奶茶店</span>，现在已经关门了。</span><span class="split">拆分：我们在一家奶茶店第一次见面。它现在已经关门了。</span><span class="en">(The <span class="swap">milk tea shop</span> <span class="hl">where we first met</span> has closed down now.)</span><span class="hint">试试换成：咖啡店 / 书店 / 面馆</span></div>
-  <div class="q-item"><span class="q-num">4.</span><span class="cn">我每年<span class="hl">最期待</span>的日子，是<span class="swap">全家一起吃饭的除夕</span>。</span><span class="split">拆分：我每年最期待一天。那是全家一起吃饭的除夕。</span><span class="en">(The day <span class="hl">when I'm most excited each year</span> is <span class="swap">New Year's Eve with the whole family</span>.)</span><span class="hint">试试换成：发工资 / 放暑假 / 见老友</span></div>
-  <div class="q-item"><span class="q-num">5.</span><span class="cn">这就是<span class="hl">我宁愿多走十分钟也不坐那趟公交</span>的原因——<span class="swap">它总是绕远路</span>。</span><span class="split">拆分：我宁愿多走十分钟也不坐那趟公交。因为它总是绕远路。</span><span class="en">(This is the reason <span class="hl">why I'd rather walk ten minutes than take that bus</span> — <span class="swap">it always takes the long way</span>.)</span><span class="hint">试试换成：快递永远送错 / 外卖永远迟到 / 电梯永远检修</span></div>
-  <div class="q-item"><span class="q-num">6.</span><span class="cn">我人生中最难熬的时刻，是<span class="hl"><span class="swap">等成绩</span>的那个下午</span>。</span><span class="split">拆分：我等成绩等了一个下午。那是我人生中最难熬的时刻。</span><span class="en">(The hardest moment of my life was that afternoon <span class="hl">when I <span class="swap">was waiting for my exam results</span></span>.)</span><span class="hint">试试换成：等面试通知 / 等体检报告 / 等快递派送</span></div>
-  <div class="q-item"><span class="q-num">7.</span><span class="cn">那家我们<span class="hl">每次聚会都去</span>的<span class="swap">烧烤店</span>，味道十年没变。</span><span class="split">拆分：我们每次聚会都去一家烧烤店。它的味道十年没变。</span><span class="en">(The <span class="swap">barbecue place</span> <span class="hl">where we always hang out</span> has kept the same taste for ten years.)</span><span class="hint">试试换成：面馆 / 糖水铺 / 大排档</span></div>
-  <div class="q-item"><span class="q-num">8.</span><span class="cn">这就是那家店<span class="hl">永远在排队</span>的原因——<span class="swap">便宜又好吃</span>。</span><span class="split">拆分：那家店永远在排队。因为它便宜又好吃。</span><span class="en">(This is the reason <span class="hl">why that shop always has a queue</span> — <span class="swap">it's cheap and delicious</span>.)</span><span class="hint">试试换成：下雨天爆单 / 周末才营业 / 老板做得慢</span></div>
-  <div class="q-item"><span class="q-num">9.</span><span class="cn">我最喜欢的季节，是<span class="hl"><span class="swap">桂花开的九月</span></span>。</span><span class="split">拆分：九月桂花开了。那是我最喜欢的季节。</span><span class="en">(My favorite season is September, <span class="hl">when <span class="swap">the osmanthus blooms</span></span>.)</span><span class="hint">试试换成：梧桐的秋天 / 银杏的十一月 / 栀子的六月</span></div>
-  <div class="q-item"><span class="q-num">10.</span><span class="cn">这就是<span class="hl">我一直留着那件旧外套</span>的原因——<span class="swap">它是外婆买的</span>。</span><span class="split">拆分：我一直留着那件旧外套。因为它是外婆买的。</span><span class="en">(This is the reason <span class="hl">why I keep that old coat</span> — <span class="swap">my grandma bought it for me</span>.)</span><span class="hint">试试换成：旧手机 / 旧书 / 旧照片</span></div>
-  <div class="footer">9/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：The … that / who / where …</div>
+  <div class="q-item"><span class="cn">这是<span class="hl"><span class="swap">我完全不用装大人</span></span>的地方。</span><span class="split">拆分：我有一个地方。在那里我完全不用装大人。</span><span class="en">(This is a place <span class="hl">where I <span class="swap">don't have to act like a grown-up</span></span>.)</span><span class="hint">试试换成：不用想工作 / 不用社交 / 不用说话</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">成年人友谊难维持</span>的原因——<span class="swap">时间都被工作和生活占满了</span>。</span><span class="split">拆分：成年人的友谊越来越难维持。大家的时间都被工作和生活占满了。</span><span class="en">(That's why <span class="hl">adult friendship fades</span> — <span class="swap">work and life take time</span>.)</span><span class="hint">试试换成：见面越来越少 / 共同话题变少 / 大家都在赶路</span></div>
+  <div class="q-item"><span class="cn">我们<span class="hl">第一次见面</span>的那家<span class="swap">奶茶店</span>，现在已经关门了。</span><span class="split">拆分：我们在一家奶茶店第一次见面。它现在已经关门了。</span><span class="en">(The <span class="swap">milk tea shop</span> <span class="hl">where we first met</span> has closed down now.)</span><span class="hint">试试换成：咖啡店 / 书店 / 面馆</span></div>
+  <div class="q-item"><span class="cn">我每年<span class="hl">最期待</span>的日子，是<span class="swap">全家一起吃饭的除夕</span>。</span><span class="split">拆分：我每年最期待一天。那是全家一起吃饭的除夕。</span><span class="en">(The day <span class="hl">when I'm most excited each year</span> is <span class="swap">New Year's Eve with the whole family</span>.)</span><span class="hint">试试换成：发工资 / 放暑假 / 见老友</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我宁愿多走十分钟也不坐那趟公交</span>的原因——<span class="swap">它总是绕远路</span>。</span><span class="split">拆分：我宁愿多走十分钟也不坐那趟公交。因为它总是绕远路。</span><span class="en">(That's why <span class="hl">I'd rather walk</span> — <span class="swap">that bus takes the long way</span>.)</span><span class="hint">试试换成：快递永远送错 / 外卖永远迟到 / 电梯永远检修</span></div>
+  <div class="footer">17/18</div>
 </div>
 
 <div class="page page-break">
   <div class="title-area">
     <div class="main-title">Relative Clause</div>
-    <div class="sub-title">语法速查 · Grammar Quick Reference</div>
+    <div class="sub-title">我的评价 · My Take · 续</div>
   </div>
-  <div class="ref-section">    <div class="ref-header">关系词速查</div>
-    <table class="ref-table">
-      <tr><th>关系词</th><th>用在哪</th><th>本册例句</th></tr>
-      <tr><td><b>who</b></td><td>人 · 在从句中作主语</td><td>靠谱、有耐心的老板 / the boss who is reliable…</td></tr>
-      <tr><td><b>that</b></td><td>人或物 · 主语或宾语</td><td>我妈安排的那场约会 / the date that my mom set up…</td></tr>
-      <tr><td><b>where</b></td><td>地点</td><td>下楼就有热乎饭的地方 / a place where I can get hot food…</td></tr>
-      <tr><td><b>when</b></td><td>时间</td><td>走出地铁站的时刻 / the moment when I walk out…</td></tr>
-      <tr><td><b>why</b></td><td>原因</td><td>我宁愿早起的原因 / the reason why I wake up early…</td></tr>
-    </table>
-      </div>  <div class="ref-section">    <div class="ref-header">两个关键位置</div>    <div class="ref-item"><b>位置一：先行词在从句中作主语</b> — who / that 后面直接跟动词。<span class="ref-note">I want a boss who is reliable…（who 后面直接就是 is）</span></div>    <div class="ref-item"><b>位置二：先行词在从句中作宾语</b> — that 可以省略，从句接下来是“主语 + 动词”。<span class="ref-note">The date (that) my mom set up for me…（省略 that 后直接是 my mom set up）</span></div>  </div>  <div class="ref-section">    <div class="ref-header">脚手架三步 + 开口一步</div>    <div class="ref-item">1. 先看“拆分”两小句，信息是分开的。</div>    <div class="ref-item">2. 再看合成句，粗体部分是定语从句，浅灰底部分可以替换。</div>    <div class="ref-item">3. 从句越用越短：能省略 that 时，口语里通常省略。</div>    <div class="ref-item">4. 开口说：看“试试换成”的提示，挑一个方向说出你自己的版本。</div>  </div>  <div class="footer">10/10</div>
+  <div class="track-task">表达任务：把下划线部分换成你自己的版本，用同一句式说出口：The … that / who / where …</div>
+  <div class="q-item"><span class="cn">我人生中最难熬的时刻，是<span class="hl"><span class="swap">等成绩</span>的那个下午</span>。</span><span class="split">拆分：我等成绩等了一个下午。那是我人生中最难熬的时刻。</span><span class="en">(The hardest moment of my life was <span class="hl">when I <span class="swap">waited for exam results</span></span>.)</span><span class="hint">试试换成：不用想工作 / 不用社交 / 不用说话</span></div>
+  <div class="q-item"><span class="cn">那家我们<span class="hl">每次聚会都去</span>的<span class="swap">烧烤店</span>，味道十年没变。</span><span class="split">拆分：我们每次聚会都去一家烧烤店。它的味道十年没变。</span><span class="en">(Our <span class="swap">barbecue spot</span> <span class="hl">where we always go</span> still tastes the same.)</span><span class="hint">试试换成：见面越来越少 / 共同话题变少 / 大家都在赶路</span></div>
+  <div class="q-item"><span class="cn">这就是那家店<span class="hl">永远在排队</span>的原因——<span class="swap">便宜又好吃</span>。</span><span class="split">拆分：那家店永远在排队。因为它便宜又好吃。</span><span class="en">(This is the reason <span class="hl">why that shop always has a queue</span> — <span class="swap">it's cheap and delicious</span>.)</span><span class="hint">试试换成：咖啡店 / 书店 / 面馆</span></div>
+  <div class="q-item"><span class="cn">我最喜欢的季节，是<span class="hl"><span class="swap">桂花开的九月</span></span>。</span><span class="split">拆分：九月桂花开了。那是我最喜欢的季节。</span><span class="en">(My favorite season is September, <span class="hl">when <span class="swap">the osmanthus blooms</span></span>.)</span><span class="hint">试试换成：发工资 / 放暑假 / 见老友</span></div>
+  <div class="q-item"><span class="cn">这就是<span class="hl">我一直留着那件旧外套</span>的原因——<span class="swap">它是外婆买的</span>。</span><span class="split">拆分：我一直留着那件旧外套。因为它是外婆买的。</span><span class="en">(This is the reason <span class="hl">why I keep that old coat</span> — <span class="swap">my grandma bought it for me</span>.)</span><span class="hint">试试换成：快递永远送错 / 外卖永远迟到 / 电梯永远检修</span></div>
+  <div class="footer">18/18</div>
 </div>
 
 </body>

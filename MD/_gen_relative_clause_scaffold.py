@@ -2,8 +2,7 @@
 
 3 themes x 30 sentences = 90, content only (no track/ladder labels).
 Every sentence is complete (原因/细节写清楚), replaceable parts marked
-with 浅灰底色 (【…】). Each item shows 拆分两句 -> 合成句 + 试试换成提示.
-Last page = grammar quick reference.
+with 下划线 (【…】). Each item shows 拆分两句 -> 合成句 + 试试换成提示.
 """
 
 import re
@@ -43,15 +42,15 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
 # ═══════════════════════════════════════════════════════════════════════
 #  CONTENT: (cn_with_hl, split_two_sentences, en_with_hl)
 #  {…}  = relative clause (粗体)
-#  【…】 = replaceable part (浅灰底色), may nest inside {…}
+#  【…】 = replaceable part (下划线), may nest inside {…}
 # ═══════════════════════════════════════════════════════════════════════
 
 TRACKS = [
     {
         "tag": "TRACK A",
-        "title": "我的理想 · What I Want",
+        "title": "我想要的 · What I Want",
         "subtitle": "说说你想要的老板、伴侣、工作与生活",
-        "task": "表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：I want a … who / that …",
+        "task": "表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I want a … who / that …",
         "ladders": {
             "L1": [
                 (
@@ -119,7 +118,7 @@ TRACKS = [
                 (
                     "我{最想去的}城市，不是风景最漂亮的，而是【东西最好吃的】。",
                     "我想去一些城市。不是风景最漂亮的。是东西最好吃的。",
-                    "The city {that I want to visit most} isn't the prettiest one — it's 【the one with the best food】.",
+                    "The city {that I want most} isn't pretty — 【its food is best】.",
                 ),
                 (
                     "我{做梦都想要}的工作，是【每天都能学到新东西】的那种。",
@@ -166,17 +165,17 @@ TRACKS = [
                 (
                     "我一天里最放松的时刻，是{【下班走出地铁站】}的那几分钟。",
                     "我下班走出地铁站。那几分钟最放松。",
-                    "The moment {when I 【walk out of the subway station】} is the most relaxing part of my day.",
+                    "My most relaxing moment is {when I 【get off the subway】}.",
                 ),
                 (
-                    "这就是{我愿意留在这座城市}的原因——【我的朋友和想吃的那口饭都在这里】。",
+                    "这就是{我留在这座城市}的原因——【朋友和想吃的都在这里】。",
                     "我愿意留在这座城市。我的朋友和想吃的那口饭都在这里。",
-                    "This is the reason {why I want to stay in this city} — 【my friends and my favorite food are here】.",
+                    "This is why {I stay in this city} — 【friends and food are here】.",
                 ),
                 (
                     "这就是{我宁愿早起也不熬夜}的原因——【早上的时间才真正属于我自己】。",
                     "我宁愿早起也不熬夜。早上的时间才真正属于我自己。",
-                    "This is the reason {why I'd rather wake up early than stay up late} — 【mornings are my only quiet time】.",
+                    "This is why {I get up early} — 【mornings are my quiet time】.",
                 ),
                 (
                     "我想去的是那种{【不用拍照打卡也很好看】}的地方。",
@@ -206,7 +205,7 @@ TRACKS = [
                 (
                     "我最喜欢的时刻，是{【正要喝第一口咖啡】的那几秒}。",
                     "我正要喝第一口咖啡。那几秒我最喜欢。",
-                    "My favorite moment is those few seconds {when I'm 【about to take my first sip of coffee】}.",
+                    "My favorite moment is {when I'm 【about to sip my coffee】}.",
                 ),
             ],
         },
@@ -215,7 +214,7 @@ TRACKS = [
         "tag": "TRACK B",
         "title": "我的底线 · What I Refuse",
         "subtitle": "说出你受不了的人和事",
-        "task": "表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：I don't want … who / that …",
+        "task": "表达任务：把下划线部分换成你自己的版本，用同一句式说出口：I don't want … who / that …",
         "ladders": {
             "L1": [
                 (
@@ -226,7 +225,7 @@ TRACKS = [
                 (
                     "我不想跟一个{【遇事就沉默冷战】}的人做朋友。",
                     "有个人遇事就沉默冷战。我不想和他做朋友。",
-                    "I don't want to be friends with someone {who 【goes silent and cold when there's a problem】}.",
+                    "I don't want to befriend someone {who 【goes cold and silent】}.",
                 ),
                 (
                     "我不想成为那种{【答应帮忙、转头就忘】}的人。",
@@ -261,7 +260,7 @@ TRACKS = [
                 (
                     "我不想跟一个{【借钱不还、还装没事】}的人再来往。",
                     "有个人借钱不还，还装没事。我不想再和他来往。",
-                    "I don't want to deal with someone {who 【borrows money and pretends nothing happened】}.",
+                    "I won't deal with someone {who 【borrows money and plays innocent】}.",
                 ),
                 (
                     "我不想成为那种{【见不得别人过得好】}的人。",
@@ -318,14 +317,14 @@ TRACKS = [
                 (
                     "{我最不想要的}，是【表面客气、背后捅刀】的关系。",
                     "有一种关系表面客气，背后捅刀。我最不想要。",
-                    "The relationship {that I want least} is 【one that's polite to your face and cruel behind your back】.",
+                    "The bond {that I want least} is 【polite in front, cruel behind】.",
                 ),
             ],
             "L3": [
                 (
                     "这就是{我从不跟朋友借钱}的原因——【钱一沾上，友谊就变味了】。",
                     "我从不跟朋友借钱。钱一沾上，友谊就变味了。",
-                    "This is the reason {why I never borrow money from friends} — 【money changes the friendship】.",
+                    "That's why {I don't borrow from friends} — 【money ruins it】.",
                 ),
                 (
                     "这就是{我坚决不熬夜}的原因——【熬一次，第二天整个人都是废的】。",
@@ -335,22 +334,22 @@ TRACKS = [
                 (
                     "这就是{我不爱发朋友圈}的原因——【我不需要点赞来确认自己的生活】。",
                     "我不爱发朋友圈。我不需要点赞来确认自己的生活。",
-                    "This is the reason {why I don't post my life on social media} — 【I don't need likes to feel real】.",
+                    "That's why {I don't post my life online} — 【I don't need likes】.",
                 ),
                 (
-                    "这就是{我宁愿多花钱也不买便宜货}的原因——【便宜货用不住，最后反而更贵】。",
+                    "这就是{我宁愿买贵些}的原因——【便宜的用不住，反而更贵】。",
                     "我宁愿多花钱也不买便宜货。便宜货用不住，最后反而更贵。",
-                    "This is the reason {why I'd rather pay more than buy cheap} — 【cheap things break and cost more】.",
+                    "That's why {I'd rather pay more} — 【cheap breaks and costs more】.",
                 ),
                 (
                     "这就是{我不在群里说话}的原因——【一开口，就会冒出三个新任务】。",
                     "我不在群里说话。因为一开口就会冒出三个新任务。",
-                    "This is the reason {why I stay quiet in the group chat} — 【every message creates three new tasks】.",
+                    "That's why {I stay quiet in group chats} — 【messages mean work】.",
                 ),
                 (
                     "这就是{我宁可绕路也不走那条巷子}的原因——【巷子里的狗太凶了】。",
                     "我宁可绕路也不走那条巷子。因为巷子里的狗太凶了。",
-                    "This is the reason {why I take the long way around that alley} — 【the dogs there are too scary】.",
+                    "That's why {I avoid that alley} — 【its dogs are too scary】.",
                 ),
                 (
                     "我不想去的是那种{【不喝酒就散不了场】}的饭局。",
@@ -360,17 +359,17 @@ TRACKS = [
                 (
                     "这就是{我不坐那趟早班地铁}的原因——【它总是挤到脚不沾地】。",
                     "我不坐那趟早班地铁。因为它总是挤到脚不沾地。",
-                    "This is the reason {why I don't take that morning subway} — 【it's always too crowded to move】.",
+                    "That's why {I skip that morning subway} — 【it's always packed】.",
                 ),
                 (
                     "这就是{我买菜坚持用现金}的原因——【花出去的钱才让人心疼】。",
                     "我买菜坚持用现金。因为花出去的钱才让人心疼。",
-                    "This is the reason {why I still pay cash for groceries} — 【money you hand over feels real】.",
+                    "That's why {I pay cash} — 【handing over money feels real】.",
                 ),
                 (
                     "这就是{我周末不接工作电话}的原因——【周末本来就是用来休息的】。",
                     "我周末不接工作电话。因为周末本来就是用来休息的。",
-                    "This is the reason {why I don't answer work calls on weekends} — 【weekends are for resting】.",
+                    "That's why {I skip weekend work calls} — 【weekends are for rest】.",
                 ),
             ],
         },
@@ -379,13 +378,13 @@ TRACKS = [
         "tag": "TRACK C",
         "title": "我的评价 · My Take",
         "subtitle": "给经历和身边的人一个真实的评价",
-        "task": "表达任务：把浅灰部分换成你自己的版本，用同一句式说出口：The … that / who / where …",
+        "task": "表达任务：把下划线部分换成你自己的版本，用同一句式说出口：The … that / who / where …",
         "ladders": {
             "L1": [
                 (
                     "就是那个{【第一次见面就跟我聊到深夜】}的人，后来成了我最好的朋友。",
                     "有个人第一次见面就跟我聊到深夜。他后来成了我最好的朋友。",
-                    "He's the person {who 【talked with me until midnight the first time we met】} — he's my best friend now.",
+                    "He's my best friend now — the one {who 【talked till midnight】}.",
                 ),
                 (
                     "那部{大家都说会看哭}的电影，我【全程没感觉】。",
@@ -395,42 +394,42 @@ TRACKS = [
                 (
                     "那条{看起来平平无奇、穿上却很惊艳}的裙子，成了我【最常穿】的一件。",
                     "一条裙子看起来平平无奇。它穿上却很惊艳。",
-                    "The dress {that looked plain in the shop but amazing on me} became 【my most-worn one】.",
+                    "The dress {that looked plain but surprised me} is 【my most-worn one】.",
                 ),
                 (
                     "那个{【说话超大声、人却特别靠谱】}的同事，成了我的饭搭子。",
                     "有个同事说话超大声。他人却特别靠谱。",
-                    "The coworker {who 【talks super loudly but is actually super reliable】} became my lunch buddy.",
+                    "The coworker {who 【talks loud but is reliable】} is my lunch buddy.",
                 ),
                 (
                     "那道{【闻起来很奇怪、吃起来却真香】}的菜，现在是我每周必点。",
                     "一道菜闻起来很奇怪。它吃起来却很香。",
-                    "The dish {that 【smelled weird but tasted amazing】} is now something I order every week.",
+                    "The dish {that 【smells weird but tastes great】} is my weekly order.",
                 ),
                 (
                     "那个{【第一次来我家就把猫哄得团团转】}的人，我妈到现在还在夸。",
                     "有个人第一次来我家。他把猫哄得团团转。",
-                    "The person {who 【charmed my cat on the very first visit】} — my mom still talks about him.",
+                    "The person {who 【charmed my cat】} — my mom still mentions him.",
                 ),
                 (
-                    "那家{【说要排队两小时、结果十分钟就进去了】}的餐厅，成了我们的秘密基地。",
+                    "那家{【说排队两小时、十分钟就进去了】}的餐厅，成了我们的秘密基地。",
                     "有家餐厅说要排队两小时。结果十分钟就进去了。",
-                    "The restaurant {that 【promised a two-hour wait but seated us in ten minutes】} became our secret spot.",
+                    "The spot {that 【said two hours but seated us in ten】} is our secret.",
                 ),
                 (
                     "那个{【平时话不多、关键时候站出来】}的人，是我最佩服的同事。",
                     "有个同事平时话不多。关键时候他会站出来。",
-                    "The coworker {who 【says little but steps up when it matters】} is the one I respect most.",
+                    "The coworker {who 【says little but steps up】} is the one I respect.",
                 ),
                 (
                     "那本{【买回来放了半年、一翻开就停不下来】}的书，是我今年的惊喜。",
                     "一本书买回来放了半年。一翻开就停不下来。",
-                    "The book {that 【sat unread for six months and then hooked me】} was my surprise this year.",
+                    "The book {that 【sat unread but hooked me】} was my surprise this year.",
                 ),
                 (
                     "那家{【网上评分只有三颗星、味道却意外好】}的小店，是我私藏的。",
                     "一家小店网上评分只有三颗星。味道却意外好。",
-                    "The little shop {that 【has only three stars online but surprisingly good food】} is my hidden gem.",
+                    "The little shop {that 【has three stars but good food】} is my gem.",
                 ),
             ],
             "L2": [
@@ -492,9 +491,9 @@ TRACKS = [
                     "This is a place {where I 【don't have to act like a grown-up】}.",
                 ),
                 (
-                    "这就是{成年人的友谊越来越难维持}的原因——【大家的时间都被工作和生活占满了】。",
+                    "这就是{成年人友谊难维持}的原因——【时间都被工作和生活占满了】。",
                     "成年人的友谊越来越难维持。大家的时间都被工作和生活占满了。",
-                    "This is the reason {why adult friendships get harder to keep} — 【everyone's time is taken by work and life】.",
+                    "That's why {adult friendship fades} — 【work and life take time】.",
                 ),
                 (
                     "我们{第一次见面}的那家【奶茶店】，现在已经关门了。",
@@ -509,17 +508,17 @@ TRACKS = [
                 (
                     "这就是{我宁愿多走十分钟也不坐那趟公交}的原因——【它总是绕远路】。",
                     "我宁愿多走十分钟也不坐那趟公交。因为它总是绕远路。",
-                    "This is the reason {why I'd rather walk ten minutes than take that bus} — 【it always takes the long way】.",
+                    "That's why {I'd rather walk} — 【that bus takes the long way】.",
                 ),
                 (
                     "我人生中最难熬的时刻，是{【等成绩】的那个下午}。",
                     "我等成绩等了一个下午。那是我人生中最难熬的时刻。",
-                    "The hardest moment of my life was that afternoon {when I 【was waiting for my exam results】}.",
+                    "The hardest moment of my life was {when I 【waited for exam results】}.",
                 ),
                 (
                     "那家我们{每次聚会都去}的【烧烤店】，味道十年没变。",
                     "我们每次聚会都去一家烧烤店。它的味道十年没变。",
-                    "The 【barbecue place】 {where we always hang out} has kept the same taste for ten years.",
+                    "Our 【barbecue spot】 {where we always go} still tastes the same.",
                 ),
                 (
                     "这就是那家店{永远在排队}的原因——【便宜又好吃】。",
@@ -669,17 +668,17 @@ body {
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Microsoft YaHei', 'PingFang SC', sans-serif;
     width: 210mm;
     background: #ffffff;
-    color: #1a1a1a;
+    color: #000000;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
-    line-height: 1.45;
-    font-size: 11.5px;
+    line-height: 1.55;
+    font-size: 14px;
 }
 
 .page {
     width: 210mm;
     height: 297mm;
-    padding: 11mm 16mm 10mm 16mm;
+    padding: 12mm 16mm 12mm 16mm;
     position: relative;
     overflow: hidden;
     background: #ffffff;
@@ -689,100 +688,60 @@ body {
 
 /* ── Title ── */
 .title-area {
-    margin-bottom: 5px;
-    padding-bottom: 4px;
-    border-bottom: 2.5px solid #000000;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #000000;
 }
-.main-title { font-size: 22px; font-weight: 800; color: #000000; letter-spacing: -0.3px; }
-.sub-title { font-size: 10px; color: #666666; margin-top: 2px; }
+.main-title { font-size: 31px; font-weight: 800; color: #000000; letter-spacing: -0.3px; }
+.sub-title { font-size: 14px; color: #000000; margin-top: 3px; }
 
-/* ── Track / ladder header ── */
-.track-header {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin: 6px 0 2px 0;
-}
-.track-title { font-size: 13px; font-weight: 800; color: #000000; }
+/* ── Track task ── */
 .track-task {
     display: block;
-    font-size: 9.5px;
+    font-size: 14px;
     font-weight: 700;
     color: #000000;
-    margin: 0 0 2px 3px;
-}
-.track-legend {
-    display: block;
-    font-size: 9px;
-    color: #777777;
-    margin: 0 0 3px 3px;
+    margin: 10px 0 8px 4px;
 }
 
 /* ── Item ── */
 .q-item {
-    padding: 2.5px 0 2.5px 4px;
-    font-size: 11px;
-    color: #1a1a1a;
+    padding: 18px 0 18px 6px;
+    font-size: 20px;
+    color: #000000;
 }
-.q-num { font-weight: 700; color: #000000; margin-right: 4px; }
-.cn { color: #1a1a1a; }
+.cn { color: #000000; }
 .split {
     display: block;
-    color: #999999;
-    font-size: 9px;
-    line-height: 1.4;
-    padding-left: 16px;
+    color: #000000;
+    font-size: 15.5px;
+    line-height: 1.55;
+    padding-left: 21px;
 }
 .en {
     display: block;
-    color: #555555;
-    font-size: 9.8px;
-    line-height: 1.4;
-    padding-left: 16px;
+    color: #000000;
+    font-size: 16.5px;
+    line-height: 1.55;
+    padding-left: 21px;
 }
 .hint {
     display: block;
-    color: #888888;
-    font-size: 8.5px;
-    line-height: 1.4;
-    padding-left: 16px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.55;
+    padding-left: 21px;
 }
 .hl { font-weight: 800; color: #000000; }
-.swap { background: #e8e8e8; color: #1a1a1a; }
-
-/* ── Grammar reference page ── */
-.ref-section { margin-bottom: 6px; }
-.ref-header {
-    font-size: 11.5px;
-    font-weight: 800;
-    color: #000000;
-    margin: 5px 0 2px 0;
-    padding-bottom: 2px;
-    border-bottom: 1.5px solid #000000;
-}
-.ref-item {
-    font-size: 10.3px;
-    line-height: 1.55;
-    padding: 1.5px 0 1.5px 4px;
-    color: #1a1a1a;
-}
-.ref-item b { color: #000000; }
-.ref-note { color: #777777; font-size: 9.5px; display: block; padding-left: 14px; }
-.ref-table { width: 100%; border-collapse: collapse; margin-top: 3px; font-size: 10px; }
-.ref-table td, .ref-table th {
-    border: 1px solid #cccccc;
-    padding: 3px 6px;
-    text-align: left;
-}
-.ref-table th { background: #f0f0f0; font-weight: 800; }
+.swap { color: #000000; text-decoration: underline; }
 
 /* ── Footer ── */
 .footer {
     position: absolute;
     bottom: 6mm;
     right: 16mm;
-    font-size: 8px;
-    color: #999999;
+    font-size: 10px;
+    color: #000000;
     font-weight: 600;
     letter-spacing: 0.5px;
 }
@@ -822,70 +781,25 @@ def _page_close(page_num: int, total: int) -> str:
 
 def _build_content_page(
     page_num: int, total: int, track: dict, track_key: str, ladder_tag: str, items: list,
+    continued: bool,
 ) -> str:
     html = _page_open(
         page_num,
         "Relative Clause",
-        f"{track['title']}",
+        f"{track['title']} · 续" if continued else f"{track['title']}",
     )
-    html += (
-        f'  <div class="track-header"><span class="track-title">{_escape_html(track["title"])}</span></div>\n'
-        f'  <div class="track-task">{_escape_html(track["task"])}</div>\n'
-        '  <div class="track-legend">标记：粗体 = 定语从句；浅灰底 = 可替换成你自己的版本。</div>\n'
-    )
+    html += f'  <div class="track-task">{_escape_html(track["task"])}</div>\n'
 
     hints = HINTS[f"{track_key}_{ladder_tag}"]
-    for idx, (cn, split, en) in enumerate(items, 1):
+    for i, (cn, split, en) in enumerate(items):
         html += (
             f'  <div class="q-item">'
-            f'<span class="q-num">{idx}.</span>'
             f'<span class="cn">{_highlight(cn)}</span>'
             f'<span class="split">拆分：{_escape_html(split)}</span>'
             f'<span class="en">({_highlight(en)})</span>'
-            f'<span class="hint">试试换成：{_escape_html(hints[idx - 1])}</span>'
+            f'<span class="hint">试试换成：{_escape_html(hints[i])}</span>'
             f"</div>\n"
         )
-
-    html += _page_close(page_num, total)
-    return html
-
-
-def _build_reference_page(page_num: int, total: int) -> str:
-    html = _page_open(page_num, "Relative Clause", "语法速查 · Grammar Quick Reference")
-
-    html += '  <div class="ref-section">'
-    html += '    <div class="ref-header">关系词速查</div>'
-    html += """
-    <table class="ref-table">
-      <tr><th>关系词</th><th>用在哪</th><th>本册例句</th></tr>
-      <tr><td><b>who</b></td><td>人 · 在从句中作主语</td><td>靠谱、有耐心的老板 / the boss who is reliable…</td></tr>
-      <tr><td><b>that</b></td><td>人或物 · 主语或宾语</td><td>我妈安排的那场约会 / the date that my mom set up…</td></tr>
-      <tr><td><b>where</b></td><td>地点</td><td>下楼就有热乎饭的地方 / a place where I can get hot food…</td></tr>
-      <tr><td><b>when</b></td><td>时间</td><td>走出地铁站的时刻 / the moment when I walk out…</td></tr>
-      <tr><td><b>why</b></td><td>原因</td><td>我宁愿早起的原因 / the reason why I wake up early…</td></tr>
-    </table>
-    """
-    html += "  </div>"
-
-    html += '  <div class="ref-section">'
-    html += '    <div class="ref-header">两个关键位置</div>'
-    html += (
-        '    <div class="ref-item"><b>位置一：先行词在从句中作主语</b> — who / that 后面直接跟动词。'
-        '<span class="ref-note">I want a boss who is reliable…（who 后面直接就是 is）</span></div>'
-        '    <div class="ref-item"><b>位置二：先行词在从句中作宾语</b> — that 可以省略，从句接下来是“主语 + 动词”。'
-        '<span class="ref-note">The date (that) my mom set up for me…（省略 that 后直接是 my mom set up）</span></div>'
-    )
-    html += "  </div>"
-
-    html += '  <div class="ref-section">'
-    html += '    <div class="ref-header">脚手架三步 + 开口一步</div>'
-    html += (
-        '    <div class="ref-item">1. 先看“拆分”两小句，信息是分开的。</div>'
-        '    <div class="ref-item">2. 再看合成句，粗体部分是定语从句，浅灰底部分可以替换。</div>'
-        '    <div class="ref-item">3. 从句越用越短：能省略 that 时，口语里通常省略。</div>'
-        '    <div class="ref-item">4. 开口说：看“试试换成”的提示，挑一个方向说出你自己的版本。</div>'
-    )
-    html += "  </div>"
 
     html += _page_close(page_num, total)
     return html
@@ -904,17 +818,21 @@ def build_html() -> str:
         "</head>",
         "<body>",
     ]
-    total = 10
+    # 3 tracks × 3 ladders, each ladder split across 2 pages.
+    total = len(TRACKS) * 3 * 2
     page_num = 1
     for track in TRACKS:
         track_key = track["tag"].split()[-1]
         for ladder_tag in ("L1", "L2", "L3"):
             items = track["ladders"][ladder_tag]
-            parts.append(
-                _build_content_page(page_num, total, track, track_key, ladder_tag, items)
-            )
-            page_num += 1
-    parts.append(_build_reference_page(page_num, total))
+            for part_idx, chunk in enumerate((items[:5], items[5:])):
+                parts.append(
+                    _build_content_page(
+                        page_num, total, track, track_key, ladder_tag, chunk,
+                        continued=part_idx > 0,
+                    )
+                )
+                page_num += 1
     parts.append("</body>")
     parts.append("</html>")
     return "\n".join(parts)
