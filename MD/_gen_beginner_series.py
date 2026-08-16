@@ -35,27 +35,75 @@ DEFAULT = [
 CSS = """
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Noto Sans', 'Noto Sans SC', 'Source Han Sans CN', 'Microsoft YaHei', 'PingFang SC', sans-serif;
-    width: 210mm; background: #ffffff; color: #000;
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #161616;
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
-    font-size: 12px; line-height: 1.5;
+    font-size: 12px; line-height: 1.45;
 }
 .page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
-h1 { font-size: 20px; font-weight: 800; color: #fff; background: #000; padding: 8px 14px; margin-bottom: 10px; }
-h2 { font-size: 15px; font-weight: 800; color: #000; margin: 8px 0 4px 0; }
-h3 { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; color: #000; margin: 10px 0 4px 0; }
-p { margin: 3px 0; }
-hr { border: none; border-top: 1px solid #000; margin: 6px 0; }
-table { width: 100%; border-collapse: collapse; margin: 2px 0 6px 0; font-size: 11.5px; line-height: 1.4; }
+h1 {
+    font-size: 24px; font-weight: 600; color: #161616;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #161616;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #525252; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #161616; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
 table.matrix { table-layout: fixed; }
-th, td { border: 1px solid #000; padding: 4px 7px; text-align: left; vertical-align: middle; }
-th { font-weight: 800; border-bottom: 2px solid #000; text-align: center; }
-b { color: #000; }
-.dq { font-weight: 800; font-size: 14px; margin: 62px 0 4px 0; }
-h2 + .dq { margin-top: 12px; }
-.dt { margin: 0 0 6px 0; }
-.tag { display: inline-block; border: 1px solid #000; padding: 3px 10px; margin: 0 8px 8px 0; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #161616; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #161616; }
+td:nth-child(2) { color: #525252; }
+td:last-child { color: #525252; }
+b { color: #161616; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #161616; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #525252; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #0f62fe; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #161616; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #525252; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
 """
 
 
@@ -93,6 +141,21 @@ def md_to_html(md_text: str) -> str:
             cells = [[c.strip() for c in row] for row in cells if row]
             if len(cells) > 1 and re.fullmatch(r"[\s:\-|]+", "|".join(cells[1])):
                 del cells[1]
+            if cells and cells[0] and cells[0][0].strip().lower().startswith("6w1h"):
+                rows_html = []
+                for row in cells[1:]:
+                    tag = inline(row[0].strip()) if row and row[0].strip() else ""
+                    sentence = inline(row[1].strip()) if len(row) > 1 and row[1].strip() else ""
+                    gloss = inline(row[2].strip()) if len(row) > 2 and row[2].strip() else ""
+                    sentence = sentence.replace("______", "<span class='blank'></span>")
+                    row_html = (f"<div class='w6h1-row'><span class='w6h1-tag'>{tag}</span>"
+                                f"<span class='w6h1-en'>{sentence}</span>")
+                    if gloss:
+                        row_html += f"<span class='w6h1-zh'>{gloss}</span>"
+                    row_html += "</div>"
+                    rows_html.append(row_html)
+                out.append("<div class='w6h1-card'>" + "".join(rows_html) + "</div>")
+                continue
             HEADERS = (["English", "Chinese"], ["English", "Chinese", "Example"],
                        ["English", "Chinese", "Answer tags"], ["English", "Chinese", "Keywords"],
                        ["Positive 积极", "Negative 消极", "Neutral 中性"])
@@ -146,7 +209,7 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
             width="210mm",
             height="297mm",
             print_background=True,
-            margin={"top": "13mm", "bottom": "13mm", "left": "16mm", "right": "16mm"},
+            margin={"top": "12mm", "bottom": "12mm", "left": "14mm", "right": "14mm"},
         )
         browser.close()
     return True

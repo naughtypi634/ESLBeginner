@@ -1,0 +1,29 @@
+# ESLBeginner markdown lessons: anti-fluff audit config.
+# Units are markdown headings; content is mostly tables, so item checks are light.
+name: eslbeginner-md
+format: markdown
+structure:
+  expected_units: 6
+  require_items: false
+  required_kinds: []
+  density_min: {}
+checks:
+  echo: true
+  echo_max_overlap: 1
+  echo_skip_kinds: []
+  filler: true
+  filler_words:
+    - every day
+    - i think
+    - basically
+    - in my opinion
+    - as we all know
+    - needless to say
+  tone: true
+  tone_on_items: true
+  banned_patterns:
+    - ["\\btell me\\b", "Tell me"]
+    - ["\\bgive me\\b", "Give me"]
+    - ["\\bstate your\\b", "State your ..."]
+    - ["^\\s*rank\\b", "Rank ..."]
+  required_fields: {}
