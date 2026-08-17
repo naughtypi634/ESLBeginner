@@ -1,0 +1,1007 @@
+# Parenting English · 亲子英语
+
+## 01 门口与出门  AT THE DOOR & HEADING OUT
+
+- Change into your slippers first.  先换拖鞋。
+- Make your shoes nice and neat.  把鞋摆整齐。
+- Your shoes are in the shoe cabinet.  你的鞋在鞋柜里。
+- Put your shoes on.  把鞋穿上。
+- You’re going to be late.  你要迟到了。
+- Your shoes are untied.  你的鞋带松了。
+- Tie your shoelaces.  系好鞋带。
+- Did you get everything?  东西都带齐了吗？
+- Is your bag ready to go?  书包准备好了吗？
+- Are your books all packed?  书都装好了吗？
+- Do you have your water bottle?  水杯带了吗？
+- Carry your own bag.  自己的包自己背。
+- Mom is going to lock the door.  妈妈要锁门了。
+- Watch your fingers.  小心夹手。
+- Remember to turn off the lights.  记得关灯。
+- Come on, Dad’s waiting for you by the elevator.  快点，爸爸在电梯口等你。
+- Let’s go to school.  我们去上学吧。
+- Dad has to go to work.  爸爸要去上班了。
+- Mom’s heading out.  妈妈要出门了。
+- Say goodbye to mom.  跟妈妈说再见。
+- Dad will be back soon after work.  爸爸下班就回来。
+- Blow a kiss for mom.  给妈妈一个飞吻。
+- Come and give me a hug.  过来抱抱。
+- I’m going to miss you, baby.  妈妈会想你的，宝贝。
+- Mind your grandmother.  乖乖听奶奶的话。
+- Be good at school.  在学校乖乖的。
+- Press the 1st-floor or B1 button.  按一楼或 B1 层。
+- I’m back.  我回来了。
+- Put your bag away.  把书包放好。
+- Were you good today?  今天乖不乖？
+- How was your day?  今天过得怎么样？
+- Did the teacher praise you today?  今天老师表扬你了吗？
+- Come with mom to pick up our package.  跟妈妈一起去取快递。
+- Let’s go outside to play.  我们出去玩。
+- Let’s put on a little sunscreen.  涂点防晒霜。
+- You’ll need your sun hat.  要戴遮阳帽。
+- Ride your little scooter.  骑你的小滑板车。
+- Put on your pads.  把护具戴上。
+- Did you go potty before we leave?  出门前去过厕所了吗？
+- Put on your jacket, it’s cold outside.  穿上外套，外面冷。
+- It’s raining — grab your umbrella.  下雨了，带上伞。
+- Wear your rain boots.  穿上雨鞋。
+- Check your bag — water bottle? snack?  看看书包——水杯？零食？
+- Let’s take the elevator down.  我们坐电梯下去。
+- Hold my hand in the elevator.  电梯里拉着妈妈的手。
+- Don’t jump in the elevator.  别在电梯里跳。
+- Wait for the doors to open.  等电梯门打开。
+- Don’t run in the hallway.  别在走廊里跑。
+- Give dad a high five.  跟爸爸击个掌。
+- Say bye to your sister.  跟妹妹说再见。
+- I’ll pick you up at the school gate at 5.  我五点在学校门口接你。
+- Don’t leave with anyone but me or grandma.  除了我和奶奶，谁接你都不要走。
+- Text me when you get there.  到了给我发消息。
+- Call me on your smartwatch if anything comes up.  有事用电话手表给妈妈打电话。
+- Let’s go to the parcel locker to get our package.  我们去快递柜取包裹。
+- Type in the pickup code.  输入取件码。
+- Don’t tear the box open yet.  先别拆箱子。
+- Put your water bottle in your bag.  把水杯放进书包。
+- Zip up your jacket.  把外套拉链拉上。
+- Don’t forget your lunch box.  别忘了带饭盒。
+- Wait for the elevator.  等电梯。
+- We are going to grandma’s today.  今天我们去奶奶家。
+- Say hello to your teacher.  跟老师问好。
+- Give mom a kiss.  亲妈妈一下。
+
+## 02 客厅与屏幕时间  LIVING ROOM & SCREEN TIME
+
+- Don’t bump into the table.  别撞到桌子。
+- Don’t sit on the floor. It’s dirty and cold.  别坐地上，又脏又凉。
+- Don’t put your cup on the edge.  杯子别放在桌边。
+- Don’t stick your finger in the socket.  别把手指伸进插座。
+- Don’t jump around on the sofa.  别在沙发上跳。
+- Don’t put your feet on the table.  别把脚放桌上。
+- Don’t lie on the floor or you’ll catch a cold.  别躺地上，会着凉。
+- Don’t stand in front of the AC.  别站在空调前面。
+- Turn the AC off.  把空调关了。
+- Lie down on the sofa and have a rest.  躺沙发上休息会儿。
+- You can only watch for 20 minutes.  只能看 20 分钟。
+- Turn it off when the time’s up.  时间到了就关掉。
+- Do you know where the remote is?  你知道遥控器在哪儿吗？
+- Hand me the remote.  把遥控器递给我。
+- My phone is out of power.  我手机没电了。
+- It needs to be charged.  该充电了。
+- What do you want to watch?  你想看什么？
+- Let’s change the channel.  我们换个频道。
+- Step back from the TV.  离电视远一点。
+- Sit up, don’t lie down to watch it.  坐起来，别躺着看。
+- Stop staring at the screen.  别一直盯着屏幕。
+- Blink your eyes.  眨眨眼睛。
+- Look in the distance.  看看远处。
+- Don’t pick your nose.  别抠鼻子。
+- Don’t cross your legs.  别跷二郎腿。
+- Don’t lick your lips.  别舔嘴唇。
+- Don’t suck your thumb.  别吮手指。
+- Watching TV for too long is bad for your eyes.  看电视太久伤眼睛。
+- No more TV for you.  不许再看电视了。
+- No more phone for you.  不许再玩手机了。
+- It’s time for your after-school class.  该去上兴趣班了。
+- Put the phone down.  把手机放下。
+- Stop watching TV and go to bed.  别看电视了，去睡觉。
+- Close the curtains, please.  请把窗帘拉上。
+- Turn off the light.  关灯。
+- Turn on the light.  开灯。
+- Open the windows.  把窗户打开。
+- Close the windows.  把窗户关上。
+- Don’t put your cup on the sofa.  别把杯子放沙发上。
+- Don’t throw the garbage around.  别乱扔垃圾。
+- Get it for me, please.  请帮妈妈拿一下。
+- What’s the magic word?  应该说什么呀？
+- You’re welcome.  不客气。
+- Don’t bounce the ball in the living room.  别在客厅拍球。
+- Don’t pound on the floor.  别使劲跺地。
+- Don’t shout.  别大喊大叫。
+- You’ll disturb the downstairs neighbors.  会吵到楼下的邻居。
+- Don’t scribble on the wall.  别在墙上乱画。
+- Put your trash in the trash can.  垃圾扔进垃圾桶。
+- Your 20 minutes are up.  你的 20 分钟到了。
+- Put the tablet away now — your eyes need a break.  把平板收起来，眼睛要休息了。
+- Let’s switch to a paper book.  我们换成纸质书吧。
+- Sit up straight, don’t slump.  坐直了，别驼着背。
+- Hold the tablet away from your eyes.  平板拿远一点。
+- Turn on the eye-comfort mode.  打开护眼模式。
+- Ask before you use my phone.  用妈妈手机前要先问。
+- Don’t download apps without asking.  别不经过允许就下载 App。
+- Screen time is over for today.  今天的屏幕时间结束了。
+- One more episode, then we turn it off.  再看一集就关。
+- Answer the video call from grandma.  接下奶奶的视频电话。
+- The robot vacuum is working — don’t step on it.  扫地机器人在干活，别踩它。
+- Keep your toys off the robot’s path.  把玩具挪开，别挡着扫地机器人。
+- Lower the volume, please.  请把音量调小点。
+- Don’t watch videos while eating.  吃饭别刷视频。
+- The sofa is not for jumping.  沙发不是用来跳的。
+- Be careful with the cup.  小心拿杯子。
+- The TV is too loud.  电视太吵了。
+- Turn it down.  把音量调小。
+- The phone is charging.  手机在充电。
+- Don’t pull the wire.  别拉电线。
+
+## 03 阳台与家务  BALCONY & CHORES
+
+- Don’t climb on the railing.  别爬栏杆。
+- You’re going to fall.  你会摔下去的。
+- Stay away from the window.  离窗户远点。
+- Don’t stick your head out the window.  别把头探出窗外。
+- Can you hang the laundry with mom?  能帮妈妈晾衣服吗？
+- Can you pass me the hanger, please?  请把衣架递给我。
+- Hang the clothes on the hangers, please.  请把衣服挂到衣架上。
+- Clip the socks together.  把袜子夹在一起。
+- The clothes are dry, let’s go and get them.  衣服干了，我们去收。
+- Put the broom away, please.  请把扫帚放好。
+- Can you get a new trash bag, please?  能拿个新垃圾袋吗？
+- Open the trash bag and then put it in the trash can.  把垃圾袋撑开套进垃圾桶。
+- Help mom get the trash, please.  帮妈妈拿一下垃圾。
+- Let’s take out the trash.  我们去倒垃圾。
+- Let’s water the plants.  我们给花浇水。
+- Let’s sort the trash together.  我们一起给垃圾分类。
+- Empty bottles go in the recycling bag.  空瓶子放进回收袋。
+- Food waste goes in the food-waste bin.  厨余垃圾放进厨余桶。
+- This battery is hazardous waste — don’t throw it in the trash.  这块电池是有害垃圾，别扔垃圾桶。
+- Fold the clothes with me.  跟妈妈一起叠衣服。
+- Match the socks.  把袜子配成对。
+- Put your clothes in the laundry basket.  脏衣服放进洗衣篮。
+- Let’s feed the cat.  我们喂猫吧。
+- Don’t pull the cat’s tail.  别拽猫的尾巴。
+- Wash your hands after touching the cat.  摸完猫要洗手。
+- The dog needs fresh water.  狗狗要换水了。
+- Don’t give the dog your snack.  别把你的零食给狗吃。
+- Careful, the flowerpot is heavy.  小心，花盆很重。
+- Let’s sweep the balcony.  我们扫扫阳台。
+- Hold the dustpan for me.  帮我拿一下簸箕。
+- Recycle the cardboard box.  纸箱要回收。
+- Take the empty bottles to the recycling station.  把空瓶子送到回收站。
+- Hang your jacket here.  把你的外套挂在这里。
+- The sun is hot on the balcony.  阳台上太阳很晒。
+- Close the balcony door.  把阳台门关上。
+- Don’t lean over the railing.  别把身子探出栏杆。
+- The plants need water every day.  这些花每天都要浇水。
+- This plant is for grandma.  这盆花是给奶奶的。
+- Don’t pick the leaves.  别摘叶子。
+- Sweep the leaves away.  把落叶扫走。
+- The dustpan is by the door.  簸箕在门边。
+- Take out the recyclables.  把可回收物拿出去。
+- The recycling bin is downstairs.  回收桶在楼下。
+- Help me carry the box.  帮妈妈搬箱子。
+- Don’t drop the eggs.  别把鸡蛋掉了。
+- Put the groceries on the table.  把买的东西放桌上。
+- Dry the dishes with a towel.  用毛巾擦干碗。
+- Put the cups away.  把杯子放好。
+- Fold the towels.  把毛巾叠好。
+- Sort the laundry by color.  把衣服按颜色分开。
+- White clothes go together.  白衣服放一起。
+- Don’t put wet clothes in the basket.  湿衣服别放进篮子里。
+- The cat’s food bowl is empty.  猫的饭碗空了。
+- Give the cat some water.  给猫加点水。
+- Don’t wake the cat.  别吵醒猫。
+- The dog wants to go out.  狗狗想出去。
+- Let’s take the dog for a walk.  我们带狗去散步。
+- Put the dog on the leash.  给狗拴上绳子。
+- The flowerpot is on the shelf.  花盆在架子上。
+- Move the plant into the sun.  把花搬到有太阳的地方。
+- The broom is behind the door.  扫帚在门后面。
+- Throw the old box away.  把旧箱子扔掉。
+- The trash can is full.  垃圾桶满了。
+- Take the trash out after dinner.  晚饭后把垃圾倒掉。
+- Hang the shirts here.  把衬衫挂这里。
+- Take the clothes down.  把衣服收下来。
+- Fold the shirts.  把衬衫叠好。
+- The mop is in the corner.  拖把在角落里。
+- The balcony is sunny.  阳台阳光很好。
+- Let’s dry the shoes here.  我们把鞋晾在这里。
+
+## 04 餐厅  DINING ROOM
+
+- It’s time to eat.  该吃饭了。
+- Go wash your hands.  去洗手。
+- Put on your bib.  戴上围嘴。
+- They all look so delicious.  看起来都好香。
+- It smells so good.  好香啊。
+- Which one do you want?  你想吃哪个？
+- Try some of this.  尝尝这个。
+- It’s a little hot — blow on it first.  有点烫，先吹吹。
+- Eat more veggies.  多吃蔬菜。
+- Don’t just eat meat.  别光吃肉。
+- Don’t be picky.  别挑食。
+- Chew your food a little more.  多嚼几下。
+- Take your time.  慢慢吃。
+- Swallow your food.  把饭咽下去。
+- You didn’t eat enough.  你吃得不够多。
+- Don’t mess around.  别闹了。
+- Don’t stuff yourself.  别吃太撑。
+- Don’t waste your food.  别浪费粮食。
+- Eat right and quit moving around.  坐好吃饭，别动来动去。
+- Don’t stand up, it’s dangerous.  别站起来，危险。
+- Don’t hold your chopsticks like that.  别那样拿筷子。
+- You should hold the spoon like this.  勺子要这样拿。
+- Don’t talk with your mouth full.  嘴里有饭别说话。
+- Don’t play with your food.  别玩食物。
+- Don’t throw it on the floor.  别往地上扔。
+- Do you want some more?  还要再吃点吗？
+- One last bite, then you can go play.  再吃最后一口就去玩。
+- Are you full?  吃饱了吗？
+- You are all done.  你都吃完了。
+- Wipe your nose.  擦擦鼻子。
+- Let mom get you down.  让妈妈抱你下来。
+- It’s milk time.  喝奶时间到了。
+- You have the hiccups.  你打嗝了。
+- You need to drink some water.  你需要喝点水。
+- I’m starving.  我饿坏了。
+- Let’s order some takeout.  我们点外卖吧。
+- Go get your plate.  去拿你的盘子。
+- Can you help me set the table?  能帮我摆碗筷吗？
+- It’s so greasy.  太油了。
+- I’m stuffed.  我吃撑了。
+- Don’t play with the phone while eating.  吃饭别玩手机。
+- Don’t eat too many snacks.  别吃太多零食。
+- Finish your meal, then you can have a snack.  吃完饭才能吃零食。
+- Do you want to eat some fruit?  想吃点水果吗？
+- Dinner is ready — come wash your hands.  晚饭好了，来洗手。
+- The takeout is here.  外卖到了。
+- Eat at the table, not in front of the TV.  在餐桌吃，别对着电视。
+- Put your phone on silent during dinner.  吃饭时手机静音。
+- Don’t reach across the table.  别伸手够对面的菜。
+- Pass the dish to your sister.  把菜递给妹妹。
+- Eat slowly, or you’ll choke.  慢点吃，小心噎着。
+- Don’t drink too much soda.  别喝太多汽水。
+- Water is better for you than juice.  喝水比喝果汁好。
+- Take a bite of the vegetables first.  先吃一口菜。
+- Drink some soup.  喝点汤。
+- Help me clear the table.  帮妈妈收拾桌子。
+- Take your bowl to the sink.  把碗端到水池。
+- Wipe the table with the rag.  用抹布擦桌子。
+- One piece of candy after dinner.  吃完饭可以吃一块糖。
+- Sit up straight at the table.  坐在桌边坐直。
+- Don’t put your elbows on the table.  别把胳膊肘放桌上。
+- Chew before you swallow.  咽之前先嚼一嚼。
+- Don’t grab food with your hands.  别用手抓菜。
+- The soup is hot — be careful.  汤很烫，小心。
+- Dinner is on the table.  晚饭上桌了。
+- Come and sit down.  过来坐下。
+- Your chair is here.  你的椅子在这儿。
+- Finish your rice.  把饭吃完。
+- The milk is warm.  牛奶温了。
+- Drink your milk.  把牛奶喝了。
+
+## 05 厨房  KITCHEN
+
+- Be gentle with your bowl.  轻拿轻放你的碗。
+- Put this on the bottom shelf.  放到最下面那层。
+- Put the dishes in the cupboard.  把盘子放进碗柜。
+- Let’s heat it up in the microwave.  我们用微波炉热一下。
+- Put this in a Ziploc bag.  放进保鲜袋里。
+- Put it in the fridge.  放进冰箱。
+- Put it in the freezer.  放进冷冻室。
+- Don’t forget to close the fridge door.  别忘了关冰箱门。
+- Put this apron on.  把围裙穿上。
+- Crack the eggs into the bowl.  把鸡蛋打到碗里。
+- Put the vegetables in the drainer.  把菜放进沥水篮。
+- Help mom wash the vegetables.  帮妈妈洗菜。
+- Help mom clean up the veggies.  帮妈妈把菜收拾好。
+- Help mom get the soy sauce.  帮妈妈拿酱油。
+- Help mom knead the dough.  帮妈妈揉面。
+- Get the salt for me, please.  请帮妈妈拿盐。
+- Wipe the countertop off with a cloth.  用抹布擦擦台面。
+- Turn the tap off all the way.  把水龙头拧紧。
+- Don’t play with the water.  别玩水。
+- Don’t touch the stove — it’s hot.  别碰灶台，很烫。
+- Stay away from the pan while the oil heats up.  油热的时候离锅远点。
+- Don’t open the oven by yourself.  别自己开烤箱。
+- The knife is sharp — let mom cut it.  刀很锋利，让妈妈切。
+- Don’t play near the boiling water.  别在开水旁边玩。
+- Ask me before you use the microwave.  用微波炉之前先问妈妈。
+- Never put metal in the microwave.  金属绝不能放进微波炉。
+- The air fryer is hot — don’t touch it.  空气炸锅很烫，别碰。
+- Wash the fruit before you eat it.  吃水果前先洗一洗。
+- Put the leftovers in a container.  把剩菜装进保鲜盒。
+- Help me peel the garlic.  帮妈妈剥蒜。
+- Grab a bowl from the bottom shelf.  从最下面那层拿个碗。
+- The dish soap is under the sink.  洗洁精在水池下面。
+- Don’t grab the hot pot.  别碰热锅。
+- Don’t cook alone.  别一个人做饭。
+- Close the fridge slowly.  慢慢关冰箱门。
+- The eggs are in the fridge.  鸡蛋在冰箱里。
+- Pass me the bowl.  把碗递给妈妈。
+- The bowl is hot.  碗很烫。
+- Use the potholder.  用隔热手套。
+- The pot is heavy.  锅很重。
+- Don’t touch the lid.  别碰锅盖。
+- Wait for the food to cool.  等饭凉一凉。
+- The rice cooker is on.  电饭煲开着。
+- Don’t stand too close to the stove.  别离灶台太近。
+- The water is boiling.  水开了。
+- Turn down the heat.  把火调小。
+- Wash the rice first.  先淘米。
+- Add some water.  加点水。
+- Stir the soup slowly.  慢慢搅汤。
+- Taste it with a spoon.  用勺子尝一尝。
+- It needs a little salt.  需要加点盐。
+- Ask mom to cut the apple.  让妈妈帮你切苹果。
+- Don’t run in the kitchen.  别在厨房跑。
+- The floor is wet.  地是湿的。
+- Put the dirty dishes in the sink.  脏碗放进水池。
+- The sponge is by the sink.  海绵在水池边。
+- The trash bag is full.  垃圾袋满了。
+- Tie the trash bag.  把垃圾袋系好。
+- Don’t touch the hot plate.  别碰热盘子。
+- Help me carry the plates.  帮妈妈端盘子。
+- The kettle is hot.  水壶很烫。
+- Wash your hands before cooking.  做饭前先洗手。
+- Don’t open the fridge too long.  别开冰箱太久。
+- Rinse the soap off.  把洗洁精冲掉。
+- Put the dishes in the rack.  把碗放进沥水架。
+- Don’t touch the knife.  别碰刀。
+- The fridge door is open.  冰箱门开着。
+- Close it, please.  请关上。
+- Don’t spill the water.  别把水洒了。
+
+## 06 浴室与洗漱  BATHROOM & HYGIENE
+
+- Let’s go shower.  我们去洗澡。
+- Be careful not to slip and fall.  小心地滑，别摔了。
+- Here’s some shampoo for you.  这是你的洗发水。
+- Let me help you dry off.  妈妈帮你擦干。
+- Dry your hair with the hair dryer.  用吹风机把头发吹干。
+- Put some lotion on your body.  身上涂点润肤露。
+- Wash your hands with soap.  用肥皂洗手。
+- Dry your hands off.  把手擦干。
+- Wring out the towel.  把毛巾拧干。
+- It’s time to brush your teeth.  该刷牙了。
+- Brush your teeth properly.  好好刷牙。
+- Squeeze some toothpaste out.  挤点牙膏。
+- Gargle and swish.  漱漱口，咕噜咕噜。
+- Do you need to go to the bathroom?  要去厕所吗？
+- Tell mom if you need to go to the bathroom.  想上厕所要告诉妈妈。
+- Lift the toilet seat.  把马桶圈抬起来。
+- Get some TP and wipe your bottom.  拿纸擦屁股。
+- Did you wipe clean?  擦干净了吗？
+- Put the toilet seat down.  把马桶圈放下来。
+- Remember to flush the toilet.  记得冲马桶。
+- There is no TP in the bathroom.  厕所没纸了。
+- Oh, that stinks.  好臭啊。
+- Let’s run a warm bath.  我们放一盆温水洗澡。
+- Test the water with your hand first.  先用手试试水温。
+- Don’t splash water on the floor.  别把水溅到地上。
+- Wash behind your ears.  耳朵后面也要洗。
+- Rinse all the soap off.  把沐浴露冲干净。
+- Your hair is still wet — dry it first.  头发还湿着，先吹干。
+- Don’t run in the bathroom.  别在浴室里跑。
+- Put the dirty clothes in the hamper.  脏衣服放进洗衣篮。
+- Use your own towel.  用你自己的毛巾。
+- Brush for two minutes.  刷够两分钟。
+- Spit the toothpaste out.  把牙膏吐出来。
+- Don’t swallow the toothpaste.  别把牙膏咽下去。
+- Your tooth fell out — congrats!  你换牙了——恭喜！
+- We’re going to the dentist on Saturday.  周六我们去看牙医。
+- Don’t be scared — the dentist is just looking.  别怕，牙医只是看看。
+- Use dental floss between your teeth.  用牙线清一下牙缝。
+- Scrub your hands for 20 seconds.  搓手搓够 20 秒。
+- Use hand sanitizer when we’re out.  在外面用免洗洗手液。
+- Fill the tub with warm water.  往浴缸放温水。
+- Don’t fill it too full.  别放太满。
+- Get in slowly.  慢慢进浴缸。
+- Sit down in the tub.  在浴缸里坐好。
+- Don’t stand up in the tub.  别在浴缸里站起来。
+- Wash your arms and legs.  洗洗胳膊和腿。
+- Scrub your neck.  搓搓脖子。
+- The soap is slippery.  肥皂很滑。
+- Rinse your hair.  把头发冲干净。
+- The water is too hot.  水太烫了。
+- Add some cold water.  加点凉水。
+- Dry your back.  把背擦干。
+- Put on your pajamas.  穿上睡衣。
+- Comb your hair.  梳梳头发。
+- Brush your hair gently.  轻轻梳头发。
+- Let mom cut your nails.  让妈妈剪指甲。
+- Don’t bite your nails.  别咬指甲。
+- Wash your face with warm water.  用温水洗脸。
+- Put a little cream on your face.  脸上涂点面霜。
+- The towel is on the rack.  毛巾在架子上。
+- Hang the towel up.  把毛巾挂起来。
+- Turn off the water.  把水关掉。
+- Don’t waste the water.  别浪费水。
+- Take off your clothes.  把衣服脱了。
+- Put your clothes in the basket.  衣服放进篮子里。
+- Dry your feet.  把脚擦干。
+- Wash your hands with warm water.  用温水洗手。
+- Don’t use too much soap.  别用太多肥皂。
+- Rinse well.  冲干净。
+
+## 07 卧室与睡眠  BEDROOM & SLEEP
+
+- Cover up with the blanket.  把被子盖好。
+- Get to bed early, or you won’t be able to get up.  早点睡，不然起不来。
+- Rise and shine.  起床啦，太阳晒屁股啦。
+- Are you awake?  醒了吗？
+- Did you sleep well?  睡得好吗？
+- Stretch out your arms.  伸伸胳膊。
+- Let’s get dressed.  我们穿衣服。
+- What do you want to wear today?  今天想穿什么？
+- Don’t forget to make the bed.  别忘了铺床。
+- Let’s put some pillowcases on the pillows.  我们把枕套装上。
+- Put your clothes in the wardrobe.  衣服放进衣柜。
+- Close the drawer gently.  轻轻关抽屉。
+- Let’s see how tall you are.  量量你多高了。
+- Let’s see how much you weigh.  称称你多重了。
+- You’ve grown a little taller.  你又长高了一点。
+- Time to wind down.  该安静下来了。
+- No screens for an hour before bed.  睡前一个小时不碰屏幕。
+- Let’s read one story before lights out.  关灯前我们读一个故事。
+- Pick your pajamas.  自己挑睡衣。
+- Brush your teeth first, then get in bed.  先刷牙再上床。
+- Let mom tuck you in.  让妈妈给你掖掖被角。
+- Close your eyes and relax.  闭上眼睛放松。
+- Good night, sleep tight.  晚安，睡个好觉。
+- Sweet dreams.  做个好梦。
+- Don’t be scared of the dark — mom’s right here.  别怕黑，妈妈在这儿。
+- I’ll leave the nightlight on.  我给你留着小夜灯。
+- Get up, or we’ll be late for school.  起床啦，不然上学要迟到。
+- Let me open the curtains — good morning!  我拉开窗帘——早上好！
+- Five more minutes, then up.  再睡五分钟就起来。
+- Come on, sleepyhead.  快起来，小懒虫。
+- Make your bed before breakfast.  早饭前把床铺好。
+- Fold the quilt with mom.  跟妈妈一起叠被子。
+- Put your slippers on.  穿上拖鞋。
+- Let’s mark your height on the wall.  我们在墙上记下你的身高。
+- Weigh yourself on the scale.  上秤称一称。
+- Put your toys in the toy box.  把玩具放进玩具箱。
+- Take off your socks before bed.  睡觉前把袜子脱了。
+- The pillow is soft.  枕头很软。
+- Lie down on the bed.  躺到床上。
+- Close the curtains.  拉上窗帘。
+- It’s dark now.  天黑了。
+- Listen to a quiet song.  听一首安静的歌。
+- Don’t talk too much, it’s bedtime.  别说话太多，该睡了。
+- Stay in your bed.  待在你自己的床上。
+- If you need mom, call me.  需要妈妈就叫我。
+- Wake up slowly.  慢慢醒过来。
+- Open your eyes.  睁开眼睛。
+- Take off your pajamas.  把睡衣脱了。
+- Put on your clothes.  穿上衣服。
+- Where is your shirt?  你的衬衫在哪儿？
+- This shirt is inside out.  这件衬衫穿反了。
+- Turn it the right way.  把它翻过来。
+- Your socks don’t match.  你的袜子不是一对。
+- Put on your socks.  穿上袜子。
+- The bed is not made yet.  床还没铺。
+- Pull up the blanket.  把被子拉上来。
+- Put the pillow at the top.  把枕头放床头。
+- Shake the pillow.  拍拍枕头。
+- The window is open.  窗户开着。
+- Close the window at night.  晚上把窗户关上。
+- It’s quiet now, time to sleep.  安静了，该睡了。
+- Say good night to dad.  跟爸爸说晚安。
+- Turn off the light, please.  请关灯。
+- It’s time for bed.  该睡觉了。
+- Turn on the night light.  打开小夜灯。
+- Sleep with your head on the pillow.  头枕在枕头上。
+- Close your eyes now.  现在闭上眼睛。
+- No more talking.  不要再说话了。
+- Time to get up.  该起床了。
+
+## 08 学习与作业  HOMEWORK & STUDY
+
+- Time to do your homework.  该写作业了。
+- Do your homework before you play.  先写完作业再玩。
+- Which subject do you want to start with?  你想先从哪科开始？
+- Math first, then Chinese.  先数学，再语文。
+- Let me read the question to you.  妈妈给你读题。
+- Read the question twice.  题目读两遍。
+- Show your work.  把步骤写出来。
+- That’s the right answer — great job!  答对了——真棒！
+- Let’s check the answers together.  我们一起对答案。
+- One mistake is okay — let’s fix it.  错一道没关系，我们改过来。
+- Don’t rush through it.  别赶着写完。
+- Write neatly.  字写工整。
+- Hold your pencil properly.  握笔姿势要正确。
+- Sit up straight while writing.  写字时坐直。
+- Turn on the desk lamp.  打开台灯。
+- Put your phone away while studying.  学习时把手机放到一边。
+- Stay on the study app — don’t switch to games.  别从学习软件切出去玩游戏。
+- Use the timer: twenty minutes of study, then a break.  用计时器：学 20 分钟休息一下。
+- Close your book and take a break.  合上书休息一会儿。
+- Read out loud for ten minutes.  大声读十分钟。
+- Let’s do your English listening practice.  我们做英语听力练习。
+- Repeat after the recording.  跟着录音读。
+- Let the AI check your pronunciation.  让 AI 帮你检查发音。
+- Don’t just copy the AI answer — think first.  别直接抄 AI 的答案，先自己想想。
+- Let mom sign your homework notebook.  让妈妈在作业本上签字。
+- Post your homework photo in the class group chat.  把作业拍照发班级群。
+- Upload the video for today’s assignment.  上传今天的作业视频。
+- Finish your reading check-in.  完成今天的阅读打卡。
+- Put today’s homework in your bag.  把今天的作业装进书包。
+- Pack your bag for tomorrow.  收拾好明天的书包。
+- Check the class schedule.  看看课表。
+- Don’t forget your PE uniform tomorrow.  明天别忘带体育课校服。
+- Practice jumping rope for the PE test.  练练跳绳，体测要用。
+- Your piano lesson is at 4.  你四点有钢琴课。
+- Your interest class is on Saturday.  周六有课外班。
+- The robotics class is cancelled this week.  这周机器人课取消了。
+- You have after-school care today.  今天有托管。
+- Mom has a parent-teacher meeting tonight.  妈妈今晚开家长会。
+- Tell me what you learned today.  跟我说说今天学了什么。
+- What did the teacher say about your test?  老师怎么说你的考试？
+- Don’t worry about the score — let’s see what we can improve.  别担心分数，看看哪里能提高。
+- Doing your best matters more than the score.  尽力比分数更重要。
+- Let’s make a study plan together.  我们一起做个学习计划。
+- Tick the box when you finish a task.  完成一项就打勾。
+- Reward time — you finished all your tasks!  奖励时间——你完成所有任务了！
+- Open your book.  打开书。
+- Turn to page 10.  翻到第 10 页。
+- Look at the picture.  看这张图。
+- Read the title.  读读标题。
+- Read the first line.  读第一行。
+- Read it again.  再读一遍。
+- Say it slowly.  慢慢说。
+- Say it one more time.  再说一遍。
+- You said it well.  你说得很好。
+- Write your name first.  先写名字。
+- Write the date.  写上日期。
+- Use the eraser.  用橡皮。
+- Don’t erase too hard.  别使劲擦。
+- Put the ruler away.  把尺子收好。
+- The pencil is too short.  铅笔太短了。
+- Sharpen the pencil.  削铅笔。
+- Take a five-minute break.  休息五分钟。
+- The homework is done. Great!  作业写完了，真棒！
+- Take out your homework.  把作业拿出来。
+- Clean your desk first.  先把桌子收拾干净。
+- Sit at your desk.  坐到书桌前。
+- Don’t lie down while reading.  别躺着读书。
+- Check your answers.  检查一下答案。
+- You worked hard today.  今天你学习很努力。
+
+## 09 阅读与眼睛  READING & EYE CARE
+
+- Don’t hunch over.  别驼背。
+- Don’t tear the book up.  别把书撕了。
+- Don’t bite on the book.  别咬书。
+- Don’t scribble on the book.  别在书上乱画。
+- Look what’s on the cover.  看看封面上有什么。
+- Help me turn to the next page, please.  请帮妈妈翻到下一页。
+- Don’t flip through the pages.  别翻太快。
+- Go back to the last page.  翻回上一页。
+- Tell mom what you see.  告诉妈妈你看到了什么。
+- What is it? Take a guess.  这是什么？猜猜看。
+- What color is this?  这是什么颜色？
+- Do you like this story?  你喜欢这个故事吗？
+- Put the book back on the shelf.  把书放回书架。
+- Put the books in order.  把书按顺序放好。
+- Are your eyes bothering you?  眼睛不舒服吗？
+- Does it hurt?  疼吗？
+- Let’s give your eyes a rest.  让眼睛休息一下。
+- Have you finished your homework?  作业写完了吗？
+- Did you review today’s lessons?  复习今天的课了吗？
+- Did you preview tomorrow’s lessons?  预习明天的课了吗？
+- Let me check your homework.  妈妈检查一下你的作业。
+- Let’s do eye exercises.  我们做眼保健操。
+- Close your eyes and rest them.  闭上眼睛歇一歇。
+- Look out the window at the trees.  看看窗外的树。
+- Look at something far away for two minutes.  看远处看两分钟。
+- Don’t read in the dark.  别在暗处看书。
+- Keep the book about a foot away from your eyes.  书离眼睛一尺远。
+- We’re going for an eye checkup on Sunday.  周日我们去查视力。
+- Read the eye chart for me.  给妈妈读读视力表。
+- Wear your glasses while reading.  看书时把眼镜戴上。
+- Let’s play outside — it’s good for your eyes.  我们出去玩，对眼睛好。
+- The sun is out — let’s get some sunlight.  出太阳了，去晒晒太阳。
+- Don’t read in the car.  别在车上看书。
+- This book is too hard — let’s pick an easier one.  这本书太难了，换本简单的。
+- You read this page all by yourself!  这一页是你自己读的！
+- Use your finger to point at each word.  用手指点着字读。
+- Sound it out.  试着拼出来。
+- Good try — that word is “elephant”.  猜得不错，那个词是“大象”。
+- Pick a book you like.  挑一本你喜欢的书。
+- This book is for you.  这本书是给你的。
+- Look at the pictures first.  先看看图。
+- What can you see?  你能看到什么？
+- Point to the cat.  指一指猫在哪里。
+- Where is the dog?  狗在哪里？
+- The dog is under the table.  狗在桌子下面。
+- Turn the page.  翻页。
+- Read with me.  跟我一起读。
+- Read after me.  跟着我读。
+- Say the word slowly.  慢慢说这个词。
+- That word is new to you.  这个词你没学过。
+- Let’s look it up.  我们查一查。
+- It means “happy”.  它的意思是“开心”。
+- Do you know this word?  你认识这个词吗？
+- Tell me the story.  给我讲讲这个故事。
+- Who is in the story?  故事里都有谁？
+- What happened next?  接下来发生了什么？
+- I like this book too.  我也喜欢这本书。
+- Let’s read one more page.  我们再读一页。
+- Close the book gently.  轻轻合上书。
+- Put the bookmark in.  夹上书签。
+- The book goes on the shelf.  书放回书架。
+- Good reading today!  今天读得真好！
+- Rest your eyes after reading.  读完书让眼睛休息一下。
+- Let’s read together.  我们一起读。
+- The book has nice pictures.  这本书图画很好看。
+- Find the red bird.  找找红色的鸟。
+- Count the fish.  数一数鱼。
+- What color is the sky?  天空是什么颜色？
+- The story is about a rabbit.  这个故事讲的是兔子。
+
+## 10 游戏与户外  PLAY & OUTDOOR FUN
+
+- Let’s draw something.  我们画点什么吧。
+- Let’s color it.  我们给它上色。
+- Can you draw me a flower?  能画朵花给妈妈吗？
+- Color it red.  涂成红色。
+- You can cut the flower out.  你可以把花剪下来。
+- We need a pair of children’s scissors.  我们需要一把儿童剪刀。
+- Hold the scissors like I do.  像妈妈这样拿剪刀。
+- Be careful not to cut your hands.  小心别剪到手。
+- Stick the flower here.  把花贴在这里。
+- Put some glue on the back.  背面涂点胶水。
+- Do you want to play with the blocks?  想玩积木吗？
+- Let’s pour out the blocks.  我们把积木倒出来。
+- What can you build with the blocks?  你能用积木搭什么？
+- Give it a shot.  试试看。
+- Give it a try.  试一试。
+- Keep going.  继续。
+- Here you go.  给你。
+- Wow, you made something.  哇，你搭出东西来了。
+- When you’re done, put the blocks back in the box.  玩完把积木放回盒子里。
+- Put away your toys when you’re done playing.  玩完玩具要收好。
+- I’m done.  我完成了。
+- No cheating!  不许作弊！
+- Let’s play outside.  我们去外面玩。
+- Put on your shoes — we’re going to the park.  穿上鞋，我们去公园。
+- Let’s go to the playground.  我们去游乐场。
+- Stay where I can see you.  待在妈妈看得见的地方。
+- Don’t leave the playground without telling me.  别不打招呼就离开游乐场。
+- Hold my hand when we cross the street.  过马路拉着妈妈的手。
+- Let’s wait for the green light.  我们等绿灯。
+- Don’t chase the ball into the road.  别追球追到马路上。
+- Jump rope with your friends.  跟小朋友一起跳绳。
+- Catch the ball!  接球！
+- Let’s fly a kite.  我们去放风筝。
+- Hold the string tight.  抓紧风筝线。
+- Let’s ride bikes.  我们骑自行车。
+- Put your helmet on.  戴上头盔。
+- Balance bike first, then the pedal bike.  先骑平衡车，再骑带脚蹬的车。
+- Don’t ride in the middle of the road.  别在路中间骑车。
+- Let’s go camping this weekend.  这周末我们去露营。
+- Help dad set up the tent.  帮爸爸搭帐篷。
+- Don’t go near the lake without a grown-up.  没有大人陪着别靠近湖边。
+- Put on bug spray.  喷点驱蚊液。
+- Don’t touch stray animals.  别摸流浪动物。
+- We’re going to the science museum on Sunday.  周日我们去科技馆。
+- Don’t run in the museum.  别在博物馆里跑。
+- Use a quiet voice in the library.  在图书馆里小声说话。
+- Let’s make a card for grandma.  我们给奶奶做张贺卡。
+- Cut along the dotted line.  沿着虚线剪。
+- Put the crayons back in the box.  蜡笔放回盒子里。
+- Let’s play hide and seek.  我们玩捉迷藏。
+- Count to ten, no peeking!  数到十，不许偷看！
+- Found you!  找到你了！
+- Let’s use rock-paper-scissors to decide.  我们用石头剪刀布决定。
+- One more game, then we go home.  再玩一局就回家。
+- Time to pack up and head home.  该收拾东西回家了。
+- Let’s take a picture for dad.  我们拍张照片给爸爸看。
+- Say cheese!  说“茄子”！
+- Let’s play on the slide.  我们去玩滑梯。
+- Go down the slide sitting.  坐着滑滑梯。
+- Wait for your turn.  排队等着轮到你。
+- Don’t push your friends.  别推小朋友。
+- The swing is fun.  荡秋千真好玩。
+- Hold the swing with both hands.  两只手抓住秋千。
+- Let’s go to the park.  我们去公园。
+- Run with mom.  跟妈妈一起跑。
+- Don’t step on the flowers.  别踩到花。
+- Let’s sit on the bench.  我们坐在长椅上。
+- Drink some water first.  先喝点水。
+- It’s time to go home.  该回家了。
+
+## 11 出行接送  COMMUTING & PICK-UPS
+
+- Let’s go — we’re picking up your sister.  走吧，去接妹妹。
+- Sit in the back seat.  坐后排。
+- Buckle up.  系好安全带。
+- Climb into your car seat.  爬进你的安全座椅。
+- Don’t unbuckle while the car is moving.  车开着别解安全带。
+- Don’t lean out of the window.  别把身子探出窗外。
+- Don’t open the car door by yourself.  别自己开车门。
+- Wait for mom to open the door.  等妈妈来开门。
+- We’re taking the e-bike today.  今天我们骑电动车。
+- Put your helmet on, even for a short ride.  短途也要戴头盔。
+- Hold on to mom’s waist.  抱住妈妈的腰。
+- Don’t wiggle on the e-bike.  电动车上别乱动。
+- Watch your feet — don’t get them caught in the wheel.  脚收好，别卷进车轮里。
+- Let’s take the subway.  我们坐地铁。
+- Wait behind the yellow line.  站在黄线后面。
+- The train is coming — stand still.  车来了，站好别动。
+- Let’s get on.  上车。
+- Hold the pole.  扶好扶手。
+- Let’s sit over there.  我们坐那边。
+- Let’s give our seat to that grandpa.  我们把座位让给那位爷爷。
+- We’re taking the high-speed rail to grandma’s.  我们坐高铁去奶奶家。
+- Find our seats — row 8.  找我们的座位——8 排。
+- Don’t run in the aisle.  别在过道里跑。
+- Keep your voice down on the train.  火车上小声说话。
+- Let’s grab a taxi.  我们打车吧。
+- The ride-hailing car is here.  网约车到了。
+- Help me check the license plate before we get in.  上车前跟妈妈一起核对车牌号。
+- We’re almost at school — get your bag ready.  快到学校了，把书包准备好。
+- Wave to your friends.  跟同学挥挥手。
+- See you at 5 — be good!  五点见，乖乖的！
+- Put on your backpack.  背上书包。
+- Get your hat.  拿上帽子。
+- We’re going out now.  我们现在出门。
+- Walk beside mom.  走在妈妈旁边。
+- Don’t run ahead.  别跑在前面。
+- The light is red. Stop.  红灯，停。
+- The light is green. Go.  绿灯，走。
+- Look left, then right.  先看左边，再看右边。
+- Cross the street here.  在这里过马路。
+- The car is coming.  车来了。
+- Stand by the road.  站在路边。
+- The bus is coming.  公交车来了。
+- Get on the bus.  上公交车。
+- Get off at the next stop.  下一站下车。
+- Ring the bell.  按铃。
+- The subway is fast.  地铁很快。
+- The door is opening.  门开了。
+- Don’t touch the door.  别碰车门。
+- The train is moving.  车在动。
+- Hold the handle.  抓住把手。
+- Sit down, please.  请坐下。
+- We are at our stop.  我们到站了。
+- Let’s get off.  我们下车。
+- The taxi is waiting.  出租车在等我们。
+- Get in the car.  上车。
+- Close the door gently.  轻轻关门。
+- The seatbelt is loose.  安全带松了。
+- The car is here.  车到了。
+- Mom will drive.  妈妈开车。
+- We’re going home now.  我们现在回家。
+- We’re here.  我们到了。
+- Take your bag.  拿好你的包。
+- Don’t open the window in the car.  坐车时别开窗。
+- Get ready, we are leaving soon.  准备好，我们马上出门。
+- The elevator is here.  电梯来了。
+- Get in first.  你先上。
+- Move to the back.  往里走。
+- The train is here.  车来了。
+- Find a seat quickly.  快点找座位。
+
+## 12 健康与情绪  HEALTH & FEELINGS
+
+- You feel warm — let’s take your temperature.  你有点热，量一下体温。
+- Let’s use the forehead thermometer.  用额温枪量一下。
+- You have a fever — let’s take some medicine.  发烧了，我们吃点药。
+- Take one spoonful.  吃一勺。
+- Open wide.  张大嘴。
+- The medicine tastes bad, but it helps.  药有点苦，但对身体好。
+- Drink more water.  多喝水。
+- Blow your nose.  擤鼻涕。
+- You have a runny nose.  你流鼻涕了。
+- Cover your mouth when you cough.  咳嗽时捂住嘴。
+- Wear a mask if you’re coughing.  咳嗽就戴上口罩。
+- Let’s go see the doctor.  我们去看医生。
+- Don’t be scared — the doctor will be gentle.  别怕，医生会很轻的。
+- Let’s do a nebulizer.  我们做雾化。
+- Keep the mask on for ten minutes.  雾化面罩戴十分钟。
+- You have allergies — take your medicine.  你过敏了，把药吃了。
+- It’s time for your vitamin D.  该吃维生素 D 了。
+- Drink your milk for strong bones.  喝牛奶，骨头才结实。
+- Don’t drink cold water after running.  跑完步别喝凉水。
+- Rest for a bit after eating.  吃完饭歇一会儿。
+- You didn’t sleep enough — nap time.  你没睡够，该午睡了。
+- Take a nap so you have energy.  睡个午觉补补精神。
+- You’re angry — let’s take three deep breaths.  你生气了，我们深呼吸三次。
+- Breathe in… breathe out.  吸气……呼气。
+- Let’s go to the calm corner.  我们去冷静角。
+- It’s okay to be sad.  难过是正常的。
+- Tell mom what’s wrong.  告诉妈妈怎么了。
+- I hear you.  妈妈在听你说。
+- Use your words, don’t scream.  用说的，别喊。
+- Don’t hit your sister when you’re upset.  生气也不能打妹妹。
+- Let’s count to ten together.  我们一起数到十。
+- It’s okay to have big feelings.  有情绪很正常。
+- Good job calming down.  你冷静下来了，真棒。
+- When you’re calm, we can talk.  等你冷静下来我们再谈。
+- Say sorry to your sister.  跟妹妹道歉。
+- Give me a hug.  抱抱妈妈。
+- I’m proud of you for trying.  你努力了，妈妈为你骄傲。
+- You can do hard things.  难的事情你也能做到。
+- It’s okay to make mistakes.  犯错没关系。
+- Let’s try again.  我们再来一次。
+- I love you no matter what.  无论怎样妈妈都爱你。
+- Eat breakfast every day.  每天吃早饭。
+- Eat lunch at school.  在学校吃午饭。
+- Drink water after playing.  玩完喝水。
+- Wash your hands before eating.  吃饭前洗手。
+- Wash your hands after the bathroom.  上完厕所洗手。
+- Brush your teeth twice a day.  每天刷两次牙。
+- Sleep early at night.  晚上早点睡。
+- Your eyes look tired.  你的眼睛看起来累了。
+- Let’s rest for a while.  我们休息一会儿。
+- Do you feel sick?  你难受吗？
+- Does your head hurt?  头疼吗？
+- Does your throat hurt?  喉咙疼吗？
+- Show me your tongue.  让我看看舌头。
+- Open your mouth.  张开嘴。
+- Say “ah”.  说“啊”。
+- You need rest.  你需要休息。
+- Stay in bed today.  今天躺在床上休息。
+- Take this medicine.  吃这个药。
+- Don’t cry, it’s okay.  别哭，没事的。
+- Are you feeling better?  感觉好点了吗？
+- Take a deep breath.  深呼吸。
+- Breathe out slowly.  慢慢呼气。
+- Eat some fruit every day.  每天吃点水果。
+- Vegetables are good for you.  蔬菜对身体好。
+- Don’t eat too much candy.  别吃太多糖。
+- Play outside every day.  每天出去玩。
+- Sleep early and wake up early.  早睡早起。
+- You look healthy today!  你今天看起来气色真好！
+
+## 13 安全  SAFETY
+
+- Don’t open the door for strangers.  别给陌生人开门。
+- Check who it is through the peephole first.  先通过猫眼看看是谁。
+- Don’t tell strangers our address.  别告诉陌生人我们的地址。
+- Don’t take candy from strangers.  别拿陌生人给的糖。
+- If you get lost, stay where you are.  走丢了就待在原地。
+- Find a worker in uniform and ask for help.  找穿制服的工作人员帮忙。
+- Tell them your name and mom’s phone number.  告诉他们你的名字和妈妈的电话。
+- What’s mom’s phone number? Let’s practice.  妈妈的电话是多少？我们练一练。
+- Don’t touch the hot kettle.  别碰热水壶。
+- Don’t put your hand near the fan.  别把手靠近风扇。
+- Don’t touch the power strip.  别碰插线板。
+- Electricity is dangerous — ask an adult.  电很危险，要找大人。
+- Don’t play with matches or lighters.  别玩火柴和打火机。
+- Don’t go into the kitchen when the stove is on.  灶台开着火时别进厨房。
+- Call 119 if there’s a fire.  着火就打 119。
+- Don’t hide during a fire — get out.  着火时别躲起来，要跑出去。
+- Don’t climb onto the windowsill.  别爬窗台。
+- The balcony railing is not for climbing.  阳台栏杆不能爬。
+- Don’t throw things from the balcony.  别往楼下扔东西。
+- Don’t run with scissors or chopsticks.  别拿着剪刀或筷子跑。
+- Watch for cars when you cross.  过马路注意看车。
+- Don’t play near the road.  别在马路边玩。
+- Wear bright clothes so drivers can see you.  穿亮色衣服，司机才看得见你。
+- Don’t swim alone.  别一个人游泳。
+- Wear your life jacket on the boat.  坐船要穿救生衣。
+- Medicine is not candy.  药不是糖。
+- Don’t take medicine by yourself.  别自己吃药。
+- Only drink what mom gives you.  只喝妈妈给你的东西。
+- Come here.  到妈妈这儿来。
+- Stay with me.  待在妈妈身边。
+- Don’t go far.  别走远。
+- Hold my hand.  拉住妈妈的手。
+- Don’t touch that.  别碰那个。
+- It’s hot. Don’t touch.  很烫，别碰。
+- It’s sharp. Be careful.  很尖，小心。
+- Don’t run with things in your mouth.  嘴里有东西别跑。
+- Don’t eat in the car.  别在车上吃东西。
+- Don’t put small things in your mouth.  小东西别放嘴里。
+- Don’t put toys in your mouth.  玩具别放嘴里。
+- Watch your step.  小心脚下。
+- The floor is slippery.  地很滑。
+- Walk slowly.  慢慢走。
+- Don’t run down the stairs.  别跑着下楼梯。
+- Hold the handrail.  扶好扶手。
+- Don’t play on the stairs.  别在楼梯上玩。
+- The door can hurt your hand.  门会夹到手。
+- Don’t put your hand in the door.  别把手放门缝里。
+- Don’t cross alone.  别一个人过马路。
+- Look both ways.  两边都看看。
+- Don’t play near cars.  别在车旁边玩。
+- The car is backing up.  车在倒车。
+- Don’t stand behind the car.  别站在车后面。
+- Wear your helmet on the bike.  骑车戴头盔。
+- Don’t ride fast.  别骑太快。
+- Don’t ride at night.  别晚上骑车。
+- Don’t swim without mom.  没有妈妈在别游泳。
+- The water is deep.  水很深。
+- Don’t play with fire.  别玩火。
+- Fire is dangerous.  火很危险。
+- Ask mom first.  先问妈妈。
+- Call mom if you need help.  需要帮忙就给妈妈打电话。
+- Don’t open the gate for anyone.  别给任何人开门。
+- Wait for mom outside.  在外面等妈妈。
+- Don’t run into the street.  别跑到马路上。
+- Stop at the corner.  在路口停下来。
+- Look for cars.  看看有没有车。
+- Don’t walk on the road.  别在马路上走。
+- Stay away from the elevator doors.  离电梯门远点。
+- Don’t stand on the chair.  别站在椅子上。
+
+## 14 孩子的话  KIDDIE SPEAK
+
+- I’m full.  我吃饱了。
+- I want to watch a cartoon.  我想看动画片。
+- Give me a piggyback ride.  背背我。
+- Can I play a little longer?  我能再玩一会儿吗？
+- I don’t feel good.  我不舒服。
+- It’s so itchy.  好痒。
+- That hurts.  好疼。
+- I’ll be good.  我会乖的。
+- Can I have some candy?  我能吃糖吗？
+- I want to go play outside.  我想出去玩。
+- Dad, where’s mom?  爸爸，妈妈呢？
+- Mom, look at me!  妈妈，看我！
+- I did it!  我做到了！
+- Let me try!  让我试试！
+- Can I help?  我能帮忙吗？
+- Can we go to the park?  我们能去公园吗？
+- I’m thirsty.  我渴了。
+- I’m hungry.  我饿了。
+- I can do it myself.  我自己来。
+- Watch me!  看我！
+- Where’s my toy?  我的玩具呢？
+- I can’t find my sock.  我找不到袜子了。
+- Help me, please.  请帮帮我。
+- I bumped my head.  我撞到头了。
+- My tummy hurts.  我肚子疼。
+- I’m tired.  我累了。
+- Can you carry me?  你能抱我吗？
+- I had a bad dream.  我做噩梦了。
+- I love you, mom.  妈妈，我爱你。
+- Can we have a snack?  我们能吃零食吗？
+- I want the blue one.  我想要蓝色的。
+- It’s my turn!  轮到我了！
+- No fair!  不公平！
+- I’m sorry.  对不起。
+- I won’t do it again.  我下次不了。
+- I miss grandma.  我想奶奶了。
+- Let’s call grandma.  我们给奶奶打电话吧。
+- I want more rice.  我还要米饭。
+- I like this food.  我喜欢这个菜。
+- I don’t like this.  我不喜欢这个。
+- Can I have a drink?  我能喝点东西吗？
+- I want juice.  我想喝果汁。
+- Mom, come here.  妈妈，过来。
+- Dad, look at this.  爸爸，看这个。
+- I found it!  我找到了！
+- I can’t reach it.  我够不着。
+- It’s too high.  太高了。
+- It’s too big.  太大了。
+- Can you open this?  你能打开这个吗？
+- Can you close it?  你能关上它吗？
+- Let me do it.  让我来。
+- I did it myself.  我自己做到的。
+- It’s my toy.  那是我的玩具。
+- Give it back.  还给我。
+- I want a turn.  我想玩一次。
+- You go first.  你先。
+- I’m next.  下一个是我。
+- I’m scared.  我害怕。
+- Don’t leave me.  别丢下我。
+- Stay with me, please.  请陪着我。
+- Can you stay?  你能留下吗？
+- Good night, mom.  晚安，妈妈。
+- See you tomorrow.  明天见。
+- Can I have a hug?  能抱抱吗？
+- Come play with me.  来陪我玩。
+- Let’s play together.  我们一起玩。
+- I’m having fun.  我玩得很开心。
+- This is fun!  真好玩！
+- Thank you, mom.  谢谢妈妈。
