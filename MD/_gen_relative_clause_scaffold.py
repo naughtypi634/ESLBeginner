@@ -766,11 +766,16 @@ def _highlight(text: str) -> str:
 
 def _page_open(page_num: int, main_title: str, sub_title: str) -> str:
     cls = "page page-break" if page_num > 1 else "page"
+    sub = (
+        f'    <div class="sub-title">{_escape_html(sub_title)}</div>\n'
+        if sub_title
+        else ""
+    )
     return (
         f'<div class="{cls}">\n'
         '  <div class="title-area">\n'
         f'    <div class="main-title">{_escape_html(main_title)}</div>\n'
-        f'    <div class="sub-title">{_escape_html(sub_title)}</div>\n'
+        f"{sub}"
         "  </div>\n"
     )
 
@@ -783,10 +788,14 @@ def _build_content_page(
     page_num: int, total: int, track: dict, track_key: str, ladder_tag: str, items: list,
     continued: bool,
 ) -> str:
+    sub_title = f"{track['title']} · 续" if continued else track["title"]
+    if track["tag"] == "TRACK A":
+        # 去掉“我想要的 · What I Want”标题文字，内容保留。
+        sub_title = ""
     html = _page_open(
         page_num,
         "Relative Clause",
-        f"{track['title']} · 续" if continued else f"{track['title']}",
+        sub_title,
     )
     html += f'  <div class="track-task">{_escape_html(track["task"])}</div>\n'
 
