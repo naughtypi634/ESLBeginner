@@ -56,8 +56,8 @@ Essential Expressions for travel
   **"Is the tip included?"**          "Is the tip included in the bill,
                                       or should I leave extra?"
 
-  **"What's the exchange rate         "What's the exchange rate today? I
-  today?"**                           want to change 500 RMB."
+  **"What's the exchange rate         
+  today?"**                           "~ I want to change 500 RMB."
   -----------------------------------------------------------------------
 
 **At the Airport & During Travel**
@@ -101,11 +101,11 @@ Essential Expressions for travel
   -----------------------------------------------------------------------
   **Expression**                      **Example Sentence**
   ----------------------------------- -----------------------------------
-  **"I have nothing to declare."**    "I have nothing to declare. I only
-                                      brought clothes and gifts."
+  **"I have nothing to declare."**    
+                                      "~ I only brought clothes and gifts."
 
-  **"How much can I bring in          "How much can I bring in duty-free?
-  duty-free?"**                       I bought two bottles of wine."
+  **"How much can I bring in          
+  duty-free?"**                       "~ I bought two bottles of wine."
 
   **"I'm here for a holiday."**       "I'm here for a holiday with my
                                       family."
@@ -116,8 +116,8 @@ Essential Expressions for travel
   **"I'm staying at the Grand         "I'm staying at the Grand Hotel
   Hotel."**                           near the city center."
 
-  **"Do I need to fill out a customs  "Do I need to fill out a customs
-  form?"**                            form before I leave the airport?"
+  **"Do I need to fill out a customs  
+  form?"**                            "~ before I leave the airport?"
   -----------------------------------------------------------------------
 
 **Flight Issues**
@@ -125,24 +125,23 @@ Essential Expressions for travel
   -----------------------------------------------------------------------
   **Expression**                      **Example Sentence**
   ----------------------------------- -----------------------------------
-  **"My flight was cancelled. What    "My flight to Seoul was cancelled.
-  should I do?"**                     Can you help me rebook?"
+  **"My flight was cancelled. What    
+  should I do?"**                     "~ Can you help me rebook?"
 
   **"Can I rebook my flight for       "Can I rebook my flight for
   tomorrow?"**                        tomorrow morning?"
 
-  **"I missed my connecting           "I missed my connecting flight in
-  flight."**                          Singapore. Is there another flight
-                                      today?"
+  **"I missed my connecting           
+  flight."**                          "~ in Singapore. Is there another flight today?"
 
-  **"Can I get a refund for my        "Can I get a refund for my ticket?
-  ticket?"**                          I can't travel this week."
+  **"Can I get a refund for my        
+  ticket?"**                          "~ I can't travel this week."
 
   **"The gate changed. Where is the   "The gate changed to gate 15. Where
   new gate?"**                        is gate 15?"
 
-  **"Will I still make my connecting  "Will I still make my connecting
-  flight?"**                          flight? My first flight is late."
+  **"Will I still make my connecting  
+  flight?"**                          "~ My first flight is late."
   -----------------------------------------------------------------------
 
 **Luggage & Lost & Found**
@@ -156,12 +155,11 @@ Essential Expressions for travel
   **"When will my luggage arrive?"**  "When will my luggage arrive? I
                                       need my medicine."
 
-  **"I left my bag on the             "I left my backpack on the subway.
-  train/bus."**                       Where is the lost and found
-                                      office?"
+  **"I left my bag on the             
+  train/bus."**                       "~ Where is the lost and found office?"
 
-  **"Where is the lost and found      "Where is the lost and found
-  office?"**                          office? I lost my umbrella."
+  **"Where is the lost and found      
+  office?"**                          "~ I lost my umbrella."
 
   **"Can I track my luggage?"**       "Can I track my luggage with this
                                       receipt?"
@@ -213,14 +211,14 @@ Essential Expressions for travel
   **"I booked a ride. Where should I  "I booked a ride to the airport.
   wait?"**                            Where should I wait?"
 
-  **"What's the plate number of my    "What's the plate number of my
-  ride?"**                            ride? I'm at the hotel entrance."
+  **"What's the plate number of my    
+  ride?"**                            "~ I'm at the hotel entrance."
 
-  **"Please pick me up at the hotel   "Please pick me up at the hotel
-  entrance."**                        entrance in ten minutes."
+  **"Please pick me up at the hotel   
+  entrance."**                        "~ in ten minutes."
 
-  **"Can you take me to this          "Can you take me to this address?
-  address?"**                         It's the train station."
+  **"Can you take me to this          
+  address?"**                         "~ It's the train station."
 
   **"How long will the driver take to "How long will the driver take to
   arrive?"**                          arrive? I'm in a hurry."
@@ -306,23 +304,23 @@ Essential Expressions for travel
   -----------------------------------------------------------------------
   **Expression**                      **Example Sentence**
   ----------------------------------- -----------------------------------
-  **"The air conditioner doesn't      "The air conditioner doesn't work.
-  work."**                            Can you send someone to fix it?"
+  **"The air conditioner doesn't      
+  work."**                            "~ Can you send someone to fix it?"
 
-  **"There's no hot water in my       "There's no hot water in my room.
-  room."**                            Can I change rooms?"
+  **"There's no hot water in my       
+  room."**                            "~ Can I change rooms?"
 
-  **"Can I change rooms? Room 302 is  "Can I change rooms? Room 302 is
-  too noisy."**                       too noisy at night."
+  **"Can I change rooms? Room 302 is  
+  too noisy."**                       "~ at night."
 
-  **"My room key doesn't work."**     "My room key doesn't work. Can you
-                                      make a new one?"
+  **"My room key doesn't work."**     
+                                      "~ Can you make a new one?"
 
-  **"The Wi-Fi in my room is very     "The Wi-Fi in my room is very slow.
-  slow."**                            Can I use the lobby Wi-Fi?"
+  **"The Wi-Fi in my room is very     
+  slow."**                            "~ Can I use the lobby Wi-Fi?"
 
-  **"Can I have a different room?"**  "Can I have a different room? The
-                                      window doesn't close."
+  **"Can I have a different room?"**  
+                                      "~ The window doesn't close."
   -----------------------------------------------------------------------
 **Ordering Food & Drinks**
 
@@ -413,8 +411,8 @@ Essential Expressions for travel
   **"This charger doesn't work."**    "This charger doesn't work. Can I
                                       exchange it?"
 
-  **"What's your return policy?"**    "What's your return policy? Can I
-                                      return it within a week?"
+  **"What's your return policy?"**    
+                                      "~ Can I return it within a week?"
   -----------------------------------------------------------------------
 
 **Visiting Tourist Places**
@@ -458,26 +456,26 @@ Essential Expressions for travel
   -----------------------------------------------------------------------
   **Expression**                **Example Sentence**
   ----------------------------- -----------------------------------------
-  **"What's the weather like    "What's the weather like today? Should I
-  today?"**                     bring an umbrella?"
+  **"What's the weather like    
+  today?"**                     "~ Should I bring an umbrella?"
 
-  **"Is it going to rain        "Is it going to rain today? I need to
-  today?"**                     plan my trip."
+  **"Is it going to rain        
+  today?"**                     "~ I need to plan my trip."
 
-  **"It looks like it's going   "It looks like it's going to be sunny.
-  to be sunny."**               Perfect for a picnic!"
+  **"It looks like it's going   
+  to be sunny."**               "~ Perfect for a picnic!"
 
-  **"It's really hot today!"**  "It's really hot today! I need a cold
-                                drink."
+  **"It's really hot today!"**  
+                                "~ I need a cold drink."
 
-  **"How cold is it going to    "How cold is it going to get tonight?
-  get tonight?"**               Should I wear a jacket?"
+  **"How cold is it going to    
+  get tonight?"**               "~ Should I wear a jacket?"
 
-  **"Is there a chance of       "Is there a chance of snow this weekend?"
-  snow?"**                      
+  **"Is there a chance of       
+  snow?"**                      "~ this weekend?"
 
-  **"It's pretty windy          "It's pretty windy today. Hold onto your
-  today."**                     hat!"
+  **"It's pretty windy          
+  today."**                     "~ Hold onto your hat!"
   -----------------------------------------------------------------------
 
 **Internet & Connectivity**
@@ -488,20 +486,20 @@ Essential Expressions for travel
   **"What's the Wi-Fi password?"**    "What's the Wi-Fi password? I need
                                       to call my family."
 
-  **"Can I get an eSIM for            "Can I get an eSIM for tourists? I
-  tourists?"**                        need internet for maps."
+  **"Can I get an eSIM for            
+  tourists?"**                        "~ I need internet for maps."
 
   **"My phone has no signal."**       "My phone has no signal. Can I use
                                       your Wi-Fi?"
 
-  **"Is there free Wi-Fi in this      "Is there free Wi-Fi in this area?
-  area?"**                            I don't want to use my data."
+  **"Is there free Wi-Fi in this      
+  area?"**                            "~ I don't want to use my data."
 
-  **"How much data does this plan     "How much data does this plan
-  include?"**                         include? I need it for one week."
+  **"How much data does this plan     
+  include?"**                         "~ I need it for one week."
 
-  **"Can you help me set up the       "Can you help me set up the Wi-Fi?
-  Wi-Fi?"**                           It's not working on my phone."
+  **"Can you help me set up the       
+  Wi-Fi?"**                           "~ It's not working on my phone."
   -----------------------------------------------------------------------
 
 **Talking to Locals on a Trip**
@@ -567,4 +565,3 @@ Essential Expressions for travel
   **"Is there a pharmacy         "Is there a pharmacy nearby? I need some
   nearby?"**                     medicine."
   -----------------------------------------------------------------------
-
