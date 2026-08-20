@@ -1,247 +1,5 @@
 Essential Expressions for travel
 
-**Asking for Directions**
-
-  -----------------------------------------------------------------------
-  **Expression**                      **Example Sentence**
-  ----------------------------------- -----------------------------------
-  **"Excuse me, can you help me?"**   "Excuse me, can you help me? I'm
-                                      lost."
-
-  **"How do I get to \[place\]?"**    "How do I get to the airport from
-                                      here?"
-
-  **"Where is the nearest             "Where is the nearest hotel? I need
-  \[bank/hotel/restaurant\]?"**       a place to stay."
-
-  **"Is it far from here?"**          "Is it far from here to the
-                                      museum?"
-
-  **"Can you show me on the map?"**   "Can you show me on the map where
-                                      xxx is?"
-
-  **"Which way should I go?"**        "Which way should I go to reach the
-                                      city center?"
-
-  **"Is it on the left or right?"**   "Is the park on the left or right
-                                      side of the street?"
-
-  **"How long does it take to walk    "How long does it take to walk to
-  there?"**                           the restaurant?"
-
-  **"Can I take a bus or train to get "Can I take a bus to get to the
-  there?"**                           museum?"
-
-  **"Thank you for your help!"**      "Thank you for your help! I
-                                      appreciate it."
-  -----------------------------------------------------------------------
-
-**At the Airport & During Travel**
-
-  -----------------------------------------------------------------------
-  **Expression**                    **Example Sentence**
-  --------------------------------- -------------------------------------
-  **"Where is the check-in          "Where is the check-in counter for my
-  counter?"**                       flight to XX?"
-
-  **"Can I see your passport and    "Can I see your passport and ticket,
-  ticket?"**                        please?"
-
-  **"I have a connecting flight to  "I have a connecting flight to\...
-  XX."**                            Where should I go?"
-
-  **"What time does my flight       "What time does my flight to New York
-  depart?"**                        depart?"
-
-  **"Where is the security          "Where is the security check? I'm in
-  check?"**                         a hurry."
-
-  **"Is my flight on time or        "Is my flight to Tokyo on time or
-  delayed?"**                       delayed?"
-
-  **"Where is the baggage claim     "\~ for international flights?"
-  area?"**                          
-
-  **"Do I need to fill out an       "\~ for this flight?"
-  immigration form?"**              
-
-  **"Where can I find a taxi or     "Where can I find a taxi or shuttle
-  shuttle?"**                       to the city center?"
-
-  **"Excuse me, where is gate       "Excuse me, where is gate 32 for my
-  \[number\]?"**                    flight?"
-  -----------------------------------------------------------------------
-
-**Hotel Check-in**
-
-  -----------------------------------------------------------------------
-  **Expression**                    **Example Sentence**
-  --------------------------------- -------------------------------------
-  **"I have a reservation under the "I have a reservation under the name
-  name \[XX\]."**                   John Smith."
-
-  **"Do you have any rooms          "Do you have any rooms available for
-  available?"**                     tonight?"
-
-  **"What time is                   "What time is check-in? I will be
-  check-in/check-out?"**            arriving at noon."
-
-  **"Can I see the room before I    "Can I see the room before I book?"
-  book?"**                          
-
-  **"Does the room come with free   "Does the room come with free Wi-Fi?
-  Wi-Fi?"**                         I need to work."
-
-  **"Is breakfast included?"**      "Is breakfast included in the room
-                                    price?"
-
-  **"Can I get a wake-up call at    "Can I get a wake-up call at 7 AM?"
-  \[time\]?"**                      
-
-  **"Can I have an extra            "Can I have an extra pillow, please?"
-  towel/pillow?"**                  
-
-  **"Where is the nearest           "Where is the nearest restaurant? I'm
-  restaurant?"**                    getting hungry!"
-
-  **"Can I store my luggage         "Can I store my luggage here after
-  here?"**                          check-out?"
-  -----------------------------------------------------------------------
-
-**Ordering Food & Drinks**
-
-  -----------------------------------------------------------------------
-  **Expression**                 **Example Sentence**
-  ------------------------------ ----------------------------------------
-  **"Can I see the menu,         "Can I see the menu, please? I'm ready
-  please?"**                     to order."
-
-  **"What do you recommend?"**   "What do you recommend? I'm not sure
-                                 what to choose."
-
-  **"I'd like to order           "I'd like to order the chicken curry,
-  \[dish/drink\], please."**     please."
-
-  **"Does this dish contain      "Does this dish contain peanuts? I have
-  \[ingredient\]?"**             an allergy."
-
-  **"Can I have it without       "Can I have it without onions, please?"
-  \[ingredient\]?"**             
-
-  **"Is this spicy?"**           "Is this curry spicy? I can't handle too
-                                 much spice."
-
-  **"Can I get a glass of water, "Can I get a glass of water, please?
-  please?"**                     It's very hot outside."
-
-  **"Can I have the bill/check,  "Can I have the bill, please? I'm done
-  please?"**                     eating."
-
-  **"Do you accept credit        "Do you accept credit cards or only
-  cards?"**                      cash?"
-
-  **"That was delicious! Thank   "That was delicious! Thank you for the
-  you!"**                        wonderful meal."
-  -----------------------------------------------------------------------
-
-**Shopping**
-
-  -----------------------------------------------------------------------
-  **Expression**                   **Example Sentence**
-  -------------------------------- --------------------------------------
-  **"How much does this cost?"**   "How much does this cost? I want to
-                                   know the price."
-
-  **"Do you have this in a         "Do you have this in a larger size?
-  different size/color?"**         This one is too small."
-
-  **"Can I try this on?"**         "Can I try this on before I buy it?"
-
-  **"Do you accept credit          "Do you accept credit cards, or is it
-  cards?"**                        cash only?"
-
-  **"Can I get a discount?"**      "Can I get a discount if I buy two?"
-
-  **"That's too expensive."**      "That's too expensive. Can you lower
-                                   the price a little?"
-
-  **"What's your best price?"**    "What's your best price for this
-                                   souvenir?"
-
-  **"Can I get a tax refund on     "Can I get a tax refund on this
-  this?"**                         purchase at the airport?"
-
-  **"I'll take it!"**              "I'll take it! It's perfect."
-
-  **"Can I get a receipt,          "Can I get a receipt, please? I need
-  please?"**                       it for tax refund."
-  -----------------------------------------------------------------------
-
-**Using Transportation**
-
-  -----------------------------------------------------------------------
-  **Expression**                        **Example Sentence**
-  ------------------------------------- ---------------------------------
-  **"How much is a ticket to            "How much is a ticket to Paris?"
-  \[destination\]?"**                   
-
-  **"What time does the                 "What time does the next train
-  \[bus/train/subway\] leave?"**        leave for Rome?"
-
-  **"Is this the right bus/train to     "Is this the right bus to Central
-  \[destination\]?"**                   Station?"
-
-  **"Do I need to buy a** **return      "Do I need to buy a return ticket
-  ticket?"**                            for this tour?"
-
-  **"Where can I buy a ticket?"**       "Where can I buy a ticket for the
-                                        subway?"
-
-  **"How long does it take to get to    "How long does it take to get to
-  \[place\]?"**                         the airport ?"
-
-  **"Can I get a taxi to                "Can I get a taxi to the Grand
-  \[destination\]?"**                   Hotel?"
-
-  **"Is this seat taken?"**             "Excuse me, is this seat taken?"
-
-  **"Can I have a one-way ticket to     "Can I have a one-way ticket to
-  \[XX\], please?"**                    Madrid, please?"
-
-  **"Where do I get off for             "Where do I get off for the
-  \[place\]?"**                         National Museum?"
-  -----------------------------------------------------------------------
-
-**Handling Emergencies**
-
-  -----------------------------------------------------------------------
-  **Expression**                 **Example Sentence**
-  ------------------------------ ----------------------------------------
-  **"I need help!"**             "I need help! Can someone assist me?"
-
-  **"I've lost my                "I've lost my passport. What should I
-  passport/wallet."**            do?"
-
-  **"Where is the nearest        "Where is the nearest hospital? I need
-  hospital?"**                   medical help."
-
-  **"I need a doctor."**         "I need a doctor. I'm not feeling well."
-
-  **"Can you call the police?"** "Can you call the police? My bag was
-                                 stolen."
-
-  **"I've been robbed."**        "I've been robbed. I need to report it."
-
-  **"I need to report an         "I need to report an accident on Main
-  accident."**                   Street."
-
-  **"Where is the nearest        "Where is the nearest embassy? I need
-  embassy?"**                    assistance."
-
-  **"Is there a pharmacy         "Is there a pharmacy nearby? I need some
-  nearby?"**                     medicine."
-  -----------------------------------------------------------------------
-
 **Booking & Reservations**
 
   -----------------------------------------------------------------------
@@ -278,103 +36,6 @@ Essential Expressions for travel
   policy?"**                        I need to change?"
   -----------------------------------------------------------------------
 
-**Visiting Tourist Places**
-
-  -----------------------------------------------------------------------
-  **Expression**                    **Example Sentence**
-  --------------------------------- -------------------------------------
-  **"How much is the entrance       "How much is the entrance fee for the
-  fee?"**                           museum?"
-
-  **"What time does the tour        "What time does the castle tour
-  start?"**                         start?"
-
-  **"Is there a guided tour         "Is there a guided tour available for
-  available?"**                     the palace?"
-
-  **"Can I take pictures here?"**   "Can I take pictures inside the
-                                    gallery?"
-
-  **"Where is the nearest           "Where is the nearest restroom in the
-  restroom?"**                      park?"
-
-  **"Are there any special exhibits "Are there any special exhibits at
-  today?"**                         the museum today?"
-
-  **"How long does the tour         "How long does the walking tour
-  last?"**                          last?"
-
-  **"What is the best time to visit "What is the best time to visit the
-  \[place\]?"**                     XX?"
-
-  **"Can you recommend XX?"**       "Can you recommend any other places
-                                    nearby?"
-
-  **"Where is the information       "Where is the information desk in
-  desk?"**                          this museum?"
-  -----------------------------------------------------------------------
-
-**Talking to Locals on a Trip**
-
-  -----------------------------------------------------------------------
-  **Expression**                      **Example Sentence**
-  ----------------------------------- -----------------------------------
-  **"Hello, how are you?"**           "Hello, how are you today?"
-
-  **"Can you help me, please?"**      "Can you help me, please? I can't
-                                      find my hotel."
-
-  **"I'm lost. Can you show me the    "I'm lost. Can you show me the way
-  way?"**                             to the park?"
-
-  **"What is the best way to get to   "What is the best way to get to the
-  \[XX\]?"**                          airport?"
-
-  **"Do you speak English?"**         "Excuse me, do you speak English?"
-
-  **"How far is \[place\] from        "How far is the shopping mall from
-  here?"**                            here?"
-
-  **"What time does                   "What time does the museum close?"
-  \[place/attraction\] close?"**      
-
-  **"Can I get a local SIM card       "Can I get a local SIM card here
-  here?"**                            for internet?"
-
-  **"What's your favorite place to    "What's your favorite place to
-  visit around here?"**               visit in this area?"
-
-  **"Is it safe to walk around here   "Is it safe to walk around here at
-  at night?"**                        night alone?"
-  -----------------------------------------------------------------------
-
-**Discussing Weather**
-
-  -----------------------------------------------------------------------
-  **Expression**                **Example Sentence**
-  ----------------------------- -----------------------------------------
-  **"What's the weather like    "What's the weather like today? Should I
-  today?"**                     bring an umbrella?"
-
-  **"Is it going to rain        "Is it going to rain today? I need to
-  today?"**                     plan my trip."
-
-  **"It looks like it's going   "It looks like it's going to be sunny.
-  to be sunny."**               Perfect for a picnic!"
-
-  **"It's really hot today!"**  "It's really hot today! I need a cold
-                                drink."
-
-  **"How cold is it going to    "How cold is it going to get tonight?
-  get tonight?"**               Should I wear a jacket?"
-
-  **"Is there a chance of       "Is there a chance of snow this weekend?"
-  snow?"**                      
-
-  **"It's pretty windy          "It's pretty windy today. Hold onto your
-  today."**                     hat!"
-  -----------------------------------------------------------------------
-
 **Money & Payments**
 
   -----------------------------------------------------------------------
@@ -397,6 +58,42 @@ Essential Expressions for travel
 
   **"What's the exchange rate         "What's the exchange rate today? I
   today?"**                           want to change 500 RMB."
+  -----------------------------------------------------------------------
+
+**At the Airport & During Travel**
+
+  -----------------------------------------------------------------------
+  **Expression**                    **Example Sentence**
+  --------------------------------- -------------------------------------
+  **"Where is the check-in          "Where is the check-in counter for my
+  counter?"**                       flight to XX?"
+
+  **"Can I see your passport and    "Can I see your passport and ticket,
+  ticket?"**                        please?"
+
+  **"I have a connecting flight to  "I have a connecting flight to\...
+  XX."**                            Where should I go?"
+
+  **"What time does my flight       "What time does my flight to New York
+  depart?"**                        depart?"
+
+  **"Where is the security          "Where is the security check? I'm in
+  check?"**                         a hurry."
+
+  **"Is my flight on time or        "Is my flight to Tokyo on time or
+  delayed?"**                       delayed?"
+
+  **"Where is the baggage claim     "\~ for international flights?"
+  area?"**                          
+
+  **"Do I need to fill out an       "\~ for this flight?"
+  immigration form?"**              
+
+  **"Where can I find a taxi or     "Where can I find a taxi or shuttle
+  shuttle?"**                       to the city center?"
+
+  **"Excuse me, where is gate       "Excuse me, where is gate 32 for my
+  \[number\]?"**                    flight?"
   -----------------------------------------------------------------------
 
 **Customs & Immigration**
@@ -473,28 +170,39 @@ Essential Expressions for travel
                                       red tag."
   -----------------------------------------------------------------------
 
-**Returns & Exchanges**
+**Using Transportation**
 
   -----------------------------------------------------------------------
-  **Expression**                      **Example Sentence**
-  ----------------------------------- -----------------------------------
-  **"Can I return this?"**            "I'd like to return this shirt.
-                                      It's too small."
+  **Expression**                        **Example Sentence**
+  ------------------------------------- ---------------------------------
+  **"How much is a ticket to            "How much is a ticket to Paris?"
+  \[destination\]?"**                   
 
-  **"Can I exchange this for a bigger "Can I exchange these shoes for a
-  size?"**                            bigger size?"
+  **"What time does the                 "What time does the next train
+  \[bus/train/subway\] leave?"**        leave for Rome?"
 
-  **"Here is my receipt."**           "Here is my receipt. I bought this
-                                      yesterday."
+  **"Is this the right bus/train to     "Is this the right bus to Central
+  \[destination\]?"**                   Station?"
 
-  **"Can I get a refund?"**           "Can I get a refund for this
-                                      jacket? It's broken."
+  **"Do I need to buy a** **return      "Do I need to buy a return ticket
+  ticket?"**                            for this tour?"
 
-  **"This charger doesn't work."**    "This charger doesn't work. Can I
-                                      exchange it?"
+  **"Where can I buy a ticket?"**       "Where can I buy a ticket for the
+                                        subway?"
 
-  **"What's your return policy?"**    "What's your return policy? Can I
-                                      return it within a week?"
+  **"How long does it take to get to    "How long does it take to get to
+  \[place\]?"**                         the airport ?"
+
+  **"Can I get a taxi to                "Can I get a taxi to the Grand
+  \[destination\]?"**                   Hotel?"
+
+  **"Is this seat taken?"**             "Excuse me, is this seat taken?"
+
+  **"Can I have a one-way ticket to     "Can I have a one-way ticket to
+  \[XX\], please?"**                    Madrid, please?"
+
+  **"Where do I get off for             "Where do I get off for the
+  \[place\]?"**                         National Museum?"
   -----------------------------------------------------------------------
 
 **Ride-hailing**
@@ -521,28 +229,76 @@ Essential Expressions for travel
   car."**                             this my ride?"
   -----------------------------------------------------------------------
 
-**Internet & Connectivity**
+**Asking for Directions**
 
   -----------------------------------------------------------------------
   **Expression**                      **Example Sentence**
   ----------------------------------- -----------------------------------
-  **"What's the Wi-Fi password?"**    "What's the Wi-Fi password? I need
-                                      to call my family."
+  **"Excuse me, can you help me?"**   "Excuse me, can you help me? I'm
+                                      lost."
 
-  **"Can I get an eSIM for            "Can I get an eSIM for tourists? I
-  tourists?"**                        need internet for maps."
+  **"How do I get to \[place\]?"**    "How do I get to the airport from
+                                      here?"
 
-  **"My phone has no signal."**       "My phone has no signal. Can I use
-                                      your Wi-Fi?"
+  **"Where is the nearest             "Where is the nearest hotel? I need
+  \[bank/hotel/restaurant\]?"**       a place to stay."
 
-  **"Is there free Wi-Fi in this      "Is there free Wi-Fi in this area?
-  area?"**                            I don't want to use my data."
+  **"Is it far from here?"**          "Is it far from here to the
+                                      museum?"
 
-  **"How much data does this plan     "How much data does this plan
-  include?"**                         include? I need it for one week."
+  **"Can you show me on the map?"**   "Can you show me on the map where
+                                      xxx is?"
 
-  **"Can you help me set up the       "Can you help me set up the Wi-Fi?
-  Wi-Fi?"**                           It's not working on my phone."
+  **"Which way should I go?"**        "Which way should I go to reach the
+                                      city center?"
+
+  **"Is it on the left or right?"**   "Is the park on the left or right
+                                      side of the street?"
+
+  **"How long does it take to walk    "How long does it take to walk to
+  there?"**                           the restaurant?"
+
+  **"Can I take a bus or train to get "Can I take a bus to get to the
+  there?"**                           museum?"
+
+  **"Thank you for your help!"**      "Thank you for your help! I
+                                      appreciate it."
+  -----------------------------------------------------------------------
+
+**Hotel Check-in**
+
+  -----------------------------------------------------------------------
+  **Expression**                    **Example Sentence**
+  --------------------------------- -------------------------------------
+  **"I have a reservation under the "I have a reservation under the name
+  name \[XX\]."**                   John Smith."
+
+  **"Do you have any rooms          "Do you have any rooms available for
+  available?"**                     tonight?"
+
+  **"What time is                   "What time is check-in? I will be
+  check-in/check-out?"**            arriving at noon."
+
+  **"Can I see the room before I    "Can I see the room before I book?"
+  book?"**                          
+
+  **"Does the room come with free   "Does the room come with free Wi-Fi?
+  Wi-Fi?"**                         I need to work."
+
+  **"Is breakfast included?"**      "Is breakfast included in the room
+                                    price?"
+
+  **"Can I get a wake-up call at    "Can I get a wake-up call at 7 AM?"
+  \[time\]?"**                      
+
+  **"Can I have an extra            "Can I have an extra pillow, please?"
+  towel/pillow?"**                  
+
+  **"Where is the nearest           "Where is the nearest restaurant? I'm
+  restaurant?"**                    getting hungry!"
+
+  **"Can I store my luggage         "Can I store my luggage here after
+  here?"**                          check-out?"
   -----------------------------------------------------------------------
 
 **Hotel Problems**
@@ -568,3 +324,247 @@ Essential Expressions for travel
   **"Can I have a different room?"**  "Can I have a different room? The
                                       window doesn't close."
   -----------------------------------------------------------------------
+**Ordering Food & Drinks**
+
+  -----------------------------------------------------------------------
+  **Expression**                 **Example Sentence**
+  ------------------------------ ----------------------------------------
+  **"Can I see the menu,         "Can I see the menu, please? I'm ready
+  please?"**                     to order."
+
+  **"What do you recommend?"**   "What do you recommend? I'm not sure
+                                 what to choose."
+
+  **"I'd like to order           "I'd like to order the chicken curry,
+  \[dish/drink\], please."**     please."
+
+  **"Does this dish contain      "Does this dish contain peanuts? I have
+  \[ingredient\]?"**             an allergy."
+
+  **"Can I have it without       "Can I have it without onions, please?"
+  \[ingredient\]?"**             
+
+  **"Is this spicy?"**           "Is this curry spicy? I can't handle too
+                                 much spice."
+
+  **"Can I get a glass of water, "Can I get a glass of water, please?
+  please?"**                     It's very hot outside."
+
+  **"Can I have the bill/check,  "Can I have the bill, please? I'm done
+  please?"**                     eating."
+
+  **"Do you accept credit        "Do you accept credit cards or only
+  cards?"**                      cash?"
+
+  **"That was delicious! Thank   "That was delicious! Thank you for the
+  you!"**                        wonderful meal."
+  -----------------------------------------------------------------------
+
+**Shopping**
+
+  -----------------------------------------------------------------------
+  **Expression**                   **Example Sentence**
+  -------------------------------- --------------------------------------
+  **"How much does this cost?"**   "How much does this cost? I want to
+                                   know the price."
+
+  **"Do you have this in a         "Do you have this in a larger size?
+  different size/color?"**         This one is too small."
+
+  **"Can I try this on?"**         "Can I try this on before I buy it?"
+
+  **"Do you accept credit          "Do you accept credit cards, or is it
+  cards?"**                        cash only?"
+
+  **"Can I get a discount?"**      "Can I get a discount if I buy two?"
+
+  **"That's too expensive."**      "That's too expensive. Can you lower
+                                   the price a little?"
+
+  **"What's your best price?"**    "What's your best price for this
+                                   souvenir?"
+
+  **"Can I get a tax refund on     "Can I get a tax refund on this
+  this?"**                         purchase at the airport?"
+
+  **"I'll take it!"**              "I'll take it! It's perfect."
+
+  **"Can I get a receipt,          "Can I get a receipt, please? I need
+  please?"**                       it for tax refund."
+  -----------------------------------------------------------------------
+
+**Returns & Exchanges**
+
+  -----------------------------------------------------------------------
+  **Expression**                      **Example Sentence**
+  ----------------------------------- -----------------------------------
+  **"Can I return this?"**            "I'd like to return this shirt.
+                                      It's too small."
+
+  **"Can I exchange this for a bigger "Can I exchange these shoes for a
+  size?"**                            bigger size?"
+
+  **"Here is my receipt."**           "Here is my receipt. I bought this
+                                      yesterday."
+
+  **"Can I get a refund?"**           "Can I get a refund for this
+                                      jacket? It's broken."
+
+  **"This charger doesn't work."**    "This charger doesn't work. Can I
+                                      exchange it?"
+
+  **"What's your return policy?"**    "What's your return policy? Can I
+                                      return it within a week?"
+  -----------------------------------------------------------------------
+
+**Visiting Tourist Places**
+
+  -----------------------------------------------------------------------
+  **Expression**                    **Example Sentence**
+  --------------------------------- -------------------------------------
+  **"How much is the entrance       "How much is the entrance fee for the
+  fee?"**                           museum?"
+
+  **"What time does the tour        "What time does the castle tour
+  start?"**                         start?"
+
+  **"Is there a guided tour         "Is there a guided tour available for
+  available?"**                     the palace?"
+
+  **"Can I take pictures here?"**   "Can I take pictures inside the
+                                    gallery?"
+
+  **"Where is the nearest           "Where is the nearest restroom in the
+  restroom?"**                      park?"
+
+  **"Are there any special exhibits "Are there any special exhibits at
+  today?"**                         the museum today?"
+
+  **"How long does the tour         "How long does the walking tour
+  last?"**                          last?"
+
+  **"What is the best time to visit "What is the best time to visit the
+  \[place\]?"**                     XX?"
+
+  **"Can you recommend XX?"**       "Can you recommend any other places
+                                    nearby?"
+
+  **"Where is the information       "Where is the information desk in
+  desk?"**                          this museum?"
+  -----------------------------------------------------------------------
+
+**Discussing Weather**
+
+  -----------------------------------------------------------------------
+  **Expression**                **Example Sentence**
+  ----------------------------- -----------------------------------------
+  **"What's the weather like    "What's the weather like today? Should I
+  today?"**                     bring an umbrella?"
+
+  **"Is it going to rain        "Is it going to rain today? I need to
+  today?"**                     plan my trip."
+
+  **"It looks like it's going   "It looks like it's going to be sunny.
+  to be sunny."**               Perfect for a picnic!"
+
+  **"It's really hot today!"**  "It's really hot today! I need a cold
+                                drink."
+
+  **"How cold is it going to    "How cold is it going to get tonight?
+  get tonight?"**               Should I wear a jacket?"
+
+  **"Is there a chance of       "Is there a chance of snow this weekend?"
+  snow?"**                      
+
+  **"It's pretty windy          "It's pretty windy today. Hold onto your
+  today."**                     hat!"
+  -----------------------------------------------------------------------
+
+**Internet & Connectivity**
+
+  -----------------------------------------------------------------------
+  **Expression**                      **Example Sentence**
+  ----------------------------------- -----------------------------------
+  **"What's the Wi-Fi password?"**    "What's the Wi-Fi password? I need
+                                      to call my family."
+
+  **"Can I get an eSIM for            "Can I get an eSIM for tourists? I
+  tourists?"**                        need internet for maps."
+
+  **"My phone has no signal."**       "My phone has no signal. Can I use
+                                      your Wi-Fi?"
+
+  **"Is there free Wi-Fi in this      "Is there free Wi-Fi in this area?
+  area?"**                            I don't want to use my data."
+
+  **"How much data does this plan     "How much data does this plan
+  include?"**                         include? I need it for one week."
+
+  **"Can you help me set up the       "Can you help me set up the Wi-Fi?
+  Wi-Fi?"**                           It's not working on my phone."
+  -----------------------------------------------------------------------
+
+**Talking to Locals on a Trip**
+
+  -----------------------------------------------------------------------
+  **Expression**                      **Example Sentence**
+  ----------------------------------- -----------------------------------
+  **"Hello, how are you?"**           "Hello, how are you today?"
+
+  **"Can you help me, please?"**      "Can you help me, please? I can't
+                                      find my hotel."
+
+  **"I'm lost. Can you show me the    "I'm lost. Can you show me the way
+  way?"**                             to the park?"
+
+  **"What is the best way to get to   "What is the best way to get to the
+  \[XX\]?"**                          airport?"
+
+  **"Do you speak English?"**         "Excuse me, do you speak English?"
+
+  **"How far is \[place\] from        "How far is the shopping mall from
+  here?"**                            here?"
+
+  **"What time does                   "What time does the museum close?"
+  \[place/attraction\] close?"**      
+
+  **"Can I get a local SIM card       "Can I get a local SIM card here
+  here?"**                            for internet?"
+
+  **"What's your favorite place to    "What's your favorite place to
+  visit around here?"**               visit in this area?"
+
+  **"Is it safe to walk around here   "Is it safe to walk around here at
+  at night?"**                        night alone?"
+  -----------------------------------------------------------------------
+
+**Handling Emergencies**
+
+  -----------------------------------------------------------------------
+  **Expression**                 **Example Sentence**
+  ------------------------------ ----------------------------------------
+  **"I need help!"**             "I need help! Can someone assist me?"
+
+  **"I've lost my                "I've lost my passport. What should I
+  passport/wallet."**            do?"
+
+  **"Where is the nearest        "Where is the nearest hospital? I need
+  hospital?"**                   medical help."
+
+  **"I need a doctor."**         "I need a doctor. I'm not feeling well."
+
+  **"Can you call the police?"** "Can you call the police? My bag was
+                                 stolen."
+
+  **"I've been robbed."**        "I've been robbed. I need to report it."
+
+  **"I need to report an         "I need to report an accident on Main
+  accident."**                   Street."
+
+  **"Where is the nearest        "Where is the nearest embassy? I need
+  embassy?"**                    assistance."
+
+  **"Is there a pharmacy         "Is there a pharmacy nearby? I need some
+  nearby?"**                     medicine."
+  -----------------------------------------------------------------------
+
