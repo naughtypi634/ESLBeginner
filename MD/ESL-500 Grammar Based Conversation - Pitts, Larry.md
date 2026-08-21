@@ -69,89 +69,29 @@
 - Enjoy the book?
 - Index
 
-## Table of Contents
-
-- Adverbs of frequency
-- Adverbs of frequency questions
-- As … as (equatives)
-- As … as questions
-- Be going to
-- Be going to questions
-- Comparatives
-- Comparative questions
-- Conditionals real with the future (first conditional)
-- Conditionals real with the future questions
-- Conditionals real with the present (zero conditional)
-- Conditionals real with the present questions
-- Conditionals unreal with the past (third conditional)
-- Conditionals unreal with the past questions
-- Conditionals unreal with the present (second conditional)
-- Conditionals unreal with the present questions
-- For, since
-- For, since questions
-- Gerunds vs. Infinitives
-- Gerund questions
-- Infinitive questions
-- Imperatives
-- Imperative questions
-- Modals of advice
-- Modals of advice questions
-- Modals of necessity
-- Modals of necessity questions
-- Modals of possibility and probability
-- Modals of possibility and probability questions
-- Nouns (count / noncount)
-- Noun (count / noncount) questions
-- Passive voice in the present (Present passive voice)
-- Passive voice in the present questions
-- Passive voice with the past
-- Passive voice with the past questions
-- Past continuous
-- Past continuous questions
-- Present perfect
-- Present perfect questions
-- Present perfect continuous
-- Present perfect continuous questions
-- Quantifiers
-- Quantifier questions
-- Reported speech / indirect speech
-- Reported speech questions
-- Simple past
-- Simple past questions
-- Simple present
-- Simple present questions
-- Superlatives
-- Superlative questions
-- Tag questions
-- Tag question conversation questions
-- Used to, would
-- Used to, would questions
-- Will
-- Will questions
-- Would rather, prefer
-- Would rather, prefer questions
-- Using conversation questions in the classroom
-- Extras
-- Enjoy the book?
-- Index
-
 ## ADVERBS OF FREQUENCY
 
 We use adverbs of frequency to tell us how often something happens. We use them to talk about habits and how often we do things in the present or have done them in the past.
 
-Here are some common adverbs of frequency :
+#### Common adverbs of frequency
 
-always , never , often , sometimes , usually , seldom /rarely , hardly ever
+Here are some common adverbs of frequency:
 
-Adverbs of frequency come after ‘be ’ and other auxiliary verbs , but before the main verb .
+always, never, often, sometimes, usually, seldom/rarely, hardly ever
 
-- He is always sleepy.
-- She sometimes takes walks in the evening.
+#### Position in a sentence
+
+Adverbs of frequency come after ‘be’ and other auxiliary verbs, but before the main verb.
+
+- He is always sleepy on Monday mornings — he stays up late playing games.
+- She sometimes takes walks in the evening to relax after a day of meetings.
+
+#### Sometimes and usually at the beginning
 
 Sometimes and usually can be put at the beginning of sentences.
 
-- Sometimes they watch movies late at night.
-- Usually he gets up early.
+- Sometimes they watch movies late at night after the kids fall asleep.
+- Usually he gets up early to catch the first subway.
 
 ### Adverbs of frequency questions
 
@@ -168,7 +108,7 @@ Sometimes and usually can be put at the beginning of sentences.
 - How often do you go to the beach in summer?
 - How often do you text?
 - How often do you check your email?
-- How often do you check social media platforms like Facebook?
+- How often do you check social media apps like WeChat, Douyin, or Xiaohongshu?
 - How often do you ride a bike to work or school?
 - How often do you ask your friends for help?
 - How often do you skip breakfast?
@@ -177,32 +117,34 @@ Sometimes and usually can be put at the beginning of sentences.
 
 We use as … as to say that people or things are the same. We use not as…as to say that people or things are not the same.
 
-We can use an adjective , adverb , or quantifier with (not) as … as .
+#### With an adjective, adverb, or quantifier
 
-- Adjective: That car is n’t as expensive as this car.
-- Adverb: Jack eats as quickly as Susan.
-- Quantifier: Our company doesn’t have as many complaints as other companies.
+We can use an adjective, adverb, or quantifier with (not) as … as.
 
-Many idioms in English use as … as with an adjective .
+- Adjective: This apartment isn’t as expensive as the one downtown.
+- Adverb: My brother eats as quickly as I do, so we always finish at the same time.
+- Quantifier: Our restaurant doesn’t have as many customers as the hotpot place next door.
 
-- She was as mad as a hornet.
+#### Idioms with as … as
 
-*Considering that most books focus on using (not) as … as with adjectives , the following questions have been designed to elicit this structure with adjectives.*
+Many idioms in English use as … as with an adjective.
+
+- My phone looks as good as new after I replaced the screen.
 
 ### As … as questions
 
 - Are your parents as supportive as your friends?
-- Are the Rolling Stones as well known as the Beatles?
-- Are puzzles as fun as crosswords?
+- Is Jay Chou as well known as Taylor Swift?
+- Are puzzles as fun as mobile games?
 - Is modern art as beautiful as classical art?
 - Is watching a play as fun as watching a movie?
 - Are cats as fun as dogs?
 - What’s as thrilling as a roller coaster ride?
-- What’s as delicious as fresh baked cookies?
-- Who is as important as the president of the United States?
-- What travel destinations are as popular as Rome?
+- What’s as delicious as hot pot on a cold winter night?
+- Who is as important to you as your phone?
+- What travel destinations are as popular with Chinese tourists as Sanya or Chengdu?
 
-- Fill in the parentheses with your own idea -
+- Fill in the parentheses with your own idea.
 - Is (city) as entertaining as (city)?
 - Is (fast food restaurant) as good as (fast food restaurant)?
 - Is (actor) as talented as (actor)?
@@ -213,19 +155,23 @@ Many idioms in English use as … as with an adjective .
 
 ## BE GOING TO
 
-We form be going to with present tense of be + going to + verb . The ‘be’ in be going to is often turned into a contraction (She’s going to…) .
+We form be going to with present tense of be + going to + verb. The ‘be’ in be going to is often turned into a contraction (She’s going to…).
 
 We use be going to in order to:
 
+#### Intentions and plans
+
 Talk about intentions or things we plan to do.
 
-- I ’m going to apply to universities next month.
-- The city government is going to build a new library.
+- My sister is going to apply for an internship at a tech company next month.
+- The city is going to build a new subway line that stops right outside my apartment.
+
+#### Predictions with evidence
 
 Make predictions about future events, usually when we have a reason or evidence for our predictions.
 
-- Don’t worry. I t’s not going to rain . There isn’t a cloud in the sky.
-- He ’s going to win the race. Look how far ahead he is.
+- Don’t worry. It’s not going to rain — there isn’t a cloud in the sky.
+- He’s going to win the race. Look how far ahead he is.
 
 ### Be going to questions
 
@@ -251,27 +197,39 @@ Make predictions about future events, usually when we have a reason or evidence 
 
 Comparatives are used to compare two things.
 
+#### One-syllable adjectives
+
 For one syllable adjectives: adjective –er + than
 
-- He is taller than his cousin.
+- He is taller than his cousin, so he always has to buy bigger clothes.
+
+#### Two or more syllable adjectives
 
 For two or more syllable adjectives: more + adjective + than (to show the opposite use less instead of more before the adjective).
 
-- This ring is more expensive than that one.
+- This phone is more expensive than that one, but the camera is much better.
+
+#### Adjectives ending in y
 
 For adjectives ending in ‘y’: drop the ‘y’ and adjective –ier + than
 
-- She is funnier than him.
+- She is funnier than her boyfriend — everyone laughs at her jokes.
 
-There are exceptions – good (better ), bad (worse ), far (further /farther ), etc.
+#### Exceptions
 
-If the second person or thing being compared isn’t mentioned in the sentence, we drop than .
+There are exceptions – good (better), bad (worse), far (further/farther), etc.
 
-- Which is more important , money or power? I think money is more important .
+#### Dropping than
+
+If the second person or thing being compared isn’t mentioned in the sentence, we drop than.
+
+- Which is more important, money or health? I think health is more important.
+
+#### Comparing within a group
 
 We can also use comparatives to compare one person or thing with all the rest of the people or things in their group.
 
-- John is more diligent than all of his classmates.
+- John is more hardworking than all of his coworkers — he is the last one to leave the office.
 
 ### Comparative questions
 
@@ -281,7 +239,7 @@ We can also use comparatives to compare one person or thing with all the rest of
 - Which is more important, money or happiness?
 - Compare two types of foreign food. Which is more delicious? Which is cheaper?
 - Which is more enjoyable, going to a theme park or going to a museum? Why?
-- Who is more influential, politicians or celebrities?
+- Who is more famous, singers or athletes?
 - Which is more relaxing, reading a book or watching TV? Why?
 - Do you think that corruption or poverty is a bigger problem? Why?
 - Compare two countries. Which one is a better vacation spot?
@@ -290,28 +248,36 @@ We can also use comparatives to compare one person or thing with all the rest of
 - Is it better to live in the country or in a city? Why?
 - Compare two musicians. Who do you think is more talented?
 - Which is more exciting, playing a video game or playing a sport? Why?
-- Which is more comfortable, a couch or a recliner?
+- Which is more comfortable, a couch or an office chair?
 - Which is a better place to have a vacation, mountains or a beach? Why?
 
 ## CONDITIONALS REAL WITH THE FUTURE (FIRST CONDITIONAL)
 
+#### The two parts of a conditional sentence
+
 For all conditional sentences there are two parts, the conditional clause (‘if’ clause) and the consequence clause (main clause).
 
-The future real conditional / conditional real with the future / first conditional is formed with if + present simple for the conditional clause and the simple future will + verb for the consequence clause. Will is most commonly used in the consequence clause. But going to , must , should , or an imperative can be used instead of will .
+#### Formation
 
-- If I finish my homework, my teacher will be happy.
-- If I finish my homework (conditional clause / if clause),
-- my teacher will be happy (consequence clause / main clause).
+The future real conditional / conditional real with the future / first conditional is formed with if + present simple for the conditional clause and the simple future will + verb for the consequence clause. Will is most commonly used in the consequence clause. But going to, must, should, or an imperative can be used instead of will.
 
-The first conditional is used when talking about something that may happen in the future. The consequence clause is a realistic and possible outcome of the conditional clause . It is a ‘real’ possibility.
+- If I finish this report before 6pm, my boss will be happy.
+- If I finish this report before 6pm (conditional clause / if clause),
+- my boss will be happy (consequence clause / main clause).
 
-- If you exercise , you ’ll be healthier.
-- If he doesn’t study , he ’ll never pass the test.
+#### Use
+
+The first conditional is used when talking about something that may happen in the future. The consequence clause is a realistic and possible outcome of the conditional clause. It is a ‘real’ possibility.
+
+- If you take the stairs instead of the elevator, you’ll be healthier.
+- If he doesn’t practice, he’ll never pass the driving test.
+
+#### Clause order
 
 The conditional clause can come first or second in a conditional sentence. If the conditional clause is first, a comma usually is put between the consequence and conditional clause. A comma usually isn’t needed when the consequence clause is first.
 
-- My teacher will be happy if I finish my homework.
-- If I finish my homework, my teacher will be happy.
+- My boss will be happy if I finish the report before 6pm.
+- If I finish this report before 6pm, my boss will be happy.
 
 ### Conditionals real with the future questions
 
@@ -328,35 +294,40 @@ The conditional clause can come first or second in a conditional sentence. If th
 - Where will you go if you get an unexpected day off?
 - If you meet a celebrity you admire, what will you do?
 - What will countries do if the sea level keeps rising?
-- What will happen if there is another financial crisis?
+- What will happen if the price of food keeps going up?
 - If you need relationship advice, who will you call?
-- What will happen if the European Union splits up?
-- If humans start mining asteroids, what will happen?
+- What will happen if more and more people work from home?
+- If everyone starts driving electric cars, what will happen?
 
 ## CONDITIONALS REAL WITH THE PRESENT (ZERO CONDITIONAL)
 
-For all conditional sentences there are two parts. The conditional clause (‘if’ clause) and the consequence clause (main clause).
+
+#### Formation
 
 The present real conditional / conditional real with the present / zero conditional is formed with if + present simple tense for the conditional and the simple present for the consequence clause.
 
-- If I forget my homework, my teacher gets angry.
-- If I forget my homework (conditional / if clause),
-- my teacher gets angry (consequence clause / main clause).
+- If I forget my keys, my roommate gets angry.
+- If I forget my keys (conditional / if clause),
+- my roommate gets angry (consequence clause / main clause).
+
+#### Use
 
 The zero conditional is used to talk about things that always happen or things that happen the same way every time. Because the situations happen they are ‘real’. The zero conditional is used to talk about facts and behavior which don’t change.
 
-- If I am bored, I read a book.
-- If he forgets where his keys are, he asks his wife.
+- If I’m bored on the subway, I scroll through short videos.
+- If my dad forgets where his keys are, he asks my mom.
+
+#### Clause order
 
 The conditional clause can come first or second in a conditional sentence. If the conditional clause is first, a comma usually is put between the consequence and conditional clause. A comma usually isn’t needed when the consequence clause is first.
 
-- My teacher gets angry if I forget my homework.
-- If I forget my homework, my teacher gets angry.
+- My roommate gets angry if I forget my keys.
+- If I forget my keys, my roommate gets angry.
 
 ### Conditionals real with the present questions
 
-- What do you do if you’re bored?
-- Where do you go if you want to buy clothes?
+- What do you do on your phone when you’re bored?
+- Where do you go if you want to buy snacks near your home?
 - Who do you talk to if you have a problem?
 - Where do you go if you want to read a book?
 - How long does it take you to ask for help if you don’t know how to do something?
@@ -375,29 +346,38 @@ The conditional clause can come first or second in a conditional sentence. If th
 
 ## CONDITIONALS UNREAL WITH THE PAST (THIRD CONDITIONAL)
 
-For all conditional sentences there are two parts, the conditional clause (‘if’ clause) and the consequence clause (main clause).
+
+#### Formation
 
 The past unreal conditional / conditional unreal with the past / third conditional is formed with if + past perfect for the conditional clause and would have + past participle for the consequence clause.
 
-- If I had forgotten my homework, my teacher would have been angry.
-- If I had forgotten my homework (conditional / if clause),
-- my teacher would have been angry (consequence clause / main clause).
+- If I had missed the last subway, I would have had to take a taxi home.
+- If I had missed the last subway (conditional / if clause),
+- I would have had to take a taxi home (consequence clause / main clause).
+
+#### Use
 
 The third conditional is used to talk about a past imaginary situation and the possible outcomes of that imaginary situation. In reality the situation never occurred so it is ‘unreal’.
 
 - If I had studied something different in university, my life would have been very different.
-- If you had called me earlier, I would have picked him up.
+- If you had texted me earlier, I would have saved you a seat.
+
+#### Clause order
 
 The conditional clause can come first or second in a conditional sentence. If the conditional clause is first, a comma usually is put between the consequence and conditional clause. A comma usually isn’t needed when the consequence clause is first.
 
-- My teacher would have been angry if I had forgotten my homework.
-- If I had forgotten my homework, my teacher would have been angry.
+- I would have had to take a taxi home if I had missed the last subway.
+- If I had missed the last subway, I would have had to take a taxi home.
 
-Would have is most commonly used in the consequence clause. But could have , should have , or might have can also be used.
+#### Could have, should have, or might have
 
-If the possible outcome of the imaginary situation is in the present we use the present conditional would + present tense .
+Would have is most commonly used in the consequence clause. But could have, should have, or might have can also be used.
 
-- If I had won the lottery, I would be rich.
+#### Present outcomes
+
+If the possible outcome of the imaginary situation is in the present we use the present conditional would + present tense.
+
+- If I had bought that apartment two years ago, I would be rich now.
 
 ### Conditionals unreal with the past questions
 
@@ -411,7 +391,7 @@ If the possible outcome of the imaginary situation is in the present we use the 
 - What would you have done if you had gotten lost during your last vacation?
 - What type of music would you have sung if you had been a famous singer?
 - What piece of knowledge would have changed your life if you had known it?
-- If you had been born a different gender, would your personality be different?
+- If you had grown up in a small village, would your life be different now?
 - If you had been born 100 years ago, would your life have been better or worse?
 - If your parents had been rich, how would your life be different now?
 - If you hadn’t been born in your country, what country would you want to be from?
@@ -421,31 +401,36 @@ If the possible outcome of the imaginary situation is in the present we use the 
 
 ## CONDITIONALS UNREAL WITH THE PRESENT (SECOND CONDITIONAL)
 
-For all conditional sentences there are two parts, the conditional clause (‘if’ clause) and the consequence clause (main clause).
+
+#### Formation
 
 The present unreal conditional / conditional unreal with the present / second conditional is formed with if + simple past tense for the conditional and the present conditional would + present tense for the consequence clause.
 
-- If I won the lottery, I would buy a yacht.
+- If I won the lottery, I would pay off my mortgage first.
 - If I won the lottery (conditional / if clause),
-- I would buy a yacht (consequence clause / main clause).
+- I would pay off my mortgage first (consequence clause / main clause).
+
+#### Use
 
 The second conditional is used to talk about imaginary situations that are not true or are unlikely. Because the situations are not true or are unlikely they are ‘unreal’. The unreal conditional does not refer to the past; it refers to the present or to the future.
 
-- If I had a longer vacation, I would travel around Asia.
-- If I were an animal, I would be a squirrel.
+- If I had a longer vacation, I would visit my parents in Sichuan.
+- If I were an animal, I would be a cat — I could sleep all day.
+
+#### Clause order
 
 The conditional clause can come first or second in a conditional sentence. If the conditional clause is first, a comma usually is put between the consequence and conditional clause. A comma usually isn’t needed when the consequence clause is first.
 
-- I would buy a yacht if I won the lottery.
-- If I won the lottery, I would buy a yacht.
+- I would pay off my mortgage first if I won the lottery.
+- If I won the lottery, I would pay off my mortgage first.
 
 ### Conditionals unreal with the present questions
 
-- What would you do if you were elected the leader of your country?
+- What would you do if you were the boss of your company for one day?
 - What would you tell yourself if you could go back in time and talk to your younger self?
 - If you could create a superhero, what would their power and name be?
 - What would you do if you were the second richest person in the world?
-- Who would you marry if you could marry anyone in the world?
+- Who would you invite to dinner if you could invite anyone in the world?
 - If you could take one thing from the past and bring it to the present, what would it be?
 - If you were able to change places with one person for one day, who would the person be? What would you do?
 - If you could choose to live forever, would you?
@@ -453,7 +438,7 @@ The conditional clause can come first or second in a conditional sentence. If th
 - If you had only one week to live, what would you do?
 - What year would you travel to if you had a time machine?
 - If you could meet any three people from any time or place who would you meet?
-- What spell would you want to know if you were a wizard?
+- What superpower would you want if you could choose one?
 - If you could have any animal as a pet, what animal would you want?
 - If you were famous, what would you be famous for?
 - If you could be a master at one skill, what would you be a master of?
@@ -461,18 +446,22 @@ The conditional clause can come first or second in a conditional sentence. If th
 
 ## FOR, SINCE
 
+#### For and since
+
 We use the preposition for to say how long something occurs. We use the preposition since to say when something started.
 
-- They have been waiting in line for 2 hours.
-- They have been waiting in line since 1pm.
-- He has worked in this restaurant for 5 weeks.
-- He has worked in this restaurant since November.
+- They have been waiting in line for 20 minutes.
+- They have been waiting in line since 3pm.
+- He has worked at this hotpot restaurant for 5 weeks.
+- He has worked at this hotpot restaurant since November.
 
-Since can only be used with perfect tenses (past perfect, present perfect continuous, etc.). But for can be used with all tenses .
+#### Tense restrictions
 
-- He worked on his homework for three hours.
-- She will jog for 2 hours tonight.
-- He has been working since 7pm.
+Since can only be used with perfect tenses (past perfect, present perfect continuous, etc.). But for can be used with all tenses.
+
+- He worked on his presentation for three hours last night.
+- She will exercise for 30 minutes tonight.
+- He has been working overtime since 7pm.
 
 ### For, since questions
 
@@ -496,39 +485,47 @@ Since can only be used with perfect tenses (past perfect, present perfect contin
 
 ## GERUNDS VS. INFINITIVES
 
+#### Gerunds
+
 A gerund is a verb ending with –ing that functions like a noun. Gerunds can be used as subjects, direct objects, subject complements, and as objects of a preposition.
 
-- Running is fun. (Gerund as subject)
-- I love running . (Gerund as direct object)
-- I never gave running a thought. (Gerund as indirect object)
-- Do you object to running ? (Gerund as object of preposition)
+- Running is fun — I listen to music while I run in the park. (Gerund as subject)
+- I love running in the morning before work. (Gerund as direct object)
+- I never gave running a thought until my doctor told me to exercise. (Gerund as indirect object)
+- Do you object to running in the rain? I think it’s refreshing. (Gerund as object of preposition)
+
+#### Infinitives
 
 We often use the infinitive (to + verb) after certain verbs, especially thinking and feeling verbs. They have lots of other uses including being used to show purpose, after certain adjectives, to give opinions and more.
 
-We’ll focus on gerunds and infinitives being used after certain verbs because most books compare gerunds and infinitives in this way. Just keep in mind that gerunds can be used in other places instead of nouns and infinitives have other uses as well.
+#### Gerunds or infinitives after verbs
 
-When gerunds are used after a verb, they can only follow certain verbs. Other verbs need the infinitive (to + verb) . Still other verbs can use both gerunds and infinitives .
+When gerunds are used after a verb, they can only follow certain verbs. Other verbs need the infinitive (to + verb). Still other verbs can use both gerunds and infinitives.
 
-- I enjoy walking . (enjoy = gerunds not infinitives )
-- He attempted to run . (attempt = infinitives not gerunds)
-- She hates running . (hate = gerund or infinitives )
-- She hates to run .
+- I enjoy walking along the river after dinner. (enjoy = gerunds, not infinitives)
+- He attempted to run a marathon last year but hurt his knee. (attempt = infinitives, not gerunds)
+- She hates running, but she loves hiking in the mountains. (hate = gerund or infinitive)
+- She hates to run, so she rides her e-bike everywhere.
 
-Some verbs such as stop , remember , forget , and try change meaning depending on whether a gerund or infinitive is used.
+#### Verbs that change meaning
 
-Some verbs can take a direct object and an infinitive . The structure looks like: verb + direct object + to + verb .
+Some verbs such as stop, remember, forget, and try change meaning depending on whether a gerund or infinitive is used.
 
-- She invited me to go to the dance.
+#### Verb + direct object + infinitive
 
-We can use make , let , and help with the above structure but without the ‘to’.
+Some verbs can take a direct object and an infinitive. The structure looks like: verb + direct object + to + verb.
 
-- He helped me finish my homework.
+- My colleague invited me to go to her wedding in Shanghai next month.
 
-Not every verb ending in -ing is a gerund . A verb ending with – ing can also be a present participle .
+#### Make, let, and help without to
 
-*The following questions attempt to elicit gerunds . The verbs used in the questions can take gerunds but not infinitives as direct objects.*
+We can use make, let, and help with the above structure but without the ‘to’.
 
-*The next set of questions after the gerunds attempts to elicit only infinitives . The verbs used in those questions can take infinitives but not gerunds.*
+- My brother helped me finish the report before the deadline.
+
+#### Gerund vs. present participle
+
+Not every verb ending in -ing is a gerund. A verb ending with – ing can also be a present participle.
 
 ### Gerund questions
 
@@ -573,32 +570,44 @@ Not every verb ending in -ing is a gerund . A verb ending with – ing can also 
 
 ## IMPERATIVES
 
-Imperatives are used to tell someone to do something or how to do something. To make an imperative, drop the subject and use the base form of the verb .
+#### Formation
 
-- Add four cups of flour.
-- Don’t sit on the couch all day.
+Imperatives are used to tell someone to do something or how to do something. To make an imperative, drop the subject and use the base form of the verb.
+
+- Add four cups of flour, then stir in the eggs.
+- Don’t sit on the couch all day — go out for a walk.
 
 Imperatives are used:
 
+#### Instructions
+
 To give instructions.
 
-- Click the green button.
+- Click the green button to confirm your order in the app.
+
+#### Advice or a suggestion
 
 To give advice or a suggestion.
 
-- Find a job you love.
+- Find a job near your home so you don’t have to commute far.
+
+#### Orders
 
 To give orders.
 
 - Stop running around and come here!
 
+#### Offers
+
 To offer something.
 
-- Have a cup of coffee.
+- Have a cup of coffee before the meeting starts.
 
-You can use signal words like first , next , then , after that , etc. to show order when using imperatives . Signal words serve to guide the listener/reader from one idea to the next.
+#### Signal words
 
-- First , dice the onions. Then , fry the chicken.
+You can use signal words like first, next, then, after that, etc. to show order when using imperatives. Signal words serve to guide the listener/reader from one idea to the next.
+
+- First, cut the vegetables into small pieces. Then, put them into the hot pot.
 
 ### Imperative questions
 
@@ -628,21 +637,27 @@ We use modals of advice to give advice and say what we think is a good or bad id
 
 We form modals like this: modal + verb (base form). The ‘to’ in ought to is considered part of the modal.
 
+#### Should
+
 Should is the most common modal of advice. It can be used with questions, negative sentences, and affirmative sentences.
 
-- Where should I park ?
-- Should I exercise more?
-- You shouldn’t drink that milk.
-- You should bring an umbrella.
+- Where should I park my car when I go to the mall?
+- Should I exercise more, or is three times a week enough?
+- You shouldn’t drink that milk — it expired last week.
+- You should bring an umbrella — the weather app says it will rain.
+
+#### Had better
 
 Had better is the strongest modal of advice. It implies that if you don’t follow the advice, something bad will happen. It can be used with negative and affirmative sentences.
 
-- She had better not be late again.
-- They had better slow down.
+- She had better not be late again — the boss was angry yesterday.
+- They had better slow down — it’s raining hard.
+
+#### Ought to
 
 Ought to is the least common modal of advice. It is almost exclusively used with the affirmative in modern English.
 
-- He ought to start jogging.
+- He ought to start jogging — his blood pressure is too high.
 
 ### Modals of advice questions
 
@@ -663,7 +678,7 @@ Ought to is the least common modal of advice. It is almost exclusively used with
 - Are there any things a tourist had better not do if they visit your country?
 - How old should a person be before they can buy cigarettes? How about alcohol?
 - What are some things parents had better teach their children?
-- What’s something that isn’t a law but should be?
+- What’s one rule everyone should follow on the subway?
 - What’s one thing everyone ought to study?
 - What are some things I’d better do when traveling abroad?
 
@@ -675,24 +690,32 @@ Modals of necessity are used to show that something is necessary.
 
 We use modals together with main verbs: modal + verb (base form). With have to and have got to the ‘to’ is considered part of the modal.
 
+#### Must
+
 Must is the strongest modal of necessity. It is most often used in writing. It is not commonly used in questions.
 
 - They must check their bags before boarding the plane.
-- You must not smoke here.
+- You must not smoke here — this is a hospital.
 
-Have to is the most commonly used modal of necessity. It can be used for questions. Have (have / has ) changes form depending on the subject in affirmative sentences. Do is necessary for questions and negative sentences.
+#### Have to
 
-- He has to go to work tomorrow.
-- They have to leave early on Sunday.
-- She doesn’t have to stay late.
-- Do you have to get a new phone soon?
+Have to is the most commonly used modal of necessity. It can be used for questions. Have (have / has) changes form depending on the subject in affirmative sentences. Do is necessary for questions and negative sentences.
+
+- He has to go to work tomorrow even though it’s Saturday.
+- They have to leave early on Sunday to catch their train.
+- She doesn’t have to stay late tonight — the report can wait until Monday.
+- Do you have to get a new phone soon? Yours is three years old.
+
+#### Have got to
 
 Have got to is used most often in informal speech. It is not commonly used in negative sentences. Have changes form depending on the subject in affirmative sentences.
 
-- We have got to get a new refrigerator.
-- He has got to buy some new clothes.
+- We have got to get a new rice cooker — ours keeps turning off.
+- He has got to buy some new clothes for the job interview.
 
-We use had to when talking about the past. We don’t use have got to to talk about the past. When talking about the past have to becomes had to .
+#### Had to (the past)
+
+We use had to when talking about the past. We don’t use have got to to talk about the past. When talking about the past have to becomes had to.
 
 - He had to work all night last night to finish the project.
 
@@ -703,7 +726,7 @@ We use had to when talking about the past. We don’t use have got to to talk ab
 - What are some things you have to do when you get home?
 - What are some things you must do or must not do when you go to the airport?
 - What do students have to do if they want to improve their English?
-- What are some unusual or harsh laws in your country?
+- What are some rules you have to follow at work or school?
 - Which types of workers have to work the hardest?
 - What are some things you must or must not do at your job or university?
 - Is there anywhere you have to go after class?
@@ -724,24 +747,32 @@ We use had to when talking about the past. We don’t use have got to to talk ab
 
 We use modal verbs in combination with main verbs: modal + verb (base form).
 
+#### Must (certain)
+
 Must is used to show that we are certain.
 
-- Wow, you are really sweaty. It must be hot outside.
+- Wow, you’re really sweaty — it must be hot outside.
+
+#### Can’t (impossible)
 
 Can’t is used to show something is impossible.
 
 - We can’t give him the job because he doesn’t have enough experience.
 
-May , might , and could are used to talk about present or future possibilities. They can be used to explore possible options for the future, to make suggestions in order to solve a problem, or to guess about a situation when we don’t have all the facts.
+#### May, might, and could
 
-- After I finish university I may go abroad or I may try to get a job right away.
-- Your car might be having problems because the battery is too old.
-- The remote control could be in the couch.
+May, might, and could are used to talk about present or future possibilities. They can be used to explore possible options for the future, to make suggestions in order to solve a problem, or to guess about a situation when we don’t have all the facts.
+
+- After I graduate, I may look for a job in Shanghai or I may go back to my hometown.
+- Your phone might be having problems because the battery is too old.
+- The TV remote could be under the sofa — check there.
+
+#### May not and might not
 
 May not and might not can be used to show that present or future possibilities are not likely. But could not cannot be used in this way.
 
-- He may not graduate if his grades don’t improve.
-- They might not go on vacation this year.
+- He may not pass the exam if he doesn’t study more.
+- They might not go on vacation this year because they just bought an apartment.
 
 ### Modals of possibility and probability questions
 
@@ -760,59 +791,75 @@ May not and might not can be used to show that present or future possibilities a
 - What are some problems the world might face in the future?
 - What are some things that could improve the economy in your country?
 
-- For the following questions, talk about how certain you are of your opinion using modals -
+- For the following questions, talk about how certain you are of your opinion using modals.
 - Do you think that aliens exist? Why or why not?
-- Do you think that people are born good, evil, or neutral? Why?
+- Do you think people are more polite online or in person? Why?
 - Talk about some conspiracies you’ve heard. Do you believe them or not?
 - Do you think that most politicians start their careers with good intentions?
 - What do you think made people stop hunting and gathering, and start farming?
 
 ## NOUNS (COUNT / NONCOUNT)
 
+#### Count nouns
+
 Count (countable) nouns can be counted or numbered. Count nouns have singular and plural forms.
+
+#### Noncount nouns
 
 Noncount (uncountable) nouns cannot be counted or numbered and they do not have a plural form.
 
-We can use a /an and the with singular count nouns We can use the and many with plural count nouns.
+#### A/an, the, and many
 
-- Do you have a pencil I can borrow?
-- I would like an apple .
-- He opened the window .
-- She watered the plants .
-- The farm had many pigs .
+We can use a/an and the with singular count nouns We can use the and many with plural count nouns.
+
+- Do you have a pen I can borrow? Mine just ran out.
+- I would like an apple with my lunch.
+- He opened the window because the room was too hot.
+- She watered the plants on the balcony this morning.
+- The farm outside the city had many pigs and chickens.
+
+#### Much and the
 
 We can use much and the with noncount nouns. Much is usually only used in questions and negative statements. Much is rarely used with affirmative statements.
 
-- He doesn’t have much money .
-- The mail arrived an hour ago.
+- He doesn’t have much money this month, so he cooks at home.
+- The package arrived an hour ago — the courier left it at the door.
 
-We can use some , any , no , and a lot of / lots of with both count and plural noncount nouns. Any is usually only used in questions and negative statements. Any is rarely used with affirmative statements.
+#### Some, any, no, and a lot of
 
-- Would you like some strawberries ?
-- No, but I would love some juice .
-- Sorry, but we don’t have any juice .
+We can use some, any, no, and a lot of / lots of with both count and plural noncount nouns. Any is usually only used in questions and negative statements. Any is rarely used with affirmative statements.
+
+- Would you like some strawberries from the fruit shop downstairs?
+- No, but I would love some juice.
+- Sorry, but we don’t have any juice.
 - I suppose you have no milk either.
-- Actually, we have a lot of milk .
-- So you have lots of milk and a lot of strawberries ?
+- Actually, we have a lot of milk.
+- So you have lots of milk and a lot of strawberries?
 - Yes.
-- Do you have any blueberries ?
-- Yes, we have lots of blueberries .
-- Then I’ll have a strawberry and blueberry smoothie .
+- Do you have any blueberries?
+- Yes, we have lots of blueberries.
+- Then I’ll have a strawberry and blueberry smoothie.
 
-Some nouns are count and noncount  nouns with different meanings depending on whether they are count or noncount .
+#### Count and noncount with different meanings
 
-- The woods are beautiful this time of year.
-- This house is made of wood .
+Some nouns are count and noncount nouns with different meanings depending on whether they are count or noncount.
 
-Most noncount nouns can have a countable container included to make them act more like count nouns. Usually ‘of ’ is added after the container.
+- The hills behind the city are beautiful this time of year.
+- This teahouse is made of wood — it’s over 100 years old.
 
-- Can you get me some milk ?
-- Can you get me three cartons of milk ?
+#### Containers
 
-In informal language sometimes the container is dropped from the sentence and the noncount noun is used as a count noun . This is often done when talking about food or drinks.
+Most noncount nouns can have a countable container included to make them act more like count nouns. Usually ‘of’ is added after the container.
 
-- We’ll have two cups of coffee .
-- I’ll have two coffees . (We mean two cups of coffee.)
+- Can you get me some milk from the convenience store?
+- Can you get me three cartons of milk from the convenience store?
+
+#### Dropping the container
+
+In informal language sometimes the container is dropped from the sentence and the noncount noun is used as a count noun. This is often done when talking about food or drinks.
+
+- We’ll have two cups of coffee and a pot of green tea.
+- I’ll have two coffees. (We mean two cups of coffee.)
 
 ### Noun (count / noncount) questions
 
@@ -838,26 +885,36 @@ In informal language sometimes the container is dropped from the sentence and th
 
 Passives are formed when the agent (doer of the verb, the noun phrase found in the subject position in active sentences) switches places with the patient (the receiver of the action of the verb, in the object position in active sentences).
 
-We make the passive voice in the present (present passive voice) with the present tense of be+ past participle of the main verb . The form of be -verb changes depending on the subject.
+#### Formation
 
-We use the passive voice in the present :
+We make the passive voice in the present (present passive voice) with the present tense of be + past participle of the main verb. The form of be -verb changes depending on the subject.
+
+We use the passive voice in the present:
+
+#### When the agent isn’t known or important
 
 When the person or thing (agent) that did the action isn’t known or isn’t important.
 
-- The best cars are made in Germany.
+- The best electric cars are made in China.
+
+#### Talking about processes
 
 To talk about processes.
 
 - First, the rock is pulverized to produce a powder.
 - Next, the powder is compressed into a 5 cm thick sheet.
 
+#### Sounding impersonal in formal writing
+
 To sound impersonal in formal writing (e.g. news reports, scientific papers, etc.).
 
 - Interesting conclusions can be drawn from these findings.
 
-When we want to show who or what did the action we use by .
+#### Using by
 
-- This brand of wine is made by well paid workers.
+When we want to show who or what did the action we use by.
+
+- This brand of green tea is made by well-paid farmers in Zhejiang.
 
 ### Passive voice in the present questions
 
@@ -865,13 +922,13 @@ When we want to show who or what did the action we use by .
 - Who are the best cell phones made by?
 - Where are the worst cars made?
 - Where is most of the world’s oil extracted?
-- What is the process to make a great wine?
-- Where are the best football players born?
+- What is the process to make a great cup of green tea?
+- Where are the best table tennis players born?
 - Where are most technical advances made?
 - Where are the best watches made?
 - Who are the best TVs made by?
 - What do you know the process for making? What are the steps for making it?
-- In what country is football played most?
+- In what country is badminton played most?
 - Who are the best films directed by?
 - Where are most computers made?
 - Who are the best shoes made by?
@@ -884,29 +941,39 @@ When we want to show who or what did the action we use by .
 
 Passives are formed when the agent (doer of the verb, the noun phrase found in the subject position in active sentences) switches places with the patient (the receiver of the action of the verb, in the object position in active sentences).
 
-We make the passive voice with the past (past passive voice) with the past tense of be + past participle . The form of ‘be ’ changes depending on the subject.
+#### Formation
 
-We use the passive voice :
+We make the passive voice with the past (past passive voice) with the past tense of be + past participle. The form of ‘be’ changes depending on the subject.
+
+We use the passive voice:
+
+#### When the agent isn’t known or important
 
 When the person or thing (agent) that did the action isn’t known or isn’t important.
 
 - The most beautiful paintings were made during the Renaissance.
-- My wallet was stolen !
+- My phone was stolen on the crowded subway!
+
+#### Talking about processes
 
 To talk about processes.
 
 - The sugar was added and then heated to 250 degrees Celsius.
 - The mixture was then stirred for 10 minutes.
 
+#### Sounding impersonal in formal writing
+
 To sound impersonal in formal writing (e.g. news reports, scientific papers, etc.).
 
 - The town was destroyed in a tragic twist of fate.
 - Blame was laid on the politicians involved.
 
-When we want to show who or what did the action we use ‘by ’.
+#### Using by
 
-- This painting was made by Pablo Picasso.
-- His sandwich was stolen by a squirrel.
+When we want to show who or what did the action we use ‘by’.
+
+- This mapo tofu was made by my grandmother.
+- My lunch was stolen by a stray cat in the park.
 
 ### Passive voice with the past questions
 
@@ -930,29 +997,39 @@ When we want to show who or what did the action we use ‘by ’.
 
 ## PAST CONTINUOUS
 
-We form the past continuous with the past tense of be + verb with -ing .
+#### Formation
+
+We form the past continuous with the past tense of be + verb with -ing.
 
 We use the past continuous to:
+
+#### A continuing past action
 
 Talk about a situation or action that continued for a period of time in the past and was completed in the past.
 
 - The workers were repairing the roads last week.
-- My stomach was hurting after I ate that burrito.
+- My stomach was hurting after I ate that spicy hotpot.
+
+#### Two actions at the same time
 
 Talk about two actions that were both happening at the same time in the past.
 
 - My roommate was talking on the phone while I was watching a movie.
-- The roofers were working on the roof while we were painting the walls.
+- My roommate was cooking dinner while I was cleaning the kitchen.
+
+#### An action around a certain time
 
 Talk about an action that happened before, during, and after a certain time.
 
-- I was sleeping last night at 12am.
-- She was driving home at 7:30pm last night.
+- I was still sleeping at 11am last Sunday — I had stayed up late.
+- She was taking the subway home at 9pm last night.
+
+#### Repeated actions in the past
 
 Talk about an action that was completed repeatedly in the past, but does not occur any longer.
 
-- He was smoking three packs a day.
-- They were having meetings 3 times a day.
+- He was drinking three cups of coffee a day.
+- They were having meetings three times a day last week — everyone was exhausted.
 
 ### Past continuous questions
 
@@ -976,27 +1053,37 @@ Talk about an action that was completed repeatedly in the past, but does not occ
 
 ## PRESENT PERFECT
 
-We make the present perfect with the auxiliary verb have / has and the past participle of the main verb . The form of have (have / has) depends on the subject.
+#### Formation
 
-- I have eaten at this restaurant many times. / She has been to Spain.
-- We haven’t started yet. / He hasn’t read that book.
-- Where have you been ? / What has she made in art class this week?
-- Have you tried this before? / Has he worked here for long?
+We make the present perfect with the auxiliary verb have / has and the past participle of the main verb. The form of have (have / has) depends on the subject.
+
+- I have eaten at this hotpot restaurant many times. / She has been to Beijing twice.
+- We haven’t started the meeting yet. / He hasn’t read that email.
+- Where have you been? / What has she cooked for dinner this week?
+- Have you tried this dish before? / Has he worked here for long?
 
 We use the present perfect to:
 
+#### From the past to the present
+
 Talk about something that started in the past and continues into the present.
 
-- We have lived in this apartment since April. (They moved into the apartment in April and are still living there now.)
+- We have lived in this rented apartment since April. (We moved in in April and are still living here now.)
+
+#### Completed multiple times
 
 Talk about an action that has been completed multiple times in the past.
 
-- Peter loves that movie. He has seen it 16 times since last year.
+- My aunt loves that drama. She has watched it ten times since last year.
+
+#### Up to the present: never and ever
 
 Talk about what has or hasn’t happened up to the present. Add never to make a negative statement, and use ever when forming yes/no questions.
 
-- John and Sarah have never been to Egypt.
-- Have they ever been to Korea?
+- My parents have never been to Harbin in winter.
+- Have they ever been to Chengdu?
+
+#### Important to the present moment
 
 Talk about something that happened in the past and is important or relevant to the present moment.
 
@@ -1024,24 +1111,32 @@ Talk about something that happened in the past and is important or relevant to t
 
 ## PRESENT PERFECT CONTINUOUS
 
-We form the present perfect continuous with have / has been + verb -ing .
+#### Formation
+
+We form the present perfect continuous with have / has been + verb -ing.
 
 We use the present perfect continuous to:
 
+#### Duration of an ongoing action
+
 Talk about the duration of an action that was started in the past and is still happening now. Often “for” or “since” are used.
 
-- This company has been making furniture since 1952. (The company is still making furniture.)
+- This company has been making hotpot sauce since 1998. (The company is still making hotpot sauce.)
 - I have been feeling sick all day. (I still feel sick.)
+
+#### Just finished
 
 Talk about an action that was started in the past and just recently finished.
 
-- She has been working all day but she finally finished.
-- I have been reading this book for three hours; I should take a break.
+- She has been working overtime all week, but she finally finished the project.
+- I have been watching short videos for three hours; I should take a break.
+
+#### Repeated actions from past to present
 
 Talk about a series of repeated actions happening from the past to the present.
 
-- John has been checking his mail box every hour or so.
-- We have been playing soccer here every Saturday for three years.
+- Li Wei has been checking the delivery app every hour or so — his package is late.
+- We have been playing badminton here every Saturday for three years.
 
 ### Present perfect continuous questions
 
@@ -1065,17 +1160,23 @@ Talk about a series of repeated actions happening from the past to the present.
 
 ## QUANTIFIERS
 
-Quantifiers are used to give information about quantity (how much or how many ).
+Quantifiers are used to give information about quantity (how much or how many).
 
-You can use a noun after a quantifier when you are talking about things in a group in general .
+#### Groups in general
 
-- Most restaurants are clean.
-- Many fish contain mercury.
+You can use a noun after a quantifier when you are talking about things in a group in general.
 
-To talk about a specific group use ‘of the’ .
+- Most restaurants in this food court are clean.
+- Many office workers order takeout for lunch.
 
-- Most of the restaurants in this neighborhood are clean.
-- Many of the fish in this lake contain mercury.
+#### Specific groups: of the
+
+To talk about a specific group use ‘of the’.
+
+- Most of the restaurants in this neighborhood deliver fast.
+- Many of the people in this office work overtime.
+
+#### Count or noncount nouns
 
 These quantifiers can be used with count or noncount nouns.
 
@@ -1091,7 +1192,9 @@ These quantifiers can be used with count or noncount nouns.
 - none of
 - some
 
-These quantifiers can only be used with count nouns .
+#### Count nouns only
+
+These quantifiers can only be used with count nouns.
 
 - many
 - both
@@ -1105,7 +1208,9 @@ These quantifiers can only be used with count nouns .
 - a great number of
 - a couple of
 
-These quantifiers can only be used with noncount nouns .
+#### Noncount nouns only
+
+These quantifiers can only be used with noncount nouns.
 
 - a little
 - (not) much
@@ -1123,8 +1228,8 @@ These quantifiers can only be used with noncount nouns .
 - How many games have you downloaded on your phone?
 - Do any members of your family smoke? How many cigarettes do they smoke in a day?
 - How many songs do you have on your phone?
-- How many DVDs do you have at home? How about VHS tapes?
-- How many vinyl records do you have at home?
+- How many apps do you have on your phone? How about games?
+- How many photos do you have on your phone?
 - How much time do you spend on your phone every day?
 - How much water do you drink in a day?
 - How much money do you spend on going out to eat every week?
@@ -1136,15 +1241,17 @@ These quantifiers can only be used with noncount nouns .
 
 ## REPORTED SPEECH / INDIRECT SPEECH
 
-We use reported speech (indirect speech) to talk about what people said or asked. When moving from direct speech (“I am tired.” ) to reported speech (He said he was tired. ) the verbs, pronouns, and word order usually change. When reporting normal direct speech we usually use say or tell . When reporting questions, requests, orders, and advice we use other words.
+We use reported speech (indirect speech) to talk about what people said or asked. When moving from direct speech (“I am tired.”) to reported speech (He said he was tired.) the verbs, pronouns, and word order usually change. When reporting normal direct speech we usually use say or tell. When reporting questions, requests, orders, and advice we use other words.
+
+#### Tense changes
 
 Direct speech: simple present
 
-- “I like ice cream.”
+- “I like hotpot.”
 
 Reported speech: past tense
 
-- He said he liked ice cream.
+- He said he liked hotpot.
 
 If what was said in the direct speech is still true, the verb can stay as the simple present in reported speech.
 
@@ -1153,19 +1260,19 @@ If what was said in the direct speech is still true, the verb can stay as the si
 
 Direct speech: present continuous
 
-- “I ’m working on it.”
+- “I’m working on the report.”
 
 Reported speech: past continuous
 
-- He said he was working on it.
+- He said he was working on the report.
 
 Direct speech: past simple
 
-- “John ate a sandwich for lunch.”
+- “Li Wei ate noodles for lunch.”
 
 Reported speech: past perfect
 
-- She said John had eaten a sandwich.
+- She said Li Wei had eaten noodles.
 
 Direct speech: past continuous
 
@@ -1177,11 +1284,11 @@ Reported speech: past perfect continuous
 
 Direct speech: present perfect
 
-- “I have traveled to 10 countries.”
+- “I have traveled to 15 Chinese cities.”
 
 Reported speech: past perfect
 
-- He told me he had traveled  to 10 countries.
+- He told me he had traveled to 15 Chinese cities.
 
 Direct speech: past perfect
 
@@ -1191,24 +1298,32 @@ Reported speech: past perfect (no change)
 
 - He said (that) he had finished the test right before the bell rang.
 
+#### Say and tell
+
 Say/said doesn’t have an indirect object but tell/told must have an indirect object
 
 - He said he was tired.
 - He told me he was tired.
 
-When reporting speech you can include or omit ‘that ’.
+#### Including or omitting that
+
+When reporting speech you can include or omit ‘that’.
 
 - He said that he was tired. / He said he was tired. (Both okay)
 - He told me that he was tired. / He told me he was tired. (Both okay)
 
-Requests , orders , and advice can be reported using an infinitive instead of changing the tense of the verb. We usually use ask, tell, and advise to report requests, orders, and advice.
+#### Requests, orders, and advice
 
-- “Could you hold this for a moment?”
-- He asked me to hold this for a moment.
+Requests, orders, and advice can be reported using an infinitive instead of changing the tense of the verb. We usually use ask, tell, and advise to report requests, orders, and advice.
+
+- “Could you hold my seat for a moment?”
+- He asked me to hold his seat for a moment.
 - “You should get more sleep.”
 - The doctor advised me to get more sleep.
-- “Take out a pencil and paper.”
-- The teacher told us to take out a pencil and paper
+- “Take out your phone and open the app.”
+- The teacher told us to take out our phones and open the app.
+
+#### Modal changes
 
 Modals also change:
 
@@ -1224,6 +1339,8 @@ But some modals don’t change:
 - should – should
 - would – would
 - could – could
+
+#### Reporting questions
 
 When reporting questions, say or tell cannot be used. Ask is usually used, although wonder and want to know can also be used.
 
@@ -1254,40 +1371,54 @@ When reporting questions, say or tell cannot be used. Ask is usually used, altho
 
 ## SIMPLE PAST
 
-To form the simple past , add –ed to the verb for regular verbs in affirmative sentences.
+#### Regular verbs
+
+To form the simple past, add –ed to the verb for regular verbs in affirmative sentences.
 
 We use the simple past to:
 
+#### Completed once
+
 Talk about an action that was completed once in the past.
 
-- He talked to the CEO yesterday.
+- He talked to his boss about his salary yesterday.
+
+#### Completed multiple times
 
 Talk about an action that was completed multiple times in the past.
 
-- She walked to school every day for a month. (She doesn’t walk to school anymore.)
+- She walked to the subway station every day for a month. (She rides a shared bike now.)
+
+#### True in the past, not now
 
 Talk about something that was true for some time in the past but isn’t true now.
 
 - We worked together in the same office. (They don’t work in the same office anymore.)
 
-Use did to form questions and did + not (didn’t ) to form negatives. When did is used in a sentence it shows the past tense so the verb stays in its base form.
+#### Questions and negatives with did
 
-- He worked .
-- Where did he work ?
-- Did he work ?
-- He didn’t work .
+Use did to form questions and did + not (didn’t) to form negatives. When did is used in a sentence it shows the past tense so the verb stays in its base form.
 
-There are irregular verbs . Unlike regular verbs, irregular verbs change form unpredictably and need to be memorized.
+- He worked.
+- Where did he work?
+- Did he work?
+- He didn’t work.
 
-- They ate .
-- What did they eat ?
-- They ate steak.
-- Did they drink wine?
-- No, they drank water.
+#### Irregular verbs
 
-When using the past tense form of the be- verb there are some exceptions. The verb changes form depending on the subject (was/were ). Did isn’t necessary with the be- verb to make questions or the negative.
+There are irregular verbs. Unlike regular verbs, irregular verbs change form unpredictably and need to be memorized.
 
-- I was tired. / Amy was tired. / We were tired. / You were  tired.
+- They ate.
+- What did they eat?
+- They ate noodles.
+- Did they drink beer?
+- No, they drank tea.
+
+#### The be-verb
+
+When using the past tense form of the be- verb there are some exceptions. The verb changes form depending on the subject (was/were). Did isn’t necessary with the be- verb to make questions or the negative.
+
+- I was tired. / Amy was tired. / We were tired. / You were tired.
 - Where was the suitcase? / Where were the suitcases?
 - Was the shirt blue? / Were the shirts blue?
 - He wasn’t there. / You weren’t there.
@@ -1314,18 +1445,24 @@ When using the past tense form of the be- verb there are some exceptions. The ve
 
 ## SIMPLE PRESENT
 
-The simple present is formed with the base form of the main verb. However, an agreement ‘s’ (He works . / They work.) must be added to the main verb if the subject is third person singular (he, she, it, John, the car ). When the main verb links the subject to an adjective, we use am, are, or is, depending on the subject.
+#### Formation
+
+The simple present is formed with the base form of the main verb. However, an agreement ‘s’ (He works. / They work.) must be added to the main verb if the subject is third person singular (he, she, it, John, the car). When the main verb links the subject to an adjective, we use am, are, or is, depending on the subject.
 
 - I like music. / He likes music.
 - I am happy. / You are happy. / She is happy.
 - The car is blue. / The cars are blue.
 
-When making negative sentences use doesn’t / don’t, or in the case of the be -verb use isn’t / aren’t .
+#### Negative sentences
 
-When making questions use do / does, or in the case of the be -verb use is / are . (An exception being most ‘who’ questions).
+When making negative sentences use doesn’t / don’t, or in the case of the be -verb use isn’t / aren’t.
+
+#### Questions
+
+When making questions use do / does, or in the case of the be -verb use is / are. (An exception being most ‘who’ questions).
 
 - She is tired. They are worried.
-- He doesn’t like apples. I don’t play the piano.
+- He doesn’t like spicy food. I don’t drink coffee.
 - He is happy. The earth isn’t flat.
 - When does he wake up?
 - Does she exercise every day?
@@ -1334,25 +1471,35 @@ When making questions use do / does, or in the case of the be -verb use is / are
 
 We use the simple present to:
 
+#### True in the present
+
 Talk about something that is true in the present.
 
-- I am an accountant.
+- I am a software engineer at a tech company.
+
+#### Always true
 
 Talk about things that are always true.
 
 - The earth orbits the sun.
 
+#### Repeated actions or habits
+
 Talk about repeated actions or habits.
 
-- He brushes his teeth every day.
+- He takes the subway to work every day.
+
+#### Fixed future events
 
 Talk about events in the near future that have a fixed time.
 
-- The movie starts at nine.
+- The meeting starts at nine sharp.
 
-Adverbs of frequency are often used with the present tense to  explain how often a repeated action or habit happens.
+#### Adverbs of frequency
 
-- She sometimes plays basketball.
+Adverbs of frequency are often used with the present tense to explain how often a repeated action or habit happens.
+
+- She sometimes rides a shared bike to work.
 
 ### Simple present questions
 
@@ -1378,19 +1525,27 @@ Adverbs of frequency are often used with the present tense to  explain how often
 
 Superlatives are used to compare a person or thing with every other person or thing in the same group.
 
+#### One-syllable adjectives
+
 For 1 syllable adjectives: the + adjective –est
 
-- He is the tallest member of his family.
+- He is the tallest member of his family — he can reach the top shelf.
+
+#### Two or more syllable adjectives
 
 For 2 or more syllable adjectives: the + most + adjective (to show the opposite use least instead of most before the adjective)
 
-- This ring is the most expensive ring in the store.
+- This apartment is the most expensive one in the building.
+
+#### Adjectives ending in y
 
 For adjectives ending in y: drop the y and use the + adjective –iest
 
-- She is the funniest person here.
+- She is the funniest person in our office — she always makes us laugh.
 
-There are exceptions – good (best) , bad (worst) , far (furthest/farthest) , etc.
+#### Exceptions
+
+There are exceptions – good (best), bad (worst), far (furthest/farthest), etc.
 
 ### Superlative questions
 
@@ -1420,38 +1575,52 @@ Tag questions are most often used in spoken English.
 
 We put a comma before the tag question.
 
-If the main part of the sentence is positive , the tag question is negative .
+#### Positive sentences take negative tags
 
-- You’re hungry, aren’t you ?
-- John texted you, didn’t he ?
+If the main part of the sentence is positive, the tag question is negative.
 
-If the main part of the sentence is negative , the tag question is affirmative .
+- You’re hungry, aren’t you? Let’s order takeout.
+- Your boss texted you, didn’t he?
 
-- You’re not hungry, are you ?
-- John didn’t text you, did he ?
+#### Negative sentences take affirmative tags
 
-If the main sentence uses an auxiliary verb (be , have , do ) or a modal verb (should , could , will , etc.) the same auxiliary verb or modal verb is used in the tag question.
+If the main part of the sentence is negative, the tag question is affirmative.
 
-- Amy is going to be late, isn’t she?
+- You’re not hungry, are you? We just ate.
+- Your boss didn’t text you, did he?
+
+#### Repeating the auxiliary or modal
+
+If the main sentence uses an auxiliary verb (be, have, do) or a modal verb (should, could, will, etc.) the same auxiliary verb or modal verb is used in the tag question.
+
+- The delivery rider is going to be late, isn’t he?
 - We shouldn’t go in there, should we?
+
+#### Using do
 
 If the main sentence doesn’t use an auxiliary verb or modal verb, then we use do for the tag question.
 
-- They painted the house, didn’t they?
-- He walks to school, doesn’t he?
+- They painted the living room, didn’t they?
+- He walks to the subway station, doesn’t he?
+
+#### Same tense
 
 We use the same tense for the main part of the sentence and the tag question.
 
+#### Rising intonation: want the answer
+
 If we really want to know the answer to a tag question, we put rising intonation on the tag question.
+
+#### Falling intonation: want agreement
 
 If we are looking for agreement, we put falling intonation on the tag question.
 
-To answer tag questions , don’t worry about whether the tag question is negative or affirmative. Just answer the base question .
+#### Answering tag questions
 
-- You’re hungry, aren’t you ? – Are you hungry? – Yes, I am  .
-- You aren’t hungry, are you ? – Are you hungry? – Yes, I am .
+To answer tag questions, don’t worry about whether the tag question is negative or affirmative. Just answer the base question.
 
-The answer stays the same whether the tag question is negative or affirmative.
+- You’re hungry, aren’t you? – Are you hungry? – Yes, I am.
+- You aren’t hungry, are you? – Are you hungry? – Yes, I am.
 
 ### Tag question conversation questions
 
@@ -1470,37 +1639,47 @@ The answer stays the same whether the tag question is negative or affirmative.
 - Your birthday isn’t this month, is it?
 - You don’t like cats, do you?
 - You’ve eaten insects before, haven’t you?
-- You play football, don’t you?
+- You play basketball, don’t you?
 - You can’t play basketball, can you?
 
 ## USED TO, WOULD
 
 Used to and would are both used to talk about the past. We use used to and would to talk about things that started in the past and finished in the past.
 
-Used to is used to talk about past states or repeated actions in the past. Did or didn’t show past tense so if they are used, used to becomes use to .
+#### Used to
 
-- I didn’t use to live in an apartment. (past state)
-- He used to take the train to work every day. (repeated action)
-- Did she use to play video games in the afternoon? (repeated action)
+Used to is used to talk about past states or repeated actions in the past. Did or didn’t show past tense so if they are used, used to becomes use to.
+
+- I didn’t use to live alone. (past state)
+- He used to take the subway to work every day. (repeated action)
+- Did she use to play badminton in the afternoon? (repeated action)
+
+#### Would
 
 Would is only used to talk about repeated actions in the past.
 
-- My friends would bring their lunch to school. (repeated action)
+- My coworkers would bring lunch from home. (repeated action)
+
+#### Interchangeable for repeated actions
 
 So we can use used to and would interchangeably if they are being used to talk about repeated actions.
 
-- He used to take the train to work every day.
-- He would take the train to work every day.
-- Did she use to play video games all afternoon when she was younger?
-- Would she play video games all afternoon when she was younger?
-- My friends used to bring their lunch to school.
-- My friends would bring their lunch to school.
+- He used to take the subway to work every day.
+- He would take the subway to work every day.
+- Did she use to play badminton all afternoon when she was younger?
+- Would she play badminton all afternoon when she was younger?
+- My coworkers used to bring lunch from home.
+- My coworkers would bring lunch from home.
+
+#### Only used to for past states
 
 But we can only use used to to talk about states in the past.
 
-- I didn’t use to live in an apartment. (used to, not would)
+- I didn’t use to live alone. (used to, not would)
 
-If an action happens only once in the past the past simple is used rather than used to or would .
+#### One-time actions: simple past
+
+If an action happens only once in the past the past simple is used rather than used to or would.
 
 ### Used to, would questions
 
@@ -1524,92 +1703,104 @@ If an action happens only once in the past the past simple is used rather than u
 
 ## WILL
 
-We use the modal verb will + main verb to talk about the future. Modals are used by the speaker/writer to indicate their feelings about the proposition that they are making. When using the modal will , they are expressing intentionality or certainty.
+We use the modal verb will + main verb to talk about the future. Modals are used by the speaker/writer to indicate their feelings about the proposition that they are making. When using the modal will, they are expressing intentionality or certainty.
 
 In speech and informal writing will is often shortened to ‘ll for affirmative or won’t for negative
 
 We use will to:
+
+#### Predictions and certainty
 
 Make predictions or express certainty about the future.
 
 - Humans will land on the moon again in the next 10 years.
 - The sun will rise tomorrow.
 
+#### Offers or suggestions
+
 Make offers or suggestions.
 
-- I ’ll help you with your bags.
-- He ’ll get that for you.
+- I’ll help you carry the boxes upstairs.
+- He’ll pick up the takeout for you.
+
+#### Promises, requests, warnings, or threats
 
 Make promises, requests, warnings, or threats.
 
-- We ’ll help you paint your house.
-- Do your homework or you ’ll get a bad grade in the class.
+- We’ll help you move into your new apartment.
+- Pay your rent on time, or you’ll have to find a new apartment.
+
+#### Spontaneous decisions
 
 Talk about a decision made spontaneously at the time of speaking.
 
-- Oh no, the car is almost out of gas. I ’ll stop here and fill up.
+- Oh no, my phone is almost out of battery. I’ll charge it at the café.
+
+#### What people want to do or are willing to do
 
 Talk about what people want to do or are willing to do.
 
-- Will you help him with his math homework?
-- Sure I ’ll help him.
-
-*The following questions focus more on the use of will to make predictions about the future. This is because most books focus specifically on this use of will.*
+- Will you help me carry this box upstairs?
+- Sure, I’ll help you.
 
 ### Will questions
 
 - What will your life be like in 5 years?
 - How will communication change in the future?
 - What do you think the world will look like in 50 years?
-- Will you ever go sky diving? Why or why not?
+- Will you ever go skydiving? Why or why not?
 - How will entertainment change in the future?
 - What will transportation look like in the future?
 - What will you do when you retire?
 - Will robots become part of daily life in the future? Why or why not?
 - Will the future be better or worse than the present? Why or why not?
 - What will video games be like in 7 years?
-- What will happen to privacy in the future?
-- Will alternative energy technologies solve the world’s energy problems? Why or why not?
-- Where will humans explore next?
+- What will our homes look like in the future?
+- Will electric cars become more popular in the future? Why or why not?
+- Where will you go on vacation next year?
 - What will have the biggest impact on you in the near future?
-- Will humans ever colonize another solar system? Why or why not?
-- What company will change society the most? Will it be a good change or bad change?
-- Will the borders of countries be more open or more closed in the future?
-- What will happen if the world’s population keeps increasing at its  current rate?
+- Will robots ever do all the housework? Why or why not?
+- What new technology will change our lives the most? Will it be a good change or a bad change?
+- Will people travel more or less in the future?
+- What will happen if the world’s population keeps increasing at its current rate?
 
 ## WOULD RATHER, PREFER
 
 We use would rather and (would) prefer to talk about general preferences and specific preferences. They can be used interchangeably. Prefer can be used with or without ‘would’.
 
-When we are talking about general preferences :
+#### General preferences
 
-Prefer is followed by verb-ing .
+When we are talking about general preferences:
 
-- I prefer hiking .
+Prefer is followed by verb-ing.
+
+- I prefer hiking — the fresh air helps me relax.
 
 Would rather is followed by the bare infinitive (just the verb).
 
-- I would rather read .
+- I would rather read than scroll through short videos.
 
-When we are comparing general preferences we use to with prefer and than with would rather .
+When we are comparing general preferences we use to with prefer and than with would rather.
 
-- I prefer hiking to swimming.
-- I would rather read than watch a movie.
+- I prefer hiking to swimming — I’m a terrible swimmer.
+- I would rather read than watch a movie on the plane.
 
-When we are talking about specific preferences :
+#### Specific preferences
+
+When we are talking about specific preferences:
 
 Prefer is followed by the infinitive (to + verb).
 
-- I prefer to eat pizza tonight.
+- I prefer to eat noodles tonight — I’m tired of rice.
 
 Would rather is followed by the bare infinitive (just the verb).
 
-- I would rather take a taxi after we eat.
+- I would rather take the subway after we eat — the traffic is terrible.
 
-When we are comparing specific preferences we use rather than with prefer and than with would rather .
+When we are comparing specific preferences we use rather than with prefer and than with would rather.
 
-- I prefer to eat pizza rather than seafood tonight.
-- I would rather take a taxi than a bus after we eat.
+- I prefer to eat home-cooked food rather than takeout tonight.
+- I would rather take the subway than a taxi after we eat — it’s faster.
 
 ### Would rather, prefer questions
 
@@ -1649,7 +1840,7 @@ Next, you need to decide how many students to put into each group. As a general 
 
 Two students really maximize talking time, but often the two students don’t get along or you might have two shy students that end up together.
 
-Four students can work, but often there isn’t enough talk time for each  student and shy students feel like they are on stage every time they talk.
+Four students can work, but often there isn’t enough talk time for each student and shy students feel like they are on stage every time they talk.
 
 Five students in a group is far too many and often they just won’t talk. All this being said, ultimately it comes down to the dynamics of your class and its size.
 
@@ -1724,13 +1915,13 @@ We are always working on more books, so this list is sure to grow. Here are the 
 - ESL Worksheets and Activities for Kids
 - IELTS Study Guide: Quick Tips, Tricks, and Strategies
 
-You can find the PDFs for our other books on our website (eslconversationquestions.com ) or the paperback and Kindle versions on Amazon.
+You can find the PDFs for our other books on our website (eslconversationquestions.com) or the paperback and Kindle versions on Amazon.
 
 You can also ask your local book store if they carry our books.
 
 ### Or why not leave a review?
 
-Every review makes a big difference. Reviews help other teachers find our books. So if you think this book can help others, let them know by leaving a review . I really appreciate it!
+Every review makes a big difference. Reviews help other teachers find our books. So if you think this book can help others, let them know by leaving a review. I really appreciate it!
 
 Plus if you leave a review, you can join our review club and get free review copies of our new books and other books in our growing collection. You can find out more in the extras section.
 
