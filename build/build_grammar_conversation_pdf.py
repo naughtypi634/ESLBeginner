@@ -213,14 +213,13 @@ ADDITIONS = r"""% ESL-500 Grammar Based Conversation · additions on top of buil
   \bodyfont\fontsize{10.5pt}{14.5pt}\selectfont
 }{\end{enumerate}}
 
-% ---------- part 2 questions: two-column numbered list ----------
+% ---------- questions: single-column numbered list ----------
 \newenvironment{eslquestions}{%
-  \begin{multicols}{2}%
   \begin{enumerate}%
   \setlength{\itemsep}{3pt}\setlength{\parsep}{0pt}\setlength{\parskip}{0pt}%
   \renewcommand{\labelenumi}{\dispfont\bfseries\arabic{enumi}.}%
   \bodyfont\fontsize{10.5pt}{14pt}\selectfont
-}{\end{enumerate}\end{multicols}}
+}{\end{enumerate}}
 """
 
 
@@ -311,7 +310,7 @@ def emit(topics, appendix, q_total):
         out.append(raw(f"\\esltopic{{{i:02d}}}{{{l(title)}}}{{{CH[title]}}}"))
         body = "\n".join("\\item " + l(e) for e in exs)
         out.append(raw("\\begin{eslexamples}\n" + body + "\n\\end{eslexamples}"))
-        out.append(raw(r"\eslsep"))
+        out.append(T_pagebreak())
         for qsec in tp["qsections"]:
             qh, items = qsec["header"], qsec["items"]
             out.append(raw(f"\\eslqheader{{{l(qh)}}}"))
