@@ -95,23 +95,21 @@ Sometimes and usually can be put at the beginning of sentences.
 
 ### Adverbs of frequency questions
 
-- How often do you read? What types of books do you like to read?
-- How often do you go out to eat on weekends?
-- How often do you watch TV in the evening? What shows do you like?
-- How often do you eat meat for dinner?
-- How often do you stay up later than you should?
-- How often do you go for walks? Where do you go?
-- How often do you eat fast food for lunch?
-- How often do you sing? What types of music do you sing?
-- How often do you listen to classical music?
-- How often do you go to the movies alone?
-- How often do you go to the beach in summer?
-- How often do you text?
-- How often do you check your email?
-- How often do you check social media apps like WeChat, Douyin, or Xiaohongshu?
-- How often do you ride a bike to work or school?
-- How often do you ask your friends for help?
-- How often do you skip breakfast?
+- How often do you order takeout for dinner on weekdays?
+- How often do you ride a shared bike to the subway station?
+- How often do you stay up past midnight scrolling on your phone?
+- How often do you buy coffee or milk tea during work breaks?
+- How often do you cook a full meal at home on weekends?
+- How often do you check your work group messages after 9pm?
+- How often do you go to the gym or exercise after work?
+- How often do you eat lunch at your office desk?
+- How often do you take a high-speed train to travel to another city?
+- How often do you clean your apartment or do laundry?
+- How often do you watch short videos on Xiaohongshu or Douyin?
+- How often do you meet your close friends for hot pot or barbecue?
+- How often do you buy groceries online instead of going to a supermarket?
+- How often do you skip breakfast because you woke up late?
+- How often do you listen to podcasts or English audio on your daily commute?
 
 ## AS … AS (EQUATIVES)
 
@@ -133,25 +131,18 @@ Many idioms in English use as … as with an adjective.
 
 ### As … as questions
 
-- Are your parents as supportive as your friends?
-- Is Jay Chou as well known as Taylor Swift?
-- Are puzzles as fun as mobile games?
-- Is modern art as beautiful as classical art?
-- Is watching a play as fun as watching a movie?
-- Are cats as fun as dogs?
-- What’s as thrilling as a roller coaster ride?
-- What’s as delicious as hot pot on a cold winter night?
-- Who is as important to you as your phone?
-- What travel destinations are as popular with Chinese tourists as Sanya or Chengdu?
-
-- Fill in the parentheses with your own idea.
-- Is (city) as entertaining as (city)?
-- Is (fast food restaurant) as good as (fast food restaurant)?
-- Is (actor) as talented as (actor)?
-- Is the (cell phone) as good as the (cell phone)?
-- Is (mode of transportation) as comfortable as (mode of transportation)?
-- Are (animals) as cute as (animals)?
-- Is (celebrity) as strange as (celebrity)?
+- Is your morning subway commute as crowded as the evening commute?
+- Is renting an apartment in a new district as expensive as renting downtown?
+- Is making coffee at home as fast as buying it downstairs?
+- Are electric cars as convenient as gasoline cars for long road trips?
+- Is taking the high-speed train as comfortable as flying for short business trips?
+- Which local coffee brand is as popular as Starbucks in your city?
+- Is working overtime on Friday as stressful as working on Monday?
+- What food delivery dish is as satisfying as hot pot on a rainy evening?
+- Is buying clothes online as reliable as shopping in a physical mall?
+- Which weekend activity is as relaxing as sleeping in until noon?
+- Is communicating by text message as clear as making a phone call with your boss?
+- What travel spot in China is as scenic as Yunnan or Xinjiang?
 
 ## BE GOING TO
 
@@ -175,23 +166,18 @@ Make predictions about future events, usually when we have a reason or evidence 
 
 ### Be going to questions
 
-- What are you going to do after class?
-- Where are you going to go on your next vacation?
-- What are you going to do this weekend?
-- How are you going to improve yourself or your life in the next three years?
-- Where are you going to eat dinner tonight?
-- When are you going to retire?
-- What’s going to be your next big purchase? When are you going to buy it?
-- What show or movie are you going to watch tonight?
-- What are you going to use English for in the future?
-- What’s going to be your next big career change?
-- Who are you going to meet this weekend?
-- When are you going to get up tomorrow?
-- What electronic device are you going to buy next?
-- Are you going to play any games today? What are you going to play?
-- What piece of clothing are you going to buy next?
-- What housework are you going to do this week?
-- What are you going to cook this week?
+- What time are you going to leave the office today?
+- Where are you going to travel during the next public holiday?
+- What are you going to order for lunch on your food delivery app?
+- Which electronic gadget or phone are you going to buy this year?
+- How are you going to spend your Sunday afternoon?
+- Who are you going to meet for dinner after work this week?
+- When are you going to renew your apartment lease or look for a new place?
+- What new skill or hobby are you going to learn in the coming months?
+- What movie or TV series are you going to watch tonight to unwind?
+- How are you going to prepare for your next job interview or work presentation?
+- What are you going to cook if you stay home this weekend?
+- Where are you going to go if you have a free weekend with no overtime?
 
 ## COMPARATIVES
 
@@ -233,23 +219,18 @@ We can also use comparatives to compare one person or thing with all the rest of
 
 ### Comparative questions
 
-- Is it better to have many friends or just a few close friends?
-- Compare two recent movies. Which one is more entertaining?
-- Which cell phone OS do you think is better? Why?
-- Which is more important, money or happiness?
-- Compare two types of foreign food. Which is more delicious? Which is cheaper?
-- Which is more enjoyable, going to a theme park or going to a museum? Why?
-- Who is more famous, singers or athletes?
-- Which is more relaxing, reading a book or watching TV? Why?
-- Do you think that corruption or poverty is a bigger problem? Why?
-- Compare two countries. Which one is a better vacation spot?
-- Is it better to have more free time or more money? Why?
-- Which is more important, friends or family? Why?
-- Is it better to live in the country or in a city? Why?
-- Compare two musicians. Who do you think is more talented?
-- Which is more exciting, playing a video game or playing a sport? Why?
-- Which is more comfortable, a couch or an office chair?
-- Which is a better place to have a vacation, mountains or a beach? Why?
+- Is it better to rent an apartment close to work or a bigger one near the subway line? Why?
+- Which is more convenient for your daily commute, taking the subway or riding an e-bike?
+- Is ordering takeout cheaper than cooking meals for one person? Why?
+- Which is more stressful, dealing with demanding clients or preparing weekly work reports?
+- Which is more relaxing after a long workday, watching short videos or going for a walk in the park?
+- Is working from home more productive than working in a noisy office? Why?
+- Which phone brand has a better camera for daily food photos and travel pictures?
+- Is traveling during the Golden Week holiday more enjoyable or more exhausting than staying home?
+- Which is a bigger priority for you right now, saving money or having more free time?
+- Which is more difficult, speaking English in a business meeting or giving a presentation to your team?
+- Is it easier to stay in touch with old friends on WeChat or through face-to-face meetups?
+- Which season is more comfortable in your city, spring or autumn? Why?
 
 ## CONDITIONALS REAL WITH THE FUTURE (FIRST CONDITIONAL)
 
@@ -281,23 +262,18 @@ The conditional clause can come first or second in a conditional sentence. If th
 
 ### Conditionals real with the future questions
 
-- What will you do if someone talks loudly in a movie theater while you’re watching a movie?
-- What will you do if you drop your phone in the toilet?
-- If you go out for dinner this evening, what will you eat?
-- What will you do if the power goes out in your home tonight?
-- What will you do if you forget an important birthday?
-- If your friend asks you to go out tomorrow evening, what will you say?
-- What will you do if you crack the screen on your phone?
-- What will you do if you get a raise at work or graduate from university?
-- If it rains this weekend, what will you do?
-- Who will you eat with if you go out to dinner this week?
-- Where will you go if you get an unexpected day off?
-- If you meet a celebrity you admire, what will you do?
-- What will countries do if the sea level keeps rising?
-- What will happen if the price of food keeps going up?
-- If you need relationship advice, who will you call?
-- What will happen if more and more people work from home?
-- If everyone starts driving electric cars, what will happen?
+- What will you do if your food delivery arrives one hour late?
+- If your boss asks you to work overtime on Friday night, what will you say?
+- What will you do if you leave your subway card or phone charger at home?
+- If it rains heavily tomorrow morning during rush hour, how will you get to work?
+- What will you buy if you receive a surprise bonus at work?
+- Where will you travel if you get three days of paid leave next month?
+- If a close friend invites you to a weekend barbecue, what will you bring?
+- What will happen if you forget to set your morning alarm on a Monday?
+- If the price of electric cars drops significantly this year, will you consider buying one?
+- What will you do if the Wi-Fi connection goes down in your apartment tonight?
+- If you find a great apartment with lower rent near your office, will you move right away?
+- What will you do if your phone battery drops below 10% while you are outside?
 
 ## CONDITIONALS REAL WITH THE PRESENT (ZERO CONDITIONAL)
 
@@ -326,23 +302,18 @@ The conditional clause can come first or second in a conditional sentence. If th
 
 ### Conditionals real with the present questions
 
-- What do you do on your phone when you’re bored?
-- Where do you go if you want to buy snacks near your home?
-- Who do you talk to if you have a problem?
-- Where do you go if you want to read a book?
-- How long does it take you to ask for help if you don’t know how to do something?
-- If you can’t get a jar open, what do you do?
-- If you go out to eat, what type of food do you eat?
-- If a friend asks you for money, what do you tell them?
-- If you call your parents, how long do you talk?
-- If you go to the movies, do you buy popcorn and drinks? Why or why not?
-- Who do you call if you’re lonely?
-- What do you do if you’re stressed?
-- If you’re in a bad mood, what do you do?
-- If you have a cold, what medicine do you take?
-- If you want to celebrate a special occasion, where do you go or what do you do?
-- Who do you talk to if you need a second opinion on something?
-- What do you do if it’s really hot outside?
+- What do you do on your phone if you get stuck in a crowded subway train?
+- If you feel sleepy at work after lunch, what drink or snack do you get?
+- Where do you usually go if you want a quiet place to read or study on weekends?
+- If you receive an urgent work message on WeChat after work hours, do you reply immediately?
+- What do you usually order if you go to a hot pot restaurant with colleagues?
+- If you catch a mild cold, do you take medicine or just drink warm water and rest?
+- What do you do if your online shopping package arrives damaged?
+- If you are in a bad mood after a stressful day, what helps you feel better?
+- Where do you go if you need to buy fresh fruit late at night?
+- If you don't understand an English email at work, what translation tool or app do you use?
+- What do you do if your apartment air conditioner stops working in the middle of summer?
+- If you have extra free time on a Saturday evening, how do you spend it?
 
 ## CONDITIONALS UNREAL WITH THE PAST (THIRD CONDITIONAL)
 
@@ -381,23 +352,16 @@ If the possible outcome of the imaginary situation is in the present we use the 
 
 ### Conditionals unreal with the past questions
 
-- If you had played more sports, would you have become a professional athlete?
-- Did you grow up in the countryside or the city? If you had grown up in the countryside/city, would you have been more or less successful?
-- If you had been born in a different country, how would your life have been different?
-- If you had studied harder, would your life be any different?
-- If your country’s team had won the last world cup, what would you have done?
-- What would you have done if you had won the last lottery?
-- Where would you have moved if you hadn’t moved here?
-- What would you have done if you had gotten lost during your last vacation?
-- What type of music would you have sung if you had been a famous singer?
-- What piece of knowledge would have changed your life if you had known it?
-- If you had grown up in a small village, would your life be different now?
-- If you had been born 100 years ago, would your life have been better or worse?
-- If your parents had been rich, how would your life be different now?
-- If you hadn’t been born in your country, what country would you want to be from?
-- What language would you have studied if you hadn’t studied English?
-- What would be different if you had gotten different friends?
-- Talk about a small decision that changed your life. What would have happened if you had made a different decision?
+- If you had chosen a different college major, what career path would you have taken?
+- If you had moved to a first-tier city right after graduation, how would your life have changed?
+- What would you have done if your previous company had offered you a promotion to stay?
+- If you hadn't bought your current apartment or signed your current lease, where would you have lived?
+- If you had started learning English five years earlier, how would it have helped your career?
+- What would have happened if you hadn't accepted your first job offer?
+- If you had traveled abroad during your college years, which place would you have visited first?
+- If you had known how stressful your current industry is, would you have chosen the same field? Why or why not?
+- If your train had been canceled on your last trip, how would you have reached your destination?
+- If you had invested in tech stocks or bought property ten years ago, what would you be doing today?
 
 ## CONDITIONALS UNREAL WITH THE PRESENT (SECOND CONDITIONAL)
 
@@ -426,23 +390,16 @@ The conditional clause can come first or second in a conditional sentence. If th
 
 ### Conditionals unreal with the present questions
 
-- What would you do if you were the boss of your company for one day?
-- What would you tell yourself if you could go back in time and talk to your younger self?
-- If you could create a superhero, what would their power and name be?
-- What would you do if you were the second richest person in the world?
-- Who would you invite to dinner if you could invite anyone in the world?
-- If you could take one thing from the past and bring it to the present, what would it be?
-- If you were able to change places with one person for one day, who would the person be? What would you do?
-- If you could choose to live forever, would you?
-- If you were an animal, what animal would you be?
-- If you had only one week to live, what would you do?
-- What year would you travel to if you had a time machine?
-- If you could meet any three people from any time or place who would you meet?
-- What superpower would you want if you could choose one?
-- If you could have any animal as a pet, what animal would you want?
-- If you were famous, what would you be famous for?
-- If you could be a master at one skill, what would you be a master of?
-- What would you want if you could eat anything right now?
+- What would you do if your company gave everyone a four-day workweek with no pay cuts?
+- If you were the general manager of your company, what policy would you change first?
+- What would you do if you suddenly received one million yuan tax-free?
+- If you could live anywhere in China for one year while working remotely, which city would you choose?
+- If you had three extra hours of free time every single evening, how would you spend them?
+- What would you buy if you had an unlimited budget for home appliances and gadgets?
+- If you could speak fluent English tomorrow without studying, what international project or job would you apply for?
+- If your office allowed you to work entirely from home, would you move to a quieter coastal town? Why?
+- Who would you invite to a luxury private dinner if you could choose anyone in the business world?
+- If you could change one frustrating rule in your apartment building or office, what would it be?
 
 ## FOR, SINCE
 
@@ -465,23 +422,16 @@ Since can only be used with perfect tenses (past perfect, present perfect contin
 
 ### For, since questions
 
-- What’s your most prized possession? How long have you had it?
-- Do you play a sport? How long have you played it?
-- How long have you been a fan of your favorite singer or group?
-- What’s the longest time you’ve slept?
-- How long have you had your watch?
-- What’s the longest amount of time you’ve spent alone?
-- How long have you had your phone?
-- How long have you been awake today?
-- How long has your country been a country?
-- How long have you been a student here?
-- What’s one of your hobbies? How long have you been doing it?
-- What piece of clothing have you had the longest? How long have you had it?
-- How long have you had your shoes?
-- How long has the leader of your country been in power?
-- How long have you had your TV?
-- Who is your favorite sports team? How long have you been a fan?
-- What’s your favorite restaurant? How long has it been open? How long have you been going to it?
+- How long have you lived in your current apartment or neighborhood?
+- How long have you worked at your current company?
+- How long have you been using your current smartphone?
+- How long have you been studying English seriously?
+- How long have you had your favorite pair of sneakers or commuter shoes?
+- How long have you followed your favorite content creator on Douyin or Bilibili?
+- How many hours have you been awake today since waking up this morning?
+- How long has your favorite local noodle shop or café been open near your home?
+- How long have you had your current commuter bike or car?
+- How long have you been in your main WeChat friend circle?
 
 ## GERUNDS VS. INFINITIVES
 
@@ -529,44 +479,25 @@ Not every verb ending in -ing is a gerund. A verb ending with – ing can also b
 
 ### Gerund questions
 
-- What’s something you avoid doing?
-- Is there something you’re considering doing? What is it?
-- What are some activities you dislike?
-- What type of exercise do you hate?
-- What kinds of activities does your job or studies involve?
-- What housework do you not mind doing?
-- Is there anything you keep doing even though you know you shouldn’t?
-- What are some high school activities you miss doing?
-- What activities do you recommend to stay healthy?
-- What’s an activity you practice every week?
-- Do you think that playing games is a worthwhile activity? Why or why not?
-- What do you enjoy doing on the weekend?
-- What do you delay doing until the last minute?
-- What are some habits you dislike?
-- What’s something you keep thinking about doing but haven’t?
-- What do you plan on doing after class?
-- What do you always complain about doing?
+- What routine task do you avoid doing until the deadline arrives?
+- What type of workout or exercise do you dislike doing after work?
+- What household chore do you not mind doing while listening to music or podcasts?
+- What do you really enjoy doing on a lazy Sunday afternoon?
+- Is there any habit, like late-night snacking, that you keep doing even though you want to stop?
+- What fun activities do you recommend doing when visiting your hometown?
+- What do you delay doing every month, such as cleaning out your closet or organizing files?
+- What kind of work tasks involve collaborating with team members every day?
 
 ### Infinitive questions
 
-- What’s some work you choose to do even though you don’t have to do it?
-- What’s something you hope to do in the future?
-- What’s something you always forget to do?
-- What do you want to do after class?
-- What do you tend to do when you’re sad?
-- What’s something you tried to do but failed at?
-- Is there anything you refuse to eat?
-- Where do you plan to go on your next vacation?
-- Have you ever vowed to do something?
-- Is there anything you’re striving to do?
-- Where are some places you want to go on vacation?
-- Do you ever pretend to work? Why?
-- What do you tend to do when it’s raining?
-- What’s something you’re yearning to do?
-- What do you want to do this weekend?
-- What are some crazy things you’ve tried to do?
-- What’s the next big project you plan to do?
-- What are some things you’re glad you agreed to do?
+- What new career or personal goal do you hope to achieve in the next two years?
+- Where do you plan to go for a weekend getaway next month?
+- What is something important at work that you always try to double-check?
+- What do you want to eat for dinner after finishing work today?
+- What do you tend to do when you need to recharge your energy after a busy week?
+- What is a challenging English project or certification you decided to take on?
+- What kind of tasks do you prefer to handle alone rather than in a large group?
+- What are some things you are really glad you agreed to do recently?
 
 ## IMPERATIVES
 
@@ -611,23 +542,16 @@ You can use signal words like first, next, then, after that, etc. to show order 
 
 ### Imperative questions
 
-- Tell me how to make some kind of delicious food.
-- What should someone do if there is an earthquake?
-- How do I get to a good restaurant near here?
-- What are your best tips for a happy marriage?
-- Tell me step by step how to make a lot of money.
-- What should I do if I see someone who is cut very badly?
-- What’s a card game from your country? How do I play it?
-- How does a person find the perfect man or woman?
-- What are your best tips to live a happy life?
-- How do I get to the nearest bus stop?
-- Can you give some tips for surviving a flood?
-- What should I do if there is a flood?
-- Tell me some tips for a hobby you have.
-- What should I do if I’m in a car accident?
-- Tell me how to plan a great vacation.
-- Can you tell me how to do a traditional dance from your country?
-- What should someone do to escape a burning building?
+- How can someone order groceries on a delivery app and get the freshest vegetables?
+- What steps should someone follow to find a clean and affordable rental apartment in a big city?
+- How do you brew a really good cup of pour-over coffee or specialty tea at home?
+- What advice would you give a colleague to survive a stressful project deadline?
+- How can someone prepare effectively for an important English job interview?
+- What are the best practical tips for staying calm during a crowded subway commute?
+- How can a newcomer quickly navigate public transport from Beijing Daxing Airport or Shanghai Hongqiao?
+- What are three important rules for maintaining a healthy sleep schedule while working a full-time job?
+- How can someone save money on monthly dining expenses without sacrificing food quality?
+- What steps should you take if your luggage gets lost on a high-speed train or flight?
 
 ## MODALS OF ADVICE
 
@@ -663,24 +587,18 @@ Ought to is the least common modal of advice. It is almost exclusively used with
 
 (should, ought to, had better)
 
-- Where should I go on my next vacation?
-- What should a person look for when dating?
-- Should a husband and wife share household chores? Why or why not?
-- What are some things a person ought to do to get a good job?
-- What are two things a person ought to do to have a happy life?
-- What are some things a person had better or had better not do during a job interview?
-- What are some things I’d better not do if I want to live a long time?
-- Who are some musicians or bands I ought to listen to?
-- Where should I go to buy electronics?
-- Should the work week be four days instead of five? Why or why not?
-- What’s something every person should do before they die?
-- What are two things a person ought to do if they visit your country?
-- Are there any things a tourist had better not do if they visit your country?
-- How old should a person be before they can buy cigarettes? How about alcohol?
-- What are some things parents had better teach their children?
-- What’s one rule everyone should follow on the subway?
-- What’s one thing everyone ought to study?
-- What are some things I’d better do when traveling abroad?
+- Where should someone visit if they have only three days in Chengdu or Hangzhou?
+- How much money should a young professional save from their salary each month?
+- What should a candidate wear or prepare for an interview at a modern tech company?
+- Should companies allow employees to take a 30-minute nap after lunch? Why or why not?
+- What ought a new renter to check before signing an apartment lease with a landlord?
+- What had someone better not say during a performance review with their manager?
+- What should you do if a colleague sends you a work message during your paid vacation?
+- What are two healthy habits an office worker ought to build to prevent back pain?
+- What had tourists better know before taking the subway in major Chinese cities during rush hour?
+- How should team members communicate when a project is running behind schedule?
+- What ought someone to do if they want to improve their spoken English on their daily commute?
+- What had you better do before booking flight tickets during the National Day holiday?
 
 ## MODALS OF NECESSITY
 
@@ -723,23 +641,16 @@ We use had to when talking about the past. We don’t use have got to to talk ab
 
 (must, have to, have got to)
 
-- What are some things you have to do when you get home?
-- What are some things you must do or must not do when you go to the airport?
-- What do students have to do if they want to improve their English?
-- What are some rules you have to follow at work or school?
-- Which types of workers have to work the hardest?
-- What are some things you must or must not do at your job or university?
-- Is there anywhere you have to go after class?
-- What does a person have to do to become successful?
-- What are some things you have to do but don’t want to?
-- What must a person do to be happy?
-- Who is someone you must listen to?
-- What are some interesting customs in your country that people have to follow?
-- Where must you go even though you don’t want to?
-- How many hours of sleep do you have to get to function normally?
-- Is there anything that you have to eat at least once a week?
-- What are two things your parents said you must do?
-- What are some things all humans have to work together to accomplish?
+- What daily tasks do you have to complete before you can leave your office?
+- What are some strict safety rules you must follow when taking the high-speed train or flight?
+- What documents do you have to prepare if you want to rent an apartment in a big city?
+- Why do office workers have to check their work messaging apps even during lunch breaks?
+- What does an ESL learner have to practice regularly to sound natural in spoken English?
+- What do you have to do when your phone storage is completely full?
+- What do you have got to buy for your home before winter arrives?
+- Where do you have to go when you need to handle tax or social security paperwork?
+- How many hours of sleep do you have to get to stay alert and productive all day?
+- What must you not do during a formal online video conference with clients?
 
 ## MODALS OF POSSIBILITY AND PROBABILITY
 
@@ -778,25 +689,16 @@ May not and might not can be used to show that present or future possibilities a
 
 (may, might, could, must, can’t)
 
-- What are some things you may do this evening?
-- What are three good things that may happen soon in your life?
-- Is there anything you can’t do even though you want to?
-- What movie might win the Academy Award for best picture this year?
-- Is there anything that could make you change your major or quit your job?
-- Where might you be living in 5 years?
-- What are two things that could make you much happier?
-- What are some goals you might accomplish in the future?
-- In what ways do you think your country may improve in the future?
-- What are three things all humans must learn to do better?
-- What are some problems the world might face in the future?
-- What are some things that could improve the economy in your country?
-
-- For the following questions, talk about how certain you are of your opinion using modals.
-- Do you think that aliens exist? Why or why not?
-- Do you think people are more polite online or in person? Why?
-- Talk about some conspiracies you’ve heard. Do you believe them or not?
-- Do you think that most politicians start their careers with good intentions?
-- What do you think made people stop hunting and gathering, and start farming?
+- If you leave your office late tonight, what transportation might you take to get home?
+- If you don't hear your morning alarm, what could happen to your attendance record?
+- Why might a popular milk tea or coffee brand open three new stores on the same street?
+- If your colleague looks completely exhausted this morning, what must they have done last night?
+- What new technology might replace smartphone apps in the next ten years?
+- Why can't you get a taxi or ride-hailing car easily on a Friday evening in the rain?
+- Where might you and your friends travel for your next short holiday break?
+- What could make an employee decide to switch to a completely new career path?
+- If an apartment downtown has very low rent, what drawbacks might it have?
+- What skills may become essential for office workers as AI tools develop?
 
 ## NOUNS (COUNT / NONCOUNT)
 
@@ -863,23 +765,16 @@ In informal language sometimes the container is dropped from the sentence and th
 
 ### Noun (count / noncount) questions
 
-- How much water do you drink in a day?
-- What kinds of food do you eat regularly?
-- What did you order last time you went to a restaurant?
-- Do you eat any special foods on New Year’s Day? If so, what do you eat?
-- What are some of your favorite types of vegetables?
-- What’s your favorite type of meat? Why is it better than other types?
-- What would you like to grow if you had a garden?
-- What types of ingredients go into your favorite dish?
-- What are some unhealthy foods that you love?
-- What spices do you use most when you cook?
-- What do you usually order when you go to your favorite fast food restaurant?
-- What do you eat when you go to watch a movie?
-- Do you prefer eating utensils made from wood, metal, or plastic?
-- What’s your favorite fruit? How much do you usually eat in one sitting?
-- What drink do you like to have with meals?
-- What kind of condiments do you use a lot? What types of food do you put them on?
-- What do you eat when it’s cold outside?
+- How much coffee or green tea do you usually drink during a typical workday?
+- How many snacks or fruit boxes do you order online each week?
+- What ingredients and condiments do you always keep in your kitchen?
+- How much money do you spend on dining out and food delivery every month?
+- How many electronic devices, like tablets and earphones, do you carry in your commuter bag?
+- What kind of street food do you love to eat when you visit night markets?
+- How much luggage or baggage do you usually pack for a three-day weekend trip?
+- How many cups of water do you drink before leaving your apartment in the morning?
+- What types of meat and vegetables do you always add to your hot pot?
+- How much storage space is left on your smartphone right now?
 
 ## PASSIVE VOICE IN THE PRESENT (PRESENT PASSIVE VOICE)
 
@@ -918,24 +813,16 @@ When we want to show who or what did the action we use by.
 
 ### Passive voice in the present questions
 
-- Where are the best suits made?
-- Who are the best cell phones made by?
-- Where are the worst cars made?
-- Where is most of the world’s oil extracted?
-- What is the process to make a great cup of green tea?
-- Where are the best table tennis players born?
-- Where are most technical advances made?
-- Where are the best watches made?
-- Who are the best TVs made by?
-- What do you know the process for making? What are the steps for making it?
-- In what country is badminton played most?
-- Who are the best films directed by?
-- Where are most computers made?
-- Who are the best shoes made by?
-- Who are the best cars made by?
-- What sports are played most in your country?
-- Where is the best tea grown?
-- Where are the best games created?
+- Which popular electric cars are manufactured in Chinese mega-factories?
+- How is fresh coffee prepared and delivered to your office within thirty minutes?
+- Where are the best regional tea leaves grown and harvested in China?
+- What payment methods are accepted at almost every convenience store and street stall?
+- How are online shopping parcels sorted and tracked before delivery?
+- In what situations are English emails used in your company?
+- What traditional dishes are served during Chinese Spring Festival family dinners?
+- Where are the latest tech gadgets and smartphones designed and assembled?
+- How is customer feedback collected and processed on food delivery platforms?
+- What safety inspections are required before a high-speed train departs the station?
 
 ## PASSIVE VOICE WITH THE PAST
 
@@ -977,23 +864,16 @@ When we want to show who or what did the action we use ‘by’.
 
 ### Passive voice with the past questions
 
-- Who were your clothes made by?
-- Have you ever had anything stolen from you?
-- Who was your phone made by?
-- Who were your shoes made by?
-- Where were you born? Were you raised there, too?
-- What’s your favorite book? Who was it written by?
-- What’s your favorite song? Who was it sung by?
-- What’s your favorite movie? Who was it directed by?
-- Talk about when you were given bad service at a restaurant.
-- Where were you first exposed to English?
-- Who was your favorite game made by?
-- Who were the best plays written by?
-- Who were the greatest symphonies composed by?
-- In what country were the greatest works of art created?
-- What’s the greatest invention? Who was it invented by? Where was it invented?
-- What’s the most important building in your country’s history? Who was it built by? When was it built?
-- What is the most mysterious monument from your country’s history? What do you think it was used for? When was it made?
+- Where was your current smartphone or laptop manufactured?
+- When was your apartment building built, and has it been renovated recently?
+- What is a memorable gift you were given on your last birthday?
+- Have you ever had an umbrella or package taken by mistake in a public place?
+- In what city were you born and raised during your childhood?
+- Which famous movie or drama was recommended to you by a coworker?
+- When was the last time you were praised by your team leader or manager?
+- What historical novel or modern book was written by your favorite author?
+- Where was your favorite winter coat or commuter jacket bought?
+- What was the best dish cooked by your parents when you visited them last?
 
 ## PAST CONTINUOUS
 
@@ -1033,23 +913,16 @@ Talk about an action that was completed repeatedly in the past, but does not occ
 
 ### Past continuous questions
 
-- What were you doing yesterday at 3pm?
-- What were your friends doing Saturday evening?
-- What were you doing right before class?
-- Who were you talking to yesterday afternoon?
-- What were you eating the last time you spilled food on your clothes?
-- What were you doing Friday night at 9pm?
-- What were you doing last New Year’s Eve at 11:30pm?
-- Were you watching a movie last Sunday at 8pm?
-- Who were you texting before class?
-- What were you doing yesterday at nine in the morning?
-- What TV show were you watching Monday night?
-- What were you doing the last time you got a phone call?
-- Were you working hard last night? What were you doing?
-- What were you doing last Christmas morning at 10am?
-- What were you doing the last time you got caught in the rain?
-- What were you doing while you were eating dinner last night?
-- What were you doing the last time someone told you to stop being childish?
+- What were you doing yesterday evening at 8pm?
+- What were you listening to while you were commuting to work this morning?
+- Who were you chatting with on WeChat right before this lesson started?
+- What were you thinking about while waiting in line for your morning coffee?
+- Were you working on a project or relaxing when your boss messaged you last night?
+- What video or series were you watching when you fell asleep on the couch?
+- What were your coworkers discussing when you walked into the office pantry yesterday?
+- What were you doing at this exact time last Saturday afternoon?
+- Were you living in this city or somewhere else three years ago? What were you doing then?
+- What were you doing the last time heavy rain trapped you inside a building?
 
 ## PRESENT PERFECT
 
@@ -1091,23 +964,16 @@ Talk about something that happened in the past and is important or relevant to t
 
 ### Present perfect questions
 
-- Where are some places you’ve been on vacation?
-- What are some strange types of food you’ve eaten?
-- How many times have you been to a theme park? Which ones have you been to?
-- What different countries have you traveled to?
-- What are some good restaurants you’ve eaten at?
-- What’s something you’ve done that you’re very proud of?
-- What interesting hobbies have you tried?
-- What are some wild things (e.g. bungee jumping) you’ve tried?
-- What’s something you’ve started but haven’t finished yet?
-- Have you tried Thai or Turkish food? What other international cuisine have you tried?
-- What are some hobbies you’ve tried?
-- Have you broken any bones? Which ones have you broken? What happened?
-- Where are some interesting places you’ve been in your country?
-- What animals have you ridden?
-- Have you ever been camping? Where have you camped?
-- Have you ever gone fishing? What types of fish have you caught?
-- Who have you met that is famous or slightly famous?
+- Which popular Chinese tourist cities have you visited so far?
+- Have you ever tried exotic regional dishes like stinky tofu or spicy duck neck? What did you think?
+- How many different smartphone brands have you used over the years?
+- What is the most memorable concert or live show you have attended?
+- Have you ever lost your subway card, earphones, or house key? What happened?
+- What is the most rewarding project you have completed at work recently?
+- Have you ever ordered food delivery during a heavy rainstorm? How long did it take?
+- What English movies or TV series have you watched without subtitles?
+- Have you ever negotiated rent with a landlord or price with a seller? How did it go?
+- What is something on your bucket list that you haven't had time to do yet?
 
 ## PRESENT PERFECT CONTINUOUS
 
@@ -1140,23 +1006,16 @@ Talk about a series of repeated actions happening from the past to the present.
 
 ### Present perfect continuous questions
 
-- What’s a project you’ve been working on for a while?
-- Have you been eating healthy or unhealthy food recently?
-- What have you been doing to improve yourself this year?
-- What music have you been listening to recently?
-- Who have you been hanging out with a lot this month and last month?
-- Where have you been going a lot this month?
-- How long have you been attending this school?
-- Have you been exercising this month and last month?
-- What have you been doing in your spare time this week?
-- What sports teams have you been following recently?
-- Have you been trying anything new recently?
-- Who have you been talking with the last few days?
-- Where have you been going a lot in the past couple of weeks?
-- Have you been getting enough sleep?
-- What game have you been playing a lot recently?
-- Are there any news stories you’ve been following?
-- What have you been thinking about buying?
+- What work project or skill have you been focusing on for the past few months?
+- How long have you been looking for a new apartment or planning your next trip?
+- What mobile game or TV drama have you been playing or watching lately?
+- What fitness routine or sport have you been doing to stay in shape recently?
+- Have you been drinking more coffee or tea than usual this week? Why?
+- What kind of videos have you been watching on Xiaohongshu or Bilibili lately?
+- How long have you been taking English classes or practicing speaking?
+- Have you been sleeping well recently, or have you been staying up late?
+- What new tech products or gadgets have you been researching online?
+- Who have you been collaborating with most frequently at work these past few weeks?
 
 ## QUANTIFIERS
 
@@ -1221,23 +1080,16 @@ These quantifiers can only be used with noncount nouns.
 
 ### Quantifier questions
 
-- How much fruit do you eat in a week?
-- How many times do you go to the movies in a month?
-- How many phone calls have you made this week?
-- How much of a pizza do you eat during one meal?
-- How many games have you downloaded on your phone?
-- Do any members of your family smoke? How many cigarettes do they smoke in a day?
-- How many songs do you have on your phone?
-- How many apps do you have on your phone? How about games?
-- How many photos do you have on your phone?
-- How much time do you spend on your phone every day?
-- How much water do you drink in a day?
-- How much money do you spend on going out to eat every week?
-- How much soda do you drink in a week?
-- How many pets have you owned?
-- How many hours do you spend playing games every week?
-- How much money do you spend on vacations every year?
-- How much foreign food do you eat?
+- How much coffee or milk tea do you drink during a busy work week?
+- How many unread messages or notifications are sitting in your WeChat right now?
+- How much money do you usually spend when you eat out with friends on the weekend?
+- How many gigabytes of mobile data do you consume every month?
+- How many delivery orders do you place in a typical week?
+- How much time do you spend commuting on the subway or bus each day?
+- How many photos or short videos do you save on your phone in a month?
+- How many pairs of shoes do you keep at the front door of your apartment?
+- How much overtime do you usually work at the end of a financial quarter?
+- How many streaming apps or digital memberships do you currently pay for?
 
 ## REPORTED SPEECH / INDIRECT SPEECH
 
@@ -1351,23 +1203,16 @@ When reporting questions, say or tell cannot be used. Ask is usually used, altho
 
 ### Reported speech questions
 
-- What’s some advice your parents told you?
-- What did one of your teachers always tell you to do?
-- What was the last question someone asked you?
-- What’s something strange someone said to you recently?
-- What was the last time someone asked you to do something? What did they ask?
-- What did your parents always tell you to do?
-- What was a great piece of advice that someone gave to you?
-- When was the last time someone asked you for money? What did they say?
-- What’s something you always tell people about yourself?
-- Has anyone told you an interesting piece of news recently? What did they tell you?
-- What did the last homeless person you met say to you?
-- What’s some advice you gave a friend recently?
-- What was a surprising question that someone asked you?
-- What’s a memorable quote from someone you look up to?
-- What did your parents always tell you not to do?
-- What do you say to telemarketers when they call?
-- What was the last thing you said to your friend?
+- What useful career advice did your mentor or manager share with you?
+- What did your doctor or family tell you when you were working too many late hours?
+- What was the last instruction your boss gave you in yesterday's team meeting?
+- What did the delivery courier say when they dropped off your package?
+- What did your landlord tell you when you signed your apartment lease?
+- What did your best friend tell you about their recent vacation trip?
+- What did the interviewer ask you during your last job interview?
+- What did the customer service representative say when you asked for a refund?
+- What advice did an experienced coworker give you when you first joined your team?
+- What did your parents remind you to do when the weather turned cold?
 
 ## SIMPLE PAST
 
@@ -1425,23 +1270,16 @@ When using the past tense form of the be- verb there are some exceptions. The ve
 
 ### Simple past questions
 
-- What did you do yesterday?
-- Where did you go on your last vacation?
-- What was the last restaurant you went to? How was it?
-- What did you do last weekend?
-- What did you eat for lunch yesterday?
-- What was the last movie you saw? How was it?
-- Who did you hang out with last? What did you do together?
-- Talk about the last time you were surprised by something.
-- What was the last game you played?
-- When was the last time you rode a bicycle?
-- Were you a well-behaved child? Explain.
-- What was a funny movie you watched recently?
-- Talk about a time you were lost.
-- Where did you grow up? What was it like?
-- What was the last book you read?
-- What did you do this morning?
-- Tell me about the last time you were really excited.
+- What time did you leave your office or finish work yesterday?
+- What did you order for lunch or dinner yesterday evening?
+- Where did you travel during your last public holiday or paid leave?
+- How did you spend last Sunday afternoon?
+- What was the last movie or video you watched, and did you enjoy it?
+- When was the last time you bought clothes or electronics online?
+- How did you get to work or school this morning?
+- What did you discuss in your last team meeting or project check-in?
+- Where did you eat the last time you celebrated a special occasion with friends?
+- What happened the last time you forgot your phone charger or umbrella?
 
 ## SIMPLE PRESENT
 
@@ -1503,23 +1341,16 @@ Adverbs of frequency are often used with the present tense to explain how often 
 
 ### Simple present questions
 
-- What do you do to get rid of stress?
-- What do you eat or drink when it is really hot outside?
-- What TV shows do you watch regularly?
-- Where do you usually eat lunch?
-- What do you do when you are bored?
-- Who do you hang out with most?
-- What app do you use the most?
-- When do you usually wake up?
-- Who do you talk to when you have problems?
-- Do you prefer meat or fresh vegetables?
-- When you’re on vacation, do you relax or try to do many things?
-- What do you do if you need to learn about something?
-- Do you like to try new things? Why or why not?
-- What are some hobbies you have?
-- When do you buy a new phone? (i.e. when a new phone comes out, your phone breaks, etc.)
-- What do you do to help yourself fall asleep?
-- Do you dance when no one is watching? When do you dance?
+- What is the first thing you do when you wake up on a weekday morning?
+- Where do you usually grab lunch when you are at the office?
+- What subway line or bus route do you take to commute to work?
+- How do you usually unwind after a long day of meetings and tasks?
+- What mobile app do you check most frequently throughout the day?
+- Do you prefer ordering takeout or cooking simple meals on weeknights? Why?
+- How do you and your coworkers usually communicate during the workday?
+- What do you do when you experience a creative block or feel sleepy at work?
+- Where do you like to hang out on Saturday afternoons?
+- How do you manage your monthly personal expenses and savings?
 
 ## SUPERLATIVES
 
@@ -1549,23 +1380,16 @@ There are exceptions – good (best), bad (worst), far (furthest/farthest), etc.
 
 ### Superlative questions
 
-- What’s the largest structure you’ve ever seen?
-- What’s the most delicious meal you’ve ever eaten?
-- What’s the most amazing hotel you’ve stayed at?
-- Who is your best friend? Why are they your best friend?
-- What’s the worst recent movie?
-- What’s the most exciting thing you’ve ever done?
-- What’s the most popular tourist attraction in your country?
-- What’s the saddest book you’ve ever read?
-- What’s the most inspirational book you’ve ever read?
-- Where is the best place to go to think?
-- When was the most exciting period of your life?
-- Who is the happiest person you know?
-- What’s the most addictive game you’ve ever played?
-- Where is the worst place in your country to live? How about the best place to live?
-- What’s the greatest TV series you’ve watched?
-- What’s the weirdest movie you have ever seen?
-- What’s the strangest restaurant or bar you’ve been to?
+- What is the most crowded subway station or interchange in your city during morning rush hour?
+- What is the most delicious dish you have ever ordered from a late-night food stall?
+- Which city in China has the most convenient public transportation network in your opinion?
+- What is the most stressful project deadline you have ever worked through?
+- What is the best purchase under 200 yuan you have made this past year?
+- Who is the most organized and efficient coworker on your current team?
+- What is the most scenic hiking trail or scenic area you have visited in China?
+- Which mobile app on your phone takes up the most storage space?
+- What is the most relaxing way to spend a Friday evening after a busy week?
+- What is the coldest or hottest weather you have ever experienced?
 
 ## TAG QUESTIONS
 
@@ -1624,23 +1448,18 @@ To answer tag questions, don’t worry about whether the tag question is negativ
 
 ### Tag question conversation questions
 
-- You have a job, don’t you?
-- You’ve been abroad, haven’t you?
-- You haven’t been to Disney World, have you?
-- You can speak three languages, can’t you?
-- You’re not going to work this weekend, are you?
-- You’ll go on vacation soon, won’t you?
-- You don’t like pizza, do you?
-- You haven’t been to Mongolia, have you?
-- You play a lot of mobile games, don’t you?
-- You got enough sleep last night, didn’t you?
-- You’re going to see a movie this weekend, aren’t you?
-- You’re not tired today, are you?
-- Your birthday isn’t this month, is it?
-- You don’t like cats, do you?
-- You’ve eaten insects before, haven’t you?
-- You play basketball, don’t you?
-- You can’t play basketball, can you?
+- You take the subway to work every morning, don't you?
+- You've ordered takeout on Meituan or Ele.me today, haven't you?
+- You didn't work overtime last weekend, did you?
+- You're planning to travel during the upcoming holiday, aren't you?
+- You have a Luckin Coffee or Manner Coffee near your office, don't you?
+- You haven't renewed your apartment lease yet, have you?
+- You can understand basic English business emails, can't you?
+- You're not working late tonight, are you?
+- You watched that trending drama on Bilibili or Tencent Video, didn't you?
+- You don't like answering work phone calls after 8pm, do you?
+- You've used AI tools like ChatGPT or DeepSeek to help with daily tasks, haven't you?
+- You got enough sleep last night, didn't you?
 
 ## USED TO, WOULD
 
@@ -1683,23 +1502,16 @@ If an action happens only once in the past the past simple is used rather than u
 
 ### Used to, would questions
 
-- What would you do for fun when you were a child?
-- What games did you use to play when you were young?
-- Who would help you with your homework when you were in junior high school?
-- Did you use to get into a lot of trouble when you were a kid? Why or why not?
-- Whose house would you go to when you were in elementary school?
-- What snacks did you use to eat all the time but now dislike?
-- What restaurant would your family go to a lot when you were a child? Do they still go there?
-- Are there any embarrassing fashion trends you used to follow?
-- Who did you use to play with in elementary school?
-- What would you usually do after school finished when you were younger?
-- Did you use to build forts when you were a child?
-- Where would you hang out when you were a teenager?
-- What used to be your favorite toy?
-- What extracurricular activities did you use to do?
-- How would you get home from elementary school?
-- What are some things people used to do in your country but don’t now?
-- What game did you use to play a lot when you were younger?
+- What games or sports did you use to play after school when you were a teenager?
+- Where would you and your college classmates hang out on Friday evenings?
+- What type of mobile phone did you use to have before smartphones became universal?
+- Did you use to buy physical books and magazines, or did you read everything online?
+- What snacks or street food would you buy regularly outside your middle school gate?
+- How did your daily commute use to look before the new subway lines opened?
+- What kind of fashion style or haircuts did you use to have five years ago?
+- Where would your family go when you went on vacation trips as a child?
+- Did you use to stay up late playing PC games on weekends?
+- What habits did you use to have that you completely stopped after starting work?
 
 ## WILL
 
@@ -1745,24 +1557,16 @@ Talk about what people want to do or are willing to do.
 
 ### Will questions
 
-- What will your life be like in 5 years?
-- How will communication change in the future?
-- What do you think the world will look like in 50 years?
-- Will you ever go skydiving? Why or why not?
-- How will entertainment change in the future?
-- What will transportation look like in the future?
-- What will you do when you retire?
-- Will robots become part of daily life in the future? Why or why not?
-- Will the future be better or worse than the present? Why or why not?
-- What will video games be like in 7 years?
-- What will our homes look like in the future?
-- Will electric cars become more popular in the future? Why or why not?
-- Where will you go on vacation next year?
-- What will have the biggest impact on you in the near future?
-- Will robots ever do all the housework? Why or why not?
-- What new technology will change our lives the most? Will it be a good change or a bad change?
-- Will people travel more or less in the future?
-- What will happen if the world’s population keeps increasing at its current rate?
+- What will your daily commute look like five years from now?
+- How will AI and smart tools change your everyday job in the next few years?
+- Where will you travel when you take your next annual leave?
+- Will electric cars completely replace traditional gasoline vehicles in your city? Why or why not?
+- How will online shopping and express delivery services improve in the near future?
+- What new professional skills will you need to develop to advance in your career?
+- Will more companies adopt flexible remote work policies in the coming years?
+- What will you do if your phone breaks down while you are traveling out of town?
+- Will people still watch traditional television in ten years, or only streaming videos? Why?
+- How will smart home devices change everyday household chores in the future?
 
 ## WOULD RATHER, PREFER
 
@@ -1804,23 +1608,16 @@ When we are comparing specific preferences we use rather than with prefer and th
 
 ### Would rather, prefer questions
 
-- Would you rather be very beautiful/handsome and poor, or very ugly and rich? Why?
-- Would you rather be great at painting or programming? Why?
-- Do you prefer to eat at home or eat at a restaurant? Why?
-- Would you rather go to the beach or go to the mountains while on vacation? Why?
-- Do you prefer living in a city or living in the countryside? Why?
-- Which do you prefer, watching TV or reading books? Why?
-- Would you rather go to a museum or go to a club? Why?
-- Do you prefer hotels or hostels? Why?
-- Would you rather own a cat or a dog? Why?
-- Would you rather sail around the world or go into space? Why?
-- Which do you prefer, outdoor work or house work? Why?
-- Would you prefer to be very intelligent or very clever? Why?
-- Would you rather own a sports team or a popular restaurant? Why?
-- Do you prefer going out to parties or enjoying quiet nights at home? Why?
-- Do you prefer traveling in a tour group or traveling alone? Why?
-- Would you rather go someplace you know is good or a new place that might be good? Why?
-- Would you rather save the lives of five people you don’t know or save the life of one person you do know?
+- Would you rather rent a smaller apartment near your office or a spacious apartment farther away? Why?
+- Do you prefer taking the subway or riding a shared bike on pleasant spring mornings?
+- Would you rather work from home with online meetings or work in the office alongside your team?
+- Do you prefer drinking freshly brewed Americano coffee or iced fruit tea during afternoon breaks?
+- Would you rather take a high-speed train for four hours or take a flight for two hours? Why?
+- Do you prefer cooking dinner at home or ordering takeout after a tiring workday?
+- Would you rather travel to a popular tourist city or a quiet countryside town for vacation?
+- Do you prefer communicating with colleagues via text messages or quick voice calls? Why?
+- Would you rather receive a larger year-end bonus or five extra days of paid annual leave?
+- Do you prefer shopping for electronics in physical retail stores or on e-commerce platforms?
 
 ## USING CONVERSATION QUESTIONS IN THE CLASSROOM
 
