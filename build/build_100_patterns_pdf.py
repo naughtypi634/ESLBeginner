@@ -48,7 +48,12 @@ def raw(latex: str) -> str:
 
 
 def T_title():
-    return raw(f"\\esltitle{{{esc(TITLE)}}}")
+    # 长标题固定 17pt，保证在 A4 版心内单行排下
+    return raw(
+        "\\par\\vspace{4pt}{\\fontsize{17pt}{21pt}\\selectfont\\bfseries "
+        + esc(TITLE)
+        + "}\\par\\vspace{18pt}"
+    )
 
 
 def T_section(num: str, title: str):

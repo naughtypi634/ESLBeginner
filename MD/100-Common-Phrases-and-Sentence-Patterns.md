@@ -4,7 +4,7 @@
 
 ## 01 日常插话与转场  SMALL TALK & FILLERS
 
-### 007. By the way…
+### 001. By the way…
 
 **Examples**
 
@@ -26,7 +26,7 @@
 > B: Sure.
 > 好。
 
-### 025. How come…?
+### 002. How come…?
 
 **Examples**
 
@@ -48,7 +48,7 @@
 > B: I don’t know. Maybe traffic.
 > 不知道，可能堵车。
 
-### 055. It’s on the tip of my tongue.
+### 003. It’s on the tip of my tongue.
 
 **Examples**
 
@@ -70,7 +70,7 @@
 > B: Sorry, it’s still on the tip of my tongue.
 > 抱歉，还是想不起来。
 
-### 058. It’s your turn…
+### 004. It’s your turn…
 
 **Examples**
 
@@ -92,7 +92,7 @@
 > B: OK, I’ll sing first.
 > 好，我先唱。
 
-### 071. Speaking of…
+### 005. Speaking of…
 
 **Examples**
 
@@ -114,7 +114,7 @@
 > B: OK.
 > 好。
 
-### 072. Thanks to…
+### 006. Thanks to…
 
 **Examples**
 
@@ -136,7 +136,7 @@
 > B: Great.
 > 太好了。
 
-### 084. …what-do-you-call-it (what·cha·ma·call·it)
+### 007. …what-do-you-call-it (what·cha·ma·call·it)
 
 **Examples**
 
@@ -161,7 +161,7 @@
 
 ## 02 确认与询问  CONFIRMING & ASKING
 
-### 001. Are you sure…?
+### 008. Are you sure…?
 
 **Examples**
 
@@ -183,7 +183,7 @@
 > B: OK, let’s eat.
 > 好，那吃吧。
 
-### 011. Do you agree…?
+### 009. Do you agree…?
 
 **Examples**
 
@@ -205,7 +205,7 @@
 > B: Sure.
 > 当然。
 
-### 017. Have you ever…?
+### 010. Have you ever…?
 
 **Examples**
 
@@ -227,7 +227,7 @@
 > B: Not yet. Let’s go.
 > 还没，我们去吧。
 
-### 027. How do you like…?
+### 011. How do you like…?
 
 **Examples**
 
@@ -249,7 +249,7 @@
 > B: It’s a bit salty, but good.
 > 有点咸，但还行。
 
-### 028. How long does it take…?
+### 012. How long does it take…?
 
 **Examples**
 
@@ -271,7 +271,7 @@
 > B: Five minutes, but the bus is slow today.
 > 五分钟，但今天公交很慢。
 
-### 029. How often…?
+### 013. How often…?
 
 **Examples**
 
@@ -293,7 +293,7 @@
 > B: On weekends.
 > 周末出去吃。
 
-### 062. I wonder if…？
+### 014. I wonder if…？
 
 **Examples**
 
@@ -315,7 +315,7 @@
 > B: OK.
 > 好。
 
-### 081. What becomes of…？
+### 015. What becomes of…？
 
 **Examples**
 
@@ -337,7 +337,7 @@
 > B: We eat it tomorrow.
 > 明天吃掉。
 
-### 092. What’s your favorite…?
+### 016. What’s your favorite…?
 
 **Examples**
 
@@ -359,7 +359,7 @@
 > B: The shop near my home.
 > 我家附近那家店。
 
-### 093. Where can I…?
+### 017. Where can I…?
 
 **Examples**
 
@@ -384,7 +384,7 @@
 
 ## 03 习惯与适应  HABITS & ADJUSTMENT
 
-### 002. Are you used to?
+### 018. Are you used to?
 
 **Examples**
 
@@ -406,7 +406,7 @@
 > B: Good. The winter is long.
 > 那就好，这里的冬天很长。
 
-### 009. Did you use to…
+### 019. Did you use to…
 
 **Examples**
 
@@ -431,7 +431,7 @@
 
 ## 04 观点与判断  OPINIONS & JUDGMENT
 
-### 003. As far as…
+### 020. As far as…
 
 **Examples**
 
@@ -453,7 +453,7 @@
 > B: Let’s go now.
 > 那我们走吧。
 
-### 004. As far as… (is) (am) (are) concerned,…
+### 021. As far as… (is) (am) (are) concerned,…
 
 **Examples**
 
@@ -475,7 +475,7 @@
 > B: As far as the price is concerned, it’s fair.
 > 就价格来说，还算公道。
 
-### 033. I can’t say…
+### 022. I can’t say…
 
 **Examples**
 
@@ -497,7 +497,7 @@
 > B: The coffee is too sweet.
 > 咖啡太甜了。
 
-### 035. I dare say…
+### 023. I dare say…
 
 **Examples**
 
@@ -519,7 +519,7 @@
 > B: Take an umbrella.
 > 带把伞。
 
-### 040. I have no idea…
+### 024. I have no idea…
 
 **Examples**
 
@@ -540,7 +540,7 @@
 > 查了。我不知道放哪儿了。
 > B: Call it with my phone.
 > 用我的手机打一下。
-### 051. It is… that…
+### 025. It is… that…
 
 **Examples**
 
@@ -562,7 +562,7 @@
 > B: Haha, I know.
 > 哈哈，我知道。
 
-### 056. It’s said that…
+### 026. It’s said that…
 
 **Examples**
 
@@ -584,7 +584,7 @@
 > B: Then let’s hurry.
 > 那我们赶紧去。
 
-### 059. It may surprise you, but…
+### 027. It may surprise you, but…
 
 **Examples**
 
@@ -606,7 +606,7 @@
 > B: Ha, then we are the same.
 > 哈哈，那我们一样。
 
-### 065. No wonder…
+### 028. No wonder…
 
 **Examples**
 
@@ -631,7 +631,7 @@
 
 ## 05 比较与选择  COMPARISONS & CHOICES
 
-### 008. Compared to…
+### 029. Compared to…
 
 **Examples**
 
@@ -653,7 +653,7 @@
 > B: Yes. Compared to walking, it’s very fast.
 > 快。跟走路比，特别快。
 
-### 019. He is as… as…
+### 030. He is as… as…
 
 **Examples**
 
@@ -675,7 +675,7 @@
 > B: Yes, same age.
 > 对，同龄。
 
-### 020. He is either…or…
+### 031. He is either…or…
 
 **Examples**
 
@@ -696,7 +696,7 @@
 > 我都看了，不在。
 > B: Then he is either outside or at the store.
 > 那他要么出去了要么在商店。
-### 021. He is so… that…
+### 032. He is so… that…
 
 **Examples**
 
@@ -718,7 +718,7 @@
 > B: OK. It’s so good that I don’t want to stop.
 > 好。太好喝了，我停不下来。
 
-### 022. He is not only… but also…
+### 033. He is not only… but also…
 
 **Examples**
 
@@ -740,7 +740,7 @@
 > B: Yes, she is not only kind but also funny.
 > 善良，她不仅善良，而且很有趣。
 
-### 042…. as… as possible
+### 034. …. as… as possible
 
 **Examples**
 
@@ -762,7 +762,7 @@
 > B: I will.
 > 我会的。
 
-### 050. I really go for…
+### 035. I really go for…
 
 **Examples**
 
@@ -784,7 +784,7 @@
 > B: Let’s buy the blue one.
 > 那就买蓝色的吧。
 
-### 057. It’s up to…
+### 036. It’s up to…
 
 **Examples**
 
@@ -806,7 +806,7 @@
 > B: Ha, fine.
 > 哈哈，行。
 
-### 063. I would rather… than…
+### 037. I would rather… than…
 
 **Examples**
 
@@ -828,7 +828,7 @@
 > B: Yes. I would rather watch TV than walk in the rain.
 > 真的。我宁愿看电视，也不想冒雨走路。
 
-### 069. On one hand…on the other hand…
+### 038. On one hand…on the other hand…
 
 **Examples**
 
@@ -850,7 +850,7 @@
 > B: On one hand, it’s fast; on the other hand, it’s crowded.
 > 一方面快，另一方面太挤。
 
-### 075. The more…the more…
+### 039. The more…the more…
 
 **Examples**
 
@@ -872,7 +872,7 @@
 > B: Stop it!
 > 别笑了！
 
-### 076. There is nothing as…as…
+### 040. There is nothing as…as…
 
 **Examples**
 
@@ -894,7 +894,7 @@
 > B: Let’s sit by the window.
 > 我们坐窗边吧。
 
-### 077. There is nothing I like better than…
+### 041. There is nothing I like better than…
 
 **Examples**
 
@@ -916,7 +916,7 @@
 > B: There is nothing I like better than a slow morning.
 > 没有什么比慢悠悠的早晨更好了。
 
-### 078. We’d be better off without…
+### 042. We’d be better off without…
 
 **Examples**
 
@@ -941,7 +941,7 @@
 
 ## 06 建议与提醒  SUGGESTIONS & WARNINGS
 
-### 005. Be careful with…
+### 043. Be careful with…
 
 **Examples**
 
@@ -963,7 +963,7 @@
 > B: OK, I’ll hold it slowly.
 > 好，我慢慢拿。
 
-### 016. Shouldn’t we…?
+### 044. Shouldn’t we…?
 
 **Examples**
 
@@ -985,7 +985,7 @@
 > B: The bus is slow. Let’s walk.
 > 公交太慢，走路吧。
 
-### 023. Help yourself to…
+### 045. Help yourself to…
 
 **Examples**
 
@@ -1007,7 +1007,7 @@
 > B: It looks great. I will.
 > 看起来很好吃，我会吃的。
 
-### 024. How about…?
+### 046. How about…?
 
 **Examples**
 
@@ -1029,7 +1029,7 @@
 > B: Good idea.
 > 好主意。
 
-### 079. We’d better…
+### 047. We’d better…
 
 **Examples**
 
@@ -1051,7 +1051,7 @@
 > B: Yes, it’s faster.
 > 对，更快。
 
-### 080. We may as well…
+### 048. We may as well…
 
 **Examples**
 
@@ -1072,7 +1072,7 @@
 > 好。我们不如顺路买点吃的。
 > B: Good idea.
 > 好主意。
-### 085. What do you say…?
+### 049. What do you say…?
 
 **Examples**
 
@@ -1094,7 +1094,7 @@
 > B: Yes, please!
 > 好，加！
 
-### 096. Why not…?
+### 050. Why not…?
 
 **Examples**
 
@@ -1116,7 +1116,7 @@
 > B: Yes, do it.
 > 好，打吧。
 
-### 097. Would you care for …?
+### 051. Would you care for …?
 
 **Examples**
 
@@ -1141,7 +1141,7 @@
 
 ## 07 时间与经历  TIME & EXPERIENCE
 
-### 018. Not…until…
+### 052. Not…until…
 
 **Examples**
 
@@ -1163,7 +1163,7 @@
 > B: I was watching a show.
 > 我在追剧。
 
-### 060. I have been…
+### 053. I have been…
 
 **Examples**
 
@@ -1184,7 +1184,7 @@
 > 抱歉。我一直在错的站。
 > B: It’s OK.
 > 没事。
-### 066. Now that I (come to) think about it,…
+### 054. Now that I (come to) think about it,…
 
 **Examples**
 
@@ -1206,7 +1206,7 @@
 > B: Check the bag.
 > 看看包里。
 
-### 067. Once you…
+### 055. Once you…
 
 **Examples**
 
@@ -1228,7 +1228,7 @@
 > B: Once you learn, it’s fun.
 > 一旦学会了，就很好玩。
 
-### 068. … only to find…
+### 056. … only to find…
 
 **Examples**
 
@@ -1250,7 +1250,7 @@
 > B: Let’s go tomorrow morning.
 > 那我们明早去。
 
-### 074. The first thing I’m going to do when… is…
+### 057. The first thing I’m going to do when… is…
 
 **Examples**
 
@@ -1275,7 +1275,7 @@
 
 ## 08 意愿与计划  WANTS & PLANS
 
-### 015. Do you feel like…?
+### 058. Do you feel like…?
 
 **Examples**
 
@@ -1297,7 +1297,7 @@
 > B: Yes, let’s go.
 > 好，走吧。
 
-### 034. I cannot wait to…
+### 059. I cannot wait to…
 
 **Examples**
 
@@ -1319,7 +1319,7 @@
 > B: Let’s pack today.
 > 我们今天收拾行李吧。
 
-### 043. I’ll let you know…
+### 060. I’ll let you know…
 
 **Examples**
 
@@ -1341,7 +1341,7 @@
 > B: Thanks.
 > 谢谢。
 
-### 047. I’m looking forward to…
+### 061. I’m looking forward to…
 
 **Examples**
 
@@ -1363,7 +1363,7 @@
 > B: Ha, me too.
 > 哈哈，我也是。
 
-### 049. I’m thinking about…
+### 062. I’m thinking about…
 
 **Examples**
 
@@ -1385,7 +1385,7 @@
 > B: Me too. Let’s cook.
 > 我也是，那煮面吧。
 
-### 064. No matter what…
+### 063. No matter what…
 
 **Examples**
 
@@ -1407,7 +1407,7 @@
 > B: I will.
 > 我会的。
 
-### 100. You only have to…in order to…
+### 064. You only have to…in order to…
 
 **Examples**
 
@@ -1432,7 +1432,7 @@
 
 ## 09 请求与礼貌  REQUESTS & POLITENESS
 
-### 012. Do you carry this in…?
+### 065. Do you carry this in…?
 
 **Examples**
 
@@ -1454,7 +1454,7 @@
 > B: Yes. Here you are.
 > 有，给你。
 
-### 013. Do you have… available?
+### 066. Do you have… available?
 
 **Examples**
 
@@ -1476,7 +1476,7 @@
 > B: Here you are.
 > 给您。
 
-### 014. Do you mind…?
+### 067. Do you mind…?
 
 **Examples**
 
@@ -1498,7 +1498,7 @@
 > B: No problem.
 > 没问题。
 
-### 036. I’d like you to…
+### 068. I’d like you to…
 
 **Examples**
 
@@ -1520,7 +1520,7 @@
 > B: OK. I’d like you to sit down first.
 > 好。你先坐下吧。
 
-### 044. I’d be grateful…
+### 069. I’d be grateful…
 
 **Examples**
 
@@ -1542,7 +1542,7 @@
 > B: No problem.
 > 没问题。
 
-### 046. I’m calling to…
+### 070. I’m calling to…
 
 **Examples**
 
@@ -1564,7 +1564,7 @@
 > B: Great, see you soon.
 > 太好了，一会儿见。
 
-### 073. Thank you for…
+### 071. Thank you for…
 
 **Examples**
 
@@ -1586,7 +1586,7 @@
 > B: Anytime.
 > 随时欢迎。
 
-### 082. What can I do for…？
+### 072. What can I do for…？
 
 **Examples**
 
@@ -1611,7 +1611,7 @@
 
 ## 10 情绪与反应  FEELINGS & REACTIONS
 
-### 030. I bet…
+### 073. I bet…
 
 **Examples**
 
@@ -1633,7 +1633,7 @@
 > B: Call him.
 > 给他打电话。
 
-### 031. I can hardly believe that…
+### 074. I can hardly believe that…
 
 **Examples**
 
@@ -1655,7 +1655,7 @@
 > B: Let’s eat out to celebrate.
 > 我们去吃饭庆祝一下。
 
-### 032. I can’t help…
+### 075. I can’t help…
 
 **Examples**
 
@@ -1677,7 +1677,7 @@
 > B: You’ll laugh too. You can’t help it.
 > 你也会笑的，你忍不住的。
 
-### 037. I’d hate for you to…
+### 076. I’d hate for you to…
 
 **Examples**
 
@@ -1699,7 +1699,7 @@
 > B: I won’t. Go.
 > 我不等，你走吧。
 
-### 039. If there is one thing that… me, it’s…
+### 077. If there is one thing that… me, it’s…
 
 **Examples**
 
@@ -1721,7 +1721,7 @@
 > B: Good idea.
 > 好主意。
 
-### 045. I’m afraid…
+### 078. I’m afraid…
 
 **Examples**
 
@@ -1743,7 +1743,7 @@
 > B: Yes, I’ll sleep early.
 > 好，我会早点睡。
 
-### 048. I’m not really happy with…
+### 079. I’m not really happy with…
 
 **Examples**
 
@@ -1765,7 +1765,7 @@
 > B: Yes. I’m not really happy with the camera either.
 > 是啊，我也不太满意相机。
 
-### 052. It’s too bad that…
+### 080. It’s too bad that…
 
 **Examples**
 
@@ -1787,7 +1787,7 @@
 > B: Let’s go home.
 > 那我们回家吧。
 
-### 061. I’ve had enough of…
+### 081. I’ve had enough of…
 
 **Examples**
 
@@ -1809,7 +1809,7 @@
 > B: Let’s ask him to turn it down.
 > 我们去让他调小点。
 
-### 089. What’s the matter with…?
+### 082. What’s the matter with…?
 
 **Examples**
 
@@ -1834,7 +1834,7 @@
 
 ## 11 假设与条件  HYPOTHETICALS & CONDITIONS
 
-### 038. If it hadn’t been for…
+### 083. If it hadn’t been for…
 
 **Examples**
 
@@ -1856,7 +1856,7 @@
 > B: Yes, you woke me up. If it hadn’t been for your call, I would have slept in.
 > 对，你叫醒了我。要不是你打电话，我就睡过头了。
 
-### 087. What if…?
+### 084. What if…?
 
 **Examples**
 
@@ -1880,7 +1880,7 @@
 > A: We’ll see.
 > 到时候再说。
 
-### 090. What would you do if…?
+### 085. What would you do if…?
 
 **Examples**
 
@@ -1902,7 +1902,7 @@
 > B: I would wait outside.
 > 我就在外面等着。
 
-### 094. Where there is… there is…
+### 086. Where there is… there is…
 
 **Examples**
 
@@ -1924,7 +1924,7 @@
 > B: Where there is good food, there are people.
 > 哪里有好吃的，哪里就有人。
 
-### 095. Whether or not…
+### 087. Whether or not…
 
 **Examples**
 
@@ -1949,7 +1949,7 @@
 
 ## 12 解释与澄清  EXPLAINING & CLARIFYING
 
-### 006. But this doesn’t mean that…
+### 088. But this doesn’t mean that…
 
 **Examples**
 
@@ -1971,7 +1971,7 @@
 > B: I just need some sleep.
 > 我只是需要睡一觉。
 
-### 054. It’s not that… but…
+### 089. It’s not that… but…
 
 **Examples**
 
@@ -1993,7 +1993,7 @@
 > B: Let’s rest.
 > 那休息一下。
 
-### 083. What do you mean by…?
+### 090. What do you mean by…?
 
 **Examples**
 
@@ -2015,7 +2015,7 @@
 > B: OK. What do you mean by ten minutes? It’s 9 now.
 > 好。十分钟是什么意思？现在都九点了。
 
-### 086. What… for…
+### 091. What… for…
 
 **Examples**
 
@@ -2037,7 +2037,7 @@
 > B: For the party.
 > 聚会用。
 
-### 088. What I’m trying to say is…
+### 092. What I’m trying to say is…
 
 **Examples**
 
@@ -2059,7 +2059,7 @@
 > B: What I’m trying to say is, I can’t open the door.
 > 我想说的是，我打不开门。
 
-### 091. What’s the use of…?
+### 093. What’s the use of…?
 
 **Examples**
 
@@ -2084,7 +2084,7 @@
 
 ## 13 责备与道歉  BLAME & APOLOGIES
 
-### 026. How dare you…!
+### 094. How dare you…!
 
 **Examples**
 
@@ -2106,7 +2106,7 @@
 > B: I was hungry. I’ll buy a new one.
 > 我饿了，我再买一个。
 
-### 053. It’s my fault for…
+### 095. It’s my fault for…
 
 **Examples**
 
@@ -2131,7 +2131,7 @@
 
 ## 14 义务与禁止  OBLIGATION & PROHIBITION
 
-### 010. Don’t ever…
+### 096. Don’t ever…
 
 **Examples**
 
@@ -2153,7 +2153,7 @@
 > B: Just block the number.
 > 直接拉黑这个号码。
 
-### 041. I have got to…
+### 097. I have got to…
 
 **Examples**
 
@@ -2175,7 +2175,7 @@
 > B: I have got to cook dinner.
 > 我得做晚饭。
 
-### 070. See that…
+### 098. See that…
 
 **Examples**
 
@@ -2197,7 +2197,7 @@
 > B: I will.
 > 我会的。
 
-### 098. You are not to…
+### 099. You are not to…
 
 **Examples**
 
@@ -2219,7 +2219,7 @@
 > B: I won’t.
 > 我不说。
 
-### 099. You can never… too…
+### 100. You can never… too…
 
 **Examples**
 
