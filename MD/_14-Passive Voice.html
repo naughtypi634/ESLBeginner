@@ -1,35 +1,92 @@
 <!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><title>14-Passive Voice.md</title><style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
-    width: 210mm; background: #ffffff; color: #1a1a1a;
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #161616;
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
-    font-size: 11px; line-height: 1.5;
+    font-size: 12px; line-height: 1.45;
 }
 .page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
-h1 { font-size: 20px; font-weight: 800; color: #000; border-bottom: 2px solid #000; padding-bottom: 4px; margin-bottom: 8px; }
-h2 { font-size: 13px; font-weight: 800; color: #000; margin: 10px 0 4px 0; }
-h3 { font-size: 11.5px; font-weight: 700; color: #333; margin: 7px 0 3px 0; }
-p { margin: 3px 0; }
-hr { border: none; border-top: 1px solid #d0d0d0; margin: 6px 0; }
-table { width: 100%; border-collapse: collapse; margin: 3px 0 6px 0; font-size: 10px; }
-th, td { border: 1px solid #cccccc; padding: 3px 6px; text-align: left; vertical-align: top; }
-th { background: #f0f0f0; font-weight: 800; }
-b { color: #000; }
+h1 {
+    font-size: 24px; font-weight: 600; color: #161616;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #161616;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #525252; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #161616; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
+table.matrix { table-layout: fixed; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #161616; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #161616; }
+td:nth-child(2) { color: #525252; }
+td:last-child { color: #525252; }
+b { color: #161616; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #161616; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #525252; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #0f62fe; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #161616; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #525252; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
 </style></head><body><div class='page'><h1>Passive Voice · 被动语态</h1>
-<h2>1. Warm-up 热身</h2>
-<table><tr><th>English</th><th>Chinese</th></tr><tr><td>Your food is delivered. Where is it left?</td><td>外卖到了，放在哪里？</td></tr><tr><td>→ At the door / In the locker / At the desk</td><td>门口 / 快递柜 / 桌上</td></tr><tr><td>In your home, what is often cleaned?</td><td>你家经常打扫什么？</td></tr><tr><td>→ The floor / The table / The window</td><td>地板 / 桌子 / 窗户</td></tr></table>
-<h2>2. Useful Expressions 常用表达</h2>
-<h3>Ordering Food 点餐</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>is ordered / is delivered</td><td>被下单 / 被配送</td><td>The food <b>is delivered</b> in 30 minutes.</td></tr><tr><td>is packed / is cooked</td><td>被打包 / 被做熟</td><td>The meal <b>is cooked</b> fresh.</td></tr><tr><td>is paid / is served</td><td>被支付 / 被端上</td><td>The bill <b>is paid</b> online.</td></tr></table>
-<h3>Work Tasks 工作任务</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>is assigned / is sent</td><td>被分配 / 被发送</td><td>The report <b>is sent</b> every Friday.</td></tr><tr><td>is scheduled / is checked</td><td>被安排 / 被检查</td><td>Emails <b>are checked</b> in the morning.</td></tr><tr><td>is read / is answered</td><td>被阅读 / 被回复</td><td>The message <b>is answered</b> quickly.</td></tr></table>
-<h3>Daily Chores 家务</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>is washed / is dried</td><td>被洗 / 被晾</td><td>The dishes <b>are washed</b> after dinner.</td></tr><tr><td>is swept / is taken</td><td>被扫 / 被带走</td><td>The floor <b>is swept</b> on weekends.</td></tr><tr><td>is boiled / is made</td><td>被煮 / 被做</td><td>The bed <b>is made</b> every morning.</td></tr></table>
-<h3>Online Content 网络内容</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>is liked / is shared</td><td>被点赞 / 被转发</td><td>The video <b>is shared</b> everywhere.</td></tr><tr><td>is uploaded / is saved</td><td>被上传 / 被保存</td><td>The photo <b>is uploaded</b> to 小红书.</td></tr><tr><td>is scanned / is blocked</td><td>被扫码 / 被屏蔽</td><td>The QR code <b>is scanned</b> at the door.</td></tr></table>
-<h2>3. Sentence Starters 句型开头</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Keywords</th></tr><tr><td>The dishes are <b>______</b> after dinner.</td><td>晚饭后碗被……</td><td>washed / dried / put away</td></tr><tr><td>My phone is <b>______</b> for work every day.</td><td>我的手机每天被……用于工作。</td><td>used / charged / fixed</td></tr><tr><td>The package <b>______</b> left at the locker.</td><td>包裹被放在快递柜。</td><td>is / was / will be</td></tr></table>
+<h2>1. 构成 Structure</h2>
+<h3>常规时态 Regular Tenses (be + done)</h3>
+<table><tr><td>时态与结构</td><td>英文例句</td><td>中文对照</td></tr><tr><td>一般现在时 (is / are + done)</td><td>The office floor <b>is cleaned</b> every night.</td><td>办公室地板每晚都会被打扫。</td></tr><tr><td>一般现在时 (is / are + done)</td><td>Takeout meals <b>are delivered</b> to the front desk.</td><td>外卖餐品会被送到前台。</td></tr><tr><td>一般过去时 (was / were + done)</td><td>My flight <b>was canceled</b> due to the thunderstorm.</td><td>我的航班因雷暴天气被取消了。</td></tr><tr><td>一般过去时 (was / were + done)</td><td>The weekly report <b>was submitted</b> before 6 PM.</td><td>周报在下午 6 点前提交了。</td></tr><tr><td>一般将来时 (will be + done)</td><td>Your iced latte <b>will be ready</b> in three minutes.</td><td>您的冰拿铁三分钟内做好。</td></tr><tr><td>一般将来时 (will be + done)</td><td>The new metro line <b>will be opened</b> next month.</td><td>新地铁线路将于下月开通。</td></tr><tr><td>现在进行时 (is / are being + done)</td><td>The elevator <b>is being repaired</b> right now.</td><td>电梯现在正在维修中。</td></tr><tr><td>现在进行时 (is / are being + done)</td><td>The meeting room <b>is being used</b> for an interview.</td><td>会议室正用于一场面试。</td></tr><tr><td>现在完成时 (have / has been + done)</td><td>The rent <b>has already been paid</b> on WeChat.</td><td>房租已经在微信上付清了。</td></tr><tr><td>现在完成时 (have / has been + done)</td><td>The shared bike <b>has been unlocked</b> with the app.</td><td>共享单车已通过软件解锁。</td></tr></table>
+<h3>特殊构成 Special Structures</h3>
+<table><tr><td>类别与结构</td><td>英文例句</td><td>中文对照</td></tr><tr><td>It is said that... (据说)</td><td><b>It is said that</b> the new cafe downstairs offers free tea.</td><td>据说楼下新咖啡店送免费茶。</td></tr><tr><td>It is reported that... (据报道)</td><td><b>It is reported that</b> the subway line 8 opened today.</td><td>据报道地铁 8 号线今日开通。</td></tr><tr><td>It is believed that... (普遍认为)</td><td><b>It is believed that</b> a short nap boosts work efficiency.</td><td>人们普遍认为午睡能提效。</td></tr><tr><td>It is expected that... (预计)</td><td><b>It is expected that</b> the heavy rain will stop soon.</td><td>预计大雨很快就会停下来。</td></tr><tr><td>can be done (可以被做)</td><td>This PDF file <b>can be downloaded</b> to your phone.</td><td>这个 PDF 文件可下载到手机。</td></tr><tr><td>must be done (必须被做)</td><td>The QR code <b>must be scanned</b> at the entrance.</td><td>进门处必须扫描场所码。</td></tr><tr><td>should be done (应该被做)</td><td>The trash <b>should be sorted</b> into kitchen bins.</td><td>垃圾应该分类投入厨余桶。</td></tr><tr><td>sb + be given + sth (双宾语)</td><td>The intern <b>was given</b> a new laptop on day one.</td><td>实习生首日分到一台新电脑。</td></tr><tr><td>sth + be sent to + sb (双宾语)</td><td>The invite <b>was sent to</b> all team members on WeChat.</td><td>邀请函已在微信发给全员。</td></tr><tr><td>get + done (口语被动)</td><td>I <b>got caught</b> in the rain near the subway exit.</td><td>我在地铁口附近淋了雨。</td></tr><tr><td>get + paid (发薪/收费)</td><td>We <b>get paid</b> on the 10th day of every month.</td><td>我们每个月 10 号发工资。</td></tr><tr><td>疑问句 (Be + 主语 + done?)</td><td><b>Was</b> your parcel <b>left</b> in the smart locker?</td><td>你的快递放在智能柜了吗？</td></tr><tr><td>否定句 (be + not + done)</td><td>The file <b>was not sent</b> to my personal email.</td><td>文件没有发到我的个人邮箱。</td></tr></table>
+</div><div class='page page-break'>
+<h2>2. 作用 Function</h2>
+<table><tr><td>核心作用</td><td>英文例句</td><td>中文对照</td></tr><tr><td>不知动作执行者 (Unknown Agent)</td><td>My electric scooter <b>was stolen</b> near the station.</td><td>我的电动车在车站附近被偷了。</td></tr><tr><td>不知动作执行者 (Unknown Agent)</td><td>A window in the hallway <b>was broken</b> last night.</td><td>昨晚走廊的一扇窗户被打破了。</td></tr><tr><td>执行者不言自明 (Obvious Agent)</td><td>Milk tea <b>is delivered</b> to my office desk every day.</td><td>奶茶每天都被送到我的办公桌。</td></tr><tr><td>执行者不言自明 (Obvious Agent)</td><td>Street trees <b>are watered</b> early in the morning.</td><td>街道树木清晨都会被浇水。</td></tr><tr><td>强调受体或结果 (Focus on Result)</td><td>Our proposal <b>was approved</b> by the manager today.</td><td>我们的方案今天被经理批准了。</td></tr><tr><td>强调受体或结果 (Focus on Result)</td><td>Five hundred meals <b>are cooked</b> here every noon.</td><td>这里每天中午烹制五百份餐品。</td></tr><tr><td>客观陈述与委婉 (Objective &amp; Polite)</td><td>A typo <b>was found</b> on page three of the report.</td><td>报告第三页发现了一处打字错误。</td></tr><tr><td>规则通知与禁令 (Official Rules)</td><td>Smoking <b>is not permitted</b> inside the building.</td><td>大楼内部任何区域均严禁吸烟。</td></tr></table>
+<h2>3. 实际例子 Real-World Examples</h2>
+<h3>外卖与快递 Delivery &amp; Packages</h3>
+<table><tr><td>英文例句</td><td>中文对照</td></tr><tr><td>The spicy hotpot <b>is packed</b> in an insulated bag.</td><td>麻辣烫装在保温袋里以保持温度。</td></tr><tr><td>My parcel <b>was left</b> in the smart locker by the gate.</td><td>我的快递被放在大门旁的智能柜里。</td></tr><tr><td>The bubble tea <b>was picked up</b> by the rider just now.</td><td>奶茶刚才已经被外卖骑手取走了。</td></tr><tr><td>The wrong dish <b>was returned</b> through the app quickly.</td><td>送错的餐品很快通过软件退回了。</td></tr></table>
+<h3>职场与办公 Workplace &amp; Communication</h3>
+<table><tr><td>英文例句</td><td>中文对照</td></tr><tr><td>The task list <b>is sent</b> to the WeChat group on Monday.</td><td>任务清单周一发送到微信工作群。</td></tr><tr><td>My annual leave <b>was approved</b> by HR this afternoon.</td><td>我的年假今天下午被人事批准了。</td></tr><tr><td>The contract <b>will be signed</b> after the online meeting.</td><td>合同将在视频会议结束后签署。</td></tr><tr><td>Two engineers <b>were hired</b> for the AI project this week.</td><td>本周有两位工程师入职 AI 项目。</td></tr></table>
+<h3>城市通勤与生活 Commuting &amp; Living</h3>
+<table><tr><td>英文例句</td><td>中文对照</td></tr><tr><td>Subway line 2 <b>is packed</b> during the morning rush hour.</td><td>早高峰期间地铁二号线挤满了人。</td></tr><tr><td>The noisy air conditioner <b>was fixed</b> by the landlord.</td><td>噪音很大的空调被房东修好了。</td></tr><tr><td>The door password <b>is updated</b> on the app every month.</td><td>门禁密码每月在手机软件上更新。</td></tr><tr><td>The shared power bank <b>was returned</b> to the rack.</td><td>共享充电宝已归还到机柜中了。</td></tr></table>
+<h3>手机与网络 Digital &amp; Social Media</h3>
+<table><tr><td>英文例句</td><td>中文对照</td></tr><tr><td>My photo <b>was liked</b> by hundreds of people on Xiaohongshu.</td><td>我的照片在小红书被几百人点赞。</td></tr><tr><td>The payment code <b>is scanned</b> at the store checkout.</td><td>付款码在便利店结账处被扫码。</td></tr><tr><td>The live-stream link <b>was shared</b> to three chat groups.</td><td>直播链接被转发到了三个群聊中。</td></tr><tr><td>My password <b>was reset</b> using an SMS verification code.</td><td>我的密码通过一条短信验证码重置。</td></tr></table>
 <h2>4. Discussion 讨论</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Answer tags</th></tr><tr><td>What is often ordered online in your home?</td><td>你家经常网购什么？</td><td>Snacks / Clothes / Electronics</td></tr><tr><td>Why is a product returned?</td><td>商品为什么被退货？</td><td>Wrong size / Damaged box / Not needed</td></tr><tr><td>When are tasks assigned to you?</td><td>你什么时候被分配任务？</td><td>Every morning / After lunch / Before weekend</td></tr><tr><td>What is cleaned every day in your home?</td><td>你家每天打扫什么？</td><td>The floor / The dishes / The table</td></tr></table></div></body></html>
+<table><tr><td>讨论问题</td><td>中文对照</td><td>答题关键词</td></tr><tr><td>What is usually delivered to your home every week?</td><td>每周通常有什么东西送到你家？</td><td>takeout / fresh fruit / parcel boxes / milk tea</td></tr><tr><td>What tasks are assigned to you at work on Mondays?</td><td>周一工作中通常会分配给你什么任务？</td><td>weekly reports / client emails / team meetings</td></tr><tr><td>What was recently repaired or fixed in your home?</td><td>你家里最近有什么东西被维修或修好了？</td><td>air conditioner / water pipe / door lock / light</td></tr><tr><td>How are important notices shared in your company?</td><td>你们公司的重要通知通常是如何发布的？</td><td>WeChat group / work email / bulletin board</td></tr><tr><td>When you shop online, why is an item usually returned?</td><td>网购时，一件商品通常因什么原因退货？</td><td>wrong size / damaged box / color difference</td></tr></table></div></body></html>
