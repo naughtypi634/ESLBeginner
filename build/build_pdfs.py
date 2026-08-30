@@ -17,6 +17,7 @@ Usage:
 import html as htmllib  # noqa: F401  (kept for parity; unused here)
 import os
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -27,12 +28,32 @@ MD_DIR = ROOT / "MD"
 GEN_DIR = ROOT / "build" / "tex"
 PDF_DIR = ROOT / "PDF"
 PREVIEW = ROOT / "build" / "preview"
-PANDOC = r"C:\Users\ZZC\AppData\Local\Pandoc\pandoc.exe"
-PDF_ENGINE = "xelatex"  # engine passed to pandoc --pdf-engine (override per script)
+
+
+def _resolve_toolchain():
+    """Resolve the PDF toolchain per platform.
+
+    Windows keeps the pinned MiKTeX/Pandoc install paths. macOS/Linux fall
+    back to PATH: pandoc, then xelatex (TeX Live) or tectonic.
+    """
+    if sys.platform.startswith("win"):
+        return (
+            r"C:\Users\ZZC\AppData\Local\Pandoc\pandoc.exe",
+            "xelatex",
+            r"C:\Users\ZZC\AppData\Local\Programs\MiKTeX\miktex\bin\x64",
+            ROOT / ".venv" / "Scripts" / "python.exe",
+        )
+    pandoc = shutil.which("pandoc") or "pandoc"
+    engine = shutil.which("xelatex") or "tectonic"
+    xelatex = shutil.which("xelatex")
+    miktex_bin = str(Path(xelatex).parent) if xelatex else ""
+    venv = ROOT / ".venv" / "bin" / "python"
+    return pandoc, engine, miktex_bin, venv
+
+
+PANDOC, PDF_ENGINE, MIKTEX_BIN, VENV_PY = _resolve_toolchain()
 TEMPLATE = ROOT / "build" / "template.tex"
 PREAMBLE = ROOT / "build" / "preamble.tex"
-MIKTEX_BIN = r"C:\Users\ZZC\AppData\Local\Programs\MiKTeX\miktex\bin\x64"
-VENV_PY = ROOT / ".venv" / "Scripts" / "python.exe"
 
 CJK_RE = re.compile(
     r"[\u2e80-\u2eff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uff00-\uffef\u3000-\u303f]"
@@ -132,6 +153,29 @@ def T_subheader(cn, en="", lfun=l):
     return raw(f"\\eslsubheader{{{lfun(cn)}}}{{{lfun(en)}}}")
 
 
+def T_subheader_table(h, header, rows):
+    """Subheader glued to the table below it in one unbreakable minipage —
+    prevents the heading from being orphaned at the bottom of a page."""
+    cols = len(header)
+    hdr = " & ".join(l(c) for c in header)
+    body = [" & ".join(l(c) for c in r) for r in rows]
+    colspec = f"*{{{cols}}}{{>{{\\RaggedRight}}X}}"
+    tbl = "\n".join([
+        "\\par\\vspace{6pt}",
+        "\\noindent\\begin{tabularx}{\\textwidth}{@{}" + colspec + "@{}}",
+        "  \\rowcolor{filllight}\\bfseries " + hdr + "\\\\",
+        "  \\hline",
+    ] + [f"  {r} \\\\\n  \\hline" for r in body] + [
+        "\\end{tabularx}",
+    ])
+    inner = f"\\eslsubheader{{{l(h)}}}\n" + tbl
+    return raw(
+        "\\par\\noindent\\begin{minipage}[t]{\\linewidth}\n"
+        + inner
+        + "\n\\end{minipage}\\par\\vspace{6pt}"
+    )
+
+
 def T_pair(en, cn):
     return raw(f"\\eslpair{{{l(en)}}}{{{l(cn)}}}")
 
@@ -189,10 +233,30 @@ def T_rule(num, title, items):
     )
 
 
+def _T_spectrum(hdr, body):
+    """Frequency spectrum table: 3 cols, slightly smaller type, a wide English
+    (X) column so the example sentences stay on a single line."""
+    lines = [
+        "\\par\\vspace{6pt}",
+        "\\noindent{\\small",
+        "\\setlength{\\tabcolsep}{3pt}",
+        "\\begin{tabularx}{\\textwidth}{@{}>{\\RaggedRight}p{0.20\\textwidth}@{\\hspace{6pt}}>{\\RaggedRight}X@{\\hspace{6pt}}>{\\RaggedRight}p{0.27\\textwidth}@{}}",
+        "  \\rowcolor{filllight}\\bfseries " + hdr + "\\\\",
+        "  \\hline",
+    ]
+    for r in body:
+        lines.append("  " + r + " \\\\")
+        lines.append("  \\hline")
+    lines.append("\\end{tabularx}}\\par\\vspace{8pt}")
+    return raw("\n".join(lines))
+
+
 def T_mdtable(header, rows):
     cols = len(header)
     hdr = " & ".join(l(c) for c in header)
     body = [" & ".join(l(c) for c in r) for r in rows]
+    if cols == 3 and header[0].strip().lower() == "frequency":
+        return _T_spectrum(hdr, body)
     return T_tabular(cols, hdr, body)
 
 
@@ -347,6 +411,7 @@ def parse_04(lines):
     meta = dict(META["04-Frequency.md"], title=title, subtitle=subtitle)
     out.append(T_title(meta))
     sn = 0
+    pending_sub = None  # subheader kept together with the next table
     i, n = 1, len(lines)
     while i < n:
         s = lines[i].strip()
@@ -364,7 +429,16 @@ def parse_04(lines):
             continue
         if s.startswith("### "):
             h = s[4:].strip()
-            out.append(T_subheader(h))
+            # A subheader immediately followed by a table (after any blank
+            # lines) is wrapped with the table in an unbreakable minipage so
+            # it can't be orphaned at a page bottom.
+            j = i + 1  # skip the heading line itself, then any blank lines
+            while j < n and not lines[j].strip():
+                j += 1
+            if j < n and lines[j].strip().startswith("|"):
+                pending_sub = h
+            else:
+                out.append(T_subheader(h))
             i += 1
             continue
         if s.startswith("Patterns:"):
@@ -373,7 +447,11 @@ def parse_04(lines):
             continue
         if s.startswith("|"):
             header, rows, i = parse_md_table(lines, i)
-            out.append(T_mdtable(header, rows))
+            if pending_sub is not None:
+                out.append(T_subheader_table(pending_sub, header, rows))
+                pending_sub = None
+            else:
+                out.append(T_mdtable(header, rows))
             continue
         i += 1
     return out, meta

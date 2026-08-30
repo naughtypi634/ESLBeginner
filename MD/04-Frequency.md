@@ -8,10 +8,14 @@
 
 ## 1. Frequency Spectrum
 
-| always 100% | usually 80–90% | often 60–70% | sometimes 40–50% | rarely 10–20% | never 0% |
-|---|---|---|---|---|---|
-| I **always** check my phone before sleeping. | I **usually** take the subway to work. | I **often** order takeout for lunch. | I **sometimes** work on weekends. | I **rarely** watch TV at home. | I **never** go to work without my phone. |
-| 我睡前总是刷手机。 | 我通常坐地铁上班。 | 我经常点外卖当午饭。 | 我有时候周末加班。 | 我在家很少看电视。 | 我上班时从来都带着手机。 |
+| Frequency | English | Chinese |
+|---|---|---|
+| **always** 100% | I **always** check my phone before sleeping. | 我睡前总是刷手机。 |
+| **usually** 80–90% | I **usually** take the subway to work. | 我通常坐地铁上班。 |
+| **often** 60–70% | I **often** order takeout for lunch. | 我经常点外卖当午饭。 |
+| **sometimes** 40–50% | I **sometimes** work on weekends. | 我有时候周末加班。 |
+| **rarely** 10–20% | I **rarely** watch TV at home. | 我在家很少看电视。 |
+| **never** 0% | I **never** go to work without my phone. | 我上班时从来都带着手机。 |
 
 ### High → Low Frequency Phrases
 
