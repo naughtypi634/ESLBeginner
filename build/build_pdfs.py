@@ -233,6 +233,40 @@ def T_rule(num, title, items):
     )
 
 
+# ---- compact variants · 05 comparatives (two-page layout) ----
+def T_sectionC(num, cn, en="", lfun=l):
+    return raw(f"\\eslsectionC{{{lfun(num)}}}{{{lfun(cn)}}}{{{lfun(en)}}}")
+
+
+def T_subheaderC(cn, en="", lfun=l):
+    return raw(f"\\eslsubheaderC{{{lfun(cn)}}}{{{lfun(en)}}}")
+
+
+def T_ruleC(num, title, items):
+    rows = " \\\\\n  \\hline\n  ".join(" & ".join(l(c) for c in it) for it in items)
+    return raw(
+        f"\\eslruleheadC{{{l(num)}}}{{{l(title)}}}\n"
+        f"\\eslcompacttab{{BASE & COMPARATIVE & SUPERLATIVE}}{{{rows}}}"
+    )
+
+
+def T_compacttab(header_cells, rows):
+    body = " \\\\\n  \\hline\n  ".join(" & ".join(l(c) for c in r) for r in rows)
+    return raw(f"\\eslcompacttab{{{header_cells}}}{{{body}}}")
+
+
+def T_dashitemC(body):
+    return raw(f"\\esldashC{{{l(body)}}}")
+
+
+def T_pattagC(body, lfun=l):
+    return raw(f"\\eslpattagC{{{lfun(body)}}}")
+
+
+def T_qitemC(n, body):
+    return raw(f"\\eslqitemC{{{l(n)}}}{{{l(body)}}}")
+
+
 def _T_spectrum(hdr, body):
     """Frequency spectrum table: 3 cols, slightly smaller type, a wide English
     (X) column so the example sentences stay on a single line."""
@@ -470,7 +504,7 @@ def parse_05(lines):
     def flush_rule():
         nonlocal cur_rule, rule_items
         if cur_rule is not None:
-            out.append(T_rule(cur_rule[0], cur_rule[1], rule_items))
+            out.append(T_ruleC(cur_rule[0], cur_rule[1], rule_items))
             cur_rule = None
             rule_items = []
 
@@ -478,20 +512,21 @@ def parse_05(lines):
         nonlocal irregular
         if irregular:
             rows = [
-                " & ".join(l(c) for c in irregular[j:j + 3])
+                list(irregular[j:j + 3])
                 for j in range(0, len(irregular) - 2, 3)
             ]
-            out.append(T_tabular(3, "BASE & COMPARATIVE & SUPERLATIVE", rows))
+            out.append(T_compacttab("BASE & COMPARATIVE & SUPERLATIVE", rows))
             irregular = []
 
     for rawline in lines[1:]:
         s = rawline.strip()
         if not s:
             continue
+        # Page markers ("— 1 —") no longer drive page breaks: 05 is a fixed
+        # two-page layout — page 1 is the grammar reference, page 2 starts at
+        # COMMON COLLOCATIONS (pagebreak emitted there) and runs through the
+        # speaking practice.
         if re.match(r"^—\s*\d+\s*—", s):
-            flush_rule()
-            flush_irregular()
-            out.append(T_pagebreak())
             continue
         if s == "COMPARATIVE & SUPERLATIVE":
             continue
@@ -499,23 +534,24 @@ def parse_05(lines):
             flush_rule()
             flush_irregular()
             sn += 1
-            out.append(T_section(f"{sn:02d}", "SPEAKING PRACTICE"))
+            out.append(T_sectionC(f"{sn:02d}", "SPEAKING PRACTICE"))
             mode = "questions"
             continue
         if s == "IRREGULAR FORMS":
             flush_rule()
             sn += 1
-            out.append(T_section(f"{sn:02d}", "IRREGULAR FORMS"))
+            out.append(T_sectionC(f"{sn:02d}", "IRREGULAR FORMS"))
             mode = "irregular"
             continue
         if s == "COMMON COLLOCATIONS":
             flush_irregular()
             sn += 1
-            out.append(T_section(f"{sn:02d}", "COMMON COLLOCATIONS"))
+            out.append(T_pagebreak())  # page 2 starts here (collocations + speaking)
+            out.append(T_sectionC(f"{sn:02d}", "COMMON COLLOCATIONS"))
             mode = "collocations"
             continue
         if s in ("COMPARE", "SUPERLATIVE"):
-            out.append(T_subheader(s))
+            out.append(T_subheaderC(s))
             continue
         m = re.match(r"^Rule\s+(\d+)\s*(.*)$", s)
         if m:
@@ -534,14 +570,14 @@ def parse_05(lines):
             continue
         if mode == "collocations":
             if s.startswith("—"):
-                out.append(T_dashitem(s.lstrip("— ").strip()))
+                out.append(T_dashitemC(s.lstrip("— ").strip()))
             elif "+" in s or "determiner" in s or "ordinal" in s:
-                out.append(T_pattag(s))
+                out.append(T_pattagC(s))
             continue
         if mode == "questions":
             mq = re.match(r"^(\d+)\.\s*(.*)$", s)
             if mq:
-                out.append(T_qitem(mq.group(1), mq.group(2)))
+                out.append(T_qitemC(mq.group(1), mq.group(2)))
             continue
     flush_rule()
     flush_irregular()
