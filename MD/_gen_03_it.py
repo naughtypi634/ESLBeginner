@@ -74,8 +74,8 @@ body {
 table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0 1.3mm; }
 tr { break-inside: avoid; page-break-inside: avoid; }
 td { padding: 1.5mm 2mm; vertical-align: middle; }
-td.cn { width: 17mm; font-size: 11.5px; font-weight: 600; color: #444; white-space: nowrap; overflow: hidden; }
-td.en { width: 33mm; font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; }
+td.cn { width: 22mm; font-size: 11.5px; font-weight: 600; color: #444; white-space: nowrap; overflow: hidden; }
+td.en { width: 38mm; font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; }
 td.ex {
     font-size: 12px; font-weight: 500;
     border-left: 1.1mm solid #111; white-space: nowrap; overflow: hidden;
