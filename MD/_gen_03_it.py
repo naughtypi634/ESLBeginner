@@ -47,9 +47,17 @@ body {
 
 /* ---------- 句型区块：自然分页，标题与首行不拆开 ---------- */
 .pat { break-inside: auto; }
+/* 相邻 pattern 之间留空隙，突出「上个 pattern 已结束、新 pattern 开始」 */
+.pat + .pat { margin-top: 5mm; }
 .patintro { break-inside: avoid; page-break-inside: avoid; }
 .pathead, .cat { break-after: avoid; page-break-after: avoid; }
-.pathead { border-bottom: 2px solid #111; padding-bottom: 2.4mm; margin-bottom: 2.8mm; }
+/* 亮行：每个 pattern 头部用浅灰底带 + 底部粗线，标记新 pattern 开始 */
+.pathead {
+    background: #efefef;
+    border-bottom: 2px solid #111;
+    padding: 1.8mm 3mm 1.8mm;
+    margin-bottom: 3mm;
+}
 .patnum { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; color: #666; }
 .formula { font-size: 17px; font-weight: 800; margin-top: 1.2mm; }
 .note { font-size: 11px; color: #555; font-style: italic; margin-top: 2mm; }
@@ -153,7 +161,7 @@ def build_html(patterns: list[dict]) -> str:
         parts.append("<div class='pat'>")
         parts.append("<div class='patintro'>")
         parts.append("<div class='pathead'>")
-        parts.append(f"<div class='patnum'>PATTERN {i} / 9</div>")
+        parts.append(f"<div class='patnum'>PATTERN {i} / {len(patterns)}</div>")
         parts.append(f"<div class='formula'>{inline(pat['formula'])}</div>")
         if pat["note"]:
             parts.append(f"<div class='note'>{inline(pat['note'])}</div>")
