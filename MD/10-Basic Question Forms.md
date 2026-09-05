@@ -1,60 +1,124 @@
 # Basic Question Forms · 基础提问
 
-## 课程介绍
+## 1. Question words 疑问词
 
-本周我们练习基础提问，了解 what / where / when / why / who / how 的用法，学会用疑问句获取信息，并应用到问路、点餐、开会等日常场景中。
-
-## 1. Warm-up 热身
+### What / where / when / why / who / how
 
 | English | Chinese |
 |---|---|
-| You hear a new word in a meeting. What do you say? | 开会听到新词，你会说什么？ |
-| → What mean? / How spell? / Say again? | 什么意思？/ 怎么拼？/ 再说一遍？ |
-| Is it hard to ask for help in English? | 用英语求助难吗？ |
-| → No problem / A little / Very hard | 没问题 / 有点 / 很难 |
+| **What** does this word mean? | 这个词是什么意思？ |
+| **Where** is the meeting room? | 会议室在哪儿？ |
+| **When** does the train leave? | 火车什么时候出发？ |
+| **Why** is the app not working? | 为什么这个应用不能用了？ |
+| **Who** sent this message? | 谁发的这条消息？ |
+| **How** do I pay here? | 我怎么在这里付款？ |
 
-## 2. Useful Expressions 常用表达
-
-### Question Words 疑问词
-
-| English | Chinese | Example |
-|---|---|---|
-| what | 什么 | **What** does this word mean? |
-| where | 哪里 | **Where** is the meeting room? |
-| when | 什么时候 | **When** does the train leave? |
-| why | 为什么 | **Why** is the app down? |
-| who | 谁 | **Who** sent this message? |
-| how | 怎么 | **How** do I pay here? |
-
-### Yes/No Starters 是非问句开头
-
-| English | Chinese | Example |
-|---|---|---|
-| do / does | 一般现在时助动词 | **Do** you use WeChat Pay? |
-| is / are | be 动词 | **Is** the canteen open now? |
-| can | 能 | **Can** I ask a question? |
-| have | 完成时 | **Have** you tried 共享单车? |
-
-### Short Answers 简短回答
+### Question word + be / do
 
 | English | Chinese |
 |---|---|
-| Yes, sure. / No, not yet. | 当然。/ 还没。 |
-| Okay. / Fine. / Right. | 好的。/ 行。/ 对。 |
+| What is your job? | 你做什么工作的？ |
+| Where are you from? | 你来自哪里？ |
+| When is the meeting? | 会议什么时候开始？ |
+| Why are you late? | 你为什么迟到？ |
+| Who is in charge here? | 谁负责这件事？ |
+| How do I get to the office? | 我怎么去办公室？ |
 
-## 3. Sentence Starters 句型开头
+---
 
-| English | Chinese | Keywords |
-|---|---|---|
-| **___ you from Beijing?** | 你是北京人吗？ | Are / Do / Is → **Are** |
-| **___ is your WeChat number?** | 你的微信号是多少？ | What / How / Where → **What** |
-| **___ I ask you something?** | 我能问你点事吗？ | Can / Do / Am → **Can** |
+## 2. Yes / No questions 是非疑问句
 
-## 4. Discussion 讨论
+### Be + subject + complement?
 
-| English | Chinese | Answer tags |
-|---|---|---|
-| You want to ask your boss a question. What do you say? | 你想问老板一个问题，怎么说？ | Excuse me / Quick question / Can I ask? |
-| You need to find a shared bike. What do you ask? | 你要找共享单车，问什么？ | Where bike? / How pay? / Is free? |
-| Your friend sends a voice message. You can't hear it. What do you ask? | 朋友发来语音听不清，你问什么？ | Say again / Can text? / What time? |
-| Is it easy to ask questions on WeChat? | 在微信上提问容易吗？ | Very easy / Sometimes hard / Not bad |
+| English | Chinese |
+|---|---|
+| **Are** you free this weekend? | 你这周末有空吗？ |
+| **Is** the canteen open now? | 食堂现在开门吗？ |
+| **Are** you on the subway? | 你在地铁上吗？ |
+| **Is** this the right office? | 这是正确的办公室吗？ |
+| **Are** you ready for the meeting? | 你准备好开会了吗？ |
+
+### Do / Does + subject + verb?
+
+| English | Chinese |
+|---|---|
+| **Do** you use WeChat Pay? | 你用微信支付吗？ |
+| **Does** this bus stop at the station? | 这辆公交车停这个站吗？ |
+| **Do** you know the password? | 你知道密码吗？ |
+| **Does** your company offer remote work? | 你们公司提供远程办公吗？ |
+| **Do** you have any extra chairs? | 你们有多余的椅子吗？ |
+
+### Can / Could / Will
+
+| English | Chinese |
+|---|---|
+| **Can** I ask a quick question? | 我能问一个简短的问题吗？ |
+| **Could** you repeat that? | 你能再说一遍吗？ |
+| **Will** the meeting start on time? | 会议会按时开始吗？ |
+| **Can** you send me the file? | 你可以把文件发给我吗？ |
+| **Could** you help me with this? | 你能帮我处理一下这个吗？ |
+
+---
+
+## 3. Wh- questions 特殊疑问句
+
+### Ask for information
+
+| English | Chinese |
+|---|---|
+| **What** time does the train leave? | 火车什么时候出发？ |
+| **Where** is the nearest bus stop? | 最近的公交车站在哪里？ |
+| **When** does the meeting start? | 会议什么时候开始？ |
+| **Why** is the app down? | 为什么这个应用挂了？ |
+| **Who** is in charge of this? | 谁负责这件事？ |
+| **How** do I pay for this? | 我怎么付款？ |
+
+### Questions with more detail
+
+| English | Chinese |
+|---|---|
+| **How much** is this? | 这个多少钱？ |
+| **How many** people are in the group? | 这个群里有多少人？ |
+| **Which** floor is the office on? | 办公室在几楼？ |
+| **Whose** bag is this? | 这个包是谁的？ |
+| **How long** does it take? | 这要多久？ |
+
+---
+
+## 4. Polite question forms 礼貌提问
+
+| English | Chinese |
+|---|---|
+| Excuse me, **could you help me**? | 劳烦你一下，你能帮我吗？ |
+| **Can I ask** a quick question? | 我能问一个简短的问题吗？ |
+| **Do you know** where the office is? | 你知道办公室在哪里吗？ |
+| **Could you tell me** how to pay? | 你能告诉我怎么付款吗？ |
+| **Is it okay if I ask** one more question? | 我再问一个问题可以吗？ |
+
+---
+
+## 5. Short answers 简短回答
+
+| English | Chinese |
+|---|---|
+| Yes, of course. | 当然。 |
+| No, not yet. | 不，还没。 |
+| Sure. | 可以。 |
+| Sorry, I don't know. | 对不起，我不知道。 |
+| Maybe later. | 也许晚点。 |
+| Yes, I can. | 对，我可以。 |
+
+---
+
+## 6. Real-life practice 场景练习
+
+| Situation | Useful question |
+|---|---|
+| ask for directions | Where is the nearest subway station? |
+| ask about time | When does the train leave? |
+| ask about payment | How do I pay here? |
+| ask for help | Could you help me with this? |
+| confirm a detail | Is this the right office? |
+| ask for a quick favor | Can you send me the file? |
+| ask a coworker for a delay | Why are you late for the meeting? |
+| ask a question politely | Excuse me, can I ask a question? |

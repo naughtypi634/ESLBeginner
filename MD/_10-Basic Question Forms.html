@@ -1,33 +1,101 @@
 <!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><title>10-Basic Question Forms.md</title><style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
-    width: 210mm; background: #ffffff; color: #1a1a1a;
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #161616;
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
-    font-size: 11px; line-height: 1.5;
+    font-size: 12px; line-height: 1.45;
 }
 .page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
-h1 { font-size: 20px; font-weight: 800; color: #000; border-bottom: 2px solid #000; padding-bottom: 4px; margin-bottom: 8px; }
-h2 { font-size: 13px; font-weight: 800; color: #000; margin: 10px 0 4px 0; }
-h3 { font-size: 11.5px; font-weight: 700; color: #333; margin: 7px 0 3px 0; }
-p { margin: 3px 0; }
-hr { border: none; border-top: 1px solid #d0d0d0; margin: 6px 0; }
-table { width: 100%; border-collapse: collapse; margin: 3px 0 6px 0; font-size: 10px; }
-th, td { border: 1px solid #cccccc; padding: 3px 6px; text-align: left; vertical-align: top; }
-th { background: #f0f0f0; font-weight: 800; }
-b { color: #000; }
+h1 {
+    font-size: 24px; font-weight: 600; color: #161616;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #161616;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #525252; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #161616; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
+table.matrix { table-layout: fixed; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #161616; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #161616; }
+td:nth-child(2) { color: #525252; }
+td:last-child { color: #525252; }
+b { color: #161616; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #161616; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #525252; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #0f62fe; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #161616; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #525252; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
 </style></head><body><div class='page'><h1>Basic Question Forms · 基础提问</h1>
-<h2>1. Warm-up 热身</h2>
-<table><tr><th>English</th><th>Chinese</th></tr><tr><td>You hear a new word in a meeting. What do you say?</td><td>开会听到新词，你会说什么？</td></tr><tr><td>→ What mean? / How spell? / Say again?</td><td>什么意思？/ 怎么拼？/ 再说一遍？</td></tr><tr><td>Is it hard to ask for help in English?</td><td>用英语求助难吗？</td></tr><tr><td>→ No problem / A little / Very hard</td><td>没问题 / 有点 / 很难</td></tr></table>
-<h2>2. Useful Expressions 常用表达</h2>
-<h3>Question Words 疑问词</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>what</td><td>什么</td><td><b>What</b> does this word mean?</td></tr><tr><td>where</td><td>哪里</td><td><b>Where</b> is the meeting room?</td></tr><tr><td>when</td><td>什么时候</td><td><b>When</b> does the train leave?</td></tr><tr><td>why</td><td>为什么</td><td><b>Why</b> is the app down?</td></tr><tr><td>who</td><td>谁</td><td><b>Who</b> sent this message?</td></tr><tr><td>how</td><td>怎么</td><td><b>How</b> do I pay here?</td></tr></table>
-<h3>Yes/No Starters 是非问句开头</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>do / does</td><td>一般现在时助动词</td><td><b>Do</b> you use WeChat Pay?</td></tr><tr><td>is / are</td><td>be 动词</td><td><b>Is</b> the canteen open now?</td></tr><tr><td>can</td><td>能</td><td><b>Can</b> I ask a question?</td></tr><tr><td>have</td><td>完成时</td><td><b>Have</b> you tried 共享单车?</td></tr></table>
-<h3>Short Answers 简短回答</h3>
-<table><tr><th>English</th><th>Chinese</th></tr><tr><td>Yes, sure. / No, not yet.</td><td>当然。/ 还没。</td></tr><tr><td>Okay. / Fine. / Right.</td><td>好的。/ 行。/ 对。</td></tr></table>
-<h2>3. Sentence Starters 句型开头</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Keywords</th></tr><tr><td><b>___ you from Beijing?</b></td><td>你是北京人吗？</td><td>Are / Do / Is → <b>Are</b></td></tr><tr><td><b>___ is your WeChat number?</b></td><td>你的微信号是多少？</td><td>What / How / Where → <b>What</b></td></tr><tr><td><b>___ I ask you something?</b></td><td>我能问你点事吗？</td><td>Can / Do / Am → <b>Can</b></td></tr></table>
-<h2>4. Discussion 讨论</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Answer tags</th></tr><tr><td>You want to ask your boss a question. What do you say?</td><td>你想问老板一个问题，怎么说？</td><td>Excuse me / Quick question / Can I ask?</td></tr><tr><td>You need to find a shared bike. What do you ask?</td><td>你要找共享单车，问什么？</td><td>Where bike? / How pay? / Is free?</td></tr><tr><td>Your friend sends a voice message. You can't hear it. What do you ask?</td><td>朋友发来语音听不清，你问什么？</td><td>Say again / Can text? / What time?</td></tr><tr><td>Is it easy to ask questions on WeChat?</td><td>在微信上提问容易吗？</td><td>Very easy / Sometimes hard / Not bad</td></tr></table></div></body></html>
+<h2>1. Question words 疑问词</h2>
+<h3>What / where / when / why / who / how</h3>
+<table><tr><th>English</th><th>Chinese</th></tr><tr><td><b>What</b> does this word mean?</td><td>这个词是什么意思？</td></tr><tr><td><b>Where</b> is the meeting room?</td><td>会议室在哪儿？</td></tr><tr><td><b>When</b> does the train leave?</td><td>火车什么时候出发？</td></tr><tr><td><b>Why</b> is the app not working?</td><td>为什么这个应用不能用了？</td></tr><tr><td><b>Who</b> sent this message?</td><td>谁发的这条消息？</td></tr><tr><td><b>How</b> do I pay here?</td><td>我怎么在这里付款？</td></tr></table>
+<h3>Question word + be / do</h3>
+<table><tr><th>English</th><th>Chinese</th></tr><tr><td>What is your job?</td><td>你做什么工作的？</td></tr><tr><td>Where are you from?</td><td>你来自哪里？</td></tr><tr><td>When is the meeting?</td><td>会议什么时候开始？</td></tr><tr><td>Why are you late?</td><td>你为什么迟到？</td></tr><tr><td>Who is in charge here?</td><td>谁负责这件事？</td></tr><tr><td>How do I get to the office?</td><td>我怎么去办公室？</td></tr></table>
+<hr>
+<h2>2. Yes / No questions 是非疑问句</h2>
+<h3>Be + subject + complement?</h3>
+<table><tr><th>English</th><th>Chinese</th></tr><tr><td><b>Are</b> you free this weekend?</td><td>你这周末有空吗？</td></tr><tr><td><b>Is</b> the canteen open now?</td><td>食堂现在开门吗？</td></tr><tr><td><b>Are</b> you on the subway?</td><td>你在地铁上吗？</td></tr><tr><td><b>Is</b> this the right office?</td><td>这是正确的办公室吗？</td></tr><tr><td><b>Are</b> you ready for the meeting?</td><td>你准备好开会了吗？</td></tr></table>
+<h3>Do / Does + subject + verb?</h3>
+<table><tr><th>English</th><th>Chinese</th></tr><tr><td><b>Do</b> you use WeChat Pay?</td><td>你用微信支付吗？</td></tr><tr><td><b>Does</b> this bus stop at the station?</td><td>这辆公交车停这个站吗？</td></tr><tr><td><b>Do</b> you know the password?</td><td>你知道密码吗？</td></tr><tr><td><b>Does</b> your company offer remote work?</td><td>你们公司提供远程办公吗？</td></tr><tr><td><b>Do</b> you have any extra chairs?</td><td>你们有多余的椅子吗？</td></tr></table>
+<h3>Can / Could / Will</h3>
+<table><tr><th>English</th><th>Chinese</th></tr><tr><td><b>Can</b> I ask a quick question?</td><td>我能问一个简短的问题吗？</td></tr><tr><td><b>Could</b> you repeat that?</td><td>你能再说一遍吗？</td></tr><tr><td><b>Will</b> the meeting start on time?</td><td>会议会按时开始吗？</td></tr><tr><td><b>Can</b> you send me the file?</td><td>你可以把文件发给我吗？</td></tr><tr><td><b>Could</b> you help me with this?</td><td>你能帮我处理一下这个吗？</td></tr></table>
+<hr>
+<h2>3. Wh- questions 特殊疑问句</h2>
+<h3>Ask for information</h3>
+<table><tr><th>English</th><th>Chinese</th></tr><tr><td><b>What</b> time does the train leave?</td><td>火车什么时候出发？</td></tr><tr><td><b>Where</b> is the nearest bus stop?</td><td>最近的公交车站在哪里？</td></tr><tr><td><b>When</b> does the meeting start?</td><td>会议什么时候开始？</td></tr><tr><td><b>Why</b> is the app down?</td><td>为什么这个应用挂了？</td></tr><tr><td><b>Who</b> is in charge of this?</td><td>谁负责这件事？</td></tr><tr><td><b>How</b> do I pay for this?</td><td>我怎么付款？</td></tr></table>
+<h3>Questions with more detail</h3>
+<table><tr><th>English</th><th>Chinese</th></tr><tr><td><b>How much</b> is this?</td><td>这个多少钱？</td></tr><tr><td><b>How many</b> people are in the group?</td><td>这个群里有多少人？</td></tr><tr><td><b>Which</b> floor is the office on?</td><td>办公室在几楼？</td></tr><tr><td><b>Whose</b> bag is this?</td><td>这个包是谁的？</td></tr><tr><td><b>How long</b> does it take?</td><td>这要多久？</td></tr></table>
+<hr>
+<h2>4. Polite question forms 礼貌提问</h2>
+<table><tr><th>English</th><th>Chinese</th></tr><tr><td>Excuse me, <b>could you help me</b>?</td><td>劳烦你一下，你能帮我吗？</td></tr><tr><td><b>Can I ask</b> a quick question?</td><td>我能问一个简短的问题吗？</td></tr><tr><td><b>Do you know</b> where the office is?</td><td>你知道办公室在哪里吗？</td></tr><tr><td><b>Could you tell me</b> how to pay?</td><td>你能告诉我怎么付款吗？</td></tr><tr><td><b>Is it okay if I ask</b> one more question?</td><td>我再问一个问题可以吗？</td></tr></table>
+<hr>
+<h2>5. Short answers 简短回答</h2>
+<table><tr><th>English</th><th>Chinese</th></tr><tr><td>Yes, of course.</td><td>当然。</td></tr><tr><td>No, not yet.</td><td>不，还没。</td></tr><tr><td>Sure.</td><td>可以。</td></tr><tr><td>Sorry, I don't know.</td><td>对不起，我不知道。</td></tr><tr><td>Maybe later.</td><td>也许晚点。</td></tr><tr><td>Yes, I can.</td><td>对，我可以。</td></tr></table>
+<hr>
+<h2>6. Real-life practice 场景练习</h2>
+<table><tr><td>Situation</td><td>Useful question</td></tr><tr><td>ask for directions</td><td>Where is the nearest subway station?</td></tr><tr><td>ask about time</td><td>When does the train leave?</td></tr><tr><td>ask about payment</td><td>How do I pay here?</td></tr><tr><td>ask for help</td><td>Could you help me with this?</td></tr><tr><td>confirm a detail</td><td>Is this the right office?</td></tr><tr><td>ask for a quick favor</td><td>Can you send me the file?</td></tr><tr><td>ask a coworker for a delay</td><td>Why are you late for the meeting?</td></tr><tr><td>ask a question politely</td><td>Excuse me, can I ask a question?</td></tr></table></div></body></html>

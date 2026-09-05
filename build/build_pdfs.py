@@ -66,6 +66,7 @@ META = {
     "04-Frequency.md": dict(title="频率副词与表达"),
     "05-Comparative And Superlative.md": dict(title="比较级与最高级"),
     "06-How to describe a person.md": dict(title="How to describe a person"),
+    "10-Basic Question Forms.md": dict(title="Basic Question Forms"),
     "07-定语从句练习.md": dict(title="定语从句练习"),
 }
 
@@ -76,6 +77,7 @@ ORDER = [
     "04-Frequency.md",
     "05-Comparative And Superlative.md",
     "06-How to describe a person.md",
+    "10-Basic Question Forms.md",
     "07-定语从句练习.md",
 ]
 
@@ -421,6 +423,47 @@ def parse_03(lines):
     return out
 
 
+def parse_10(lines):
+    out = []
+    title = lines[0][2:].strip()
+    meta = META["10-Basic Question Forms.md"]
+    out.append(T_title(meta))
+    sn = 0
+    i, n = 1, len(lines)
+    while i < n:
+        s = lines[i].strip()
+        if not s or s == title:
+            i += 1
+            continue
+        if s == "---":
+            out.append(T_pagebreak())
+            i += 1
+            continue
+        if s.startswith("## "):
+            sn += 1
+            h = s[3:].strip()
+            m = re.match(r"^(\d+)\.\s*(.*)$", h)
+            num = m.group(1) if m else str(sn)
+            cn = m.group(2) if m else h
+            out.append(T_section(num, cn))
+            i += 1
+            continue
+        if s.startswith("### "):
+            h = s[4:].strip()
+            out.append(T_subheader(h))
+            i += 1
+            continue
+        if s.startswith("|"):
+            header, rows, i = parse_md_table(lines, i)
+            out.append(T_mdtable(header, rows))
+            continue
+        if re.match(r"^[A-Za-z].*\|.*\|.*$", s):
+            i += 1
+            continue
+        i += 1
+    return out, meta
+
+
 def parse_md_table(lines, i):
     header = [c.strip() for c in lines[i].strip().strip("|").split("|")]
     i += 1
@@ -691,6 +734,7 @@ PARSERS = {
     "04-Frequency.md": parse_04,
     "05-Comparative And Superlative.md": parse_05,
     "06-How to describe a person.md": parse_06,
+    "10-Basic Question Forms.md": parse_10,
     "07-定语从句练习.md": parse_07,
 }
 
@@ -764,7 +808,7 @@ def build_one(fname: str, render_png: bool):
             body, meta = res, META[fname]
     if isinstance(body, list):
         body = "\n".join(body)
-    if fname in ("01-Be 动词的用法.md", "02-There be 句型.md", "03-it-句型.md"):
+    if fname in ("01-Be 动词的用法.md", "02-There be 句型.md", "03-it-句型.md", "10-Basic Question Forms.md"):
         meta = META[fname]
         body = T_title(meta) + "\n" + body
 
