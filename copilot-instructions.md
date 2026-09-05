@@ -14,6 +14,7 @@ This repository is a **standalone project**. Follow these rules strictly on ever
 - **习语必须当代、真实在用**：只选 2020 年代英语口语中真实高频的习语/俚语，避免教科书式、老套、过时的表达（如 over the moon、raining cats and dogs、down in the dumps 之类）。拿不准就先查证再写。
 - **例句要有具体画面**：每条例句必须包含具体场景、人物和动作，让读者能立刻在脑中成像并代入（如 "I'm in a good mood — my coffee was free today."），禁止写干巴巴的通用例句（如 "I'm happy today."）。
 - **内容要求不得明文标注**：用户给出的选题或措辞要求（如“无关痛痒”“不敏感”“轻松有趣”）只作为生成准则，禁止原样写进文档标题、正文或引导句（如不要写 “Some common, harmless examples:” 这类给作者看的说明文字）。
+- **禁止擅自添加元内容**：不得添加用户未要求的副标题、工作表标签、说明性标签、宣传语或其他元话术；只保留用户要求的标题和教学内容。
 
 ## Hard prohibitions
 

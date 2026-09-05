@@ -37,8 +37,11 @@ def _resolve_toolchain():
     back to PATH: pandoc, then xelatex (TeX Live) or tectonic.
     """
     if sys.platform.startswith("win"):
+        pandoc = r"C:\Users\ZZC\AppData\Local\Pandoc\pandoc.exe"
+        if not Path(pandoc).exists():
+            pandoc = shutil.which("pandoc") or "pandoc"
         return (
-            r"C:\Users\ZZC\AppData\Local\Pandoc\pandoc.exe",
+            pandoc,
             "xelatex",
             r"C:\Users\ZZC\AppData\Local\Programs\MiKTeX\miktex\bin\x64",
             ROOT / ".venv" / "Scripts" / "python.exe",
@@ -67,6 +70,7 @@ META = {
     "05-Comparative And Superlative.md": dict(title="比较级与最高级"),
     "06-How to describe a person.md": dict(title="How to describe a person"),
     "10-Basic Question Forms.md": dict(title="Basic Question Forms"),
+    "24-Weather.md": dict(title="Weather"),
     "07-定语从句练习.md": dict(title="定语从句练习"),
 }
 
@@ -78,6 +82,7 @@ ORDER = [
     "05-Comparative And Superlative.md",
     "06-How to describe a person.md",
     "10-Basic Question Forms.md",
+    "24-Weather.md",
     "07-定语从句练习.md",
 ]
 
@@ -135,6 +140,10 @@ def raw(latex: str) -> str:
 # ---------------------------------------------------------------- latex emit
 def T_title(meta):
     return raw(f"\\esltitle{{{l(meta['title'])}}}")
+
+
+def T_weather_title(meta):
+    return raw(f"\\eslweathertitle{{{l(meta['title'])}}}")
 
 
 def T_section(num, cn, en="", lfun=l):
@@ -296,6 +305,47 @@ def T_mdtable(header, rows):
     return T_tabular(cols, hdr, body)
 
 
+def T_weather_table(header, rows):
+    """Black-and-white weather tables with purpose-built column proportions."""
+    cols = len(header)
+    font = "\\hspace{0.4em}"
+    def header_cells():
+        return " & ".join("\\bfseries \\hspace{0.4em}" + l(c) for c in header)
+    def row_cells(r):
+        return " & ".join("\\hspace{0.4em}" + l(c) for c in r)
+    rows_tex = [row_cells(r) for r in rows]
+    is_discussion = header and header[0].strip().lower() == "question"
+    if is_discussion:
+        colspec = r"@{}>{\RaggedRight\arraybackslash}m{0.58\textwidth}@{\hspace{16pt}}>{\RaggedRight\arraybackslash}m{0.34\textwidth}@{}"
+        font_size = "\\fontsize{11pt}{14pt}\\selectfont"
+        arraystretch = "3.0"
+    elif cols == 3:
+        colspec = r"@{}>{\RaggedRight\arraybackslash}m{0.16\textwidth}@{\hspace{14pt}}>{\RaggedRight\arraybackslash}m{0.34\textwidth}@{\hspace{14pt}}>{\RaggedRight\arraybackslash}m{0.36\textwidth}@{}"
+        font_size = "\\fontsize{8.6pt}{11pt}\\selectfont"
+        arraystretch = "1.5"
+    elif cols == 4:
+        colspec = r"@{}>{\RaggedRight\arraybackslash}m{0.15\textwidth}@{\hspace{12pt}}>{\RaggedRight\arraybackslash}m{0.27\textwidth}@{\hspace{14pt}}>{\RaggedRight\arraybackslash}m{0.15\textwidth}@{\hspace{12pt}}>{\RaggedRight\arraybackslash}m{0.27\textwidth}@{}"
+        font_size = "\\fontsize{8.6pt}{11pt}\\selectfont"
+        arraystretch = "1.5"
+    elif cols == 1:
+        colspec = r"@{}>{\RaggedRight\arraybackslash}m{0.34\textwidth}@{}"
+        font_size = "\\fontsize{8.6pt}{11pt}\\selectfont"
+        arraystretch = "1.5"
+    else:
+        colspec = r"@{}>{\RaggedRight\arraybackslash}m{0.28\textwidth}@{\hspace{16pt}}>{\RaggedRight\arraybackslash}m{0.58\textwidth}@{}"
+        font_size = "\\fontsize{8.6pt}{11pt}\\selectfont"
+        arraystretch = "1.5"
+    lines = [
+        "\\par\\vspace{0pt}",
+        "\\noindent{" + font_size + "\\setlength{\\tabcolsep}{0pt}\\renewcommand{\\arraystretch}{" + arraystretch + "}",
+        "\\begin{tabularx}{\\textwidth}{" + colspec + "}",
+        "  \\rowcolor{filllight}" + header_cells() + "\\\\\\cline{1-" + str(cols) + "}",
+    ]
+    lines.extend(("  " + row + " \\\\\\cline{1-" + str(cols) + "}") for row in rows_tex)
+    lines.extend(["\\end{tabularx}}\\par\\vspace{9pt}"])
+    return raw("\n".join(lines))
+
+
 # ---------------------------------------------------------------- parsers
 def parse_01(lines):
     out = []
@@ -435,9 +485,14 @@ def parse_10(lines):
         if not s or s == title:
             i += 1
             continue
-        if s == "---":
+        if s in ("---", "<!-- pagebreak -->"):
             out.append(T_pagebreak())
             i += 1
+            continue
+        if s == "## 课程介绍":
+            i += 1
+            while i < n and not lines[i].strip().startswith("## "):
+                i += 1
             continue
         if s.startswith("## "):
             sn += 1
@@ -462,6 +517,41 @@ def parse_10(lines):
             continue
         i += 1
     return out, meta
+
+
+def parse_weather(lines):
+    out = []
+    title = lines[0][2:].strip()
+    i, n = 1, len(lines)
+    while i < n:
+        s = lines[i].strip()
+        if not s or s == title:
+            i += 1
+            continue
+        if s in ("---", "<!-- pagebreak -->"):
+            out.append(T_pagebreak())
+            i += 1
+            continue
+        if s == "## 课程介绍":
+            i += 1
+            while i < n and not lines[i].strip().startswith("## "):
+                i += 1
+            continue
+        if s.startswith("## "):
+            h = s[3:].strip()
+            out.append(raw(f"\\eslweathersection{{{l(h)}}}"))
+            i += 1
+            continue
+        if s.startswith("### "):
+            out.append(T_subheader(s[4:].strip()))
+            i += 1
+            continue
+        if s.startswith("|"):
+            header, rows, i = parse_md_table(lines, i)
+            out.append(T_weather_table(header, rows))
+            continue
+        i += 1
+    return out, META["24-Weather.md"]
 
 
 def parse_md_table(lines, i):
@@ -735,6 +825,7 @@ PARSERS = {
     "05-Comparative And Superlative.md": parse_05,
     "06-How to describe a person.md": parse_06,
     "10-Basic Question Forms.md": parse_10,
+    "24-Weather.md": parse_weather,
     "07-定语从句练习.md": parse_07,
 }
 
@@ -808,7 +899,10 @@ def build_one(fname: str, render_png: bool):
             body, meta = res, META[fname]
     if isinstance(body, list):
         body = "\n".join(body)
-    if fname in ("01-Be 动词的用法.md", "02-There be 句型.md", "03-it-句型.md", "10-Basic Question Forms.md"):
+    if fname == "24-Weather.md":
+        meta = META[fname]
+        body = T_weather_title(meta) + "\n" + body
+    elif fname in ("01-Be 动词的用法.md", "02-There be 句型.md", "03-it-句型.md", "10-Basic Question Forms.md"):
         meta = META[fname]
         body = T_title(meta) + "\n" + body
 

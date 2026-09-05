@@ -68,6 +68,23 @@
   \vspace{9pt}
 }
 
+% ---------- compact weather worksheet headings ----------
+\newcommand{\eslweathertitle}[1]{%
+  \newgeometry{a4paper,top=16mm,bottom=16mm,left=18mm,right=18mm}%
+  \fancyfoot[R]{\footnotesize\color{black}\dispfont\thepage}%
+  \par\vspace{0pt}%
+  \noindent{\dispfont\bfseries\fontsize{32pt}{36pt}\selectfont #1}\par
+  \vspace{12pt}%
+  {\color{ink}\hrule height 2.4pt\relax}\par
+  \vspace{10pt}%
+}
+
+\newcommand{\eslweathersection}[1]{%
+  \par\vspace{2pt}%
+  \noindent\colorbox{ink}{\hspace{10pt}\color{white}\dispfont\bfseries\fontsize{9.5pt}{11pt}\selectfont\rule{0pt}{9pt}#1\hspace{10pt}}\par
+  \vspace{6pt}%
+}
+
 % ---------- pattern formula ----------
 \newcommand{\eslformula}[2]{%
   \par\vspace{6pt}%
