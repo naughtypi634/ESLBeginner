@@ -1,35 +1,204 @@
 <!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><title>19-Time Clauses.md</title><style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
-    width: 210mm; background: #ffffff; color: #1a1a1a;
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #161616;
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
-    font-size: 11px; line-height: 1.5;
+    font-size: 12px; line-height: 1.45;
 }
 .page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
-h1 { font-size: 20px; font-weight: 800; color: #000; border-bottom: 2px solid #000; padding-bottom: 4px; margin-bottom: 8px; }
-h2 { font-size: 13px; font-weight: 800; color: #000; margin: 10px 0 4px 0; }
-h3 { font-size: 11.5px; font-weight: 700; color: #333; margin: 7px 0 3px 0; }
-p { margin: 3px 0; }
-hr { border: none; border-top: 1px solid #d0d0d0; margin: 6px 0; }
-table { width: 100%; border-collapse: collapse; margin: 3px 0 6px 0; font-size: 10px; }
-th, td { border: 1px solid #cccccc; padding: 3px 6px; text-align: left; vertical-align: top; }
-th { background: #f0f0f0; font-weight: 800; }
-b { color: #000; }
+h1 {
+    font-size: 24px; font-weight: 600; color: #161616;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #161616;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #525252; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #161616; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
+table.matrix { table-layout: fixed; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #161616; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #161616; }
+td:nth-child(2) { color: #525252; }
+td:last-child { color: #525252; }
+b { color: #161616; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #161616; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #525252; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #0f62fe; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #161616; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #525252; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
 </style></head><body><div class='page'><h1>Time Clauses · 时间状语从句</h1>
-<h2>1. Warm-up 热身</h2>
-<table><tr><th>English</th><th>Chinese</th></tr><tr><td>When do you usually check your phone?</td><td>你通常什么时候看手机？</td></tr><tr><td>→ After waking up / During lunch / Before bed</td><td>起床后 / 午休 / 睡前</td></tr><tr><td>When is the best time for a short break?</td><td>什么时候适合休息一下？</td></tr><tr><td>→ After work / Before dinner / During rain</td><td>下班后 / 晚饭前 / 下雨时</td></tr></table>
-<h2>2. Useful Expressions 常用表达</h2>
-<h3>Starting the Day 起床后</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>after I wake up</td><td>我醒来后</td><td>I check my phone <b>after I wake up</b>.</td></tr><tr><td>before I shower</td><td>洗澡前</td><td>I read news <b>before I shower</b>.</td></tr><tr><td>while I eat</td><td>吃饭时</td><td>I listen to podcasts <b>while I eat</b>.</td></tr><tr><td>as soon as I'm ready</td><td>一准备好</td><td>I leave <b>as soon as I'm ready</b>.</td></tr></table>
-<h3>Using Apps 用 App 时</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>when I order food</td><td>点餐时</td><td>I open 美团 <b>when I order food</b>.</td></tr><tr><td>before I pay</td><td>付款前</td><td>I check the total <b>before I pay</b>.</td></tr><tr><td>after I scan the code</td><td>扫码后</td><td>The menu appears <b>after I scan the code</b>.</td></tr><tr><td>while I watch videos</td><td>看视频时</td><td>I reply to messages <b>while I watch videos</b>.</td></tr></table>
-<h3>Eating Out 在外吃饭</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>when I sit down</td><td>一坐下</td><td>I scan the menu <b>when I sit down</b>.</td></tr><tr><td>before I order</td><td>点单前</td><td>I ask for recommendations <b>before I order</b>.</td></tr><tr><td>while I wait</td><td>等餐时</td><td>I scroll my phone <b>while I wait</b>.</td></tr><tr><td>until the bill comes</td><td>直到账单来</td><td>We chat <b>until the bill comes</b>.</td></tr></table>
-<h3>Going Home 回家路上</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>when I leave the office</td><td>离开办公室时</td><td>I call my mom <b>when I leave the office</b>.</td></tr><tr><td>while I'm on the metro</td><td>在地铁上时</td><td>I read <b>while I'm on the metro</b>.</td></tr><tr><td>as soon as I unlock the door</td><td>一开门</td><td>I turn on the AC <b>as soon as I unlock the door</b>.</td></tr></table>
-<h2>3. Sentence Starters 句型开头</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Keywords</th></tr><tr><td>I <b>______</b> my phone when I get home from work.</td><td>下班到家我就……手机。</td><td>charge / charging / charges</td></tr><tr><td>When I <b>______</b> a delivery, I go to the locker.</td><td>有快递时，我去快递柜。</td><td>have / having / has</td></tr><tr><td><b>______</b> I finish work, I walk home.</td><td>下班后我走路回家。</td><td>After / Before / While</td></tr></table>
-<h2>4. Discussion 讨论</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Answer tags</th></tr><tr><td>When do you read the news in the morning?</td><td>你早上什么时候看新闻？</td><td>After coffee / Before shower / While eating</td></tr><tr><td>When is the best time to check WeChat?</td><td>什么时候适合看微信？</td><td>After waking / Before work / During break</td></tr><tr><td>When do you open 美团?</td><td>你什么时候打开美团？</td><td>Before lunch / After work / When hungry</td></tr><tr><td>When is it good to put down your phone?</td><td>什么时候该放下手机？</td><td>Before dinner / While walking / Before bed</td></tr><tr><td>When do you use 共享单车?</td><td>你什么时候骑共享单车？</td><td>After lunch / Before meeting / When free</td></tr></table></div></body></html>
+<h2>1. 核心结构</h2>
+<h3>时间从句：表示某个时间点、同时和先后</h3>
+<p class='dq'>when：当……的时候</p>
+<p>结构：`when + 完整句子`</p>
+<p>I put my phone away <b>when the meeting starts</b>.</p>
+<p><b>When I get home</b>, I feed the cat first.</p>
+<p>Call me <b>when you arrive at the station</b>.</p>
+<p class='dq'>while：在……期间</p>
+<p>结构：`while + 完整句子`</p>
+<p>I listen to a podcast <b>while I walk to the station</b>.</p>
+<p>I read messages <b>while I am on the train</b>.</p>
+<p>She checks the list <b>while she waits for the delivery</b>.</p>
+<p class='dq'>as：在……的时候 / 随着……</p>
+<p>结构：`as + 完整句子`</p>
+<p><b>As I walk home</b>, I listen to a voice message.</p>
+<p><b>As the weather gets colder</b>, I take the metro more often.</p>
+<p><b>As the meeting goes on</b>, everyone becomes more relaxed.</p>
+<p class='dq'>just as：正当……的时候</p>
+<p>结构：`just as + 完整句子`</p>
+<p><b>Just as I was leaving</b>, my manager called me.</p>
+<p><b>Just as we sat down</b>, the food arrived.</p>
+<p><b>Just as I opened the door</b>, my phone rang.</p>
+<p class='dq'>before：在……之前</p>
+<p>结构：`before + 完整句子`</p>
+<p>I check the address <b>before I place the order</b>.</p>
+<p>I check the window <b>before I leave home</b>.</p>
+<p>Read the message twice <b>before you send it</b>.</p>
+<p class='dq'>after：在……之后</p>
+<p>结构：`after + 完整句子`</p>
+<p>I call the courier <b>after the app shows “delivered.”</b></p>
+<p><b>After I finish work</b>, I usually take the metro home.</p>
+<p>We went for coffee <b>after the meeting ended</b>.</p>
+<p class='dq'>as soon as：一……就……</p>
+<p>结构：`as soon as + 完整句子`</p>
+<p>I will call you <b>as soon as I arrive</b>.</p>
+<p>She will reply <b>as soon as she has a free minute</b>.</p>
+<p><b>As soon as the rain stops</b>, we will leave.</p>
+<h3>时间从句：表示重复、特定次数和紧接发生</h3>
+<p class='dq'>whenever：每当……的时候</p>
+<p>结构：`whenever + 完整句子`</p>
+<p><b>Whenever I work from home</b>, I take a short walk at lunch.</p>
+<p>Call me <b>whenever you need help</b>.</p>
+<p><b>Whenever the weather is nice</b>, we eat outside.</p>
+<p class='dq'>every time：每次……的时候</p>
+<p>结构：`every time + 完整句子`</p>
+<p>I listen to the same show <b>every time I take the metro</b>.</p>
+<p>He takes a taxi <b>every time it rains heavily</b>.</p>
+<p><b>Every time I open this app</b>, I see a new notice.</p>
+<p class='dq'>the first time：第一次……的时候</p>
+<p>结构：`the first time + 完整句子`</p>
+<p><b>The first time I used the app</b>, I could not find the payment button.</p>
+<p>I felt nervous <b>the first time I spoke in a team meeting</b>.</p>
+<p><b>The first time I visited Shanghai</b>, I used the metro every day.</p>
+<p class='dq'>the next time：下一次……的时候</p>
+<p>结构：`the next time + 完整句子`</p>
+<p><b>The next time you order food</b>, check the delivery address.</p>
+<p>I will ask her <b>the next time I see her</b>.</p>
+<p><b>The next time we meet</b>, let us try the new cafe.</p>
+<p class='dq'>the last time：上一次……的时候</p>
+<p>结构：`the last time + 完整句子`</p>
+<p><b>The last time I took this train</b>, it was very crowded.</p>
+<p>I forgot my umbrella <b>the last time it rained</b>.</p>
+<p><b>The last time we had lunch together</b>, you told me about your new job.</p>
+<p class='dq'>the moment / the minute：一……就……</p>
+<p>结构：`the moment / the minute + 完整句子`</p>
+<p>I changed my clothes <b>the moment I got home</b>.</p>
+<p>She replied <b>the minute she saw my message</b>.</p>
+<p><b>The moment the door opened</b>, the children ran outside.</p>
+<p class='dq'>once：一旦…… / ……之后就……</p>
+<p>结构：`once + 完整句子`</p>
+<p><b>Once I finish this report</b>, I can join you for lunch.</p>
+<p>The file will open <b>once you enter the code</b>.</p>
+<p><b>Once the meeting starts</b>, please keep your phone silent.</p>
+<h3>时间从句：表示起点、终点和某个时间点之前</h3>
+<p class='dq'>until / till：一直到……为止</p>
+<p>结构：`until / till + 完整句子`</p>
+<p>I stay at my desk <b>until the report is ready</b>.</p>
+<p>We waited <b>until the rain stopped</b>.</p>
+<p>Please stay here <b>till the manager comes back</b>.</p>
+<p class='dq'>since / ever since：自从……以来</p>
+<p>结构：`since / ever since + 完整句子`</p>
+<p>I have used this app <b>since I moved to Beijing</b>.</p>
+<p>She has felt more relaxed <b>since she changed teams</b>.</p>
+<p>I have worked from home <b>ever since I changed jobs</b>.</p>
+<p class='dq'>by the time：到……的时候已经……</p>
+<p>结构：`by the time + 完整句子`</p>
+<p><b>By the time I get home</b>, the food will be cold.</p>
+<p><b>By the time the meeting starts</b>, I will have the files ready.</p>
+<p><b>By the time we arrive</b>, the shop will have closed.</p>
+<h3>时间短语：表示时间范围、持续时间和截止时间</h3>
+<p class='dq'>as long as：在……期间 / 只要……</p>
+<p>结构：`as long as + 完整句子`</p>
+<p>You can stay here <b>as long as you need</b>.</p>
+<p>I can help you <b>as long as I have time</b>.</p>
+<p>She listened <b>as long as he was speaking</b>.</p>
+<p class='dq'>during：在……期间</p>
+<p>结构：`during + 名词或名词短语`</p>
+<p>I checked my phone <b>during the meeting</b>.</p>
+<p>We talked about work <b>during lunch</b>.</p>
+<p>It rained heavily <b>during the night</b>.</p>
+<p class='dq'>for：持续……时间</p>
+<p>结构：`for + 一段时间`</p>
+<p>I waited <b>for twenty minutes</b>.</p>
+<p>She worked there <b>for three years</b>.</p>
+<p>We talked <b>for an hour</b>.</p>
+<p class='dq'>within：在……之内</p>
+<p>结构：`within + 时间段`</p>
+<p>Please reply <b>within three days</b>.</p>
+<p>The delivery should arrive <b>within an hour</b>.</p>
+<p>You need to finish the form <b>within ten minutes</b>.</p>
+<p class='dq'>by：不晚于……</p>
+<p>结构：`by + 时间点`</p>
+<p>Please finish the report <b>by Friday</b>.</p>
+<p>I need to be home <b>by nine</b>.</p>
+<p>The payment must arrive <b>by the end of the day</b>.</p>
+</div><div class='page page-break'>
+<h2>2. Time Clauses in Real Life 生活场景</h2>
+<h3>早晨出门 Morning Routine</h3>
+<table><tr><td>时间关系</td><td>英文表达</td><td>中文对照</td></tr><tr><td>起床后</td><td><b>After I wake up</b>, I open the curtains and check the weather.</td><td>起床后，我会拉开窗帘并查看天气。</td></tr><tr><td>洗澡前</td><td>I put my phone on charge <b>before I take a shower</b>.</td><td>洗澡前，我会给手机充电。</td></tr><tr><td>准备好后立即出门</td><td>I leave <b>as soon as I am ready</b>.</td><td>我一准备好就出门。</td></tr><tr><td>出门时</td><td><b>When I leave home</b>, I check that I have my keys.</td><td>出门时，我会确认带了钥匙。</td></tr></table>
+<h3>点餐和付款 Ordering Food</h3>
+<table><tr><td>时间关系</td><td>英文表达</td><td>中文对照</td></tr><tr><td>点餐前</td><td>I check the delivery time <b>before I order</b>.</td><td>点餐前，我会查看配送时间。</td></tr><tr><td>扫码后</td><td><b>After I scan the code</b>, the menu opens on my phone.</td><td>我扫码后，菜单会在手机上打开。</td></tr><tr><td>等餐时</td><td>I answer work messages <b>while I wait for my food</b>.</td><td>等餐时，我会回复工作消息。</td></tr><tr><td>账单来之前</td><td>We talk about the movie <b>until the bill comes</b>.</td><td>账单来之前，我们聊电影。</td></tr></table>
+<h3>工作和会议 Work and Meetings</h3>
+<table><tr><td>时间关系</td><td>英文表达</td><td>中文对照</td></tr><tr><td>会议开始时</td><td><b>When the meeting starts</b>, I put the agenda on the screen.</td><td>会议开始时，我把议程放到屏幕上。</td></tr><tr><td>发邮件前</td><td>I read the message twice <b>before I send it</b>.</td><td>发邮件前，我会把消息读两遍。</td></tr><tr><td>客户加入后</td><td><b>After the client joins</b>, we explain the next step.</td><td>客户加入后，我们会说明下一步。</td></tr><tr><td>会议结束后</td><td>I write down the action points <b>after the call ends</b>.</td><td>电话会议结束后，我会记下行动要点。</td></tr></table>
+<h3>通勤和回家 Commuting and Home</h3>
+<table><tr><td>时间关系</td><td>英文表达</td><td>中文对照</td></tr><tr><td>坐地铁时</td><td>I usually read <b>while I am on the metro</b>.</td><td>坐地铁时，我通常会阅读。</td></tr><tr><td>到站时</td><td>I stand up <b>when my stop is next</b>.</td><td>快到站时，我会站起来。</td></tr><tr><td>到家后</td><td><b>When I get home</b>, I change into comfortable clothes.</td><td>到家后，我会换上舒服的衣服。</td></tr><tr><td>雨停后</td><td>We will ride our bikes <b>after the rain stops</b>.</td><td>雨停后，我们会骑车。</td></tr></table>
+</div><div class='page page-break'>
+<h2>3. Speaking Practice 口语练习</h2>
+<h3>Sentence Starters 句型开头</h3>
+<table><tr><th>English</th><th>Chinese</th><th>Keywords</th></tr><tr><td><b>After I ______</b>, I usually check my work messages.</td><td>我……后，通常会查看工作消息。</td><td>wake up / arrive home / finish dinner</td></tr><tr><td>I check the address <b>before I ______</b>.</td><td>我在……前核对地址。</td><td>place the order / leave home / send the parcel</td></tr><tr><td><b>While I am ______</b>, I usually listen to something.</td><td>我在……时，通常会听点东西。</td><td>commuting / cooking / walking</td></tr><tr><td>I will call you <b>as soon as I ______</b>.</td><td>我一……就给你打电话。</td><td>arrive / finish work / get home</td></tr><tr><td>I will stay here <b>until ______</b>.</td><td>我会一直待在这里，直到……。</td><td>the bus comes / the rain stops / you arrive</td></tr></table>
+<h3>Discussion 讨论</h3>
+<table><tr><th>English</th><th>Chinese</th><th>Answer tags</th></tr><tr><td>What do you usually do after you wake up?</td><td>你起床后通常做什么？</td><td>check phone / drink water / open curtains</td></tr><tr><td>What do you check before you place an order online?</td><td>你网上下单前会检查什么？</td><td>address / price / delivery time</td></tr><tr><td>What do you do while you are on the metro?</td><td>你坐地铁时会做什么？</td><td>read / listen to music / reply to messages</td></tr><tr><td>What will you do as soon as you get home today?</td><td>你今天一到家会做什么？</td><td>change clothes / eat / take a shower</td></tr><tr><td>What can you do until the rain stops?</td><td>下雨停之前你可以做什么？</td><td>wait in a cafe / read / call a friend</td></tr></table></div></body></html>
