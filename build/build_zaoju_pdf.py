@@ -269,6 +269,13 @@ PREAMBLE = r"""% ESLBeginner · 造句公式 compact rebuild (self-contained, la
 % Characters must stay byte-identical to the source.
 \setmainfont{Noto Sans}[Mapping=]
 \setCJKmainfont{Noto Sans SC}
+% Fix: xeCJK defaulted the curly quotes/apostrophes U+2018 ' U+2019 '
+% U+201C " U+201D " (and middle dot / ellipses) to the FULL-WIDTH "Full" punct
+% class, so every apostrophe (e.g. in "I'm") was typeset via the CJK font at
+% ~1em width. Re-declare them as HalfLeft/HalfRight (what xeCJK's own
+% LatinPunct=true does) so they are narrow, Latin-width marks throughout.
+\xeCJKDeclareCharClass{HalfLeft}{"2018, "201C}
+\xeCJKDeclareCharClass{HalfRight}{"00B7, "2019, "201D, "2025, "2026, "2027}
 \usepackage{multicol}
 \usepackage{xcolor}
 \definecolor{ink}{HTML}{1A1A1A}
