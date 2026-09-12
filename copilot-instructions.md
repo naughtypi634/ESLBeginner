@@ -45,6 +45,10 @@ This repository is a **standalone project**. Follow these rules strictly on ever
 
 - 只同步某一课时可加文件名关键字，例如 `.venv\Scripts\python build\sync_intro.py 14`。
 
+## 排版硬规则
+
+- 讲义表格中的英文、中文、例句和问题默认保持单行，不人为插入换行；需要控制长度时，优先改短句子或调整列宽、字号，并在 PDF 中检查实际渲染结果。
+
 ## Verification before acting
 
 - Check the terminal working directory is `F:\AI project\ESLBeginner` before running any command.

@@ -43,6 +43,28 @@ body {
 }
 .page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
+.lesson-section {
+    break-inside: avoid; page-break-inside: avoid;
+}
+body.present-continuous {
+    font-size: 11px;
+}
+body.present-continuous h1 {
+    margin-bottom: 7px;
+}
+body.present-continuous h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.present-continuous p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.present-continuous table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.present-continuous th,
+body.present-continuous td {
+    padding: 4px 8px;
+}
 h1 {
     font-size: 24px; font-weight: 600; color: #161616;
     border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
@@ -67,7 +89,7 @@ table {
     break-inside: avoid; page-break-inside: avoid;
 }
 table.matrix { table-layout: fixed; }
-th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; white-space: nowrap; }
 tr:last-child th, tr:last-child td { border-bottom: none; }
 th {
     font-weight: 600; font-size: 10.5px; color: #161616; background: #f4f4f4;
@@ -123,12 +145,16 @@ def md_to_html(md_text: str) -> str:
     lines = md_text.splitlines()
     out: list[str] = []
     i = 0
+    section_open = False
     while i < len(lines):
         line = lines[i].rstrip()
         if not line.strip():
             i += 1
             continue
         if line.strip() == "<!-- pagebreak -->":
+            if section_open:
+                out.append("</div>")
+                section_open = False
             out.append("</div><div class='page page-break'>")
             i += 1
             continue
@@ -183,6 +209,10 @@ def md_to_html(md_text: str) -> str:
         if line.startswith("### "):
             out.append(f"<h3>{inline(line[4:])}</h3>")
         elif line.startswith("## "):
+            if section_open:
+                out.append("</div>")
+            out.append("<div class='lesson-section'>")
+            section_open = True
             out.append(f"<h2>{inline(line[3:])}</h2>")
         elif line.startswith("# "):
             out.append(f"<h1>{inline(line[2:])}</h1>")
@@ -191,6 +221,8 @@ def md_to_html(md_text: str) -> str:
         else:
             out.append(f"<p>{inline(line)}</p>")
         i += 1
+    if section_open:
+        out.append("</div>")
     return "\n".join(out)
 
 
@@ -218,11 +250,12 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
 def build_html(md_name: str) -> str:
     md_text = (MD_DIR / md_name).read_text(encoding="utf-8")
     body = md_to_html(md_text)
+    body_class = " present-continuous" if md_name == "16-Present Continuous.md" else ""
     return (
         "<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'>"
-        f"<title>{esc(md_name)}</title><style>{CSS}</style></head><body>"
-        f"<div class='page'>{body}</div>"
-        "</body></html>"
+        f"<title>{esc(md_name)}</title><style>{CSS}</style></head>"
+        f"<body class='{body_class.strip()}'><div class='page'>{body}</div></body>"
+        "</html>"
     )
 
 
