@@ -1,5 +1,9 @@
 # Citywalk · Places, Prepositions & Directions
 
+## 课程介绍
+
+本周我们练习城市漫步场景，掌握 26 个核心城市地点词，了解 in/on/at、next to/between/opposite 等位置介词和 into/out of、across/along/through 等方向介词的用法，学会用 There be 句型说清附近有什么、用问路指路的句子说清怎么走，并应用到约见面、找店铺、骑车通勤与周末逛街等日常场景中。
+
 ## 1. Prepositions of Place 位置介词
 
 | 介词 | 例句 | 中文对照 |

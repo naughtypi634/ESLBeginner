@@ -467,7 +467,7 @@
 
 5.  询问计划
 
-    1.  **What are you doing** this coming holiday?
+    1.  **What are you doing** this coming vacation?
 
     2.  **Are you free** for lunch tomorrow?
         例：Are you free for lunch tomorrow? There's a new place near the office.（明天有空一起吃午饭吗？公司附近有家新店。）
@@ -767,7 +767,7 @@
 
     7.  Got it?
 
-    8.  How was your weekend/holiday/exam/interview?
+    8.  How was your weekend/vacation/exam/interview?
 
     9.  How long is this going to take?
         例：How long is this going to take? I have a meeting at 3.（这要多久？我 3 点有会。）

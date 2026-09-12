@@ -32,7 +32,7 @@
 | sth + be sent to + sb (双宾语) | The invite **was sent to** all team members on WeChat. | 邀请函已在微信发给全员。 |
 | get + done (口语被动) | I **got caught** in the rain near the subway exit. | 我在地铁口附近淋了雨。 |
 | get + paid (发薪/收费) | We **get paid** on the 10th day of every month. | 我们每个月 10 号发工资。 |
-| 疑问句 (Be + 主语 + done?) | **Was** your parcel **left** in the smart locker? | 你的快递放在智能柜了吗？ |
+| 疑问句 (Be + 主语 + done?) | **Was** your package **left** in the smart locker? | 你的快递放在智能柜了吗？ |
 | 否定句 (be + not + done) | The file **was not sent** to my personal email. | 文件没有发到我的个人邮箱。 |
 
 <!-- pagebreak -->
@@ -57,7 +57,7 @@
 | 英文例句 | 中文对照 |
 |---|---|
 | The spicy hotpot **is packed** in an insulated bag. | 麻辣烫装在保温袋里以保持温度。 |
-| My parcel **was left** in the smart locker by the gate. | 我的快递被放在大门旁的智能柜里。 |
+| My package **was left** in the smart locker by the gate. | 我的快递被放在大门旁的智能柜里。 |
 | The bubble tea **was picked up** by the rider just now. | 奶茶刚才已经被外卖骑手取走了。 |
 | The wrong dish **was returned** through the app quickly. | 送错的餐品很快通过软件退回了。 |
 
@@ -92,7 +92,7 @@
 
 | 讨论问题 | 中文对照 | 答题关键词 |
 |---|---|---|
-| What is usually delivered to your home every week? | 每周通常有什么东西送到你家？ | takeout / fresh fruit / parcel boxes / milk tea |
+| What is usually delivered to your home every week? | 每周通常有什么东西送到你家？ | takeout / fresh fruit / packages / milk tea |
 | What tasks are assigned to you at work on Mondays? | 周一工作中通常会分配给你什么任务？ | weekly reports / client emails / team meetings |
 | What was recently repaired or fixed in your home? | 你家里最近有什么东西被维修或修好了？ | air conditioner / water pipe / door lock / light |
 | How are important notices shared in your company? | 你们公司的重要通知通常是如何发布的？ | WeChat group / work email / bulletin board |

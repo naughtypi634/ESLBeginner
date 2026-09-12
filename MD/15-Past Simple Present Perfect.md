@@ -37,7 +37,7 @@
 |---|---|---|
 | has changed / has moved | 变了 / 搬了 | The shop **has moved** to the corner. |
 | has closed / has opened | 关了 / 开了 | A new café **has opened** downstairs. |
-| has got / has become | 变得 | The weather **has got** cooler. |
+| has gotten / has become | 变得 | The weather **has gotten** cooler. |
 
 ### Recent Events 最近发生
 

@@ -56,7 +56,7 @@
 - Don’t leave with anyone but me or grandma.  除了我和奶奶，谁接你都不要走。
 - Text me when you get there.  到了给我发消息。
 - Call me on your smartwatch if anything comes up.  有事用电话手表给妈妈打电话。
-- Let’s go to the parcel locker to get our package.  我们去快递柜取包裹。
+- Let’s go to the package locker to get our package.  我们去快递柜取包裹。
 - Type in the pickup code.  输入取件码。
 - Don’t tear the box open yet.  先别拆箱子。
 - Put your water bottle in your bag.  把水杯放进书包。
@@ -305,7 +305,7 @@
 - Help mom knead the dough.  帮妈妈揉面。
 - Get the salt for me, please.  请帮妈妈拿盐。
 - Wipe the countertop off with a cloth.  用抹布擦擦台面。
-- Turn the tap off all the way.  把水龙头拧紧。
+- Turn the faucet off all the way.  把水龙头拧紧。
 - Don’t play with the water.  别玩水。
 - Don’t touch the stove — it’s hot.  别碰灶台，很烫。
 - Stay away from the pan while the oil heats up.  油热的时候离锅远点。
@@ -442,7 +442,7 @@
 - What do you want to wear today?  今天想穿什么？
 - Don’t forget to make the bed.  别忘了铺床。
 - Let’s put some pillowcases on the pillows.  我们把枕套装上。
-- Put your clothes in the wardrobe.  衣服放进衣柜。
+- Put your clothes in the closet.  衣服放进衣柜。
 - Close the drawer gently.  轻轻关抽屉。
 - Let’s see how tall you are.  量量你多高了。
 - Let’s see how much you weigh.  称称你多重了。
@@ -539,7 +539,7 @@
 - Practice jumping rope for the PE test.  练练跳绳，体测要用。
 - Your piano lesson is at 4.  你四点有钢琴课。
 - Your interest class is on Saturday.  周六有课外班。
-- The robotics class is cancelled this week.  这周机器人课取消了。
+- The robotics class is canceled this week.  这周机器人课取消了。
 - You have after-school care today.  今天有托管。
 - Mom has a parent-teacher meeting tonight.  妈妈今晚开家长会。
 - Tell me what you learned today.  跟我说说今天学了什么。

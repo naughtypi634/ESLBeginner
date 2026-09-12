@@ -2153,26 +2153,26 @@
 > B: Just block the number.
 > 直接拉黑这个号码。
 
-### 097. I have got to…
+### 097. I have to…
 
 **Examples**
 
-- I have got to go now.
+- I have to go now.
   - 我得走了。
-- I have got to buy some milk.
+- I have to buy some milk.
   - 我得去买牛奶。
-- I have got to sleep.
+- I have to sleep.
   - 我得睡觉了。
 
 **Dialogue**
 
 > A: Do you want to play?
 > 你想玩吗？
-> B: I have got to go now.
+> B: I have to go now.
 > 我得走了。
 > A: Why?
 > 为什么？
-> B: I have got to cook dinner.
+> B: I have to cook dinner.
 > 我得做晚饭。
 
 ### 098. See that…

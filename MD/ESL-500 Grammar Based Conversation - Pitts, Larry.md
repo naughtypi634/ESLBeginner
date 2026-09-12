@@ -230,7 +230,7 @@ We can also use comparatives to compare one person or thing with all the rest of
 - Which is a bigger priority for you right now, saving money or having more free time?
 - Which is more difficult, speaking English in a business meeting or giving a presentation to your team?
 - Is it easier to stay in touch with old friends on WeChat or through face-to-face meetups?
-- Which season is more comfortable in your city, spring or autumn? Why?
+- Which season is more comfortable in your city, spring or fall? Why?
 
 ## CONDITIONALS REAL WITH THE FUTURE (FIRST CONDITIONAL)
 
@@ -647,7 +647,7 @@ We use had to when talking about the past. We don’t use have got to to talk ab
 - Why do office workers have to check their work messaging apps even during lunch breaks?
 - What does an ESL learner have to practice regularly to sound natural in spoken English?
 - What do you have to do when your phone storage is completely full?
-- What do you have got to buy for your home before winter arrives?
+- What do you have to buy for your home before winter arrives?
 - Where do you have to go when you need to handle tax or social security paperwork?
 - How many hours of sleep do you have to get to stay alert and productive all day?
 - What must you not do during a formal online video conference with clients?
@@ -695,7 +695,7 @@ May not and might not can be used to show that present or future possibilities a
 - If your colleague looks completely exhausted this morning, what must they have done last night?
 - What new technology might replace smartphone apps in the next ten years?
 - Why can't you get a taxi or ride-hailing car easily on a Friday evening in the rain?
-- Where might you and your friends travel for your next short holiday break?
+- Where might you and your friends travel for your next short vacation?
 - What could make an employee decide to switch to a completely new career path?
 - If an apartment downtown has very low rent, what drawbacks might it have?
 - What skills may become essential for office workers as AI tools develop?
@@ -817,7 +817,7 @@ When we want to show who or what did the action we use by.
 - How is fresh coffee prepared and delivered to your office within thirty minutes?
 - Where are the best regional tea leaves grown and harvested in China?
 - What payment methods are accepted at almost every convenience store and street stall?
-- How are online shopping parcels sorted and tracked before delivery?
+- How are online shopping packages sorted and tracked before delivery?
 - In what situations are English emails used in your company?
 - What traditional dishes are served during Chinese Spring Festival family dinners?
 - Where are the latest tech gadgets and smartphones designed and assembled?
@@ -1451,7 +1451,7 @@ To answer tag questions, don’t worry about whether the tag question is negativ
 - You take the subway to work every morning, don't you?
 - You've ordered takeout on Meituan or Ele.me today, haven't you?
 - You didn't work overtime last weekend, did you?
-- You're planning to travel during the upcoming holiday, aren't you?
+- You're planning to travel during the upcoming vacation, aren't you?
 - You have a Luckin Coffee or Manner Coffee near your office, don't you?
 - You haven't renewed your apartment lease yet, have you?
 - You can understand basic English business emails, can't you?
@@ -1504,7 +1504,7 @@ If an action happens only once in the past the past simple is used rather than u
 
 - What games or sports did you use to play after school when you were a teenager?
 - Where would you and your college classmates hang out on Friday evenings?
-- What type of mobile phone did you use to have before smartphones became universal?
+- What type of cell phone did you use to have before smartphones became universal?
 - Did you use to buy physical books and magazines, or did you read everything online?
 - What snacks or street food would you buy regularly outside your middle school gate?
 - How did your daily commute use to look before the new subway lines opened?

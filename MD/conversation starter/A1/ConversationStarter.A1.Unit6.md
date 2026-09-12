@@ -167,7 +167,7 @@ Liam lives in Beijing and was thinking about streaming services. One Saturday, L
 
 The plan was useful, but the free trial was ending. Liam did not give up. Instead, Liam asked a question, checked a message, or made a small change. This helped Liam understand the situation better.
 
-At the end of the day, She cancelled it before paying. Liam learned that a clear plan and one small step can make daily life easier.
+At the end of the day, She canceled it before paying. Liam learned that a clear plan and one small step can make daily life easier.
 
 **Conversation Questions**
 

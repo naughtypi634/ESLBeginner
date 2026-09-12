@@ -779,13 +779,13 @@ Her birthday cake is chocolate.
 她的生日蛋糕是巧克力味的。
 I sing "Happy Birthday" with everyone.
 我和大家一起唱《生日快乐》。
-My birthday is in autumn.
+My birthday is in the fall.
 我的生日在秋天。
 I will eat noodles on my birthday.
 我生日那天会吃面。
 Noodles mean a long life.
 面条代表着长寿。
-In spring, we have a big holiday.
+In spring, we have a long vacation.
 春天我们有个大假期。
 My family travels together.
 我们一家人一起去旅行。

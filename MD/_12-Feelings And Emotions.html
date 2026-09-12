@@ -1,34 +1,82 @@
 <!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><title>12-Feelings And Emotions.md</title><style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Noto Sans', 'Noto Sans SC', 'Source Han Sans CN', 'Microsoft YaHei', 'PingFang SC', sans-serif;
-    width: 210mm; background: #ffffff; color: #000;
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #161616;
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
-    font-size: 12px; line-height: 1.5;
+    font-size: 12px; line-height: 1.45;
 }
 .page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
-h1 { font-size: 20px; font-weight: 800; color: #fff; background: #000; padding: 8px 14px; margin-bottom: 10px; }
-h2 { font-size: 15px; font-weight: 800; color: #000; margin: 8px 0 4px 0; }
-h3 { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; color: #000; margin: 10px 0 4px 0; }
-p { margin: 3px 0; }
-hr { border: none; border-top: 1px solid #000; margin: 6px 0; }
-table { width: 100%; border-collapse: collapse; margin: 2px 0 6px 0; font-size: 11.5px; line-height: 1.4; }
+h1 {
+    font-size: 24px; font-weight: 600; color: #161616;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #161616;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #525252; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #161616; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
 table.matrix { table-layout: fixed; }
-th, td { border: 1px solid #000; padding: 4px 7px; text-align: left; vertical-align: middle; }
-th { font-weight: 800; border-bottom: 2px solid #000; text-align: center; }
-b { color: #000; }
-.dq { font-weight: 800; font-size: 14px; margin: 62px 0 4px 0; }
-h2 + .dq { margin-top: 12px; }
-.dt { margin: 0 0 6px 0; }
-.tag { display: inline-block; border: 1px solid #000; padding: 3px 10px; margin: 0 8px 8px 0; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #161616; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #161616; }
+td:nth-child(2) { color: #525252; }
+td:last-child { color: #525252; }
+b { color: #161616; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #161616; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #525252; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #0f62fe; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #161616; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #525252; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
 </style></head><body><div class='page'><h1>Feelings &amp; Emotions · 感受与情绪</h1>
 <h3>words</h3>
 <table class='matrix'><tr><th>Positive 积极</th><th>Negative 消极</th><th>Neutral 中性</th></tr><tr><td>happy 开心</td><td>sad 难过</td><td>tired 累</td></tr><tr><td>excited 兴奋</td><td>angry 生气</td><td>bored 无聊</td></tr><tr><td>relaxed 放松</td><td>worried 担心</td><td>nervous 紧张</td></tr><tr><td>proud 自豪</td><td>stressed 有压力</td><td>hungry 饿</td></tr><tr><td>lucky 幸运</td><td>scared 害怕</td><td>thirsty 渴</td></tr><tr><td>glad 高兴</td><td>annoyed 心烦</td><td>sleepy 困</td></tr><tr><td>calm 平静</td><td>lonely 孤单</td><td>surprised 惊讶</td></tr><tr><td>thankful 感激</td><td>confused 困惑</td><td>curious 好奇</td></tr><tr><td>pleased 满意</td><td>embarrassed 尴尬</td><td>upset 心烦意乱</td></tr><tr><td>confident 自信</td><td>disappointed 失望</td><td>shy 害羞</td></tr></table>
 <h3>phrases</h3>
 <table class='matrix'><tr><th>Positive 积极</th><th>Negative 消极</th><th>Neutral 中性</th></tr><tr><td>feel great 感觉很好</td><td>feel down 情绪低落</td><td>be on my mind 放在心上</td></tr><tr><td>feel good 感觉不错</td><td>feel sorry for 为……感到难过</td><td>have mixed feelings 百感交集</td></tr><tr><td>feel proud of 为……感到骄傲</td><td>feel guilty 感到内疚</td><td>be torn 纠结 / 左右为难</td></tr><tr><td>feel at home 感觉自在</td><td>feel anxious 感到焦虑</td><td>feel like doing 想做某事</td></tr><tr><td>feel refreshed 感觉精神焕发</td><td>feel frustrated 感到沮丧</td><td>not feel like it 没心情</td></tr><tr><td>feel grateful 心怀感激</td><td>feel hurt 感到受伤</td><td>be up for 乐意做某事</td></tr><tr><td>feel hopeful 感到有希望</td><td>feel bad about 对……感到难受</td><td>don't care 无所谓 / 不太在乎</td></tr><tr><td>feel at ease 感到安心</td><td>be sick of 烦透了</td><td>feel off 感觉不在状态</td></tr><tr><td>feel alive 感觉充满活力</td><td>be fed up with 忍无可忍</td><td>not be myself 不在状态</td></tr><tr><td>be full of energy 精力充沛</td><td>feel left out 被冷落</td><td>feel numb 麻木 / 没感觉</td></tr></table>
 <h3>idioms</h3>
-<table class='matrix'><tr><th>Positive 积极</th><th>Negative 消极</th><th>Neutral 中性</th></tr><tr><td>be on a high 兴奋不已</td><td>be in a funk 蔫了 / 提不起劲</td><td>be in limbo 悬着 / 没着落</td></tr><tr><td>be in my element 如鱼得水</td><td>be in a rut 陷入一成不变</td><td>be up in the air 悬而未决</td></tr><tr><td>be living my best life 活得美滋滋</td><td>be at my breaking point 快撑不住了</td><td>be on the fence 犹豫不决</td></tr><tr><td>on top of the world 高兴极了</td><td>be on edge 紧张不安</td><td>be at a loss 不知所措</td></tr><tr><td>be pumped 超期待</td><td>be at the end of my rope 无计可施</td><td>be in a fog 脑子一团浆糊</td></tr><tr><td>be buzzing 兴奋得不行</td><td>be in a bad place 状态很差</td><td>be miles away 心不在焉</td></tr><tr><td>be all smiles 满脸笑容</td><td>be out of sorts 情绪不佳</td><td>be all over the place 心乱如麻</td></tr><tr><td>have a spring in my step 步伐轻快</td><td>be burnt out 心力交瘁</td><td>be lost in thought 陷入沉思</td></tr><tr><td>be glowing 容光焕发</td><td>be drained 精疲力竭</td><td>be blown away 大为惊叹</td></tr><tr><td>be in the zone 状态极佳</td><td>be losing it 快崩溃了</td><td>be taken aback 吃了一惊</td></tr></table>
+<table class='matrix'><tr><th>Positive 积极</th><th>Negative 消极</th><th>Neutral 中性</th></tr><tr><td>be on a high 兴奋不已</td><td>be in a funk 蔫了 / 提不起劲</td><td>be in limbo 悬着 / 没着落</td></tr><tr><td>be in my element 如鱼得水</td><td>be in a rut 陷入一成不变</td><td>be up in the air 悬而未决</td></tr><tr><td>be living my best life 活得美滋滋</td><td>be at my breaking point 快撑不住了</td><td>be on the fence 犹豫不决</td></tr><tr><td>on top of the world 高兴极了</td><td>be on edge 紧张不安</td><td>be at a loss 不知所措</td></tr><tr><td>be pumped 超期待</td><td>be at the end of my rope 无计可施</td><td>be in a fog 脑子一团浆糊</td></tr><tr><td>be buzzing 兴奋得不行</td><td>be in a bad place 状态很差</td><td>be miles away 心不在焉</td></tr><tr><td>be all smiles 满脸笑容</td><td>be out of sorts 情绪不佳</td><td>be all over the place 心乱如麻</td></tr><tr><td>have a spring in my step 步伐轻快</td><td>be burned out 心力交瘁</td><td>be lost in thought 陷入沉思</td></tr><tr><td>be glowing 容光焕发</td><td>be drained 精疲力竭</td><td>be blown away 大为惊叹</td></tr><tr><td>be in the zone 状态极佳</td><td>be losing it 快崩溃了</td><td>be taken aback 吃了一惊</td></tr></table>
 </div><div class='page page-break'>
 <h2>Discussion 讨论</h2>
 <p class='dq'>Your boss sends a long voice message. How do you feel?</p>

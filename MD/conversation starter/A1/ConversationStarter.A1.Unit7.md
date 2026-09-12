@@ -7,7 +7,7 @@
 **Key Vocabulary**
 
 1. sport
-2. football
+2. soccer
 3. basketball
 4. player
 5. team

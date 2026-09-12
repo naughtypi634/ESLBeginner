@@ -23,7 +23,7 @@
 
 | 使用场景 | 常用介词 | 英文例句 | 中文对照 |
 |---|---|---|---|
-| 在某物旁边 | **next to** | The parcel locker is **next to** the building entrance. | 快递柜在楼门旁边。 |
+| 在某物旁边 | **next to** | The package locker is **next to** the building entrance. | 快递柜在楼门旁边。 |
 | 在某物前面或后面 | **in front of / behind** | The bus stop is **in front of** the shopping mall. | 公交站在商场前面。 |
 | 在两个人或两件物品之间 | **between** | My seat is **between** the window and the aisle. | 我的座位在窗户和过道之间。 |
 | 在更高或更低的位置 | **above / below** | The cafe is two floors **below** my apartment. | 咖啡馆在我家楼下两层。 |
@@ -46,7 +46,7 @@
 |---|---|---|---|
 | 从外面进入一个空间 | **into** | She walked **into** the meeting room with her laptop. | 她带着笔记本电脑走进会议室。 |
 | 从空间里面拿出来 | **out of** | I took my umbrella **out of** the taxi. | 我把伞从出租车里拿了出来。 |
-| 移到一个表面上 | **onto** | He put the parcel **onto** the counter for the clerk. | 他把包裹放到柜台上给店员看。 |
+| 移到一个表面上 | **onto** | He put the package **onto** the counter for the clerk. | 他把包裹放到柜台上给店员看。 |
 | 从表面或交通工具上下来 | **off** | Please get **off** the bus at the next stop. | 请在下一站下公交车。 |
 
 ### 过马路、穿过空间、经过地点
@@ -54,7 +54,7 @@
 | 使用场景 | 常用介词 | 英文例句 | 中文对照 |
 |---|---|---|---|
 | 从一边到另一边，横穿一个区域 | **across** | We walked **across** the street after the light turned green. | 绿灯亮后，我们走过了马路。 |
-| 从空间内部穿过去 | **through** | The shortcut goes **through** the underground passage. | 这条近路穿过地下通道。 |
+| 从空间内部穿过去 | **through** | The shortcut goes **through** the underpass. | 这条近路穿过地下通道。 |
 | 从某个地点旁边经过 | **past** | Walk **past** the pharmacy and turn right. | 走过药店后右转。 |
 | 沿着道路、河边或走廊移动 | **along** | They cycled **along** the river after work. | 他们下班后沿着河边骑车。 |
 
@@ -65,7 +65,7 @@
 | 朝某个目标靠近 | **towards** | The delivery rider is coming **towards** our building. | 外卖骑手正朝我们楼走来。 |
 | 离开某人或某物 | **away from** | Keep **away from** the wet floor. | 请远离湿地面。 |
 | 绕过障碍物或地点 | **around** | We walked **around** the roadworks to reach the station. | 我们绕过施工路段到达车站。 |
-| 向上或向下移动 | **up / down** | Take the lift **up** to the fifth floor, then walk **down** the hall. | 乘电梯上五楼，然后沿走廊走下去。 |
+| 向上或向下移动 | **up / down** | Take the elevator **up** to the fifth floor, then walk **down** the hall. | 乘电梯上五楼，然后沿走廊走下去。 |
 
 ### 方向词的区别
 

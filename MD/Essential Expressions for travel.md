@@ -107,7 +107,7 @@ Essential Expressions for travel
   **"How much can I bring in          
   duty-free?"**                       "~ I bought two bottles of wine."
 
-  **"I'm here for a holiday."**       "I'm here for a holiday with my
+  **"I'm here on vacation."**       "I'm here on vacation with my
                                       family."
 
   **"I'm staying for five days."**    "I'm staying for five days, until
@@ -125,7 +125,7 @@ Essential Expressions for travel
   -----------------------------------------------------------------------
   **Expression**                      **Example Sentence**
   ----------------------------------- -----------------------------------
-  **"My flight was cancelled. What    
+  **"My flight was canceled. What    
   should I do?"**                     "~ Can you help me rebook?"
 
   **"Can I rebook my flight for       "Can I rebook my flight for

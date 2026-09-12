@@ -51,7 +51,7 @@ FIX = [
      r"categoris|minimis|maximis|criticis)(e|ed|es|ing)\b", "-ize", "e.g. realise -> realize"),
     (r"\banalys(e|ed|es|ing)\b", "analyze", ""),
     (r"\btravell(ed|ing|er|ers)\b", "traveled", ""),
-    (r"\bcancell(ed|ing|ation|ations)\b", "canceled", ""),
+    (r"\bcancell(ed|ing)\b", "canceled", ""),
     (r"\blabell(ed|ing)\b", "labeled", ""),
     (r"\bmodell(ed|ing)\b", "modeled", ""),
     (r"\bjewellery\b", "jewelry", ""),
@@ -79,7 +79,6 @@ FIX = [
     (r"\bpavement(s)?\b", "sidewalk", ""),
     (r"\bcar ?park(s)?\b", "parking lot", ""),
     (r"\bzebra crossing(s)?\b", "crosswalk", ""),
-    (r"\bholiday(s)?\b", "vacation", ""),
     (r"\blorries?\b", "truck", ""),
     (r"\bpetrol\b", "gas", ""),
     (r"\bmobile phone(s)?\b", "cell phone", ""),
@@ -104,7 +103,7 @@ FIX = [
     (r"\bhoover(s|ed|ing)?\b", "vacuum", ""),
     (r"\bflyover(s)?\b", "overpass", ""),
     # grammar
-    (r"\b(have|has|had) got\b", "have / has / had", "AmE drops 'got'"),
+    (r"\b(have|has|had) got\b(?!\s+to\b)", "have / has / had", "AmE drops 'got' (possession)"),
     (r"\bat the weekend\b", "on the weekend", ""),
     (r"\bdifferent to\b", "different from", ""),
     (r"\bon holiday\b", "on vacation", ""),
@@ -132,6 +131,10 @@ REVIEW = [
     (r"\bsurgery\b", "doctor's office", ""),
     (r"\bground floor\b", "first floor", "AmE first floor = 一楼"),
     (r"\bpost (me|it|this)\b", "mail", "only when it means 邮寄"),
+    (r"\bholiday(s)?\b", "vacation", "假期用 vacation；公众节日 holiday 保留"),
+    (r"\bhave got to\b", "have to", "AmE 口语也说；书面建议改 have to"),
+    (r"\bseaside\b", "beach", "AmE 更常说 beach"),
+    (r"\bporridge\b", "congee / oatmeal", "粥用 congee（中式）或 oatmeal（燕麦）"),
 ]
 
 COMPILED = [(re.compile(p, re.I), rep, note, "FIX") for p, rep, note in FIX] + [

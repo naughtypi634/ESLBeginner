@@ -93,7 +93,7 @@ At the end of the day, The extra work paid for a train ticket. Emma learned that
 
 Liam lives in Shenzhen and was thinking about budgeting and spending. One Saturday, Liam visited a place or joined an activity about budgeting and spending. Liam listed rent, food, transport, and phone costs. Liam checked the list with their partner.
 
-The plan was useful, but a takeaway order was not in the plan. Liam did not give up. Instead, Liam asked a question, checked a message, or made a small change. This helped Liam understand the situation better.
+The plan was useful, but a takeout order was not in the plan. Liam did not give up. Instead, Liam asked a question, checked a message, or made a small change. This helped Liam understand the situation better.
 
 At the end of the day, They cooked at home on Sunday. Liam learned that a clear plan and one small step can make daily life easier.
 

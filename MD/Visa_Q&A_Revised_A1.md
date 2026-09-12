@@ -9,7 +9,7 @@
 | 问题 | 推荐回答（A1 水平） | 策略要点 |
 | :--- | :--- | :--- |
 | **What's the purpose of your trip?** | I go to the US for tourism. I want to see New York and Los Angeles. After my trip, I will go back to China. | 明确旅游目的，并立即强调“会回来”。 |
-| **How long will you stay?** | I will stay for 14 days. I have only 2 weeks of holiday from my job. Then I must go back to work. | 用“假期只有两周”强调必须回国上班。 |
+| **How long will you stay?** | I will stay for 14 days. I only have 2 weeks of vacation from my job. Then I must go back to work. | 用“假期只有两周”强调必须回国上班。 |
 | **Which cities will you visit?** | I will visit New York and Los Angeles. I plan to see the Statue of Liberty and Hollywood. | 提到具体景点，让行程显得真实。 |
 | **When will you leave China?** | I will leave in October. My flight is on October 10th. | 简单给出日期。 |
 | **Do you have an itinerary?** | Yes, here is my travel plan. I have hotel bookings and flight tickets. | 主动出示材料，展示准备充分。 |

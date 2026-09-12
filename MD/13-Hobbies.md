@@ -95,5 +95,5 @@
 | Is it necessary to have hobbies? | 有必要有爱好吗？ | Yes / I think so / It depends |
 | Are many hobbies good? | 爱好越多越好吗？ | Yes, more fun / Not always / Quality over quantity |
 | Do hobbies help you make friends? | 爱好能帮你交朋友吗？ | Yes, shared interests / Sometimes / It can |
-| What hobby is popular in your country? | 你们国家流行什么爱好？ | Football / K-pop / Online games |
+| What hobby is popular in your country? | 你们国家流行什么爱好？ | Soccer / K-pop / Online games |
 | Should people do hobbies alone or with friends? | 爱好应该一个人做还是一起做？ | Alone / With friends / Both |

@@ -104,7 +104,7 @@ We use modal verbs to make logical deductions and express how certain we are bas
 
 ### Discussion Questions
 
-- If a milk tea shop has a long queue, what must customers think?
+- If a milk tea shop has a long line, what must customers think?
 - Why might it be hard to hail a ride on a rainy Friday evening?
 - If a coworker looks totally exhausted, what could have happened?
 - What AI tools or smart devices might change office work soon?

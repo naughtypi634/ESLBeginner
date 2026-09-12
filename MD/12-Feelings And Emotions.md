@@ -41,7 +41,7 @@
 | be pumped 超期待 | be at the end of my rope 无计可施 | be in a fog 脑子一团浆糊 |
 | be buzzing 兴奋得不行 | be in a bad place 状态很差 | be miles away 心不在焉 |
 | be all smiles 满脸笑容 | be out of sorts 情绪不佳 | be all over the place 心乱如麻 |
-| have a spring in my step 步伐轻快 | be burnt out 心力交瘁 | be lost in thought 陷入沉思 |
+| have a spring in my step 步伐轻快 | be burned out 心力交瘁 | be lost in thought 陷入沉思 |
 | be glowing 容光焕发 | be drained 精疲力竭 | be blown away 大为惊叹 |
 | be in the zone 状态极佳 | be losing it 快崩溃了 | be taken aback 吃了一惊 |
 

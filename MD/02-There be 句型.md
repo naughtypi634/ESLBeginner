@@ -241,7 +241,7 @@ Negative Patterns 否定搭配
 **There's no way** I'm going to eat that.
 我绝对不会吃那个的。
 Affirmative Patterns 肯定搭配
-**There's a chance** the meeting might get cancelled.
+**There's a chance** the meeting might get canceled.
 会议有可能取消。
 **There's nothing good** on TV tonight.
 今晚电视上没好*看的。

@@ -279,7 +279,7 @@ The payment must arrive **by the end of the day**.
 | English | Chinese | Keywords |
 |---|---|---|
 | **After I ______**, I usually check my work messages. | 我……后，通常会查看工作消息。 | wake up / arrive home / finish dinner |
-| I check the address **before I ______**. | 我在……前核对地址。 | place the order / leave home / send the parcel |
+| I check the address **before I ______**. | 我在……前核对地址。 | place the order / leave home / send the package |
 | **While I am ______**, I usually listen to something. | 我在……时，通常会听点东西。 | commuting / cooking / walking |
 | I will call you **as soon as I ______**. | 我一……就给你打电话。 | arrive / finish work / get home |
 | I will stay here **until ______**. | 我会一直待在这里，直到……。 | the bus comes / the rain stops / you arrive |

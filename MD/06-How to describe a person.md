@@ -102,7 +102,7 @@ PATTERN：be from / grow up / be in one's 20s / rent / commute / support
 | He's **in his late 20s**. | 他快 30 了。 |
 | She's **from a coastal city**. | 她来自沿海城市。 |
 | He **grew up in a small town**. | 他在小城市长大。 |
-| She **rents a shared flat** with roommates. | 她跟室友合租。 |
+| She **rents a shared apartment** with roommates. | 她跟室友合租。 |
 | He **commutes one hour each way**. | 他单程通勤一小时。 |
 | He **still relies on his parents** for rent. | 他房租还靠父母。 |
 | She **owns a small apartment with a mortgage**. | 她买了小房子，在还贷款。 |
