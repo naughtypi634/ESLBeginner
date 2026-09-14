@@ -64,6 +64,7 @@ CJK_RE = re.compile(
 
 META = {
     "01-Be 动词的用法.md": dict(title="Be 动词的用法"),
+    "01-1-Be 动词的用法(A1).md": dict(title="Be 动词的用法（A1）"),
     "02-There be 句型.md": dict(title="There be 句型"),
     "03-it-句型.md": dict(title="It 句型"),
     "04-Frequency.md": dict(title="频率副词与表达"),
@@ -76,6 +77,7 @@ META = {
 
 ORDER = [
     "01-Be 动词的用法.md",
+    "01-1-Be 动词的用法(A1).md",
     "02-There be 句型.md",
     "03-it-句型.md",
     "04-Frequency.md",
@@ -193,6 +195,31 @@ def T_pair(en, cn):
 
 def T_triple(cn, en, ex):
     return raw(f"\\esltriple{{{l(cn)}}}{{{l(en)}}}{{{l(ex)}}}")
+
+
+def T_a1_head_tab(h, colspec, header, rows):
+    """Subheader glued to a width-controlled table (A1 worksheet practice page).
+
+    T_subheader_table gives every column equal width, which wastes space when
+    one column only holds a short answer. The colspec is emitted as raw LaTeX
+    (not passed through a macro argument) because tabularx colspecs lose their
+    @{} / >{} meaning when substituted into a macro body.
+    """
+    hdr = " & ".join(l(c) for c in header)
+    body = " \\\\\n  \\hline\n  ".join(" & ".join(l(c) for c in r) for r in rows)
+    latex = "\n".join([
+        "\\par\\noindent\\begin{minipage}[t]{\\linewidth}",
+        f"\\eslsubheader{{{l(h)}}}",
+        "\\par\\vspace{2pt}",
+        "\\noindent{\\small\\setlength{\\tabcolsep}{4pt}\\renewcommand{\\arraystretch}{1.05}",
+        f"\\begin{{tabularx}}{{\\textwidth}}{{{colspec}}}",
+        f"  \\rowcolor{{filllight}}\\bfseries {hdr}\\\\",
+        "  \\hline",
+        f"  {body}",
+        "\\end{tabularx}}",
+        "\\end{minipage}\\par\\vspace{4pt}",
+    ])
+    return raw(latex)
 
 
 def T_exitem(n, cn, en):
@@ -388,6 +415,86 @@ def parse_01(lines):
         else:
             out.append(T_note(s))
     return out
+
+
+# ---- A1 be-verb worksheet: present tense only, one pattern per page ----
+A1_SUBHEADERS = ("肯定句", "否定句", "一般疑问句", "特殊疑问句")
+A1_TABLE_SUBHEADERS = ("填空", "口语")
+
+
+def _read_md_table(lines, j):
+    """Read a markdown pipe table starting at (or after blanks from) index j.
+
+    Returns (header_cells, body_rows, next_index).
+    """
+    n = len(lines)
+    while j < n and not lines[j].strip():
+        j += 1
+    rows = []
+    while j < n and lines[j].strip().startswith("|"):
+        cells = [c.strip() for c in lines[j].strip().strip("|").split("|")]
+        if not all(re.fullmatch(r":?-{2,}:?", c) for c in cells):
+            rows.append(cells)
+        j += 1
+    return rows[0], rows[1:], j
+
+
+def parse_01_a1(lines):
+    """A1 be-verb worksheet (01-1).
+
+    Same one-pattern-per-page rhythm as parse_01, but present tense only and
+    American English, plus a closing practice page (fill-in + speaking).
+    """
+    meta = META["01-1-Be 动词的用法(A1).md"]
+    out = [T_title(meta)]
+    sn = 0
+    expect_formula = expect_note = False
+    i, n = 0, len(lines)
+    while i < n:
+        s = lines[i].strip()
+        if not s or s.startswith("# "):
+            i += 1
+            continue
+        if "\u00b7" in s and has_cjk(s):  # section header — one usage per page
+            cn, en = (p.strip() for p in s.split("\u00b7", 1))
+            sn += 1
+            if sn > 1:
+                out.append(T_pagebreak())
+            out.append(T_section(f"{sn}", cn, en))
+            expect_formula = cn != "练习"
+            expect_note = False
+            i += 1
+            continue
+        if expect_formula:  # first line after section = pattern formula
+            out.append(T_formula(s))
+            expect_formula = False
+            expect_note = True
+            i += 1
+            continue
+        if expect_note:  # second line after section = word bank
+            out.append(T_note(s))
+            expect_note = False
+            i += 1
+            continue
+        if s in A1_SUBHEADERS:
+            out.append(T_subheader(s))
+            i += 1
+            continue
+        if s.startswith(A1_TABLE_SUBHEADERS):  # subheader glued to its table
+            header, rows, i = _read_md_table(lines, i + 1)
+            width = (r"@{}>{\RaggedRight}p{0.05\textwidth}@{\hspace{6pt}}"
+                     r">{\RaggedRight}X@{\hspace{6pt}}"
+                     r">{\RaggedRight}p{0.14\textwidth}@{}")
+            if s == "口语":
+                width = (r"@{}>{\RaggedRight}p{0.05\textwidth}@{\hspace{6pt}}"
+                         r">{\RaggedRight}X@{\hspace{6pt}}"
+                         r">{\RaggedRight}p{0.26\textwidth}@{}")
+            out.append(T_a1_head_tab(s, width, header, rows))
+            continue
+        en, cn = split_en_cn(s)
+        out.append(T_pair(en, cn) if cn else T_note(s))
+        i += 1
+    return out, meta
 
 
 def parse_02(lines):
@@ -819,6 +926,7 @@ def parse_07(lines):
 
 PARSERS = {
     "01-Be 动词的用法.md": parse_01,
+    "01-1-Be 动词的用法(A1).md": parse_01_a1,
     "02-There be 句型.md": parse_02,
     "03-it-句型.md": parse_03,
     "04-Frequency.md": parse_04,
