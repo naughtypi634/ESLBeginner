@@ -3,6 +3,12 @@
 Usage:
   python _gen_beginner_series.py [04-Frequency.md 06-How to describe a person.md ...]
 Default: renders 04, 06, 10-20 (the merged/new documents).
+
+Names are resolved relative to MD/. Subfolders are supported and mirrored into
+PDF/, e.g. "Travel2Daily/26-01-Is There Nearby.md"
+   -> MD/Travel2Daily/_26-01-Is There Nearby.html
+   -> PDF/Travel2Daily/26-01-Is There Nearby.pdf
+   -> PDF/Travel2Daily/Is There Nearby.pdf   (student copy, number prefix stripped)
 """
 
 import re
@@ -250,7 +256,7 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
 def build_html(md_name: str) -> str:
     md_text = (MD_DIR / md_name).read_text(encoding="utf-8")
     body = md_to_html(md_text)
-    body_class = " present-continuous" if md_name == "16-Present Continuous.md" else ""
+    body_class = " present-continuous" if Path(md_name).name == "16-Present Continuous.md" else ""
     return (
         "<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'>"
         f"<title>{esc(md_name)}</title><style>{CSS}</style></head>"
@@ -262,16 +268,19 @@ def build_html(md_name: str) -> str:
 def main():
     targets = sys.argv[1:] or DEFAULT
     for name in targets:
-        html_path = MD_DIR / f"_{Path(name).stem}.html"
-        pdf_path = PDF_DIR / name.replace(".md", ".pdf")
+        rel = Path(name)
+        md_path = MD_DIR / rel
+        html_path = md_path.with_name(f"_{md_path.stem}.html")
+        pdf_path = PDF_DIR / rel.parent / f"{rel.stem}.pdf"
+        html_path.parent.mkdir(parents=True, exist_ok=True)
         html_path.write_text(build_html(name), encoding="utf-8")
         if export_pdf(html_path, pdf_path):
-            print("OK ", pdf_path.name)
+            print("OK ", pdf_path.relative_to(PDF_DIR))
             sp = make_student_copy(pdf_path)
             if sp:
-                print("    student:", sp.name)
+                print("    student:", sp.relative_to(PDF_DIR))
         else:
-            print("HTML only (no playwright):", html_path.name)
+            print("HTML only (no playwright):", html_path.relative_to(MD_DIR))
 
 
 if __name__ == "__main__":
