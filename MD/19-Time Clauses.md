@@ -242,6 +242,7 @@ The payment must arrive **by the end of the day**.
 | 洗澡前 | I put my phone on charge **before I take a shower**. | 洗澡前，我会给手机充电。 |
 | 准备好后立即出门 | I leave **as soon as I am ready**. | 我一准备好就出门。 |
 | 出门时 | **When I leave home**, I check that I have my keys. | 出门时，我会确认带了钥匙。 |
+| 出门前 | I check the weather app **before I choose my clothes**. | 出门前，我会先看天气再选衣服。 |
 
 ### 点餐和付款 Ordering Food
 
@@ -251,6 +252,7 @@ The payment must arrive **by the end of the day**.
 | 扫码后 | **After I scan the code**, the menu opens on my phone. | 我扫码后，菜单会在手机上打开。 |
 | 等餐时 | I answer work messages **while I wait for my food**. | 等餐时，我会回复工作消息。 |
 | 账单来之前 | We talk about the movie **until the bill comes**. | 账单来之前，我们聊电影。 |
+| 开吃之前 | I take a photo of the food **before I start eating**. | 开吃之前，我会先给菜拍照。 |
 
 ### 工作和会议 Work and Meetings
 
@@ -260,6 +262,7 @@ The payment must arrive **by the end of the day**.
 | 发邮件前 | I read the message twice **before I send it**. | 发邮件前，我会把消息读两遍。 |
 | 客户加入后 | **After the client joins**, we explain the next step. | 客户加入后，我们会说明下一步。 |
 | 会议结束后 | I write down the action points **after the call ends**. | 电话会议结束后，我会记下行动要点。 |
+| 开会前 | I read the notes **before the meeting starts**. | 开会前，我会先看笔记。 |
 
 ### 通勤和回家 Commuting and Home
 
@@ -269,20 +272,32 @@ The payment must arrive **by the end of the day**.
 | 到站时 | I stand up **when my stop is next**. | 快到站时，我会站起来。 |
 | 到家后 | **When I get home**, I change into comfortable clothes. | 到家后，我会换上舒服的衣服。 |
 | 雨停后 | We will ride our bikes **after the rain stops**. | 雨停后，我们会骑车。 |
+| 上车前 | I move my bag to the front **before I get on the train**. | 上车前，我会把包背到前面。 |
+
+### 网购和快递 Online Shopping and Parcels
+
+| 时间关系 | 英文表达 | 中文对照 |
+|---|---|---|
+| 下单前 | I compare the prices **before I place the order**. | 下单前，我会比价。 |
+| 付款后 | **After I pay**, the shop sends me a message. | 付款后，商家会给我发消息。 |
+| 等快递时 | I refresh the tracking page **while I wait for the parcel**. | 等快递时，我会刷新物流页面。 |
+| 快递员打电话后 | I go downstairs **as soon as the courier calls me**. | 快递员一打电话，我就下楼。 |
+| 退货前 | I take photos of the box **before I send it back**. | 退货前，我会先给箱子拍照。 |
+| 拆快递时 | I keep the box **until I check the size**. | 检查尺码之前，我会留着箱子。 |
+
+### 下班后和健身 After Work and the Gym
+
+| 时间关系 | 英文表达 | 中文对照 |
+|---|---|---|
+| 下班后 | **After I finish work**, I go straight to the gym. | 下班后，我直接去健身房。 |
+| 换衣服时 | I fill my water bottle **while I change**. | 换衣服时，我会把水壶装满。 |
+| 等器械时 | I stretch **while I wait for the machine**. | 等器械时，我会做拉伸。 |
+| 练完后 | I check my phone **after my last set**. | 练完后，我会看手机。 |
+| 到家时 | **By the time I get home**, I am too tired to cook. | 我到家的时候，已经累得不想做饭了。 |
 
 <!-- pagebreak -->
 
 ## 3. Speaking Practice 口语练习
-
-### Sentence Starters 句型开头
-
-| English | Chinese | Keywords |
-|---|---|---|
-| **After I ______**, I usually check my work messages. | 我……后，通常会查看工作消息。 | wake up / arrive home / finish dinner |
-| I check the address **before I ______**. | 我在……前核对地址。 | place the order / leave home / send the package |
-| **While I am ______**, I usually listen to something. | 我在……时，通常会听点东西。 | commuting / cooking / walking |
-| I will call you **as soon as I ______**. | 我一……就给你打电话。 | arrive / finish work / get home |
-| I will stay here **until ______**. | 我会一直待在这里，直到……。 | the bus comes / the rain stops / you arrive |
 
 ### Discussion 讨论
 
@@ -293,3 +308,39 @@ The payment must arrive **by the end of the day**.
 | What do you do while you are on the metro? | 你坐地铁时会做什么？ | read / listen to music / reply to messages |
 | What will you do as soon as you get home today? | 你今天一到家会做什么？ | change clothes / eat / take a shower |
 | What can you do until the rain stops? | 下雨停之前你可以做什么？ | wait in a cafe / read / call a friend |
+| What do you do when your manager messages you at 10 pm? | 经理晚上十点发消息时你会做什么？ | reply at once / read it later / check the group |
+| What do you do while you wait for an interview to start? | 面试开始前那段时间你会做什么？ | review notes / drink water / walk around |
+| What do you usually eat before you leave home? | 你出门前通常会吃什么？ | eggs / bread / a sandwich |
+| What do you do after a long meeting ends? | 长会议结束后你会做什么？ | stand up / drink water / check messages |
+| What do you do while your delivery is on the way? | 外卖在路上时你会做什么？ | set the table / watch a show / wash my hands |
+| What do you usually do before you go to bed? | 睡前你通常做什么？ | read / scroll my phone / take a shower |
+| What do you want to finish by the time work ends? | 你希望下班前完成什么？ | the report / my emails / the meeting notes |
+| What do you do whenever your phone battery gets low? | 手机电量低时你会做什么？ | charge it / turn off the screen / stop using it |
+| What do you do while you wait for the metro? | 等地铁时你会做什么？ | listen to music / read / check my email |
+| What do you do until your roommate gets home? | 室友回家前你会做什么？ | cook / study / clean the room |
+| What do you check before you leave the office? | 离开办公室前你会检查什么？ | laptop / keys / tomorrow's plan |
+| What do you do as soon as you wake up on a day off? | 休息日一醒来你会做什么？ | check my phone / sleep more / make coffee |
+| What do you do the first time you meet a teammate? | 第一次见到新同事时你会做什么？ | shake hands / ask questions / take notes |
+| What did you do the last time you were late for work? | 你上次上班迟到时做了什么？ | take a taxi / call my manager / skip breakfast |
+| What will you do the next time it rains hard? | 下次下大雨你会怎么做？ | take a taxi / leave earlier / bring an umbrella |
+| What do you do every time your boss moves a deadline? | 老板每次改截止时间你会做什么？ | update the plan / ask questions / work late |
+| What do you do while the washing machine is running? | 洗衣机运转时你会做什么？ | clean the room / watch a show / answer messages |
+| What do you do once you finish your work for the day? | 一天的工作做完后你会做什么？ | close my laptop / go for a walk / start cooking |
+| What do you do before you join an online meeting? | 加入线上会议前你会做什么？ | test my mic / find a quiet room / read the notes |
+| What do you do whenever the subway is packed? | 地铁特别挤时你会做什么？ | stand near the door / listen to music / wait for the next one |
+| What will you do after this class ends? | 这节课结束后你会做什么？ | review my notes / take a break / call a friend |
+| What do you do while you cook dinner? | 做晚饭时你会做什么？ | listen to a podcast / call my mom / watch a video |
+| What do you do before you answer a work call? | 接工作电话前你会做什么？ | find a quiet place / open my notes / close the door |
+| What do you do until the food arrives at a restaurant? | 在餐厅等上菜时你会做什么？ | talk with friends / drink tea / look at my phone |
+| What do you do while you wait for a reply to your message? | 等对方回消息时你会做什么？ | check the chat again / do something else / call instead |
+| What do you do after you pay your rent each month? | 每月交完房租你会做什么？ | record it / check my balance / plan the month |
+| What do you do before the delivery driver calls you? | 快递员打来电话之前你会做什么？ | stay near my phone / put on shoes / open the door |
+| What do you do while you wait for a friend at the cinema? | 在电影院等朋友时你会做什么？ | buy the tickets / check the showtime / take photos |
+| What do you do while you wait for your coffee at the shop? | 在咖啡店等咖啡时你会做什么？ | check my phone / talk with the barista / read the menu |
+| What do you do after you get a package you do not like? | 收到不满意的快递后你会做什么？ | take photos / apply for a return / call the shop |
+| What do you do whenever you have a day off on a weekday? | 工作日放假时你会做什么？ | sleep in / go to the gym / meet friends |
+| What will you do as soon as your workday ends on Friday? | 周五一下班你会做什么？ | leave the office / meet friends / eat out |
+| What do you do while you wait for a check-up result? | 等体检结果时你会做什么？ | keep working / ask the doctor / check the app |
+| What do you do before you send a voice message at work? | 发工作语音消息前你会做什么？ | think it over / write notes / find a quiet place |
+| What do you do until your friends arrive at the restaurant? | 朋友到餐厅之前你会做什么？ | order tea / read the menu / save seats |
+| What do you do every time you start a new job? | 每次开始一份新工作时你会做什么？ | learn names / ask about tools / set up my desk |

@@ -21,6 +21,12 @@ PDF_DIR = ROOT / "PDF"
 sys.path.insert(0, str(ROOT))
 from build.student_copy import make_student_copy
 
+# Per-lesson spacing profiles, keyed by MD file name -> body class.
+LESSON_CLASS = {
+    "16-Present Continuous.md": "present-continuous",
+    "19-Time Clauses.md": "time-clauses",
+}
+
 DEFAULT = [
     "04-Frequency.md",
     "06-How to describe a person.md",
@@ -70,6 +76,21 @@ body.present-continuous table {
 body.present-continuous th,
 body.present-continuous td {
     padding: 4px 8px;
+}
+/* Time Clauses: 22 structure entries stacked in section 1, so the default
+   48px display-line gap would push it to 3 pages. Tighter gap keeps the whole
+   handout at 4 pages (sec1 x2, sec2 x1, sec3 x1) without shrinking the text. */
+body.time-clauses {
+    line-height: 1.38;
+}
+body.time-clauses .dq {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses h3 {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses p {
+    margin: 1px 0;
 }
 h1 {
     font-size: 24px; font-weight: 600; color: #161616;
@@ -144,7 +165,19 @@ def esc(text: str) -> str:
 
 
 def inline(text: str) -> str:
-    return re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", esc(text))
+    """Single inline pipeline: all markdown/source syntax is converted here.
+
+    Handles every inline marker used by the MD sources so no raw syntax
+    (backticks, underscores) can ever leak into the rendered PDF:
+      **bold**  -> <b>
+      `code`    -> plain text (backticks stripped, kept for authoring clarity)
+      ______    -> underlined blank span
+    """
+    text = esc(text)
+    text = re.sub(r"`([^`]+)`", r"\1", text)
+    text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
+    text = re.sub(r"_{4,}", "<span class='blank'></span>", text)
+    return text
 
 
 def md_to_html(md_text: str) -> str:
@@ -179,7 +212,6 @@ def md_to_html(md_text: str) -> str:
                     tag = inline(row[0].strip()) if row and row[0].strip() else ""
                     sentence = inline(row[1].strip()) if len(row) > 1 and row[1].strip() else ""
                     gloss = inline(row[2].strip()) if len(row) > 2 and row[2].strip() else ""
-                    sentence = sentence.replace("______", "<span class='blank'></span>")
                     row_html = (f"<div class='w6h1-row'><span class='w6h1-tag'>{tag}</span>"
                                 f"<span class='w6h1-en'>{sentence}</span>")
                     if gloss:
@@ -256,11 +288,11 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
 def build_html(md_name: str) -> str:
     md_text = (MD_DIR / md_name).read_text(encoding="utf-8")
     body = md_to_html(md_text)
-    body_class = " present-continuous" if Path(md_name).name == "16-Present Continuous.md" else ""
+    body_class = LESSON_CLASS.get(Path(md_name).name, "")
     return (
         "<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'>"
         f"<title>{esc(md_name)}</title><style>{CSS}</style></head>"
-        f"<body class='{body_class.strip()}'><div class='page'>{body}</div></body>"
+        f"<body class='{body_class}'><div class='page'>{body}</div></body>"
         "</html>"
     )
 
