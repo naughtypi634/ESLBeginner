@@ -33,6 +33,14 @@
 \newfontfamily\dispfont{Montserrat}[Ligatures=TeX]
 \newfontfamily\dispspaced{Montserrat}[LetterSpace=8]
 
+% Symbol glyphs (arrows, ≥) are not covered by every Latin cut of Noto Sans —
+% e.g. the macOS NotoSans-Regular.ttf has no U+2192, so XeTeX silently draws an
+% empty .notdef box where a Windows build showed the arrow. esc_latex() wraps
+% those characters in \eslsym, which renders them with Montserrat (it has the
+% glyphs) while staying in the Latin char class, so CJK width/space rules are
+% not triggered. Additive only: no effect on other fonts or spacing.
+\newcommand{\eslsym}[1]{{\dispfont #1}}
+
 % ---------- layout ----------
 \usepackage{tabularx}
 \usepackage{ragged2e}

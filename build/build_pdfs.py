@@ -113,6 +113,12 @@ def esc_latex(s: str) -> str:
         .replace("%", r"\%")
         .replace("^", r"\textasciicircum{}")
         .replace("~", r"\textasciitilde{}")
+        # Symbol glyphs the local Latin cut of Noto Sans may not cover (macOS
+        # NotoSans-Regular.ttf has no U+2192): XeTeX would draw an empty
+        # .notdef box. \eslsym renders them with Montserrat, which has them,
+        # keeping the Latin char class so CJK spacing rules are not triggered.
+        # Must stay last: it emits backslashes/braces that must not be escaped.
+        .replace("\u2192", "\\eslsym{\u2192}")
     )
 
 
