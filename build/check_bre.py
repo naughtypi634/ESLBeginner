@@ -108,6 +108,8 @@ FIX = [
     (r"\bdifferent to\b", "different from", ""),
     (r"\bon holiday\b", "on vacation", ""),
     (r"\bin hospital\b", "in the hospital", ""),
+    (r"\bput (my|your|his|her|their|the) phone on charge\b",
+     "on the charger / charging", "BrE 充电；AmE 用 on the charger 或 charging"),
 ]
 
 # (regex, american replacement, note) -- ambiguous, needs a human look
@@ -135,6 +137,7 @@ REVIEW = [
     (r"\bhave got to\b", "have to", "AmE 口语也说；书面建议改 have to"),
     (r"\bseaside\b", "beach", "AmE 更常说 beach"),
     (r"\bporridge\b", "congee / oatmeal", "粥用 congee（中式）或 oatmeal（燕麦）"),
+    (r"\bthe shops?\b", "the store", "only when it means 商店/商家（coffee shop / barber shop 保留）"),
 ]
 
 COMPILED = [(re.compile(p, re.I), rep, note, "FIX") for p, rep, note in FIX] + [

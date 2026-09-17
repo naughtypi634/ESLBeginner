@@ -16,6 +16,12 @@ This repository is a **standalone project**. Follow these rules strictly on ever
 - **内容要求不得明文标注**：用户给出的选题或措辞要求（如“无关痛痒”“不敏感”“轻松有趣”）只作为生成准则，禁止原样写进文档标题、正文或引导句（如不要写 “Some common, harmless examples:” 这类给作者看的说明文字）。
 - **禁止擅自添加元内容**：不得添加用户未要求的副标题、工作表标签、说明性标签、宣传语或其他元话术；只保留用户要求的标题和教学内容。
 
+## 语言标准
+
+- 英文一律用**美式英语**（American English），禁止英式拼写、词汇和语法。
+- 完整词表（拼写 / 词汇 / 短语搭配 / 语法）与自检流程见 `AGENTS.md`「语言标准」节和用户级 `ESL-content.instructions.md`。
+- 交付前运行 `.venv/bin/python build/check_bre.py <改动文件…>`，要求 FIX = 0。
+
 ## Hard prohibitions
 
 - **Never** read, search, reference, copy, or modify files from sibling projects:

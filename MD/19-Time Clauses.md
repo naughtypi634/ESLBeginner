@@ -30,7 +30,7 @@ She checks the list **while she waits for the delivery**.
 
 **As I walk home**, I listen to a voice message.
 
-**As the weather gets colder**, I take the metro more often.
+**As the weather gets colder**, I take the subway more often.
 
 **As the meeting goes on**, everyone becomes more relaxed.
 
@@ -60,7 +60,7 @@ Read the message twice **before you send it**.
 
 I call the courier **after the app shows “delivered.”**
 
-**After I finish work**, I usually take the metro home.
+**After I finish work**, I usually take the subway home.
 
 We went for coffee **after the meeting ended**.
 
@@ -90,7 +90,7 @@ Call me **whenever you need help**.
 
 结构：`every time + 完整句子`
 
-I listen to the same show **every time I take the metro**.
+I listen to the same show **every time I take the subway**.
 
 He takes a taxi **every time it rains heavily**.
 
@@ -104,7 +104,7 @@ He takes a taxi **every time it rains heavily**.
 
 I felt nervous **the first time I spoke in a team meeting**.
 
-**The first time I visited Shanghai**, I used the metro every day.
+**The first time I visited Shanghai**, I used the subway every day.
 
 **the next time：下一次……的时候**
 
@@ -176,7 +176,7 @@ I have worked from home **ever since I changed jobs**.
 
 **By the time the meeting starts**, I will have the files ready.
 
-**By the time we arrive**, the shop will have closed.
+**By the time we arrive**, the store will have closed.
 
 ### 时间短语：表示时间范围、持续时间和截止时间
 
@@ -239,7 +239,7 @@ The payment must arrive **by the end of the day**.
 | 时间关系 | 英文表达 | 中文对照 |
 |---|---|---|
 | 起床后 | **After I wake up**, I open the curtains and check the weather. | 起床后，我会拉开窗帘并查看天气。 |
-| 洗澡前 | I put my phone on charge **before I take a shower**. | 洗澡前，我会给手机充电。 |
+| 洗澡前 | I put my phone on the charger **before I take a shower**. | 洗澡前，我会给手机充电。 |
 | 准备好后立即出门 | I leave **as soon as I am ready**. | 我一准备好就出门。 |
 | 出门时 | **When I leave home**, I check that I have my keys. | 出门时，我会确认带了钥匙。 |
 | 出门前 | I check the weather app **before I choose my clothes**. | 出门前，我会先看天气再选衣服。 |
@@ -268,19 +268,19 @@ The payment must arrive **by the end of the day**.
 
 | 时间关系 | 英文表达 | 中文对照 |
 |---|---|---|
-| 坐地铁时 | I usually read **while I am on the metro**. | 坐地铁时，我通常会阅读。 |
+| 坐地铁时 | I usually read **while I am on the subway**. | 坐地铁时，我通常会阅读。 |
 | 到站时 | I stand up **when my stop is next**. | 快到站时，我会站起来。 |
 | 到家后 | **When I get home**, I change into comfortable clothes. | 到家后，我会换上舒服的衣服。 |
 | 雨停后 | We will ride our bikes **after the rain stops**. | 雨停后，我们会骑车。 |
 | 上车前 | I move my bag to the front **before I get on the train**. | 上车前，我会把包背到前面。 |
 
-### 网购和快递 Online Shopping and Parcels
+### 网购和快递 Online Shopping and Packages
 
 | 时间关系 | 英文表达 | 中文对照 |
 |---|---|---|
 | 下单前 | I compare the prices **before I place the order**. | 下单前，我会比价。 |
-| 付款后 | **After I pay**, the shop sends me a message. | 付款后，商家会给我发消息。 |
-| 等快递时 | I refresh the tracking page **while I wait for the parcel**. | 等快递时，我会刷新物流页面。 |
+| 付款后 | **After I pay**, the store sends me a message. | 付款后，商家会给我发消息。 |
+| 等快递时 | I refresh the tracking page **while I wait for the package**. | 等快递时，我会刷新物流页面。 |
 | 快递员打电话后 | I go downstairs **as soon as the courier calls me**. | 快递员一打电话，我就下楼。 |
 | 退货前 | I take photos of the box **before I send it back**. | 退货前，我会先给箱子拍照。 |
 | 拆快递时 | I keep the box **until I check the size**. | 检查尺码之前，我会留着箱子。 |
@@ -305,10 +305,10 @@ The payment must arrive **by the end of the day**.
 |---|---|---|
 | What do you usually do after you wake up? | 你起床后通常做什么？ | check phone / drink water / open curtains |
 | What do you check before you place an order online? | 你网上下单前会检查什么？ | address / price / delivery time |
-| What do you do while you are on the metro? | 你坐地铁时会做什么？ | read / listen to music / reply to messages |
+| What do you do while you are on the subway? | 你坐地铁时会做什么？ | read / listen to music / reply to messages |
 | What will you do as soon as you get home today? | 你今天一到家会做什么？ | change clothes / eat / take a shower |
 | What can you do until the rain stops? | 下雨停之前你可以做什么？ | wait in a cafe / read / call a friend |
-| What do you do when your manager messages you at 10 pm? | 经理晚上十点发消息时你会做什么？ | reply at once / read it later / check the group |
+| What do you do when your manager messages you at 10 pm? | 经理晚上十点发消息时你会做什么？ | reply right away / read it later / check the group |
 | What do you do while you wait for an interview to start? | 面试开始前那段时间你会做什么？ | review notes / drink water / walk around |
 | What do you usually eat before you leave home? | 你出门前通常会吃什么？ | eggs / bread / a sandwich |
 | What do you do after a long meeting ends? | 长会议结束后你会做什么？ | stand up / drink water / check messages |
@@ -316,7 +316,7 @@ The payment must arrive **by the end of the day**.
 | What do you usually do before you go to bed? | 睡前你通常做什么？ | read / scroll my phone / take a shower |
 | What do you want to finish by the time work ends? | 你希望下班前完成什么？ | the report / my emails / the meeting notes |
 | What do you do whenever your phone battery gets low? | 手机电量低时你会做什么？ | charge it / turn off the screen / stop using it |
-| What do you do while you wait for the metro? | 等地铁时你会做什么？ | listen to music / read / check my email |
+| What do you do while you wait for the subway? | 等地铁时你会做什么？ | listen to music / read / check my email |
 | What do you do until your roommate gets home? | 室友回家前你会做什么？ | cook / study / clean the room |
 | What do you check before you leave the office? | 离开办公室前你会检查什么？ | laptop / keys / tomorrow's plan |
 | What do you do as soon as you wake up on a day off? | 休息日一醒来你会做什么？ | check my phone / sleep more / make coffee |
@@ -335,9 +335,9 @@ The payment must arrive **by the end of the day**.
 | What do you do while you wait for a reply to your message? | 等对方回消息时你会做什么？ | check the chat again / do something else / call instead |
 | What do you do after you pay your rent each month? | 每月交完房租你会做什么？ | record it / check my balance / plan the month |
 | What do you do before the delivery driver calls you? | 快递员打来电话之前你会做什么？ | stay near my phone / put on shoes / open the door |
-| What do you do while you wait for a friend at the cinema? | 在电影院等朋友时你会做什么？ | buy the tickets / check the showtime / take photos |
-| What do you do while you wait for your coffee at the shop? | 在咖啡店等咖啡时你会做什么？ | check my phone / talk with the barista / read the menu |
-| What do you do after you get a package you do not like? | 收到不满意的快递后你会做什么？ | take photos / apply for a return / call the shop |
+| What do you do while you wait for a friend at the movies? | 在电影院等朋友时你会做什么？ | buy the tickets / check the showtime / take photos |
+| What do you do while you wait for your coffee at the cafe? | 在咖啡店等咖啡时你会做什么？ | check my phone / talk with the barista / read the menu |
+| What do you do after you get a package you do not like? | 收到不满意的快递后你会做什么？ | take photos / start a return / call the store |
 | What do you do whenever you have a day off on a weekday? | 工作日放假时你会做什么？ | sleep in / go to the gym / meet friends |
 | What will you do as soon as your workday ends on Friday? | 周五一下班你会做什么？ | leave the office / meet friends / eat out |
 | What do you do while you wait for a check-up result? | 等体检结果时你会做什么？ | keep working / ask the doctor / check the app |
