@@ -222,7 +222,9 @@ def md_to_html(md_text: str) -> str:
                 continue
             HEADERS = (["English", "Chinese"], ["English", "Chinese", "Example"],
                        ["English", "Chinese", "Answer tags"], ["English", "Chinese", "Keywords"],
-                       ["Positive 积极", "Negative 消极", "Neutral 中性"])
+                       ["Positive 积极", "Negative 消极", "Neutral 中性"],
+                       ["Color 颜色", "Shape 形状", "Size 大小", "Material 材质"],
+                       ["Positive 积极", "Negative 消极", "Positive 积极", "Negative 消极"])
             is_head = bool(cells) and cells[0] in HEADERS
             cls = ""
             if cells and cells[0] == ["Positive 积极", "Negative 消极", "Neutral 中性"]:

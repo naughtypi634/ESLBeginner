@@ -1,31 +1,142 @@
 <!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><title>11-Describing Things Objects.md</title><style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
-    width: 210mm; background: #ffffff; color: #1a1a1a;
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #161616;
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
-    font-size: 11px; line-height: 1.5;
+    font-size: 12px; line-height: 1.45;
 }
 .page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
-h1 { font-size: 20px; font-weight: 800; color: #000; border-bottom: 2px solid #000; padding-bottom: 4px; margin-bottom: 8px; }
-h2 { font-size: 13px; font-weight: 800; color: #000; margin: 10px 0 4px 0; }
-h3 { font-size: 11.5px; font-weight: 700; color: #333; margin: 7px 0 3px 0; }
-p { margin: 3px 0; }
-hr { border: none; border-top: 1px solid #d0d0d0; margin: 6px 0; }
-table { width: 100%; border-collapse: collapse; margin: 3px 0 6px 0; font-size: 10px; }
-th, td { border: 1px solid #cccccc; padding: 3px 6px; text-align: left; vertical-align: top; }
-th { background: #f0f0f0; font-weight: 800; }
-b { color: #000; }
-</style></head><body><div class='page'><h1>Describing Things &amp; Objects · 描述物品</h1>
-<h2>1. Warm-up 热身</h2>
-<table><tr><th>English</th><th>Chinese</th></tr><tr><td>You see a shared bike. What color is it?</td><td>你看到一辆共享单车，它是什么颜色？</td></tr><tr><td>→ Blue / Yellow / Green</td><td>蓝色 / 黄色 / 绿色</td></tr><tr><td>What is your favorite daily thing?</td><td>你最喜欢的日常物品是什么？</td></tr><tr><td>→ Phone / Wallet / Water cup</td><td>手机 / 钱包 / 水杯</td></tr></table>
-<h2>2. Useful Expressions 常用表达</h2>
-<h3>Colors 颜色 · Shapes 形状</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>red / blue / green</td><td>红 / 蓝 / 绿</td><td>My phone case is <b>blue</b>.</td></tr><tr><td>black / white / yellow</td><td>黑 / 白 / 黄</td><td>The shared bike is <b>yellow</b>.</td></tr><tr><td>round / square</td><td>圆的 / 方的</td><td>The table is <b>round</b>.</td></tr><tr><td>big / small / long / short</td><td>大 / 小 / 长 / 短</td><td>It's a <b>small</b> bag.</td></tr></table>
-<h3>Materials 材质 · Uses 用途</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>metal / plastic</td><td>金属 / 塑料</td><td>The bottle is <b>plastic</b>.</td></tr><tr><td>glass / wood</td><td>玻璃 / 木</td><td>The cup is <b>glass</b>.</td></tr><tr><td>paper / cloth</td><td>纸 / 布</td><td>The bag is <b>cloth</b>.</td></tr><tr><td>for eating / for holding</td><td>用来吃 / 用来拿</td><td>A bowl is <b>for eating</b>.</td></tr><tr><td>for writing / for carrying</td><td>用来写字 / 用来装</td><td>A bag is <b>for carrying</b> things.</td></tr></table>
-<h2>3. Sentence Starters 句型开头</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Keywords</th></tr><tr><td>My water bottle is <b>______</b>.</td><td>我的水瓶是……</td><td>blue / plastic / on the desk</td></tr><tr><td>The takeout box has a <b>______</b>.</td><td>外卖盒有一个……</td><td>lid / handle / square shape</td></tr><tr><td>The phone case is made of <b>______</b>.</td><td>手机壳是……做的</td><td>plastic / silicone / leather</td></tr></table>
-<h2>4. Discussion 讨论</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Answer tags</th></tr><tr><td>Your phone case — what is it made of?</td><td>你的手机壳是什么材质？</td><td>Plastic / Silicone / Leather</td></tr><tr><td>A good phone case — what matters?</td><td>好的手机壳，什么最重要？</td><td>Look / Feel / Price</td></tr><tr><td>Your takeout box — metal or paper?</td><td>你的外卖盒是金属还是纸的？</td><td>Paper box / Plastic box / Metal box</td></tr><tr><td>Which container keeps food hot?</td><td>哪种容器保温？</td><td>Metal / Foam / Paper</td></tr></table></div></body></html>
+.lesson-section {
+    break-inside: avoid; page-break-inside: avoid;
+}
+body.present-continuous {
+    font-size: 11px;
+}
+body.present-continuous h1 {
+    margin-bottom: 7px;
+}
+body.present-continuous h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.present-continuous p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.present-continuous table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.present-continuous th,
+body.present-continuous td {
+    padding: 4px 8px;
+}
+/* Time Clauses: 22 structure entries stacked in section 1, so the default
+   48px display-line gap would push it to 3 pages. Tighter gap keeps the whole
+   handout at 4 pages (sec1 x2, sec2 x1, sec3 x1) without shrinking the text. */
+body.time-clauses {
+    line-height: 1.38;
+}
+body.time-clauses .dq {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses h3 {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses p {
+    margin: 1px 0;
+}
+h1 {
+    font-size: 24px; font-weight: 600; color: #161616;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #161616;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #525252; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #161616; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
+table.matrix { table-layout: fixed; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; white-space: nowrap; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #161616; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #161616; }
+td:nth-child(2) { color: #525252; }
+td:last-child { color: #525252; }
+b { color: #161616; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #161616; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #525252; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #0f62fe; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #161616; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #525252; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
+</style></head><body class=''><div class='page'><h1>Describing Things &amp; Objects · 描述物品</h1>
+<h3>words</h3>
+<table><tr><th>Color 颜色</th><th>Shape 形状</th><th>Size 大小</th><th>Material 材质</th></tr><tr><td>red 红色</td><td>round 圆的</td><td>big 大</td><td>metal 金属</td></tr><tr><td>blue 蓝色</td><td>square 方的</td><td>small 小</td><td>plastic 塑料</td></tr><tr><td>green 绿色</td><td>rectangular 长方形的</td><td>long 长</td><td>glass 玻璃</td></tr><tr><td>yellow 黄色</td><td>oval 椭圆形的</td><td>short 短</td><td>wood 木头</td></tr><tr><td>black 黑色</td><td>flat 平的</td><td>wide 宽</td><td>paper 纸</td></tr><tr><td>white 白色</td><td>curved 弯的</td><td>narrow 窄</td><td>cloth 布</td></tr><tr><td>gray 灰色</td><td>pointed 尖的</td><td>thick 厚的</td><td>leather 皮</td></tr><tr><td>silver 银色</td><td>straight 直的</td><td>thin 薄的</td><td>cotton 棉</td></tr><tr><td>gold 金色</td><td>hollow 空心的</td><td>heavy 重的</td><td>ceramic 陶瓷</td></tr><tr><td>pink 粉色</td><td>solid 实心的</td><td>light 轻的</td><td>rubber 橡胶</td></tr><tr><td>beige 米色</td><td>triangular 三角形的</td><td>tall 高的</td><td>cardboard 硬纸板</td></tr></table>
+<h3>evaluation</h3>
+<table><tr><th>Positive 积极</th><th>Negative 消极</th><th>Positive 积极</th><th>Negative 消极</th></tr><tr><td>nice-looking 好看的</td><td>ugly 难看的</td><td>easy to use 好用的</td><td>hard to use 不好用的</td></tr><tr><td>good-looking 好看的</td><td>cheap-looking 看着廉价</td><td>works well 好使的</td><td>doesn't work 不好使</td></tr><tr><td>stylish 有范儿的</td><td>old-fashioned 老气的</td><td>convenient 方便的</td><td>inconvenient 不方便的</td></tr><tr><td>well-made 做工好的</td><td>badly made 做工差的</td><td>comfortable 舒服的</td><td>uncomfortable 不舒服的</td></tr><tr><td>durable 耐用的</td><td>flimsy 不结实的</td><td>good quality 质量好的</td><td>bad quality 质量差的</td></tr><tr><td>sturdy 结实的</td><td>breaks easily 容易坏</td><td>good value 划算的</td><td>not worth it 不值的</td></tr><tr><td>lasts a long time 能用很久</td><td>feels cheap 手感差</td><td>holds a lot 很能装</td><td>too small 太小</td></tr><tr><td>easy to clean 好清理</td><td>hard to clean 难清理</td><td>light and handy 轻便</td><td>too heavy 太重</td></tr><tr><td>worth the money 值这个价</td><td>a waste of money 浪费钱</td><td>saves space 省地方</td><td>takes up space 占地方</td></tr><tr><td>still works well 一直好使</td><td>looks nice but breaks easily 中看不中用</td><td>good size 大小合适</td><td>wrong size 大小不对</td></tr><tr><td>easy to carry 好携带</td><td>hard to carry 不好拿</td><td>fits well 很合身</td><td>too tight 太紧</td></tr></table>
+<h3>phrases</h3>
+<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>It's a <b><span class='blank'></span></b> bag.</td><td>它是个……的包</td><td>It's a <b>small black</b> bag — I take it to the gym.</td></tr><tr><td>It's made of <b><span class='blank'></span></b>.</td><td>它是……做的</td><td>My water bottle is <b>made of</b> plastic, so it's very light.</td></tr><tr><td>It comes in <b><span class='blank'></span></b>.</td><td>它有……颜色</td><td>This bag <b>comes in</b> black, brown and beige.</td></tr><tr><td>It's for <b><span class='blank'></span></b>.</td><td>它是用来……的</td><td>My desk drawer is <b>for</b> my pens and cables.</td></tr><tr><td>It works well.</td><td>它很好用</td><td>I use this pan every day — <b>it works well</b>.</td></tr><tr><td>It doesn't work.</td><td>它不好使</td><td>My old rice cooker <b>doesn't work</b> now.</td></tr><tr><td>It breaks easily.</td><td>它容易坏</td><td>A 20-yuan umbrella <b>breaks easily</b> in the wind.</td></tr><tr><td>It lasts a long time.</td><td>它很耐用</td><td><b>It lasts a long time</b> — my backpack is five years old.</td></tr><tr><td>It's worth it.</td><td>值这个价</td><td>200 yuan for a good umbrella — <b>worth it</b>.</td></tr><tr><td>It's not worth it.</td><td>不值</td><td>300 yuan for a phone case — <b>not worth it</b>.</td></tr><tr><td>It looks nice but breaks easily.</td><td>中看不中用</td><td>My desk lamp <b>looks nice but breaks easily</b>.</td></tr></table>
+</div><div class='page page-break'>
+<div class='lesson-section'>
+<h2>Discussion 讨论</h2>
+<p class='dq'>Your phone case is two years old. How does it look now?</p>
+<p class='dt'><span class='tag'>still nice</span><span class='tag'>looks old</span><span class='tag'>cheap-looking</span><span class='tag'>hard to clean</span></p>
+<p class='dq'>You want a new water bottle. What do you look at first?</p>
+<p class='dt'><span class='tag'>color</span><span class='tag'>shape</span><span class='tag'>size</span><span class='tag'>material</span><span class='tag'>price</span></p>
+<p class='dq'>A friend buys a new bag. What do you say about it?</p>
+<p class='dt'><span class='tag'>nice-looking</span><span class='tag'>stylish</span><span class='tag'>good value</span><span class='tag'>too big</span><span class='tag'>not my style</span></p>
+<p class='dq'>You need an umbrella. Why do some people pay 200 yuan for one?</p>
+<p class='dt'><span class='tag'>durable</span><span class='tag'>lasts a long time</span><span class='tag'>well-made</span><span class='tag'>sturdy</span><span class='tag'>looks nice</span></p>
+<p class='dq'>Your desk lamp looked nice but stopped working after a month. What do you think?</p>
+<p class='dt'><span class='tag'>not worth it</span><span class='tag'>a waste of money</span><span class='tag'>looks nice but breaks easily</span><span class='tag'>badly made</span></p>
+<p class='dq'>Which things in your home still work well after many years?</p>
+<p class='dt'><span class='tag'>rice cooker</span><span class='tag'>pan</span><span class='tag'>chair</span><span class='tag'>backpack</span><span class='tag'>shoes</span></p>
+<p class='dq'>What matters most in a chair you sit in all day?</p>
+<p class='dt'><span class='tag'>soft seat</span><span class='tag'>a back</span><span class='tag'>wide seat</span><span class='tag'>light</span><span class='tag'>strong</span></p>
+<p class='dq'>Something you bought online looked different in real life. What was wrong?</p>
+<p class='dt'><span class='tag'>different color</span><span class='tag'>too small</span><span class='tag'>cheap-looking</span><span class='tag'>badly made</span><span class='tag'>doesn't work</span></p>
+<p class='dq'>What do you buy again and again because it lasts a long time?</p>
+<p class='dt'><span class='tag'>shoes</span><span class='tag'>backpack</span><span class='tag'>headphones</span><span class='tag'>pan</span><span class='tag'>umbrella</span></p>
+<p class='dq'>Your takeout box — what is it made of, and how strong is it with hot soup?</p>
+<p class='dt'><span class='tag'>paper</span><span class='tag'>plastic</span><span class='tag'>metal</span><span class='tag'>strong</span><span class='tag'>too weak</span></p>
+<p class='dq'>Which is more important for a laptop — light or sturdy?</p>
+<p class='dt'><span class='tag'>light</span><span class='tag'>easy to carry</span><span class='tag'>sturdy</span><span class='tag'>durable</span><span class='tag'>too heavy</span></p>
+</div></div></body></html>
