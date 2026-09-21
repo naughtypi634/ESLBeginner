@@ -27,6 +27,13 @@ LESSON_CLASS = {
     "19-Time Clauses.md": "time-clauses",
 }
 
+# Per-lesson tables that are plain word lists: keyed by MD file name, the value
+# lists the lowercased `### ` headings whose tables render a regular-weight
+# first column instead of the default highlighted one.
+PLAIN_FIRST_COL = {
+    "11-Describing Things Objects.md": ("words", "evaluation"),
+}
+
 DEFAULT = [
     "04-Frequency.md",
     "06-How to describe a person.md",
@@ -123,6 +130,9 @@ th {
     text-align: left; letter-spacing: 0.02em;
 }
 td:first-child { font-weight: 600; color: #161616; }
+/* 11-Describing Things Objects: the "words" / "evaluation" tables are pure
+   vocabulary lists, so their first column is not highlighted (regular weight). */
+table.plainfirst td:first-child { font-weight: 400; color: #161616; }
 td:nth-child(2) { color: #525252; }
 td:last-child { color: #525252; }
 b { color: #161616; font-weight: 600; }
@@ -180,11 +190,14 @@ def inline(text: str) -> str:
     return text
 
 
-def md_to_html(md_text: str) -> str:
+def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = ()) -> str:
+    """plain_first_col: lowercased `### ` headings whose tables should render
+    without a bold/emphasized first column."""
     lines = md_text.splitlines()
     out: list[str] = []
     i = 0
     section_open = False
+    last_h3 = ""
     while i < len(lines):
         line = lines[i].rstrip()
         if not line.strip():
@@ -226,9 +239,12 @@ def md_to_html(md_text: str) -> str:
                        ["Color 颜色", "Shape 形状", "Size 大小", "Material 材质"],
                        ["Positive 积极", "Negative 消极", "Positive 积极", "Negative 消极"])
             is_head = bool(cells) and cells[0] in HEADERS
-            cls = ""
+            classes = []
+            if last_h3 in plain_first_col:
+                classes.append("plainfirst")
             if cells and cells[0] == ["Positive 积极", "Negative 消极", "Neutral 中性"]:
-                cls = " class='matrix'"
+                classes.append("matrix")
+            cls = f" class='{' '.join(classes)}'" if classes else ""
             html = f"<table{cls}>"
             for ri, row in enumerate(cells):
                 tag = "th" if ri == 0 and is_head else "td"
@@ -247,6 +263,7 @@ def md_to_html(md_text: str) -> str:
             i += 1
             continue
         if line.startswith("### "):
+            last_h3 = line[4:].strip().lower()
             out.append(f"<h3>{inline(line[4:])}</h3>")
         elif line.startswith("## "):
             if section_open:
@@ -289,7 +306,7 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
 
 def build_html(md_name: str) -> str:
     md_text = (MD_DIR / md_name).read_text(encoding="utf-8")
-    body = md_to_html(md_text)
+    body = md_to_html(md_text, PLAIN_FIRST_COL.get(Path(md_name).name, ()))
     body_class = LESSON_CLASS.get(Path(md_name).name, "")
     return (
         "<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'>"
