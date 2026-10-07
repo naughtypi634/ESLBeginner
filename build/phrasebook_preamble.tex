@@ -1,0 +1,119 @@
+% ============================================================
+%  ESLBeginner · phrasebook preamble (loaded via pandoc -H)
+%  Print-ready black & white, single ink, grayscale hierarchy.
+%  Entries live in one longtable: a row is never split across a
+%  page, and `\\*` on the heading rows keeps a heading from ever
+%  being stranded at the foot of a page. Only the headings carry
+%  it: gluing the following rows as well would make the keep-block
+%  taller than the space left at the bottom of a page, and
+%  longtable would then break early and leave a visible gap.
+% ============================================================
+
+% ---------- page ----------
+\usepackage[a4paper, top=20mm, bottom=18mm, left=8mm, right=8mm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\fontsize{8.5pt}{10pt}\selectfont\color{faint}\thepage}
+
+% ---------- colors (grayscale, print-friendly) ----------
+\usepackage[table]{xcolor}
+\definecolor{ink}{HTML}{1A1A1A}       % near-black body text
+\definecolor{muted}{HTML}{595959}     % secondary text
+\definecolor{faint}{HTML}{8C8C8C}     % tertiary / index numbers / page number
+\definecolor{hairline}{HTML}{D9D9D9}  % light gray rules
+
+% ---------- fonts ----------
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Noto Sans}[Ligatures=TeX, BoldFont=Noto Sans Bold,
+                        ItalicFont=Noto Sans Italic]
+\setCJKmainfont{Noto Sans SC}[AutoFakeBold=2.5]
+
+% ---------- layout ----------
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{ragged2e}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.0}
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+
+% ---------- column geometry (mm) ----------
+% index 5 | phrase 58 | 中文释义 34 | example 89   + 8mm of gaps = 194mm
+% The sizes come from measuring the real fonts over all 2000 entries, and they
+% are what makes a row a single line: a cell that would not fit is emitted at a
+% smaller size by the builder instead of being wrapped, so no entry ever ends
+% with a short leftover line. Columns are `l` because each cell is a fixed-width
+% \parbox, which lets the row pitch be controlled (see the entry macros below).
+\newcommand{\pbIdxW}{5mm}
+\newcommand{\pbPhraseW}{58mm}
+\newcommand{\pbGlossW}{34mm}
+\newcommand{\pbExW}{89mm}
+
+\newenvironment{phdoc}{%
+  \begin{longtable}{@{}l@{\hspace{3mm}}l@{\hspace{2.5mm}}l@{\hspace{2.5mm}}l@{}}%
+}{\end{longtable}}
+
+% ---------- document title ----------
+\newcommand{\phtitle}[1]{%
+  \multicolumn{4}{@{}p{194mm}@{}}{%
+    {\fontsize{23pt}{26pt}\selectfont\bfseries #1}\par
+    \vspace{6pt}{\color{ink}\rule{\textwidth}{0.8pt}}\vspace{6pt}%
+  }\\*
+}
+
+% ---------- part divider ----------
+\newcommand{\phpart}[1]{%
+  \multicolumn{4}{@{}p{194mm}@{}}{%
+    \vspace{2pt}%
+    {\fontsize{13.5pt}{16pt}\selectfont\bfseries #1}\par
+    \vspace{3pt}{\color{ink}\rule{\textwidth}{0.8pt}}\vspace{2pt}%
+  }\\*
+}
+
+% ---------- section heading ----------
+\newcommand{\phsection}[2]{%
+  \multicolumn{4}{@{}p{194mm}@{}}{%
+    \vspace{3pt}%
+    {\fontsize{11.5pt}{13pt}\selectfont\bfseries #1}\hfill
+    {\color{muted}\fontsize{9.5pt}{13pt}\selectfont #2}\par
+    \vspace{1pt}{\color{hairline}\rule{\textwidth}{0.4pt}}\vspace{2pt}%
+  }\\*
+}
+
+% ---------- entries ----------
+% Every cell is \smash-ed, so the row keeps a fixed, predictable height whatever
+% a cell contains (the CJK glyph box is ~1.45em tall and would otherwise push
+% each row to ~20pt, and a long cell would silently push the row below it).
+% The row advance is therefore stated explicitly by the caller:
+%     advance = 2.2pt + 13pt * (extra lines - 1)
+% which is 14.2pt for a normal single-line row, so every entry keeps the same
+% rhythm. #1 is the row's font size: the builder lowers it (never below 8.25pt)
+% for the few rows whose longest cell is wider than its column, which is what
+% keeps an entry on one line instead of wrapping it.
+%
+% Every cell opens with \pbstrut so that all four columns share one baseline:
+% the cells are top-aligned, so without it the first line of each cell would
+% sit at top + its own font's ascent (CJK ascent is ~1.5pt taller than the
+% Latin one) and the row would look ragged. The strut (12pt) is taller than
+% any of the four ascents, so top + 12pt is the baseline everywhere.
+\newcommand{\pbstrut}{\rule{0pt}{12pt}}
+\newcommand{\pbRowCore}[5]{%
+  \smash{\parbox[t]{\pbIdxW}{\pbstrut\raggedleft\color{faint}\fontsize{8pt}{13pt}\selectfont #2}} &
+  \smash{\parbox[t]{\pbPhraseW}{\pbstrut\raggedright\fontsize{#1pt}{13pt}\selectfont\bfseries #3}} &
+  \smash{\parbox[t]{\pbGlossW}{\pbstrut\raggedright\color{muted}\fontsize{#1pt}{13pt}\selectfont #4}} &
+  \smash{\parbox[t]{\pbExW}{\pbstrut\raggedright\color{muted}\fontsize{#1pt}{13pt}\selectfont\itshape #5}}}
+
+% \phentry{size}{space after the row}{index}{phrase}{gloss}{example}
+\newcommand{\phentry}[6]{\pbRowCore{#1}{#3}{#4}{#5}{#6}\\[#2pt]}
+% "keep" is used on the second-to-last row of a section: it forbids the page
+% break that would leave the section's last row alone at the top of a page.
+% The star form still takes the row space, so the rhythm stays uniform.
+\newcommand{\phentrykeep}[6]{\pbRowCore{#1}{#3}{#4}{#5}{#6}\\*[#2pt]}
