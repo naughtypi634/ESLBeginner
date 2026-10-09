@@ -1,65 +1,66 @@
 # Skills I Can Do · 我会的本领
 
-## 课程介绍
+## 1. Ability 能力说法
 
-本周我们练习能力表达，了解 can / can't 的用法，学会介绍自己会做的事情，并应用到面试、求职和日常聊天中。
+| 说法 | 句型 | 例句 | 中文 |
+|---|---|---|---|
+| 会 | I can ___ | I can cook noodles. | 我会煮面。 |
+| 会一点 | I can ___ a little. | I can swim a little. | 游泳我会一点。 |
+| 完全不会 | I can't ___ at all. | I can't drive at all. | 我完全不会开车。 |
+| 还在学 | I'm learning to ___. | I'm learning to play the guitar. | 我在学吉他。 |
+| 学过但忘了 | I learned it before, but I forgot. | I learned to skate before, but I forgot. | 我以前学过滑冰，忘了。 |
 
-## 1. Warm-up 热身
+## 2. Asking 怎么问
 
-| English | Chinese |
-|---|---|
-| You see a QR code on the table. What can you do? | 桌上有个二维码，你能做什么？ |
-| → Scan / Ask / Leave | 扫码 / 问问 / 走开 |
-| What new skill do you want this year? | 今年你想学什么新技能？ |
-| → Cook / Dance / Draw | 做饭 / 跳舞 / 画画 |
+| 想问什么 | 句型 | 例句 | 中文 |
+|---|---|---|---|
+| 会不会 | Can you ___? | Can you use the air fryer? | 你会用空气炸锅吗？ |
+| 问程度 | How well can you ___? | How well can you cook? | 你做饭怎么样？ |
+| 问方法 | Do you know how to ___? | Do you know how to change a light bulb? | 你会换灯泡吗？ |
+| 请人教 | Can you show me how to ___? | Can you show me how to buy tickets on the app? | 你能教我怎么在 App 上买票吗？ |
+| 问工具 | Can you ___ with ___? | Can you cook with a rice cooker? | 你会用电饭锅做饭吗？ |
+| 问地点 | Where can I ___? | Where can I get a bandage? | 我在哪能买到创可贴？ |
+| 问时间 | When can I ___? | When can I pick up my package? | 我什么时候能取快递？ |
+| 问怎么做 | How can I ___? | How can I change my address? | 我怎么改地址？ |
 
-## 2. Useful Expressions 常用表达
+## 3. Skill Bank 技能库
 
-### Digital Skills 数字技能
+| 分类 | 说法 | 例句 | 中文 |
+|---|---|---|---|
+| 手机电脑 | 手机支付 | I can pay with my phone at any store. | 我在哪家店都能用手机付钱。 |
+| ^ | 手机修图 | I can edit photos on my phone. | 我会用手机修图。 |
+| ^ | 手机挂号 | I can book a doctor's appointment on my phone. | 我会用手机挂号。 |
+| ^ | 手机连电视 | I can connect my phone to the TV. | 我会把手机连到电视上。 |
+| 家里的事 | 蒸鱼 | I can steam a fish in ten minutes. | 我十分钟能蒸好一条鱼。 |
+| ^ | 换灯泡 | I can change a light bulb by myself. | 换灯泡我自己能行。 |
+| ^ | 装鞋架 | I can put together a shoe rack. | 我会组装鞋架。 |
+| ^ | 修拉链 | I can fix a broken zipper. | 坏了的拉链我会修。 |
+| 运动和玩 | 乒乓球 | I can play table tennis a little. | 乒乓球我会一点。 |
+| ^ | 台球 | I can play pool, but not very well. | 台球我会打，但打得一般。 |
+| ^ | 麻将 | I can play mahjong with my neighbors. | 我能跟邻居打麻将。 |
+| ^ | 象棋 | I can play Chinese chess, but I usually lose. | 我会下象棋，但老输。 |
+| 语言 | 看英文菜单 | I can read an English menu. | 我看得懂英文菜单。 |
+| ^ | 英文短视频 | I can watch short videos in English. | 我能看懂英文短视频。 |
+| ^ | 家乡话 | I can understand my hometown dialect, but I can't speak it. | 家乡话我能听懂，但不会说。 |
+| ^ | 英语讲价 | I can bargain in English at a market. | 我会在市场上用英语讲价。 |
+| 吃喝和买东西 | 点外卖 | I can order takeout without looking at the menu. | 我不看菜单就能点外卖。 |
+| ^ | 点咖啡 | I can order coffee with no sugar. | 我会点不加糖的咖啡。 |
+| ^ | 自助结账 | I can check out by myself at the supermarket. | 超市里我能自己结账。 |
+| ^ | 用优惠券 | I can use the coupons in the app. | 我会用 App 里的优惠券。 |
 
-| English | Chinese | Example |
-|---|---|---|
-| scan / pay | 扫码 / 付款 | I can **scan** the code to pay. |
-| send / share | 发送 / 分享 | I can **send** voice messages. |
-| type / click | 打字 / 点击 | I can **type** fast on my phone. |
-
-### Language Skills 语言技能
-
-| English | Chinese | Example |
-|---|---|---|
-| read / write | 读 / 写 | I can **read** English menus. |
-| speak / say | 说 | I can **speak** a little English. |
-| learn / hear | 学 / 听懂 | I can **learn** new words from apps. |
-
-### Living Skills 生活技能
-
-| English | Chinese | Example |
-|---|---|---|
-| cook / clean | 做饭 / 打扫 | I can **cook** noodles and eggs. |
-| ride / fix | 骑车 / 修理 | I can **ride** a shared bike. |
-| sing / draw | 唱歌 / 画画 | I can **sing** at karaoke. |
-
-### Daily Tasks 日常任务
-
-| English | Chinese | Example |
-|---|---|---|
-| order / book | 点 / 订 | I can **order** takeout. |
-| fill / find | 填写 / 找 | I can **fill** in the form. |
-| use / open | 使用 / 打开 | I can **use** DingTalk. |
-
-## 3. Sentence Starters 句型开头
-
-| English | Chinese | Keywords |
-|---|---|---|
-| I can **______** a bike to the park. | 我能……自行车去公园。 | ride / take / push |
-| I can't **______** WeChat voice messages. | 我不会……微信语音。 | send / record / hear |
-| I **______** scan QR codes when I pay. | 我付钱时会扫码。 | can / can't / must |
+<!-- pagebreak -->
 
 ## 4. Discussion 讨论
 
-| English | Chinese | Answer tags |
+| Question | 中文对照 | Useful words |
 |---|---|---|
-| Can you cook rice? What do you use? | 你会煮饭吗？用什么？ | Rice / Pot / Water |
-| Can you ride a shared bike? Where? | 你会骑共享单车吗？在哪骑？ | Park / Store / Work |
-| Can you sing a song with friends? | 你能和朋友一起唱歌吗？ | Karaoke / Party / Apps |
-| What skill do friends help you learn? | 朋友帮你学什么技能？ | Dance / Cook / Speak |
+| What can you cook that your family always asks for? | 你会做什么菜，家里人总点名要你做的？ | steamed fish / noodles |
+| What can't you do that almost everyone around you can? | 有什么几乎人人都会、你却不会？ | drive / swim / sing |
+| Which skill did you learn by yourself, and how long did it take? | 哪项技能是你自学的？学了多久？ | app / video / two weeks |
+| What can you do better than your phone? | 有什么你比手机做得更好？ | cook / remember / judge |
+| If you had one free month, what skill would you learn? | 如果空出一个月，你想学什么？ | swim / guitar / English |
+| What can you do now that you couldn't do five years ago? | 有什么是你五年前不会、现在会的？ | pay / cook / English |
+| Who in your family can do something you really admire? | 家里谁有让你佩服的本事？ | grandma / cooking / fix things |
+| What skill looks easy in videos but is hard in real life? | 什么技能视频里看着简单，实际很难？ | skating / makeup / dance |
+| What would you teach a friend in ten minutes? | 你能在十分钟里教会朋友什么？ | QR code / coupon / air fryer |
+| What can you fix at home, and what do you always call someone for? | 家里什么你自己能修，什么一定得找人？ | bulb / faucet / app |

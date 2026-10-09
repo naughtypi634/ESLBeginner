@@ -1,35 +1,167 @@
 <!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><title>18-Skills I Can Do.md</title><style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
-    width: 210mm; background: #ffffff; color: #1a1a1a;
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #161616;
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
-    font-size: 11px; line-height: 1.5;
+    font-size: 12px; line-height: 1.45;
 }
 .page { width: 210mm; padding: 0; }
 .page-break { page-break-before: always !important; break-before: always !important; }
-h1 { font-size: 20px; font-weight: 800; color: #000; border-bottom: 2px solid #000; padding-bottom: 4px; margin-bottom: 8px; }
-h2 { font-size: 13px; font-weight: 800; color: #000; margin: 10px 0 4px 0; }
-h3 { font-size: 11.5px; font-weight: 700; color: #333; margin: 7px 0 3px 0; }
-p { margin: 3px 0; }
-hr { border: none; border-top: 1px solid #d0d0d0; margin: 6px 0; }
-table { width: 100%; border-collapse: collapse; margin: 3px 0 6px 0; font-size: 10px; }
-th, td { border: 1px solid #cccccc; padding: 3px 6px; text-align: left; vertical-align: top; }
-th { background: #f0f0f0; font-weight: 800; }
-b { color: #000; }
-</style></head><body><div class='page'><h1>Skills I Can Do · 我会的本领</h1>
-<h2>1. Warm-up 热身</h2>
-<table><tr><th>English</th><th>Chinese</th></tr><tr><td>You see a QR code on the table. What can you do?</td><td>桌上有个二维码，你能做什么？</td></tr><tr><td>→ Scan / Ask / Leave</td><td>扫码 / 问问 / 走开</td></tr><tr><td>What new skill do you want this year?</td><td>今年你想学什么新技能？</td></tr><tr><td>→ Cook / Dance / Draw</td><td>做饭 / 跳舞 / 画画</td></tr></table>
-<h2>2. Useful Expressions 常用表达</h2>
-<h3>Digital Skills 数字技能</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>scan / pay</td><td>扫码 / 付款</td><td>I can <b>scan</b> the code to pay.</td></tr><tr><td>send / share</td><td>发送 / 分享</td><td>I can <b>send</b> voice messages.</td></tr><tr><td>type / click</td><td>打字 / 点击</td><td>I can <b>type</b> fast on my phone.</td></tr></table>
-<h3>Language Skills 语言技能</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>read / write</td><td>读 / 写</td><td>I can <b>read</b> English menus.</td></tr><tr><td>speak / say</td><td>说</td><td>I can <b>speak</b> a little English.</td></tr><tr><td>learn / hear</td><td>学 / 听懂</td><td>I can <b>learn</b> new words from apps.</td></tr></table>
-<h3>Living Skills 生活技能</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>cook / clean</td><td>做饭 / 打扫</td><td>I can <b>cook</b> noodles and eggs.</td></tr><tr><td>ride / fix</td><td>骑车 / 修理</td><td>I can <b>ride</b> a shared bike.</td></tr><tr><td>sing / draw</td><td>唱歌 / 画画</td><td>I can <b>sing</b> at karaoke.</td></tr></table>
-<h3>Daily Tasks 日常任务</h3>
-<table><tr><th>English</th><th>Chinese</th><th>Example</th></tr><tr><td>order / book</td><td>点 / 订</td><td>I can <b>order</b> takeout.</td></tr><tr><td>fill / find</td><td>填写 / 找</td><td>I can <b>fill</b> in the form.</td></tr><tr><td>use / open</td><td>使用 / 打开</td><td>I can <b>use</b> DingTalk.</td></tr></table>
-<h2>3. Sentence Starters 句型开头</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Keywords</th></tr><tr><td>I can <b>______</b> a bike to the park.</td><td>我能……自行车去公园。</td><td>ride / take / push</td></tr><tr><td>I can't <b>______</b> WeChat voice messages.</td><td>我不会……微信语音。</td><td>send / record / hear</td></tr><tr><td>I <b>______</b> scan QR codes when I pay.</td><td>我付钱时会扫码。</td><td>can / can't / must</td></tr></table>
+.lesson-section {
+    break-inside: avoid; page-break-inside: avoid;
+}
+body.present-continuous {
+    font-size: 11px;
+}
+body.present-continuous h1 {
+    margin-bottom: 7px;
+}
+body.present-continuous h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.present-continuous p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.present-continuous table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.present-continuous th,
+body.present-continuous td {
+    padding: 4px 8px;
+}
+/* Skills I Can Do: 7 stacked sections of short rows. The default spacing leaves
+   the practice section alone on a third page, so tighten to 2 pages. */
+body.skills {
+    font-size: 11px;
+}
+body.skills h1 {
+    margin-bottom: 7px;
+}
+body.skills h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.skills h3 {
+    margin: 8px 0 3px 0;
+}
+body.skills p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.skills .dq {
+    margin: 10px 0 3px 0;
+}
+body.skills table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.skills th,
+body.skills td {
+    padding: 4px 8px;
+}
+/* Black text throughout — no gray secondary columns. */
+body.skills h3,
+body.skills td:nth-child(2),
+body.skills td:last-child,
+body.skills td.cont {
+    color: #161616;
+}
+/* Time Clauses: 22 structure entries stacked in section 1, so the default
+   48px display-line gap would push it to 3 pages. Tighter gap keeps the whole
+   handout at 4 pages (sec1 x2, sec2 x1, sec3 x1) without shrinking the text. */
+body.time-clauses {
+    line-height: 1.38;
+}
+body.time-clauses .dq {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses h3 {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses p {
+    margin: 1px 0;
+}
+h1 {
+    font-size: 24px; font-weight: 600; color: #161616;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #161616;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #525252; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #161616; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
+table.matrix { table-layout: fixed; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; white-space: nowrap; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #161616; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #161616; }
+/* Merged-column tables: the first cell of a `^` continuation row is the row's
+   own first column, not the shared label, so keep it regular weight. */
+td.cont { font-weight: 400; color: #525252; }
+/* 11-Describing Things Objects: the "words" / "evaluation" tables are pure
+   vocabulary lists, so their first column is not highlighted (regular weight). */
+table.plainfirst td:first-child { font-weight: 400; color: #161616; }
+td:nth-child(2) { color: #525252; }
+td:last-child { color: #525252; }
+b { color: #161616; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #161616; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #525252; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #0f62fe; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #161616; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #525252; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
+</style></head><body class='skills'><div class='page'><h1>Skills I Can Do · 我会的本领</h1>
+<div class='lesson-section'>
+<h2>1. Ability 能力说法</h2>
+<table><tr><td>说法</td><td>句型</td><td>例句</td><td>中文</td></tr><tr><td>会</td><td>I can ___</td><td>I can cook noodles.</td><td>我会煮面。</td></tr><tr><td>会一点</td><td>I can ___ a little.</td><td>I can swim a little.</td><td>游泳我会一点。</td></tr><tr><td>完全不会</td><td>I can't ___ at all.</td><td>I can't drive at all.</td><td>我完全不会开车。</td></tr><tr><td>还在学</td><td>I'm learning to ___.</td><td>I'm learning to play the guitar.</td><td>我在学吉他。</td></tr><tr><td>学过但忘了</td><td>I learned it before, but I forgot.</td><td>I learned to skate before, but I forgot.</td><td>我以前学过滑冰，忘了。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>2. Asking 怎么问</h2>
+<table><tr><td>想问什么</td><td>句型</td><td>例句</td><td>中文</td></tr><tr><td>会不会</td><td>Can you ___?</td><td>Can you use the air fryer?</td><td>你会用空气炸锅吗？</td></tr><tr><td>问程度</td><td>How well can you ___?</td><td>How well can you cook?</td><td>你做饭怎么样？</td></tr><tr><td>问方法</td><td>Do you know how to ___?</td><td>Do you know how to change a light bulb?</td><td>你会换灯泡吗？</td></tr><tr><td>请人教</td><td>Can you show me how to ___?</td><td>Can you show me how to buy tickets on the app?</td><td>你能教我怎么在 App 上买票吗？</td></tr><tr><td>问工具</td><td>Can you ___ with ___?</td><td>Can you cook with a rice cooker?</td><td>你会用电饭锅做饭吗？</td></tr><tr><td>问地点</td><td>Where can I ___?</td><td>Where can I get a bandage?</td><td>我在哪能买到创可贴？</td></tr><tr><td>问时间</td><td>When can I ___?</td><td>When can I pick up my package?</td><td>我什么时候能取快递？</td></tr><tr><td>问怎么做</td><td>How can I ___?</td><td>How can I change my address?</td><td>我怎么改地址？</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>3. Skill Bank 技能库</h2>
+<table><tr><td>分类</td><td>说法</td><td>例句</td><td>中文</td></tr><tr><td rowspan='4'>手机电脑</td><td>手机支付</td><td>I can pay with my phone at any store.</td><td>我在哪家店都能用手机付钱。</td></tr><tr><td class='cont'>手机修图</td><td>I can edit photos on my phone.</td><td>我会用手机修图。</td></tr><tr><td class='cont'>手机挂号</td><td>I can book a doctor's appointment on my phone.</td><td>我会用手机挂号。</td></tr><tr><td class='cont'>手机连电视</td><td>I can connect my phone to the TV.</td><td>我会把手机连到电视上。</td></tr><tr><td rowspan='4'>家里的事</td><td>蒸鱼</td><td>I can steam a fish in ten minutes.</td><td>我十分钟能蒸好一条鱼。</td></tr><tr><td class='cont'>换灯泡</td><td>I can change a light bulb by myself.</td><td>换灯泡我自己能行。</td></tr><tr><td class='cont'>装鞋架</td><td>I can put together a shoe rack.</td><td>我会组装鞋架。</td></tr><tr><td class='cont'>修拉链</td><td>I can fix a broken zipper.</td><td>坏了的拉链我会修。</td></tr><tr><td rowspan='4'>运动和玩</td><td>乒乓球</td><td>I can play table tennis a little.</td><td>乒乓球我会一点。</td></tr><tr><td class='cont'>台球</td><td>I can play pool, but not very well.</td><td>台球我会打，但打得一般。</td></tr><tr><td class='cont'>麻将</td><td>I can play mahjong with my neighbors.</td><td>我能跟邻居打麻将。</td></tr><tr><td class='cont'>象棋</td><td>I can play Chinese chess, but I usually lose.</td><td>我会下象棋，但老输。</td></tr><tr><td rowspan='4'>语言</td><td>看英文菜单</td><td>I can read an English menu.</td><td>我看得懂英文菜单。</td></tr><tr><td class='cont'>英文短视频</td><td>I can watch short videos in English.</td><td>我能看懂英文短视频。</td></tr><tr><td class='cont'>家乡话</td><td>I can understand my hometown dialect, but I can't speak it.</td><td>家乡话我能听懂，但不会说。</td></tr><tr><td class='cont'>英语讲价</td><td>I can bargain in English at a market.</td><td>我会在市场上用英语讲价。</td></tr><tr><td rowspan='4'>吃喝和买东西</td><td>点外卖</td><td>I can order takeout without looking at the menu.</td><td>我不看菜单就能点外卖。</td></tr><tr><td class='cont'>点咖啡</td><td>I can order coffee with no sugar.</td><td>我会点不加糖的咖啡。</td></tr><tr><td class='cont'>自助结账</td><td>I can check out by myself at the supermarket.</td><td>超市里我能自己结账。</td></tr><tr><td class='cont'>用优惠券</td><td>I can use the coupons in the app.</td><td>我会用 App 里的优惠券。</td></tr></table>
+</div>
+</div><div class='page page-break'>
+<div class='lesson-section'>
 <h2>4. Discussion 讨论</h2>
-<table><tr><th>English</th><th>Chinese</th><th>Answer tags</th></tr><tr><td>Can you cook rice? What do you use?</td><td>你会煮饭吗？用什么？</td><td>Rice / Pot / Water</td></tr><tr><td>Can you ride a shared bike? Where?</td><td>你会骑共享单车吗？在哪骑？</td><td>Park / Store / Work</td></tr><tr><td>Can you sing a song with friends?</td><td>你能和朋友一起唱歌吗？</td><td>Karaoke / Party / Apps</td></tr><tr><td>What skill do friends help you learn?</td><td>朋友帮你学什么技能？</td><td>Dance / Cook / Speak</td></tr></table></div></body></html>
+<table><tr><td>Question</td><td>中文对照</td><td>Useful words</td></tr><tr><td>What can you cook that your family always asks for?</td><td>你会做什么菜，家里人总点名要你做的？</td><td>steamed fish / noodles</td></tr><tr><td>What can't you do that almost everyone around you can?</td><td>有什么几乎人人都会、你却不会？</td><td>drive / swim / sing</td></tr><tr><td>Which skill did you learn by yourself, and how long did it take?</td><td>哪项技能是你自学的？学了多久？</td><td>app / video / two weeks</td></tr><tr><td>What can you do better than your phone?</td><td>有什么你比手机做得更好？</td><td>cook / remember / judge</td></tr><tr><td>If you had one free month, what skill would you learn?</td><td>如果空出一个月，你想学什么？</td><td>swim / guitar / English</td></tr><tr><td>What can you do now that you couldn't do five years ago?</td><td>有什么是你五年前不会、现在会的？</td><td>pay / cook / English</td></tr><tr><td>Who in your family can do something you really admire?</td><td>家里谁有让你佩服的本事？</td><td>grandma / cooking / fix things</td></tr><tr><td>What skill looks easy in videos but is hard in real life?</td><td>什么技能视频里看着简单，实际很难？</td><td>skating / makeup / dance</td></tr><tr><td>What would you teach a friend in ten minutes?</td><td>你能在十分钟里教会朋友什么？</td><td>QR code / coupon / air fryer</td></tr><tr><td>What can you fix at home, and what do you always call someone for?</td><td>家里什么你自己能修，什么一定得找人？</td><td>bulb / faucet / app</td></tr></table>
+</div></div></body></html>

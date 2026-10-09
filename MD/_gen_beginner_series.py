@@ -24,6 +24,7 @@ from build.student_copy import make_student_copy
 # Per-lesson spacing profiles, keyed by MD file name -> body class.
 LESSON_CLASS = {
     "16-Present Continuous.md": "present-continuous",
+    "18-Skills I Can Do.md": "skills",
     "19-Time Clauses.md": "time-clauses",
 }
 
@@ -84,6 +85,40 @@ body.present-continuous th,
 body.present-continuous td {
     padding: 4px 8px;
 }
+/* Skills I Can Do: 7 stacked sections of short rows. The default spacing leaves
+   the practice section alone on a third page, so tighten to 2 pages. */
+body.skills {
+    font-size: 11px;
+}
+body.skills h1 {
+    margin-bottom: 7px;
+}
+body.skills h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.skills h3 {
+    margin: 8px 0 3px 0;
+}
+body.skills p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.skills .dq {
+    margin: 10px 0 3px 0;
+}
+body.skills table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.skills th,
+body.skills td {
+    padding: 4px 8px;
+}
+/* Black text throughout — no gray secondary columns. */
+body.skills h3,
+body.skills td:nth-child(2),
+body.skills td:last-child,
+body.skills td.cont {
+    color: #161616;
+}
 /* Time Clauses: 22 structure entries stacked in section 1, so the default
    48px display-line gap would push it to 3 pages. Tighter gap keeps the whole
    handout at 4 pages (sec1 x2, sec2 x1, sec3 x1) without shrinking the text. */
@@ -130,6 +165,9 @@ th {
     text-align: left; letter-spacing: 0.02em;
 }
 td:first-child { font-weight: 600; color: #161616; }
+/* Merged-column tables: the first cell of a `^` continuation row is the row's
+   own first column, not the shared label, so keep it regular weight. */
+td.cont { font-weight: 400; color: #525252; }
 /* 11-Describing Things Objects: the "words" / "evaluation" tables are pure
    vocabulary lists, so their first column is not highlighted (regular weight). */
 table.plainfirst td:first-child { font-weight: 400; color: #161616; }
@@ -245,10 +283,35 @@ def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = ()) -> str:
             if cells and cells[0] == ["Positive 积极", "Negative 消极", "Neutral 中性"]:
                 classes.append("matrix")
             cls = f" class='{' '.join(classes)}'" if classes else ""
+            # Column 0: a `^` cell continues the cell above (rowspan), so a label
+            # shared by several rows is written once in the MD source.
+            rowspans: dict[int, int] = {}
+            merged: set[tuple[int, int]] = set()
+            for ri in range(1, len(cells)):
+                if not cells[ri] or cells[ri][0].strip() != "^":
+                    continue
+                lead = ri - 1
+                while lead > 0 and cells[lead] and cells[lead][0].strip() in ("", "^"):
+                    lead -= 1
+                if lead == 0 or not cells[lead] or not cells[lead][0].strip():
+                    continue
+                rowspans[lead] = rowspans.get(lead, 1) + 1
+                merged.add((ri, 0))
             html = f"<table{cls}>"
             for ri, row in enumerate(cells):
                 tag = "th" if ri == 0 and is_head else "td"
-                html += "<tr>" + "".join(f"<{tag}>{inline(c)}</{tag}>" for c in row) + "</tr>"
+                merged_first = (ri, 0) in merged
+                row_html = []
+                first_emitted = True
+                for ci, c in enumerate(row):
+                    if (ri, ci) in merged:
+                        continue
+                    span = rowspans.get(ri, 1) if ci == 0 else 1
+                    attr = f" rowspan='{span}'" if span > 1 else ""
+                    extra = " class='cont'" if merged_first and first_emitted else ""
+                    row_html.append(f"<{tag}{extra}{attr}>{inline(c)}</{tag}>")
+                    first_emitted = False
+                html += "<tr>" + "".join(row_html) + "</tr>"
             out.append(html + "</table>")
             continue
         m_bold = re.fullmatch(r"\*\*(.+?)\*\*", line.strip())
