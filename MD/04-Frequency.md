@@ -4,12 +4,12 @@
 
 | Frequency | English | Chinese |
 |---|---|---|
-| **always** 100% | I **always** check my phone before sleeping. | 我睡前总是刷手机。 |
-| **usually** 80–90% | I **usually** take the subway to work. | 我通常坐地铁上班。 |
+| **always** 100% | I **always** check the weather before I go out. | 我出门前总会先看天气。 |
+| **usually** 80–90% | I **usually** go for a walk after dinner. | 我通常晚饭后去散步。 |
 | **often** 60–70% | I **often** order takeout for lunch. | 我经常点外卖当午饭。 |
-| **sometimes** 40–50% | I **sometimes** work on weekends. | 我有时候周末加班。 |
+| **sometimes** 40–50% | I **sometimes** sleep in on weekends. | 我周末有时候睡懒觉。 |
 | **rarely** 10–20% | I **rarely** watch TV at home. | 我在家很少看电视。 |
-| **never** 0% | I **never** go to work without my phone. | 我上班时从来都带着手机。 |
+| **never** 0% | I **never** leave the house without my keys. | 我出门从来不会忘带钥匙。 |
 
 ### High → Low Frequency Phrases
 
@@ -58,10 +58,10 @@ Patterns: **don't really** · **not a fan of** · **not into** · **not my thing
 | I **don't really** use Douyin — it's a time killer. | 我不太用抖音——太耗时间了。 |
 | I'm **not a big fan of** hotpot in summer. | 夏天我不太喜欢吃火锅。 |
 | I'm **not really into** playing games on my phone. | 我对手机游戏不太感兴趣。 |
-| **Buying a house isn't really my priority** right now. | 买房现在不是我的优先考虑。 |
-| **Working overtime doesn't appeal to me** anymore. | 加班对我已经没有吸引力了。 |
+| **Camping in the rain isn't really my thing.** | 雨中露营真不是我的菜。 |
+| **Waiting in long lines doesn't appeal to me.** | 排长队对我没什么吸引力。 |
 | People **hardly ever** carry cash in China now. | 现在中国人们几乎不带现金了。 |
-| I **tend not to** check work messages after 9 pm. | 我倾向于晚上9点后不看工作消息。 |
+| I **tend not to** look at my phone during meals. | 我吃饭时一般不怎么看手机。 |
 
 ---
 
@@ -73,27 +73,28 @@ Patterns: **don't really** · **not a fan of** · **not into** · **not my thing
 |---|---|
 | **How often** do you get a health check-up? | 你多久做一次体检？ |
 | **How often** do you stay up past midnight? | 你多久熬夜到12点以后？ |
-| **How often** do you eat takeout in a week? | 你一周吃几次外卖？ |
+| **How often** do you eat takeout? | 你多久吃一次外卖？ |
 | Do you work out **regularly**? | 你定期锻炼吗？ |
 | **How often** do you have milk tea? | 你多久喝一次奶茶？ |
-| **How many times a day** do you look at your phone? | 你一天看多少次手机？ |
+| **How often** do you check your phone? | 你多久看一次手机？ |
 
-### Social & Family 社交与家庭
+### Travel & Leisure 旅行与休闲
+
+| English | Chinese |
+|---|---|
+| **How often** do you take a short trip? | 你多久短途旅行一次？ |
+| **How often** do you visit a new city? | 你多久去一座没去过的城市？ |
+| **How often** do you go hiking or camping? | 你多久徒步或露营一次？ |
+| **How often** do you go to the movies? | 你多久看一次电影？ |
+| **How often** do you eat out with friends? | 你多久和朋友下馆子？ |
+| **How often** do you travel by train? | 你多久坐一次火车出去玩？ |
+
+### Family & Friends 家人与朋友
 
 | English | Chinese |
 |---|---|
 | **How often** do you visit your parents? | 你多久去看一次父母？ |
-| Do your parents ask you about marriage **often**? | 你父母经常催婚吗？ |
+| **How often** do you have dinner with your family? | 你多久和家人一起吃顿饭？ |
 | **How often** do you meet up with old friends? | 你多久和老朋友聚一次？ |
 | **How often** do you go back to your hometown? | 你多久回一次老家？ |
-| **How often** do you travel domestically? | 你多久在国内旅游一次？ |
-
-### Work & Finance 工作与财务
-
-| English | Chinese |
-|---|---|
-| **How many days a week** do you go to the office? | 你一周去几天办公室？ |
-| **How often** do you use AI tools at work? | 你工作中多久用一次AI工具？ |
-| Do you check your stock or fund performance **often**? | 你经常看股票或基金涨跌吗？ |
-| **How often** do you worry about being laid off? | 你多久担心一次被裁员？ |
-| **How often** does your company have team-building? | 你公司多久团建一次？ |
+| **How often** do you travel with your family? | 你多久和家人一起旅行一次？ |

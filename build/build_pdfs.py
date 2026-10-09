@@ -680,6 +680,72 @@ def parse_md_table(lines, i):
     return header, rows, i
 
 
+# ---- 04 Frequency · roomy two-page handout -------------------------------
+# The frequency sheet stacks many short tables, so it needs a different
+# treatment from the default emitter: a flexible English column plus a fixed
+# Chinese column keeps every cell on a single line (house rule: table text
+# never wraps), and a larger \arraystretch gives rows breathing room. Section
+# 3 opens page 2 with an explicit break so no header is left dangling at the
+# foot of page 1 with its table on the next page.
+FREQ_STRETCH = "1.4"
+
+_FREQ_COLSPEC_SPECTRUM = (
+    r"@{}>{\RaggedRight}p{0.19\textwidth}@{\hspace{8pt}}"
+    r">{\RaggedRight}X@{\hspace{8pt}}>{\RaggedRight}p{0.26\textwidth}@{}"
+)
+_FREQ_COLSPEC_LABEL = (
+    r"@{}>{\RaggedRight}p{0.09\textwidth}@{\hspace{8pt}}"
+    r">{\RaggedRight}X@{\hspace{8pt}}>{\RaggedRight}p{0.27\textwidth}@{}"
+)
+_FREQ_COLSPEC_PAIR = (
+    r"@{}>{\RaggedRight}X@{\hspace{12pt}}>{\RaggedRight}p{0.32\textwidth}@{}"
+)
+
+
+def _freq_colspec(header):
+    """Pick the column layout + body font for a frequency-handout table."""
+    if len(header) == 3:
+        if header[0].strip().lower() == "frequency":
+            return _FREQ_COLSPEC_SPECTRUM, r"\small"
+        return _FREQ_COLSPEC_LABEL, r"\small"
+    return _FREQ_COLSPEC_PAIR, ""
+
+
+def _freq_table_latex(header, rows, colspec, font, stretch):
+    hdr = " & ".join(l(c) for c in header)
+    body = [" & ".join(l(c) for c in r) for r in rows]
+    lines = [
+        "\\par\\vspace{7pt}",
+        "\\noindent{" + font + "\\setlength{\\tabcolsep}{5pt}",
+        "\\renewcommand{\\arraystretch}{" + stretch + "}",
+        "\\begin{tabularx}{\\textwidth}{" + colspec + "}",
+        "  \\rowcolor{filllight}\\bfseries " + hdr + "\\\\",
+        "  \\hline",
+    ]
+    lines += [f"  {r} \\\\\n  \\hline" for r in body]
+    lines.append("\\end{tabularx}}\\par\\vspace{9pt}")
+    return "\n".join(lines)
+
+
+def _freq_table(header, rows):
+    colspec, font = _freq_colspec(header)
+    return raw(_freq_table_latex(header, rows, colspec, font, FREQ_STRETCH))
+
+
+def _freq_subtable(h, header, rows):
+    """Subheader glued to its table in one unbreakable minipage so the heading
+    can never be orphaned at the bottom of a page."""
+    colspec, font = _freq_colspec(header)
+    inner = (
+        f"\\eslsubheader{{{l(h)}}}\n"
+        + _freq_table_latex(header, rows, colspec, font, FREQ_STRETCH)
+    )
+    return raw(
+        "\\par\\noindent\\begin{minipage}[t]{\\linewidth}\n" + inner
+        + "\n\\end{minipage}\\par\\vspace{2pt}"
+    )
+
+
 def parse_04(lines):
     out = []
     title_line = lines[0][2:].strip()
@@ -704,6 +770,10 @@ def parse_04(lines):
             m = re.match(r"^(\d+)\.\s*(.*)$", h)
             num = m.group(1) if m else f"{sn:02d}"
             cn = m.group(2) if m else h
+            # Section 3 opens page 2 (page 1 = sections 1-2), so its header is
+            # never stranded at the foot of page 1 with the table overleaf.
+            if num == "3":
+                out.append(T_pagebreak())
             out.append(T_section(num, cn))
             i += 1
             continue
@@ -728,10 +798,10 @@ def parse_04(lines):
         if s.startswith("|"):
             header, rows, i = parse_md_table(lines, i)
             if pending_sub is not None:
-                out.append(T_subheader_table(pending_sub, header, rows))
+                out.append(_freq_subtable(pending_sub, header, rows))
                 pending_sub = None
             else:
-                out.append(T_mdtable(header, rows))
+                out.append(_freq_table(header, rows))
             continue
         i += 1
     return out, meta
