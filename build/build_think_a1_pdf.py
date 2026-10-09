@@ -118,12 +118,12 @@ def build_markdown(doc: dict) -> str:
         r"\newcommand{\eslengl}[1]{\par\vspace{6.5pt}\noindent"
         r"{\roboto\fontsize{13pt}{20.5pt}\selectfont #1}}"
     ))
-    # 中文对照（微软雅黑灰字），紧贴其上英文句
+    # 中文对照（微软雅黑黑字），紧贴其上英文句
     out.append(raw(
         r"\newcommand{\eslcnex}[1]{\par\vspace{1pt}\noindent"
         r"{\color{cncolor}\CJKfontspec{Microsoft YaHei}\fontsize{10.5pt}{15.5pt}\selectfont #1}}"
     ))
-    out.append(raw(r"\definecolor{cncolor}{HTML}{595959}"))
+    out.append(raw(r"\definecolor{cncolor}{HTML}{000000}"))
     out.append(raw(r"\definecolor{faint}{HTML}{000000}"))
     out.append(raw(r"\clubpenalty=8000 \widowpenalty=8000"))
 

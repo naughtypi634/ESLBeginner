@@ -33,7 +33,7 @@ html, body { margin: 0; padding: 0; background: #ffffff; }
 body {
   font-family: "SF Pro Text", -apple-system, "Helvetica Neue",
                "PingFang SC", "Microsoft YaHei", sans-serif;
-  color: #1d1d1f;
+  color: #000000;
   font-size: 9.8pt;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
@@ -45,7 +45,7 @@ body {
   font-weight: 600;
   letter-spacing: -0.4px;
   line-height: 1.2;
-  color: #1d1d1f;
+  color: #000000;
   margin: 0 0 4pt;
 }
 .title-rule {
@@ -61,7 +61,7 @@ h2 {
   font-size: 12pt;
   font-weight: 600;
   letter-spacing: -0.2px;
-  color: #1d1d1f;
+  color: #000000;
   margin: 15pt 0 5pt;
   break-after: avoid;
 }
@@ -78,7 +78,7 @@ thead th {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.9px;
-  color: #86868b;
+  color: #000000;
   padding: 0 0 3pt;
   border-bottom: 1pt solid #d2d2d7;
 }
@@ -91,9 +91,9 @@ tr:last-child td { border-bottom: none; }
 td:first-child {
   width: 43%;
   font-weight: 600;
-  color: #1d1d1f;
+  color: #000000;
 }
-td:last-child { color: #424245; }
+td:last-child { color: #000000; }
 """
 
 
@@ -145,7 +145,7 @@ def render_pdf(body_html: str) -> None:
     footer = (
         "<div style=\"width:100%;text-align:right;"
         "font-family:'SF Pro Text','Helvetica Neue',sans-serif;"
-        "font-size:8px;color:#86868b;\">"
+        "font-size:8px;color:#000000;\">"
         "<span class=\"pageNumber\"></span></div>"
     )
     with sync_playwright() as p:

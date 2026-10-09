@@ -213,7 +213,7 @@ def build_html(title, note, sections) -> Path:
 html{{-webkit-text-size-adjust:100%}}
 body{{
   font-family:"Inter","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
-  background:var(--paper); color:var(--ink);
+  background:var(--paper); color:#000000;
   -webkit-font-smoothing:antialiased; line-height:1.5;
 }}
 .wrap{{max-width:480px;margin:0 auto;padding:18px 16px 44px}}
@@ -235,8 +235,8 @@ section{{margin-top:22px}}
   display:flex;justify-content:space-between;align-items:center;
   padding:13px 16px 11px;
 }}
-.sec-tag{{font-size:12px;font-weight:700;color:var(--navy2);letter-spacing:.2px}}
-.card-no{{font-size:12.5px;font-weight:800;color:var(--amber);letter-spacing:.5px}}
+.sec-tag{{font-size:12px;font-weight:700;color:#000000;letter-spacing:.2px}}
+.card-no{{font-size:12.5px;font-weight:800;color:#000000;letter-spacing:.5px}}
 .qa{{padding:13px 16px;border-top:1px dashed var(--line)}}
 .qa:first-of-type{{border-top:none}}
 .q,.a{{display:flex;gap:10px}}
@@ -248,11 +248,11 @@ section{{margin-top:22px}}
 }}
 .tag.q{{background:var(--navy)}}
 .tag.a{{background:var(--amber)}}
-.qtext{{font-weight:700;font-size:15px;line-height:1.45;color:var(--navy)}}
+.qtext{{font-weight:700;font-size:15px;line-height:1.45;color:#000000}}
 .atext{{font-size:15px;line-height:1.55}}
 .strat{{
   margin:11px 0 2px 36px;background:var(--amber-soft);border-radius:10px;
-  padding:8px 11px;font-size:12.5px;line-height:1.55;color:#7A5B1E;
+  padding:8px 11px;font-size:12.5px;line-height:1.55;color:#000000;
 }}
 .slabel{{font-weight:700;margin-right:6px}}
 </style>

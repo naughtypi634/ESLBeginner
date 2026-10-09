@@ -278,8 +278,8 @@ PREAMBLE = r"""% ESLBeginner · 造句公式 compact rebuild (self-contained, la
 \xeCJKDeclareCharClass{HalfRight}{"00B7, "2019, "201D, "2025, "2026, "2027}
 \usepackage{multicol}
 \usepackage{xcolor}
-\definecolor{ink}{HTML}{1A1A1A}
-\definecolor{muted}{HTML}{595959}
+\definecolor{ink}{HTML}{000000}
+\definecolor{muted}{HTML}{000000}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\columnsep}{__COLSEP__mm}

@@ -159,7 +159,7 @@ body {
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Microsoft YaHei', 'PingFang SC', sans-serif;
     width: 210mm;
     background: #ffffff;
-    color: #1a1a1a;
+    color: #000000;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
     line-height: 1.5;
@@ -191,7 +191,7 @@ body {
 }
 .sub-title {
     font-size: 10.5px;
-    color: #666666;
+    color: #000000;
     margin-top: 2px;
 }
 
@@ -232,7 +232,7 @@ body {
 }
 .part-desc {
     font-size: 10px;
-    color: #666666;
+    color: #000000;
     margin-bottom: 4px;
     padding-left: 3px;
     line-height: 1.4;
@@ -242,7 +242,7 @@ body {
 .q-item {
     padding: 2.5px 0 3.5px 4px;
     font-size: 11.5px;
-    color: #1a1a1a;
+    color: #000000;
 }
 .q-num {
     font-weight: 700;
@@ -251,12 +251,12 @@ body {
 }
 .q-src {
     display: block;
-    color: #444444;
+    color: #000000;
     padding-left: 18px;
     line-height: 1.5;
 }
 .q-hint {
-    color: #999999;
+    color: #000000;
     font-size: 10px;
     padding-left: 18px;
 }
@@ -282,10 +282,10 @@ body {
     font-size: 10.8px;
     line-height: 1.55;
     padding: 1.5px 0 1.5px 4px;
-    color: #1a1a1a;
+    color: #000000;
 }
 .ans-item .ans-num { font-weight: 700; margin-right: 4px; }
-.ans-item .note { color: #777777; font-size: 9.8px; display: block; padding-left: 16px; }
+.ans-item .note { color: #000000; font-size: 9.8px; display: block; padding-left: 16px; }
 .ans-inline { font-size: 10.8px; line-height: 1.7; padding: 2px 0 2px 4px; }
 
 /* ── Footer ── */
@@ -294,7 +294,7 @@ body {
     bottom: 7mm;
     right: 17mm;
     font-size: 8px;
-    color: #999999;
+    color: #000000;
     font-weight: 600;
     letter-spacing: 0.5px;
 }

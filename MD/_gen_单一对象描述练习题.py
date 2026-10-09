@@ -31,7 +31,7 @@ CSS = """
 html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 body {
     font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-    color: #111; background: #fff;
+    color: #000000; background: #fff;
     -webkit-print-color-adjust: exact; print-color-adjust: exact;
 }
 .sheet { width: 210mm; padding: 0; }
@@ -47,7 +47,7 @@ body {
     border-bottom: 2px solid #111; padding-bottom: 2.4mm; margin-bottom: 2.8mm;
     margin-top: 5mm;
 }
-.partnum { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; color: #666; }
+.partnum { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; color: #000000; }
 .parttitle { font-size: 17px; font-weight: 800; margin-top: 1mm; }
 
 /* ---------- 用法分类 ---------- */
@@ -66,7 +66,7 @@ body {
 }
 .num {
     display: table-cell; width: 9mm; font-size: 10px; font-weight: 800;
-    color: #666; padding-top: 0.8mm; vertical-align: top;
+    color: #000000; padding-top: 0.8mm; vertical-align: top;
 }
 .zh {
     display: table-cell; font-size: 12px; font-weight: 500;
@@ -74,7 +74,7 @@ body {
     vertical-align: top; padding-top: 0.5mm;
 }
 .en {
-    font-size: 10.5px; color: #555; margin: 0.8mm 0 0 11.5mm; line-height: 1.35;
+    font-size: 10.5px; color: #000000; margin: 0.8mm 0 0 11.5mm; line-height: 1.35;
 }
 .hl { font-weight: 800; text-decoration: underline; }
 """
@@ -163,7 +163,7 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
             display_header_footer=True,
             header_template="<span></span>",
             footer_template=(
-                "<div style='font-family:PingFang SC,sans-serif;font-size:8px;color:#999;"
+                "<div style='font-family:PingFang SC,sans-serif;font-size:8px;color:#000000;"
                 "width:100%;text-align:center;'><span class='pageNumber'></span></div>"
             ),
         )
