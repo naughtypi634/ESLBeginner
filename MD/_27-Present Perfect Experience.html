@@ -1,0 +1,193 @@
+<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><title>27-Present Perfect Experience.md</title><style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #161616;
+    -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+    font-size: 12px; line-height: 1.45;
+}
+.page { width: 210mm; padding: 0; }
+.page-break { page-break-before: always !important; break-before: always !important; }
+.lesson-section {
+    break-inside: avoid; page-break-inside: avoid;
+}
+body.present-continuous {
+    font-size: 11px;
+}
+body.present-continuous h1 {
+    margin-bottom: 7px;
+}
+body.present-continuous h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.present-continuous p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.present-continuous table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.present-continuous th,
+body.present-continuous td {
+    padding: 4px 8px;
+}
+/* Skills I Can Do: 7 stacked sections of short rows. The default spacing leaves
+   the practice section alone on a third page, so tighten to 2 pages. */
+body.skills {
+    font-size: 11px;
+}
+body.skills h1 {
+    margin-bottom: 7px;
+}
+body.skills h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.skills h3 {
+    margin: 8px 0 3px 0;
+}
+body.skills p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.skills .dq {
+    margin: 10px 0 3px 0;
+}
+body.skills table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.skills th,
+body.skills td {
+    padding: 4px 8px;
+}
+/* Black text throughout — no gray secondary columns. */
+body.skills h3,
+body.skills td:nth-child(2),
+body.skills td:last-child,
+body.skills td.cont {
+    color: #161616;
+}
+/* Time Clauses: 22 structure entries stacked in section 1, so the default
+   48px display-line gap would push it to 3 pages. Tighter gap keeps the whole
+   handout at 4 pages (sec1 x2, sec2 x1, sec3 x1) without shrinking the text. */
+body.time-clauses {
+    line-height: 1.38;
+}
+body.time-clauses .dq {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses h3 {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses p {
+    margin: 1px 0;
+}
+h1 {
+    font-size: 24px; font-weight: 600; color: #161616;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #161616;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #525252; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #161616; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
+table.matrix { table-layout: fixed; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; white-space: nowrap; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #161616; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #161616; }
+/* Merged-column tables: the first cell of a `^` continuation row is the row's
+   own first column, not the shared label, so keep it regular weight. */
+td.cont { font-weight: 400; color: #525252; }
+/* 11-Describing Things Objects: the "words" / "evaluation" tables are pure
+   vocabulary lists, so their first column is not highlighted (regular weight). */
+table.plainfirst td:first-child { font-weight: 400; color: #161616; }
+td:nth-child(2) { color: #525252; }
+td:last-child { color: #525252; }
+b { color: #161616; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #161616; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #525252; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #0f62fe; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #161616; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #525252; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
+</style></head><body class=''><div class='page'><h1>Present Perfect · Experiences 现在完成时（经历）</h1>
+<div class='lesson-section'>
+<h2>课程介绍</h2>
+<p>本周我们练习现在完成时，了解 have / has + 过去分词表示经历的用法，学会用 Have you ever…?、I've been to、I've never… 谈论曾经有过的经历，并应用到同事闲聊、面试问答与周末计划中。</p>
+</div>
+<div class='lesson-section'>
+<h2>1. Form 结构</h2>
+<table><tr><td>句型</td><td>例句</td><td>中文对照</td></tr><tr><td>肯定：have / has + 过去分词</td><td>I <b>have tried</b> the noodle place downstairs.</td><td>我试过楼下那家面馆。</td></tr><tr><td>第三人称单数用 has</td><td>My roommate <b>has been</b> to that gym twice.</td><td>我室友去过那家健身房两次。</td></tr><tr><td>否定：haven't / hasn't</td><td>I <b>haven't tried</b> camping yet.</td><td>我还没试过露营。</td></tr><tr><td>疑问：Have you ever…?</td><td><b>Have you ever</b> ordered groceries online?</td><td>你在网上买过菜吗？</td></tr><tr><td>简答</td><td>Yes, I <b>have</b>. / No, I <b>haven't</b>. / Not yet.</td><td>有。/ 没有。/ 还没。</td></tr><tr><td>次数</td><td>I <b>have taken</b> the high-speed train four times.</td><td>我坐过四次高铁。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>2. Past Participles 常用过去分词</h2>
+<table><tr><td>原形</td><td>过去分词</td><td>例句</td><td>中文对照</td></tr><tr><td>eat</td><td>eaten</td><td>I <b>have eaten</b> at that place twice.</td><td>那家店我吃过两次。</td></tr><tr><td>be</td><td>been</td><td>She <b>has been</b> to Hangzhou three times.</td><td>她去过杭州三次。</td></tr><tr><td>try</td><td>tried</td><td>I <b>have tried</b> rock climbing once.</td><td>我试过一次攀岩。</td></tr><tr><td>see</td><td>seen</td><td>I <b>have seen</b> that movie twice.</td><td>那部电影我看过两遍。</td></tr><tr><td>take</td><td>taken</td><td>I <b>have taken</b> the subway at 6 a.m.</td><td>我早上六点坐过地铁。</td></tr><tr><td>ride</td><td>ridden</td><td>I <b>have ridden</b> a shared bike by the river.</td><td>我在江边骑过共享单车。</td></tr><tr><td>make</td><td>made</td><td>I <b>have made</b> dumplings with my team.</td><td>我和同事一起包过饺子。</td></tr><tr><td>write</td><td>written</td><td>I <b>have written</b> three reports this week.</td><td>我这周写了三份报告。</td></tr><tr><td>meet</td><td>met</td><td>I <b>have met</b> her once at a team dinner.</td><td>我在团建饭局上见过她一次。</td></tr><tr><td>do</td><td>done</td><td>I <b>have done</b> karaoke with my team.</td><td>我和同事一起唱过K。</td></tr><tr><td>get</td><td>gotten</td><td>I <b>have gotten</b> someone else's package.</td><td>我拿过别人的快递。</td></tr><tr><td>speak</td><td>spoken</td><td>I <b>have spoken</b> English on a work call.</td><td>我在工作电话里说过英语。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>3. ever / never / already / yet</h2>
+<table><tr><td>副词</td><td>位置</td><td>例句</td><td>中文对照</td></tr><tr><td>ever</td><td>疑问句，过去分词前</td><td><b>Have you ever</b> tried hot pot alone?</td><td>你一个人吃过火锅吗？</td></tr><tr><td>never</td><td>过去分词前</td><td>I <b>have never</b> sung in front of people.</td><td>我从没在人前唱过歌。</td></tr><tr><td>already</td><td>have / has 之后</td><td>I <b>have already</b> tried that milk tea shop.</td><td>那家奶茶店我已经试过了。</td></tr><tr><td>yet</td><td>否定句、疑问句句末</td><td>I <b>haven't tried</b> rock climbing <b>yet</b>.</td><td>我还没试过攀岩。</td></tr><tr><td>before</td><td>句末</td><td>I <b>have been</b> to Beijing <b>before</b>.</td><td>我以前去过北京。</td></tr><tr><td>twice / a few times</td><td>句末</td><td>I <b>have tried</b> camping <b>twice</b>.</td><td>露营我试过两次。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>4. Sentence Patterns 常用句型</h2>
+<table><tr><td>句型</td><td>例句</td><td>中文对照</td></tr><tr><td>Have you ever + 过去分词?</td><td><b>Have you ever</b> ordered takeout after midnight?</td><td>你半夜点过外卖吗？</td></tr><tr><td>I've been to + 地点</td><td>I <b>have been to</b> Dali twice.</td><td>我去过大理两次。</td></tr><tr><td>I've never + 过去分词</td><td>I <b>have never</b> lived alone.</td><td>我从没一个人住过。</td></tr><tr><td>I've already + 过去分词</td><td>I <b>have already</b> finished today's report.</td><td>今天的报告我写完了。</td></tr><tr><td>I haven't + 过去分词 + yet</td><td>I <b>haven't booked</b> the train ticket yet.</td><td>我还没订高铁票。</td></tr><tr><td>It's the first time I've + 过去分词</td><td><b>It's the first time</b> I <b>have spoken</b> English at work.</td><td>这是我第一次在工作中说英语。</td></tr><tr><td>I've been meaning to + 动词原形</td><td>I <b>have been meaning to</b> try that gym.</td><td>我一直想试那家健身房。</td></tr><tr><td>How many times have you + 过去分词?</td><td><b>How many times have you</b> moved since college?</td><td>毕业后你搬过几次家？</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>5. Present Perfect or Past Simple 该用哪个时态</h2>
+<table><tr><td>用法</td><td>现在完成时</td><td>一般过去时</td></tr><tr><td>说经历，不点时间</td><td>I <b>have been</b> to Chengdu.</td><td>—</td></tr><tr><td>点明时间</td><td>—</td><td>I <b>went</b> to Chengdu in 2024.</td></tr><tr><td>问经历</td><td><b>Have you ever</b> flown first class?</td><td>—</td></tr><tr><td>问某次具体经过</td><td>—</td><td><b>When did</b> you fly first class?</td></tr><tr><td>常见信号词</td><td>ever / never / already / yet / before</td><td>yesterday / last week / in 2024 / ago</td></tr><tr><td>结果留到现在</td><td>I <b>have lost</b> my key.</td><td>I <b>lost</b> my key yesterday.</td></tr></table>
+<h3>常见错误</h3>
+<table><tr><td>常见错误</td><td>正确说法</td><td>说明</td></tr><tr><td>I have went to Shanghai.</td><td>I have <b>been</b> to Shanghai.</td><td>用过去分词 been</td></tr><tr><td>I have seen him yesterday.</td><td>I <b>saw</b> him yesterday.</td><td>有具体时间用过去时</td></tr><tr><td>Have you ever gone to Chengdu?</td><td>Have you ever <b>been</b> to Chengdu?</td><td>问"去过"用 been to</td></tr><tr><td>I am in Shanghai for three years.</td><td>I <b>have been</b> in Shanghai for three years.</td><td>持续到现在用现在完成时</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>6. Real-Life Expressions 日常表达</h2>
+<table><tr><td>表达</td><td>中文</td><td>例句</td></tr><tr><td>cross it off my bucket list</td><td>完成心愿清单上的一项</td><td>I <b>have finally crossed</b> bungee jumping <b>off</b> my bucket list.</td></tr><tr><td>give it a shot</td><td>试一试</td><td>I <b>have never</b> tried rock climbing, but I'll <b>give it a shot</b>.</td></tr><tr><td>out of my comfort zone</td><td>走出舒适区</td><td>I got <b>out of my comfort zone</b> and did karaoke last week.</td></tr><tr><td>not my thing</td><td>不是我的菜</td><td>I <b>have tried</b> camping twice; it's just <b>not my thing</b>.</td></tr><tr><td>been there, done that</td><td>这我早经历过了</td><td>Staying up till 2 a.m. for a deadline? <b>Been there, done that.</b></td></tr><tr><td>I've been meaning to…</td><td>我一直想……</td><td>I <b>have been meaning to</b> try that hot pot place.</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>7. Discussion 讨论</h2>
+<table><tr><td>Question</td><td>中文对照</td><td>Answer tags</td></tr><tr><td>Have you ever ordered takeout after midnight?</td><td>你半夜点过外卖吗？</td><td>Yes, more than once / Only once / Never</td></tr><tr><td>Have you ever slept through your subway stop?</td><td>你坐地铁睡过站吗？</td><td>Yes, twice / Almost / Never</td></tr><tr><td>Have you ever lived in another city?</td><td>你在别的城市住过吗？</td><td>Yes, for two years / Only for work / Never</td></tr><tr><td>Have you ever tried camping?</td><td>你试过露营吗？</td><td>Yes, many times / Once / Not yet</td></tr><tr><td>Have you ever spoken English on a work call?</td><td>你在工作电话里说过英语吗？</td><td>Yes, often / A few times / Never</td></tr><tr><td>Have you ever sent a message to the wrong group?</td><td>你把消息发错过群吗？</td><td>Yes, and deleted it / Yes, too late / Never</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>8. Practice 练习</h2>
+<h3>填空</h3>
+<table><tr><td>#</td><td>句子</td><td>答案</td></tr><tr><td>1</td><td>I <span class='blank'></span> (try) camping twice.</td><td>have tried</td></tr><tr><td>2</td><td>She <span class='blank'></span> (be) to that milk tea shop three times.</td><td>has been</td></tr><tr><td>3</td><td><span class='blank'></span> you ever <span class='blank'></span> (eat) at that noodle place?</td><td>Have / eaten</td></tr><tr><td>4</td><td>I <span class='blank'></span> never <span class='blank'></span> (ride) a horse.</td><td>have / ridden</td></tr><tr><td>5</td><td>We <span class='blank'></span> (not book) the train ticket yet.</td><td>haven't booked</td></tr><tr><td>6</td><td>He <span class='blank'></span> (give) two talks in English this year.</td><td>has given</td></tr></table>
+<h3>选择：现在完成时还是过去时</h3>
+<table><tr><td>#</td><td>句子</td><td>答案</td></tr><tr><td>1</td><td>I <span class='blank'></span> (visit) Shanghai last fall.</td><td>visited</td></tr><tr><td>2</td><td>I <span class='blank'></span> (visit) Shanghai three times.</td><td>have visited</td></tr><tr><td>3</td><td><span class='blank'></span> you <span class='blank'></span> (see) that movie last weekend?</td><td>Did / see</td></tr><tr><td>4</td><td><span class='blank'></span> you ever <span class='blank'></span> (see) that movie?</td><td>Have / seen</td></tr><tr><td>5</td><td>She <span class='blank'></span> (finish) the report an hour ago.</td><td>finished</td></tr><tr><td>6</td><td>She <span class='blank'></span> (already / finish) the report.</td><td>has already finished</td></tr></table>
+<h3>造句</h3>
+<table><tr><td>提示</td><td>例句</td><td>中文对照</td></tr><tr><td>never / karaoke</td><td>I have never done karaoke.</td><td>我从没唱过K。</td></tr><tr><td>been / Dali / twice</td><td>I have been to Dali twice.</td><td>我去过大理两次。</td></tr><tr><td>already / today's report</td><td>I have already finished today's report.</td><td>今天的报告我写完了。</td></tr><tr><td>never / live alone</td><td>I have never lived alone.</td><td>我从没一个人住过。</td></tr><tr><td>how many times / move</td><td>How many times have you moved?</td><td>你搬过几次家？</td></tr></table>
+</div></div></body></html>
