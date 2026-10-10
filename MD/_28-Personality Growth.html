@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><title>28-Personality Growth.md</title><style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #000000;
+    -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+    font-size: 12px; line-height: 1.45;
+}
+.page { width: 210mm; padding: 0; }
+.page-break { page-break-before: always !important; break-before: always !important; }
+.lesson-section {
+    break-inside: avoid; page-break-inside: avoid;
+}
+body.present-continuous {
+    font-size: 11px;
+}
+body.present-continuous h1 {
+    margin-bottom: 7px;
+}
+body.present-continuous h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.present-continuous p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.present-continuous table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.present-continuous th,
+body.present-continuous td {
+    padding: 4px 8px;
+}
+/* Skills I Can Do: 7 stacked sections of short rows. The default spacing leaves
+   the practice section alone on a third page, so tighten to 2 pages. */
+body.skills {
+    font-size: 11px;
+}
+body.skills h1 {
+    margin-bottom: 7px;
+}
+body.skills h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.skills h3 {
+    margin: 8px 0 3px 0;
+}
+body.skills p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.skills .dq {
+    margin: 10px 0 3px 0;
+}
+body.skills table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.skills th,
+body.skills td {
+    padding: 4px 8px;
+}
+/* Black text throughout — no gray secondary columns. */
+body.skills h3,
+body.skills td:nth-child(2),
+body.skills td:last-child,
+body.skills td.cont {
+    color: #000000;
+}
+/* Time Clauses: 22 structure entries stacked in section 1, so the default
+   48px display-line gap would push it to 3 pages. Tighter gap keeps the whole
+   handout at 4 pages (sec1 x2, sec2 x1, sec3 x1) without shrinking the text. */
+body.time-clauses {
+    line-height: 1.38;
+}
+body.time-clauses .dq {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses h3 {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses p {
+    margin: 1px 0;
+}
+/* Modal Verbs: the sections flow across pages so every page fills up, while
+   tables and their headings still refuse to split — that keeps each rendered
+   page free of orphan rows and orphan headings. */
+body.modal-verbs .lesson-section {
+    break-inside: auto; page-break-inside: auto;
+}
+body.modal-verbs table {
+    margin: 3px 0 6px 0;
+    font-size: 11px;
+    line-height: 1.25;
+}
+body.modal-verbs th,
+body.modal-verbs td {
+    padding: 3px 8px;
+}
+body.modal-verbs h3 {
+    margin: 8px 0 3px 0;
+}
+body.modal-verbs h2 {
+    margin: 10px 0 4px 0;
+}
+body.modal-verbs table.aligned {
+    table-layout: fixed;
+}
+body.modal-verbs table.dqt {
+    font-size: 10px;
+}
+/* Personality Growth: a two-page reference sheet. Pure black on white (no
+   gray fills, no colored accents), uniform weight (nothing bold), and roomier
+   rows than the series default so the tables do not read as one block. */
+body.personality { font-size: 12.5px; }
+body.personality h1 {
+    font-size: 25px; border-bottom-color: #000000;
+    padding-bottom: 10px; margin-bottom: 14px;
+}
+body.personality h2 {
+    font-size: 16px; border-left-color: #000000; margin: 13px 0 6px 0;
+}
+body.personality h3 { font-size: 13px; margin: 12px 0 5px 0; }
+body.personality table {
+    font-size: 12.5px; line-height: 1.38; margin: 5px 0 11px 0;
+    border: none; border-radius: 0;
+}
+body.personality table.aligned { table-layout: fixed; }
+body.personality th,
+body.personality td { padding: 5px 10px; border-bottom: none; }
+body.personality th {
+    background: transparent; font-size: 12.5px; font-weight: 600;
+}
+body.personality td:first-child,
+body.personality b { font-weight: 400; }
+body.personality p { margin: 6px 0; line-height: 1.5; }
+/* Model story: each English sentence with its Chinese line directly beneath.
+   No gap inside a pair, a clear gap between pairs. */
+body.personality .bilingual { margin: 6px 0 12px 0; }
+body.personality .bilingual p { margin: 0; line-height: 1.4; }
+body.personality .bilingual p.zh { margin-bottom: 1px; }
+body.personality .bilingual p.en { margin-top: 9px; }
+body.personality .bilingual p.en:first-child { margin-top: 0; }
+h1 {
+    font-size: 24px; font-weight: 600; color: #000000;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #000000;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #000000; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #000000; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
+table.matrix { table-layout: fixed; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; white-space: nowrap; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #000000; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #000000; }
+/* Merged-column tables: the first cell of a `^` continuation row is the row's
+   own first column, not the shared label, so keep it regular weight. */
+td.cont { font-weight: 400; color: #000000; }
+/* 11-Describing Things Objects: the "words" / "evaluation" tables are pure
+   vocabulary lists, so their first column is not highlighted (regular weight). */
+table.plainfirst td:first-child { font-weight: 400; color: #000000; }
+td:nth-child(2) { color: #000000; }
+td:last-child { color: #000000; }
+b { color: #000000; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #000000; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #000000; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #000000; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #000000; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #000000; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
+</style></head><body class='personality'><div class='page'><h1>Personality Growth · 性格成长</h1>
+<div class='lesson-section'>
+<h2>Words 性格词</h2>
+<table class='aligned'><colgroup><col style='width:35.00%'><col style='width:32.00%'><col style='width:33.00%'></colgroup><tr><th>和人相处 With people</th><th>内心 Inner self</th><th>做事 At work</th></tr><tr><td>outgoing 外向</td><td>confident 自信</td><td>reliable 靠谱</td></tr><tr><td>friendly 友好</td><td>independent 独立</td><td>hardworking 勤奋</td></tr><tr><td>talkative 能聊</td><td>calm 沉稳</td><td>organized 有条理</td></tr><tr><td>considerate 体贴</td><td>patient 有耐心</td><td>responsible 有担当</td></tr><tr><td>generous 大方</td><td>optimistic 乐观</td><td>efficient 高效</td></tr><tr><td>easygoing 随和</td><td>kind 善良</td><td>punctual 守时</td></tr><tr><td>quiet 话少</td><td>sensitive 敏感</td><td>ambitious 有野心</td></tr><tr><td>reserved 内敛</td><td>moody 情绪化</td><td>competitive 好胜</td></tr><tr><td>shy 害羞</td><td>anxious 焦虑</td><td>careless 粗心</td></tr><tr><td>cold 冷淡</td><td>impatient 没耐心</td><td>lazy 懒</td></tr><tr><td>bossy 爱指挥人</td><td>stubborn 固执</td><td>unreliable 不靠谱</td></tr><tr><td>nosy 爱打听</td><td>insecure 没安全感</td><td>forgetful 健忘</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>Phrases 常见说法</h2>
+<table class='aligned'><colgroup><col style='width:29.00%'><col style='width:49.00%'><col style='width:22.00%'></colgroup><tr><th>说法</th><th>Example</th><th>中文</th></tr><tr><td>be a people person</td><td>I'm a people person — I love meeting clients.</td><td>爱跟人打交道</td></tr><tr><td>be a good listener</td><td>Friends call me because I'm a good listener.</td><td>会听人说话</td></tr><tr><td>be easy to talk to</td><td>People say I'm easy to talk to.</td><td>好说话</td></tr><tr><td>be a social butterfly</td><td>I'm a social butterfly — I know everyone here.</td><td>社交达人</td></tr><tr><td>keep to myself</td><td>I keep to myself on weekdays.</td><td>不爱社交</td></tr><tr><td>speak my mind</td><td>I speak my mind in every meeting.</td><td>有话直说</td></tr><tr><td>have a good sense of humor</td><td>I have a good sense of humor about my mistakes.</td><td>有幽默感</td></tr><tr><td>have a short temper</td><td>I have a short temper when I'm hungry.</td><td>脾气急</td></tr><tr><td>have no filter</td><td>I had no filter — I said what I thought.</td><td>说话不过脑子</td></tr><tr><td>wear my heart on my sleeve</td><td>I wear my heart on my sleeve — everyone knows.</td><td>情绪全写在脸上</td></tr><tr><td>be a people pleaser</td><td>I was a people pleaser — I never said no.</td><td>老好人</td></tr><tr><td>be a workaholic</td><td>I was a workaholic for two years.</td><td>工作狂</td></tr><tr><td>be a night owl</td><td>I'm a night owl — I work best after 11 p.m.</td><td>夜猫子</td></tr><tr><td>be a morning person</td><td>I'm a morning person — I'm up at six.</td><td>早起型</td></tr><tr><td>be a homebody</td><td>I'm a homebody — I stay in all weekend.</td><td>宅</td></tr><tr><td>be a perfectionist</td><td>I'm a perfectionist about my reports.</td><td>完美主义</td></tr><tr><td>be a team player</td><td>I'm a team player — I help new hires.</td><td>有团队精神</td></tr><tr><td>be down to earth</td><td>I'm pretty down to earth about my job.</td><td>不摆架子</td></tr><tr><td>be my own worst critic</td><td>I'm my own worst critic about my work.</td><td>对自己最苛刻</td></tr><tr><td>have a thick skin</td><td>I've grown a thick skin about feedback.</td><td>不玻璃心</td></tr></table>
+</div>
+</div><div class='page page-break'>
+<div class='lesson-section'>
+<h2>Story Frame 故事框架</h2>
+<table class='aligned'><colgroup><col style='width:11.00%'><col style='width:41.00%'><col style='width:48.00%'></colgroup><tr><th>步骤</th><th>框架</th><th>例</th></tr><tr><td>以前</td><td>Back then, I used to be <span class='blank'></span> .</td><td>Back then, I used to be careless with money.</td></tr><tr><td>发生了什么</td><td>Then <span class='blank'></span> .</td><td>Then my rent went up by 800 yuan.</td></tr><tr><td>慢慢变化</td><td>Little by little, I became more <span class='blank'></span> .</td><td>Little by little, I became more careful.</td></tr><tr><td>现在</td><td>These days, I'm <span class='blank'></span> .</td><td>These days, I save 2,000 yuan a month.</td></tr><tr><td>回头想想</td><td>Looking back, <span class='blank'></span> changed me.</td><td>Looking back, that rent hike changed me.</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>Change 变化的说法</h2>
+<table class='aligned'><colgroup><col style='width:29.00%'><col style='width:49.00%'><col style='width:22.00%'></colgroup><tr><th>说法</th><th>Example</th><th>中文</th></tr><tr><td>come out of my shell</td><td>Group chats helped me come out of my shell.</td><td>变得愿意交流</td></tr><tr><td>open up</td><td>I've started to open up at work.</td><td>放开了</td></tr><tr><td>loosen up</td><td>I loosened up after my first month.</td><td>放松下来</td></tr><tr><td>mellow out</td><td>My dad has mellowed out with age.</td><td>变随和了</td></tr><tr><td>come a long way</td><td>My English has come a long way.</td><td>进步很大</td></tr><tr><td>get out of my comfort zone</td><td>I got out of my comfort zone last month.</td><td>走出舒适区</td></tr><tr><td>let myself go</td><td>I let myself go after I started night shifts.</td><td>变得不修边幅</td></tr><tr><td>get set in my ways</td><td>My dad has gotten set in his ways.</td><td>变得认死理</td></tr><tr><td>close myself off</td><td>I closed myself off after the move.</td><td>封闭自己</td></tr><tr><td>burn out</td><td>I burned out in my second year.</td><td>累垮了</td></tr><tr><td>get stuck in a rut</td><td>I got stuck in a rut for a whole year.</td><td>陷入一成不变</td></tr><tr><td>drift apart</td><td>My college friends and I drifted apart.</td><td>渐渐疏远</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>Model Story</h2>
+<div class='bilingual'><p class='en'>Back then, I used to be really shy, and I never spoke in meetings.</p><p class='zh'>那时候我特别害羞，开会从不发言。</p><p class='en'>Then my manager asked me to present on a Friday call.</p><p class='zh'>后来经理让我在周五的电话会上做汇报。</p><p class='en'>At first, my hands shook.</p><p class='zh'>一开始我手都在抖。</p><p class='en'>Little by little, it got easier, and after that I started volunteering for small talks.</p><p class='zh'>慢慢地就变简单了，之后我开始主动认领小的发言。</p><p class='en'>These days, I speak my mind at work, and nobody thinks it's strange.</p><p class='zh'>现在我在工作上有话直说，也没人觉得奇怪。</p><p class='en'>Looking back, that Friday call changed me.</p><p class='zh'>回头看，是那次周五的电话会改变了我。</p></div>
+</div>
+<div class='lesson-section'>
+<h2>Discussion 讨论</h2>
+<table class='aligned'><colgroup><col style='width:40.00%'><col style='width:34.00%'><col style='width:26.00%'></colgroup><tr><th>Question</th><th>Answer tags</th><th>中文</th></tr><tr><td>What were you like in high school?</td><td>Shy / Quiet / Outgoing</td><td>你高中时是什么样的人？</td></tr><tr><td>What made you more confident?</td><td>My job / A friend / A hard year</td><td>什么让你更自信了？</td></tr><tr><td>What is your biggest change this year?</td><td>Saving money / Saying no</td><td>今年你最大的变化是什么？</td></tr><tr><td>Who do you get along with?</td><td>Easygoing / Considerate / Generous</td><td>你跟什么样的人合得来？</td></tr><tr><td>Who do you avoid?</td><td>Bossy / Cold / Nosy</td><td>你会躲着什么样的人？</td></tr><tr><td>What are you still working on?</td><td>Being patient / Not overthinking</td><td>你还在改什么？</td></tr></table>
+</div></div></body></html>

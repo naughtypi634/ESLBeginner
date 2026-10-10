@@ -28,6 +28,7 @@ LESSON_CLASS = {
     "19-Time Clauses.md": "time-clauses",
     "21-Modal Verbs.md": "modal-verbs",
     "21-2-Modal Verbs Complete.md": "modal-verbs",
+    "28-Personality Growth.md": "personality",
 }
 
 # Per-lesson tables that are plain word lists: keyed by MD file name, the value
@@ -37,10 +38,28 @@ PLAIN_FIRST_COL = {
     "11-Describing Things Objects.md": ("words", "evaluation"),
 }
 
+# Lessons whose tables should all share one fixed column grid, so every table
+# lines up on the same vertical edges instead of sizing columns to content.
+# Keyed by MD file name -> column widths (applied to every table of that width).
+UNIFORM_WIDTHS: dict[str, tuple[int, ...]] = {
+    "28-Personality Growth.md": (35, 39, 26),
+}
+
 # Per-lesson table column widths, keyed by MD file name and then by the table's
 # header cells. Tables sharing a header shape get identical column edges, so
 # every table in the handouts lines up column for column.
 TABLE_WIDTHS: dict[str, dict[tuple[str, ...], tuple[int, ...]]] = {
+    "28-Personality Growth.md": {
+        # Story Frame: the frame column is sized to its longest pattern
+        # ("Little by little, I became more ______ .").
+        ("步骤", "框架", "例"): (11, 41, 48),
+        # Words: three equal scenario columns.
+        ("和人相处 With people", "内心 Inner self", "做事 At work"): (35, 32, 33),
+        # Phrases / Change: the example carries the phrase in context, so it
+        # takes half the table.
+        ("说法", "Example", "中文"): (29, 49, 22),
+        ("Question", "Answer tags", "中文"): (40, 34, 26),
+    },
     "21-Modal Verbs.md": {
         ("English", "Chinese"): (60, 40),
         ("推测词", "确定程度", "例句"): (20, 30, 50),
@@ -187,6 +206,38 @@ body.modal-verbs table.aligned {
 body.modal-verbs table.dqt {
     font-size: 10px;
 }
+/* Personality Growth: a two-page reference sheet. Pure black on white (no
+   gray fills, no colored accents), uniform weight (nothing bold), and roomier
+   rows than the series default so the tables do not read as one block. */
+body.personality { font-size: 12.5px; }
+body.personality h1 {
+    font-size: 25px; border-bottom-color: #000000;
+    padding-bottom: 10px; margin-bottom: 14px;
+}
+body.personality h2 {
+    font-size: 16px; border-left-color: #000000; margin: 13px 0 6px 0;
+}
+body.personality h3 { font-size: 13px; margin: 12px 0 5px 0; }
+body.personality table {
+    font-size: 12.5px; line-height: 1.38; margin: 5px 0 11px 0;
+    border: none; border-radius: 0;
+}
+body.personality table.aligned { table-layout: fixed; }
+body.personality th,
+body.personality td { padding: 5px 10px; border-bottom: none; }
+body.personality th {
+    background: transparent; font-size: 12.5px; font-weight: 600;
+}
+body.personality td:first-child,
+body.personality b { font-weight: 400; }
+body.personality p { margin: 6px 0; line-height: 1.5; }
+/* Model story: each English sentence with its Chinese line directly beneath.
+   No gap inside a pair, a clear gap between pairs. */
+body.personality .bilingual { margin: 6px 0 12px 0; }
+body.personality .bilingual p { margin: 0; line-height: 1.4; }
+body.personality .bilingual p.zh { margin-bottom: 1px; }
+body.personality .bilingual p.en { margin-top: 9px; }
+body.personality .bilingual p.en:first-child { margin-top: 0; }
 h1 {
     font-size: 24px; font-weight: 600; color: #000000;
     border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
@@ -282,10 +333,12 @@ def inline(text: str) -> str:
 
 
 def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = (),
-               widths_map: dict[tuple[str, ...], tuple[int, ...]] | None = None) -> str:
+               widths_map: dict[tuple[str, ...], tuple[int, ...]] | None = None,
+               uniform_widths: tuple[int, ...] | None = None) -> str:
     """plain_first_col: lowercased `### ` headings whose tables should render
     without a bold/emphasized first column.
-    widths_map: header row -> column widths, for tables that must line up."""
+    widths_map: header row -> column widths, for tables that must line up.
+    uniform_widths: one grid applied to every table of matching width."""
     widths_map = widths_map or {}
     lines = md_text.splitlines()
     out: list[str] = []
@@ -303,6 +356,25 @@ def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = (),
             i += 1
             while i < len(lines) and not lines[i].startswith("#"):
                 i += 1
+            continue
+        if line.strip() == "<!-- bilingual -->":
+            # Sentence-by-sentence translation: consecutive non-blank lines are
+            # paired English / Chinese and rendered as a stacked unit, so the
+            # translation sits directly under the sentence it belongs to.
+            i += 1
+            src: list[str] = []
+            while i < len(lines) and lines[i].strip() != "<!-- /bilingual -->":
+                if lines[i].strip():
+                    src.append(lines[i].strip())
+                i += 1
+            i += 1
+            rows = []
+            for k in range(0, len(src) - 1, 2):
+                rows.append(f"<p class='en'>{inline(src[k])}</p>"
+                            f"<p class='zh'>{inline(src[k + 1])}</p>")
+            if len(src) % 2:
+                rows.append(f"<p class='en'>{inline(src[-1])}</p>")
+            out.append("<div class='bilingual'>" + "".join(rows) + "</div>")
             continue
         if line.strip() == "<!-- pagebreak -->":
             if section_open:
@@ -348,7 +420,18 @@ def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = (),
                        ["确定程度", "现在 / 将来", "对过去", "例句"],
                        ["对比", "区别", "例句"],
                        ["情态动词", "否定", "常见缩略"],
-                       ["问句", "肯定回答", "否定回答"])
+                       ["问句", "肯定回答", "否定回答"],
+                       # Personality Growth: reference tables whose first row is
+                       # a real header and must read as a level above the rows.
+                       ["步骤", "框架", "例"],
+                       ["和人相处 With people", "内心 Inner self", "做事 At work"],
+                       ["说法", "Example", "中文"],
+                       ["Phrase", "Example", "中文"],
+                       ["Pattern", "Example", "中文"],
+                       ["Connector", "Example", "中文"],
+                       ["Topic", "Starter", "中文"],
+                       ["Step", "Pattern", "中文"],
+                       ["Question", "Answer tags", "中文"])
             is_head = bool(cells) and cells[0] in HEADERS
             classes = []
             if last_h3 in plain_first_col:
@@ -362,6 +445,8 @@ def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = (),
             cls = f" class='{' '.join(classes)}'" if classes else ""
             colgroup = ""
             widths = widths_map.get(tuple(cells[0]))
+            if widths is None and uniform_widths and len(uniform_widths) == len(cells[0]):
+                widths = uniform_widths
             if widths and len(widths) == len(cells[0]):
                 classes.append("aligned")
                 cls = f" class='{' '.join(classes)}'"
@@ -456,7 +541,8 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
 def build_html(md_name: str) -> str:
     md_text = (MD_DIR / md_name).read_text(encoding="utf-8")
     name = Path(md_name).name
-    body = md_to_html(md_text, PLAIN_FIRST_COL.get(name, ()), TABLE_WIDTHS.get(name, {}))
+    body = md_to_html(md_text, PLAIN_FIRST_COL.get(name, ()), TABLE_WIDTHS.get(name, {}),
+                      UNIFORM_WIDTHS.get(name))
     body_class = LESSON_CLASS.get(name, "")
     return (
         "<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'>"
