@@ -26,6 +26,8 @@ LESSON_CLASS = {
     "16-Present Continuous.md": "present-continuous",
     "18-Skills I Can Do.md": "skills",
     "19-Time Clauses.md": "time-clauses",
+    "21-Modal Verbs.md": "modal-verbs",
+    "21-2-Modal Verbs Complete.md": "modal-verbs",
 }
 
 # Per-lesson tables that are plain word lists: keyed by MD file name, the value
@@ -33,6 +35,29 @@ LESSON_CLASS = {
 # first column instead of the default highlighted one.
 PLAIN_FIRST_COL = {
     "11-Describing Things Objects.md": ("words", "evaluation"),
+}
+
+# Per-lesson table column widths, keyed by MD file name and then by the table's
+# header cells. Tables sharing a header shape get identical column edges, so
+# every table in the handouts lines up column for column.
+TABLE_WIDTHS: dict[str, dict[tuple[str, ...], tuple[int, ...]]] = {
+    "21-Modal Verbs.md": {
+        ("English", "Chinese"): (60, 40),
+        ("推测词", "确定程度", "例句"): (20, 30, 50),
+        ("English", "Chinese", "Answer tags"): (42, 24, 34),
+    },
+    "21-2-Modal Verbs Complete.md": {
+        ("English", "Chinese"): (60, 40),
+        ("规则", "说明", "例句"): (20, 30, 50),
+        ("情态动词", "主要含义", "例句"): (20, 30, 50),
+        ("对比", "区别", "例句"): (20, 30, 50),
+        ("情态动词", "否定", "常见缩略"): (20, 30, 50),
+        ("问句", "肯定回答", "否定回答"): (20, 30, 50),
+        ("情态动词", "更多用法", "例句", "翻译"): (20, 20, 34, 26),
+        ("结构", "含义", "例句", "翻译"): (20, 20, 34, 26),
+        ("确定程度", "现在 / 将来", "对过去", "例句"): (20, 20, 34, 26),
+        ("English", "Chinese", "Answer tags"): (42, 24, 34),
+    },
 }
 
 DEFAULT = [
@@ -50,6 +75,7 @@ DEFAULT = [
     "19-Time Clauses.md",
     "20-Zero First Conditional.md",
     "21-Modal Verbs.md",
+    "21-2-Modal Verbs Complete.md",
 ]
 
 CSS = """
@@ -133,6 +159,33 @@ body.time-clauses h3 {
 }
 body.time-clauses p {
     margin: 1px 0;
+}
+/* Modal Verbs: the sections flow across pages so every page fills up, while
+   tables and their headings still refuse to split — that keeps each rendered
+   page free of orphan rows and orphan headings. */
+body.modal-verbs .lesson-section {
+    break-inside: auto; page-break-inside: auto;
+}
+body.modal-verbs table {
+    margin: 3px 0 6px 0;
+    font-size: 11px;
+    line-height: 1.25;
+}
+body.modal-verbs th,
+body.modal-verbs td {
+    padding: 3px 8px;
+}
+body.modal-verbs h3 {
+    margin: 8px 0 3px 0;
+}
+body.modal-verbs h2 {
+    margin: 10px 0 4px 0;
+}
+body.modal-verbs table.aligned {
+    table-layout: fixed;
+}
+body.modal-verbs table.dqt {
+    font-size: 10px;
 }
 h1 {
     font-size: 24px; font-weight: 600; color: #000000;
@@ -228,9 +281,12 @@ def inline(text: str) -> str:
     return text
 
 
-def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = ()) -> str:
+def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = (),
+               widths_map: dict[tuple[str, ...], tuple[int, ...]] | None = None) -> str:
     """plain_first_col: lowercased `### ` headings whose tables should render
-    without a bold/emphasized first column."""
+    without a bold/emphasized first column.
+    widths_map: header row -> column widths, for tables that must line up."""
+    widths_map = widths_map or {}
     lines = md_text.splitlines()
     out: list[str] = []
     i = 0
@@ -240,6 +296,13 @@ def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = ()) -> str:
         line = lines[i].rstrip()
         if not line.strip():
             i += 1
+            continue
+        if line.strip() == "## 课程介绍":
+            # The intro is course metadata kept in the MD for sync_intro.py and
+            # is never printed in the handout, matching build/build_pdfs.py.
+            i += 1
+            while i < len(lines) and not lines[i].startswith("#"):
+                i += 1
             continue
         if line.strip() == "<!-- pagebreak -->":
             if section_open:
@@ -275,14 +338,37 @@ def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = ()) -> str:
                        ["English", "Chinese", "Answer tags"], ["English", "Chinese", "Keywords"],
                        ["Positive 积极", "Negative 消极", "Neutral 中性"],
                        ["Color 颜色", "Shape 形状", "Size 大小", "Material 材质"],
-                       ["Positive 积极", "Negative 消极", "Positive 积极", "Negative 消极"])
+                       ["Positive 积极", "Negative 消极", "Positive 积极", "Negative 消极"],
+                       # Chinese-header reference tables (modal verbs handouts).
+                       ["推测词", "确定程度", "例句"],
+                       ["规则", "说明", "例句"],
+                       ["情态动词", "主要含义", "例句"],
+                       ["情态动词", "更多用法", "例句", "翻译"],
+                       ["结构", "含义", "例句", "翻译"],
+                       ["确定程度", "现在 / 将来", "对过去", "例句"],
+                       ["对比", "区别", "例句"],
+                       ["情态动词", "否定", "常见缩略"],
+                       ["问句", "肯定回答", "否定回答"])
             is_head = bool(cells) and cells[0] in HEADERS
             classes = []
             if last_h3 in plain_first_col:
                 classes.append("plainfirst")
             if cells and cells[0] == ["Positive 积极", "Negative 消极", "Neutral 中性"]:
                 classes.append("matrix")
+            if cells and cells[0] == ["English", "Chinese", "Answer tags"]:
+                # Discussion rows carry a question plus two or three model
+                # answers, so they run at a slightly smaller size.
+                classes.append("dqt")
             cls = f" class='{' '.join(classes)}'" if classes else ""
+            colgroup = ""
+            widths = widths_map.get(tuple(cells[0]))
+            if widths and len(widths) == len(cells[0]):
+                classes.append("aligned")
+                cls = f" class='{' '.join(classes)}'"
+                total = sum(widths)
+                colgroup = "<colgroup>" + "".join(
+                    f"<col style='width:{w / total * 100:.2f}%'>" for w in widths
+                ) + "</colgroup>"
             # Column 0: a `^` cell continues the cell above (rowspan), so a label
             # shared by several rows is written once in the MD source.
             rowspans: dict[int, int] = {}
@@ -297,7 +383,7 @@ def md_to_html(md_text: str, plain_first_col: tuple[str, ...] = ()) -> str:
                     continue
                 rowspans[lead] = rowspans.get(lead, 1) + 1
                 merged.add((ri, 0))
-            html = f"<table{cls}>"
+            html = f"<table{cls}>{colgroup}"
             for ri, row in enumerate(cells):
                 tag = "th" if ri == 0 and is_head else "td"
                 merged_first = (ri, 0) in merged
@@ -369,8 +455,9 @@ def export_pdf(html_path: Path, pdf_path: Path) -> bool:
 
 def build_html(md_name: str) -> str:
     md_text = (MD_DIR / md_name).read_text(encoding="utf-8")
-    body = md_to_html(md_text, PLAIN_FIRST_COL.get(Path(md_name).name, ()))
-    body_class = LESSON_CLASS.get(Path(md_name).name, "")
+    name = Path(md_name).name
+    body = md_to_html(md_text, PLAIN_FIRST_COL.get(name, ()), TABLE_WIDTHS.get(name, {}))
+    body_class = LESSON_CLASS.get(name, "")
     return (
         "<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'>"
         f"<title>{esc(md_name)}</title><style>{CSS}</style></head>"

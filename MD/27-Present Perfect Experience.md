@@ -1,9 +1,5 @@
 # Present Perfect · Experiences 现在完成时（经历）
 
-## 课程介绍
-
-本周我们练习现在完成时，了解 have / has + 过去分词表示经历的用法，学会用 Have you ever…?、I've been to、I've never… 谈论曾经有过的经历，并应用到同事闲聊、面试问答与周末计划中。
-
 ## 1. Form 结构
 
 | 句型 | 例句 | 中文对照 |

@@ -1,9 +1,5 @@
 # Weather
 
-## 课程介绍
-
-本周我们练习天气词汇，掌握 20 个核心天气词及其含义，了解 rainy / sunny / windy / hot / cold 五类天气的常见表达与简单句型，练习描述眼前天气，并应用到穿衣、出行、心情与旅行话题的对话讨论中。
-
 ## Key Vocabulary
 
 | Word | Meaning | Word | Meaning |

@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Sync course intros from 课程介绍总览.md (repo root) into each lesson MD.
+"""Strip course intros from lesson MDs; the intro text lives in 课程介绍总览.md.
 
-The index stores every course as two plain lines:
-
-    <course title>          # must match the lesson MD's H1
-    <intro sentence>
+Handouts must not carry a course intro (see AGENTS.md), so the index at the repo
+root is the single place for that text and this script removes any
+`## 课程介绍` block that reappears in a lesson MD.
 
 Usage:
-    python build/sync_intro.py            # sync every lesson in the index
-    python build/sync_intro.py 14         # sync lessons whose filename contains "14"
+    python build/sync_intro.py            # check/strip every lesson
+    python build/sync_intro.py 14         # only lessons whose filename contains "14"
 """
 
 import sys
@@ -42,35 +41,34 @@ def parse_index(text: str) -> dict[str, str]:
     return entries
 
 
-def sync_one(path: Path, intro: str) -> str:
-    original = path.read_text(encoding="utf-8")
-    lines = original.split("\n")
-    intro_idx = next((i for i, ln in enumerate(lines) if ln.strip() == HEADER), None)
-    block = [HEADER, "", intro]
-
-    if intro_idx is None:
-        # Insert right after the H1 title (and any blank lines that follow it).
-        title_idx = next((i for i, ln in enumerate(lines) if ln.startswith("# ")), 0)
-        insert_at = title_idx + 1
-        while insert_at < len(lines) and not lines[insert_at].strip():
-            insert_at += 1
-        lines[insert_at:insert_at] = block + [""]
-    else:
-        # Replace the existing intro block (header + blank + paragraph).
-        end = intro_idx + 1
-        while end < len(lines) and not lines[end].strip():
-            end += 1
-        while end < len(lines) and lines[end].strip() and not lines[end].startswith("#"):
-            end += 1
-        lines[intro_idx:end] = block
-
-    out = "\n".join(lines)
-    if not out.endswith("\n"):
-        out += "\n"
-    if out == original or out + "\n" == original:
-        return "unchanged"
-    path.write_text(out, encoding="utf-8", newline="")
-    return "updated" if intro_idx is not None else "added"
+def strip_one(path: Path) -> str:
+    """Delete the `## 课程介绍` block; returns "stripped" or "clean"."""
+    raw = path.read_bytes()
+    newline = "\r\n" if b"\r\n" in raw else "\n"
+    lines = raw.decode("utf-8").replace("\r\n", "\n").split("\n")
+    out: list[str] = []
+    i, found = 0, False
+    while i < len(lines):
+        if lines[i].strip() == HEADER:
+            found = True
+            i += 1
+            while i < len(lines) and not lines[i].startswith("#"):
+                i += 1
+            while out and not out[-1].strip():
+                out.pop()
+            out.append("")
+            continue
+        out.append(lines[i])
+        i += 1
+    if not found:
+        return "clean"
+    while len(out) > 1 and not out[-2].strip() and not out[-1].strip():
+        out.pop()
+    text = "\n".join(out)
+    if not text.endswith("\n"):
+        text += "\n"
+    path.write_bytes(text.replace("\n", newline).encode("utf-8"))
+    return "stripped"
 
 
 def main() -> None:
@@ -79,26 +77,21 @@ def main() -> None:
     entries = parse_index(INDEX.read_text(encoding="utf-8"))
     filters = sys.argv[1:]
 
-    files = sorted(p for p in MD_DIR.glob("*.md") if not p.name.startswith("_"))
-    titles: dict[str, Path] = {}
+    files = sorted(p for p in MD_DIR.rglob("*.md") if not p.name.startswith("_"))
+    results: dict[str, list[str]] = {"stripped": [], "clean": []}
+    titles: dict[str, str] = {}
     for p in files:
         first = next((ln for ln in p.read_text(encoding="utf-8").splitlines() if ln.startswith("# ")), "")
-        titles[first[2:].strip()] = p
-    title_to_name = {t: p.name for t, p in titles.items()}
+        titles.setdefault(first[2:].strip(), str(p.relative_to(MD_DIR)))
 
-    results: dict[str, list[str]] = {"added": [], "updated": [], "unchanged": [], "no-intro-in-index": []}
-    for title, path in titles.items():
+    for path in files:
         if filters and not any(f in path.name for f in filters):
             continue
-        intro = entries.get(title)
-        if intro is None:
-            results["no-intro-in-index"].append(path.name)
-            continue
-        results[sync_one(path, intro)].append(path.name)
+        results[strip_one(path)].append(str(path.relative_to(MD_DIR)))
 
     index_only = [t for t in entries if t not in titles]
     if filters:
-        index_only = [t for t in index_only if any(f in title_to_name.get(t, t) for f in filters)]
+        index_only = [t for t in index_only if any(f in titles.get(t, t) for f in filters)]
 
     for key, names in results.items():
         if names:

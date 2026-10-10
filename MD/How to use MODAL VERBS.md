@@ -2,10 +2,6 @@
 
 ## 1. Modals of Advice (建议)
 
-We use modals of advice to give suggestions, recommendations, or warnings.
-
-**Form:** `modal + verb (base form)`
-
 ### should / shouldn't · 应该 / 不应该（日常建议）
 
 - You **should check** the metro schedule before leaving. (离开前你应该查一下地铁时刻表。)
@@ -34,10 +30,6 @@ We use modals of advice to give suggestions, recommendations, or warnings.
 ---
 
 ## 2. Modals of Necessity (必要与义务)
-
-Modals of necessity express obligations, mandatory rules, or absence of obligation.
-
-**Form:** `modal + verb (base form)`
 
 ### must / must not · 必须 / 严禁（刚性规定与禁止）
 
@@ -74,10 +66,6 @@ Modals of necessity express obligations, mandatory rules, or absence of obligati
 
 ## 3. Modals of Possibility and Probability (推测与把握程度)
 
-We use modal verbs to make logical deductions and express how certain we are based on evidence.
-
-**Form:** `modal + verb (base form)`
-
 ### must · 一定 / 肯定（95% 把握的肯定推测）
 
 - The café is packed — their new seasonal drink **must be** good. (咖啡馆挤满了人，他们的新品一定很好喝。)
@@ -112,10 +100,6 @@ We use modal verbs to make logical deductions and express how certain we are bas
 ---
 
 ## 4. Modals of Past Regret · 本来……（表达后悔与遗憾）
-
-We use `modal + have + past participle` to talk about past actions that didn't happen as wished, expressing regret or criticism.
-
-**Form:** `should have / could have / shouldn't have + past participle`
 
 ### should have done · 本该做……（遗憾没做）
 

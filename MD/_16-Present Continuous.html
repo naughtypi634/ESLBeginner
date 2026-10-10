@@ -31,6 +31,82 @@ body.present-continuous th,
 body.present-continuous td {
     padding: 4px 8px;
 }
+/* Skills I Can Do: 7 stacked sections of short rows. The default spacing leaves
+   the practice section alone on a third page, so tighten to 2 pages. */
+body.skills {
+    font-size: 11px;
+}
+body.skills h1 {
+    margin-bottom: 7px;
+}
+body.skills h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.skills h3 {
+    margin: 8px 0 3px 0;
+}
+body.skills p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.skills .dq {
+    margin: 10px 0 3px 0;
+}
+body.skills table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.skills th,
+body.skills td {
+    padding: 4px 8px;
+}
+/* Black text throughout — no gray secondary columns. */
+body.skills h3,
+body.skills td:nth-child(2),
+body.skills td:last-child,
+body.skills td.cont {
+    color: #000000;
+}
+/* Time Clauses: 22 structure entries stacked in section 1, so the default
+   48px display-line gap would push it to 3 pages. Tighter gap keeps the whole
+   handout at 4 pages (sec1 x2, sec2 x1, sec3 x1) without shrinking the text. */
+body.time-clauses {
+    line-height: 1.38;
+}
+body.time-clauses .dq {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses h3 {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses p {
+    margin: 1px 0;
+}
+/* Modal Verbs: the sections flow across pages so every page fills up, while
+   tables and their headings still refuse to split — that keeps each rendered
+   page free of orphan rows and orphan headings. */
+body.modal-verbs .lesson-section {
+    break-inside: auto; page-break-inside: auto;
+}
+body.modal-verbs table {
+    margin: 3px 0 6px 0;
+    font-size: 11px;
+    line-height: 1.25;
+}
+body.modal-verbs th,
+body.modal-verbs td {
+    padding: 3px 8px;
+}
+body.modal-verbs h3 {
+    margin: 8px 0 3px 0;
+}
+body.modal-verbs h2 {
+    margin: 10px 0 4px 0;
+}
+body.modal-verbs table.aligned {
+    table-layout: fixed;
+}
+body.modal-verbs table.dqt {
+    font-size: 10px;
+}
 h1 {
     font-size: 24px; font-weight: 600; color: #000000;
     border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
@@ -62,6 +138,12 @@ th {
     text-align: left; letter-spacing: 0.02em;
 }
 td:first-child { font-weight: 600; color: #000000; }
+/* Merged-column tables: the first cell of a `^` continuation row is the row's
+   own first column, not the shared label, so keep it regular weight. */
+td.cont { font-weight: 400; color: #000000; }
+/* 11-Describing Things Objects: the "words" / "evaluation" tables are pure
+   vocabulary lists, so their first column is not highlighted (regular weight). */
+table.plainfirst td:first-child { font-weight: 400; color: #000000; }
 td:nth-child(2) { color: #000000; }
 td:last-child { color: #000000; }
 b { color: #000000; font-weight: 600; }
@@ -94,37 +176,33 @@ h2 + .dq { margin-top: 10px; }
 }
 </style></head><body class='present-continuous'><div class='page'><h1>Present Continuous · 现在进行时</h1>
 <div class='lesson-section'>
-<h2>课程介绍</h2>
-<p>本周我们练习现在进行时，了解 am / is / are + doing 的五种常见用法，学会描述眼前动作、临时状态、变化、安排和反复发生的行为，并应用到工作、通勤和日常对话中。</p>
-</div>
-<div class='lesson-section'>
 <h2>Form 形式</h2>
 <table><tr><th>English</th><th>Chinese</th></tr><tr><td><b>Subject + am / is / are + verb-ing</b></td><td><b>主语 + am / is / are + 动词-ing</b></td></tr><tr><td>I am working. / She is waiting. / They are talking.</td><td>我正在工作。/ 她正在等待。/ 他们正在交谈。</td></tr><tr><td>Negative: <b>Subject + am / is / are not + verb-ing</b></td><td>否定：主语 + am / is / are not + 动词-ing</td></tr><tr><td>Question: <b>Am / Is / Are + subject + verb-ing?</b></td><td>一般疑问：Am / Is / Are + 主语 + 动词-ing？</td></tr><tr><td>Wh-question: <b>Wh-word + am / is / are + subject + verb-ing?</b></td><td>特殊疑问：疑问词 + am / is / are + 主语 + 动词-ing？</td></tr></table>
 </div>
 <div class='lesson-section'>
 <h2>Actions happening now 正在发生的动作</h2>
 <p>现在这一刻正在做的事，用现在进行时。看见动作、听见动作，或者用 <b>now / right now / at the moment</b> 指向此刻，都可以这样说。</p>
-<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>I am scanning the QR code for my order.</td><td>我正在扫订单二维码。</td></tr><tr><td></td><td>Mei is waiting for the lift.</td><td>Mei 正在等电梯。</td></tr><tr><td></td><td>We are discussing the rent in the group chat.</td><td>我们正在群里讨论房租。</td></tr><tr><td></td><td>The delivery rider is calling me now.</td><td>外卖骑手现在正在给我打电话。</td></tr><tr><td></td><td>My colleague is printing the report.</td><td>我的同事正在打印报告。</td></tr><tr><td>Negative 否定</td><td>I am not checking my phone during the meeting.</td><td>我没有在会议中看手机。</td></tr><tr><td></td><td>He is not driving; he is taking the metro.</td><td>他没有开车，他正在坐地铁。</td></tr><tr><td></td><td>They are not ordering dessert.</td><td>他们没有在点甜点。</td></tr><tr><td></td><td>The baby is not sleeping yet.</td><td>宝宝还没有睡觉。</td></tr><tr><td></td><td>We are not discussing the problem now.</td><td>我们现在没有讨论这个问题。</td></tr><tr><td>Yes / No 一般疑问</td><td>Are you working from home today?</td><td>你今天在家办公吗？</td></tr><tr><td></td><td>Is your manager joining the call?</td><td>你的经理正在加入电话会议吗？</td></tr><tr><td></td><td>Am I speaking too fast?</td><td>我说得太快了吗？</td></tr><tr><td></td><td>Are the students taking notes?</td><td>学生们正在记笔记吗？</td></tr><tr><td></td><td>Is your phone charging?</td><td>你的手机正在充电吗？</td></tr><tr><td>Wh-question 特殊疑问</td><td>What are you cooking for dinner?</td><td>你正在做什么晚饭？</td></tr><tr><td></td><td>Where is Lin waiting?</td><td>Lin 正在哪里等？</td></tr><tr><td></td><td>Why are they laughing?</td><td>他们为什么在笑？</td></tr><tr><td></td><td>Who is using the meeting room?</td><td>谁正在使用会议室？</td></tr><tr><td></td><td>What is the dog chasing?</td><td>那只狗正在追什么？</td></tr></table>
+<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>I am scanning the QR code for my order.</td><td>我正在扫订单二维码。</td></tr><tr><td></td><td>Mei is waiting for the elevator.</td><td>Mei 正在等电梯。</td></tr><tr><td></td><td>We are discussing the rent in the group chat.</td><td>我们正在群里讨论房租。</td></tr><tr><td></td><td>The delivery rider is calling me now.</td><td>外卖骑手现在正在给我打电话。</td></tr><tr><td></td><td>My colleague is printing the report.</td><td>我的同事正在打印报告。</td></tr><tr><td>Negative 否定</td><td>I am not checking my phone during the meeting.</td><td>我没有在会议中看手机。</td></tr><tr><td></td><td>He is not driving; he is taking the metro.</td><td>他没有开车，他正在坐地铁。</td></tr><tr><td></td><td>They are not ordering dessert.</td><td>他们没有在点甜点。</td></tr><tr><td></td><td>The baby is not sleeping yet.</td><td>宝宝还没有睡觉。</td></tr><tr><td></td><td>We are not discussing the problem now.</td><td>我们现在没有讨论这个问题。</td></tr><tr><td>Yes / No 一般疑问</td><td>Are you working from home today?</td><td>你今天在家办公吗？</td></tr><tr><td></td><td>Is your manager joining the call?</td><td>你的经理正在加入电话会议吗？</td></tr><tr><td></td><td>Am I speaking too fast?</td><td>我说得太快了吗？</td></tr><tr><td></td><td>Are the students taking notes?</td><td>学生们正在记笔记吗？</td></tr><tr><td></td><td>Is your phone charging?</td><td>你的手机正在充电吗？</td></tr><tr><td>Wh-question 特殊疑问</td><td>What are you cooking for dinner?</td><td>你正在做什么晚饭？</td></tr><tr><td></td><td>Where is Lin waiting?</td><td>Lin 正在哪里等？</td></tr><tr><td></td><td>Why are they laughing?</td><td>他们为什么在笑？</td></tr><tr><td></td><td>Who is using the meeting room?</td><td>谁正在使用会议室？</td></tr><tr><td></td><td>What is the dog chasing?</td><td>那只狗正在追什么？</td></tr></table>
 </div>
 <div class='lesson-section'>
 <h2>Temporary situations around now 这段时间的临时情况</h2>
 <p>不一定是说话这一秒正在做，但只发生在最近这段时间的临时情况，也用现在进行时。常和 <b>this week / these days / this month</b> 一起用。</p>
-<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>I am staying with my cousin this week.</td><td>这周我暂时住在表姐家。</td></tr><tr><td></td><td>She is taking an online design course this month.</td><td>她这个月正在上在线设计课。</td></tr><tr><td></td><td>We are looking for a new flat these days.</td><td>我们最近正在找新房子。</td></tr><tr><td></td><td>My team is using a new work app this quarter.</td><td>我们团队这季度正在用一个新的工作软件。</td></tr><tr><td></td><td>I am reading more English news this month.</td><td>我这个月正在读更多英文新闻。</td></tr><tr><td>Negative 否定</td><td>I am not commuting by car this week.</td><td>这周我没有开车通勤。</td></tr><tr><td></td><td>He is not living near the office anymore.</td><td>他最近不住在公司附近了。</td></tr><tr><td></td><td>We are not hiring this month.</td><td>我们这个月不招人。</td></tr><tr><td></td><td>They are not using the old meeting room today.</td><td>他们今天不用旧会议室。</td></tr><tr><td></td><td>She is not taking the bus this week.</td><td>她这周没有坐公交车。</td></tr><tr><td>Yes / No 一般疑问</td><td>Are you learning to cook these days?</td><td>你最近在学做饭吗？</td></tr><tr><td></td><td>Is she working night shifts this month?</td><td>她这个月在上夜班吗？</td></tr><tr><td></td><td>Are they moving to a new office?</td><td>他们最近要搬到新办公室吗？</td></tr><tr><td></td><td>Is your company testing a shorter workweek?</td><td>你们公司最近在试行更短的工作周吗？</td></tr><tr><td></td><td>Are you using a new study app this month?</td><td>你这个月在使用新的学习软件吗？</td></tr><tr><td>Wh-question 特殊疑问</td><td>What are you working on this week?</td><td>你这周正在做什么项目？</td></tr><tr><td></td><td>Where is your family staying this month?</td><td>你家人这个月住在哪里？</td></tr><tr><td></td><td>Why are you taking an evening class?</td><td>你为什么最近在上晚课？</td></tr><tr><td></td><td>Who is helping you with the move?</td><td>谁最近在帮你搬家？</td></tr><tr><td></td><td>What are you saving money for these days?</td><td>你最近在为哪件事存钱？</td></tr></table>
+<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>I am staying with my cousin this week.</td><td>这周我暂时住在表姐家。</td></tr><tr><td></td><td>She is taking an online design course this month.</td><td>她这个月正在上在线设计课。</td></tr><tr><td></td><td>We are looking for a new apartment these days.</td><td>我们最近正在找新房子。</td></tr><tr><td></td><td>My team is using a new work app this quarter.</td><td>我们团队这季度正在用一个新的工作软件。</td></tr><tr><td></td><td>I am reading more English news this month.</td><td>我这个月正在读更多英文新闻。</td></tr><tr><td>Negative 否定</td><td>I am not commuting by car this week.</td><td>这周我没有开车通勤。</td></tr><tr><td></td><td>He is not living near the office anymore.</td><td>他最近不住在公司附近了。</td></tr><tr><td></td><td>We are not hiring this month.</td><td>我们这个月不招人。</td></tr><tr><td></td><td>They are not using the old meeting room today.</td><td>他们今天不用旧会议室。</td></tr><tr><td></td><td>She is not taking the bus this week.</td><td>她这周没有坐公交车。</td></tr><tr><td>Yes / No 一般疑问</td><td>Are you learning to cook these days?</td><td>你最近在学做饭吗？</td></tr><tr><td></td><td>Is she working night shifts this month?</td><td>她这个月在上夜班吗？</td></tr><tr><td></td><td>Are they moving to a new office?</td><td>他们最近要搬到新办公室吗？</td></tr><tr><td></td><td>Is your company testing a shorter workweek?</td><td>你们公司最近在试行更短的工作周吗？</td></tr><tr><td></td><td>Are you using a new study app this month?</td><td>你这个月在使用新的学习软件吗？</td></tr><tr><td>Wh-question 特殊疑问</td><td>What are you working on this week?</td><td>你这周正在做什么项目？</td></tr><tr><td></td><td>Where is your family staying this month?</td><td>你家人这个月住在哪里？</td></tr><tr><td></td><td>Why are you taking an evening class?</td><td>你为什么最近在上晚课？</td></tr><tr><td></td><td>Who is helping you with the move?</td><td>谁最近在帮你搬家？</td></tr><tr><td></td><td>What are you saving money for these days?</td><td>你最近在为哪件事存钱？</td></tr></table>
 </div>
 <div class='lesson-section'>
 <h2>Changes and developing trends 正在变化和发展</h2>
 <p>想说“情况正在变成另一种样子”，用现在进行时。常见动词有 <b>getting, becoming, growing, changing, improving</b>。</p>
-<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>The days are getting longer.</td><td>白天正在变长。</td></tr><tr><td></td><td>Food delivery prices are rising again.</td><td>外卖价格又在上涨。</td></tr><tr><td></td><td>My listening is improving.</td><td>我的听力正在提高。</td></tr><tr><td></td><td>More shops are accepting digital yuan.</td><td>越来越多的商店正在接受数字人民币。</td></tr><tr><td></td><td>The park is becoming busier at weekends.</td><td>这个公园周末变得越来越热闹。</td></tr><tr><td>Negative 否定</td><td>The traffic is not getting better.</td><td>交通状况没有变好。</td></tr><tr><td></td><td>My workload is not becoming lighter.</td><td>我的工作量没有变少。</td></tr><tr><td></td><td>The old building is not changing quickly.</td><td>这栋老楼变化不快。</td></tr><tr><td></td><td>The service is not improving.</td><td>服务没有改善。</td></tr><tr><td></td><td>My pronunciation is not getting clearer yet.</td><td>我的发音还没有变清楚。</td></tr><tr><td>Yes / No 一般疑问</td><td>Is the weather getting warmer?</td><td>天气正在变暖吗？</td></tr><tr><td></td><td>Are rents rising in this area?</td><td>这个区域的房租在上涨吗？</td></tr><tr><td></td><td>Is your English becoming easier?</td><td>你的英语变得更容易了吗？</td></tr><tr><td></td><td>Are more people using shared bikes?</td><td>是不是越来越多人在用共享单车？</td></tr><tr><td></td><td>Is the neighbourhood becoming quieter?</td><td>这个社区变得更安静了吗？</td></tr><tr><td>Wh-question 特殊疑问</td><td>How is the project changing?</td><td>这个项目正在怎样变化？</td></tr><tr><td></td><td>Why are prices going up?</td><td>价格为什么在上涨？</td></tr><tr><td></td><td>What is getting easier for you?</td><td>对你来说什么正在变容易？</td></tr><tr><td></td><td>Which areas are growing fastest?</td><td>哪些区域发展得最快？</td></tr><tr><td></td><td>Why is the queue getting longer?</td><td>队伍为什么越来越长？</td></tr></table>
+<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>The days are getting longer.</td><td>白天正在变长。</td></tr><tr><td></td><td>Food delivery prices are rising again.</td><td>外卖价格又在上涨。</td></tr><tr><td></td><td>My listening is improving.</td><td>我的听力正在提高。</td></tr><tr><td></td><td>More shops are accepting digital yuan.</td><td>越来越多的商店正在接受数字人民币。</td></tr><tr><td></td><td>The park is becoming busier at weekends.</td><td>这个公园周末变得越来越热闹。</td></tr><tr><td>Negative 否定</td><td>The traffic is not getting better.</td><td>交通状况没有变好。</td></tr><tr><td></td><td>My workload is not becoming lighter.</td><td>我的工作量没有变少。</td></tr><tr><td></td><td>The old building is not changing quickly.</td><td>这栋老楼变化不快。</td></tr><tr><td></td><td>The service is not improving.</td><td>服务没有改善。</td></tr><tr><td></td><td>My pronunciation is not getting clearer yet.</td><td>我的发音还没有变清楚。</td></tr><tr><td>Yes / No 一般疑问</td><td>Is the weather getting warmer?</td><td>天气正在变暖吗？</td></tr><tr><td></td><td>Are rents rising in this area?</td><td>这个区域的房租在上涨吗？</td></tr><tr><td></td><td>Is your English becoming easier?</td><td>你的英语变得更容易了吗？</td></tr><tr><td></td><td>Are more people using shared bikes?</td><td>是不是越来越多人在用共享单车？</td></tr><tr><td></td><td>Is the neighborhood becoming quieter?</td><td>这个社区变得更安静了吗？</td></tr><tr><td>Wh-question 特殊疑问</td><td>How is the project changing?</td><td>这个项目正在怎样变化？</td></tr><tr><td></td><td>Why are prices going up?</td><td>价格为什么在上涨？</td></tr><tr><td></td><td>What is getting easier for you?</td><td>对你来说什么正在变容易？</td></tr><tr><td></td><td>Which areas are growing fastest?</td><td>哪些区域发展得最快？</td></tr><tr><td></td><td>Why is the line getting longer?</td><td>队伍为什么越来越长？</td></tr></table>
 </div>
 <div class='lesson-section'>
 <h2>Fixed future arrangements 已经安排好的将来计划</h2>
 <p>已经约好、订好或排进日程的将来安排，也可以用现在进行时。通常有明确的时间，如 <b>tomorrow / tonight / next Friday</b>。</p>
-<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>I am meeting my landlord tomorrow.</td><td>我明天要见房东。</td></tr><tr><td></td><td>We are having dinner with our clients tonight.</td><td>我们今晚要和客户吃饭。</td></tr><tr><td></td><td>She is flying to Chengdu next Friday.</td><td>她下周五飞成都。</td></tr><tr><td></td><td>They are moving into the new flat on Saturday.</td><td>他们周六搬进新房子。</td></tr><tr><td></td><td>I am having a job interview next Tuesday.</td><td>我下周二要参加面试。</td></tr><tr><td>Negative 否定</td><td>I am not working this Sunday.</td><td>我这周日不上班。</td></tr><tr><td></td><td>He is not joining us for lunch tomorrow.</td><td>他明天不和我们一起吃午饭。</td></tr><tr><td></td><td>We are not taking the early train.</td><td>我们不坐早班火车。</td></tr><tr><td></td><td>She is not coming to the office next week.</td><td>她下周不来办公室。</td></tr><tr><td></td><td>I am not staying at the hotel tomorrow night.</td><td>我明晚不住在这家酒店。</td></tr><tr><td>Yes / No 一般疑问</td><td>Are you seeing the doctor tomorrow?</td><td>你明天要看医生吗？</td></tr><tr><td></td><td>Is your team presenting on Friday?</td><td>你们团队周五要做汇报吗？</td></tr><tr><td></td><td>Are they visiting Beijing next month?</td><td>他们下个月要来北京吗？</td></tr><tr><td></td><td>Is he taking you to the station?</td><td>他要送你去车站吗？</td></tr><tr><td></td><td>Are you joining the workshop on Saturday?</td><td>你周六参加这个工作坊吗？</td></tr><tr><td>Wh-question 特殊疑问</td><td>When are you leaving?</td><td>你什么时候出发？</td></tr><tr><td></td><td>Where are you staying tonight?</td><td>你今晚住在哪里？</td></tr><tr><td></td><td>Who are you meeting after work?</td><td>你下班后要见谁？</td></tr><tr><td></td><td>What are we doing this weekend?</td><td>我们这周末要做什么？</td></tr><tr><td></td><td>Why are you taking the train tomorrow?</td><td>你明天为什么坐火车？</td></tr></table>
+<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>I am meeting my landlord tomorrow.</td><td>我明天要见房东。</td></tr><tr><td></td><td>We are having dinner with our clients tonight.</td><td>我们今晚要和客户吃饭。</td></tr><tr><td></td><td>She is flying to Chengdu next Friday.</td><td>她下周五飞成都。</td></tr><tr><td></td><td>They are moving into the new apartment on Saturday.</td><td>他们周六搬进新房子。</td></tr><tr><td></td><td>I am having a job interview next Tuesday.</td><td>我下周二要参加面试。</td></tr><tr><td>Negative 否定</td><td>I am not working this Sunday.</td><td>我这周日不上班。</td></tr><tr><td></td><td>He is not joining us for lunch tomorrow.</td><td>他明天不和我们一起吃午饭。</td></tr><tr><td></td><td>We are not taking the early train.</td><td>我们不坐早班火车。</td></tr><tr><td></td><td>She is not coming to the office next week.</td><td>她下周不来办公室。</td></tr><tr><td></td><td>I am not staying at the hotel tomorrow night.</td><td>我明晚不住在这家酒店。</td></tr><tr><td>Yes / No 一般疑问</td><td>Are you seeing the doctor tomorrow?</td><td>你明天要看医生吗？</td></tr><tr><td></td><td>Is your team presenting on Friday?</td><td>你们团队周五要做汇报吗？</td></tr><tr><td></td><td>Are they visiting Beijing next month?</td><td>他们下个月要来北京吗？</td></tr><tr><td></td><td>Is he taking you to the station?</td><td>他要送你去车站吗？</td></tr><tr><td></td><td>Are you joining the workshop on Saturday?</td><td>你周六参加这个工作坊吗？</td></tr><tr><td>Wh-question 特殊疑问</td><td>When are you leaving?</td><td>你什么时候出发？</td></tr><tr><td></td><td>Where are you staying tonight?</td><td>你今晚住在哪里？</td></tr><tr><td></td><td>Who are you meeting after work?</td><td>你下班后要见谁？</td></tr><tr><td></td><td>What are we doing this weekend?</td><td>我们这周末要做什么？</td></tr><tr><td></td><td>Why are you taking the train tomorrow?</td><td>你明天为什么坐火车？</td></tr></table>
 </div>
 <div class='lesson-section'>
 <h2>Repeated habits that annoy us 令人烦恼的反复行为</h2>
 <p>和 <b>always / constantly / forever</b> 一起用时，现在进行时可以表达“老是这样”，通常带有说话人的不满或抱怨。它不是普通习惯，而是最近反复发生、让人注意到的行为。</p>
-<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>You are always leaving your mug on my desk.</td><td>你总是把杯子留在我桌上。</td></tr><tr><td></td><td>He is constantly changing the meeting time.</td><td>他总是在改会议时间。</td></tr><tr><td></td><td>My neighbours are always drilling at lunchtime.</td><td>我的邻居总是在午饭时间钻墙。</td></tr><tr><td></td><td>She is forever checking the group chat.</td><td>她老是在看群聊。</td></tr><tr><td></td><td>You are always sending voice messages during work.</td><td>你总是在工作时发语音。</td></tr><tr><td>Negative 否定</td><td>You are not always listening to the full message.</td><td>你并不是总在听完整语音。</td></tr><tr><td></td><td>He is not constantly missing deadlines.</td><td>他并不是一直错过截止时间。</td></tr><tr><td></td><td>They are not always arguing about money.</td><td>他们并不是总在为钱争吵。</td></tr><tr><td></td><td>I am not forever changing my plans.</td><td>我并不是老在改计划。</td></tr><tr><td></td><td>She is not always forgetting her keys.</td><td>她并不是总忘带钥匙。</td></tr><tr><td>Yes / No 一般疑问</td><td>Are you always checking your phone at work?</td><td>你是不是总在工作时看手机？</td></tr><tr><td></td><td>Is he constantly interrupting people?</td><td>他是不是总在打断别人？</td></tr><tr><td></td><td>Are they always arriving late?</td><td>他们是不是总是迟到？</td></tr><tr><td></td><td>Am I always complaining?</td><td>我是不是总在抱怨？</td></tr><tr><td></td><td>Is your neighbour always playing loud music?</td><td>你的邻居是不是总放大声音乐？</td></tr><tr><td>Wh-question 特殊疑问</td><td>Why are you always leaving the lights on?</td><td>你为什么总是不关灯？</td></tr><tr><td></td><td>Why is she constantly changing her mind?</td><td>她为什么总是改变主意？</td></tr><tr><td></td><td>Who is always sending messages at midnight?</td><td>谁总是在半夜发消息？</td></tr><tr><td></td><td>What are they always arguing about?</td><td>他们总是在争论什么？</td></tr><tr><td></td><td>Why are you always checking the delivery app?</td><td>你为什么总是在看外卖软件？</td></tr></table>
+<table><tr><td>Type</td><td>English</td><td>Chinese</td></tr><tr><td>Affirmative 肯定</td><td>You are always leaving your mug on my desk.</td><td>你总是把杯子留在我桌上。</td></tr><tr><td></td><td>He is constantly changing the meeting time.</td><td>他总是在改会议时间。</td></tr><tr><td></td><td>My neighbors are always drilling at lunchtime.</td><td>我的邻居总是在午饭时间钻墙。</td></tr><tr><td></td><td>She is forever checking the group chat.</td><td>她老是在看群聊。</td></tr><tr><td></td><td>You are always sending voice messages during work.</td><td>你总是在工作时发语音。</td></tr><tr><td>Negative 否定</td><td>You are not always listening to the full message.</td><td>你并不是总在听完整语音。</td></tr><tr><td></td><td>He is not constantly missing deadlines.</td><td>他并不是一直错过截止时间。</td></tr><tr><td></td><td>They are not always arguing about money.</td><td>他们并不是总在为钱争吵。</td></tr><tr><td></td><td>I am not forever changing my plans.</td><td>我并不是老在改计划。</td></tr><tr><td></td><td>She is not always forgetting her keys.</td><td>她并不是总忘带钥匙。</td></tr><tr><td>Yes / No 一般疑问</td><td>Are you always checking your phone at work?</td><td>你是不是总在工作时看手机？</td></tr><tr><td></td><td>Is he constantly interrupting people?</td><td>他是不是总在打断别人？</td></tr><tr><td></td><td>Are they always arriving late?</td><td>他们是不是总是迟到？</td></tr><tr><td></td><td>Am I always complaining?</td><td>我是不是总在抱怨？</td></tr><tr><td></td><td>Is your neighbor always playing loud music?</td><td>你的邻居是不是总放大声音乐？</td></tr><tr><td>Wh-question 特殊疑问</td><td>Why are you always leaving the lights on?</td><td>你为什么总是不关灯？</td></tr><tr><td></td><td>Why is she constantly changing her mind?</td><td>她为什么总是改变主意？</td></tr><tr><td></td><td>Who is always sending messages at midnight?</td><td>谁总是在半夜发消息？</td></tr><tr><td></td><td>What are they always arguing about?</td><td>他们总是在争论什么？</td></tr><tr><td></td><td>Why are you always checking the delivery app?</td><td>你为什么总是在看外卖软件？</td></tr></table>
 </div>
 <div class='lesson-section'>
 <h2>Conversation Questions 对话问题</h2>

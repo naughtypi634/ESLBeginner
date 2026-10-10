@@ -1,0 +1,235 @@
+<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><title>21-2-Modal Verbs Complete.md</title><style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial,
+        'Microsoft YaHei', 'PingFang SC', sans-serif;
+    width: 210mm; background: #ffffff; color: #000000;
+    -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+    font-size: 12px; line-height: 1.45;
+}
+.page { width: 210mm; padding: 0; }
+.page-break { page-break-before: always !important; break-before: always !important; }
+.lesson-section {
+    break-inside: avoid; page-break-inside: avoid;
+}
+body.present-continuous {
+    font-size: 11px;
+}
+body.present-continuous h1 {
+    margin-bottom: 7px;
+}
+body.present-continuous h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.present-continuous p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.present-continuous table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.present-continuous th,
+body.present-continuous td {
+    padding: 4px 8px;
+}
+/* Skills I Can Do: 7 stacked sections of short rows. The default spacing leaves
+   the practice section alone on a third page, so tighten to 2 pages. */
+body.skills {
+    font-size: 11px;
+}
+body.skills h1 {
+    margin-bottom: 7px;
+}
+body.skills h2 {
+    margin-top: 10px; margin-bottom: 4px;
+}
+body.skills h3 {
+    margin: 8px 0 3px 0;
+}
+body.skills p {
+    margin: 2px 0; line-height: 1.3;
+}
+body.skills .dq {
+    margin: 10px 0 3px 0;
+}
+body.skills table {
+    font-size: 11.5px; line-height: 1.35; margin-top: 3px; margin-bottom: 8px;
+}
+body.skills th,
+body.skills td {
+    padding: 4px 8px;
+}
+/* Black text throughout — no gray secondary columns. */
+body.skills h3,
+body.skills td:nth-child(2),
+body.skills td:last-child,
+body.skills td.cont {
+    color: #000000;
+}
+/* Time Clauses: 22 structure entries stacked in section 1, so the default
+   48px display-line gap would push it to 3 pages. Tighter gap keeps the whole
+   handout at 4 pages (sec1 x2, sec2 x1, sec3 x1) without shrinking the text. */
+body.time-clauses {
+    line-height: 1.38;
+}
+body.time-clauses .dq {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses h3 {
+    margin: 8px 0 2px 0;
+}
+body.time-clauses p {
+    margin: 1px 0;
+}
+/* Modal Verbs: the sections flow across pages so every page fills up, while
+   tables and their headings still refuse to split — that keeps each rendered
+   page free of orphan rows and orphan headings. */
+body.modal-verbs .lesson-section {
+    break-inside: auto; page-break-inside: auto;
+}
+body.modal-verbs table {
+    margin: 3px 0 6px 0;
+    font-size: 11px;
+    line-height: 1.25;
+}
+body.modal-verbs th,
+body.modal-verbs td {
+    padding: 3px 8px;
+}
+body.modal-verbs h3 {
+    margin: 8px 0 3px 0;
+}
+body.modal-verbs h2 {
+    margin: 10px 0 4px 0;
+}
+body.modal-verbs table.aligned {
+    table-layout: fixed;
+}
+body.modal-verbs table.dqt {
+    font-size: 10px;
+}
+h1 {
+    font-size: 24px; font-weight: 600; color: #000000;
+    border-bottom: 3px solid #0f62fe; padding-bottom: 8px; margin: 0 0 10px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h2 {
+    font-size: 14px; font-weight: 600; color: #000000;
+    border-left: 3px solid #0f62fe; padding-left: 8px; margin: 16px 0 6px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+h3 {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; color: #000000; margin: 12px 0 4px 0;
+    break-after: avoid; page-break-after: avoid;
+}
+p { margin: 3px 0; color: #000000; }
+hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+table {
+    width: 100%; border-collapse: separate; border-spacing: 0; margin: 4px 0 10px 0;
+    font-size: 11px; line-height: 1.4; border: 1px solid #e0e0e0; border-radius: 6px;
+    overflow: hidden;
+    break-inside: avoid; page-break-inside: avoid;
+}
+table.matrix { table-layout: fixed; }
+th, td { border-bottom: 1px solid #e0e0e0; padding: 5px 9px; text-align: left; vertical-align: middle; white-space: nowrap; }
+tr:last-child th, tr:last-child td { border-bottom: none; }
+th {
+    font-weight: 600; font-size: 10.5px; color: #000000; background: #f4f4f4;
+    text-align: left; letter-spacing: 0.02em;
+}
+td:first-child { font-weight: 600; color: #000000; }
+/* Merged-column tables: the first cell of a `^` continuation row is the row's
+   own first column, not the shared label, so keep it regular weight. */
+td.cont { font-weight: 400; color: #000000; }
+/* 11-Describing Things Objects: the "words" / "evaluation" tables are pure
+   vocabulary lists, so their first column is not highlighted (regular weight). */
+table.plainfirst td:first-child { font-weight: 400; color: #000000; }
+td:nth-child(2) { color: #000000; }
+td:last-child { color: #000000; }
+b { color: #000000; font-weight: 600; }
+.dq { font-weight: 600; font-size: 14px; color: #000000; margin: 48px 0 4px 0; }
+h2 + .dq { margin-top: 10px; }
+.dt { margin: 0 0 4px 0; }
+.tag {
+    display: inline-block; border: 1px solid #e0e0e0; border-radius: 4px;
+    padding: 3px 10px; margin: 0 6px 6px 0; color: #000000; font-size: 10.5px;
+}
+.w6h1-card {
+    border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden;
+    margin: 6px 0 12px 0; background: #ffffff;
+    break-inside: avoid; page-break-inside: avoid;
+}
+.w6h1-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 7px 10px; border-bottom: 1px solid #e0e0e0;
+}
+.w6h1-row:last-child { border-bottom: none; }
+.w6h1-tag {
+    flex: 0 0 44px; font-size: 10px; font-weight: 600;
+    color: #000000; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.w6h1-en { flex: 1; color: #000000; font-size: 12px; }
+.w6h1-zh { flex: 0 0 auto; color: #000000; font-size: 10.5px; margin-left: 6px; }
+.blank {
+    display: inline-block; min-width: 68px; height: 1.05em;
+    border-bottom: 1px solid #161616; margin: 0 2px; vertical-align: baseline;
+}
+</style></head><body class='modal-verbs'><div class='page'><h1>Modal Verbs Complete · 情态动词完整版</h1>
+<div class='lesson-section'>
+<h2>1. 情态动词的共同规则 Common Rules</h2>
+<table class='aligned'><colgroup><col style='width:20.00%'><col style='width:30.00%'><col style='width:50.00%'></colgroup><tr><th>规则</th><th>说明</th><th>例句</th></tr><tr><td>没有人称和数的变化</td><td>主语是 he / she / it 也不加 -s</td><td>He <b>can</b> swim. 他会游泳。</td></tr><tr><td>后面接动词原形</td><td>情态动词 + do，不加 to</td><td>You <b>must</b> go now. 你现在必须走。</td></tr><tr><td>否定：直接加 not</td><td>常见缩略见第 8 节</td><td>You <b>shouldn't</b> work late. 你不该工作到很晚。</td></tr><tr><td>疑问：情态动词提前</td><td>不用 do / does / did 帮忙</td><td><b>Can</b> you help me? 你能帮我吗？</td></tr><tr><td>没有非谓语形式</td><td>不能写 to must / musting</td><td>需要时用 have to：I'll <b>have to</b> leave. 我得走了。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>2. 核心情态动词总览 All Nine Core Modals</h2>
+<table class='aligned'><colgroup><col style='width:20.00%'><col style='width:30.00%'><col style='width:50.00%'></colgroup><tr><th>情态动词</th><th>主要含义</th><th>例句</th></tr><tr><td><b>can</b></td><td>能力、许可、可能</td><td>I <b>can</b> ride a shared bike. 我会骑共享单车。</td></tr><tr><td><b>could</b></td><td>过去能力、委婉、可能</td><td><b>Could</b> you say that again? 你能再说一遍吗？</td></tr><tr><td><b>may</b></td><td>许可、可能、祝愿</td><td><b>May</b> I come in? 我可以进来吗？</td></tr><tr><td><b>might</b></td><td>更不确定的可能、委婉</td><td>He <b>might</b> be stuck in traffic. 他可能堵在路上了。</td></tr><tr><td><b>must</b></td><td>必须、肯定推测</td><td>You <b>must</b> scan the code. 你必须扫码。</td></tr><tr><td><b>shall</b></td><td>提议、征询、正式规定</td><td><b>Shall</b> I open the window? 要我开窗吗？</td></tr><tr><td><b>should</b></td><td>应该、建议、预期</td><td>You <b>should</b> bring an umbrella. 你应该带把伞。</td></tr><tr><td><b>will</b></td><td>将来、意愿、习惯</td><td>I <b>will</b> call you when I arrive. 到了我给你打电话。</td></tr><tr><td><b>would</b></td><td>委婉请求、过去习惯、虚拟</td><td><b>Would</b> you like some tea? 要来点茶吗？</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>3. 核心情态动词的更多用法 More Uses of Core Modals</h2>
+<table class='aligned'><colgroup><col style='width:20.00%'><col style='width:20.00%'><col style='width:34.00%'><col style='width:26.00%'></colgroup><tr><th>情态动词</th><th>更多用法</th><th>例句</th><th>翻译</th></tr><tr><td><b>can</b></td><td>一般性 / 理论上的可能</td><td>It <b>can</b> be very cold in Beijing.</td><td>北京可能很冷。</td></tr><tr><td><b>could</b></td><td>现在 / 将来的不确定推测</td><td>It <b>could</b> rain later.</td><td>晚些时候可能会下雨。</td></tr><tr><td><b>may</b></td><td>正式许可</td><td><b>May</b> I come in?</td><td>我可以进来吗？</td></tr><tr><td><b>may</b></td><td>祝愿</td><td><b>May</b> you succeed!</td><td>祝你成功！</td></tr><tr><td><b>might</b></td><td>更委婉的请求</td><td><b>Might</b> I ask a question?</td><td>我能问个问题吗？</td></tr><tr><td><b>must</b></td><td>过去「必须」用 had to</td><td>I <b>had to</b> pay before 10 p.m.</td><td>我不得不十点前付款。</td></tr><tr><td><b>shall</b></td><td>提议 / 征询</td><td><b>Shall</b> we take the subway?</td><td>我们坐地铁吧？</td></tr><tr><td><b>should</b></td><td>预期 / 推测</td><td>The train <b>should</b> arrive soon.</td><td>火车应该快到了。</td></tr><tr><td><b>will</b></td><td>习惯 / 客观规律</td><td>Water <b>will</b> boil at 100°C.</td><td>水在 100°C 会沸腾。</td></tr><tr><td><b>would</b></td><td>过去习惯动作</td><td>My grandpa <b>would</b> walk me to school.</td><td>爷爷以前常送我上学。</td></tr><tr><td><b>would</b></td><td>虚拟语气</td><td>If I were you, I <b>would</b> tell the truth.</td><td>如果我是你，我会说实话。</td></tr></table>
+<h3>shall 提议、征询与正式规定</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td><b>Shall</b> I open the window?</td><td>要我开窗吗？</td></tr><tr><td><b>Shall</b> we split the bill?</td><td>我们 AA 平分账单吧？</td></tr><tr><td>You <b>shall</b> have the money by Friday.</td><td>你周五之前会拿到钱。（承诺，正式）</td></tr><tr><td>The tenant <b>shall</b> pay rent monthly.</td><td>租户应按月支付租金。（条文）</td></tr></table>
+<h3>ought to 应该（稍正式）</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>You <b>ought to</b> apologize first.</td><td>你应该先道歉。</td></tr><tr><td>The bus <b>ought to</b> come soon.</td><td>公交应该很快就来。</td></tr><tr><td>You <b>ought to</b> have apologized.</td><td>你本应该道歉的。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>4. 半情态动词 Semi-Modals</h2>
+<h3>have to 客观必须（规则、现实）</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>I <b>had to</b> take the last subway home.</td><td>我昨晚不得不赶末班地铁回家。</td></tr><tr><td>You <b>will have to</b> pay before 10 p.m.</td><td>你十点前必须付款。</td></tr><tr><td>I <b>have to</b> leave — my meeting starts at 2 p.m.</td><td>我得走了，两点有会。</td></tr><tr><td>You <b>don't have to</b> tip in China.</td><td>在中国你不必给小费。（不必，允许不给）</td></tr><tr><td>You <b>mustn't</b> smoke here.</td><td>这里禁止吸烟。（禁止，绝不能）</td></tr></table>
+<h3>be able to 能够（补充 can 的时态）</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>She <b>is able to</b> work from home.</td><td>她能在家办公。</td></tr><tr><td>I <b>was able to</b> fix my phone.</td><td>我成功修好了手机。（一次成功）</td></tr><tr><td>I <b>will be able to</b> speak more English next year.</td><td>明年我就能多说英语了。</td></tr><tr><td>I <b>have been able to</b> save money since March.</td><td>从三月起我一直在省钱。</td></tr></table>
+<h3>be going to 打算；有迹象的预测</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>I'm <b>going to</b> visit my grandma.</td><td>我打算去看奶奶。</td></tr><tr><td>Look at the clouds! It's <b>going to</b> rain.</td><td>看那些云！要下雨了。</td></tr><tr><td>He is <b>going to</b> miss the subway.</td><td>他要赶不上地铁了。</td></tr></table>
+<h3>used to 过去常常（现在不再这样）</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>I <b>used to</b> take the subway to work.</td><td>我以前坐地铁上班。</td></tr><tr><td>She <b>didn't use to</b> drink coffee.</td><td>她以前不喝咖啡。</td></tr><tr><td><b>Did</b> you <b>use to</b> play the piano?</td><td>你以前弹钢琴吗？</td></tr><tr><td>I <b>used to</b> live near the subway station.</td><td>我以前住在地铁站附近。（状态）</td></tr></table>
+<h3>had better 最好（强烈建议，常隐含警告）</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>You'd <b>better</b> bring an umbrella.</td><td>你最好带把伞。</td></tr><tr><td>You'd <b>better not</b> be late.</td><td>你最好不要迟到。</td></tr><tr><td>We'd <b>better</b> scan the code now.</td><td>我们最好现在扫码。</td></tr></table>
+<h3>need 需要（美式常用 need to）</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>You <b>don't need to</b> bring your ID.</td><td>你不用带身份证。</td></tr><tr><td><b>Do</b> I <b>need to</b> book a table?</td><td>我需要订位吗？</td></tr><tr><td>You <b>didn't need to</b> buy so much.</td><td>你本不必买这么多。（但买了）</td></tr></table>
+<h3>dare 敢于（多用于否定和疑问）</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>I <b>don't dare</b> ask my boss for a day off.</td><td>我不敢跟老板请一天假。</td></tr><tr><td><b>How dare</b> you say that!</td><td>你竟敢这么说！</td></tr><tr><td>She <b>didn't dare to</b> tell him.</td><td>她不敢告诉他。</td></tr></table>
+<h3>would rather 宁愿</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>I'd <b>rather</b> stay home than go out.</td><td>我宁愿待在家也不愿出去。</td></tr><tr><td>I'd <b>rather not</b> talk about it.</td><td>我宁愿不谈这个。</td></tr><tr><td>I'd <b>rather</b> you told me the truth.</td><td>我更希望你对我说实话。</td></tr></table>
+<h3>be supposed to 应该（按规定、预期；据说）</h3>
+<table class='aligned'><colgroup><col style='width:60.00%'><col style='width:40.00%'></colgroup><tr><th>English</th><th>Chinese</th></tr><tr><td>You're <b>supposed to</b> wear a seatbelt.</td><td>你应该系安全带。</td></tr><tr><td>You're not <b>supposed to</b> smoke here.</td><td>这里不允许抽烟。</td></tr><tr><td>He is <b>supposed to</b> be very rich.</td><td>据说他很有钱。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>5. 情态动词 + have done（对过去的推测、遗憾与批评）</h2>
+<table class='aligned'><colgroup><col style='width:20.00%'><col style='width:20.00%'><col style='width:34.00%'><col style='width:26.00%'></colgroup><tr><th>结构</th><th>含义</th><th>例句</th><th>翻译</th></tr><tr><td><b>must have</b> done</td><td>一定做过（肯定推测）</td><td>She <b>must have left</b>.</td><td>她一定已经走了。</td></tr><tr><td><b>can't have</b> done</td><td>不可能做过</td><td>He <b>can't have seen</b> us.</td><td>他不可能看见我们。</td></tr><tr><td><b>may have</b> done</td><td>可能做过</td><td>They <b>may have forgotten</b>.</td><td>他们可能忘了。</td></tr><tr><td><b>could have</b> done</td><td>本可以做（但没做）</td><td>I <b>could have helped</b> you.</td><td>我本可以帮你的。</td></tr><tr><td><b>should have</b> done</td><td>本应该做（但没做）</td><td>You <b>should have called</b> me.</td><td>你本应该给我打电话。</td></tr><tr><td><b>shouldn't have</b> done</td><td>本不该做（却做了）</td><td>You <b>shouldn't have said</b> that.</td><td>你本不该说那种话。</td></tr><tr><td><b>would have</b> done</td><td>与过去事实相反</td><td>I <b>would have come</b> if I'd known.</td><td>如果我知道，我就会来。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>6. 推测程度总结 Deduction Summary</h2>
+<table class='aligned'><colgroup><col style='width:20.00%'><col style='width:20.00%'><col style='width:34.00%'><col style='width:26.00%'></colgroup><tr><th>确定程度</th><th>现在 / 将来</th><th>对过去</th><th>例句</th></tr><tr><td>一定（95%）</td><td><b>must</b></td><td><b>must have</b> done</td><td>You <b>must</b> be tired. 你一定很累。</td></tr><tr><td>应该（80%）</td><td><b>should / ought to</b></td><td><b>should have</b> done</td><td>The train <b>should</b> arrive. 火车快到了。</td></tr><tr><td>可能（70%）</td><td><b>may</b></td><td><b>may have</b> done</td><td>He <b>may</b> be home. 他可能在家。</td></tr><tr><td>也许（50-60%）</td><td><b>might / could</b></td><td><b>might / could have</b> done</td><td>It <b>might</b> rain. 可能下雨。</td></tr><tr><td>不可能</td><td><b>can't / couldn't</b></td><td><b>can't / couldn't have</b> done</td><td>That <b>can't</b> be right. 那不可能。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>7. 易混辨析 Common Confusions</h2>
+<table class='aligned'><colgroup><col style='width:20.00%'><col style='width:30.00%'><col style='width:50.00%'></colgroup><tr><th>对比</th><th>区别</th><th>例句</th></tr><tr><td rowspan='3'>must vs have to</td><td>must 主观；have to 客观</td><td>I <b>must</b> go — the client is waiting. 我必须走了。</td></tr><tr><td class='cont'>mustn't 禁止</td><td>You <b>mustn't</b> smoke here. 这里禁止吸烟。</td></tr><tr><td class='cont'>don't have to 不必</td><td>You <b>don't have to</b> tip in China. 在中国不用给小费。</td></tr><tr><td rowspan='3'>can vs may</td><td>表许可：can 口语</td><td><b>Can</b> I sit here? 我能坐这儿吗？</td></tr><tr><td class='cont'>表许可：may 正式</td><td><b>May</b> I come in? 我可以进来吗？</td></tr><tr><td class='cont'>表能力只能用 can</td><td>I <b>can</b> drive. 我会开车。</td></tr><tr><td rowspan='2'>could vs was able to</td><td>could 表一般能力</td><td>I <b>could</b> run 5 km when I was 20. 我二十岁时能跑五公里。</td></tr><tr><td class='cont'>was able to 表具体一次做到</td><td>I <b>was able to</b> finish the report. 我成功写完了报告。</td></tr><tr><td rowspan='3'>used to vs would</td><td>used to 表过去习惯</td><td>I <b>used to</b> take the subway to work. 我以前坐地铁上班。</td></tr><tr><td class='cont'>used to 也表过去的状态</td><td>I <b>used to</b> live near the subway station. 我以前住地铁站附近。</td></tr><tr><td class='cont'>would 强调反复的动作</td><td>My grandpa <b>would</b> walk me to school. 爷爷以前常送我上学。</td></tr><tr><td rowspan='2'>should vs had better</td><td>should 表建议</td><td>You <b>should</b> see a doctor. 你应该去看医生。</td></tr><tr><td class='cont'>had better 更强烈，含警告</td><td>You'd <b>better</b> hurry. 你最好快点。</td></tr><tr><td rowspan='3'>will vs be going to</td><td>will 表临时决定</td><td>I <b>will</b> help you. 我来帮你。</td></tr><tr><td class='cont'>be going to 表事先计划</td><td>I'm <b>going to</b> visit my grandma. 我打算去看奶奶。</td></tr><tr><td class='cont'>be going to 表有迹象的预测</td><td>Look at the clouds! It's <b>going to</b> rain. 要下雨了。</td></tr><tr><td rowspan='3'>may not vs mustn't</td><td>may not 表可能不</td><td>He <b>may not</b> be home. 他可能不在家。</td></tr><tr><td class='cont'>may not 也表不允许</td><td>You <b>may not</b> park here. 这里不允许停车。</td></tr><tr><td class='cont'>mustn't 表禁止</td><td>You <b>mustn't</b> smoke here. 这里禁止吸烟。</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>8. 否定形式与疑问回答 Negative Forms &amp; Short Answers</h2>
+<table class='aligned'><colgroup><col style='width:20.00%'><col style='width:30.00%'><col style='width:50.00%'></colgroup><tr><th>情态动词</th><th>否定</th><th>常见缩略</th></tr><tr><td><b>can</b></td><td>cannot</td><td><b>can't</b></td></tr><tr><td><b>could</b></td><td>could not</td><td><b>couldn't</b></td></tr><tr><td><b>may</b></td><td>may not</td><td>（少缩写）</td></tr><tr><td><b>might</b></td><td>might not</td><td>（少缩写）</td></tr><tr><td><b>must</b></td><td>must not</td><td><b>mustn't</b></td></tr><tr><td><b>shall</b></td><td>shall not</td><td>（少缩写）</td></tr><tr><td><b>should</b></td><td>should not</td><td><b>shouldn't</b></td></tr><tr><td><b>will</b></td><td>will not</td><td><b>won't</b></td></tr><tr><td><b>would</b></td><td>would not</td><td><b>wouldn't</b></td></tr><tr><td><b>ought to</b></td><td>ought not to</td><td>（少缩写）</td></tr><tr><td><b>have to</b></td><td>do not have to</td><td><b>don't have to</b></td></tr><tr><td><b>had better</b></td><td>had better not</td><td>（少缩写）</td></tr></table>
+<table class='aligned'><colgroup><col style='width:20.00%'><col style='width:30.00%'><col style='width:50.00%'></colgroup><tr><th>问句</th><th>肯定回答</th><th>否定回答</th></tr><tr><td>Can I sit here?</td><td>Yes, you <b>can</b>.</td><td>No, you <b>can't</b>.</td></tr><tr><td>May I come in?</td><td>Yes, you <b>may</b>.</td><td>No, you <b>may not</b>.</td></tr><tr><td>Should I call him back?</td><td>Yes, you <b>should</b>.</td><td>No, you <b>shouldn't</b>.</td></tr><tr><td>Do I have to pay now?</td><td>Yes, you <b>do</b>.</td><td>No, you <b>don't have to</b>.</td></tr></table>
+</div>
+<div class='lesson-section'>
+<h2>9. Discussion 讨论</h2>
+<table class='dqt aligned'><colgroup><col style='width:42.00%'><col style='width:24.00%'><col style='width:34.00%'></colgroup><tr><th>English</th><th>Chinese</th><th>Answer tags</th></tr><tr><td>Your train has left. What <b>should you have</b> done?</td><td>火车开走了，你本应该怎么做？</td><td><b>Should have</b> booked earlier / Left home sooner</td></tr><tr><td>Ten 盲盒, still nothing. What <b>didn't your friend need to</b> do?</td><td>十个盲盒都没中，他本不必做什么？</td><td>Buy so many / <b>Could have</b> asked first</td></tr><tr><td>You skipped the 淘宝 sale. What <b>might have</b> happened?</td><td>错过了淘宝大促，可能发生什么？</td><td><b>Might have</b> saved money / Got free shipping</td></tr><tr><td>A long line, but empty tables. What <b>must</b> the food be like?</td><td>排队很长但店里没人，菜一定怎么样？</td><td>It <b>must</b> be great / It <b>can't</b> be bad</td></tr><tr><td>AI wrote your colleague's report. What <b>can't</b> it have done?</td><td>报告是 AI 写的，AI 不可能做了什么？</td><td><b>Can't have</b> known our data / Met the client</td></tr></table>
+</div></div></body></html>

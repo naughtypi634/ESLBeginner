@@ -1,9 +1,5 @@
 # Present Continuous · 现在进行时
 
-## 课程介绍
-
-本周我们练习现在进行时，了解 am / is / are + doing 的五种常见用法，学会描述眼前动作、临时状态、变化、安排和反复发生的行为，并应用到工作、通勤和日常对话中。
-
 ## Form 形式
 
 | English | Chinese |
@@ -21,7 +17,7 @@
 | Type | English | Chinese |
 |---|---|---|
 | Affirmative 肯定 | I am scanning the QR code for my order. | 我正在扫订单二维码。 |
-|  | Mei is waiting for the lift. | Mei 正在等电梯。 |
+|  | Mei is waiting for the elevator. | Mei 正在等电梯。 |
 |  | We are discussing the rent in the group chat. | 我们正在群里讨论房租。 |
 |  | The delivery rider is calling me now. | 外卖骑手现在正在给我打电话。 |
 |  | My colleague is printing the report. | 我的同事正在打印报告。 |
@@ -49,7 +45,7 @@
 |---|---|---|
 | Affirmative 肯定 | I am staying with my cousin this week. | 这周我暂时住在表姐家。 |
 |  | She is taking an online design course this month. | 她这个月正在上在线设计课。 |
-|  | We are looking for a new flat these days. | 我们最近正在找新房子。 |
+|  | We are looking for a new apartment these days. | 我们最近正在找新房子。 |
 |  | My team is using a new work app this quarter. | 我们团队这季度正在用一个新的工作软件。 |
 |  | I am reading more English news this month. | 我这个月正在读更多英文新闻。 |
 | Negative 否定 | I am not commuting by car this week. | 这周我没有开车通勤。 |
@@ -88,12 +84,12 @@
 |  | Are rents rising in this area? | 这个区域的房租在上涨吗？ |
 |  | Is your English becoming easier? | 你的英语变得更容易了吗？ |
 |  | Are more people using shared bikes? | 是不是越来越多人在用共享单车？ |
-|  | Is the neighbourhood becoming quieter? | 这个社区变得更安静了吗？ |
+|  | Is the neighborhood becoming quieter? | 这个社区变得更安静了吗？ |
 | Wh-question 特殊疑问 | How is the project changing? | 这个项目正在怎样变化？ |
 |  | Why are prices going up? | 价格为什么在上涨？ |
 |  | What is getting easier for you? | 对你来说什么正在变容易？ |
 |  | Which areas are growing fastest? | 哪些区域发展得最快？ |
-|  | Why is the queue getting longer? | 队伍为什么越来越长？ |
+|  | Why is the line getting longer? | 队伍为什么越来越长？ |
 
 ## Fixed future arrangements 已经安排好的将来计划
 
@@ -104,7 +100,7 @@
 | Affirmative 肯定 | I am meeting my landlord tomorrow. | 我明天要见房东。 |
 |  | We are having dinner with our clients tonight. | 我们今晚要和客户吃饭。 |
 |  | She is flying to Chengdu next Friday. | 她下周五飞成都。 |
-|  | They are moving into the new flat on Saturday. | 他们周六搬进新房子。 |
+|  | They are moving into the new apartment on Saturday. | 他们周六搬进新房子。 |
 |  | I am having a job interview next Tuesday. | 我下周二要参加面试。 |
 | Negative 否定 | I am not working this Sunday. | 我这周日不上班。 |
 |  | He is not joining us for lunch tomorrow. | 他明天不和我们一起吃午饭。 |
@@ -130,7 +126,7 @@
 |---|---|---|
 | Affirmative 肯定 | You are always leaving your mug on my desk. | 你总是把杯子留在我桌上。 |
 |  | He is constantly changing the meeting time. | 他总是在改会议时间。 |
-|  | My neighbours are always drilling at lunchtime. | 我的邻居总是在午饭时间钻墙。 |
+|  | My neighbors are always drilling at lunchtime. | 我的邻居总是在午饭时间钻墙。 |
 |  | She is forever checking the group chat. | 她老是在看群聊。 |
 |  | You are always sending voice messages during work. | 你总是在工作时发语音。 |
 | Negative 否定 | You are not always listening to the full message. | 你并不是总在听完整语音。 |
@@ -142,7 +138,7 @@
 |  | Is he constantly interrupting people? | 他是不是总在打断别人？ |
 |  | Are they always arriving late? | 他们是不是总是迟到？ |
 |  | Am I always complaining? | 我是不是总在抱怨？ |
-|  | Is your neighbour always playing loud music? | 你的邻居是不是总放大声音乐？ |
+|  | Is your neighbor always playing loud music? | 你的邻居是不是总放大声音乐？ |
 | Wh-question 特殊疑问 | Why are you always leaving the lights on? | 你为什么总是不关灯？ |
 |  | Why is she constantly changing her mind? | 她为什么总是改变主意？ |
 |  | Who is always sending messages at midnight? | 谁总是在半夜发消息？ |

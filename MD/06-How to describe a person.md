@@ -1,9 +1,5 @@
 # How to describe a person
 
-## 课程介绍
-
-本周我们练习描述人物，了解 be / have / wear 的用法，学会用形容词和名词介绍一个人的外貌，并应用到介绍朋友和家人的对话中。
-
 ## APPEARANCE 外貌
 
 He/She is + adj (build & height) · He/She has + noun (hair & face) · He/She wears + noun (clothes)
