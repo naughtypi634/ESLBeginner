@@ -14,8 +14,9 @@
 \geometry{left=14mm, right=14mm}
 
 % ---------- vertical rhythm ----------
-% Tighter than the shared preamble so a whole lesson fits two A4 pages.
-\setlength{\baselineskip}{12.6pt}
+% The series carries no exercises, so a lesson is knowledge tables only and
+% needs a looser setting than the old 12.6pt to fill its two A4 pages.
+\setlength{\baselineskip}{14.4pt}
 \geometry{top=15mm, bottom=15mm}
 
 % ---------- keep headings with their content ----------
@@ -23,26 +24,30 @@
 % table overleaf. \needspace moves the heading instead of orphaning it.
 \usepackage{needspace}
 
+% Tables are longtables so they can break across a page instead of moving over
+% whole — an unbreakable tabular strands its heading at the foot of the page.
+\usepackage{longtable}
+
 % ---------- document title ----------
 \newcommand{\eslbtitle}[1]{%
   \par\vspace{0pt}%
   {\bfseries\fontsize{22pt}{26pt}\selectfont #1}\par
-  \vspace{11pt}%
+  \vspace{14pt}%
 }
 
 % ---------- numbered section heading (number in Montserrat, text CJK-safe) ----------
 \newcommand{\eslbsec}[2]{%
   \needspace{4\baselineskip}%
-  \par\vspace{9pt}%
+  \par\vspace{13pt}%
   \noindent{\dispfont\bfseries\fontsize{14pt}{17pt}\selectfont #1}\hspace{8pt}%
   {\bfseries\fontsize{12.5pt}{16pt}\selectfont #2}\par
-  \vspace{5pt}%
+  \vspace{7pt}%
 }
 
 % ---------- sub-heading (### in the source) ----------
 \newcommand{\eslbsub}[1]{%
   \needspace{3\baselineskip}%
-  \par\vspace{5pt}%
+  \par\vspace{8pt}%
   \noindent{\bfseries\small #1}\par
-  \vspace{2pt}%
+  \vspace{4pt}%
 }

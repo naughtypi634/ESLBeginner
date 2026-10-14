@@ -97,12 +97,31 @@ def T_title(text: str) -> str:
     return raw(f"\\eslbtitle{{{l(text)}}}")
 
 
-def T_section(num: str, text: str) -> str:
-    return raw(f"\\eslbsec{{{num}}}{{{l(text)}}}")
+# A heading left alone at the foot of a page, with its table overleaf, reads as
+# a broken section. Tables now break across pages themselves (longtable), so
+# the heading only has to reserve room for itself plus the table's head and a
+# couple of rows — not for the whole table, which would leave a large gap.
+HEAD_KEEP_PT = 118.0
 
 
-def T_sub(text: str) -> str:
-    return raw(f"\\eslbsub{{{l(text)}}}")
+def needspace_for(lines: list[str], i: int) -> float:
+    """Points to keep free below line i so its heading stays with its table."""
+    j = i + 1
+    while j < len(lines) and not lines[j].strip():
+        j += 1
+    if j >= len(lines) or not lines[j].strip().startswith("|"):
+        return 0.0
+    return HEAD_KEEP_PT
+
+
+def T_section(num: str, text: str, need: float = 0.0) -> str:
+    keep = f"\\needspace{{{need:.0f}pt}}\n" if need else ""
+    return raw(f"{keep}\\eslbsec{{{num}}}{{{l(text)}}}")
+
+
+def T_sub(text: str, need: float = 0.0) -> str:
+    keep = f"\\needspace{{{need:.0f}pt}}\n" if need else ""
+    return raw(f"{keep}\\eslbsub{{{l(text)}}}")
 
 
 def T_table(header: list[str], rows: list[list[str]]) -> str:
@@ -147,31 +166,47 @@ def T_table(header: list[str], rows: list[list[str]]) -> str:
     # Sizing a row to exactly the available width wraps its widest cell as soon
     # as the estimate is off by a percent, so only take a size that leaves 5%
     # slack. LaTeX names on a 10pt base document: \small is 9pt, \footnotesize 8pt.
+    # Row height: the series carries no exercises, so tables are given room to
+    # breathe — this is a lever for filling the two pages, not decoration.
     if s_max >= 9.0 / SLACK:
-        size, stretch = "\\small", "1.05"
+        size, stretch = "\\small", "1.14"
     elif s_max >= 8.0 / SLACK:
-        size, stretch = "\\footnotesize", "1.0"
+        size, stretch = "\\footnotesize", "1.10"
     else:
-        size, stretch = "\\footnotesize", "0.96"
+        size, stretch = "\\footnotesize", "1.06"
         worst = max(rows_all, key=lambda r: sum(visual_len(c) for c in r))
         too_wide.append((CURRENT_FILE, s_max, header, total_units, max(worst, key=visual_len)))
     hdr = " & ".join(l(c) for c in header)
     body = " \\\\\n  \\hline\n  ".join(" & ".join(l(c) for c in r) for r in rows)
 
+    # A longtable rather than a tabular: a tabular is one unbreakable box, so a
+    # table that does not fit at the foot of a page moves over whole and strands
+    # its heading alone above it. A longtable splits, keeping the heading with
+    # the table's first rows and continuing the rest overleaf, with the header
+    # repeated. The size/arraystretch settings are issued outside a group on
+    # purpose — a longtable re-executes its stored head on later pages, where a
+    # group-local font size would no longer apply.
     return raw("\n".join([
-        # A plain tabular is a single unbreakable box, so starting one at the
-        # foot of a page would push it whole to the next one and leave a gap.
-        "\\needspace{4\\baselineskip}",
-        "\\par\\vspace{4pt}",
-        "\\noindent{" + size + "\\setlength{\\tabcolsep}{0pt}"
-        "\\renewcommand{\\arraystretch}{" + stretch + "}",
-        "\\begin{tabular}{" + colspec + "}",
+        "\\par\\vspace{7pt}",
+        size + "\\setlength{\\tabcolsep}{0pt}"
+        "\\renewcommand{\\arraystretch}{" + stretch + "}"
+        "\\setlength{\\LTleft}{0pt}\\setlength{\\LTright}{0pt}",
+        "\\begin{longtable}{" + colspec + "}",
         "  \\rowcolor{filllight}\\bfseries " + hdr + "\\\\",
         "  \\hline",
+        "\\endfirsthead",
+        "  \\rowcolor{filllight}\\bfseries " + hdr + "\\\\",
+        "  \\hline",
+        "\\endhead",
+        "  \\hline",
+        "\\endfoot",
+        "  \\hline",
+        "\\endlastfoot",
         "  " + body + " \\\\",
         "  \\hline",
-        "\\end{tabular}}",
-        "\\par\\vspace{5pt}",
+        "\\end{longtable}",
+        "\\normalsize\\setlength{\\tabcolsep}{6pt}\\renewcommand{\\arraystretch}{1.0}",
+        "\\par\\vspace{9pt}",
     ]))
 
 
@@ -197,14 +232,15 @@ def parse(md: Path) -> str:
             i += 1
             continue
         if s.startswith("### "):
-            out.append(T_sub(s[4:].strip()))
+            out.append(T_sub(s[4:].strip(), needspace_for(lines, i)))
         elif s.startswith("## "):
             heading = s[3:].strip()
             m = re.match(r"^(\d+)\.\s*(.*)$", heading)
+            need = needspace_for(lines, i)
             if m:
-                out.append(T_section(m.group(1), m.group(2)))
+                out.append(T_section(m.group(1), m.group(2), need))
             else:
-                out.append(T_section("", heading))
+                out.append(T_section("", heading, need))
         elif s.startswith("# "):
             out.append(T_title(s[2:].strip()))
         elif s.startswith("|"):
