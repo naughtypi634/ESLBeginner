@@ -1047,15 +1047,17 @@ def pdf_preview(pdf: Path, png: Path) -> bool:
     if not VENV_PY.exists():
         print("  [warn] .venv missing (pypdfium2) — run: python -m venv .venv && .venv\\Scripts\\pip install pypdfium2 pillow")
         return False
+    # Paths go through argv, not string interpolation: a filename containing an
+    # apostrophe (e.g. "05-Can and Can't.pdf") would otherwise end the quoted
+    # literal early and make the snippet a syntax error.
     code = (
-        "import pypdfium2 as p;"
-        f"pdf=p.PdfDocument(r'{pdf}');"
-        "page=pdf[0];"
-        f"page.render(scale=1.5).to_pil().save(r'{png}');"
+        "import sys; import pypdfium2 as p;"
+        "pdf=p.PdfDocument(sys.argv[1]);"
+        "pdf[0].render(scale=1.5).to_pil().save(sys.argv[2]);"
         "print('pages=', len(pdf))"
     )
     try:
-        r = subprocess.run([str(VENV_PY), "-c", code],
+        r = subprocess.run([str(VENV_PY), "-c", code, str(pdf), str(png)],
                            capture_output=True, text=True,
                            encoding="utf-8", errors="replace", timeout=60)
     except subprocess.TimeoutExpired:
