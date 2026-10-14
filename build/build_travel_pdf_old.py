@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-ESLBeginner · 旅游英语实用手册 PDF builder (black & white edition)
-==================================================================
+ESLBeginner · 旅游英语实用手册 PDF builder (black & white edition) — SUPERSEDED
+==============================================================================
+Retired: the handbook now ships as the McKinsey edition, built by
+build/build_travel_mck_pdf.py -> PDF/旅游英语实用手册.pdf. Kept for reference
+only; it still points at the pre-move project root, so it will not run as-is.
+
 Sources:
   MD/旅游英语实用手册.docx
   MD/ESL-travel english phrases.pdf   (words -> 单词, sentences -> 句子)
-Output:  PDF/旅游英语实用手册.pdf
+Output:  PDF/旅游英语实用手册-old.pdf
 
 Pipeline: content (this script) -> markdown w/ raw LaTeX -> pandoc + xelatex
 Design:   build/preamble.tex  (print-ready black & white)
 
 Usage:
-    python build/build_travel_pdf.py            # build PDF
-    python build/build_travel_pdf.py --png      # also render previews
+    python build/build_travel_pdf_old.py            # build PDF
+    python build/build_travel_pdf_old.py --png      # also render previews
 """
 
 import os
@@ -30,7 +34,7 @@ TEMPLATE = ROOT / "build" / "template.tex"
 PREAMBLE = ROOT / "build" / "preamble.tex"
 MIKTEX_BIN = r"C:\Users\ZZC\AppData\Local\Programs\MiKTeX\miktex\bin\x64"
 VENV_PY = ROOT / ".venv" / "Scripts" / "python.exe"
-OUT_NAME = "旅游英语实用手册"
+OUT_NAME = "旅游英语实用手册-old"
 
 
 # ---------------------------------------------------------------- helpers
@@ -184,7 +188,7 @@ SECTIONS = [
                 ("immigration", "入境检查"), ("customs", "海关"),
                 ("passport control", "护照检查"), ("arrival card", "入境卡"),
                 ("visa on arrival", "落地签"), ("e-visa", "电子签证"),
-                ("declare", "申报"), ("queue", "排队"),
+                ("declare", "申报"), ("line", "排队"),
                 ("purpose of visit", "来访目的"), ("sightseeing", "观光"),
                 ("business trip", "商务出差"), ("transit", "过境"),
                 ("connecting flight", "转机航班"),

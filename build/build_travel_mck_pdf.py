@@ -4,7 +4,7 @@
 ESLBeginner · 旅游英语实用手册 (2026 麦肯锡场景版) PDF builder
 =============================================================
 Source:   build/src/旅游英语实用手册-2026麦肯锡场景版.md  (LaTeX-in-markdown)
-Output:   PDF/旅游英语实用手册-2026麦肯锡场景版.pdf
+Output:   PDF/旅游英语实用手册.pdf
 
 Pipeline: markdown w/ raw LaTeX  →  pandoc  →  xelatex  →  PDF
 Design:   build/preamble_mck.tex  (McKinsey blue system)
@@ -27,7 +27,10 @@ PDF_DIR = ROOT / "PDF"
 PREVIEW = ROOT / "build" / "preview" / "mck"
 TEMPLATE = ROOT / "build" / "template.tex"
 PREAMBLE = ROOT / "build" / "preamble_mck.tex"
-OUT_NAME = "旅游英语实用手册-2026麦肯锡场景版"
+OUT_NAME = "旅游英语实用手册"
+# The pandoc input keeps the source's own stem so it never collides with the
+# intermediate another travel builder writes to build/tex/.
+MD_STEM = SRC.stem
 
 MIKTEX_BIN = r"C:\Users\ZZC\AppData\Local\Programs\MiKTeX\miktex\bin\x64"
 
@@ -99,7 +102,7 @@ def main() -> int:
     GEN_DIR.mkdir(exist_ok=True)
     PDF_DIR.mkdir(exist_ok=True)
 
-    md_out = GEN_DIR / f"{OUT_NAME}.md"
+    md_out = GEN_DIR / f"{MD_STEM}.md"
     shutil.copyfile(SRC, md_out)
 
     pdf = PDF_DIR / f"{OUT_NAME}.pdf"
