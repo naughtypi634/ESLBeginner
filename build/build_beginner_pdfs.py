@@ -22,7 +22,6 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "build"))
 
 import build_pdfs as B  # noqa: E402  (reuses toolchain resolution + esc_latex)
-from student_copy import make_student_copy  # noqa: E402
 
 SRC_DIR = ROOT / "MD" / "Beginner"
 GEN_DIR = ROOT / "build" / "tex" / "beginner"
@@ -252,9 +251,9 @@ def build_one(md: Path, render_png: bool) -> bool:
         print(f"[FAIL] {md.name}")
         return False
     print(f"[ok]   {md.name}  ->  {pdf.name}")
-    sp = make_student_copy(pdf)
-    if sp:
-        print(f"[student] {sp.name}")
+    # No student copy: build_pdfs.py's convention emits a second, numberless
+    # duplicate of each file, which for the Beginner series would be a byte
+    # identical extra and would break the 01-12 numbering.
     if render_png:
         PREVIEW.mkdir(exist_ok=True)
         B.pdf_preview(pdf, PREVIEW / (md.stem + ".png"))

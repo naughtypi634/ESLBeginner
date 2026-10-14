@@ -1,119 +1,134 @@
-# Daily Routines 日常作息与现在进行时
+# Daily Routines 日常作息与频率
 
-## 1. 现在进行时形式
+## 1. 一般现在时形式
 
 | 结构 | 例句 | 中文对照 |
 |---|---|---|
-| 肯定：am / is / are + -ing | I **am waiting** for my takeout in the lobby. | 我在楼下等外卖。 |
-| 否定：am not / isn't / aren't + -ing | She **isn't answering** — she's probably in a meeting. | 她没接电话，估计在开会。 |
-| 疑问：Am / Is / Are + 主语 + -ing | **Are** you **working** from home today? | 你今天在家办公吗？ |
-| 简答 | Yes, I **am**. / No, I'm **not**. | 是的。/ 不是。 |
-| 特殊疑问：What are you doing? | **What are you doing** after work tonight? | 你今晚下班后干嘛？ |
+| 肯定：I / You / We / They + 动词原形 | I **get** up at 7:20 and I'm out the door by 8. | 我7点20起床，8点出门。 |
+| 第三人称单数加 -s / -es | My roommate **gets** up at 5:30 to hit the gym. | 我室友5点半起床去健身。 |
+| 否定：don't / doesn't + 动词原形 | I **don't** drink coffee after 3 p.m. | 我下午三点后不喝咖啡。 |
+| 疑问：Do / Does + 主语 + 动词原形 | **Do** you **cook** on weekdays, or do you order in? | 你平时工作日做饭还是点外卖？ |
+| 简答 | Yes, I **do**. / No, she **doesn't**. | 是。/ 她不。 |
 
-### -ing 拼写规则
+### 第三人称单数变化
 
-| 规则 | 动词 → -ing | 例子 |
+| 规则 | 动词 → 第三人称 | 例句 |
 |---|---|---|
-| 一般直接加 -ing | work → working | I'm **working** overtime this week. |
-| 以 e 结尾去 e 加 -ing | write → writing | He's **writing** the weekly report. |
-| 重读闭音节双写末尾字母 | sit → sitting | We're **sitting** in traffic on the ring road. |
-| 以 ie 结尾变 y 加 -ing | lie → lying | My phone is **lying** on the sofa somewhere. |
+| 一般加 -s | work → works | My dad **works** six days a week and rests on Monday. |
+| 以 s / x / ch / sh / o 结尾加 -es | watch → watches | My mom **watches** the news while she cooks. |
+| 辅音字母 + y 结尾，变 y 为 i 加 -es | study → studies | My sister **studies** for her CPA exam every night. |
+| 特殊变化 | have → has · go → goes · do → does | My brother **has** two kids and no free time. |
 
-## 2. 现在进行时的四种用法
+## 2. 频率副词
 
-| 用法 | 例句 | 中文对照 |
+| 频率 | 例句 | 中文对照 |
 |---|---|---|
-| 眼前正在发生 | I **can't talk** — **I'm carrying** two bags of groceries. | 说不了话，我两手拎着菜。 |
-| 这几天 / 这阵子 | **I'm staying** at my parents' place while my apartment is being painted. | 我家在刷墙，这几天住我爸妈那儿。 |
-| 变化趋势 | Takeout **is getting** more expensive every year. | 外卖一年比一年贵。 |
-| 已安排的将来 | **I'm meeting** the client at 10 tomorrow morning. | 我明天上午十点见客户。 |
+| **always** 100% | I **always** check the weather before I leave the house. | 我出门前总会先看天气。 |
+| **usually** 80–90% | I **usually** grab a baozi at the subway exit. | 我一般在地铁口买个包子。 |
+| **often** 60–70% | I **often** stay late on Wednesdays — that's team sync day. | 周三我经常加班，那天团队开会。 |
+| **sometimes** 40–50% | I **sometimes** nap in the meeting room after lunch. | 我午饭后有时候在会议室眯一会儿。 |
+| **rarely** 10–20% | I **rarely** cook — my kitchen is basically storage. | 我很少做饭，厨房基本当储物间用。 |
+| **never** 0% | I **never** answer work calls after 10 p.m. | 晚上十点后我从不接工作电话。 |
 
-## 3. 日常作息动词短语
+### 频率副词的位置
+
+| 位置 | 规则 | 例句 |
+|---|---|---|
+| be 动词之后 | 主语 + be + 副词 | He **is always** the last one to leave the office. |
+| 实义动词之前 | 主语 + 副词 + 动词 | She **usually takes** the 8:15 bus. |
+| 助动词之后 | 主语 + 助动词 + 副词 + 动词 | I **don't often** eat breakfast on weekdays. |
+
+## 3. 频率短语
+
+| English | 中文 | English | 中文 |
+|---|---|---|---|
+| once a day | 一天一次 | twice a week | 一周两次 |
+| three times a month | 一月三次 | every other day | 隔天一次 |
+| every weekend | 每个周末 | on weekdays | 工作日 |
+| on weekends | 周末 | once in a while | 偶尔 |
+| hardly ever | 几乎从不 | most of the time | 大多数时候 |
+
+| 例句 | 中文对照 |
+|---|---|
+| I go to the gym **three times a week**. | 我一周去三次健身房。 |
+| I **hardly ever** use cash now — even the market takes QR codes. | 我现在几乎不用现金，连菜市场都扫码。 |
+| My parents call me **once in a while**, mostly when something breaks. | 我爸妈偶尔打电话，一般是家里东西坏了。 |
+
+## 4. How often 句型
+
+| 提问 | 回答 | 中文对照 |
+|---|---|---|
+| **How often do you** order takeout? | About four times a week. | 你多久点一次外卖？——一周大概四次。 |
+| **How often does** your family eat together? | Maybe once a month. | 你们家多久一起吃饭？——大概一个月一次。 |
+| **How often do you** go back to your hometown? | Twice a year. | 你多久回一次老家？——一年两次。 |
+| **How often do you** stay up past midnight? | Only when there's a deadline. | 你多久熬一次夜？——只有赶截止日期的时候。 |
+
+## 5. 日常作息动词短语
 
 | English | 中文 | English | 中文 |
 |---|---|---|---|
 | waking up | 起床 | hitting snooze | 按掉闹钟再睡 |
-| brushing my teeth | 刷牙 | washing my face | 洗脸 |
-| getting dressed | 穿衣服 | making coffee | 冲咖啡 |
-| checking my phone | 看手机 | scrolling through WeChat | 刷微信 |
+| brushing my teeth | 刷牙 | getting dressed | 穿衣服 |
+| making coffee | 冲咖啡 | checking my phone | 看手机 |
 | clocking in | 打卡上班 | ordering takeout | 点外卖 |
 | squeezing onto the subway | 挤地铁 | picking up a package | 取快递 |
 | working overtime | 加班 | taking a nap | 午睡 |
 | walking the dog | 遛狗 | doing the dishes | 洗碗 |
-| taking out the trash | 倒垃圾 | charging my phone | 给手机充电 |
-| setting an alarm | 定闹钟 | going to bed | 睡觉 |
+| taking out the trash | 倒垃圾 | going to bed | 睡觉 |
 
 | 例句 | 中文对照 |
 |---|---|
-| **I'm clocking in** at 9:05 today — the elevator was packed. | 我今天9点05才打上卡，电梯太挤了。 |
-| My roommate **is ordering** milk tea again, and it's the third time this week. | 我室友又点奶茶了，这周第三次。 |
-| **I'm taking out the trash** on my way down — the trash can is right by the gate. | 我下楼顺手把垃圾倒了，桶就在门口。 |
+| I **clock in** at 9:05 on the dot, and the elevator is always packed. | 我9点05准时打卡，电梯永远那么挤。 |
+| My roommate **orders** milk tea three times a week. | 我室友一周点三次奶茶。 |
+| I **take out the trash** on my way down every morning. | 我每天早上下楼顺手倒垃圾。 |
 
-## 4. 业余活动
-
-| English | 中文 | English | 中文 |
-|---|---|---|---|
-| playing video games | 打游戏 | watching short videos | 刷短视频 |
-| going to the gym | 去健身房 | hiking | 爬山 |
-| riding a shared bike | 骑共享单车 | playing badminton | 打羽毛球 |
-| filming vlogs | 拍vlog | cooking | 做饭 |
-| drawing | 画画 | singing karaoke | 唱K |
-| playing board games | 玩桌游 | escape rooms | 密室逃脱 |
-| camping | 露营 | city walks | 城市漫步 |
-
-## 5. Discussion 讨论
+## 6. Discussion 讨论
 
 | Question | 中文对照 |
 |---|---|
-| What are you doing right now, besides talking to me? | 除了聊天，你现在还在干嘛？ |
-| What are you working on this week? | 你这周在忙什么？ |
-| What are you reading these days? | 你最近在看什么书？ |
-| What show are you watching right now? | 你最近在追什么剧？ |
-| Are you learning anything new this year? | 你今年在学什么新东西吗？ |
-| What are you doing this weekend? | 你周末要干嘛？ |
-| What do you think your best friend is doing right now? | 你觉得你最好的朋友现在在干嘛？ |
-| Is anything changing in your life these days? | 你最近生活有什么变化吗？ |
-| What are you saving up for? | 你在攒钱买什么？ |
-| Who are you hanging out with the most these days? | 你最近和谁玩得最多？ |
+| What time do you usually get up on weekdays? | 工作日你一般几点起床？ |
+| What's the first thing you do after you wake up? | 你醒来第一件事做什么？ |
+| How do you usually get to work? | 你一般怎么去上班？ |
+| What do you always do before bed? | 你睡前一定会做什么？ |
+| How often do you eat out? | 你多久下馆子一次？ |
+| How often do you visit your parents? | 你多久看一次父母？ |
+| What's something you do every single day without fail? | 什么事你每天都雷打不动要做？ |
+| What's your favorite weekend routine? | 你周末最喜欢的固定安排是什么？ |
 
-## 6. Practice 练习
+## 7. Practice 练习
 
-### 写出 -ing 形式
-
-| 序号 | 动词 | -ing 形式 |
-|---|---|---|
-| 1 | run |  |
-| 2 | take |  |
-| 3 | lie |  |
-| 4 | swim |  |
-| 5 | study |  |
-| 6 | write |  |
-
-### 填空：用现在进行时
+### 填空：第三人称单数
 
 | 序号 | 句子 |
 |---|---|
-| 1 | ______ you ______ (wait) for the elevator? It's faster to take the stairs. |
-| 2 | My mom ______ (send) me photos of food she made, and I'm at work hungry. |
-| 3 | I ______ (not / sleep) well this week — too much overtime. |
-| 4 | The delivery driver ______ (call) me, but I can't hear him over the subway. |
-| 5 | We ______ (look) for a new apartment — the landlord raised our rent again. |
+| 1 | My sister ______ (study) for her CPA exam every night after work. |
+| 2 | My dad ______ (watch) the news while my mom cooks. |
+| 3 | My roommate ______ (go) to the gym at 5:30 in the morning. |
+| 4 | My brother ______ (not / drink) — he's the designated driver every time. |
 
-### 选择：一般现在时还是现在进行时
+### 填空：频率副词的位置
 
 | 序号 | 句子 |
 |---|---|
-| 1 | I usually ______ (take) the subway, but today I ______ (ride) a shared bike. |
-| 2 | She ______ (work) from home every Friday. |
-| 3 | Be quiet — the baby ______ (sleep). |
-| 4 | Takeout ______ (get) more expensive every year. |
-| 5 | My roommate ______ (never / cook) — he orders in every night. |
+| 1 | I ______ (usually / take) the 8:15 bus. |
+| 2 | He ______ (be / always) the last one to leave the office. |
+| 3 | I ______ (not / often / eat) breakfast on weekdays. |
+| 4 | We ______ (sometimes / go) hiking on Sundays. |
+
+### 改错
+
+| 序号 | 句子 |
+|---|---|
+| 1 | My roommate get up at 5:30. |
+| 2 | He don't like hotpot. |
+| 3 | Do your sister live with you? |
+| 4 | I go always to the gym on Mondays. |
 
 ### 造句
 
 | 提示 | 例句 | 中文对照 |
 |---|---|---|
-| I / work on / report / this week | I'm working on the quarterly report this week. | 我这周在写季度报告。 |
-| my roommate / order / milk tea / again | My roommate is ordering milk tea again. | 我室友又在点奶茶。 |
-| we / look for / new apartment | We're looking for a new apartment near the subway. | 我们正在找地铁附近的新房子。 |
-| I / meet / client / tomorrow morning | I'm meeting the client tomorrow morning at 10. | 我明天上午十点见客户。 |
+| I / rarely / cook | I rarely cook, so my kitchen is basically storage. | 我很少做饭，厨房基本是储物间。 |
+| my mom / call / every Sunday | My mom calls me every Sunday at 8 p.m. sharp. | 我妈每周日晚上八点准时给我打电话。 |
+| how often / order takeout | How often do you order takeout? — Four times a week. | 你多久点一次外卖？——一周四次。 |
+| I / never / answer work calls / after 10 | I never answer work calls after 10 p.m. | 晚上十点后我从不接工作电话。 |
