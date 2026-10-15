@@ -25,13 +25,22 @@
 \usepackage[normalem]{ulem}           % line-breakable \uline for workbook 07
 
 % ---------- fonts ----------
+% Faces are bundled under build/fonts/ and referenced by file, not by installed
+% family name. Asking for "Noto Sans" / "Montserrat" by name makes the build
+% depend on whatever the host happens to have: the macOS copies are variable
+% fonts whose wght axis DEFAULTS TO 100, so XeTeX silently draws every heading
+% Thin, while a machine with static cuts draws them bold — the same source
+% producing different documents. Bundling pins the exact faces everywhere.
+% \eslfontdir is provided so a builder can pass an absolute path; font paths
+% resolve against the engine's working directory, which is the repo root.
 \usepackage{fontspec}
 \usepackage{xeCJK}
-\setmainfont{Noto Sans}[Ligatures=TeX, AutoFakeBold=2.5, AutoFakeSlant=0.25]
-\setCJKmainfont{Noto Sans SC}[AutoFakeBold=2.5]
-\newfontfamily\bodyfont{Noto Sans}[Ligatures=TeX]
-\newfontfamily\dispfont{Montserrat}[Ligatures=TeX]
-\newfontfamily\dispspaced{Montserrat}[LetterSpace=8]
+\providecommand{\eslfontdir}{build/fonts/}
+\setmainfont{NotoSans-Regular.ttf}[Path=\eslfontdir, Ligatures=TeX, AutoFakeBold=2.5, AutoFakeSlant=0.25]
+\setCJKmainfont{NotoSansSC-Regular.ttf}[Path=\eslfontdir, AutoFakeBold=2.5]
+\newfontfamily\bodyfont{NotoSans-Regular.ttf}[Path=\eslfontdir, Ligatures=TeX]
+\newfontfamily\dispfont{Montserrat-Regular.ttf}[Path=\eslfontdir, Ligatures=TeX, BoldFont=Montserrat-ExtraBold.ttf]
+\newfontfamily\dispspaced{Montserrat-Regular.ttf}[Path=\eslfontdir, LetterSpace=8, BoldFont=Montserrat-ExtraBold.ttf]
 
 % Symbol glyphs (arrows, ≥) are not covered by every Latin cut of Noto Sans —
 % e.g. the macOS NotoSans-Regular.ttf has no U+2192, so XeTeX silently draws an

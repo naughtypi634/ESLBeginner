@@ -47,6 +47,7 @@ SLACK = 0.95
 # size — reported at the end of a run so the wording can be shortened.
 too_wide: list[tuple[str, float, list[str], int, str]] = []
 CURRENT_FILE = ""
+FIRST_TABLE_DONE = False
 
 
 # ---------------------------------------------------------------- text
@@ -101,7 +102,23 @@ def T_title(text: str) -> str:
 # a broken section. Tables now break across pages themselves (longtable), so
 # the heading only has to reserve room for itself plus the table's head and a
 # couple of rows — not for the whole table, which would leave a large gap.
-HEAD_KEEP_PT = 118.0
+#
+# This must be \Needspace, not the lowercase \needspace: the lowercase form
+# reserves room by pushing stretchable glue (\vskip\z@\@plus\dimen@) into the
+# vertical list, and glue inserted right after \end{longtable} derails
+# longtable's page breaking. The result is a phantom \endfoot rule at the foot
+# of the page and a phantom \endhead row at the top of the next one — an empty
+# header with no data under it, sitting above the following section heading.
+# \Needspace measures instead and breaks with \break, leaving no glue behind.
+#
+# The threshold is a hard "points still free" test, which is not the same
+# measurement the lowercase form made (its \dimen@ was a stretch amount TeX
+# traded off against page badness), so the constant is not directly comparable
+# to the 118pt it replaced. 113pt reproduces the reviewed layouts most closely;
+# it is close to the edge, though — 116pt pushes 23-Phone Calls and Messages to
+# three pages, and 110pt reflows 04-Describing Appearance. Re-check page counts
+# after any content edit (`check_orphan_headings.py` and a page count).
+HEAD_KEEP_PT = 113.0
 
 
 def needspace_for(lines: list[str], i: int) -> float:
@@ -115,12 +132,12 @@ def needspace_for(lines: list[str], i: int) -> float:
 
 
 def T_section(num: str, text: str, need: float = 0.0) -> str:
-    keep = f"\\needspace{{{need:.0f}pt}}\n" if need else ""
+    keep = f"\\Needspace{{{need:.0f}pt}}\n" if need else ""
     return raw(f"{keep}\\eslbsec{{{num}}}{{{l(text)}}}")
 
 
 def T_sub(text: str, need: float = 0.0) -> str:
-    keep = f"\\needspace{{{need:.0f}pt}}\n" if need else ""
+    keep = f"\\Needspace{{{need:.0f}pt}}\n" if need else ""
     return raw(f"{keep}\\eslbsub{{{l(text)}}}")
 
 
@@ -186,7 +203,17 @@ def T_table(header: list[str], rows: list[list[str]]) -> str:
     # repeated. The size/arraystretch settings are issued outside a group on
     # purpose — a longtable re-executes its stored head on later pages, where a
     # group-local font size would no longer apply.
+    #
+    # The body ends at the last row's \\ with no explicit \hline: \endlastfoot
+    # already draws the closing rule, and emitting a second one stacked a 0.4pt
+    # double rule under every table in the series. The body carries its own row
+    # terminators, so it is emitted as-is rather than with a \\ appended.
+    # Every lesson is two pages, so a table can only ever spill from page one
+    # onto page two; \eslspareline gives whichever page this table is on one
+    # spare line, which is enough for a row that would otherwise have been left
+    # alone under a repeated header overleaf. See preamble_beginner.tex.
     return raw("\n".join([
+        "\\eslspareline",
         "\\par\\vspace{7pt}",
         size + "\\setlength{\\tabcolsep}{0pt}"
         "\\renewcommand{\\arraystretch}{" + stretch + "}"
@@ -203,7 +230,6 @@ def T_table(header: list[str], rows: list[list[str]]) -> str:
         "  \\hline",
         "\\endlastfoot",
         "  " + body + " \\\\",
-        "  \\hline",
         "\\end{longtable}",
         "\\normalsize\\setlength{\\tabcolsep}{6pt}\\renewcommand{\\arraystretch}{1.0}",
         "\\par\\vspace{9pt}",
@@ -276,8 +302,9 @@ def pandoc_pdf(md: Path, pdf: Path) -> bool:
 
 
 def build_one(md: Path, render_png: bool) -> bool:
-    global CURRENT_FILE
+    global CURRENT_FILE, FIRST_TABLE_DONE
     CURRENT_FILE = md.name
+    FIRST_TABLE_DONE = False
     GEN_DIR.mkdir(parents=True, exist_ok=True)
     PDF_DIR.mkdir(parents=True, exist_ok=True)
     gen = GEN_DIR / md.name

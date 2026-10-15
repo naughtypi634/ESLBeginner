@@ -28,6 +28,27 @@
 % whole — an unbreakable tabular strands its heading at the foot of the page.
 \usepackage{longtable}
 
+% ---------- one spare line on the page a table ends on ----------
+% A table that reaches the foot of page one spills its remainder onto page two.
+% When exactly one row spills, that row sits alone under a repeated header and
+% reads as a stray line. The break point inside a longtable cannot be steered
+% from outside it, so give the page one spare line instead: a table that was a
+% row short now fits, and nothing else moves.
+%
+% \enlargethispage ADDS to the page goal, so issuing it before every table
+% compounds — on a table-dense page the goal grew by half a page and content
+% ran into the bottom margin. This does the same job but SETS the goal, so
+% repeated calls are idempotent whatever the page holds. It has to be issued
+% on the page being lengthened, which is why the builder calls it before each
+% table rather than once at the top.
+\makeatletter
+\newcommand{\eslspareline}{%
+  \global\@colht\textheight
+  \global\advance\@colht by 2\baselineskip
+  \global\@colroom\@colht
+  \pagegoal\@colroom}
+\makeatother
+
 % ---------- document title ----------
 \newcommand{\eslbtitle}[1]{%
   \par\vspace{0pt}%
