@@ -16,14 +16,17 @@ means practice content crept back in.
 Usage:
     python -I build/check_consistency.py                 # every lesson
     python -I build/check_consistency.py 13 14           # filename substrings
+    python -I build/check_consistency.py --series business
 """
 
 import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from series import pick_series  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "MD" / "Beginner"
 
 SEP = re.compile(r"^:?-{2,}:?$")
 CJK = re.compile(r"[㐀-䶿一-鿿]")
@@ -126,8 +129,8 @@ def check(path: Path) -> tuple[list[str], list[str]]:
 
 
 def main() -> None:
-    filters = sys.argv[1:]
-    files = sorted(SRC.glob("*.md"))
+    cfg, filters = pick_series(sys.argv[1:])
+    files = sorted(cfg["src"].glob("*.md"))
     if filters:
         files = [f for f in files if any(t in f.name for t in filters)]
 

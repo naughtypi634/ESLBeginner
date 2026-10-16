@@ -12,6 +12,7 @@ A page is flagged when its LAST text line is one of the lesson's `## ` or
 
 Usage:
     python -I build/check_orphan_headings.py
+    python -I build/check_orphan_headings.py --series business
 """
 
 import re
@@ -20,9 +21,10 @@ from pathlib import Path
 
 import pymupdf
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from series import pick_series  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "MD" / "Beginner"
-PDF = ROOT / "PDF" / "Beginner"
 
 H = re.compile(r"^#{2,3}\s+(.*)$")
 
@@ -42,7 +44,8 @@ def headings(md: Path) -> set[str]:
 
 
 def main() -> None:
-    filters = sys.argv[1:]
+    cfg, filters = pick_series(sys.argv[1:])
+    SRC, PDF = cfg["src"], cfg["pdf"]
     files = sorted(SRC.glob("*.md"))
     if filters:
         files = [f for f in files if any(t in f.name for t in filters)]

@@ -15,6 +15,7 @@ Rows are removed in this order, cheapest content first:
 Usage:
     python -I build/fit_pages.py            # every lesson that renders long
     python -I build/fit_pages.py 20 28      # filename substrings
+    python -I build/fit_pages.py --series business
 """
 
 import re
@@ -24,10 +25,15 @@ from pathlib import Path
 
 import pymupdf
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from series import pick_series  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "MD" / "Beginner"
-PDF = ROOT / "PDF" / "Beginner"
 PY = ROOT / ".venv" / "Scripts" / "python.exe"
+
+CFG = None
+SRC = None
+PDF = None
 
 SEP = re.compile(r"^:?-{2,}:?$")
 H2 = re.compile(r"^##\s+\d+\.\s*(.*)$")
@@ -94,7 +100,8 @@ def drop(lines: list[str]) -> bool:
 
 
 def pages(stem: str) -> int:
-    subprocess.run([str(PY), "build/build_beginner_pdfs.py", stem],
+    builder = CFG["builder"].relative_to(ROOT).as_posix()
+    subprocess.run([str(PY), builder, stem],
                    cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace")
     pdf = PDF / f"{stem}.pdf"
     if not pdf.exists():
@@ -103,7 +110,9 @@ def pages(stem: str) -> int:
 
 
 def main() -> None:
-    filters = sys.argv[1:]
+    global CFG, SRC, PDF
+    CFG, filters = pick_series(sys.argv[1:])
+    SRC, PDF = CFG["src"], CFG["pdf"]
     files = sorted(SRC.glob("*.md"))
     if filters:
         files = [f for f in files if any(t in f.name for t in filters)]
