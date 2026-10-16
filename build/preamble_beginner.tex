@@ -28,12 +28,22 @@
 % whole — an unbreakable tabular strands its heading at the foot of the page.
 \usepackage{longtable}
 
-% ---------- one spare line on the page a table ends on ----------
+% ---------- two spare lines on the page a table ends on ----------
 % A table that reaches the foot of page one spills its remainder onto page two.
-% When exactly one row spills, that row sits alone under a repeated header and
-% reads as a stray line. The break point inside a longtable cannot be steered
-% from outside it, so give the page one spare line instead: a table that was a
-% row short now fits, and nothing else moves.
+% When exactly one row spills, that row reads as a stray line: longtable ships
+% a table's final page through its end-of-table branch, which does not repeat
+% the header, so the row has neither header nor neighbour (05, 06, 28). The
+% break point inside a longtable cannot be steered from outside it, so give the
+% page two spare lines instead: a table that was a row short now fits, and
+% nothing else moves.
+%
+% \vsize is the register that moves the break. TeX's page builder fills to
+% \pagegoal, which it initialises from \vsize, and \@colht/\@colroom are
+% LaTeX's account of the same thing — but longtable only copies \@colroom back
+% into \vsize itself once it has already shipped a page. A table starting near
+% the foot of page one therefore measured against the bare \textheight and
+% spilled its last row however \@colht was set; setting \vsize directly is what
+% changes where it breaks.
 %
 % \enlargethispage ADDS to the page goal, so issuing it before every table
 % compounds — on a table-dense page the goal grew by half a page and content
@@ -46,6 +56,7 @@
   \global\@colht\textheight
   \global\advance\@colht by 2\baselineskip
   \global\@colroom\@colht
+  \global\vsize\@colht
   \pagegoal\@colroom}
 \makeatother
 

@@ -209,9 +209,9 @@ def T_table(header: list[str], rows: list[list[str]]) -> str:
     # double rule under every table in the series. The body carries its own row
     # terminators, so it is emitted as-is rather than with a \\ appended.
     # Every lesson is two pages, so a table can only ever spill from page one
-    # onto page two; \eslspareline gives whichever page this table is on one
-    # spare line, which is enough for a row that would otherwise have been left
-    # alone under a repeated header overleaf. See preamble_beginner.tex.
+    # onto page two; \eslspareline gives whichever page this table is on two
+    # spare lines, which is enough for a row that would otherwise have been left
+    # alone overleaf, with no header above it. See preamble_beginner.tex.
     return raw("\n".join([
         "\\eslspareline",
         "\\par\\vspace{7pt}",
