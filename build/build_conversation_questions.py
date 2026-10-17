@@ -107,13 +107,14 @@ PREAMBLE_BODY = r"""\usepackage{longtable}
 }
 
 % ---------- topic title ----------
-\newcommand{\cqtopic}[4]{%
+% No `Category · Topic NN` label above the title: one card is one topic, so the
+% heading already identifies it, and that line was document meta rather than
+% teaching content.
+\newcommand{\cqtopic}[2]{%
   \par\vspace{2pt}%
-  {\dispfont\bfseries\fontsize{9pt}{11pt}\selectfont\color{muted} #1}\par
-  \vspace{3pt}%
-  {\bfseries\fontsize{19pt}{23pt}\selectfont #3}\par
+  {\bfseries\fontsize{19pt}{23pt}\selectfont #1}\par
   \vspace{2pt}%
-  {\fontsize{12.5pt}{15pt}\selectfont\color{muted} #4}\par
+  {\fontsize{12.5pt}{15pt}\selectfont\color{muted} #2}\par
   \vspace{7pt}%
   \noindent{\color{ink}\hrule height 1.8pt}\par
   \vspace{10pt}%
@@ -153,9 +154,8 @@ def emit_topic(category: dict, topic: dict) -> str:
     items = "\n".join(
         f"\\cqitem{{{q['n']}}}{{{l(q['en'])}}}{{{l(q['cn'])}}}" for q in topic["questions"]
     )
-    label = f"{category['en']} · Topic {topic['num']}"
     return (
-        raw(f"\\cqtopic{{{l(label)}}}{{{l(topic['num'])}}}{{{l(topic['en'])}}}{{{l(topic['cn'])}}}")
+        raw(f"\\cqtopic{{{l(topic['en'])}}}{{{l(topic['cn'])}}}")
         + raw(items)
     )
 
